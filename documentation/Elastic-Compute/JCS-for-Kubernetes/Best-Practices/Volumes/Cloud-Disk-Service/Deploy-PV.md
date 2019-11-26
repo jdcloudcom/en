@@ -21,7 +21,7 @@ spec:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
   jdcloudElasticBlockStore:
-    volumeID: vol-ogcbkdjg7x      #Please replace the Cloud Disk Service ID with the available Cloud Disk Service ID in the same region of JCS for Kubernetes
+    volumeID: vol-ogcbkdjg7x      #Please replace the Cloud Disk Service ID with the available Cloud Disk Service ID in the same Availability Zone of JCS for Kubernetes
     fsType: xfs
 ```     
 
@@ -29,7 +29,7 @@ spec:
 
 1. To use JD Cloud cloud disk as persistent storage in JD Cloud JCS for Kubernetes Service, you should specify the plug-in jdcloudElasticBlockStore when the PersistentVolume is defined;  
 
-2. volumeID: Specify a cloud disk ID that provides persistent storage for JCS for Kubernetes Services under the same geographical area;  
+2. volumeID: Appoint Cloud Disk Service ID providing persistent volume for JCS for Kubernetes under the same Availability Zone;  
 
 3. fsType: Specify file system type; currently only ext4 and xfs are supplied;  
 

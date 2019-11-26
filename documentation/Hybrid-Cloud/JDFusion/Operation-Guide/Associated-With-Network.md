@@ -18,7 +18,7 @@ On this page, enter the Security Group Name, select an available domain click **
 
 Figure: Security Group Details
 
-![Associated-With-Network-3](../../../../image/JDStack-Agility/Associated-With-Network-3.png)
+![Associated-With-Network-3](../../../../image/JDFusion/Associated-With-Network-3.png)
 
 On this page, you can click **Inbound Rules** and **Outbound Rules** in the operation item to achieve the management functions for Security Group.
 

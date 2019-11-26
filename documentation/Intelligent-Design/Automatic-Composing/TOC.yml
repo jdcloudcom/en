@@ -1,0 +1,27 @@
+name: Automatic Composing
+href:
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/product-overview.md
+- name: Pricing
+  items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+- name: Operation Guide
+  items:
+    - name: How to Enable
+      href: Operation-Guide/start.md
+- name: Development Guide
+  items:
+    - name: Get AK/SK
+      href: SDK-Rerference/Authentication-Keys.md
+    - name: SDK Download
+      href: SDK-Rerference/Environment-Preparation.md
+- name: API Document
+  items:
+    - name: API Overview
+      href: Api-Document/Image-Composing.md
+    - name: Error Code
+      href: SDK-Rerference/Error-Codes.md

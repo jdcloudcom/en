@@ -1,5 +1,7 @@
 # Public connects JCS for Redis instance
 
+## Forward connected instances (Window) via Virtual Machines
+
 If you need a local computer to connect it to JCS for Redis, you can use SSH's port forwarding function. Here is an example of Xshell to explain how to set it up.
 
 Prerequisite: A JD Virtual Machine with Linux system, associate EIP which is in the same virtual private cloud as JCS for Redis.
@@ -46,3 +48,84 @@ Prerequisite: A JD Virtual Machine with Linux system, associate EIP which is in 
 
 ![5](https://github.com/jdcloudcom/en/blob/translationUse/image/Redis/5.png)
 
+## Forward connected instances (Linux) via Virtual Machines
+
+1. Log in Virtual Machines (with public network) under the same VPC, install iptables and set powerboot
+
+```
+yum install iptables-services
+```
+
+```
+systemctl enable iptables.service
+```
+
+2. Enable forwarding function:
+
+     #Edit the configuration file
+     
+```
+vi /etc/sysctl.conf
+```
+
+    #Add or modify contents below
+    
+```
+net.ipv4.ip_forward = 1
+```
+
+    #The modification will take into effect after being saved
+    
+```
+sysctl –p
+```
+
+![5](../../../../image/Redis/11.png)
+
+![5](../../../../image/Redis/12.png)
+
+
+3. Add iptables forwarding rules
+
+```
+iptables -t nat -A PREROUTING -p tcp --dport [Port Number to Be Forwarded] -j DNAT --to-destination [Server IP to Be Forwarded] 
+``` 
+   
+``` 
+iptables -t nat -A POSTROUTING -p tcp -d [Server IP to Be Forwarded] --dport [Port Number to Be Forwarded] -j SNAT --to-source [Native IP]
+```
+    
+For example, if private ip of Virtual Machines is 10.0.7.186 and redis domain is redis-xxxxxxxx.cn-north-1.redis.jdcloud.com, ip can be contained by ping redis domain. If such ip is 10.0.5.252, the forwarding rules to be added are:
+    
+```
+iptables -t nat -A PREROUTING -p tcp --dport 6379 -j DNAT --to-destination 10.0.5.252:6379
+```
+    
+```
+iptables -t nat -A POSTROUTING -p tcp -d 10.0.5.252 --dport 6379 -j SNAT --to-source 10.0.7.186
+```
+    
+![5](../../../../image/Redis/13.png)
+
+![5](../../../../image/Redis/14.png)
+
+
+4. Save and restart iptables service
+
+```
+service iptables save
+```
+
+```
+service iptables restart
+```
+
+5. Connection Test (Linux)
+
+![5](../../../../image/Redis/15.png)
+
+## Note
+
+1. Users shall preferably set port forwarded by iptables nat as the port 6379;
+
+2. Associate host to public ip of Virtual Machines at the customer side.

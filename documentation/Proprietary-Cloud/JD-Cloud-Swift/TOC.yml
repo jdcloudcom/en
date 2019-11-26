@@ -1,0 +1,91 @@
+  name: JD Cloud Swift
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+        status: 0
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Getting Started
+    items:
+      - name: Overview
+        href: Getting-Started/Getting-Started-Overview.md
+      - name: User System
+        href: Getting-Started/User-System.md
+      - name: Compute resource
+        items:
+          - name: Overview
+            href: Getting-Started/Computing-Resources/Computing-Resources-Overview.md
+          - name: Virtual Machines
+            href: Getting-Started/Computing-Resources/Instances.md
+          - name: Image
+            href: Getting-Started/Computing-Resources/Images.md
+      - name: Storage resource
+        items:
+          - name: Overview
+            href: Getting-Started/Storage-Resources/Storage-Resources-Overview.md
+          - name: Cloud Disk Service
+            href: Getting-Started/Storage-Resources/Disks.md
+          - name: Cloud Disk Snapshot
+            href: Getting-Started/Storage-Resources/Snapshots.md
+          - name: Object Storage Service
+            href: Getting-Started/Storage-Resources/Object-Storage.md
+      - name: Networking resource
+        items:
+          - name: Overview
+            href: Getting-Started/Network-Resources/Network-Resources-Overview.md
+          - name: Network
+            href: Getting-Started/Network-Resources/Networks.md
+          - name: Routing
+            href: Getting-Started/Network-Resources/Routers.md
+          - name: Elastic Network Interface
+            href: Getting-Started/Network-Resources/Ports.md
+          - name: Security Group
+            href: Getting-Started/Network-Resources/Security-Groups.md
+          - name: Floating IP
+            href: Getting-Started/Network-Resources/Floating-IP.md
+          - name: Load Balancer
+            href: Getting-Started/Network-Resources/Load-Balancers.md
+  - name: Operation Guide
+    items:
+      - name: Account Management
+        href: Operation-Guide/Account-Management.md   
+      - name: Administrator Guide
+        items:
+          - name: Create User
+            href: Operation-Guide/Administrator-Guide/Create-Users.md
+      - name: Tenant Guide
+        items:
+          - name: Create VM Instance
+            href: Operation-Guide/User-Guide/Create-Instances.md
+          - name: Use Object Storage Service
+            href: Operation-Guide/User-Guide/Use-Object-Storage.md
+          - name: Create Load Balancer
+            href: Operation-Guide/User-Guide/Create-Load-Balancers.md
+      - name: Operation and Maintenance Guide
+        items:
+          - name: Operation and Maintenance Monitoring
+            href: Operation-Guide/Operational-Maintenance-Guide/Operation-Maintenance-And-Monitoring.md
+          - name: System Setting
+            href: Operation-Guide/Operational-Maintenance-Guide/System-Settings.md
+  - name: FAQ
+    items:
+      - name: FAQ
+        href: FAQ/FAQ.md
+  - name: Related Resources
+    items:
+      - name: Document History Records
+        href: Related-Resources/Document-History.md
+

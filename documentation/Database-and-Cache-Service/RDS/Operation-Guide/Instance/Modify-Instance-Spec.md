@@ -4,7 +4,6 @@ The RDS instance can dynamically adjust instance CPU, memory and disk size. Duri
 
 - MySQL、Percona、MariaDB
   - Expansion and shrinkage are supported at the same time
-  - Only primary and backup instances are supported and real-only instances are not supported for now
   
 - SQL Server
   - Expansion and shrinkage are supported at the same time

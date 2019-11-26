@@ -38,7 +38,12 @@ Log in the bank enterprise online banking in advance, download the relevant plug
 | Bank of Beijing | Enable electronic payment function |
 | China Industrial Bank | Apply for and enable online banking at business outlets of China Industrial Bank |
 | Bank of Hangzhou | Enable electronic payment function |
+| China Guangfa Bank | Requiring USB Key and subscribing electronic payment function |
+| Hua Xia Bank | Requiring subscription of electronic payment function |
+| Bank of Shanghai | Requiring USB Key and subscribing electronic payment function |
+| China Citic Bank | Requiring USB Key |
 
 ## **Payment Process**
 
-The Enterprise Online Banking payment process consists of two major steps: The first step is the payment application, and the second step is the review approval. See each chapter for the specific operation steps of each bank.
+The Enterprise Online Banking payment process consists of two major steps: The first step is the payment application, and the second step is the review approval. 
+See each chapter for the specific operation steps of each bank.

@@ -9,9 +9,10 @@ You can download the backup data of the JCS for MySQL instance service from the 
 2. Select the instance where the backup data download is required, click the name of the target instance, and enter the instance detailed page.
 3. Select the tab of ***Backup Management***, select the backup data to be downloaded, and click ***Download*** in the column of ***Operation***.
 4. Parameters of Backup Download Pop-up Box
+    * Validity period of address: Intranet address and Internet address support customized validity period. If the validity period setting is due, corresponding addresses will become invalid and download is inaccessible. Such validity period is 1 second minimum and 24h maximum.
     * Intranet Address: The domain name shall be provided to access the intranet, such as the access instance, can accessed from a VM on the same VPC or subnet as the database instance, for the downloading of backup data.
     * Internet Address: The domain name of public network shall be provided and users can download backup data through the internet. The download speed is limited by the network bandwidth of the public network. Therefore, if the public network bandwidth is too small and the backup file is too large, the download time will be comparatively long.
     * Click ***Local Download*** to download backup data directly from the browser.
     * Click ***Cancel*** to cancel the download of backup data.
 
-    ![backup](../../../../../../image/RDS/1109_5.jpg)
+![backup](../../../../../../image/RDS/backup_download.jpg)

@@ -36,7 +36,7 @@ In the process of using a cloud database instance, if the data in the cloud data
 
 ![根据时间点创建](../../../../../../image/RDS/Percona-Create-To-Point-In-Time.png)
 
-4 Click **Buy Now** to enter the Order Confirmation page.
+4. Click **Buy Now** to enter the Order Confirmation page.
 5. After reading the cloud database RDS service terms, complete further actions according to the notification
     * Monthly package instance: click **Pay Now** to enter the Payment Confirmation page; you can select several payment methods, such as using coupons, balances, bank cards, etc.
     * Pay-by-configuration instance: Click **Instant Account Setup**, start creating an instance, and go to the Instance List page.

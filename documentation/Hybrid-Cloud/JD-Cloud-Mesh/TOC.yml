@@ -1,0 +1,81 @@
+name: JD Cloud Mesh
+href: 
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Core Concepts
+      href: Introduction/Core-Concepts.md
+    - name: Basic Architecture
+      href: Introduction/Basic-Infrastructure.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Features
+      href: Introduction/Features.md
+- name: Getting Started
+  items:
+    - name: Overview
+      href: Getting-Started/Anti-Mesh-Basic-Started.md
+    - name: Login
+      href: Getting-Started/Logging-In-Mesh.md      
+    - name: Fusion Cloud Platform
+      href: Getting-Started/Create-Register.md
+    - name: Create VPC and Subnet
+      href: Getting-Started/Create-Network.md
+    - name: Create Security Group
+      href: Getting-Started/Create-SecurityGroup.md      
+    - name: Create EIP
+      href: Getting-Started/Create-EIP.md     
+    - name: Create VM Instance
+      href: Getting-Started/Create-VM.md    
+    - name: Associate EIP for Virtual Machines
+      href: Getting-Started/BoundEIP-VM.md        
+- name: Operation Guide
+  items:
+    - name: Multi-cloud Management
+      items:
+        - name: Resource Overview
+          href: Operation-Guide/jdfusion-cloud-InvitationCode.md
+        - name: Virtual Machines
+          href: Operation-Guide/Associated-With-Instance.md        
+        - name: Cloud Disk Service
+          href: Operation-Guide/Associated-With-Disk.md
+        - name: Networking
+          href: Operation-Guide/Associated-With-Network.md          
+        - name: Load Balancer Correlation
+          href: Operation-Guide/Associated-With-LB.md          
+        - name: Database Correlation
+          href: Operation-Guide/Associated-With-DB.md          
+        - name: Object Storage Service Correlation
+          href: Operation-Guide/Associated-With-OSS.md           
+        - name: Cloud Security Correlation
+          href: Operation-Guide/Associated-With-KMS.md
+    - name: Cross-cloud migration
+      items:
+        - name: Create data source
+          href: Operation-Guide/Migration-DB-Create.md       
+        - name: Create Migration Instance
+          href: Operation-Guide/Migration-Instance-Create.md       
+        - name: Create Migration Task
+          href: Operation-Guide/Migration-Job-Create.md        
+        - name: Start Migration Task
+          href: Operation-Guide/Migration-Job-Start.md  
+        - name: Visual Monitoring
+          href: Operation-Guide/Migration-Job-Monitor.md            
+    - name: Cross-cloud Disaster Recovery
+      items:       
+        - name: Create Disaster Recovery Plan
+          href: Operation-Guide/CreatePlan-JD-Cloud-DRS.md
+        - name: Enable Plan
+          href: Operation-Guide/StartPlan-JD-Cloud-DRS.md
+        - name: Monitoring Plan
+          href: Operation-Guide/MonitorPlan-JD-Cloud-DRS.md     
+        - name: Disable Plan
+          href: Operation-Guide/StopPlan-JD-Cloud-DRS.md      
+        - name: Switch Fault
+          href: Operation-Guide/SwitchPlan-JD-Cloud-DRS.md
+- name: Historic Release
+  items:
+     - name: Document Historic Release
+       href: Related-Resources/Document-History.md

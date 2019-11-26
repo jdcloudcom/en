@@ -9,12 +9,13 @@ You can download the Binlog files of JCS for  MySQL/Percona/MariaDB instance ser
 2. Select the instance where the Binlog file download is required, click the name of the target instance, and enter the instance detailed page.
 3. Select the tag of ***Backup Management***, click the tag of ***Binlog*** to enter the list page, select the Binlog files to be downloaded, and click ***Download*** in the column of ***Operation***.
 4. Parameters of Binlog Download Pop-up Box
+    * Validity period of address: Intranet address and Internet address support customized validity period. If the validity period setting is due, corresponding addresses will become invalid and download is inaccessible. Such validity period is 1 second minimum and 24h maximum.
     * Intranet Address: The domain name shall be provided to access the intranet, such as the access instance, can accessed from a VM on the same VPC or subnet as the database instance, for the downloading of Binlog files.
     * Internet Address: The domain name of public network shall be provided and users can download Binlog files through the internet. The download speed is limited by the network bandwidth of the public network. Therefore, if the public network bandwidth is too small and the backup file is too large, the download time will be comparatively long.
     * Click ***Local Download*** to download Binlog files directly from the browser.
     * Click ***Cancel*** to cancel the download of Binlog files.
 
-    ![backup](../../../../../image/RDS/1109_8.jpg)
+![binlog](../../../../../image/RDS/binlog_download.jpg)
 
 ## Binlog Decompression
 > JD Cloud has compressed Binlog files, so you need to decompress the files after downloading them to the local and then parse Binlog files with standard tools

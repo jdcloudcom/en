@@ -15,5 +15,5 @@ About the description of Agent is shown as below:
 | ifrit-agent  | management process |  1234 |
 | ifrit-supervise  | management process |  |
 | hawkeye-agent  | for monitoring |  1235 |
-| log-agent  | for log collection |   |
-| zero-agent  | control system agent, for deployment, initialization, log query, etc. |   |
+| log-agent  | for log collection | 2000,2001,2003  |
+| zero-agent  | control system agent, for deployment, initialization, log query, etc. | 2001,2002  |

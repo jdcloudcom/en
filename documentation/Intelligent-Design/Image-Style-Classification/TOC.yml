@@ -17,10 +17,6 @@ items:
   items:
     - name: Get AK/SK
       href: SDK-Rerference/Authentication-Keys.md
-    - name: Signature Algorithm
-      href: SDK-Rerference/Authorization-Rules.md
-    - name: Call Method
-      href: SDK-Rerference/Call-Methods.md
     - name: SDK Use Method
       href: SDK-Rerference/Environment-Preparation.md
 - name: API Document

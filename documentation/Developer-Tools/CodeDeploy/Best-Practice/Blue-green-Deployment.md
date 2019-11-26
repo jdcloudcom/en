@@ -35,7 +35,7 @@ In regions: Create 2 Virtual Machines in the region cn-north-1, with specific in
 Next, install Agent and execute the same by the root user upon logging in the Virtual Machines
 
 ```
-curl -fsSL http://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install_deploy | bash
+curl -fsSL https://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install | bash -s zero-agent
 ```
 
 The execution results are as below:

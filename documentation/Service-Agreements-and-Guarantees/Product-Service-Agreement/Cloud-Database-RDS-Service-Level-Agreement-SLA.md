@@ -1,6 +1,6 @@
 ## **1. Service Scope**
 
-Database of JD Cloud provides users with online database services. Support MySQL，Percona，MariaDB，SQL Server, and provide database online expansion, backup roll-back, performance monitoring and analysis capabilities. The cloud database supports resilient capacity expansion and provides on-demand and pay-as-you go settling functions based on the cloud computing model.
+Database of JD Cloud provides users with online database services. Support MySQL，Percona，MariaDB，SQL Server, PostgreSQL, and provide database online expansion, backup roll-back, performance monitoring and analysis capabilities. The cloud database supports resilient capacity expansion and provides on-demand and pay-as-you go settling functions based on the cloud computing model.
  
 The SLA only applies to primary and secondary high-availability versions of the database, rather than the standalone version.
 
@@ -23,7 +23,7 @@ Read-only instances do not guarantee data persistence.
 
 **2.3 Data Migration**
 
-The cloud database is delivered to the user as an online database instance and currently it supports MySQL 5.6, MySQL 5.7, Percona 5.7, and SQL Server 2008 R2 version. Users can import or export standard data formats through the corresponding database customer software to meet the migration requirements of user data.
+The cloud database is delivered to the user as an online database instance and currently it supports MySQL 5.6, MySQL 5.7, Percona 5.7, SQL Server 2008 R2, PostgreSQL10.6 and PostgreSQL11.2 version. Users can import or export standard data formats through the corresponding database customer software to meet the migration requirements of user data.
 
 **2.4 Data Privacy**
 
@@ -47,7 +47,7 @@ In accordance with current laws and regulations or according to the requirements
 
 **2.7 Service Features**
 
-The cloud database is an online database service that supports MySQL 5.6, MySQL 5.7, Percona 5.7, and SQL Server 2008R2 version. The cloud database instance can be available through the Web or API, and it provides online database capacity expansion, backup roll-back, performance monitoring and analysis functions, as well as data backup, data recovery, log management and other management functions. For details on all the specific functions of the cloud database, please refer to the detailed description documentation, technical documentation and help documentation provided by JD Cloud on the official website. All functional changes to the cloud database that may affect the user will be announced to the user.
+The cloud database is an online database service that supports MySQL 5.6, MySQL 5.7, Percona 5.7, SQL Server 2008R2, PostgreSQL10.6 and PostgreSQL11.2 version. The cloud database instance can be available through the Web or API, and it provides online database capacity expansion, backup roll-back, performance monitoring and analysis functions, as well as data backup, data recovery, log management and other management functions. For details on all the specific functions of the cloud database, please refer to the detailed description documentation, technical documentation and help documentation provided by JD Cloud on the official website. All functional changes to the cloud database that may affect the user will be announced to the user.
 
 **2.8 Service Availability**
 

@@ -20,7 +20,7 @@ On this page, select a region and enter name and description, select rotation or
 
 Enter the secret key list page, as shown in Figure: Secrete Key List Page.
 
-Figure: Cloud Disk Service List page
+Figure: Secret Key List page
 
 ![Associated-With-KMS-1](../../../../image/JDFusion/Associated-With-KMS-1.png)
 

@@ -15,5 +15,4 @@ Detailed description of monitoring item is as shown in the table below
 | Number of Active Connections | Total number of concurrent TCP connections that are activated through NAT Gateways. A zero value indicates that no connection is activated through the NAT Gateway. |
 | Public IP Rate (Inbound/Outbound)| Public network traffic generated through NAT Gateway Public IP. Unit: bps |
 | NAT Gateway Rate (Inbound/Outbound) | NAT Gateway Rate, including all traffic generated through NAT Gateways on Internet and Intranet. Unit: bps |
-| Packet Loss Number | Number of data packages lost by the NAT Gateway. A value greater than zero may indicate that NAT Gateway has temporary problems persistently. Unit: piece |
 | Depletion Number of Source Port | Number of times that the NAT Gateway cannot allocate the source port. A value greater than zero indicates too many concurrent connections opened through the NAT Gateway.|

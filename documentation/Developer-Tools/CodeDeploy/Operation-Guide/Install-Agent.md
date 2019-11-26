@@ -9,7 +9,7 @@ Agent status will be automatically obtained when creating/editing a deployment g
 For manual installation, please log in the machine which is intended to be installed/is abnormal and execute commands below
 
 ```
-curl -fsSL http://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install_deploy | bash
+curl -fsSL https://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install | bash -s zero-agent
 ```
 
 Taking Agent installation in the Virtual Machine in cn-north-1 as example,

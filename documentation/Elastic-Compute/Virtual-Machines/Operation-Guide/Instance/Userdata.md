@@ -18,6 +18,7 @@ echo 'launch-1a' >> /root/text1.txt
 ```
 ```
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import random
 seq = list(range(1,10))
 tempstr = random.sample(seq,3)
@@ -38,6 +39,7 @@ echo %random%>cmd-text1.txt
 
       Note:
       * To avoid format incompatibility, when using bash or python format scripts, please complete the encoding in the Linux environment and debug it before entering.
+      * python format is as follows: if there is any Chinese Character, please be sure to add '# -*- coding: utf-8 -*-' after the first line. If no, please ignore this line.
 
 <div id="user-content-2"></div>
 

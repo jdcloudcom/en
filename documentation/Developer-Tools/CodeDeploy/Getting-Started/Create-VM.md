@@ -20,7 +20,7 @@ Click **Buy Now** to Create VM instance as per the selected Specification.
 Next, install Agent for deployment in this Virtual Machine by root user:
 
 ```
-curl -fsSL http://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install_deploy | bash
+curl -fsSL https://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install | bash -s zero-agent
 ```
 
 The execution results are as follows:

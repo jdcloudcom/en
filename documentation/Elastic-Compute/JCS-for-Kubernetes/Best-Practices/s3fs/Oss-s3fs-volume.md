@@ -90,7 +90,7 @@ S3fs is a FUSE-based file system, which allows Linux to mount Bucket to the loca
 
     ```
     - name: OPTION
-      value: allow_other
+      value: -o allow_other -o umask=0000
     ```
 
 
