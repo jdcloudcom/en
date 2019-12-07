@@ -1,15 +1,15 @@
 ## Business Application Log Collection
 ### I. Collect through the Console
 
+**Note:**
+
+**It is required to install agent on Virtual Machines requiring collection, after completely creating create collection configuration.**
+
 Precondition:
 
 1. The user’s business applications have been deployed on JD Cloud Virtual Machines.
 
 2. The corresponding log set and log subject have been created
-
-Note:
-
-It is required to install agent on Virtual Machines requiring collection, after completely creating create collection configuration.
 
 Operation Steps:
 

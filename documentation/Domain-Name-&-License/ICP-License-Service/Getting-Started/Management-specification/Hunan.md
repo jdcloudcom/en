@@ -4,7 +4,7 @@
 
 2. Any organization must apply for filing with the latest three-in-one license
 
-3. If the person in charge of entity is a legal person, but the person in charge of website is not, please provide the Hu’nan Letter of Authority (![img](http://cms.jcloud.com/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif)[Hu’nan Letter of Authority.doc](https://img1.jcloudcs.com/cms/03b45fc0-c674-4f20-9837-b3c61f806c1320180503110328.doc)）
+3. If the person in charge of entity is a legal person, but the person in charge of website is not, please provide the Hu’nan Letter of Authority [Hu’nan Letter of Authority.doc](https://img1.jcloudcs.com/cms/03b45fc0-c674-4f20-9837-b3c61f806c1320180503110328.doc)）
 
 4. All persons in charge must be greater than 18-year-old
 
@@ -14,7 +14,7 @@
 
 7. **After the filed website is turned on**, a file number hyperlink and website copyright ownership identifier must be provided at the bottom of the website. **The website of unfiled domain cannot be opened. Otherwise, filling will fail**
 
-8. If an entity has been filed, please provide [Website Construction Scheme](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/hunan/Website Construction Scheme.docx)
+8. If an entity has been filed, please provide [Website Construction Scheme](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/hunan/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E6%96%B9%E6%A1%88%E4%B9%A6.docx)
 
 9. Prepare materials before filing:
 
@@ -44,7 +44,7 @@
 
 5. **After the filed website is turned on**, a file number hyperlink and website copyright ownership identifier must be provided at the bottom of the website. **The website of unfiled domain cannot be opened. Otherwise, filling will fail**
 
-6. If an entity has been filed, please provide [Website Construction Scheme](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/hunan/Website Construction Scheme.docx)
+6. If an entity has been filed, please provide [Website Construction Scheme](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/hunan/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E6%96%B9%E6%A1%88%E4%B9%A6.docx)
 
 7. Prepare materials before filing:
 

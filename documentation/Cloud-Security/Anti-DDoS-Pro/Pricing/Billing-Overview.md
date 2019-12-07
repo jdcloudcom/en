@@ -36,7 +36,7 @@ After the instance expires, the billing status will be marked as expiration, and
 If the renewal is made within 7 days, the minimum bandwidth protective capability and elastic protective capability can be back to normal right after renewal. Before your Anti-DDoS Pro instance expires, JD Cloud will send you reminds in form of mail and text message. Please check and renew in time; when your Anti-DDoS Pro instance expires, you will receive a mail and text message to notify that your resources have expired. Be sure to view the notification and renew in time to avoid unnecessary losses.
 
 ### Pay-As-You-Go of Elastic Traffic
-Your Anti-DDoS status will be changed to "arrear" when the balance in your account plus the sum of coupon that can be used to pay that resource is insufficient to pay the charges of elastic traffic of the previous billing period (24 hours). The elastic protective capability of Anti-DDoS instance will be deactivated and the minimum protective capacity will be reduced to 2G.
+When the sum of the balance in your account and the coupon that can be used to pay the resources is insufficient to pay the cost of the last billing cycle (24 hours) caused by the elastic traffic and the deduction fails, your Anti-DDoS Pro instance will become overdue. If you fail to recharge the account within seven days (168 hours) after the account is in arrears, the elastic protection capability of Anti-DDoS Pro instance will be disabled, with only the basic protection capability remained.
 
 
 ## Related Reference

@@ -1,17 +1,21 @@
   name: Real-name Verification
   href: 
   items:
-  - name: Real-name Verification
-    href: Real-Name-Verification.md
-  - name: Personal Real-name Verification Guideline
-    href: Personal-Account-Verification.md
-  - name: Real-name Mobile Phone Verification
-    href: Personal-Account-Phone.md
-  - name: Face Scanning Verification
-    href: Personal-Account-Face.md
-  - name: Enterprise Real-name Verification Guideline
-    href: Business-Account-Verification.md
-  - name: Updating of Enterprise Real-name Verification Information
-    href: Business-Account-Update.md
+  - name: Introduction
+    href: Introduction.md
+  - name: Personal real-name verification
+    items:
+      - name: Real-name Mobile Phone Verification
+        href: Personal/Phone.md
+      - name: Individual Face Scanning Verification
+        href: Personal/Face.md
+  - name: Enterprise real-name verification
+    items: 
+      - name: Corporate Account Payment Verification
+        href: Business/Remit.md
+      - name: Legal Person Face Scanning Verification
+        href: Business/Legal.md
+      - name: Enterprise Real-name Update
+        href: Business/Update.md
   - name: FAQ for Real-name Verification
     href: FAQs.md

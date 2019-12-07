@@ -73,8 +73,10 @@ items:
              href: Operation-Guide/Manage-Bucket/Set-Bucket-CORS-2.md
            - name: Static Website Hosting Setting
              href: Operation-Guide/Manage-Bucket/Set-Bucket-Website-2.md
-           - name: Cross-regionReplication Setting
+           - name: Incremental Data Synchronization Setting
              href: Operation-Guide/Manage-Bucket/Set-Bucket-Cross-Region-Replication-2.md
+           - name: Historical Data Synchronization Setting
+             href: Operation-Guide/Manage-Bucket/Historical-Data-Synchronization-Setting.md
            - name: Customized Domain Name Setting
              href: Operation-Guide/Manage-Bucket/Set-Custom-Domain-Name-2.md
            - name: Callback Notification

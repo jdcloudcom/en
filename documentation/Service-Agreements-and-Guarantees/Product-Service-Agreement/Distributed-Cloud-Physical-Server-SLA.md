@@ -50,7 +50,7 @@ The Distributed Cloud Physical Server provides a variety of configured categorie
 
 **2.9 Network Access Performance**
 
-When users enable JD Cloud's Distributed Cloud Physical Server, they may select the public network exit bandwidth required for each Distributed Cloud Physical Server. The public network exit bandwidth can be configured from 1Mbps to 200Mbps. JD Cloud provides single-line access so as to ensure the quality of network access for users.
+When users enable JD Cloud's Distributed Cloud Physical Server, they may select the public network exit bandwidth required for each Distributed Cloud Physical Server. The public network exit bandwidth can be configured from 1Mbps to 10240Mbps (10240Mbps is the maximum bandwidth that can be provided. The bandwidth may vary depending on various nodes, please make a reasonable choice according to actual node). JD Cloud provides single-line access so as to ensure the quality of network access for users.
 
 **2.10 Service Metering Accuracy**
 
@@ -84,13 +84,17 @@ In the event of failure of normal use of Distributed Cloud Physical Server machi
 
 Fault Time = Unavailable Time.
 
-For Distributed Cloud Physical Server of monthly package, compensation shall be made based on service duration at the 100 times of fault time/set.
+For the Distributed Cloud Physical Server of monthly package, compensation shall be made by the means of coupons at the compensation amount = 100 times of fault time/set.
+
+For the Distributed Cloud Physical Server paid by configuration, compensation shall be made by the means of coupons at the compensation amount = average charge per hour of 24 hours before the fault/60 * fault time * 100.
 
 Description:
 
 JD Cloud makes compensation by giving coupons only supporting purchase of Distributed Cloud Physical Server products. The total amount of compensation shall not exceed the annual service charge in the year of the user in connection with that Distributed Cloud Physical Server instance (excluding the amount of the gift balance or the deduction fee of coupons).
 
 Users may apply for compensation after the 5th working day of each year for instances not available in the previous year. The compensation application must be made within two months at the end of the relevant year in which the Distributed Cloud Physical Server instance is not available. Compensation application exceeding time limit for application will not be accepted.
+
+If the usage time of the Distributed Cloud Physical Server paid by configuration is less than 24 hours, the charge shall be calculated in accordance with the average value of the actual usage duration, and the fault time shall be calculated by minutes.
 
 **3. Miscellaneous**
 

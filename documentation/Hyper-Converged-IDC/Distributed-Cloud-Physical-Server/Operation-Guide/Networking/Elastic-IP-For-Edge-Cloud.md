@@ -33,29 +33,31 @@ The resources of the monthly package do not support deletion before it expires. 
 
 The expiration time of monthly package billing order is 23:59:59 in the Nth natural month or natural year from the start time of the order; for example, if the start time of the order is from 15:00:00, January 1, 2016 and the duration is 1 month, the expiration time is 23:59:59, February 1, 2016.
 
-##### Expiry Description
+##### Description for Stopping Expired Service
 
-When the expiration time of your monthly package paid online resources is earlier than or the same as the current time, your paid online resources status will become expired. The paid online resources service will be stopped and cannot be used after the expiration.
+When the expiration time of your monthly package paid network resources is earlier than or the same as the current time, your paid network resources status will become expired. The paid online resources service will be stopped and cannot be used after the expiration.
 
 Emails and SMSs will be sent to you by JD Cloud before expiration of your monthly package paid online resources, reminding you that your resources are close to expire. Please check it and renew in time;
 
-Upon expiration of your paid online resources, you will be sent email and SMS. Please be sure to check the same and recharge in time to prevent unnecessary losses;
+Upon expiration of your paid network resources, your service will be stopped immediately and be sent email and SMS to notify you of it. Please be sure to check the notification and recharge in time to prevent unnecessary losses;
 
-Your paid online resources and data in the resources will be kept for 7 days from the time of stopping service, and the system will recover the resources after 7 days, in which case the resources cannot be retrieved.
+Your paid network resources will be kept for 7 days from the moment when your service is stopped, and the system will recover the resources after 7 days, in which case the resources cannot be retrieved. The Console interface will only be able to perform renew operation;
 
 The stopped resources can be used normally upon renewal
 
 **Pay By Configuration**
 
-##### Arrear Description
+Enabling requirements: To ensure your normal use, the sum of your account balance and available coupon will be no less than consumption threshold of RMB 50 when you enable the resource billed by configuration.
 
-Your paid online resources (Elastic IP) status will become overdue when the sum of the balance in your account and the coupon that can be used to pay the paid online resources is insufficient to pay the costs of next billing cycle resulting the deduction failing;
+##### Description for Service Stopping Due to Arrearage
 
-Service and deduction will stop when your paid online resources are overdue.
+Your paid network resources (Elastic IP) status will become in arrears when the sum of the balance in your account and the available coupon is insufficient to pay the costs of next billing cycle resulting the deduction failing;
+
+You can continue to normally use your paid network resource for 3 hours after the payment is overdue. After 3 hours, the overdue service and deduction will be stopped. The Console interface shall only be able to perform the deletion operation;
 
 You will be sent email or SMS after your paid online resources are overdue. Please be sure to check the same and recharge in time to prevent unnecessary losses;
 
-Your paid online resources and data in the resources will be kept for 7 days from the time of stopping service, and the system will recover the resources after 7 days, in which case the resources cannot be retrieved.
+Your paid network resources will be kept for 7 days from the moment when your service is stopped, and the system will recover the resources after 7 days, in which case the resources cannot be retrieved.
 
 The stopped paid online resources can be used normally after you make a supplementary payment for the amount overdue;
 

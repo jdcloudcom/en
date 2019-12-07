@@ -36,7 +36,7 @@ Prerequisite: A JD Virtual Machine with Linux system, associate EIP which is in 
 
 - Source machine: localhost or 127.0.0.1;
 
-- Listen port: fill in local listen port when forwarding Xshell setting port;
+- Listening port: Fill in local listening port when port forwarding is set by Xshell;
 
 - Target machine: fill in the domain of Redis; see JCS for Redis console for details; click the instance name to enter the instance details, **Resource Information** –> **Access Domain**;
 

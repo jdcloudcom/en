@@ -2,6 +2,11 @@
 
 ## Log Service Restrictions
 
+**Limitations for a single user during beta period are as follows:**
+
+**Write rate: 5M/s, QPS: 5000/s, Index: 500M; 
+It supports the user’s dumping the log data to Object Storage Service OSS. There are no limitations for dump volume and no charge for dumping. The charge as to storage capacity shall be made according to the billing rules for Object Storage Service OSS.**
+
 Restricted Item | Restrictions
 -- | --
 The length of full-text retrieval search conditions | The search conditions of full-text retrieval support up to 100 characters

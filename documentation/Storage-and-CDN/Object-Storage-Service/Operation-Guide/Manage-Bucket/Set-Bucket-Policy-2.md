@@ -32,7 +32,7 @@ If you are creating a Bucket through API or SDK, and you do not specify the Buck
       - (2) The definition of each field in the Bucket Policy is as follows:
 a. User authorization: It defines the users affected by the Bucket Policy. The default value is "*", and the semantics is valid for all users. If it shall only be valid for part of the users, please click **customized users" and enter the user ID of the corresponding users in the text box (Note: User ID is different from user Pin; your user ID can be queried in User Management and the effect is as the image below), one user ID per line, that is, multiple user IDs shall be separated by line feed character intervals.
          1. Primary account: AccountID
-         2. Sub-accounts AccountID: user/username. One user ID per line, that is, multiple AccountID shall be separated by line feed character intervals
+         2. Sub-accounts AccountID: username/username. One user ID per line, that is, multiple AccountID shall be separated by line feed character intervals
          (Note: Your AccountID can be searched in User Management and the effect is as the figure below).
          
         ![用户授权1](../../../../../image/Object-Storage-Service/OSS-033.png)

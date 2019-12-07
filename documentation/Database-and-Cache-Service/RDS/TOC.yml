@@ -319,12 +319,30 @@
         - name: Delete Backup Synchronization Service
           href: Operation-Guide/Cross-Region-Synchronization-Service/Delete-Cross-Region-Synchronization-Service.md
            
-      - name: Log Management
+      - name: Log Service
         items:
+        - name: Log Management 
+          items:
+          - name: MySQL Log Management 
+            href: Operation-Guide/Log/Log-Management/MySQL-Log-Management.md   
+          - name: Percona Log Management 
+            href: Operation-Guide/Log/Log-Management/Percona-Log-Management.md   
+          - name: MariaDB Log Management 
+            href: Operation-Guide/Log/Log-Management/MariaDB-Log-Management.md   
+          - name: PostgreSQL Log Management 
+            href: Operation-Guide/Log/Log-Management/PostgreSQL-Log-Management.md   
+        - name: Log Download
+          items:
+          - name: MySQL Error Log and Slow Log Download 
+            href: Operation-Guide/Log/Log-Download/MySQL-Log-Download.md   
+          - name: Percona Error Log and Slow Log Download 
+            href: Operation-Guide/Log/Log-Download/Percona-Log-Download.md   
+          - name: MariaDB Error Log and Slow Log Download 
+            href: Operation-Guide/Log/Log-Download/MariaDB-Log-Download.md   
+          - name: PostgreSQL Log Download 
+            href: Operation-Guide/Log/Log-Download/PostgreSQL-Log-Download.md   
         - name: Slow Log 
           href: Operation-Guide/Log/Log-Management.md   
-        - name: PostgreSQL Log Management 
-          href: Operation-Guide/Log/PostgreSQL-Log-Management.md   
       - name: Access Mode Setting
         href: Operation-Guide/Set-Access-Mode.md     
       - name: PostgreSQL Plug-ins 

@@ -5,11 +5,11 @@ The Cloud File Service provides types of standard and capacity. The standard one
 
 ## Support for NFS file system protocol
 
-The Cloud File Service supports NFS v4.0 and NFS v4.1 protocols and can be attached by using standard file system attach command.
+The Cloud File Service supports NFS v3 and NFS v4 protocols and can be attached by using standard file system attach command.
 
 ## Shared File Storage
 
-Multiple Virtual Machines can simultaneously access file storage created in the Cloud File Service, conduct read/write operation of files and implement data share of multiple computing nodes through NFS v4.0 or NFSv4.1 protocols.
+Multiple Virtual Machines can simultaneously attach file storage created in the Cloud File Service, conduct read/write operation of files and implement data share of multiple computing nodes through NFS protocol.
 
 ## Auto Expansion of Capacity
 

@@ -1,12 +1,13 @@
 # Export Instance Information
 
-You can export instance list under the specified region through the console. The information currently supported for export is: ID, name, region, availability zone, Availability Group, fault domain, status, image, instance type, primary private IP, EIP and bandwidth associated to the private IP, VPC , subnet, Cloud Disk associated, billing information, label, creation time, and expiration time (for the Virtual Machines that are monthly package billing).
+You can output instance lists under designed regions via the Console, customize range, method and relevant information of outputted data and output of maximum 2,000 data is supported. Now, the supported output range covers: all data, filtered data and selected data. The output methods to be designed include: output all data and output designed page. The available output information include: ID, name, image, availability zone, Availability Group, fault domain, status, Instance Type, Private IP, EIP and bandwidth associated to private IP, VPC, subnet, dedicated host machine, associated Cloud Disk Service, billing information, tag, creation time and expiration time (including Virtual Machines in Monthly Package).
 
 ## Operation Steps
 
 1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. Click the export list icon on the top right corner of the Instance list page. <br> ![](../../../../../image/vm/exportinstance.png)
-	
+4. Specify output range and output method in the "Output Data" popup: Select **All Data** in the output range and then all resource information under the current region will be outputted; if there are more than 2,000 data, please output them in batches by designating pages in the output method; if you select **Filter Data** in the output range, relevant data obtained by filtering will be outputted; and if you haven’t made any filter operation, all resource information under current region will not be outputted. If there are more than 2,000 data to be outputted, please select to output the data by batches by specifying the page. Select **Select Data** in the output range to output relevant data checked in the Instance List Page. <br> ![](../../../../../image/vm/importData1.png)
+5. Designated output information in the "Output Data" popup: The available output information include ID/name (required), image, availability zone, availability group/fault domain, primary IP address, VPC/subnet, status, Instance Type, configuration, tag, dedicated host machine and billing information. You can select or more output data according to your real demands. The associated Cloud Disk Service will be outputted with its region information by default. <br> ![](../../../../../image/vm/importData2.png)
 		Note: The export time is affected by the instance items. Please wait patiently if there are more data.
 	

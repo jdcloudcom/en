@@ -5,7 +5,7 @@
  - API: Refer to the standard RestfulAPI interfaces based on HTTP protocol and other systems can be integrated with the JDFusion via API. Functions realized via the console can also be realized via API by the user.
  
  The basic architecture is as shown below:
-![创建实例](../../../../image/JD-Cloud-Mesh/JD-Cloud-Mesh-jiagou.jpg)
+![创建实例](../../../../image/JD-Cloud-Mesh/JD-Cloud-Mesh-Architecture.jpg)
 
 - JD Cloud Mesh will be designed in strict accordance with JD Distributed Service architecture, covering multi-cloud management, migration service, disaster recovery service, verification and authorization service, notification service, user service, JDFusion service, monitoring service, alarm service etc.
 - Each JD Distributed Service shall remain self-control on its own functions, providing system with nature distribution capacities. Moreover, with service realization methods such as stateless service, each service of Hybrid Cloud can achieve horizontal expansion capacity.

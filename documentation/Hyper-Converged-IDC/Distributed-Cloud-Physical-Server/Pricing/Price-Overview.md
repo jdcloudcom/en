@@ -138,5 +138,5 @@ The currently released node is East China-Taizhou.
 
 Note:
 
-The EIP prices are different depending on the nodes and ISP Line. The specific price is subject to the node and ISP Line selected at the time of purchase.
+The Elastic IP prices are different depending on the nodes and ISP Line type. The specific price is subject to the node and ISP Line selected at the time of purchase.
 

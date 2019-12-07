@@ -180,5 +180,5 @@ The instance prices of the Cloud Physical Server mainly include the Cloud Physic
 
 Note:
 
-The public IP prices are different depending on the regions and the IP providers. The specific price is subject to the region and line selected at the time of purchase. The regions in the table are not all open; some regions are in preparation for opening.
+The EIP prices are different depending on the regions and ISP Line types. The specific price is subject to the region and ISP line type selected at the time of purchase. The regions in the table are not all open; some regions are in preparation for opening.
 

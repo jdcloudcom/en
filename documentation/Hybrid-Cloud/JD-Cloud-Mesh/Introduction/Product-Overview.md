@@ -12,6 +12,4 @@ By adopting the open architecture design, the product provides diversified APIs 
  - It provides database and business disaster recovery service and meets cross-cloud disaster recovery for user’s key data and businesses
  - It provides unified resource/workload monitoring function, and supports multi-resource and task monitoring access mode
 
-## **Billing**
-No information now.
 

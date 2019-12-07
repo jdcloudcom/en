@@ -60,6 +60,8 @@ Only seven-layer (HTTP/HTTPS) listening support association of forwarding rules 
 
 5. Click **Delete** in the operation column in the forwarding rules list bar to delete the added rule.
 
+      **Note**: Newly added Forwarding Rules Group shall be valid only after the listener is associated. For details, please see [Listener Configuration Guide](Listener-Management.md).
+
 ## Manage Forwarding Rules Group
 <div id="user-content-3"></div>
 

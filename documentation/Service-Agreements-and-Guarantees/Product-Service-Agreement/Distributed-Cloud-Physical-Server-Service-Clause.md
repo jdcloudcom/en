@@ -20,6 +20,10 @@
 
 2.2.1.2 If the Parties are willing to continue cooperation after the expiration of the services, you shall pay the renewal charge within at least 7 days before the expiration of the services, so as to continue the services. If JD Cloud has adjusted the product system, names or prices at the time of renewal, the Parties agree to perform in accordance with the new product system, names or prices that are effective at that time.
 
+2.2.2 Pay-As-You-Go
+
+2.2.2.1 You can pay as you go. Please see the page announcement on [www.jdcloud.com](https://www.jdcloud.com/index) for the specific deduction rules, which is subject to the current effective billing mode and standard for Pay-As-You-Go issued on the page.
+
 2.3 JD Cloud reserves the right not to provide you with services and/or technical supports.
 
 2.4 You fully understand that all the free service items or activities in the JD Cloud price system are one-off special offers from JD Cloud in addition to the normal service price. The contents of the offer do not include the modification, update and maintenance costs of the free service items, and the free service items cannot be converted into money to offset the service charge.

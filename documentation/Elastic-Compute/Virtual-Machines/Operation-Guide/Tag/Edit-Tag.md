@@ -1,7 +1,25 @@
 # Edit Tag
-When you create a new instance that needs to be bound with a tag, or when you need to change the bound tags of an instance, you can do so by editing the tag.
+When you create a new machine instance or have the machine instance, you can associate the instance with a tag by editing the tag. For the instance associated with a tag can, such tag association can be changed by editing the tag.
 
-## Precondition
+## Associate tags when the instance is created
+
+### Operation Steps
+
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) to log in the instance list page. Or, access [JD Cloud Console](https://console.jdcloud.com) and log in the instance list page by clicking [Elastic Compute]-[Virtual Machines] on the left navigation bar.
+2. Select the region of the created instance and click the **Create** button to enter the Virtual Machines Purchase Page. Click the **+Add** button on the Basic Information-Tag to add tags for your resources of Virtual Machines. <br> ![](../../../../../image/vm/CreateWithTags1.png)
+3. Key-Value can be added for the added tags in the added tag key and tag value input box or be added by directly selecting from a drop-down menu of existing tag or selecting corresponding tag Key-Value after fuzzy match. If the tag parameter is illegal, please make corresponding modification according to notification below the label box. Each resource can associate 10 tags at most. <br> ![](../../../../../image/vm/CreateWithTags2.png)
+
+		Note:
+		* When a new tag key or a new tag value is added and after you manually add the new contents, please trigger your addition operation by enter or selection with the mouse, and make sure the new contents can be saved and displayed in the current input box.
+		* The same resource shall have the unique tag key.
+		* The tag shall be associated with the created resources of Virtual Machines rather than Cloud Disk Service and Elastic IP.
+
+After the tag is edited and other information is completed on the page of creating VM instances, click **Buy Now** to create resources. After creation, you can check whether the tag is successfully associated through the Instance List Page/Details, or click the **Tag Filter** button **Filter Instance** (Filter-by-Tag.md) above the instance list. Please note if the list page does not display tag information items, you can select tags to be displayed by editing culumns. See [View Instance](../Instance/Query-Instance-Info.md) for detailed operation steps. If you find that the created resources are not successfully associated with tags, please refer to [Edit Tag after Instance Creation](Edit-Tag#user-content-1) to conduct the tag association operation again.
+
+## Edit Tag after Instance Creation
+<div id="user-content-1"></div>
+
+### Precondition
 The instance state needs to be "Running" or "Stopped".
 
 ## Operation Steps

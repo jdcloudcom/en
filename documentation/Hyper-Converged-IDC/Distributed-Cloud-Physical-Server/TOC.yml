@@ -87,7 +87,7 @@
             href: Operation-Guide/Remote-Login/Description-Remote-Login.md
           - name: Operation Steps
             href: Operation-Guide/Remote-Login/Steps-Remote-Login.md
-      - name: Life Cycle Management of Distributed Cloud Physical Server
+      - name: Life Cycle Management
         items:
           - name: Function Description
             href: Operation-Guide/Distributed-Cloud-Physical-Server-Life-Cycle-Management/Description-Distributed-Cloud-Physical-Server-Life-Cycle-Management.md

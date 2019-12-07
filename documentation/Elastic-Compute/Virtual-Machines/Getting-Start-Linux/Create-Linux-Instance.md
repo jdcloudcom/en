@@ -52,9 +52,9 @@
 You may not purchase the public IP during the process of creating a host. After the host is created, you can associate it. The Elastic IP bandwidth cost is independent of the instance cost. For specific price information, please refer to [Elastic IP Price](../../../Networking/Elastic-IP/Pricing/Price-Overview.md).      
 ![](../../../../image/vm/Getting-Start-Linux-Create-IP.png)
 
-11. Set Instance Name and Description:
-You need to set machine name, and the name cannot be blank. It only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", hyphen "-" and ".", and cannot exceed 128 characters. If the instances are created and purchased in batch, the names will be displayed as "xxx1" and "xxx2" in sequence. Meanwhile, it supports adding description to the instance. The description is allowed to be blank, but if added, the length cannot exceed 256 characters.
-![](../../../../image/vm/Getting-Start-Linux-Create-information.png)
+11. Set instance name, description and tag associated to the instance:
+You need to set machine name, and the name cannot be blank. It only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", hyphen "-" and ".", and cannot exceed 128 characters. If the instances are created and purchased in batch, the names will be displayed as "xxx1" and "xxx2" in sequence. Meanwhile, it supports adding description to the instance. The description is allowed to be blank, but if added, the length cannot exceed 256 characters. In addition, you can select to add tags for the machines created. Each tag consists of 1 "key" and 1 "value". The tag key and value shall not start with "jrn:" or "jdc-" and only support Chinese character, uppercase and lowercase English letters, numbers and symbols of " _.,:/=+-@ ". At most 10 tags can be associated to the machine created. If purchase is created by batches, tags will be associated with each machine created in batches. For tag edition operation, please refer to [Edit Tag](../Operation-Guide/Tag/Edit-Tag.md).  
+![](../../../../image/vm/CreateWithTags1.png)
 
     * Default Configuration Rules of hostname:
       hostname customization is not supported at the time of host creation. The system will set hostname by determining host name on the premise that the instance name conforms to the rules of RFC-952 and RFC-1123. If the instance name does not conform to the specifications, the system will convert some of the characters. If the specifications are met after such conversion, the hostname is configured after truncation (no more than 63 characters in linux; no more than 15 characters in windows). Otherwise, it will be configured by default hostname, and the default form is "server-<*instance-id*>".
@@ -94,5 +94,7 @@ You need to set machine name, and the name cannot be blank. It only supports Chi
 
 [Elastic IP Price](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)
 
+[Edit Tag](../Operation-Guide/Tag/Edit-Tag.md)
+ 
 [Key Pair](../Operation-Guide/Key-Pair/KeyPair-Overview.md)
 
