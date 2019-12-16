@@ -62,7 +62,7 @@ fluid :  true // Video size is of self-adaption according to the container
 });
 ```
 
-This code is added with FLV play address. When the live streaming is played with Jingcai Player on PC, if the FLV, RTMP and HLS (M3U8) can output, we recommend using FLV or RTMP links to realize lower delay.
+FLV play address is added in this code. When the live streaming is played with the Player on PC, if output can be implemented via FLV, RTMP and HLS (M3U8), we recommend using FLV or RTMP links to realize lower delay.
 
 Table 1.1 Common Video Types
 <table>

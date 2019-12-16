@@ -105,6 +105,8 @@ items:
             href: Operation-Guide/Manage-Object/Delete-Object.md
           - name: Post Object
             href: Operation-Guide/Manage-Object/Post-Object-1.md
+          - name: Manage Metadata
+            href: Operation-Guide/Manage-Object/User-Defined-Metadata.md
           - name: Consumption Monitoring
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md
           - name: Restore Archival Object

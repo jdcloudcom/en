@@ -2,13 +2,18 @@
 
 The Trigger defines the rules by which an event source triggers a function. Addition, deletion, modification and check for triggers can be implemented through the operation of console, API/SDK. This chapter introduces addition, deletion, modification and check for triggers through the console.
 
-Preparatory Work:
+## Preparatory Work:
+
+Before creating a trigger for an assigned Function, please create resources for the trigger first, and then associate the Function.
+
+For example:
 
 * Before creating API Gateway trigger, enable the API Gateway Service and create the group and API in the API Gateway Service. For creating process, please refer to:
    - [Create an API group](/documentation/Middleware/API-Gateway/Operation-Guide/Create-APIGroup/Create-APIGroup.md)
    - [Create API](/documentation/Middleware/API-Gateway/Operation-Guide/Create-API/Create-API.md)
 * Before creating OSS trigger, enable the Object Storage Service and create the storage bucket in the Object Storage Service. For creating process, please refer to [Create Storage Space](/documentation/Storage-and-CDN/Object-Storage-Service/Operation-Guide/Manage-Bucket/Create-Bucket-2.md).
 
+You can also create resources for the trigger as notified on the trigger creation page.
 
  
 

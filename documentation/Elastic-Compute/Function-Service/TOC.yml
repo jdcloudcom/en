@@ -81,6 +81,8 @@ items:
                  href: Operation-Guide/invokefunction/triggermanagement/eventsourceservice/oss-tirgger.md 
                - name: API Gateway Trigger   
                  href: Operation-Guide/invokefunction/triggermanagement/eventsourceservice/apig-tigger.md  
+               - name: Queue Service JQS Trigger   
+                 href: Operation-Guide/invokefunction/triggermanagement/eventsourceservice/JQS-trigger.md
                     
 
       - name: Environment Variable Management

@@ -1,5 +1,5 @@
 ## Reading Object
-This document is used for development, test and other personnel involved in JD Cloud web/h5 Player SDK. The readers shall have Javascript programming and development experiences.  
+This document is used for development, test and other personnel involved in JD Cloud Web/H5 Player SDK. The readers shall have Javascript programming and development experiences.  
 
 ## Version Description
 * **Iteration**  
@@ -15,7 +15,7 @@ The current version is V1.0.0
     <td>Purpose</td>
     <td>URL Address Format</td>
     <td>Web</td>
-    <td>h5</td>
+    <td>H5</td>
 </tr>
 <tr>
     <td>HLS（M3U8）</td>

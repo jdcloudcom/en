@@ -70,6 +70,7 @@ Special Tips for Header:
 |x-amz-signature|String|String to signature <br>Default Value: None|Required for requests requiring signatures|
 |x-amz-storage-class|String|Object Storage Type<br> Default Value: STANDARD (Standard Storage)<br>Valid Value: STANDARD (Standard Storage), GLACIER(Archive Storage), REDUCED_REDUNDANCY (Reduced Redundancy Storage) and STANDARD_IA (Infrequent Access Storage)|No|
 |file|String|File or Text Content .The attribute must be placed at the end of the form, otherwise the attributes after the file will be ignored. Don't support multiple files to be uploaded at the same time<br>Default Value: None|Yes|
+|x-amz-meta-\*|Character String|Header beginning with x-amz-meta-prefix is user-customized Header. The size of the customized Header (including key and value) cannot exceed 2K in UTF-8 encoding. |No|
  
 #### Response
  

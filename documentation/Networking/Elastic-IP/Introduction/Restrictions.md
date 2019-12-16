@@ -14,5 +14,5 @@ Please keep the following restrictions in mind when using the Elastic IP.
 
 - The billing methods for Elastic IP include monthly package, pay by configuration, and pay by consumption, which all support the increase or decrease of the upper limit of bandwidth. For the Elastic IP with Monthly Package, the amount difference before and after the adjustment of bandwidth will be converted into the use duration of the Elastic IP after the adjustment.
 
-- The Elastic IP with Availability Zone attribute as "Availability Zone A" can only be associated with instance in Availability Zone A, such as Virtual Machine, container, Load Balancer (excluding the Load Balancer simultaneously available for Availability Zone A and Availability Zone B) , and NFV Instance in Availability Zone A.
+- The attribute of IP Availability Zone is the Elastic IP of "Availability Zone A" only associating cloud resources such as Virtual Machines, container, POD, NFV Instance under Availability Zone A, while the Load Balancer and Elastic Network Interface cannot be associated for application.
 

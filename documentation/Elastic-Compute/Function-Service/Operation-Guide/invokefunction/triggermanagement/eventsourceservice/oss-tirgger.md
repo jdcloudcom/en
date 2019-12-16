@@ -1,12 +1,17 @@
 # OSS Trigger
 
-OSS: Object Storage Service is a large-scale distributed object storage service independently researched and developed by JD Cloud. It provides enterprises and individual developers with high-availability, low-cost, and secure cloud storage services. You can implement unified management of data to meet a variety of storage needs.
+OSS: Object Storage Service is a large-scale distributed object storage service independently researched and developed by JD Cloud. It provides enterprises and individual developers with high-availability, low-cost, and secure cloud storage services. You can implement unified management of data to meet a variety of storage needs.   
+
+
 
  ## Trigger Configuration
  
+ 
 Trigger Example: ossTrigger.yml
 
+
 ```YAML
+
 triggerConfig:
     events:
         s3:ObjectCreated:Put
@@ -15,7 +20,10 @@ triggerConfig:
        key:
            prefix: sourcefile/
            suffix: .gif
+           
 ```
+
+
 
 **Note:**
 
@@ -45,7 +53,6 @@ Table 1  Table of OSS Trigger Information
 ## OSS Event Definition
 
 When an event is captured by OSS, it is passed to the event handling function as the [event parameter](../configtigger-event.md). The current event trigger type of OSS is the same as the supported event type of [OSS Callback Notification](https://docs.jdcloud.com/en/object-storage-service/callback-notification-2). Refer to Table 2 for the details and items with * are compulsory items.
-
 
 Table 2 Type of Event Supported by OSS
 

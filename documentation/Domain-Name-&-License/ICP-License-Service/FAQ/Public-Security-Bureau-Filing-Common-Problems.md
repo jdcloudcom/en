@@ -1,6 +1,6 @@
 According to relevant provisions of the *Measures for the Administration of the Computer Information Network and Internet Security and Protection*, after the filing is finished successfully on the Ministry of Industry and Information Technology of the PRC, within 30 days from the date of opening the website, each website needs to log in [National Security and Management Service Platform for the Internet Website of Public Security Organs](https://www.beian.gov.cn/) and submit the filing application of public security.
 
-Please download [Operation Guide of Security Service Platform of Internet Website](https://www.beian.gov.cn/portal/downloadcenter?token=389a313f-53c9-4eb7-8a10-5eeae2f50a73) to understand the operation procedure of public security filing.
+Please download [Operation Guide of Security Service Platform of Internet Website](http://www.beian.gov.cn/portal/downloadcenter?token=389a313f-53c9-4eb7-8a10-5eeae2f50a73) to understand the operation procedure of public security filing.
 
 For the sample table mentioning the filing method of 33 items regarding the website filing at public security, please check [EXCEL template - 33 Items.xls](https://img1.jcloudcs.com/cms/9062610c -a7f6-49fd-b320-fdb93792762720180110170854.xls)
 

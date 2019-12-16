@@ -7,11 +7,15 @@ At the beginning of the application, you can use small instance type when the re
 * The instance must be in "Stopped" status. If the instance is in the "Running" status, please run [Stop Instance](Stop-Instance.md) first; if the instance is in other unstable status, please wait for the pre-order operation to complete before resizing.
 	
 		Please note that ::
-		* If the system disk is the local disk, the Virtual Machines of Generation I are not allowed to deploy with the Virtual Machines of Generation II;
+		* If the system disk is the local disk, intergenerational deployment is not allowed, e.g. the Virtual Machines of Generation I are not allowed to deploy with the Virtual Machines of Generation II;
 		* For Virtual Machines billing paid by configuration, after resizing, it will be billed according to the new instance types. The fee for current instance types will be immediately settled before resizing (that is, the bills incurred from the last settlement time to the current time will be settled);
+		* If there is a local data disk in the current instance, to resize, you need to clear the data in the local disk first, and please operate carefully;
+		* If the current instance is in the availability group, the deployable specifications are limited to the specifications supported by the availability group;
+		* If the encryption disk is attached by the current instance, the deployable specifications are limited to the specifications supporting the encryption disk;
 		* For the monthly package billing Virtual Machines:
 			* If the price of instance types after resizing is lower than that before  resizing, the expiration time of VMs will be extended;
 			* If the price of instance types after resizing is higher than that before resizing, you need to pay the difference before the expiration.
+		
 
 
 ## Operation Steps

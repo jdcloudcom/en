@@ -13,6 +13,7 @@ Query Total Data
 | domain     | String   | Yes           | Domain names to be queried, separate multiple domain names by commas, parameter example "www.a.com,www.b.com" |
 | start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference Example 2016-12-14 07:00; the time span for query cannot be greater than 7 days  |
 | end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                             |
+| ipType     | String   | No           | Value Range [ipv6,ipv4], the IP Type is not distinguished by default when not uploaded.  |
 
 
 ## **3. Return Parameter**

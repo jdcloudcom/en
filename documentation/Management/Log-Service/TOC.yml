@@ -35,6 +35,8 @@ items:
           href: Introduction/ResourceLog/KubernetesLog.md
         - name: JCS for Redis Log
           href: Introduction/ResourceLog/RedisLog.md
+        - name: PostgreSQL Log
+          href: Introduction/ResourceLog//PGLog.md
 - name: Product Pricing
   items:
     - name: Billing Overview

@@ -2,7 +2,7 @@ Firstly, users are required to log in Console to enable the product.
 
 **Usage Process:**
 
-<img src="../../../image/Edge-Network-Tunnel/Quick-Start.png" style="zoom:85%;" />
+![Quick-Start.png](../../../image/Edge-Network-Tunnel/Quick-Start.png)
 
 ###### Step 1: Download SDK
 

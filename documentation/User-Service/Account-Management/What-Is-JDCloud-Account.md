@@ -17,19 +17,7 @@ JD Cloud Account is a brand new account system. You can access JD Cloud via your
 
 ### How to upgrade to upgrade to new JD Cloud Account
 
-Log in JD Cloud’s page of "Account Management-Basic Data", click **Update to the Latest JD Cloud Account** and the upgrade window is opened.
-![](../../../image/User/Account-Mgmt/Accout-Card.png)
-![](../../../image/User/Account-Mgmt/UC-Upgrade.png)
-![](../../../image/User/Account-Mgmt/Upgrade-Window.png)
-
-The "account name" in the upgrade window is your new account. The "account name" is as the same as your original JD account by default. If you need to change it, please click **Modify Account Name**.
-Set and confirm the new account login password, click the **Upgrade Now** button and upgrade is completed.
-![](../../../image/User/Account-Mgmt/UC-Upgrade2.png)
-![](../../../image/User/Account-Mgmt/Upgrade-Success.PNG)
-
-After upgrade is successfully made, you can log in JD Cloud via the new account name and password. The new account login page is as shown below.
-By default, JD Cloud supports account login still via the original JD Cloud account. If you need to disable access to JD Cloud account, please contact JD Cloud Customer Service or open ticket for application.
-![](../../../image/User/Account-Mgmt/log1-1030.PNG)
+Contact JD Cloud Customer Service (by opening ticket, sending emails to jdcloud@jd.com or calling 400 615 1212) to upgrade your account. After the upgrade is successful, you can directly log in JD Cloud without going through the JD’s login entrance. For logging in for the first time, please set the login password through the "Forget the Password" first.
 
 ### FAQ
 

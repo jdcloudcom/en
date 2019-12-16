@@ -20,11 +20,11 @@ Cooperative use of Incremental Data Synchronization and [Historical Data Synchro
 
 1.Login to the Console->OSS->Object Storage Service->Enter a Bucket->Space Settings->Incremental Data Synchronization
 
-![增量数据同步](https://github.com/jdcloudcom/cn/blob/cn-oss-1/image/Object-Storage-Service/OSS-041.png)
+![增量数据同步](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-041.png)
 
 2. Click **Enable** button to open the dialog box of incremental data synchronization configuration.
 
-![配置增量数据同步](https://github.com/jdcloudcom/cn/blob/cn-oss-1/image/Object-Storage-Service/OSS-042.png)
+![配置增量数据同步](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-042.png)
 
 3.Select the region the target Bucket is located and the Bucket name.
 

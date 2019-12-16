@@ -22,3 +22,13 @@ Now, slow search logs and error logs are adopted as the logs accessing Log Servi
 | 4 | database_name | Name of Database Requested for Access | string |
 | 5 | error_severity | Log Error Level | string |
 | 6 | detail | Specific Error Log Information | string |
+
+#### Audit log
+| SN | Field Name | Field Description | Field Type |
+| --- | --- | --- | --- | 
+| 1 | start_time  | Slow Search Start Time | string |
+| 2 | client_ip | User Client IP Address | string |
+| 3 | user_name | Access User Name | string |
+| 4 | database_name | Name of Database Requested for Access | string |
+| 5 | command | Operation Command | string |
+| 6 | statement | Audit sql | string |

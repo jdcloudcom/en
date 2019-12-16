@@ -68,6 +68,7 @@ canal.instance.dbPassword	| Password of MySQL Database.
 ```
 vi conf/application.yml
 ```
+
 Parameter | Parameter Description
 -- | --
 canal.conf.canalServerHost	| canalDeployer Access Address. Keep the default option (127.0.0.1:11111).
@@ -80,9 +81,11 @@ canal.conf.canalAdapters.groups.outerAdapters.properties.security.auth	| <The Ac
 canal.conf.canalAdapters.groups.outerAdapters.properties.cluster.name	| The ID of JD Cloud ES instance is available on the basic information overview page of the instance.
 
 2) Modify conf/es/*.yml file, and define the mapping fields from MySQL bata to ES data
+
 ```
 vi conf/es/*.yml
 ```
+
 Parameter | Parameter Description
 -- | --
 esMapping._index | The index name created in ES instance in creating table and field section. This document uses es_test.
@@ -91,9 +94,11 @@ esMapping._id	| The id of documents that need to be synchronized to ES instance 
 esMapping.sql	| Sql statement is used to search the fields the need to be synchronized to ES.
 
 3) Start Canal-adapter service.
+
 ```
 ./bin/startup.sh
 ```
+
 4. Export the incremental data.</br>
 
 1) The data in testml table of the management database testml in MySQL Database. The newly added data as an example is shown below:

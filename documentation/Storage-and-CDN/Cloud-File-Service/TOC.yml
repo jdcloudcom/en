@@ -44,8 +44,10 @@ items:
         href: Operation-Guide/Deleting-Mount-Target.md
       - name: Modify Attached Target
         href: Operation-Guide/Editing-Mount-Target.md
-      - name: Attach File Storage
+      - name: Linux Operating System Attach File Storage
         href: Operation-Guide/Mount-File-System.md
+      - name: Windows Operating System Attach File Storage
+        herf: Operation-Guide/Mount-File-System-win.md
       - name: Detached File Storage
         href: Operation-Guide/Unmount-File-System.md
       - name: Delete File Storage

@@ -616,6 +616,159 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td></td>
    </tr>
    <tr>
+      <td rowspan="15">Storage Optimization</td>
+      <td rowspan="5">IO</td>
+      <td>s.i1.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>709</td>
+      <td>531.8</td>
+      <td>2.46</td>
+      <td>1.85</td>
+      <td>1*960GB SSD</td>
+   </tr>
+   <tr>
+      <td>s.i1.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>1418</td>
+      <td>1063.6</td>
+      <td>4.92</td>
+      <td>3.69</td>
+      <td>2*960GB SSD</td>
+   </tr>  
+   <tr>
+      <td>s.i1.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>2836</td>
+      <td>2127.2</td>
+      <td>9.85</td>
+      <td>7.39</td>
+      <td>4*960GB SSD</td>
+   </tr>
+   <tr>
+      <td>s.i1.8xlarge</td>
+      <td>32</td>
+      <td>128</td>
+      <td>5672</td>
+      <td>4254.4</td>
+      <td>19.69</td>
+      <td>14.77</td>
+      <td>8*960GB SSD</td>
+   </tr> 
+   <tr>
+      <td>s.i1.14xlarge</td>
+      <td>56</td>
+      <td>224</td>
+      <td>9926</td>
+      <td>7445.2</td>
+      <td>34.47</td>
+      <td>25.85</td>
+      <td>14*960GB SSD</td>
+   </tr>
+   <tr>
+      <td rowspan="10">Big Data</td>
+      <td>s.d2.xlarge</td>
+      <td>4</td>
+      <td>22</td>
+      <td>834.5</td>
+      <td>625.9</td>
+      <td>2.9</td>
+      <td>2.17</td>
+      <td>1*10000GB HDD</td>
+   </tr> 
+   <tr>
+      <td>s.d2.2xlarge</td>
+      <td>8</td>
+      <td>44</td>
+      <td>1669</td>
+      <td>1251.8</td>
+      <td>5.8</td>
+      <td>4.35</td>
+      <td>2*10000GB HDD</td>
+   </tr> 
+   <tr>
+      <td>s.d2.4xlarge</td>
+      <td>16</td>
+      <td>88</td>
+      <td>3338</td>
+      <td>2503.5</td>
+      <td>11.59</td>
+      <td>8.69</td>
+      <td>4*10000GB HDD</td>
+   </tr> 
+   <tr>
+      <td>s.d2.8xlarge</td>
+      <td>32</td>
+      <td>176</td>
+      <td>6676</td>
+      <td>5007</td>
+      <td>23.18</td>
+      <td>17.39</td>
+      <td>8*10000GB HDD</td>
+   </tr> 
+   <tr>
+      <td>s.d2.10xlarge</td>
+      <td>40</td>
+      <td>220</td>
+      <td>8345</td>
+      <td>6258.8</td>
+      <td>28.98</td>
+      <td>21.73</td>
+      <td>12*10000GB HDD</td>
+   </tr> 
+   <tr>
+      <td>s.d1.xlarge</td>
+      <td>4</td>
+      <td>22</td>
+      <td>694.5</td>
+      <td>520.9</td>
+      <td>2.41</td>
+      <td>1.81</td>
+      <td>1*6000GB HDD</td>
+   </tr> 
+   <tr>
+      <td>s.d1.2xlarge</td>
+      <td>8</td>
+      <td>44</td>
+      <td>1389</td>
+      <td>1041.8</td>
+      <td>4.82</td>
+      <td>3.62</td>
+      <td>2*6000GB HDD</td>
+   </tr> 
+   <tr>
+      <td>s.d1.4xlarge</td>
+      <td>16</td>
+      <td>88</td>
+      <td>2778</td>
+      <td>2083.5</td>
+      <td>9.65</td>
+      <td>7.23</td>
+      <td>4*6000GB HDD</td>
+   </tr> 
+   <tr>
+      <td>s.d1.8xlarge</td>
+      <td>32</td>
+      <td>176</td>
+      <td>5556</td>
+      <td>4167</td>
+      <td>19.29</td>
+      <td>14.47</td>
+      <td>8*6000GB HDD</td>
+   </tr> 
+   <tr>
+      <td>s.d1.10xlarge</td>
+      <td>40</td>
+      <td>220</td>
+      <td>6945</td>
+      <td>5208.8</td>
+      <td>24.11</td>
+      <td>18.09</td>
+      <td>12*6000GB HDD</td>
+   </tr> 
+   <tr>
       <td rowspan="9">GPU</td>
       <td rowspan="9">Standard</td>
       <td>p.n1p40.3xlarge</td>

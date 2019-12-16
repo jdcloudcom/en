@@ -44,6 +44,8 @@
             href: Operation-Guide/Queue-Management/Create-Queue.md
           - name: Manage Queue
             href: Operation-Guide/Queue-Management/Manage-Queue.md
+          - name: Trigger Function
+            href: Operation-Guide/Queue-Management/Trigger-Function.md
       - name: Message Management
         items:
           - name: Send Message

@@ -1,6 +1,6 @@
 # Price Overview
 
-JCS for MongoDB supports two billing types, including Monthly Package and Pay by Configuration. The instance cost consists of specification (CPU and memory) cost and the bucket cost.
+JCS for InfluxDB supports two billing types, including Monthly Package and Pay by Configuration. The instance cost consists of specification (CPU and memory) cost and the bucket cost.
 
 ## Specification Cost
 

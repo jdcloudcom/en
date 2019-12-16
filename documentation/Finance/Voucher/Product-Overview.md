@@ -9,7 +9,7 @@ Each gift voucher corresponds to a cloud product of specific specification and c
 Operation of the gift voucher is divided into two steps: 1) Purchase a gift voucher; 2) Subscribe a cloud product with the gift voucher
 
 ## How to purchase a gift voucher?
-At present, the voucher can be purchased on a JD Cloud official flagship store.
+Gift Voucher  At present, the gift voucher can be purchased on a JD Cloud official flagship store.
 
 ## What to subscribe a cloud product?
 1) After the gift voucher is purchased, you can log in your JD Cloud account and then IAM Console - Cost Center - Gift Voucher Management

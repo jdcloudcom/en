@@ -31,6 +31,7 @@ Content-Type|Present MIME type in the request. <br>Type: String<br>Default: bina
 Expect|The client uses Expect to inform OSS, expecting to occur certain specific behavior. If errors occur because OSS cannot respond, request packet body will not be sent. <br>Type: String<br>Default: None<br>Valid Values: 100-continue<br>Constraints: None|No
 Expires|Object Cache Expiration Time. <br>Type: String<br>Default: None<br>Constraints: None|No
 x-amz-storage-class| Object Storage Type, if it is not specified, it will be standard storage by default. <br>Type: Enum<br>Default: STANDARD<br>Valid Values: STANDARD, GLACIER, REDUCED_REDUNDANCY, STANDARD_IA|No
+x-amz-meta-\*|Header beginning with x-amz-meta-prefix is user-customized Header. The size of the customized Header (including key and value) cannot exceed 2K in UTF-8 encoding. |No
 
 ## Response
 ### Response Header

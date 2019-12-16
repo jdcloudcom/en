@@ -1,6 +1,6 @@
 # SDK Download
 
-JD Cloud Mobile Player SDK provide in different styles according to different terminals:   
+JD Cloud Player SDK provides the followings in different styles according to different terminals:   
 1. If you are a mobile developer, you need to integrate JD Cloud's Mobile Player SDK. You can click to download in the table as below;   
 2. If you are a Web developer, you need to inherit JD Cloud's Web Player SDK. You can click to experience in the table as below and right click [View Web Source Code] in the PC browser to view the web code implementation.
 
@@ -14,11 +14,11 @@ JD Cloud Mobile Player SDK provide in different styles according to different te
     <td><a href="https://zhanghao274.s3.cn-north-1.jdcloud-oss.com/android-sdk-v1.0.0-2019-11-19.zip">Click to download</a><br/> </td>
 </tr>
 <tr>
-    <td>Mobile Player IOS</td>
+    <td>Mobile Player iOS</td>
     <td><a href="https://zhanghao274.s3.cn-north-1.jdcloud-oss.com/iOS-sdk-v1.0.0-2019-11-19.zip">Click to download</a><br/> </td>
 </tr>
 <tr>
-    <td>Web, h5</td>
+    <td>Web/H5</td>
     <td><a href="https://j.jdcloud.com/video/player/1.0.0/index.html">Click to experience</a><br/> </td>
 </tr>                
 </table>

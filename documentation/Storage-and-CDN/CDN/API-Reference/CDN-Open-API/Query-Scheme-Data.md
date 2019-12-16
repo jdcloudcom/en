@@ -13,6 +13,7 @@ Count data of traffic requests by protocols (scheme_data)
 | domain     | String   | Yes           | Domain to be searched, support search of multiple domains, parameter example "www.a.com,www.b.com"  |
 | start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference Example: 2016-12-14 07:00; |
 | end_time   | String   | No           | Not a required parameter; if no parameter is transmitted, the current time is the default                             |
+| ipType     | String   | No           | Value Range [ipv6,ipv4], the IP Type is not distinguished by default when not uploaded.  |
 
 
 ## **3. Return Parameter**

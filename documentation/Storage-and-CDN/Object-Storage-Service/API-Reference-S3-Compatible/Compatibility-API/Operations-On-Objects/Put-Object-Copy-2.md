@@ -23,6 +23,8 @@ Name|Description|Must
 ---|---|---
 x-amz-copy-source|Source Bucket and source Object name are separated by "/". <br>Type: String<br>Default: None<br>The character string must use URL encoding|Yes
 x-amz-storage-class|If there is no specified header, the default storage type is Standard storage. <br>Type: Enum<br>Default: STANDARD<br>Valid Values: STANDARD, GLACIER, REDUCED_REDUNDANCY, STANDARD_IA|No
+x-amz-metadata-directive|If the header value is specified as COPY, the metadata of the original file other than x-amz-storage-class will be replicated to the target file. The customized metadata specified by PutObjectCopy will be ignored at this time. <br> If it is specified as REPLACE, the metadata of the target file depends on the specified metadata requested by PutObjectCopy. <br>Type: String<br>Default: COPY<br>Valid values: COPY, REPLACE|No
+x-amz-meta-\*|Header beginning with x-amz-meta-prefix is user-customized Header. The size of the customized Header (including key and value) cannot exceed 2K in UTF-8 encoding. |No
 
 ### Request Elements
 No Request Elements
