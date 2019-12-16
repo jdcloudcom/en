@@ -22,9 +22,9 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeLatestRestoreTime#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**latestRestoreTime**|String|When recover instances based on the time point, the latest time point can be recovered|

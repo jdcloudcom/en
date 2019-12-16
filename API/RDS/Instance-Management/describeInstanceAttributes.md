@@ -2,7 +2,7 @@
 
 
 ## Description
-Query the details of the RDS instance (MySQL, SQL Server, etc.) and the MySQL read-only instance details
+Search detailed information of RDS instances (MySQL, SQL Server, etc.) as well as information of MySQL/PostgreSQL real-only instance
 
 ## Request method
 GET
@@ -22,13 +22,13 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeInstanceAttributes#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**dbInstanceAttributes**|DBInstanceAttribute| |
-### DBInstanceAttribute
+|**dbInstanceAttributes**|[DBInstanceAttribute](describeInstanceAttributes#DBInstanceAttribute)| |
+### <a name="DBInstanceAttribute">DBInstanceAttribute</a>
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Instance ID|
@@ -56,24 +56,24 @@ None
 |**auditStatus**|String|Auditing status, see [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- Only support MySQL|
 |**instanceStatus**|String|Instance status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**createTime**|String|Instance Creation Time|
-|**charge**|Charge|Billing Configuration|
+|**charge**|[Charge](describeInstanceAttributes#Charge)|Billing Configuration|
 |**sourceInstanceId**|String|Main Instance ID Corresponded To MySQL Read-only Instance<br>- Only support MySQL|
 |**roInstanceIds**|String[]|Read-only Instance ID List<br>- Only support MySQL|
-|**primaryNode**|DBInstanceNode|Information of master node in High Availability Cluster<br>- only support SQL Serverer|
-|**secondaryNode**|DBInstanceNode|Information of slave node in High Availability Cluster<br>- only support SQL Serverer|
-|**tags**|Tag[]|Tag Information|
-### Tag
+|**primaryNode**|[DBInstanceNode](describeInstanceAttributes#DBInstanceNode)|Information of primary node in high availability cluster<br>- Only support SQL Server|
+|**secondaryNode**|[DBInstanceNode](describeInstanceAttributes#DBInstanceNode)|Information of secondary node in high availability cluster<br>- only support SQL Server|
+|**tags**|[Tag[]](describeInstanceAttributes#Tag)|Tag Information|
+### <a name="Tag">Tag</a>
 |Name|Type|Description|
 |---|---|---|
 |**key**|String|Tag Key|
 |**value**|String|Tag Value|
-### DBInstanceNode
+### <a name="DBInstanceNode">DBInstanceNode</a>
 |Name|Type|Description|
 |---|---|---|
 |**id**|String|Nodeid|
 |**name**|String|Node Name|
 |**status**|String|Node Status|
-### Charge
+### <a name="Charge">Charge</a>
 |Name|Type|Description|
 |---|---|---|
 |**chargeMode**|String|Payment Model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|

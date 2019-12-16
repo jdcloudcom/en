@@ -53,7 +53,7 @@ items:
             href: Role-Management/attachRolePolicy.md
           - name: detachRolePolicy
             href: Role-Management/detachRolePolicy.md
-      - name:  Policy Management APIs
+      - name: Policy Management APIs
         items:
           - name: createPolicy
             href: Policy-Management/createPolicy.md
@@ -63,22 +63,6 @@ items:
             href: Policy-Management/updatePolicyDescription.md
           - name: deletePolicy
             href: Policy-Management/deletePolicy.md
-      - name:  Policy Management APIs
-        items:
-          - name: addPermissionsToSubUser (the old version is about to be offline)
-            href: Permission-Management/addPermissionsToSubUser.md
-          - name: createPermission (the old version is about to be offline)
-            href: Permission-Management/createPermission.md
-          - name: describePermissionDetail (the old version is about to be offline)
-            href: Permission-Management/describePermissionDetail.md
-          - name: describePermissions (the old version is about to be offline)
-            href: Permission-Management/describePermissions.md
-          - name: describeSubUserPermissions (the old version is about to be offline)
-            href: Permission-Management/describeSubUserPermissions.md
-          - name: removePermissionOfSubUser (the old version is about to be offline)
-            href: Permission-Management/removePermissionOfSubUser.md
-          - name: updatePermission (the old version is about to be offline)
-            href: Permission-Management/updatePermission.md
       - name: AKSK Management APIs of Primary Accounts
         items:
           - name: createUserAccessKey

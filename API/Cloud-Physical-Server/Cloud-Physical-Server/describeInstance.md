@@ -61,6 +61,8 @@ None
 |**elasticIpId**|String|Elastic IPID|
 |**publicIp**|String|Public IP|
 |**publicIpv6**|String|Internet IPv6|
+|**keypairId**|String|Key Pair id|
+|**agentStatus**|String|agent status|
 |**charge**|Charge|Billing Information|
 ### Charge
 |Name|Type|Description|

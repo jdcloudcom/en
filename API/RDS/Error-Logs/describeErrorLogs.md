@@ -22,13 +22,13 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeErrorLogs#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**errorLogs**|ErrorLog[]|Collection of Error Log Files|
-### ErrorLog
+|**errorLogs**|[ErrorLog[]](describeErrorLogs#ErrorLog)|Error Log File Set|
+### <a name="ErrorLog">ErrorLog</a>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Error Log File Name|

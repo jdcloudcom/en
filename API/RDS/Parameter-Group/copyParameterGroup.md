@@ -2,7 +2,7 @@
 
 
 ## Description
-Copy parameter group<br>- Only support MySQL
+Copy Parameter Set
 
 ## Request Method
 POST
@@ -25,9 +25,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups:copyParameterG
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](copyParameterGroup#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**parameterGroupId**|String| |

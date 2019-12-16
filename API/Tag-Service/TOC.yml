@@ -1,0 +1,23 @@
+  name: Tag Management
+  href: 
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Tag Edit
+        items:
+          - name: tagResources
+            href: Tag-Service/tagResources.md
+          - name: untagResources
+            href: Tag-Service/untagResources.md  
+      - name: Tag Search
+        items:
+          - name: describeTags
+            href: Tag-Service/describeTags.md
+          - name: describeResources
+            href: Tag-Service/describeResources.md  
+          - name: queryResource
+            href: Tag-Service/queryResource.md  

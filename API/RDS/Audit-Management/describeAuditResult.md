@@ -24,9 +24,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:d
 |**accountName**|String|False| |Account Name|
 |**pageNumber**|Integer|False| |Page displaying the data; it is 1 by default, the value range: [-1,∞)|
 |**pageSize**|Integer|False| |The data entries displayed on each page, which is 10 by default, with the value range: 10, 20, 50|
-|**filters**|Filter[]|False| |Filter parameters, the relationship between multiple filtered parameters is "and", supporting filtration of the following attributes: <br>operation<br>|
+|**filters**|[Filter[]](describeAuditResult#Filter)|False| |Filtering parameters, the relationship between multiple filtering parameters is "AND"<br>Support the filter for following attributes:|
 
-### Filter
+### <a name="Filter">Filter</a>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name of Filtering Conditions|
@@ -36,14 +36,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:d
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeAuditResult#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**auditResult**|AuditResult[]| |
+|**auditResult**|[AuditResult[]](describeAuditResult#AuditResult)| |
 |**totalCount**|Integer| |
-### AuditResult
+### <a name="AuditResult">AuditResult</a>
 |Name|Type|Description|
 |---|---|---|
 |**startTime**|String|SQL Execution Time|

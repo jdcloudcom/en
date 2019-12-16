@@ -2,7 +2,7 @@
 
 
 ## Description
-Obtain the binlog download link of MySQL instance<br>- only support MySQL
+Obtain the binlog download link of MySQL instance<br>- Only support MySQL, Percona and MariaDB
 
 ## Request Method
 GET
@@ -17,15 +17,17 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/binlogs
 |**binlogBackupId**|String|True| |Backup ID of binlog, which may be obtained through describeBinlogs|
 
 ## Request Parameter
-None
+|Name|Type|Required or Not|Default|Description|
+|---|---|---|---|---|
+|**seconds**|Integer|False| |Set an expiration time to link address, the unit is second, the default value is 300 seconds, and the maximum time cannot exceed the value range of 1 ~ 86400 seconds|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeBinlogDownloadURL#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**publicURL**|String|Public network download link|

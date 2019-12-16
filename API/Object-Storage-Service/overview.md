@@ -4,7 +4,7 @@
 ## Introduction
 Object Storage Service APIs
 
-Note: OpneAPI APIs do not support IAM sub-users to access. When access via sub-user, please use [Compatible S3 API](https://docs.jdcloud.com/en/object-storage-service/compatibility-api-overview).
+Note: The following OpenAPIs do not support access by IAM sub-users. When access by sub-user is required, please use [Compatible S3 API](https://docs.jdcloud.com/en/object-storage-service/compatibility-api-overview).
 
 ### Version
 v1

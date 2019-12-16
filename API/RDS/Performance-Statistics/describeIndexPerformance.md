@@ -18,7 +18,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**queryType**|String|True| |Query Type, Return Results of Fields From High to Low for Different Query Types. <br>The following types are supported:<br>Missing: Index missing<br>Size: Index size, unit KB<br>Updates: Index updates<br>Scans: Table scan times<br>Used: Least used|<br>|
+|**queryType**|String|True| |Query Type, Return Results of Fields From High to Low for Different Query Types. <br>The following types are supported:<br>Missing: Index missing<br>Size: Index size, unit KB<br>Updates: Index updates<br>Scans: Table scan times<br>Used: Least used<br>|
 |**db**|String|False| |Multiple names of the database to be queried are separated by commas and all databases are by default.|
 |**pageNumber**|Integer|False| |The default of the page number of the data displayed is 1 and the value range is [-1,1000). When pageNumber is -1, return all data page numbers; when the total number of pages is exceeded, display the last page.|
 |**pageSize**|Integer|False| |The default of the number of data displayed per page is 50 and the value range is [1,100]. It can only be a multiple of 10 used for the API to query the list.|
@@ -27,17 +27,17 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeIndexPerformance#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**missingIndexResult**|MissingIndexResult[]|When queryType is Missing, the result set is MissingIndexResult<br>when queryType is other values, the field is null.|
-|**indexPerformanceResult**|IndexPerformanceResult[]|When the queryType is Missing, the field is empty <br>when the queryType is other values, return IndexPerformanceResult|
+|**missingIndexResult**|[MissingIndexResult[]](describeIndexPerformance#MissingIndexResult)|When queryType is Missing, the returned result set is MissingIndexResult<br>When queryType is another value, this field is null|
+|**indexPerformanceResult**|[IndexPerformanceResult[]](describeIndexPerformance#IndexPerformanceResult)|When queryType is Missing, this field is null<br>When queryType is another value, IndexPerformanceResult is returned|
 |**totalCount**|Integer|Total Number of Records|
 |**pageNumber**|Integer|The Page Number of the Current Data|
 |**pageSize**|Integer|The Number of Data Displayed Per Page|
-### IndexPerformanceResult
+### <a name="IndexPerformanceResult">IndexPerformanceResult</a>
 |Name|Type|Description|
 |---|---|---|
 |**db**|String|Database Name|
@@ -50,7 +50,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |**lastUserSeek**|String|Last index search time, format YYYY-MM-DD hh:mm:ss|
 |**lastUserScan**|String|The most recent table scan time, format: YYYY-MM-DD hh:mm:ss|
 |**lastUserUpdate**|String|The most recent index update time, format: YYYY-MM-DD hh:mm:ss|
-### MissingIndexResult
+### <a name="MissingIndexResult">MissingIndexResult</a>
 |Name|Type|Description|
 |---|---|---|
 |**db**|String|Database Name|

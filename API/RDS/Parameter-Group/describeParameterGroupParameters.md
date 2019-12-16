@@ -22,13 +22,13 @@ None
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeParameterGroupParameters#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**parameters**|ParameterGroupParameter[]| |
-### ParameterGroupParameter
+|**parameters**|[ParameterGroupParameter[]](describeParameterGroupParameters#ParameterGroupParameter)| |
+### <a name="ParameterGroupParameter">ParameterGroupParameter</a>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Parameter Name|

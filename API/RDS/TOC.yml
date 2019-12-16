@@ -159,6 +159,8 @@
 
       - name: Log Management
         items:
+          - name: describeLogDownloadURL
+            herf: LOG/describeLogDownloadURL.md
           - name: describeLogs
             herf: LOG/describeLogs.md
           - name: updateLogDownloadURLInternal

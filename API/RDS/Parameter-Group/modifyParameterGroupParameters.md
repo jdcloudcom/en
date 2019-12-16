@@ -18,9 +18,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGrou
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**parameters**|Parameter[]|True| |Modified Parameters|
+|**parameters**|[Parameter[]](#Parameter)|True| |Modified Parameters|
 
-### Parameter
+### <a name="Parameter">Parameter</a>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Parameter Name|

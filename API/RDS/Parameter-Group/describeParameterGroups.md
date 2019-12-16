@@ -24,14 +24,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeParameterGroups#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**parameterGroups**|ParameterGroup[]| |
+|**parameterGroups**|[ParameterGroup[]](describeParameterGroups#ParameterGroup)| |
 |**totalCount**|Integer| |
-### ParameterGroup
+### <a name="ParameterGroup">ParameterGroup</a>
 |Name|Type|Description|
 |---|---|---|
 |**parameterGroupId**|String|Parameter group ID|

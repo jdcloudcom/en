@@ -22,13 +22,13 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeParameters#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**parameters**|DBInstanceParameter[]|List of Instance Configuration Parameters|
-### DBInstanceParameter
+|**parameters**|[DBInstanceParameter[]](describeParameters#DBInstanceParameter)|List of Instance Configuration Parameters|
+### <a name="DBInstanceParameter">DBInstanceParameter</a>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Parameter Name|

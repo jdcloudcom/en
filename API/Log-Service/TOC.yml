@@ -1,0 +1,45 @@
+name: Log Service
+href: 
+items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Log Collection
+        items:
+          - name: createLogset
+            href: Logset-APIs/createLogset.md
+          - name: deleteLogset
+            href: Logset-APIs/deleteLogset.md
+          - name: describeLogset
+            href: Logset-APIs/describeLogset.md
+          - name: describeLogsets
+            href: Logset-APIs/describeLogsets.md
+          - name: updateLogset
+            href: Logset-APIs/updateLogset.md
+      - name: Log Subject
+        items:
+          - name: createLogtopic
+            href: Logtopic-APIs/createLogtopic.md
+          - name: deleteLogtopic
+            href: Logtopic-APIs/deleteLogtopic.md
+          - name: describeLogtopic
+            href: Logtopic-APIs/describeLogtopic.md
+          - name: describeLogtopics
+            href: Logtopic-APIs/describeLogtopics.md
+          - name: updateLogtopic
+            href: Logtopic-APIs/updateLogtopic.md
+      - name: Log Collection Configuration
+        items:
+          - name: createCollectInfo
+            href: CollectInfo-APIs/createCollectInfo.md
+          - name: describeCollectInfo
+            href: CollectInfo-APIs/describeCollectInfo.md
+          - name: describeCollectResources
+            href: CollectInfo-APIs/describeCollectResources.md
+          - name: updateCollectInfo
+            href: CollectInfo-APIs/updateCollectInfo.md
+          - name: updateCollectResources
+            href: CollectInfo-APIs/updateCollectResources.md

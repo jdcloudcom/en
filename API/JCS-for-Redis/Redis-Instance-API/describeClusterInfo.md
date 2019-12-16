@@ -2,7 +2,7 @@
 
 
 ## Description
-Search internal cluster information of Redis instances
+Search internal cluster information of Redis instance
 
 ## Request Method
 GET
@@ -22,23 +22,23 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Result|
+|**result**|[Result](#Result)|Result|
 |**requestId**|String|ID of This Request|
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**info**|ClusterInfo|Internal Cluster Information|
-### ClusterInfo
+|**info**|[ClusterInfo](#ClusterInfo)|Internal Cluster Information|
+### <a name="ClusterInfo">ClusterInfo</a>
 |Name|Type|Description|
 |---|---|---|
-|**proxies**|Proxy|proxy List|
-|**shards**|Shard|shard List|
-### Shard
+|**proxies**|[Proxy](#Proxy)|proxy List|
+|**shards**|[Shard](#Shard)|shard List|
+### <a name="Shard">Shard</a>
 |Name|Type|Description|
 |---|---|---|
 |**id**|String| |
-### Proxy
+### <a name="Proxy">Proxy</a>
 |Name|Type|Description|
 |---|---|---|
 |**id**|String| |

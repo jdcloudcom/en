@@ -1,0 +1,17 @@
+  name: Text Message
+  href: 
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: SMS Sending APIs
+        items:
+          - name: batchSend
+            href:  Send-Message-Related-APIs/batchSend.md
+          - name: reply
+            href:  Send-Message-Related-APIs/reply.md
+          - name: statusReport
+            href:  Send-Message-Related-APIs/statusReport.md

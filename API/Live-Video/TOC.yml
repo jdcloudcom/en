@@ -151,6 +151,30 @@ items:
         href: Live-Video/describeLiveStreamSnapshotNotifyConfig.md
       - name: Delete snapshot callback configuration
         href: Live-Video/deleteLiveStreamSnapshotNotifyConfig.md
+  - name: Live Quality Detection
+    items:
+      - name: Add Live Quality Detection Template
+        href: Live-Video/addCustomLiveStreamQualityDetectionTemplate.md
+      - name: Delete Live Quality Detection Template
+        href: Live-Video/deleteCustomLiveStreamQualityDetectionTemplate.md
+      - name: Search Live Quality Detection Template List
+        href: Live-Video/describeCustomLiveStreamQualityDetectionTemplates.md
+      - name: Add Domain Name Quality Detection Configuration
+        href: Live-Video/addLiveStreamDomainQualityDetection.md
+      - name: Delete domain
+        href: Live-Video/deleteLiveStreamDomainQualityDetection.md
+      - name: Add Application Quality Detection configuration
+        href: Live-Video/addLiveStreamAppQualityDetection.md
+      - name: Delete Quality Detection Template Configuration at Application Level
+        href: Live-Video/deleteLiveStreamAppQualityDetection.md
+      - name: Set Live Quality Detection Callback Notification Address
+        href: Live-Video/setLiveStreamQualityDetectionNotifyConfig.md
+      - name: Delete Quality Detection Callback Configuration
+        href: Live-Video/deleteLiveStreamQualityDetectionNotifyConfig.md
+      - name: Search Quality Detection Callback Configuration
+        href: Live-Video/describeLiveStreamQualityDetectionNotifyConfig.md
+      - name: Search Quality Detection Template Association
+        href: Live-Video/describeQualityDetectionBinding.md
   - name: Live Watermark
     items:
       - name: Add live watermark template
@@ -213,7 +237,16 @@ items:
         href: Live-Video/describeLivePornData.md
       - name: Search Play URL Ranking
         href: Live-Video/describeUrlRanking.md
-
+  - name: Certificate Management
+    items:
+      - name: Search Live Certificate
+        href: Live-Video/describeLiveDomainCertificate.md
+      - name: Set Live Certificate
+        href: Live-Video/setLiveDomainCertificate.md
+      - name: Search Restart Certificate
+        href: Live-Video/describeLiveRestartDomainCertificate.md
+      - name: Set Restart Certificate
+        href: Live-Video/setLiveRestartDomainCertificate.md
   - name: Authentication Correlation
     items:
       - name: Live Pushing Streaming Authentication

@@ -12,7 +12,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/listeners
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID, call API (describeRegiones) to get regions supported by Cloud Physical Server|
+|**regionId**|String|True| |Region ID, call APIs (queryCPSLBRegions) to get regions supported by Cloud Physical Server|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
@@ -28,21 +28,14 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/listeners
 |**port**|Integer|True| |Port 1-65535|
 |**algorithm**|String|True| |Scheduling algorithm, with the value wrr (weighted round robin)|wlc (weighting least connection number)|conhash (Source IP))|
 |**stickySession**|String|True| |Enable Session Persistence or not, with the value on|off|
-|**stickySessionTimeout**|Integer|False| |Session Persistence Time-out Period, Unit: s|
-|**cookieType**|String|False| |Session type, with the value ImplantCookie|RewriteCookie|
 |**realIp**|String|False| |Get actual ip or not, with the value on|off|
-|**certificateId**|String|False| |Certificate ID|
 |**name**|String|True| |Name|
 |**description**|String|False| |Description|
-|**headers**|String[]|False| |HTTP Extension Header|
 |**healthCheck**|String|True| |Enable Health Check or not, with the value on|off|
 |**healthCheckTimeout**|Integer|False| |Maximum Time-out Period of Health Check Response, Unit: s|
 |**healthCheckInterval**|Integer|False| |Maximum Interval of Health Check Response, Unit: s|
 |**healthyThreshold**|Integer|False| |Health Check Result with Threshold of success|
 |**unhealthyThreshold**|Integer|False| |Health Check Result with Threshold of fail|
-|**healthCheckUri**|String|False| |Health Check URI|
-|**healthCheckHttpCode**|String|False| |Normal HTTP status codes of Health Check are separated with ,|
-|**healthCheckIp**|String|False| |Health Check ip|
 |**serverGroupId**|String|False| |Server Group id|
 
 ## Return Parameter

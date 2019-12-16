@@ -22,13 +22,13 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeImportFiles#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**importFiles**|ImportFile[]|Collection of Imported Files|
-### ImportFile
+|**importFiles**|[ImportFile[]](describeImportFiles#ImportFile)|Import File Set|
+### <a name="ImportFile">ImportFile</a>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|File Name|

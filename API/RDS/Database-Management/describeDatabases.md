@@ -26,22 +26,22 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeDatabases#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**databases**|Database[]| |
+|**databases**|[Database[]](describeDatabases#Database)| |
 |**totalCount**|Integer| |
-### Database
+### <a name="Database">Database</a>
 |Name|Type|Description|
 |---|---|---|
 |**dbName**|String|Database Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
 |**dbStatus**|String|Database status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **MySQL: Not support, not return this field**<br>- **SQL Server: return this field**|
 |**characterSetName**|String|Character set, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**createTime**|String|Database creation time, with the format: YYYY-MM-DD HH:mm:ss<br>- only support SQL Serverer|
-|**accessPrivilege**|DBAccessPrivilege[]|List of Database Related Account Privilege|
-### DBAccessPrivilege
+|**accessPrivilege**|[DBAccessPrivilege[]](describeDatabases#DBAccessPrivilege)|Account permission list related to this database|
+### <a name="DBAccessPrivilege">DBAccessPrivilege</a>
 |Name|Type|Description|
 |---|---|---|
 |**accountName**|String|Account Name|

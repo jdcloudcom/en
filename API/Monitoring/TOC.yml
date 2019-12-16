@@ -23,27 +23,32 @@ items:
             href: Monitoring-Rules-APIs/describeAlarmHistory.md
           - name: describeAlarms
             href: Monitoring-Rules-APIs/describeAlarms.md
-          - name: describeAlarmsByID
-            href: Monitoring-Rules-APIs/describeAlarmsByID.md
-          - name: disableAlarm
-            href: Monitoring-Rules-APIs/disableAlarm.md
+          - name: describeAlarm
+            href: Monitoring-Rules-APIs/describeAlarm.md
           - name: enableAlarm
             href: Monitoring-Rules-APIs/enableAlarm.md
           - name: updateAlarm
             href: Monitoring-Rules-APIs/updateAlarm.md
+          - name: describeMetricsForAlarm
+            href: Monitoring-Rules-APIs/describeMetricsForAlarm.md
+          - name: describeProductsForAlarm
+            href: Monitoring-Rules-APIs/describeProductsForAlarm.md
       - name: Monitor Item Data
         items:
           - name: describeMetricData
             href: Monitoring-Items-APIs/describeMetricData.md
           - name: describeMetrics
             href: Monitoring-Items-APIs/describeMetrics.md
-          - name: describeMetricsForCreateAlarm
-            href: Monitoring-Items-APIs/describeMetricsForCreateAlarm.md
+          - name: describeServices
+            href: Monitoring-Items-APIs/describeServices.md
           - name: lastDownsample
             href: Monitoring-Items-APIs/lastDownsample.md
   - name: Use Help
     items:
       - name: Monitoring
         href: Help/monitor_alarm.md
-      - name: Monitor Item Data
-        href: Help/monitor_metric_data.md            
+      - name: Monitor Item Data 
+        href: Help/monitor_metric_data.md              
+
+
+

@@ -37,6 +37,8 @@ https://elite.cn-south-1.jdcloud-api.com/v1/regions/{regionId}/getSaleServiceByD
 |---|---|---|
 |**deliverNumber**|String|Delivery Form Number|
 |**orderNumber**|String|Order Number|
+|**orderType**|Integer|Order Type|
+|**orderTypeName**|String|Order Type Name|
 |**buyerPin**|String|Purchaser|
 |**mappingCode**|String|Mapping Number|
 |**supportAutoDeliver**|Integer|If automatic delivery is supported, 0 means No, 1 means Yes|

@@ -1,8 +1,16 @@
 # Update History #
-API Version: 0.6.4
+API Version: 0.7.3
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2019-10-30|0.7.2|API Update|* Log file list returns logs update| 
+|2019-10-30|0.7.1|API Update|* Log file list supports filters filtering| 
+|2019-10-30|0.7.0|API Update|*Configuration change supports disk type selection <br>* MySQL list returns domain and supports domain filtering| 
+|2019-10-24|0.6.9|API Description Update|
+|2019-10-17|0.6.8|Internal APIs search actual status and add floatIP|
+|2019-10-09|0.6.7|Add download link APIs for log files|* Disable read-only APIs|
+|2019-10-09|0.6.6|Add read-only instance agent service APIs|* View specific agent service information of read-only instance<br>* Enable Internet access function for read-only instance agent service<br>* Disable Internet access function of read-only instance agent service<br>* Search instance details and return roInstanceProxyID|
+|2019-09-10|0.6.5|MySQL API Update|* Backup download link and Binlog download link support expiration time setting|
 |2019-05-27|0.6.4|MySQL APIs Update|* Newly created instance supports designated port number|
 |2019-05-27|0.5.9|Add PG APIs |* Support configuration change and log management|
 |2019-05-27|0.5.8|Add MySQL APIs|* Support onlineDDL and high permission authorization|

@@ -22,9 +22,9 @@ None
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeIntercept#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**available**|Boolean| |

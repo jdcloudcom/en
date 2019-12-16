@@ -102,6 +102,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; is postpaid_by_duration by default. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line|
 |**chargeUnit**|String|False| |Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, and valid only when chargeMode is prepaid_by_duration, and the value is month or year and month by default|
 |**chargeDuration**|Integer|False| |Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
+|**autoRenew**|boolean|False|false|true refers to enable automatic renewal, but false refers to disable automatic renewal and is only valid for resources in monthly package. If Cloud Disk Service and Public IP are purchased together, they shall be set together. Upon enabling, the purchase duration created at this time will be adopted as the automatic renewal period which can be modified in the Renew Management function.|
 ### InstanceDiskAttachmentSpec
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
@@ -168,3 +169,4 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**429**|Quota exceeded|
 |**500**|Internal server error|
 |**503**|Service unavailable|
+ 

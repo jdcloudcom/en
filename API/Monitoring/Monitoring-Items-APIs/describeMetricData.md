@@ -2,13 +2,13 @@
 
 
 ## Description
-View multiple monitoring item data of a resource, metric introduction 1: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>
+View a single monitoring item data of a specific resource, metric introduction: <a href="https://docs.jdcloud.com/en/monitoring/metrics">Metrics</a>, APIs can be used<a href="https://docs.jdcloud.com/en/monitoring/metrics">describeMetrics</a>: Search available metric list for product line.
 
 ## Request Method
 GET
 
 ## Request Address
-https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricData
+https://monitor.jdcloud-api.com/v2/regions/{regionId}/metrics/{metric}/metricData
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
@@ -18,15 +18,16 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**aggrType**|String|False| |Aggregation method, which is equal to downSampleType or avg by default, reference optional values: sum, avg, last, min and max|
-|**downSampleType**|String|False| |Sampling method, which is equal to aggrType or avg by default, reference optional values: sum, avg, last, min and max|
-|**startTime**|String|False| |Query start time of time range, UTC time, format: yyyy-MM-dd'T’HH:mm:ssZ (current time by default, if it is earlier than 30d, it will be reset to 30d)|
-|**endTime**|String|False| |Query end time of time range, UTC time, format: 2016-12- yyyy-MM-dd'T'HH:mm:ssZ (if it is blank, which shall be obtained by computing startTime and timeInterval)|
+|**aggrType**|String|False| |The aggregation method is used for aggregation on different timer shafts. For example, the same resourceId of the balance product has different dimensions such as port=80 and port=8080. The reference optional values include: sum, avg, min and max|
+|**downSampleType**|String|False| |Sampling method, used for aggregating data on the time shaft dimension during the aggregation period to one point. The reference optional values include: sum (data sum during aggregation period), avg (average value), last (last value), min (minimum value) and max (maximum value)|
+|**startTime**|String|False| |Start time of search time range, UTC time, format: 2016-12-11T00:00:00+0800 (please note that in url, + shall be translated to %2B. Therefore, in url, the format is 2016-12-11T00:00:00%2B0800)|
+|**endTime**|String|False| |End time of search time range, UTC time, format: 2016-12-11T00:00:00+0800 (if it is null, the end time will be calculated with startTime and timeInterval) (please note that in url, + shall be translated to %2B. Therefore, in url, the format is 2016-12-11T00:00:00%2B0800)|
 |**timeInterval**|String|False| |Time interval: 1h, 6h, 12h, 1d, 3d, 7d, 14d, fixed time interval, fill in at least one of timeInterval and endTime|
-|**tags**|TagFilter[]|False| |Custom Tag|
+|**tags**|TagFilter[]|False| |Monitor dimension information of index data and select different dimensions of indicator data according to tags|
 |**groupBy**|Boolean|False| |Confirm to group query tags|
 |**rate**|Boolean|False| |Whether need to solve the rate|
-|**serviceCode**|String|True| |Type of resource, taking values such as vm, lb, ip, database|
+|**serviceCode**|String|False| |Resource type values include vm, lb, ip, database. etc.<a href="https://docs.jdcloud.com/en/monitoring/api/describeservices?content=API&SOP=JDCloud">describeServices</a>: Search the list of product lines accessed to Monitoring|
+|**dimension**|String|False| |Resource Dimension|
 |**resourceId**|String|True| |Uuid of Resource|
 
 ### TagFilter
@@ -73,4 +74,5 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/metrics/{metric}/metricDat
 ## Return Code
 |Return Code|Description|
 |---|---|
-|**200**|api DescribeMetricData Response|
+|**200**|api DescribeMetricData Response  |
+

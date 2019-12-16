@@ -2,7 +2,7 @@
 
 
 ## Description
-Obtain the summary information about all RDS instances and MySQL read-only instances under the current account, such as instance type family, version, billing information, etc.
+Get summary information of all RDS instances and MySQL/PostgreSQL read-only instances under the current account, such as instance type family, version, billing information, etc.
 
 ## Request method
 GET
@@ -18,16 +18,16 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**pageNumber**|Integer|False| |Display the page number of the data. The default is 1 and the value range is [-1, ∞). When pageNumber is -1, return all data page numbers; when the total number of pages is exceeded, display the last page;|
-|**pageSize**|Integer|False| |The number of data displayed per page is 100 by default and the value range is [10,100], which is used for the API to query the list|
-|**filters**|Filter[]|False| |Filtering parameters, the relationship among multiple filtering parameters is "and" (and) <br>, supporting filtering with the following attributes: <br>instanceId, support operator option: eq<br>instanceName, support operator option: eq<br>engine, support operator option: eq<br>engineVersion, support operator option: eq<br>instanceStatus, support operator option: eq<br>chargeMode, support operator option: eq<br>vpcId, support operator option: eq<br>|
-|**tagFilters**|TagFilter[]|False| |Resource Tag|
+|**pageSize**|Integer|False| |The number of data entries displayed per page. It is 10 by default, with value range: [10, 100], and an integer multiple of 10|
+|**filters**|[Filter[]](describeInstances#Filter)|False| |Filtering parameters, the relationship between filtering parameters is "and"<br>supporting filtering by the following attributes<br>instanceId, supporting operator option: eq<br>instanceName, supporting operator option: eq, like<br>engine, supporting operator option: eq<br>engineVersion, supporting operator option: eq<br>instanceStatus, supporting operator option: eq<br>vpcId, supporting operator option: eq<br>instanceType, supporting operator option: eq<br>internalDomainName, supporting operator option: eq<br>publicDomainName, supporting operator option: eq<br>|
+|**tagFilters**|[TagFilter[]](describeInstances#TagFilter)|False| |Resource Tag|
 
-### TagFilter
+### <a name="TagFilter">TagFilter</a>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**key**|String|True| |Tag Key|
 |**values**|String[]|True| |Tag Value|
-### Filter
+### <a name="Filter">Filter</a>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name of Filter Requirements|
@@ -37,14 +37,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeInstances#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**dbInstances**|DBInstance[]| |
+|**dbInstances**|[DBInstance[]](describeInstances#DBInstance)| |
 |**totalCount**|Integer| |
-### DBInstance
+### <a name="DBInstance">DBInstance</a>
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Instance ID|
@@ -61,17 +61,19 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |**vpcId**|String|VPC ID|
 |**subnetId**|String|Subnet ID|
 |**instanceStatus**|String|Instance status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
+|**publicDomainName**|String|Instance Public Network Domain<br>- Only support MySQL|
+|**internalDomainName**|String|Instance Intranet Domain<br>- Only support MySQL|
 |**createTime**|String|Instance Creation Time|
-|**backupSynchronicity**|BackupSynchronicityAbstract[]|Instance Cross-region Backup Service enables relevant information|
-|**charge**|Charge|Billing Configuration|
-|**tags**|Tag[]|Tag Information|
-|**sourceInstanceId**|String|Main Instance ID Corresponded To MySQL Read-only Instance|
-### Tag
+|**backupSynchronicity**|[BackupSynchronicityAbstract[]](describeInstances#BackupSynchronicityAbstract)|Instance Cross-region Backup Service enables relevant information|
+|**charge**|[Charge](describeInstances#Charge)|Billing Configuration|
+|**tags**|[Tag[]](describeInstances#Tag)|Tag Information|
+|**sourceInstanceId**|String|Main Instance IDs Corresponded to MySQL and PostgreSQL Read-only Instances|
+### <a name="Tag">Tag</a>
 |Name|Type|Description|
 |---|---|---|
 |**key**|String|Tag Key|
 |**value**|String|Tag Value|
-### Charge
+### <a name="Charge">Charge</a>
 |Name|Type|Description|
 |---|---|---|
 |**chargeMode**|String|Payment Model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
@@ -79,7 +81,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |**chargeStartTime**|String|The start time of the billing shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
 |**chargeExpiredTime**|String|Expiration Time, i.e. the expiration time of Pay-In-Advance resource, which shall be subject to ISO8601, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ. Pay-As-You-Go resource field is blank.|
 |**chargeRetireTime**|String|The Expected Release Time refers to the expected release time of resources. This value is both available for the Pay-In-Advance/Pay-As-You-Go resources, conforming to the ISO8601 standard, with the UTC time used in the format of YYYY-MM-DDTHH:mm:ssZ|
-### BackupSynchronicityAbstract
+### <a name="BackupSynchronicityAbstract">BackupSynchronicityAbstract</a>
 |Name|Type|Description|
 |---|---|---|
 |**serviceId**|String|Cross-region Backup Synchronization Service ID|
@@ -89,3 +91,59 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeInstances() {
+    DescribeInstancesRequest request = new DescribeInstancesRequest();
+    Filter filter = new Filter();
+    filter.setName("instanceId");
+    filter.addValue("mysql-axntjxvdix");
+    request.addFilter(filter);
+    request.setRegionId(region);
+    DescribeInstancesResponse response = rdsClient.describeInstances(request);
+    Gson gson = new GsonBuilder().create();
+    System.out.println(gson.toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bkut9ianrmv9g78aubw44j50i6mtjm0k", 
+    "result": {
+        "dbInstances": [
+            {
+                "azId": [
+                    "cn-north-1a", 
+                    "cn-north-1b"
+                ], 
+                "backupSynchronicity": [], 
+                "charge": {
+                    "chargeMode": "postpaid_by_duration", 
+                    "chargeStartTime": "2019-09-04T13:50:51Z", 
+                    "chargeStatus": "normal"
+                }, 
+                "createTime": "2019-09-04T21:51:06", 
+                "engine": "MySQL", 
+                "engineVersion": "8.0", 
+                "instanceCPU": 1, 
+                "instanceClass": "db.mysql.s1.micro", 
+                "instanceId": "mysql-axntjxvdix", 
+                "instanceMemoryMB": 1024, 
+                "instanceName": "Create ms80 based on backup", 
+                "instanceStatus": "RUNNING", 
+                "instanceStorageGB": 40, 
+                "instanceStorageType": "LOCAL_SSD", 
+                "instanceType": "cluster", 
+                "regionId": "cn-north-1", 
+                "subnetId": "subnet-v9o64tph5i", 
+                "vpcId": "vpc-da6rpb8uk9"
+            }
+        ], 
+        "totalCount": 1
+    }
+}
+```

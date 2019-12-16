@@ -30,14 +30,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeBackups#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**backup**|Backup[]|Backup Collection|
+|**backup**|[Backup[]](describeBackups#Backup)|Backup Set|
 |**totalCount**|Integer|Total Number of Records|
-### Backup
+### <a name="Backup">Backup</a>
 |Name|Type|Description|
 |---|---|---|
 |**backupId**|String|Backup ID|

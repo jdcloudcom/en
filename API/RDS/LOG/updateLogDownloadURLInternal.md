@@ -25,9 +25,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/log/{lo
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](updateLogDownloadURLInternal#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**publicURL**|String|Public network download link|

@@ -3,39 +3,29 @@
 
 ## Description
 Query alarm history
-The priority of retrieval condition combination from high to low is
-1. alarmId
-2. serviceCode
-2.1 serviceCode + resourceId
-2.2 serviceCode + resourceIds
-3. serviceCodes
-4. User’s All Rules
 
 ## Request Method
 GET
 
 ## Request Address
-https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
+https://monitor.jdcloud-api.com/v2/groupAlarmsHistory
 
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**pageNumber**|Long|False| |Page; 1 by default, the value range: [1,∞)|
 |**pageSize**|Long|False| |Paging Size; 20 by default. Value Range: [10, 100]|
-|**serviceCode**|String|False| |Product Line|
-|**resourceId**|String|False| |Resource Id|
-|**resourceIdList**|String[]|False| |resourceId List|
-|**alarmId**|String|False| |RulesId|
-|**alarming**|Long|False| |Alarming, value: 1|
-|**serviceCodeList**|String[]|False| |Product Line List|
+|**serviceCode**|String|False| |Product line identifier, the same product line has several products, for example (there are redis2.8cluster and redis4.0 under redis)|
+|**product**|String|False| |Product identifier, data of all dimensions under the product will be returned by default. eg:product=redis2.8cluster (the redis2.8cluster product comprises dimensions such as redis2.8-shard, redis2.8-proxy and redis2.8-instance).|
+|**dimension**|String|False| |When the parameter of dimension identifier is designated, only data of this dimension will be returned by search. For example, redis2.8cluster has different dimensions of instance and multi-part|
+|**isAlarming**|Long|False| |Alarming, value: 1|
+|**status**|Long|False| |Alarm status, 1 refers to alarm recovery, 2 refers to alarm and 4 refers to no data generated after alarm recovery|
 |**startTime**|String|False| |Start Time|
 |**endTime**|String|False| |End Time|
 |**ruleType**|Long|False| |Rule types, search 1 by default, 1 indicates resource monitoring, 6 indicates site monitoring, 7 indicates availability monitoring|
-|**filters**|Filter[]|False| |Service code or resource Id list <br>filter name is serviceCodes, representing rules to query multiple product lines<br>filter name is resourceIds, representing rules to query multiple resources|
+|**ruleName**|String|False| |Fuzzy Search for Rule Name|
+|**filters**|Filter[]|False| |serviceCodes - product line servicecode, exact match, supporting multiple codes<br>resourceIds - resource Id, exact match, supporting multiple Ids (be sure to designate serviceCode to filter by resourceIds under serviceCode. Otherwise, the parameter will not come into force)<br>alarmIds - rule Id, exact match, supporting multiple Ids|
 
 ### Filter
 |Name|Type|Required or Not|Default Value|Description|
@@ -53,49 +43,61 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarmHistory
 |Name|Type|Description|
 |---|---|---|
 |**alarmHistoryList**|DescribedAlarmHistory[]|Alarm History List|
-|**total**|Long|Total Amount|
+|**numberPages**|Long|Total Number of Pages|
+|**numberRecords**|Long|Number of Total Records|
+|**pageNumber**|Long|Current Page Number|
+|**pageSize**|Long|Paging Size|
 ### DescribedAlarmHistory
 |Name|Type|Description|
 |---|---|---|
-|**alarm**|DescribedAlarm| |
-|**contacts**|DescribedNoticeContacts[]|Alarm Contacts|
+|**alarmId**|String|Alarm Rule ID|
+|**dimension**|String|Resource Dimension|
+|**dimensionName**|String|Resource Dimension Name|
+|**durationTimes**|Long|Alarm Lasting Times|
+|**noticeDurationTime**|Long|Alarm Duration, Unit: Minute|
+|**noticeLevel**|String|‘Alarm Level Triggered’ used in frontend display. It shall be ‘common’, ‘critical’, ‘severe’ respectively from low to high|
 |**noticeLevelTriggered**|String|Alarm level triggered. It shall be 'common', 'critical', 'fatal' respectively from low to high|
 |**noticeTime**|String|Alarm Time|
+|**product**|String|Resource Type|
+|**productName**|String|Resource Type Name|
+|**receivers**|NoticeReceiver[]|Alarm Notifier|
+|**resourceId**|String|Resource Id|
+|**rule**|BasicRuleDetail| |
+|**ruleType**|String|Rules Type|
+|**status**|Long|Alarm type  1 - alarm recovery  2 - alarm  4 - insufficient data|
+|**tags**|Object|Resource tags|
 |**value**|Double|Alarm Value|
-### DescribedNoticeContacts
+### BasicRuleDetail
 |Name|Type|Description|
 |---|---|---|
-|**referenceId**|Long|Contact ID|
-|**referenceType**|Long|Contact type. 0 - contact group id, 1 - contact id|
-### DescribedAlarm
-|Name|Type|Description|
-|---|---|---|
-|**calculateUnit**|String|Calculation Unit|
-|**calculation**|String|Statistical method: average value=avg, maximum value=max, minimum value=min|
-|**createTime**|String|Creation Time|
-|**downSample**|String|Downsampling Method|
-|**enabled**|Long|Enable or not|
-|**id**|String|Alarm Rule ID|
-|**metric**|String|Monitoring Item|
+|**calculateUnit**|String|Computing unit of indicator, such as bit/s, %, k|
+|**calculation**|String|Statistical method must be consistent with the defined metric, with an optional value list of: avg, sum, max and min|
+|**downSample**|String|Downsampling Function|
+|**metric**|String|Unique monitoring item identifier, monitoring items available for each product line can be searched according to the DescribeMetricsForCreateAlarm APIs (use the Metric field when the rules are created) Format: metric:downsample|
 |**metricName**|String|Name of Monitoring Item|
 |**noticeLevel**|NoticeLevel| |
-|**noticePeriod**|Long|Alarm Period|
-|**operation**|String|gt, gte, lt, lte, eq, ne|
-|**period**|Long|Statistical Period (Unit: Minute)|
-|**region**|String|Region Information|
-|**resourceId**|String|xx Resourcesid|
-|**serviceCode**|String|Product Line Code|
-|**status**|Long|Monitoring Item Status: 1 Normal, 2 Alarm, 4 Insufficient data|
-|**tags**|Object|Tag|
-|**threshold**|Double|Alarm Threshold|
-|**times**|Long|Alarm Frequency|
+|**operation**|String|Alarm comparators only can be the following types: lte(<=),lt(<),gt(>),gte(>=),eq(==),ne(! =)|
+|**period**|Long|Search indicator period (unit: minute). Now, the supported values include: 1, 2, 5, 10, 15, 30 and 60|
+|**threshold**|Double|Alarm threshold, currently, only numeric type functions are available|
+|**times**|Long|Alarms are made when several times meet threshold value conditions through continuous detections, optional values: 1,2,3,5,10,15,30,60|
 ### NoticeLevel
 |Name|Type|Description|
 |---|---|---|
 |**custom**|Boolean|Is it the class defined by the user, true or false|
-|**levels**|Object|报警级别以及对应的阈值，是一个map[string]float64对象。key:common, critical, fatal, value: the threshold values corresponding to alarm levels, which shall meet the progressive relationship corresponding to operation parameters. eg: "levels":{"common":1000,"critical":10000,"fatal":15000}|
+|**levels**|Object|The alarm levels and corresponding threshold values, is an object of map[string]float64. key:common, critical, fatal, value: the threshold values corresponding to alarm levels, which shall meet the progressive relationship corresponding to operation parameters. eg: "levels":{"common":1000,"critical":10000,"fatal":15000}|
+### NoticeReceiver
+|Name|Type|Description|
+|---|---|---|
+|**email**|String| |
+|**mobile**|String| |
+|**personId**|Long| |
+|**pin**|String| |
+|**userName**|String| |
 
 ## Return Code
 |Return Code|Description|
 |---|---|
-|**200**|Query Alarm History|
+|**200**|Search alarm history  |  
+
+
+

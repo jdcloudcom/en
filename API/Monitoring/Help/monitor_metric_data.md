@@ -145,7 +145,7 @@ Return
 
 ### 3. lastDownsample
 
-**View the last monitoring data point of a certain resource**
+**View the data of a single monitoring item of a specific resource and aggregate them to one point. By default, the last point is searched**
 
 Request Example
 
@@ -163,10 +163,13 @@ Return
             {
                 "metric": "memory.usage",
                 "name": "i-test01",
-                "value": 4
+                "value": 4  
             }
         ]
     }
 }
+
+
 ```
+
 

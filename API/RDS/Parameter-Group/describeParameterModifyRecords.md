@@ -27,14 +27,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGrou
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeParameterModifyRecords#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**records**|ParameterModifyRecords[]| |
+|**records**|[ParameterModifyRecords[]](describeParameterModifyRecords#ParameterModifyRecords)| |
 |**totalCount**|Integer| |
-### ParameterModifyRecords
+### <a name="ParameterModifyRecords">ParameterModifyRecords</a>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Parameter Name|

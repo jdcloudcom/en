@@ -18,9 +18,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceId**|String|False| |RDS instance ID can identify an instance uniquely|
-|**backupSpec**|BackupSpec|False| |Backup Specification|
+|**backupSpec**|[BackupSpec](createBackup#BackupSpec)|False| |Backup Specification|
 
-### BackupSpec
+### <a name="BackupSpec">BackupSpec</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**backupName**|String|False| |Backup name with length up to 64 English characters or Chinese characters of equal length|
@@ -29,9 +29,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createBackup#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**backupId**|String|Backup Id|

@@ -43,12 +43,12 @@ jdlivekeyexample123 (set by the user)
 October 10, 2015, 00:00:00, amounting to 1444435200 seconds by computing
 
 4. Server will constitute a signature character string used for computing Hashvalue:
-/publishDomain/sports/football-1444435200-0-0-jdlivekeyexample123
+/cdn.example.com/sports/football-1444435200-0-0-jdlivekeyexample123
 
 5. Server will compute HashValue according to this signature character string
-HashValue=md5sum("/publishDomain /sports/football-1444435200-0-0-jdlivekeyexample123")
-=80cd3862d699b7118eed99103f2a3a4f
+HashValue=md5sum("/cdn.example.com/sports/football-1444435200-0-0-jdlivekeyexample123")
+=f4d138be849cf65efb79260f9d17567d
 
 6. url at the request is:
-http:// cdn.example.com/sports/football?auth_key=1444435200-0-0-80cd3862d699b7118eed99103f2a3a4f
-The authentication is passed if the HashValue worked out is consistent with the value of md5hash = 80cd3862d699b7118eed99103f2a3a4f in the user’s request.
+http://cdn.example.com/sports/football?auth_key=1444435200-0-0-f4d138be849cf65efb79260f9d17567d
+The authentication is passed if the HashValue worked out is consistent with the value of md5hash = f4d138be849cf65efb79260f9d17567d in the user’s request.

@@ -17,9 +17,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceSpec**|DBInstanceSpec|True| |New Instance Type Created|
+|**instanceSpec**|[DBInstanceSpec](createInstance#DBInstanceSpec)|True| |Create Instance Type|
 
-### DBInstanceSpec
+### <a name="DBInstanceSpec">DBInstanceSpec</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceName**|String|False| |Instance Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
@@ -31,24 +31,26 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |**vpcId**|String|True| |VPC ID|
 |**subnetId**|String|True| |Subnet ID|
 |**parameterGroup**|String|False| |Parameter Set ID, system will create a default parameter set by default <br>- only support MySQL|
-|**chargeSpec**|ChargeSpec|True| |Billing specification, including billing type, billing period, etc.|
+|**chargeSpec**|[ChargeSpec](createInstance#ChargeSpec)|True| |Billing Specification, including Billing Type, Billing Period, etc.|
 |**instanceStorageType**|String|False| |Storage Type, see [Enumeration Parameter Definitions](../Enum-Definitions/Enum-Definitions.md), the default value is: LOCAL_SSD<br>- Only support MySQL|
 |**instancePort**|String|False| |Application access port, only support MySQL, Percona, and MariaDB, Default value is 3306|
 |**storageEncrypted**|Boolean|False| |Instance Data Encryption (data encryption will be supported only when the storage type is Cloud Disk Service). false: no encryption, true: encryption, the default is false<br> - Only support MySQL|
 |**instanceType**|String|False| |Instance Availability Architecture. standalone: single machine, cluster: architecture of master and slave machines, the default is cluster<br>- Only support SQL Server|
-### ChargeSpec
+### <a name="ChargeSpec">ChargeSpec</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; is postpaid_by_duration by default. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line|
 |**chargeUnit**|String|False| |Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, and valid only when chargeMode is prepaid_by_duration, and the value is month or year and month by default|
 |**chargeDuration**|Integer|False| |Pay-In-Advance billing duration, the Pay-In-Advance is compulsory and valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be 1~9; when chargeUnit is year, the value shall be 1, 2 or 3|
+|**autoRenew**|Boolean|False| |True=: OPEN——Enable automatic renewal, False=CLOSE—— Disable automatic renewal, with default value of CLOSE|
+|**buyScenario**|String|False| |The unified activity credential, JSON character string, for the product line needs the BASE64 code. Now, the format required before coding is {"activity":{"activityType": required field, "activityIdentifier": required field}}|
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createInstance#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String| |
@@ -57,3 +59,39 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testCreateInstance() {
+    CreateInstanceRequest request = new CreateInstanceRequest();
+    DBInstanceSpec spec = new DBInstanceSpec();
+    spec.setEngine("MySQL");
+    spec.setEngineVersion("5.7");
+    spec.setInstanceClass("db.mysql.s1.micro");
+    spec.setInstanceStorageGB(20);
+    spec.addAzId("cn-north-1a");
+    spec.setVpcId("vpc-c58jvzx9eq");
+    spec.setSubnetId("subnet-n9v3g73e8d");
+    spec.setInstanceName("test");
+    ChargeSpec chargeSpec = new ChargeSpec();
+    chargeSpec.setChargeMode("postpaid_by_duration");
+    spec.setChargeSpec(chargeSpec);
+    request.setInstanceSpec(spec);
+    request.setRegionId(region);
+    CreateInstanceResponse response = rdsClient.createInstance(request);
+    Gson gson = new GsonBuilder().create();
+    System.out.println(gson.toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bkut6f51mkggr76oja96kh64ehtag0mi", 
+    "result": {
+        "instanceId": "mysql-ocj6g73clt"
+    }
+}
+```

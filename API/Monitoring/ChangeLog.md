@@ -1,8 +1,9 @@
 # Update History #
-API Version: 1.3.1
+API Version: 2.0.0
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2019-10-16|2.0.0|Upgrade APIs|Upgrade rule APIs to v2. The v1 APIs cannot be used for operating resources created by v2 APIs. v2 APIs can be used for operating v1\v2 resources |
 |2019-02-21|1.3.1|Modify the interface|Create a template and revise a template, it is required to increase the non-necessary parameter metric|
 |2018-12-19|1.3.0 |Modify interface path|Modify part of interface paths not meeting the specification of Gateway|
 |2018-12-07|1.2.5 |Modification Interface|Modifying some interfaces to be internal |

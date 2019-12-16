@@ -1,0 +1,25 @@
+name: Cloud Cabinet Service
+href: 
+items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Resource APIs
+        items:
+          - name: describeIdcs
+            href: Resource-API/describeIdcs.md
+          - name: describeRooms
+            href: Resource-API/describeRooms.md
+          - name: describeCabinets
+            href: Resource-API/describeCabinets.md            
+      - name: Monitoring APIs
+        items:
+          - name: describeMetrics
+            href: Monitor-API/describeMetrics.md
+          - name: describeMetricData
+            href: Monitor-API/describeMetricData.md
+          - name: lastDownsample
+            href: Monitor-API/lastDownsample.md            

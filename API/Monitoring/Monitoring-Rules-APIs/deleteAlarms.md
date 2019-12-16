@@ -2,32 +2,38 @@
 
 
 ## Description
-Batch Delete Rules
+Delete Rules
 
 ## Request Method
 DELETE
 
 ## Request Address
-https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms
+https://monitor.jdcloud-api.com/v2/groupAlarms/{alarmId}
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
+|**alarmId**|String|True| |Rule id|
 
 ## Request Parameter
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**ids**|String|True| |For rule id to be deleted, use "|” to separate multiple rules|
+None
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Object| |
+|**result**|Result| |
 |**requestId**|String|Requested identifierid|
 
+### Result
+|Name|Type|Description|
+|---|---|---|
+|**success**|Boolean| |
 
 ## Return Code
 |Return Code|Description|
 |---|---|
-|**200**|OK|
+|**200**|Return Result of Rule Deletion  |   
+
+
+
+

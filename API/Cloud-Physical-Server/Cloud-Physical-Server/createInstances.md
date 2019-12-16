@@ -57,8 +57,10 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |**bandwidth**|Integer|False| |Internet bandwidth, Range [1,200] Unit: Mbps|
 |**name**|String|True| |Name of Cloud Physical Server|
 |**description**|String|False| |Description of Cloud Physical Server|
-|**password**|String|True| |Password|
+|**password**|String|False| |Password, a random password will be generated if no values are transmitted|
 |**count**|Integer|True| |Purchase Count|
+|**userData**|String|False| |Coded contents of executable script Base64, supporting scripts shell and python|
+|**keypairId**|String|False| |Key Pair id|
 |**charge**|ChargeSpec|True| |Billing Configuration|
 ### ChargeSpec
 |Name|Type|Required or not|Default value|Description|

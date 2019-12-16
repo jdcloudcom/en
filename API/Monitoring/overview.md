@@ -6,25 +6,26 @@ monitor API
 
 
 ### Version
-v1
+v2
 
 
 ## API
 |Interface name|Request mehod|Function description|
 |---|---|---|
-|**createAlarm**|POST|Create alarm rules, it can create alarm rules for a certain instance, or it also can create alarm rules for multiple instances at the same time.|
-|**deleteAlarms**|DELETE|Batch Delete Rules|
-|**deleteAlarmsCm**|DELETE|Delete Customized Metric Monitoring Rules|
+|**createAlarm**|POST|Create alarm rules |
+|**deleteAlarms**|DELETE|Delete Rules|
+|**describeAlarm**|GET|Query Rule Details|
 |**describeAlarmContacts**|GET|Query rule alarm contacts|
-|**describeAlarmHistory**|GET|Query the alarm history</br>The priority of retrieval condition combination from high to low is </br>1. alarmId</br>2. serviceCode</br>2.1 serviceCode + resourceId</br>2.2 serviceCode + resourceIds</br>3. serviceCodes</br>4. all user rules|
-|**describeAlarmHistoryAllRegion**|POST|Query the alarm history</br>The priority of retrieval condition combination from high to low is </br>1. alarmId</br>2. serviceCode</br>2.1 serviceCode + resourceId</br>2.2 serviceCode + resourceIds</br>3. serviceCodes</br>4. all user rules|
-|**describeAlarms**|GET|Query rules, query the parameter set and priority level from high to low are: </br>1：alarmId cannot be blank</br>2：serviceCode cannot be blank</br>2.1：serviceCode + resourceId</br>2.2: serviceCode + resourceIds</br>3: serviceCodes cannot be blank</br>4: all user rules|
-|**describeAlarmsByID**|GET|Query Rule Details|
-|**describeMetricData**|GET|View multiple monitoring item data of a resource, metric introduction 1: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>|
-|**describeMetrics**|GET|Query available monitoring item list based on the product lines, metric introduction: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>|
-|**describeMetricsForCreateAlarm**|GET|Query metric list available to create monitoring rules based on resource type, metric introduction:<a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>|
-|**disableAlarm**|POST|Disable the alarm rule. After the alarm rule is disabled, the detection of monitoring item data of the instance will be stopped.|
-|**enableAlarm**|POST|Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the API.|
-|**lastDownsample**|GET|View the Last Point at Certain Resource, metric introduction: <a href="https://docs.jdcloud.com/cn/monitoring/metrics">Metrics</a>|
-|**putMetricData**|POST|The interface is the interface for Custom Metric Monitoring data reporting, which is convenient for you to report the time series data collected by yourself to the Cloud Monitor. Report data of different regions for domain names of different regions, refer to: <a href="https://docs.jdcloud.com/cn/monitoring/reporting-monitoring-data"> Calling Description </a> Available original data and aggregated statistical data for report. It supports reporting methods in batches. A single request contains up to 50 data points; the data size does not exceed 256k.|
-|**updateAlarm**|PATCH|Modify the created alarm rules|
+|**describeAlarmHistory**|GET|Query Alarm History|
+|**describeAlarms**|GET|Search rule list|
+|**describeMetricData**|GET|View a single monitoring item data of a specific resource, metric introduction: <a href="https://docs.jdcloud.com/en/monitoring/metrics">Metrics</a>, APIs can be used<a href="https://docs.jdcloud.com/en/monitoring/metrics">describeMetrics</a>: Search available metric list for product line.|
+|**describeMetrics**|GET|Query available monitoring item list based on the product lines, metric introduction: <a href="https://docs.jdcloud.com/en/monitoring/metrics">Metrics</a>|
+|**describeMetricsForAlarm**|GET|Search indicator lists used for creating alarm rules, metric introduction: <a href="https://docs.jdcloud.com/en/monitoring/metrics">Metrics</a>|
+|**describeProductsForAlarm**|GET|Search the product list used for creating alarm rules|
+|**describeServices**|GET|Search available product line list for monitoring graph|
+|**enableAlarms**|POST|Enabling and Disabling Rules|
+|**lastDownsample**|GET|Aggregate a single metric data of a specific resource to one point, metric introduction: href="https://docs.jdcloud.com/en/monitoring/metrics">Metrics</a>|
+|**putMetricData**|POST|The interface is the interface for Custom Metric Monitoring data reporting, which is convenient for you to report the time series data collected by yourself to the Cloud Monitor. Report data of different regions for domain names of different regions, refer to: <a href="https://docs.jdcloud.com/en/monitoring/reporting-monitoring-data"> Calling Description </a> Available original data and aggregated statistical data for report. It supports reporting methods in batches. A single request contains up to 50 data points; the data size does not exceed 256k.|
+|**updateAlarm**|PUT|Modify the created alarm rules  |
+
+

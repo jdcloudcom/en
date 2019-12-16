@@ -2,7 +2,7 @@
 
 
 ## Description
-Obtain the binlog detailed information in MySQL instance<br>- only support MySQL
+Obtain the binlog detailed information in MySQL instance<br>- Only support MySQL, Percona and MariaDB
 
 ## Request Method
 GET
@@ -27,14 +27,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/binlogs
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeBinlogs#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**totalCount**|Integer|Number of Total Records|
-|**binlogs**|Binlog[]|Backup Set|
-### Binlog
+|**binlogs**|[Binlog[]](describeBinlogs#Binlog)|Backup Set|
+### <a name="Binlog">Binlog</a>
 |Name|Type|Description|
 |---|---|---|
 |**binlogBackupId**|String|binlog log backup ID|

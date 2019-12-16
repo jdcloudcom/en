@@ -1,0 +1,111 @@
+  name: Distributed Cloud Physical Server
+  href:
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    herf: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Distributed Cloud Physical Server APIs
+        items:
+          - name: describeOS
+            href: Distributed-Cloud-Physical-Server/describeOS.md
+          - name: describeInstanceName
+            href: Distributed-Cloud-Physical-Server/describeInstanceName.md
+          - name: createInstances
+            href: Distributed-Cloud-Physical-Server/createInstances.md
+          - name: deleteInstance
+            href: Distributed-Cloud-Physical-Server/deleteInstance.md
+          - name: modifyInstance
+            href: Distributed-Cloud-Physical-Server/modifyInstance.md
+          - name: describeDeviceTypes
+            href: Distributed-Cloud-Physical-Server/describeDeviceTypes.md  
+          - name: describeDeviceRaids
+            href: Distributed-Cloud-Physical-Server/describeDeviceRaids.md
+          - name: describeInstanceRaid
+            href: Distributed-Cloud-Physical-Server/describeInstanceRaid.md
+          - name: describeInstanceStatus
+            href: Distributed-Cloud-Physical-Server/describeInstanceStatus.md
+          - name: restartInstance
+            href: Distributed-Cloud-Physical-Server/restartInstance.md  
+          - name: stopInstance
+            href: Distributed-Cloud-Physical-Server/stopInstance.md
+          - name: startInstance
+            href: Distributed-Cloud-Physical-Server/startInstance.md
+          - name: reinstallInstance
+            href: Distributed-Cloud-Physical-Server/reinstallInstance.md
+          - name: describeInstance
+            href: Distributed-Cloud-Physical-Server/describeInstance.md
+          - name: resetPassword
+            href: Distributed-Cloud-Physical-Server/resetPassword.md
+          - name: describeInstances
+            href: Distributed-Cloud-Physical-Server/describeInstances.md
+          - name: associateElasticIp
+            href: Distributed-Cloud-Physical-Server/associateElasticIp.md
+          - name: disassociateElasticIp
+            href: Distributed-Cloud-Physical-Server/disassociateElasticIp.md
+          - name: createAliasIp
+            href: Distributed-Cloud-Physical-Server/createAliasIp.md
+          - name: describeAliasIps
+            href: Distributed-Cloud-Physical-Server/describeAliasIps.md
+          - name: deleteAliasIp
+            href: Distributed-Cloud-Physical-Server/deleteAliasIp.md
+      - name: Relevant Interface of Region
+        items:
+          - name: describeEdCPSRegions
+            href: Distributed-Cloud-Physical-Server/describeEdCPSRegions.md
+      - name: Edge Cloud Public IP APIs
+        items:
+          - name: describeElasticIps
+            href: Distributed-Cloud-Physical-Server/describeElasticIps.md
+          - name: applyElasticIps
+            href: Distributed-Cloud-Physical-Server/applyElasticIps.md
+          - name: deleteelasticIp
+            href: Distributed-Cloud-Physical-Server/deleteelasticIp.md
+          - name: describeElasticIp
+            href: Distributed-Cloud-Physical-Server/describeElasticIp.md
+          - name: modifyElasticIpBandwidth
+            href: Distributed-Cloud-Physical-Server/modifyElasticIpBandwidth.md
+      - name: Subnet APIs
+        items:
+          - name: describeSubnets
+            href: Distributed-Cloud-Physical-Server/describeSubnets.md
+          - name: createSubnet
+            href: Distributed-Cloud-Physical-Server/createSubnet.md
+          - name: describeSubnet
+            href: Distributed-Cloud-Physical-Server/describeSubnet.md
+          - name: modifySubnet
+            href: Distributed-Cloud-Physical-Server/modifySubnet.md
+          - name: deleteSubnet
+            href: Distributed-Cloud-Physical-Server/deleteSubnet.md
+          - name: createSecondaryCidr
+            href: Distributed-Cloud-Physical-Server/createSecondaryCidr.md
+          - name: describeSecondaryCidrs
+            href: Distributed-Cloud-Physical-Server/describeSecondaryCidrs.md
+          - name: deleteSecondaryCidr
+            href: Distributed-Cloud-Physical-Server/deleteSecondaryCidr.md
+      - name: SSH Key Pair APIs
+        items:
+          - name: createKeypairs
+            href: Distributed-Cloud-Physical-Server/createKeypairs.md
+          - name: queryKeypairs
+            href: Distributed-Cloud-Physical-Server/describeKeypairs.md
+          - name: importKeypairs
+            href: Distributed-Cloud-Physical-Server/importKeypairs.md
+          - name: deleteKeypairs
+            href: Distributed-Cloud-Physical-Server/deleteKeypairs.md
+          - name: queryKeypair
+            href: Distributed-Cloud-Physical-Server/describeKeypair.md
+      - name: VPC APIs
+        items:
+          - name: describeVpc
+            href: Distributed-Cloud-Physical-Server/describeVpc.md
+          - name: modifyVpc
+            href: Distributed-Cloud-Physical-Server/modifyVpc.md
+          - name: deleteVpc
+            href: Distributed-Cloud-Physical-Server/deleteVpc.md
+          - name: describeVpcs
+            href: Distributed-Cloud-Physical-Server/describeVpcs.md
+          - name: createVpc
+            href: Distributed-Cloud-Physical-Server/createVpc.md

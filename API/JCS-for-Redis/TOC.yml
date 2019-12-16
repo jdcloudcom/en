@@ -9,10 +9,16 @@ items:
     items:
       - name: Redis Instance API
         items:
+          - name: createBackup
+            href: Redis-Instance-API/createBackup.md
           - name: createCacheInstance
             href: Redis-Instance-API/createCacheInstance.md
           - name: deleteCacheInstance
             href: Redis-Instance-API/deleteCacheInstance.md
+          - name: describeBackupPolicy
+            href: Redis-Instance-API/describeBackupPolicy.md
+          - name: describeBackups
+            href: Redis-Instance-API/describeBackups.md
           - name: describeCacheInstance
             href: Redis-Instance-API/describeCacheInstance.md
           - name: describeCacheInstances
@@ -25,6 +31,16 @@ items:
             href: Redis-Instance-API/resetCacheInstancePassword.md
           - name: describeClusterInfo
             href: Redis-Instance-API/describeClusterInfo.md  
+          - name: describeDownloadUrl
+            href: Redis-Instance-API/describeDownloadUrl.md
+          - name: describeInstanceConfig
+            href: Redis-Instance-API/describeInstanceConfig.md
+          - name: describeSlowLog
+            href: Redis-Instance-API/describeSlowLog.md
+          - name: modifyInstanceConfig
+            href: Redis-Instance-API/modifyInstanceConfig.md
+          - name: restoreInstance
+            href: Redis-Instance-API/restoreInstance.md
       - name: Redis Instance Type API
         items:
           - name: describeInstanceClass

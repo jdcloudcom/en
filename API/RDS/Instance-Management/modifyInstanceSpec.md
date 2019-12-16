@@ -20,14 +20,16 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyI
 |---|---|---|---|---|
 |**newInstanceClass**|String|True| |Instance Type after Expansion|
 |**newInstanceStorageGB**|Integer|True| |Instance Disk Size after Expansion|
+|**newInstanceStorageType**|String|False| |If the storage type is not designated, the original instance storage type will be adopted by default|
+|**storageEncrypted**|Boolean|False| |Instance Data Encryption (data encryption will be supported only when the storage type is Cloud Disk Service). false: no encryption, true: encryption. If the instance is changed from local disk to Cloud Disk Service, the default value is false. If the instance is the Cloud Disk Service, the default value and the source instance shall remain the same|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](modifyInstanceSpec#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**orderId**|String|Generated Order Number|

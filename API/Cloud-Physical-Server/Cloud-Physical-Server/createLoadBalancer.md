@@ -12,7 +12,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/slbs
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID, call API (describeRegiones) to get regions supported by Cloud Physical Server|
+|**regionId**|String|True| |Region ID, call APIs (queryCPSLBRegions) to get regions supported by Cloud Physical Server|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|

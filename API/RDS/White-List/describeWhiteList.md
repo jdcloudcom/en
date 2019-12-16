@@ -22,13 +22,13 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeWhiteList#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**whiteLists**|WhiteList[]|White List|
-### WhiteList
+|**whiteLists**|[WhiteList[]](describeWhiteList#WhiteList)|White List|
+### <a name="WhiteList">WhiteList</a>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|White List Name|

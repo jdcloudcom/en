@@ -1,32 +1,37 @@
-# enableAlarm
+# enableAlarms
 
 
 ## Description
-Enable the alarm rule, when the alarm rule is in the status of “Disabled”, the alarm rule can be enabled by using the API.
+Enabling and Disabling Rules
 
 ## Request Method
 POST
 
 ## Request Address
-https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}/enable
+https://monitor.jdcloud-api.com/v2/groupAlarms:switch
 
-|Name|Type|Required or Not|Default Value|Description|
-|---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
-|**alarmId**|String|True| |Rule ID|
 
 ## Request Parameter
-None
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**alarmIds**|String[]|True| |ID List of Alarm Rules|
+|**state**|Long|False| |Enable: 1, Disable 0,|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Object| |
+|**result**|Result| |
 |**requestId**|String|Requested identifierid|
 
+### Result
+|Name|Type|Description|
+|---|---|---|
+|**success**|Boolean| |
 
 ## Return Code
 |Return Code|Description|
 |---|---|
-|**200**|OK|
+|**200**|Enabling and Disabling Rules  | 
+
+

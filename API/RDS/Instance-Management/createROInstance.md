@@ -2,7 +2,7 @@
 
 
 ## Description
-Create Read-only Instance of MySQL<br>- Only Support MySQL
+Create read-only instances of MySQL<br> - Only support MySQL<br> - The created read-only instances are in the same subnet under the same VPC of the main instance<br> * The read-only instance only support Pay by Configuration
 
 ## Request Method
 POST
@@ -33,9 +33,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createR
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createROInstance#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**roInstanceId**|String[]|List of Newly Created Read-only Instance IDs|

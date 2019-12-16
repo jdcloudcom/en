@@ -7,9 +7,13 @@ It is recommended to use the https for your data security.
 
 Different interfaces of JD Cloud OpenAPI use different HTTP methods. POST requests are used to create general resources, GET requests are used for query, PUT or PATCH requests re used for modification, and DELETE requests are used for deleting. For the HTTP method used for specific interfaces, please refer to the chapters and sections of API document request mode.
 
-The address and path format of OpenAPI service are usually as follows:
+### The address and path format of OpenAPI service are usually as follows:
 
-	https://{product}.jdcloud-api.com/{API version number} /regions/\ {region ID}/{resource name}/{resource ID(optional)}/{sub-resource name(optional)}/{sub-resource ID(optional)}{: customized action (optional)}
+	
+
+
+### Address directly called in VPC is: ###  
+	https://{product}.internal.{regionId}.jdcloud-api.com/{API version number}/regions/{region ID}/{resource name}/{resource ID (optional)}/{sub-resource name (optional)}/{sub-resource ID (optional)}{: customized action (optional)}
 
 For the address and path of each interface, please refer to the chapters and sections of API document request address.
 

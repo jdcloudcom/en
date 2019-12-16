@@ -19,15 +19,15 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}/downloadURL
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**fileName**|String|False| |File name <br>]- MySQL: This parameter is not supported<br>- SQL Server: This parameter must be entered to specify the name of the file in the backup that needs to obtain the download link. The file name in the backup (excluding the suffix) is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database.|
-|**urlExpirationSecond**|String|False| |Specify the expiration time of the download link in seconds. The default is 86400 seconds, which is 24 hours. <br>- MySQL: This parameter is not supported, and it can only be the default value	<br>- SQL Server: Support|
+|**urlExpirationSecond**|String|False| |Designate expiration time of download link, with the unit of second and value range of 1 ~ 86400 seconds; SQL Server is supported; the default value is 86400 seconds. Support MySQL, Percona and MariaDB: The default value is 300 seconds.|
 
 
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeBackupDownloadURL#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**publicURL**|String|Public network download link, if download is not available currently, it is an empty string|

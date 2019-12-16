@@ -25,20 +25,20 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeAccounts#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**accounts**|Account[]| |
+|**accounts**|[Account[]](describeAccounts#Account)| |
 |**totalCount**|Integer| |
-### Account
+### <a name="Account">Account</a>
 |Name|Type|Description|
 |---|---|---|
 |**accountName**|String|Account Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules of Account Name|
 |**accountStatus**|String|Account status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **MySQL: Not support, not return this field**<br>- **SQL Server: return this field**|
-|**accountPrivileges**|AccountPrivilege[]|Specific Privilege|
-### Account
+|**accountPrivileges**|[AccountPrivilege[]](describeAccounts#AccountPrivilege)|Permission Owned|
+### <a name="AccountPrivilege">AccountPrivilege</a>
 |Name|Type|Description|
 |---|---|---|
 |**dbName**|String|Database Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|

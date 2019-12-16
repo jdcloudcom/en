@@ -25,14 +25,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/interce
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeInterceptResult#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**interceptResult**|InterceptResult[]| |
+|**interceptResult**|[InterceptResult[]](describeInterceptResult#InterceptResult)| |
 |**totalCount**|Integer| |
-### InterceptResult
+### <a name="InterceptResult">InterceptResult</a>
 |Name|Type|Description|
 |---|---|---|
 |**startTime**|String|Execution Start Time of SQL|

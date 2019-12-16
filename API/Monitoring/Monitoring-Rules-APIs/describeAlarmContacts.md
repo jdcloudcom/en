@@ -8,11 +8,10 @@ Query rule alarm contacts
 GET
 
 ## Request Address
-https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}/contacts
+https://monitor.jdcloud-api.com/v2/groupAlarms/{alarmId}/contacts
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID|
 |**alarmId**|String|True| |Rule ID|
 
 ## Request Parameter
@@ -43,4 +42,6 @@ https://monitor.jdcloud-api.com/v1/regions/{regionId}/alarms/{alarmId}/contacts
 ## Return Code
 |Return Code|Description|
 |---|---|
-|**200**|Query alarm contacts|
+|**200**|Search rule contact  |   
+
+

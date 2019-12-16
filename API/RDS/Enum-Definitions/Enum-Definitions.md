@@ -242,5 +242,6 @@
 |Value|Description|
 |-|-|
 |LOCAL_SSD|Local SSD|
+|LOCAL_NVME|Local NVME|
 |EBS_SSD|SSD Cloud Disk|
 

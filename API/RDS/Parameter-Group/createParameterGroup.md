@@ -26,9 +26,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createParameterGroup#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**parameterGroupId**|String| |

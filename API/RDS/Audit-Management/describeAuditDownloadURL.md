@@ -24,9 +24,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:d
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeAuditDownloadURL#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**publicURL**|String|Public network download link, and if not downloadable currently, it is an empty string|

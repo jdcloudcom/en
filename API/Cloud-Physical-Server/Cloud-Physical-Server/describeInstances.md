@@ -26,6 +26,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |**networkType**|String|False| |Network type, exact match, supporting basic, vpc|
 |**deviceType**|String|False| |Instance Type, exact matching, the instance type family can be obtained by calling API (describeDeviceType)|
 |**subnetId**|String|False| |Subnet ID|
+|**keypairId**|String|False| |Key Pair ID|
 |**enableInternet**|String|False| |Whether to enable Internet, yes/no|
 |**filters**|Filter[]|False| |instanceId - Cloud Physical Server ID, exact match, supporting multiple IDs<br/><br>privateIp - Cloud Physical Server Private IP, exact match, supporting multiple IPs<br/><br>status - Cloud Physical Server Status, refer to Cloud Physical Server Status, exact match, supporting multiple statuses<br>|
 
@@ -81,6 +82,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances
 |**elasticIpId**|String|Elastic IPID|
 |**publicIp**|String|Public IP|
 |**publicIpv6**|String|Internet IPv6|
+|**keypairId**|String|Key Pair id|
+|**agentStatus**|String|agent status|
 |**charge**|Charge|Billing Information|
 ### Charge
 |Name|Type|Description|

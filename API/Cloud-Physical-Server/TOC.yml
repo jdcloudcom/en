@@ -37,6 +37,8 @@
             href: Cloud-Physical-Server/describeInstance.md
           - name: modifyBandwidth
             href: Cloud-Physical-Server/modifyBandwidth.md
+          - name: resetPassword
+            href: Cloud-Physical-Server/resetPassword.md
           - name: describeInstances
             href: Cloud-Physical-Server/describeInstances.md
           - name: associateElasticIp
@@ -73,6 +75,18 @@
             href: Cloud-Physical-Server/modifySubnet.md
           - name: deleteSubnet
             href: Cloud-Physical-Server/deleteSubnet.md
+      - name: SSH Key Pair APIs
+        items:
+          - name: createKeypairs
+            href: Cloud-Physical-Server/createKeypairs.md
+          - name: queryKeypairs
+            href: Cloud-Physical-Server/queryKeypairs.md
+          - name: importKeypairs
+            href: Cloud-Physical-Server/importKeypairs.md
+          - name: deleteKeypairs
+            href: Cloud-Physical-Server/deleteKeypairs.md
+          - name: queryKeypair
+            href: Cloud-Physical-Server/queryKeypair.md
       - name: VPC APIs
         items:
           - name: describeVpc

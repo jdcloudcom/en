@@ -19,9 +19,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**accountPrivileges**|AccountPrivilege[]|True| |Access Right to the Account|
+|**accountPrivileges**|[AccountPrivilege[]](#AccountPrivilege)|True| |Account Access Permission|
 
-### AccountPrivilege
+### <a name="AccountPrivilege">AccountPrivilege</a>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**dbName**|String|False| |Database Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|

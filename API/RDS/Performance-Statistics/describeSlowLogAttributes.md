@@ -28,14 +28,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeSlowLogAttributes#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**slowLogsAttributes**|SlowLogAttributes[]|Slow Log Information|
+|**slowLogsAttributes**|[SlowLogAttributes[]](describeSlowLogAttributes#SlowLogAttributes)|Slow Log Information|
 |**totalCount**|Integer|Total Record Entries|
-### SlowLogAttributes
+### <a name="SlowLogAttributes">SlowLogAttributes</a>
 |Name|Type|Description|
 |---|---|---|
 |**dbName**|String|Database name, representing the database in which the SQL is executed|

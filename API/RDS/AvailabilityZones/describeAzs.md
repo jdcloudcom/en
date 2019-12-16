@@ -23,9 +23,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/azs
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeAzs#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**azs**|String[]|List of Availability Zone ID|

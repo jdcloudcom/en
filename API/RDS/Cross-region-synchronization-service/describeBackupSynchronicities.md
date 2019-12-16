@@ -24,14 +24,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backupSynchronicities
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeBackupSynchronicities#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**backupSynchronicities**|BackupSynchronicity[]| |
+|**backupSynchronicities**|[BackupSynchronicity[]](describeBackupSynchronicities#BackupSynchronicity)| |
 |**totalCount**|Integer| |
-### BackupSynchronicity
+### <a name="BackupSynchronicity">BackupSynchronicity</a>
 |Name|Type|Description|
 |---|---|---|
 |**serviceId**|String|Cross-Region Backup Synchronization Service ID|

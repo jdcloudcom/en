@@ -28,7 +28,7 @@ https://renewal.jdcloud-api.com/v2/regions/{regionId}/instances:autoRenewStatus
 |**timeUnit**|String|False| |Time Unit (MONTH-Month, YEAR-Year)|
 |**instanceIds**|String|True| |Resource ID lists, separate by English comma|
 |**autoRenewStatus**|String|True| |Automatic renewal status (OPEN- Open automatic renewal, CLOSE- Close automatic renewal, MODIFY- Modify automatic renewal)|
-|**allAutoPay**|String|False| |Associate with relevant resource for automatic renewal together or not (AUTO_RENEW-Yes, UN_AUTO_RENEW-No)|
+|**allAutoPay**|String|False| |Associate with relevant resource and enable automatic renewal or not (UNBIND: No, BIND: Yes)|
 
 ## Return Parameter
 |Name|Type|Description|

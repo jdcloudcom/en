@@ -1,5 +1,5 @@
 # Update History #
-API Version: 1.0.6
+API Version: 1.0.7
 
 |Release Time|Version Number|Update|Instructions|
 |---|---|---|---|
@@ -10,3 +10,4 @@ API Version: 1.0.6
 |2019-04-22|1.0.4|Optimization of Input Parameter|* Modify input parameter types of cloud storage service search APIs|
 |2019-05-20|1.0.5|API Addition|* Add APIs for reporting order information and inquiring prices|
 |2019-08-22|1.0.6|Add APIs|* Add APIs for output JDX commodity, api ordering and output delivery information|
+|2019-09-26|1.0.7|Optical Output Parameter|*Add order type information for return parameters of delivery form search APIs|

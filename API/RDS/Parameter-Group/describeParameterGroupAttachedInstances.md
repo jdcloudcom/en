@@ -25,14 +25,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGrou
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeParameterGroupAttachedInstances#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
-|**instances**|AttachedDBInstance[]| |
+|**instances**|[AttachedDBInstance[]](describeParameterGroupAttachedInstances#AttachedDBInstance)| |
 |**totalCount**|Integer| |
-### AttachedDBInstance
+### <a name="AttachedDBInstance">AttachedDBInstance</a>
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Instance ID|

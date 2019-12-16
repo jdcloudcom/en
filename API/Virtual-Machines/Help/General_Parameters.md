@@ -20,4 +20,4 @@
     4. There cannot have three or more consecutive letters, for example: abc, CBA, bcde, cdef
     5. There cannot have three or more consecutive key position sequences (letters only), for example: qaz, tfc, wsx, xsw, qwert, trewq
     6. Your user name cannot appear in the password
-    7. It shall contain at least three categories (capital letter, lowercase letter, digit and special characters, the special characters are ()`~!@#$%&_-+={}[]:\";'<>,.?/）*|
+    7. Contain at least three types at the same time (uppercase letters, lowercase letters, numbers and special characters, with special characters selected from ()`~!@#$%^&*_-+=|{}[]:";'<>,.?/

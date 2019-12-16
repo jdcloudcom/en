@@ -22,9 +22,9 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeTde#Result)| |
 
-### Result
+### <a name="Result">Result</a>
 |Name|Type|Description|
 |---|---|---|
 |**status**|String|Whether the current instance enables TDE function. If enabled, return to true; if not, return to false; if enabling, return to pending|
