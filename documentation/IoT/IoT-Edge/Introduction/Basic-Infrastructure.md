@@ -1,20 +1,19 @@
 # Basic Architecture
 
-IoT Edge comprises core functions such as core system, device module, data service, application service, security service and edge computing module.
+IoT Edge comprises core functions including device access, core service, edge application, and communication service.
 
 ## Business Architecture
 
 Business architecture is shown as in the following figure:
 ![](../../../../image/IoT/IoT-Edge/EdgeArch.png)
 
-| Name         | Description                                                         |
-| ------------ | ------------------------------------------------------------ |
-| Core System     | Provide basic running environment to the entire edge computing system and provide device management, module management and rule management.                         |
-| Device Module     | Provide device connection, device registration and device data collection function                     |
-| Data Service     | Provide local data storage service                         |
-| Application Service     | Connect IoT Hub and JD Cloud services with standard protocols (MQTT and HTTP), with data uplink and data downlink functions. |
-| Security Service     | Provide device connection security and local data security                        |
-| Edge Computing Module | Deploy computing module on edge nodes, with one edge node deployed with several computing modules |
+| Name     | Description                                                         |
+| -------- | ------------------------------------------------------------ |
+| Core Service | Provide basic running environment to the entire edge computing system and provide data management, scheduling management, log monitoring, notification, storage and other services. |
+| Device Access | Provide APIs to underlayer hardware and operating system connection capability and data parsing service.                   |
+| Edge Application | Deploy the application on edge nodes to complete local computing of device data protocol, AI inference and other businesses. Multiple edge applications can be deployed under one edge node. |
+| Communication Service | Connect IoT Core and JD Cloud Service with standard protocols (MQTT and HTTP), providing data uplink and data downlink functions.                               |
+
 
 ## Related References
 

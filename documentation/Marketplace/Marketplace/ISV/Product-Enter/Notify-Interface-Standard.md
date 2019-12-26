@@ -23,7 +23,7 @@ Software applications generally have independently accessible website. Customers
 
    3.3.3 Example</br>
          1 Example of a request received by a service provider:</br>
-                  http://www.isvwebsite.com?p1=1&p2=2&p3=3&token=xxxx  </br>          
+                  http://www.isvwebsite.com?p1=1&p2=2&p3=3&token=xxxx    </br>            
          2 Sorting operation: no url encode</br>
                   sort(P1，P2，P3); </br>              
          3 Token value: Character string after splicing;/br>
@@ -58,173 +58,31 @@ Software applications generally have independently accessible website. Customers
    4. The interface may be called multiple times. If it is called repeatedly, please ensure the idempotency of the interface.
 
 4.1.2 Request parameters
-   <table class="tg">
-   <thead>
-   <tr>
-   <th class="tg-0pky">Parameter Name</th>
-   <th class="tg-0pky">Type</th>
-   <th class="tg-0pky">Required</th>
-   <th class="tg-0pky">Description</th>
-   <th class="tg-0pky"></th>
-   </tr>
-      </thead>
-   <tbody>
-   <tr>
-   <td class="tg-0pky">token</td>
-   <td class="tg-0pky">String</td>
-   <td class="tg-0pky">Yes</td>
-   <td class="tg-0pky">Security Verification Token</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">action</td>
-   <td class="tg-0pky">String</td>
-   <td class="tg-0pky">Yes</td>
-   <td class="tg-0pky">"createInstance"</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">jdPin</td>
-   <td class="tg-0pky">String</td>
-   <td class="tg-0pky">Yes</td>
-   <td class="tg-0pky">It is the unique account identifier of the user in JD Cloud</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">orderBizId</td>
-   <td class="tg-0pky">String</td>
-   <td class="tg-0pky">Yes</td>
-   <td class="tg-0pky">Cloud Marketplace Business ID, Purchase Relationship ID</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">orderId</td>
-   <td class="tg-0pky">String</td>
-   <td class="tg-0pky">Yes</td>
-   <td class="tg-0pky">Corresponding Order ID</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">serviceCode</td>
-   <td class="tg-0pky">String</td>
-   <td class="tg-0pky">Yes</td>
-   <td class="tg-0pky">Corresponding service code can be viewed from the service list of the service provider’s background</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">skuId</td>
-   <td class="tg-0pky">String</td>
-   <td class="tg-0pky">Yes</td>
-   <td class="tg-0pky">Service Charging Item ID;</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">mobile</td>
-   <td class="tg-0pky">String</td>
-   <td class="tg-0pky">No</td>
-   <td class="tg-0pky">User’s Mobile Phone Number</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">email</td>
-   <td class="tg-0pky">String</td>
-   <td class="tg-0pky">No</td>
-   <td class="tg-0pky">User’s Email</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">template</td>
-   <td class="tg-0pky">String</td>
-   <td class="tg-0pky">No</td>
-   <td class="tg-0pky">Template ID, Suitable for Website Building Commodity Template</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">expiredOn</td>
-   <td class="tg-0pky">DateTime</td>
-   <td class="tg-0pky">No</td>
-   <td class="tg-0pky">Expiration Time of Corresponding Order, in the format of yyyy-MM-dd HH:mm:ss;</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">accountNum</td>
-   <td class="tg-0pky">Integer</td>
-   <td class="tg-0pky">No</td>
-   <td class="tg-0pky">The delivery type is the software type, and billing method is based on the service period and the number of accounts supported at the time of delivery. The default value of the parameter is 1</td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">extraInfo</td>
-   <td class="tg-0pky">Json</td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky">Key</td>
-   <td class="tg-0pky">Description</td>
-   </tr>
-   <tr>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky">No</td>
-   <td class="tg-0pky">specification</td>
-   <td class="tg-0pky">Specifications, for example: 10</td>
-   </tr>
-   <tr>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky">No</td>
-   <td class="tg-0pky">Key1</td>
-   <td class="tg-0pky">Key1, for example: test</td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">additionInfo</td>
-   <td class="tg-0pky">Json</td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky">Key</td>
-   <td class="tg-0pky">Description</td>
-   </tr>
-   <tr>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky">Parameters of Additional Billing Items</td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky"></td>
-   </tr>
-   <tr>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky">yangbenshu</td>
-   <td class="tg-0pky">For example: sample quantity: 100</td>
-   </tr>
-   <tr>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky">diyu</td>
-   <td class="tg-0pky">For example: Region: Beijing</td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">appCode</td>
-   <td class="tg-0pky">Application Code</td>
-   <td class="tg-0pky">No</td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky">ME + Parameter</td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">tenantCode</td>
-   <td class="tg-0pky">Enterprise Code</td>
-   <td class="tg-0pky">No</td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky">ME + Parameter</td>
-   </tr>
-   <tr>
-   <td class="tg-0pky">userCode</td>
-   <td class="tg-0pky">User Code</td>
-   <td class="tg-0pky">No</td>
-   <td class="tg-0pky"></td>
-   <td class="tg-0pky">ME + Parameter</td>
-   </tr>
-   </tbody>
-   </table>
+
+| Parameter Name | Type | Length | Compulsory | Description |
+| --- | --- | --- | --- | --- |
+| token | String | 32 | Yes | Security verification tokens |
+| action | String | 20 | Yes | &quot;createInstance&quot; |
+| jdPin | String | 50 | Yes | Unique account identifier of a user in JD Cloud |
+| orderBizId | String | 20 | Yes | Purchase relationship ID in service provider background purchase list |
+| orderId | String | 20 | Yes | ID related to cloud marketplace order |
+| serviceCode | String | 50 | Yes | Corresponding service code that can be viewed from the service list of the service provider’s background, e.g. FW\_GOODS-500232 |
+| skuId | String | 50 | Yes | Charging item number; e.g. FW\_GOODS-500232-1 |
+| mobile | String | 20 | No | Mobile phone number of a user |
+| email | String | 50 | No | Email of a user |
+| template | String | 20 | No | Template ID which is suitable for website building commodity template |
+| expiredOn | DateTime |   | No | Expiration time of corresponding order, format: yyyy-MM-dd HH:mm:ss; |
+| accountNum | Integer | 10 | No | The delivery type is the software type, and billing method is based on the service period and the number of accounts supported at the time of delivery. The default value of the parameter is 1 |
+| extraInfo | Json | 255 |   | Key | Description |
+|   | No | specification | Specifications, e.g. 10 |
+|   | No | Key1 | Key1, e.g. test |
+| additionInfo | Json parameters of additional billing items | 255 |   | Key | Description |
+|   |   |   |   | yangbenshu | e.g. sample size:100 |
+|   |   |   |   | diyu | e.g. Region: Beijing |
+| appCode | Application Code |   | No |   | ME+Parameter |
+| tenantCode | Enterprise Code |   | No |   | ME+Parameter |
+| userCode | User Code |   | No |   | ME+Parameter |
+
          Description: extraInfo: the dynamic field key-value in the Json format can be expanded and is used for transmitting some non-general billing fields to the service provider after the user places the order. For example, the specifications of a product are 10G and 100M and the user purchases 5 accounts;
          additionInfo: the dynamic field key-value in the Json format can be expanded and is used for transmitting some non-general billing fields to the service provider after the user places the order. For example, the unit price of 1 product sample is RMB 10 and is RMB 5 in Beijing.
 
@@ -277,7 +135,7 @@ After the user renews and pays successfully, the Marketplace calls the renewal i
         ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/通知接口7.png)
 
 4.2.3 Return parameters</br>
-        ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/通知接口8.png)</br>
+        ![image](https://github.com/jdcloudcom/cn/blob/edit/documentation/Marketplace/Marketplace/MarketPlace-Image/Notification API 8.png)</br>
         
 4.2.4 Example</br>
     1  Request</br>
@@ -453,6 +311,10 @@ After the user renews and pays successfully, the Marketplace calls the renewal i
 In order to ensure the correctness of the automatic opening of the software service, the application access debugging interface is built on the service provider management platform. The service provider can debug the correctness of the above interfaces on this page.</br>
  
  Note: the debugging data is informal, and JD Cloud Marketplace does not do business processing.
+ 
+5.2 API SDK
+
+The java version sdk is provided in order to simplify the access development process:
  ```
     import java.io.UnsupportedEncodingException;
     import java.security.MessageDigest;

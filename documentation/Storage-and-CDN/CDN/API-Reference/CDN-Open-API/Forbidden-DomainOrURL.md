@@ -14,6 +14,8 @@ Forbidden Domain or URL (forbiddenCdnDomainOrUrl)
 | forbiddenUrl   | String | No        |Only when the forbidden type is url, this parameter is mandatory and only one URL can be forbidden. If multiple URLs need to be deleted, you need to submit multiple requests. url must begin with /  |
 | reason   | String | Yes       | Forbidden Reason |
 | linkOther   | String | No       | If the associated forbidden parameter is y, it means it is not allowed to add all domains under the associated root domain. If null or n, it means only current domain is forbidden without limit to add domains |
+|shareCacheDomainForbid | String | No | 1 is to block shared cache domain, 0 is not to block shared cache domain|
+
 ### 3. Return Parameter
 
 | **Name**         | **Description**               |

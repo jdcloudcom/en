@@ -21,17 +21,8 @@
         href: Introduction/Application-Scenarios.md
   - name: Product Pricing
     items:
-      - name: Billing Overview
-        href: Pricing/Billing-Overview.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
-      - name: Price Overview
-        href: Pricing/Price-Overview.md
-      - name: Purchase Process
-        href: Pricing/Purchase-Process.md
-      - name: Renew Process
-        href: Pricing/Renew-Process.md
-        status: 0
   - name: Getting Started
     items:
       - name: Create edge node
@@ -40,16 +31,18 @@
         href: Getting-Started/Install-Edge-System.md
   - name: Operation Guide
     items:
-      - name: Edge Computing Operation
-        items:
-          - name: Deploy edge computing module
-            href: Operation-Guide/Edge-Module/Deploy-Edge-Module.md
-          - name: View edge computing result
-            href: Operation-Guide/Edge-Module/View-Module-Result.md
+        - name: Manage Edge Application
+          href: Operation-Guide/Edge-App.md
+        - name: Manage Child Device
+          href: Operation-Guide/SubDevice.md
+        - name: Manage Message Router
+          href: Operation-Guide/MsgRouter.md
+        - name: AI Mode Conversion Guide
+          href: Operation-Guide/Trans-ModelFile.md
   - name: Best Practices
     items:
-    - name: Control edge node sub-device
-      href: Best-Practices/Control-Device.md
+    - name: Peripheral Vision Application
+      href: Best-Practices/Object-Detect.md
   - name: Tutorial
     items:
     status: 0

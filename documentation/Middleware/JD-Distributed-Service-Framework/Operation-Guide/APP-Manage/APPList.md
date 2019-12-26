@@ -1,20 +1,19 @@
-#  Application Management
-Application refers to a group of collections with specific functions. The current platform provides application deployment on Virtual Machines. A user can deploy application packages on Virtual Machines via deployment of Virtual Machines.
-
-- One Virtual Machine can be deployed with one application;
-- WAR package and JAR package deployment are supported.
+#  Application Management Overview
+Application refers to a group of collections with specific functions. When developed, an application can be deployed through the Console. Currently, Virtual Machines application deployment and integrated K8S container application deployment are supported.
 
 
-## Operation Scenario
+|   | Virtual Machines Deployment | K8S Container Application Deployment |
+| :- | :- | :- |
+| Operation Scenario | Is traditional deployment method. A user can deploy the program package, create applications and delete applications in a namespace (such as pre-release environment and on-line environment). | When using K8S cluster on JD Cloud, you can deploy K8S applications through JDSF. |
+| Deployment Method | Deploy the program package to the Virtual Machines. One Virtual Machine can be deployed with one application. | Deploy the K8S application to the K8S cluster on JD Cloud.  |
+| Resource Pool | Virtual Machines | K8S Cluster |
+| Deployment Medium | WAR package, JAR package | Image |
 
-For example, a user can deploy the program package, create applications and delete applications in a namespace (such as pre-release environment and on-line environment).
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/cvmk8sdeploy1.png)
 
-## Operation Steps
 
-Application operation process is as follows:
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-flow.png)
-
+## Basic Actions of Application
 
 
 ### Create Application
@@ -24,10 +23,6 @@ Application operation process is as follows:
 2.	 Click **Create Application** on the top of list and log in the creation page.
 
 3.	 Set basic information, click **OK** and complete creation.
-
-**Description:**
-
--  Java running environments now supports JDK1.7 and OpenJDK1.8.
 
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-create-11.png)
@@ -55,6 +50,28 @@ Application operation process is as follows:
 
 For more details about this, please refer to: [Application Deployment](APPDeloy.md).
 
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-flow-yzj.png)
+
+
+For details, please refer to: [Deployment Application in Virtual Machines](APPDeloy.md)  
+ 
+ 
+2. The K8S container application deployment process is as follows:
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-flow-k8s.png)
+
+
+ 
+
+**Description:**
+
+1. Import the Virtual Machines again in the resource pool, then you can open Port 50001 of the Security Group.
+
+2. The Security Group will not be changed when a new operating system is built. After deployed, the application can be normally disabled/enabled.
+
+3. If users manually change the firewall setting in Security Group or Virtual Machines, it may affect the disabling/enabling application functions.
+
+
 
 ### Instance Deployment Information
 
@@ -75,7 +92,7 @@ For more details about this, please refer to: [Application Deployment](APPDeloy.
 
 2. When deleting an application, all program packages under the application will be deleted. Before deletion, the user needs to back up on his/her own.
 
-3. Currently, the program package supports two types, JAR and WAR, and its maximum SoftSize is 256 MB.
+3. Currently, the program package supports two types, JAR and WAR.
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-cxb-list-1.png)
 
@@ -83,13 +100,13 @@ For more details about this, please refer to: [Application Deployment](APPDeloy.
 
 ### Deployment History
 
-For contents of this section, please view the deployment group section. When deleting a deployment group, a user can select to delete deployment history synchronously or not. Before deletion, the user needs to back up on his/her own.
+While deleting a deployment group, the deployment history will be deleted synchronously; before deletion, users need to back up the data by themselves.
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-bsz-history-list.png)
 
 
 ### Deployment Group
 
-For contents of this section, please view the section [Deployment Group](Deploy-Group.md).
+When deploying an application by way of Virtual Machines, you need to implement the deployment through deployment group. For relevant contents, please refer to: [Deployment Group](Deploy-Group.md) Section.
 
 

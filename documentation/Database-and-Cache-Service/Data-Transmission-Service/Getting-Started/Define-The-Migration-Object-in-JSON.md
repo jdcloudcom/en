@@ -1,36 +1,36 @@
-# JSON方式定义迁移对象
+# Define Migration Object with JSON Method
 
-源数据库的库表内容较多时，可通过JSON方式定义迁移对象。
+Where the source database has many tables, migration objects and is defined with the JSON method.
 
 ```JSON
 [
     {
-        "dbName":"待迁移库名1",
-        "schemaName":"待迁移 Schema名1",
+        "dbName":"Name 1 of Database to Be Migrated",
+        "schemaName":"Name 1 of Schema to Be Migrated",
         "tableIncludes":[
             {
-                "tableName":"待迁移表名1",
+                "tableName":"Name 1 of Data Table to Be Migrated"
             },
             {
-                "tableName":"待迁移表名2",
+                "tableName":"Name 2 of Data Table to Be Migrated"
             }            
-        ],
-    }
+        ]
+    },
     {
-        "dbName":"待迁移库名2",
-        "schemaName":"待迁移 Schema名2",
+        "dbName":"Name 2 of Database to Be Migrated",
+        "schemaName":"Name 2 of Schema to Be Migrated",
         "tableIncludes":[
             {
-                "tableName":"待迁移表名",
+                "tableName":"Name of Data Table to Be Migrated"
             }
-        ],
+        ]
     }
 ]
 ```
 
-说明：
+Description:
 
-- SQL Server 填写 dbName、schemaName、tableName。
-- MySQL 填写 schemaName、tableName，不需要填写dbName。
-- MongoDB 填写 dbName、tableName，不需要填写schemaName。
-- 迁移全部DB时，tableName填写"*"。
+- Fill in dbName, schemaName and tableName for SQL Server.
+- Fill in schemaName and tableName for MySQL and dbName is not required.
+- Fill in dbName and tableName for MongoDB and schemaName is not required.
+- When all DBs are migrated, please fill in tableName as "*".

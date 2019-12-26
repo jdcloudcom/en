@@ -16,6 +16,8 @@ After the application is successfully deployed, users can record the data inform
 
 Enable ES service first.
 
+**Note: JDSF platform will write data into ES provided that users should maintain ES by themselves to guarantee there are sufficient resources to store and process the log.**
+
 
 ## Operation Steps
 
@@ -72,7 +74,7 @@ Currently, there are two entries to associate the log and deployment group.
 
 2. On the New/Edit page of the deployment group.
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/log-bg-app.png)
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/log-bg-app-1214.png)
 
 
 ### Step 4: Initiate deployment to bring the log configuration into effect.

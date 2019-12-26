@@ -39,7 +39,7 @@ In which the available number of Virtual Machines refers to the number of runnin
 **Note:**
 
 -   The resource pool and the namespace to be served by such resource pool shall be in the same VPC.
--   A user can create/delete resource pools, import Virtual Machines and remove Virtual Machines in the resource pool.
+-   Users can create/delete resource pools, import Virtual Machines and remove Virtual Machines in the resource pool.
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/rsm-create-1.png)
 
@@ -54,6 +54,8 @@ In which the available number of Virtual Machines refers to the number of runnin
 2. 	For resources to be deleted, click **Deletion** on the operation bar.
 
 - Before deleting the resource pool, all Virtual Machines in the resource pool need to be deleted.
+
+- Before deleting the resource pool, you need to disassociate the deployment group that is associated on the Virtual Machines.
 
 - Before deleting the data, the user needs to well complete data backup work on his/her own.
 

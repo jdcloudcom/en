@@ -10,12 +10,12 @@
     <dependency>
         <groupId>com.jdcloud.jdsf</groupId>
         <artifactId>spring-cloud-jdsf-auth</artifactId>
-        <version>1.0.0-Edgware</version>
+        <version>1.0.2-Edgware</version>
     </dependency>
     <dependency>
         <groupId>com.jdcloud.jdsf</groupId>
         <artifactId>spring-cloud-jdsf-consul</artifactId>
-        <version>1.0-Edgware</version>
+        <version>1.0.2-Edgware</version>
     </dependency>
 ```
 

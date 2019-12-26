@@ -1,13 +1,23 @@
 # Configuration Management
-Configuration management provides users with the service to configure the application.
-
-Multiple versions can exist in each configuration, and each version can be released in different deployment groups for the same application. Configuration types include:
+Configuration management provides users with the service to configure the application. The configured types include:
 
 | Type	| Description	| 
 | :- | :- | 
 |  Application Configuration	|  It works for a specific application. In terms of priority, application configuration takes precedence over global configuration.	|  
 |  Global Configuration	|  It works for namespace. 	|  
  
+The offered features include:
+
+| Features	| Description	| 
+| :- | :- | 
+|  Create Configuration	|  Application configuration or global configuration can be created according to needs.	|  
+|  Multiple Versions	|  Each configuration can protect multiple versions. The latest version number shall be taken as the effective version. 	|  
+|  Release Configuration	|  Take effect after releasing and configuring to a registration center. Note that for K8S applications deployed through JDSF platform, if you didn't select to use the registration center of JDSF platform to implement the registration and discovery of applications in the deployment, then the configuration will be unable to be released to this K8S application.	|  
+|  Release History	|  Release history list of each configuration.	|  
+|  Rollback	|  Roll back to the previous version.	| 
+|  Configuration File Import/Export	|  Support import and export of configuration file.	| 
+
+
 
 
 ## Operation Steps
@@ -28,10 +38,10 @@ Step 2: Fill in Information.
 1. Please note that you cannot create a configuration with the same name on the same service.
 
 
-2. Type selection: Create application configuration.
+2. Type selection: Create application configuration, and select the targeted application. Note that the application configuration function here only takes effect to Spring Cloud.
 
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-create.png)
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/pzgl-xjpz-1.png)
   
   
 Step 3: Release the configuration  
@@ -59,7 +69,7 @@ Step 2: Fill in Information.
 
 2. Type selection: Create global configuration.
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/pzgl-fb-qjpz-xj.png)
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/pzgl-xjpz-2.png)
   
   
 Step 3: Release the configuration  
@@ -100,13 +110,19 @@ Step 2: Click **Generate a New Version** under action to enter the version edit 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/config-vision-add-new.png)
   
 
-
-
-
 Step 3: Release new version.
 
 - After release, the new version will replace the original version as the on-line version.
 
 - In the version revision list, at least 1 version record shall be kept. If you need to delete all records, please delete the entire configuration record in "Configuration Management" at the upper level.
 
+### Configuration File Import/Export
 
+1. Import. You can directly import a file when creating configuration.
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/pzgl-xjpz-1.png)
+
+
+2. Export. Entrance: Configure file>Select a version number to view details>Exported configuration in details
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/pzgl-xjpz-dc.png)

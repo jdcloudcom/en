@@ -1,10 +1,11 @@
 # Product Overview
 
-IoT Edge is an intelligent system deployed and running on edge node devices, which extends cloud computing power to local edge nodes for executing intelligent computing on site. Users can obtain capabilities such as operation of AI deduction models, data nearby processing, device access management, etc. through the IOT edge computing nodes on the device deployment site.
+IoT Edge is the intelligent system deployed and running on edge node device, which extends cloud computing power to local to realize self-control for edge node. Users can obtain capabilities such as device access management, data nearby processing, AI deduction, etc. through edge computing nodes on site. IoT Edge must rely on and be used with IoT Core.
 
-IoT Edge for IoT Intelligent Edge Computing has the following characteristics:
+IoT Edge has the following characteristics:
 
-- Support multiple protocols to rapidly and conveniently access various terminal devices and sensors to IoT Hub.
+- Connection and management of child devices on edge node by users and child device data report to IoT Core are supported.
+- Management functions such as edge application one-click deployment, configuration, and deletion.
 - Carry out real-time collection and processing, analysis, AI learning, deduction as well as identification of local data.
 - Offline work is supported, accelerating edge decision-making.
 - Safe transmission from edge to cloud and local encryption of data.
@@ -14,12 +15,11 @@ IoT Edge for IoT Intelligent Edge Computing has the following characteristics:
 - Easy Operation
     - [Create Edge Computing Node](../Getting-Started/Create-Edgenode.md)
     - [Install Edge System](../Getting-Started/Install-Edge-System.md)
-- Edge Computing
-    - [Deploy Edge Computing Module](../Operation-Guide/Edge-Module/Deploy-Edge-Module.md)
-    - [View Edge Computing Result](../Operation-Guide/Edge-Module/View-Module-Result.md)
-- Device Operation
-    - [Control of Edge Node Sub-device](../Best-Practices/Control-Device.md)
+- Operation Guide
+    - [Manage Edge Application](../Operation-Guide/Edge-App.md)
+    - [Manage Child Device](../Operation-Guide/SubDevice.md)
+    - [Manage Message Router](../Operation-Guide/MsgRouter.md)
 
 ## Billing
 
-IoT edge computing is free during beta.
+JD Cloud IoT Edge is for free now.

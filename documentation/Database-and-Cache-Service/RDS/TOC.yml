@@ -342,7 +342,9 @@
           - name: PostgreSQL Log Download 
             href: Operation-Guide/Log/Log-Download/PostgreSQL-Log-Download.md   
         - name: Slow Log 
-          href: Operation-Guide/Log/Log-Management.md   
+          href: Operation-Guide/Log/SlowLogs.md   
+        - name: Error Logs 
+          href: Operation-Guide/Log/ErrorLog.md  
       - name: Access Mode Setting
         href: Operation-Guide/Set-Access-Mode.md     
       - name: PostgreSQL Plug-ins 

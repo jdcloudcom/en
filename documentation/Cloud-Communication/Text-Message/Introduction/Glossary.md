@@ -8,16 +8,16 @@ The SMS Signature is the identifier prefixed to the SMS content, used for identi
 SMS signature can be used only upon approval.<br><br>
 
 Example:<br>
-Example of SMS: [JD Cloud] Your JD Cloud login verification code is ${1}, please keep it a secret<br>
+Example of SMS: [JD Cloud] Your JD Cloud login verification code is ${NUM_6}, please keep it a secret<br>
 SMS Signature: JD Cloud<br>
-SMS Template: Your JD Cloud login verification code is ${1}, please keep it a secret<br><br>
+SMS Template: Your JD Cloud login verification code is ${NUM_6}, please keep it a secret<br><br>
 
 **SMS Template**<br>
 SMS template is the specific SMS content sent.<br>
-SMS template supports three modes, i.e., the verification code ,the notification SMS and 推广短信. For verification code and notification SMS, individual SMS can be customized by replacing variables. 推广短信不支持在模版中添加变量。<br>
+SMS template supports three modes, i.e., the verification code, the notification SMS and promotion SMS. For verification code and notification SMS, individual SMS can be customized by replacing variables. For the promotion SMS, addition of variable in the temperature is not supported.<br>
 SMS templates can be used only upon approval.<br><br>
 
 Example:<br>
-Example of SMS: [JD Cloud] Your JD Cloud login verification code is ${1}, please keep it a secret<br>
+Example of SMS: [JD Cloud] Your JD Cloud login verification code is ${NUM_6}, please keep it a secret<br>
 SMS Signature: JD Cloud<br>
-SMS Template: Your JD Cloud login verification code is ${1}, please keep it a secret
+SMS Template: Your JD Cloud login verification code is ${NUM_6}, please keep it a secret

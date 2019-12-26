@@ -1,10 +1,10 @@
-#  Application Deployment
+#  Deployment Application in Virtual Machines
 
-On JD Distributed Service Framework, applications can be deployed by deployment groups. At present, applications are supported to be deployed on Virtual Machines.
+On JDSF, users can deploy applications by way of Virtual Machines, specifically, by way of deployment group.
 
 ## Operation Scenario
 
-After an application is created, its registration and discovery on the instance shall be done by deployment program.
+When an application is created, if users need to deploy applications by way of Virtual Machines, they need to deploy a program package to implement the registration and discovery of the applications on the instance.
 
 
 ## Environment Preparation
@@ -24,7 +24,7 @@ After logging in the JD Distributed Service Framework Console, the following con
 
 2. Create Resource Pool. Import Virtual Machine to resource pool for application deployment. Process reference: [Create Resource Pool and Import of Virtual Machine](../Resource-Manage/Resource-List.md).
 
-3. Create application. Process reference: [Application Management](APPList.md)  
+3. Then in the page of creating applications, select the creation of VM applications. Note: Java running environment currently supports JDK1.7, OpenJDK1.8 and OpenJDK11.
 
 **For example:**
 
@@ -66,7 +66,7 @@ Complete the association of the Virtual Machines.
 4. Fill in additional information of the deployment group. As default if there is no requirement.
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/yybs-cjyy-qtxx.png)
 
-5. Deployment completed.
+5. Complete the deployment group creation.
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/yybs-cjyy-bswc.png)
 

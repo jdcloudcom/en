@@ -8,17 +8,19 @@ Through the IoT Edge Console, an IoT Edge can be created and registered in sever
 
 ### Rapid Installation
 
-After the Edge Agent installation package and user profile are downloaded, the Edge system can be completely installed in several minutes by executing a simple installation command in the terminal system.
+After the edge system installation package and user configuration file are downloaded, the Edge system can be completely installed in several minutes by executing a simple installation command in the terminal system.
 
-## Computing Module
+## Edge Application
 
-### Local Image Detection Module
+### **IP Camera Device Service**
 
-Local image Identification, monitoring and computing module, caffe framework, supporting multiple AI models and USB Camera. Support local storage and OSS storage for identification results.
+Provide IP camera device services, and support the common IP cameras on the market access to edge nodes Output image to object detection application by configuring message router.
 
-### Device Service
+### Object Detection Application
 
-Provide supporting service of device access, allowing users to develop different device service for different devices.
+Identify and detect objects based on images taken by IP camera. It supports setting of detection objects, detection to target post-recording videos and user-deployed AI models. Support local storage and JD Cloud OSS storage for identification results.
+
+
 
 ## Related References
 

@@ -43,6 +43,14 @@
             href: Operation-Guide/Instance-Management/Renewal-Instance.md 
           - name: Delete instance
             href: Operation-Guide/Instance-Management/Delete-Instance.md
+      - name: Backup Management
+        items:
+          - name: Set Automatic Backup
+            href: Operation-Guide/Backup/Modify-Backup-Policy.md
+          - name: Create Manual Backup
+            href: Operation-Guide/Backup/Create-Backup.md
+          - name: Create Instance Based on Backup
+            href: Operation-Guide/Backup/Create-Instance-by-Backup.md
       - name: Account Management
         items:
           - name: Create Account

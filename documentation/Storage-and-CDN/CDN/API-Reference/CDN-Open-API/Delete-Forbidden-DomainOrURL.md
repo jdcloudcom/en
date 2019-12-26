@@ -12,6 +12,7 @@ Delete Forbidden Information (deleteForbiddenInfo)
 | forbiddenType   | String | Yes        | Only can be one of domain or url |
 | domain      | String | Yes        | Forbidden Domain |
 | forbiddenUrl   | String | No        |Only when a forbidden url is deleted, this parameter is mandatory and only one URL can be deleted and forbidden each time. If multiple URLs need to be deleted, you need to submit multiple requests. url must begin with /  |
+|shareCacheDomainForbid | String | No | 1 is to block shared cache domain, 0 is not to block shared cache domain|
 
 ### 3. Return Parameter
 

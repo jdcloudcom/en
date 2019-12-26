@@ -1,7 +1,7 @@
 
 # Product Overview
 
-JD Cloud Distributed Service Framework (hereinafter referred to as JDSF) is a hosted service governance framework, which can provide all-round functions of service deployment, registration, discovery, call, monitoring, and others around the whole life cycle of the JD Distributed Service, facilitating implementation by users of JD Distributed Service Applications such as Spring Cloud and Dubbo. With the native Spring Cloud package, Registration Center, Configuration Center and Calling Chain Analysis Service of JD Distributed Service Framework can be accessed; relied on JD Cloud's infrastructures featured by multiple data centers with high speed network connection in the same city, all components of the product all are capable of high availability, so that users will no longer worry about service interruption due to lightning strikes, cable digging and other exceptions.
+JD Cloud Distributed Service Framework (hereinafter referred to as JDSF) is a hosted service governance framework, and a PaaS platform that provides functions of application deployment, registration, discovery, call, governance, observation, etc. around the whole life cycle of JDSF, facilitating implementation by users of JD Distributed Service Applications such as Spring Cloud, Dubbo, etc. With the native Spring Cloud package, Registration Center, Configuration Center and Calling Chain Analysis Service of JD Distributed Service Framework can be accessed; relied on JD Cloud's infrastructures featured by multiple data centers with high speed network connection in the same city, all components of the product all are capable of high availability, so that users will no longer worry about service interruption due to lightning strikes, cable digging and other exceptions.
 
 
 ##### Description: 
@@ -17,10 +17,9 @@ The product is in Beta period and free in the period. The Beta version is the fo
 	- [Registration Center](../Operation-Guide/Resource-Manage/Cluster.md)
 	- [JD Distributed Service Gateway](../Operation-Guide/Resource-Manage/JDSFGW.md)
 - Application Management
-	- [Application List](../Operation-Guide/APP-Manage/APPList.md)	
+	- [Deployment Application in Virtual Machines](../Operation-Guide/APP-Manage/APPDeloy.md)	
 	- [Configuration Management](../Operation-Guide/APP-Manage/Config-Manage.md)
 	- [Service Administration](../Operation-Guide/APP-Manage/Service-Assignuse.md)
-	- [Deployment Group](../Operation-Guide/APP-Manage/Deploy-Group.md)
 - Operation and Maintenance Management
 	- [Calling Chain Analysis Service](../Operation-Guide/DevOps/Analysis-Service.md)
 	- [Log Configuration](../Operation-Guide/DevOps/LogConfig.md)

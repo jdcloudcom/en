@@ -1,12 +1,16 @@
 #  Service Administration
-Service is the basic administration unit of JD Distributed Service. When an application is deployed in JD Distributed Service Framework and the service is registered and discovered in a registration center, such service can be found in the service administration list. Users can carry out the following operations: service authentication and route policy.
-
-**Description:**
-
--  Please refer to: [Description for JD Distributed Service Framework spring cloud Plug-in](../../Getting-Started/JDSF-Plugin.md)
+Service is the basic administration unit of JD Distributed Service. When an application is deployed in JD Distributed Service Framework and the service is registered and discovered in a registration center, such service can be found in the service administration list. Users can carry out the following operations: service authentication and route policy. The following document will introduce the service authentication.
 
 ## Authentication Rules
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/table-jq.png)
+
+
+## Environment Preparation
+
+If you need to use this function, you must quote the plug-in provided by JDSF. Currently, we have provided Spring Cloud plug-in and will provide the dubbo plug-in.
+
+For configuring the environment dependence items, please refer to: [JDSF Spring Cloud Plug-in Description](../../Getting-Started/JDSF-Plugin.md)
+
 
 
 ## Operation Steps
@@ -17,7 +21,7 @@ Service is the basic administration unit of JD Distributed Service. When an appl
 
 2. Applications in the list are the service administration applications of users.
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/ser-list.png)
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/ser-list-20191211.png)
 
 ### View Service Authentication Information
 

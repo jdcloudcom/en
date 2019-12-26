@@ -15,9 +15,9 @@ A: Now, specification of IoT Edge is as follows:
 
 **Q: Now, which edge computing service is provided now?**
 
-A: Now, one computing module for image test is provided officially for Beta use.
+A: The official provides the IP camera device service application and object detection application.
 
 #### **Q: How to charge IoT Edge?**
 
-A:  Free during open beta period.
+A: IoT Edge is for free now.
 

@@ -67,8 +67,10 @@ You can select "Set Now", or "Set Later"(the system will send the default passwo
 ![](../../../../image/vm/Getting-Start-Windows-Create-login.png)
 
 13. Confirm Virtual Machine Quantity and Purchase Duration
-The purchase quantity is limited to your Virtual Machines, Cloud Disk and EIP quota as well as the remaining IP quantity of the subnet you have selected. If the quota is not enough, you can increase it via [Open Ticket][1].
-If to purchase a monthly package instance, you need to set the purchase duration, which shall be at least one month and two years at most. Payment of ten months can enjoy the service for one year. If you need a longer service, please apply via [Open Ticket][3].
+The purchase quantity is limited to your Virtual Machines, Cloud Disk and EIP quota as well as the remaining IP quantity of the subnet you have selected. If the quota is not enough, you can increase it via [Open Ticket][3].<br>
+If to purchase a monthly package instance, you need to set the purchase duration, which shall be at least one month and two years at most. Payment of ten months can enjoy the service for one year. If you need a longer service, please apply via [Open Ticket][3].<br>
+For instance purchased by Monthly Package, the instance and associated resources (Cloud Disk Service and Elastic IP) can be configured as automatic renewal. Automatically renewed duration shall be the same as the purchase duration by default, and if any follow-up adjustment is required, you can turn to renew management console at any time.
+![](../../../../image/vm/Getting-Start-Linux-Create-count.png)
 
 ## Related Reference
 

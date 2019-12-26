@@ -1,5 +1,5 @@
 # Slow Log 
-JD Cloud Database MySQL/Percona/MariaDB provides Slow Log Statistics, Details of Slow Log, you can use statistical information to optimize your application.
+JD Cloud Database MySQL/Percona/MariaDB/PostgreSQL provides slow log statistics and details of slow log (not supported by PostgreSQL now). You can use statistical information to optimize your application.
 
 ## Operation Steps
 1. Login [Cloud Database RD Management Console](https://rds-console.jdcloud.com/database).    
@@ -11,7 +11,7 @@ JD Cloud Database MySQL/Percona/MariaDB provides Slow Log Statistics, Details of
 
 |Search Item|Contents|
 |---|---|
-|Slow Log Statistics|Make statistical summary of SQL statements with execution time longer than 1 second in MySQL/Percona/MariaDB Cloud Database within 7 days, and give an analysis report of slow query log;|
+|Slow Log Statistics|Make statistical summary of SQL statements with execution time longer than 1 second in MySQL/Percona/MariaDB/PostgreSQL Cloud Database within 7 days, and give an analysis report of slow query log;|
 |Slow Log Details|Record SQL statements with execution time longer than 1 second in MySQL/Percona/MariaDB Cloud Database within 7 days;|
 
 ### Download slow logs

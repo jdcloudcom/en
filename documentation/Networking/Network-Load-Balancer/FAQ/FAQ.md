@@ -37,3 +37,8 @@ A: The virtual server group can add or delete VM instance by the user manually o
 
 A: The load balancer adopts high availability frame architecture in each availability zone, enables two instance resources by default, it also occupies the ip resources of two located subnets, except for vip, thus, the single availability zone will occupy 3 Intranet ips in total, the double availability zone will occupy 5 Intranet ips in total, it needs to occupy 2 more ip resources of two located subnets for supporting one more availability zone, the rest can be done in the same manner.
 In addition, when the network load balancer is horizontally elastically extended, more intranet ip resource will be occupied. Therefore, users shall reserve sufficient intranet ip to support sufficient elastic extension capacity. For the time being, it is suggested at least 10 intranet ips should be reserved.
+
+   
+**Q: The Load Balancer in South China Region has been associated with the Elastic IP in Availability Zone A, but why the traffic cannot be normally forward in some cases?**
+
+A: When the Load Balancer is associated with the Elastic IP in Availability Zone A, the backend server attached to the Load Balancer can only be deployed in Availability Zone A. If the backend server is deployed in other AZs other than Availability Zone A, it will cause the inability of the traffic to normally forward; when the Load Balancer is associated with the Elastic IP in all AZs, there is no such limitation.

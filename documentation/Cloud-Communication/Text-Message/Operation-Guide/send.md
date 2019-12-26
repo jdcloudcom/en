@@ -1,15 +1,19 @@
-## 发送短信 <br>
+## Send SMS <br>
 
-短信签名和短信模板审核通过后,就可以开始发送短信了, 在发送短信TAB页, 点选 ‘创建发送任务’, 如下图<br>
+Promotion SMS and notification SMS without variables can be sent on line via the "Send SMS" page on the Console.  
+Verification code SMS and notification SMS with variables shall be called via API or SDK  
+For details, please refer to https://docs.jdcloud.com/en/?act=3  
+
+After the SMS signature and SMS template are approved, SMS can be sent. Click **Create and Send Task** on the SMS sending TAB page, as shown below<br>
 ![发送短信](../../../../image/Text-Message/dx-018.png)<br><br>
 
-在内容设置界面中填写相关资料, 并选择已审核通过的 ‘短信签名’ 和‘短信模板’<br>
+Fill in relevant data on the content setting interface and select the ‘SMS Signature’ and ‘SMS Template’ which have been approved<br>
 ![发送短信](../../../../image/Text-Message/dx-019.png)<br>
 
-设置发送时间并根据格式要求上传手机号后,点击下一步<br>
-注: 推广短信发送时间: 每日 8:30 – 21:30<br><br>
+After the time is set and the mobile phone number is uploaded as per the format requirement, click **Next**<br>
+Note: The promotion SMS will be sent during 8:30 - 21:30 per day.<br><br>
 ![确认发送](../../../../image/Text-Message/dx-020.png)<br><br>
-核对发送的信息后, 点击确认发送, 完成短信任务创建<br>
-注: 系统将自动过滤掉重复的手机号<br><br>
+After the information sent is checked, click **Confirm** to send it, and then creation of a SMS task is completed<br>
+Note: The system will automatically filter out any repeated mobile phone numbers<br><br>
 ![发送列表](../../../../image/Text-Message/dx-021.png)<br><br>
-您可以在发送短信列表页查看短信发送状态.
+You can view the SMS sending status on the SMS sending list page.

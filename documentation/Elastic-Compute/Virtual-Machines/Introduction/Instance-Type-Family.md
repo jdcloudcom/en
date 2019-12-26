@@ -8,6 +8,7 @@ The following is the information on the instance type family currently sold on J
 * Compute-Optimized Standard type: Compute Optimized Standard Type(instance-type-family#user-content-3)
 * Memory-Optimized type: Memory Optimized Standard Type(instance-type-family#user-content-4)
 * High-frequency compute type: High-frequency compute optimization type: High-frequency calculation optimization type(instance-type-family#user-content-5)
+* Storage Optimization type: [Storage Optimization IO type](instance-type-family#user-content-7), [Storage Optimization Big Data type](instance-type-family#user-content-8),
 * GPU Type: [GPU Standard Type](instance-type-family#user-content-6)
 
 ## General
@@ -227,6 +228,80 @@ Instance Type|vCPU (core)|Memory (GB)|Network Interface Multi-Queue
 |h.g1.4xlarge|16|64|4
 |h.g1.6xlarge|24|96|4
 
+## Storage Optimization Type
+
+Storage Optimization type currently includes Storage Optimization IO type and Storage Optimization Big Data type, which can provide high-performance local storage resources for you. Each vCPU is corresponded to hyper-threading core of on Intel Xeon processor.
+
+<div id="user-content-7"></div>
+### Storage Optimization IO Type
+
+**Specifications and Type Characteristics:**
+
+* vCPU to Memory Ratio is 1:4
+* Provide local storage of low latency and high IO
+* Processor:
+	* Generation I: Intel Xeon E5-2683 v4 (Broadwell) processor with 2.1 GHz dominant frequency
+* Support local data disk (for temporary storage) and support the following types of Cloud Disks: Please note that **local data disk is a temporary storage disk that is exposed to the loss of data (e.g. under the circumstance of transfer or system breakdown of host computers) and is not applicable to the customer scenarios where there is no data redundancy structure in the application layer. You are suggested to store important data in Cloud Disks.** 
+	* General SSD Cloud Disk
+	* Performance SSD Cloud Disk
+	* Capacity HDD Cloud Disk
+* Applicable Scenarios:
+	* High-performance Relational Database
+	* NoSQL Database
+	* JCS for Elasticsearch and other circumstances
+
+**Instance Type**
+
+Generation I:
+
+Instance Type|vCPU (core)|Memory (GB)|Local Data Disk (temporary storage|multi-queue network interface
+:---|:---|:---|:---|:---
+|s.i1.xlarge|4|16|1 x 894GB SSD|4
+|s.i1.2xlarge|8|32|2 x 894GB SSD|4
+|s.i1.4xlarge|16|64|4 x 894GB SSD|4
+|s.i1.8xlarge|32|128|8 x 894GB SSD|4
+|s.i1.14xlarge|56|224|14 x 894GB SSD|4
+
+<div id="user-content-8"></div>
+### Storage Optimization Big Data Type
+
+**Specifications and Type Characteristics:**
+
+* vCPU to Memory Ratio is 1:4
+* Provide local storage of low latency, high capacity and high throughput
+* Processor:
+	* Generation II: Intel Xeon Silver 4116 (Skylake) processor with 2.1 GHz dominant frequency
+	* Generation I: Intel Xeon E5-2650 v4 (Broadwell) processor with 2.2 GHz dominant frequency
+* Support local data disk (for temporary storage) and support the following types of Cloud Disks: Please note that **local data disk is a temporary storage disk that is exposed to the loss of data (e.g. under the circumstance of transfer or system breakdown of host computers) and is not applicable to the customer scenarios where there is no data redundancy structure in the application layer. You are suggested to store important data in Cloud Disks.** 
+	* General SSD Cloud Disk
+	* Performance SSD Cloud Disk
+	* Capacity HDD Cloud Disk
+* Applicable Scenarios:
+	* Hadoop MapReduce、HDFS、Hive、HBase
+	* Other mass data storage area and computing business circumstances
+
+**Instance Type**
+
+Generation II:
+
+Instance Type|vCPU (core)|Memory (GB)|Local Data Disk (temporary storage, GB)|Multi-queue Network Interface
+:---|:---|:---|:---|:---
+|s.d2.xlarge|4|22|1 x 9313 HDD|4
+|s.d2.2xlarge|8|44|2 x 9313 HDD|4
+|s.d2.4xlarge|16|88|4 x 9313 HDD|4
+|s.d2.8xlarge|32|176|8 x 9313 HDD|4
+|s.d2.10xlarge|40|220|14 x 9313 HDD|4
+
+Generation I:
+
+Instance Type|vCPU (core)|Memory (GB)|Local Data Disk (temporary storage, GB)|Multi-queue Network Interface
+:---|:---|:---|:---|:---
+|s.d1.xlarge|4|22|1 x 5587 HDD|4
+|s.d1.2xlarge|8|44|2 x 5587 HDD|4
+|s.d1.4xlarge|16|88|4 x 5587 HDD|4
+|s.d1.8xlarge|32|176|8 x 5587 HDD|4
+|s.d1.10xlarge|40|220|14 x 5587 HDD|4
+
 ## GPU Type
 
 GPU Type currently provides GPU Standard Type, providing you with a heterogeneous computing resource with high performance. Each vCPU is corresponded to hyper-threading core of an Intel Xeon processor.
@@ -257,7 +332,7 @@ GPU Type currently provides GPU Standard Type, providing you with a heterogeneou
 
 First Generation:
 
-Instance Type|vCPU(core)|Memory(GB)|GPU|Local Data Disk (Temporary Storage)|Network Interface Multi-queue
+Instance Type|vCPU(core)|Memory(GB)|GPU|Local Data Disk (Temporary Storage, GB)|Network Interface Multi-queue
 :---|:---|:---|:---|:---|:---|
 |p.n1p40.3xlarge|12|48|1 x Nvidia Tesla P40|1 x 960GB SSD|4
 |p.n1p40.7xlarge|28|110|2 x Nvidia Tesla P40|2 x 960GB SSD|4

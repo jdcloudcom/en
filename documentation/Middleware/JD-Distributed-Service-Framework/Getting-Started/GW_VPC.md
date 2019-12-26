@@ -17,7 +17,7 @@ Create the gateway service via Middleware -》JD Distributed Service gateway men
 ![VPC代理](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/createVPC.png)
 
 
-For more data about creating JD Distributed Service gateway, please refer to the product [JD Distributed Service Gateway](../Operation-Guide/JDSFGW/overview.md)
+For more data about creating JD Distributed Service gateway, please refer to the product [JD Distributed Service Gateway](../Operation-Guide/Resource-Manage/JDSFGW.md)
 
 
 ## Configure API Gateway group
@@ -28,14 +28,14 @@ Click **Manage API**, create one API such as apitest via the path /client/test i
 
 Then, release. Click **Release**, select **On-line Release**, select VPC agent for backend service, select apigwtest built in the last step from the JD Distributed Service Gateway drop-down box, and click **OK**.
 
-<br>![发布API](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/pubAPI.png)<br/>
+<br>![Publish API](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/pubAPI.png)<br/>
 
 For more data about creating API, please refer to products of [API Gateway](../../API-Gateway/Introduction/Product-Overview.md)
 
 
 Click **Debugging api**, send requests, and VPC service response can be viewed in response.
 
-<br>![调试API](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/testAPI.png)<br/>
+<br>![Test API](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/testAPI.png)<br/>
 
 ## Supplementary Description
 

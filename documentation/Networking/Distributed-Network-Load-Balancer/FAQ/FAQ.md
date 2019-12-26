@@ -30,3 +30,8 @@ A: The virtual server group can add or delete VM instance manually by the user o
 **Q: What’s the quantity of the Private IP resources occupied by one Distributed Network Load Balancer Instance?**
 
 A: The Distributed Network Load Balancer Instance adopts the distributed deployment architecture in all AZs, there isn’t any specific entity. Only VIP of Distributed Network Load Balancer Instance occupies a Subnet IP resource, it is recommended to reserve at least one Subnet IP resource to ensure available functions of Load Balancer.
+
+
+**Q: The Load Balancer in South China Region has been associated with the Elastic IP in Availability Zone A, but why the traffic cannot be normally forward in some cases?**
+
+A: When the Load Balancer is associated with the Elastic IP in Availability Zone A, the backend server attached to the Load Balancer can only be deployed in Availability Zone A. If the backend server is deployed in other AZs other than Availability Zone A, it will cause the inability of the traffic to normally forward; when the Load Balancer is associated with the Elastic IP in all AZs, there is no such limitation.

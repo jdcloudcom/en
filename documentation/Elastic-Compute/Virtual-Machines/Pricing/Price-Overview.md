@@ -625,7 +625,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>531.8</td>
       <td>2.46</td>
       <td>1.85</td>
-      <td>1*960GB SSD</td>
+      <td>1*894GB SSD</td>
    </tr>
    <tr>
       <td>s.i1.2xlarge</td>
@@ -635,7 +635,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>1063.6</td>
       <td>4.92</td>
       <td>3.69</td>
-      <td>2*960GB SSD</td>
+      <td>2*894GB SSD</td>
    </tr>  
    <tr>
       <td>s.i1.4xlarge</td>
@@ -645,7 +645,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>2127.2</td>
       <td>9.85</td>
       <td>7.39</td>
-      <td>4*960GB SSD</td>
+      <td>4*894GB SSD</td>
    </tr>
    <tr>
       <td>s.i1.8xlarge</td>
@@ -655,7 +655,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>4254.4</td>
       <td>19.69</td>
       <td>14.77</td>
-      <td>8*960GB SSD</td>
+      <td>8*894GB SSD</td>
    </tr> 
    <tr>
       <td>s.i1.14xlarge</td>
@@ -665,7 +665,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>7445.2</td>
       <td>34.47</td>
       <td>25.85</td>
-      <td>14*960GB SSD</td>
+      <td>14*894GB SSD</td>
    </tr>
    <tr>
       <td rowspan="10">Big Data</td>
@@ -676,7 +676,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>625.9</td>
       <td>2.9</td>
       <td>2.17</td>
-      <td>1*10000GB HDD</td>
+      <td>1*9313GB HDD</td>
    </tr> 
    <tr>
       <td>s.d2.2xlarge</td>
@@ -686,7 +686,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>1251.8</td>
       <td>5.8</td>
       <td>4.35</td>
-      <td>2*10000GB HDD</td>
+      <td>2*9313GB HDD</td>
    </tr> 
    <tr>
       <td>s.d2.4xlarge</td>
@@ -696,7 +696,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>2503.5</td>
       <td>11.59</td>
       <td>8.69</td>
-      <td>4*10000GB HDD</td>
+      <td>4*9313GB HDD</td>
    </tr> 
    <tr>
       <td>s.d2.8xlarge</td>
@@ -706,7 +706,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>5007</td>
       <td>23.18</td>
       <td>17.39</td>
-      <td>8*10000GB HDD</td>
+      <td>8*9313GB HDD</td>
    </tr> 
    <tr>
       <td>s.d2.10xlarge</td>
@@ -716,7 +716,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>6258.8</td>
       <td>28.98</td>
       <td>21.73</td>
-      <td>12*10000GB HDD</td>
+      <td>12*9313GB HDD</td>
    </tr> 
    <tr>
       <td>s.d1.xlarge</td>
@@ -726,7 +726,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>520.9</td>
       <td>2.41</td>
       <td>1.81</td>
-      <td>1*6000GB HDD</td>
+      <td>1*5587GB HDD</td>
    </tr> 
    <tr>
       <td>s.d1.2xlarge</td>
@@ -736,7 +736,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>1041.8</td>
       <td>4.82</td>
       <td>3.62</td>
-      <td>2*6000GB HDD</td>
+      <td>2*5587GB HDD</td>
    </tr> 
    <tr>
       <td>s.d1.4xlarge</td>
@@ -746,7 +746,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>2083.5</td>
       <td>9.65</td>
       <td>7.23</td>
-      <td>4*6000GB HDD</td>
+      <td>4*5587GB HDD</td>
    </tr> 
    <tr>
       <td>s.d1.8xlarge</td>
@@ -756,7 +756,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>4167</td>
       <td>19.29</td>
       <td>14.47</td>
-      <td>8*6000GB HDD</td>
+      <td>8*5587GB HDD</td>
    </tr> 
    <tr>
       <td>s.d1.10xlarge</td>
@@ -766,7 +766,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>5208.8</td>
       <td>24.11</td>
       <td>18.09</td>
-      <td>12*6000GB HDD</td>
+      <td>12*1117GB HDD</td>
    </tr> 
    <tr>
       <td rowspan="9">GPU</td>
@@ -778,7 +778,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>3181.13</td>
       <td>14.73</td>
       <td>11.05</td>
-      <td>1*P40<br>1*960GB SSD</td>
+      <td>1*P40<br>1*894GB SSD</td>
    </tr>
    <tr>
      <td>p.n1p40.7xlarge</td>
@@ -788,7 +788,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>6725.63</td>
       <td>31.14</td>
       <td>23.36</td>
-      <td>2*P40<br>2*960GB SSD</td>
+      <td>2*P40<br>2*894GB SSD</td>
    </tr>
    <tr>
       <td>p.n1p40.14xlarge</td>
@@ -798,7 +798,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>13451.25</td>
       <td>62.27</td>
       <td>46.72</td>
-      <td>4*P40<br>4*960GB SSD</td>
+      <td>4*P40<br>4*5587GB SSD</td>
    </tr>
    <tr>
       <td>p.n1p40h.3xlarge</td>
@@ -808,7 +808,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>3055.13</td>
       <td>14.14</td>
       <td>10.61</td>
-      <td>1*P40<br>1*1200GB HDD</td>
+      <td>1*P40<br>1*1117GB HDD</td>
    </tr>
    <tr>
      <td>p.n1p40h.7xlarge</td>
@@ -818,7 +818,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>6473.63</td>
       <td>29.97</td>
       <td>22.48</td>
-      <td>2*P40<br>2*1200GB HDD</td>
+      <td>2*P40<br>2*1117GB HDD</td>
    </tr>
    <tr>
       <td>p.n1p40h.14xlarge</td>
@@ -828,7 +828,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>12947.25</td>
       <td>59.94</td>
       <td>44.96</td>
-      <td>4*P40<br>4*1200GB HDD</td>
+      <td>4*P40<br>4*9313GB HDD</td>
    </tr>
    <tr>
       <td>p.n1v100.2xlarge</td>
@@ -838,7 +838,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>4476.75</td>
       <td>20.73</td>
       <td>15.55</td>
-      <td>1*V100<br>1*6000GB HDD</td>
+      <td>1*V100<br>1*5587GB HDD</td>
    </tr>
    <tr>
       <td>p.n1v100.5xlarge</td>
@@ -848,7 +848,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>9316.88</td>
       <td>43.13</td>
       <td>32.35</td>
-      <td>2*V100<br>2*6000GB HDD</td>
+      <td>2*V100<br>2*5587GB HDD</td>
    </tr>
    <tr>
       <td>p.n1v100.10xlarge</td>
@@ -858,7 +858,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>18633.75</td>
       <td>86.27</td>
       <td>64.7</td>
-      <td>4*V100<br>4*6000GB HDD</td>
+      <td>4*V100<br>4*5587GB HDD</td>
    </tr>
 
 </table>
@@ -874,4 +874,3 @@ Please note:
 [Cloud Disk Price Overview](http://docs.jdcloud.com/en/cloud-disk-service/price-overview)
 
 [Elastic IP Price Overview](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)
-

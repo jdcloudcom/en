@@ -32,12 +32,12 @@
 | JD Distributed Service Gateway | It is used for open service and can keep the public network from exposing its service. The service is open to other Intranet services and also open to the public network for access in cooperation with the API gateway. If the registration center service of JD Distributed Service Framework is used, JD Distributed Service Gateway can automatically complete service discovery and Load Balancer when being called, without using another Load Balancer or gateway service. |
 | TPS | This TPS is the write-in value for collecting calling chain data by a calling chain. TPS calculation method is: application number * (requests per second of a service entry) * 2 * sampling rate. Where, 2 means each application has two data. |
 | Running Instance |Instance passes the health check in a registration center.  |
-| Total Number of Instances | Total number of service instances which are running and are registered in a registration center. |
+| Total Number of Instances | In the registration center, it shall be the total number of successfully registered service instances. |
 |  Region  | Different regions mean different geographic regions. Now, this product can be subscribed in cn-north-1 and cn-east-2. |
 |  Cluster Network  | Customized Virtual Network Space can implement logical separation between resources. |
 |  Calling Chain Analysis Service   |  Calling Chain Analysis Service can trace the calling path for every request of distributed service, which helps user understand and analyze the time consuming and status of each stage for request processing, so as to completely grasp  the service calling relationships and accurately discover the bottleneck of the system and the services with hidden trouble. |
 |  Service Dependent Map  | Obtain calling roles and processes between services according to Calling Chain Data Analysis, which help the users understand the calling paths, service performance and status statistics between services, providing the users with data support for problem positioning, troubleshooting and optimization. |
 
 ## Correspondence of Related Resources
-![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/struct-region-np-cluster-app.png)
+![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/struct-region-np-cluster-app-1209.png)
 

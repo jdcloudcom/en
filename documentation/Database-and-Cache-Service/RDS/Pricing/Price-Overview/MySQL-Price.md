@@ -49,9 +49,40 @@ For price, refer to the following table, with specific price subject to the char
 ### Local Disk NVMe 
 |Instance Type|Bucket (GB)|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
 |---|---|---|---|
+|1-core 1GB|20|116|0.26|
+|1-core 1GB|40|140|0.32|
+|1-core 1GB|60|164|0.37|
+|1-core 1GB|80|188|0.43|
+|1-core 1GB|100|212|0.48|
+|1-core 2GB|60|256|0.58|
+|1-core 2GB|80|280|0.64|
+|1-core 2GB|100|304|0.69|
+|1-core 2GB|120|328|0.74|
+|1-core 2GB|150|364|0.83|
+|1-core 4GB|120|512|1.16|
+|1-core 4GB|150|548|1.25|
+|1-core 4GB|200|608|1.38|
+|1-core 4GB|300|728|1.65|
+|2-core 8GB|200|976|2.22|
+|2-core 8GB|250|1036|2.36|
+|2-core 8GB|300|1096|2.49|
+|2-core 8GB|400|1216|2.76|
 |2-core 8GB|500|1336|3.03|
+|4-core 16GB|400|1952|4.44|
+|4-core 16GB|500|2072|4.71|
+|4-core 16GB|600|2192|4.98|
+|4-core 16GB|800|2432|5.52|
 |4-core 16GB|1000|2672|6.06|
+|8-core 32GB|800|3904|8.88|
+|8-core 32GB|1000|4144|9.42|
+|8-core 32GB|1200|4384|9.96|
+|8-core 32GB|1600|4864|11.04|
 |8-core 32GB|2000|5344|12.12|
+|16-core 64GB|1000|7088|16.14|
+|16-core 64GB|1200|7328|16.68|
+|16-core 64GB|1600|7808|17.76|
+|16-core 64GB|2000|8288|18.84|
+|16-core 64GB|3000|8488|21.54|
 
 # MySQL Read-only instance
 For price, refer to the following table, with specific price subject to the charge made by the Console.
@@ -103,6 +134,37 @@ For price, refer to the following table, with specific price subject to the char
 ### Local Disk NVMe 
 |Instance Type|Bucket (GB)|Pay by Configuration (RMB/Hour)|
 |---|---|---|
+|1-core 1GB|20|0.14|
+|1-core 1GB|40|0.16|
+|1-core 1GB|60|0.19|
+|1-core 1GB|80|0.22|
+|1-core 1GB|100|0.25|
+|1-core 2GB|60|0.30|
+|1-core 2GB|80|0.33|
+|1-core 2GB|100|0.36|
+|1-core 2GB|120|0.38|
+|1-core 2GB|150|0.43|
+|1-core 4GB|120|0.60|
+|1-core 4GB|150|0.65|
+|1-core 4GB|200|0.71|
+|1-core 4GB|300|0.85|
+|2-core 8GB|200|1.15|
+|2-core 8GB|250|1.22|
+|2-core 8GB|300|1.29|
+|2-core 8GB|400|1.43|
 |2-core 8GB|500|1.57|
+|4-core 16GB|400|2.31|
+|4-core 16GB|500|2.45|
+|4-core 16GB|600|2.58|
+|4-core 16GB|800|2.86|
 |4-core 16GB|1000|3.13|
+|8-core 32GB|800|4.62|
+|8-core 32GB|1000|4.89|
+|8-core 32GB|1200|5.16|
+|8-core 32GB|1600|5.71|
 |8-core 32GB|2000|6.26|
+|16-core 64GB|1000|8.41|
+|16-core 64GB|1200|8.68|
+|16-core 64GB|1600|9.23|
+|16-core 64GB|2000|9.78|
+|16-core 64GB|3000|11.15|

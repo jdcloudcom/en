@@ -25,7 +25,9 @@ items:
       href: Operation-Guide/signature.md
     - name: SMS Template
       href: Operation-Guide/content.md
-    - name: 发送短信
+    - name: Template Variable Rule
+      href: Operation-Guide/para.md
+    - name: Send SMS
       href: Operation-Guide/send.md
     - name: Statistics & Analysis
       href: Operation-Guide/stat.md

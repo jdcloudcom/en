@@ -2,11 +2,11 @@
 
 ## Intelligence
 
-Provide local data processing, AI learning, deduction, identification and other capabilities, which enable a certain AI computing and deduction capabilities.
+Provide capacities such as local data processing, AI learning, deduction and identification and keep cloud calculation capacity down to the edge.
 
 ## Convenience
 
- Support multiple protocols to rapidly and conveniently access various terminal devices, sensors to IoT Hub Service.
+ Support multiple protocols to rapidly and conveniently access various terminal devices, sensors to IoT Core Service.
 
 ## Real Time
 
@@ -30,5 +30,5 @@ A massive of jobs of data collection and processing is done locally, so as to re
 - [Specifications](../Introduction/Specifications.md)
 - [Create Edge Computing Node](../Getting-Started/Create-Edgenode.md)
 - [Install Edge System](../Getting-Started/Install-Edge-System.md)
-- [Deploy Edge Computing Module](../Operation-Guide/Edge-Module/Deploy-Edge-Module.md)
+- [Edge Application Management](../Operation-Guide/Edge-App.md)
 

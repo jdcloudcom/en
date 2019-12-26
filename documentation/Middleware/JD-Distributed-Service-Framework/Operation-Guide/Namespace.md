@@ -21,9 +21,38 @@ For example, a user can respectively create 3 namespaces in the same VPC for the
 
 ![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/np-create-1.png)
 
+
+
+### Resize
+
+Through resizing, you can expand the instance types of namespace.
+
+1. Log in JDSF Console and enter the namespace list page.
+![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/mmkj-list-1.png)
+
+2. Enter the resize page.
+![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/mmkj-tzpz.png)
+
+3. Select a requiring specification, click the **Buy Now** button and complete creation.
+
+**Description:**
+
+-  For resizing of current registration center, only expansion other than shrinkage is supported.
+
+
+ 
+### Edit
+
+Currently, you can modify the name and description of the namespace.
+
+![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/mmkj-list-edit.png)
+  
+
+ 
+ 
 ### Delete
 
-1. 	Log in the JD Distributed Service Framework Console.	Click **Namespace** on the left side navigation bar and enter the namespace list page.
+1. Log in the JD Distributed Service Framework Console.	Click **Namespace** on the left side navigation bar and enter the namespace list page.
 
 2. For the namespace to be deleted, click **Delete** on the operation bar.
 
@@ -33,3 +62,5 @@ For example, a user can respectively create 3 namespaces in the same VPC for the
 1. Before deleting a namespace, please clear all applications under such namespace, otherwise, it cannot be deleted.
 
 2. Before deleting the data, a user needs to well complete data backup work on his/her own.
+
+

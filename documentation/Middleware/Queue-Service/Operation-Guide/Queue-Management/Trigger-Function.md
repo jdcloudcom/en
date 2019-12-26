@@ -4,7 +4,7 @@
 ## Preconditions
 
 - The standard Queue has been created in the Queue Service. FIFO Queue does not support this function
-- The function that Function Service wants to trigger has been configured with service role, and the system policy: JDCloudQueueServiceTriggerFunction has been added to the Function Service Role Permission.
+- The function that Function Service wants to trigger has been configured with service role, and the system policy: JDCloudQueueServiceTriggerFunction has been added to the Function Service Role Permission (operation steps [Please Refer to](../../../../Elastic-Compute/Function-Service/Operation-Guide/invokefunction/triggermanagement/eventsourceservice/JQS-trigger.md)).
 
 ## Note
 

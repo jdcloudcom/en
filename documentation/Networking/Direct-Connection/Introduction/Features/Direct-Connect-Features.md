@@ -52,19 +52,15 @@ When creating a Private Virtual Interface, you need to specify the following nec
 
 
 
-List of JD Cloud Direct Connect Points (Last Updated on 05.10.2019)
+List of JD Cloud Direct Connect Points (Last Updated on 12.10.2019)
 
 The list only provides the information of the Direct Connect Points of JD Cloud, which is suitable for self-service application. For the information of the Direct Connect Points of the partner, please contact the specific partner.
 
-| Regionl | Access Point Name |                   Detailed Address                  |            Access Supporting Operators            |
-| :-------: | :------------: | :-----------------------------------------------: | :------------------------------------: |
-| cn-north-1 | Beijing-Haidian      | Building C, Advanced Technology & Materials Co., Ltd. Yongfeng Industrial Base in the Yongfeng High Technology and New Technology Industrial Base, Xibeiwang Town, Haidian District, Beijing | China Mobile, China Unicom, China Telecom and Other Operators in China |
-|           |   Beijing-Yizhuang    |          No.32, 9th Kechuang Street, Yizhuang Economic Development Zone, Beijing           | China Mobile, China Unicom, China Telecom and Other Operators in China |
-| cn-east-2 |   Shanghai-Jing’an    |            Building C, No.1268, Wanrong Road, Jing’an District, Shanghai            | China Mobile, China Unicom, China Telecom and Other Operators in China |
-|           |   Shanghai-Xuhui    |      Room 102, Building D, Leyetiandi, No.418, Tianlin Road, Xuhui District, Shanghai      | China Mobile, China Unicom, China Telecom and Other Operators in China |
-| cn-east-1 | Suqian-Suyu      | West Side of the Intersection of Fazhan Avenue and Qingtong Road, Hubin New District, Suqian City, Jiangsu Province    | China Mobile, China Unicom, China Telecom and Other Operators in China |
-| cn-south-1 | Guangzhou-Nansha      | No.8, Nanjiang 3rd Road, Zhujiang Industrial Park, Nansha District, Guangzhou, Guangdong           |                China Telecom                |
-
-
-
-
+| Regionl  | Access Point Name |                   Detailed Address                  |                 Access Supporting Operators            |
+|:---------:|:----------:|:-------------------------------------------------:|:--------------------------------------:|
+| cn-north-1 |   Beijing-Haidian      | Building C, Advanced Technology & Materials Co., Ltd. Yongfeng Industrial Base in the Yongfeng High Technology and New Technology Industrial Base, Xibeiwang Town, Haidian District, Beijing | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|            |   Beijing-Yizhuang    |          No.32, 9th Kechuang Street, Yizhuang Economic Development Zone, Beijing           | China Mobile, China Unicom, China Telecom and Other Operators in China |
+| cn-east-2  |   Shanghai-Jing’an    |            Building C, No.1268, Wanrong Road, Jing’an District, Shanghai            | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|            |   Shanghai-Xuhui    |      Room 102, Building D, Leyetiandi, No.418, Tianlin Road, Xuhui District, Shanghai      | China Mobile, China Unicom, China Telecom and Other Operators in China |
+| cn-east-1  |   Suqian-Suyu      | West Side of the Intersection of Fazhan Avenue and Qingtong Road, Hubin New District, Suqian City, Jiangsu Province    | China Mobile, China Unicom, China Telecom and Other Operators in China |
+| cn-south-1 |   Guangzhou-Huangpu  |        No.20, Guanda Road, Huangpu District Science City, Guangzhou, Guangdong Province         | China Mobile, China Unicom, China Telecom and Other Operators in China |

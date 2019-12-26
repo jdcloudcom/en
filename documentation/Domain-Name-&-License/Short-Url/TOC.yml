@@ -1,0 +1,65 @@
+name: Shorturl
+  href:
+  items:
+    - name: Introduction
+      items:
+        - name: Product Overview
+          href: Introduction/Product-Overview.md
+        - name: Core Concepts
+          href: Introduction/Core-Concepts.md
+        - name: Basic Architecture
+          href: Introduction/Basic-Infrastructure.md
+        - name: Benefits
+          href: Introduction/Benefits.md
+        - name: Features
+          href: Introduction/Features.md
+        - name: Specifications
+          href: Introduction/Specifications.md
+        - name: Restrictions
+          href: Introduction/Restrictions.md
+        - name: Application Scenarios
+          href: Introduction/Application-Scenarios.md
+    - name: Pricing
+      items:
+        - name: Billing Overview
+          href: Pricing/Billing-Overview.md
+        - name: Billing Rules
+          href: Pricing/Billing-Rules.md
+        - name: Price Overview
+          href: Pricing/Price-Overview.md
+        - name: Purchase Process
+          href: Pricing/Purchase-Process.md
+    - name: Getting Started
+      items:
+        - name: Enable Service
+          href: Getting-Started/Service-Provisioning.md
+        - name: Use Now
+          href: Getting-Started/Start-Service.md
+        - name: Page Trial
+          href: Getting-Started/Web-on-trial.md
+    - name: Operation Guide
+      items:
+        - name: Overview
+            href: Operation-Guide/Shorturl-Overview.md
+        - name: Required Parameter Description
+            href: Operation-Guide/Shorturl-Parameter-Info.md
+        - name: Special Notification
+          - href: Operation-Guide/Special-Tip.md
+    - name: Best Practices
+      items:
+        - name: Information Promotion Through Short URL in Short Message
+          href: Best-Practices/Short-Message.md
+        - name: Use Short URL in Message Push System
+          href: Best-Practices/Push-Message.md
+    - name: Tutorial
+      status: 0
+    - name: Troubleshooting
+      items:
+        - name: Calling interface failed
+          href: Troubleshooting/Call-API-Failed.md
+    - name: FAQ
+      href: FAQ/FAQ.md
+    - name: Related Resources
+      items:
+        - name: Document History Records
+          href: Related-Resources/Document-History.md

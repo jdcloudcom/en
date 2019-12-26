@@ -1,6 +1,7 @@
 # PostgreSQL 
 For price, refer to the following table, with specific price subject to the charge made by the Console.
 
+## Local Disk SSD
 |Instance Type|Bucket (GB)|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
 |---|---|---|---|
 |1-core 1GB|20|108|0.25|
@@ -37,3 +38,48 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 64GB|1200|6848|15.60|
 |16-core 64GB|1600|7168|16.32|
 |16-core 64GB|2000|7488|17.04|
+
+# PostgreSQL Read-only Instance
+For price, refer to the following table, with specific price subject to the charge made by the Console.
+## Local Disk SSD
+|Instance Type|Bucket (GB)|Pay by Configuration (RMB/Hour)|
+|---|---|---|
+|1 Core 1GB|20|0.13|
+|1Core 1GB|40|0.15|
+|1 Core 1GB|60|0.16|
+|1 Core 1GB|80|0.18|
+|1 Core 1GB|100|0.20|
+|1 Core 2GB|60|0.27|
+|1 Core 2GB|80|0.29|
+|1 Core 2GB|100|0.31|
+|1 Core 2GB|120|0.33|
+|1 Core 2GB|150|0.36|
+|1 Core 4GB|100|0.53|
+|1 Core 4GB|120|0.55|
+|1 Core 4GB|150|0.58|
+|1 Core 4GB|200|0.62|
+|1 Core 4GB|300|0.71|
+|2 Core 8GB|200|1.06|
+|2 Core 8GB|250|1.11|
+|2 Core 8GB|300|1.15|
+|2 Core 8GB|400|1.24|
+|2 Core 8GB|500|1.33|
+|2 Core 16GB|200|1.8|
+|4 Core 16GB|400|2.12|
+|4 Core 16GB|500|2.21|
+|4 Core 16GB|600|2.30|
+|4 Core 16GB|800|2.48|
+|4 Core 16GB|1000|2.66|
+|4 Core 32GB|400|3.6|
+|8 Core 32GB|600|4.06|
+|8 Core 32GB|800|4.24|
+|8 Core 32GB|1000|4.42|
+|8 Core 32GB|1200|4.60|
+|8 Core 32GB|1600|4.96|
+|8 Core 64GB|600|7.02|
+|8 Core 64GB|800|7.2|
+|16 Core 64GB|1000|7.94|
+|16 Core 64GB|1200|8.12|
+|16 Core 64GB|1600|8.48|
+|16 Core 64GB|2000|8.84|
+

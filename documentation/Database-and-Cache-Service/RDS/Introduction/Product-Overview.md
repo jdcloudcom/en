@@ -4,7 +4,7 @@ RDS is a stable and reliable cloud database service of JD Cloud based on the JCS
 ## RDS Features
 * The current JD Cloud database supports five database types: JCS for MySQL, JCS for Percona, JCS for MariaDB, JCS for SQL Server and JCS for PostgreSQL.
 * Primary and secondary availability framework can be built up automatically and faults can be transferred automatically as well, free of user’s intervention.
-* 8 read-only instances can be added into the JCS for MySQL, JCS for Percona and JCS for MariaDB based on the horizontal database expansion performance.
+* 8 read-only instances can be added into the JCS for MySQL, JCS for Percona, JCS for MariaDB and JCS for PostgreSQL based on the horizontal database expansion performance.
 * The backup data shall be synchronized to JD Cloud storage, with 3 copies of saved files to ensure data security.
 * It supports flexible capacity expansion and adjusts resources based on the service situation.
 
@@ -39,6 +39,7 @@ The following engines and versions are supported by RDS
 |cn-north-1|cn-north-1|Availability Zone B|cn-north-1b|
 |cn-north-1|cn-north-1|Availability Zone C|cn-north-1c|
 |cn-south-1|cn-south-1|Availability Zone A|cn-south-1a|
+|cn-south-1|cn-south-1|Availability Zone B|cn-south-1b|
 |cn-east-2|cn-east-2|Availability Zone A|cn-east-2a|
 |cn-east-2|cn-east-2|Availability Zone B|cn-east-2b|
 |cn-east-2|cn-east-2|Availability Zone C|cn-east-2c|

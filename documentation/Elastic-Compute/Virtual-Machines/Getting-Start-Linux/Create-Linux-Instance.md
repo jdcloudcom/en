@@ -69,6 +69,9 @@ You need to set machine name, and the name cannot be blank. It only supports Chi
 	The purchase quantity is limited to your Virtual Machines, Cloud Disk and EIP quota as well as the remaining IP quantity of the subnet you have selected. If the quota is not enough, you can increase it via [Open Ticket](https://ticket.jdcloud.com/myorder/submit).
 	
 	If to purchase a monthly package instance, you need to set the purchase duration, which shall be at least one month and three years at most. If you need a longer service, please operate as follows: [Open Ticket](https://ticket.jdcloud.com/myorder/submit).
+	
+	For instance purchased by Monthly Package, the instance and associated resources (Cloud Disk Service and Elastic IP) can be configured as automatic renewal. Automatically renewed duration shall be the same as the purchase duration by default, and if any follow-up adjustment is required, you can turn to renew management console at any time.
+![](../../../../image/vm/Getting-Start-Linux-Create-count.png)
 
 ## Related Reference
 

@@ -45,18 +45,24 @@ items:
       herf: Operation-Guide/Resource-Manage/JDSFGW.md   
     - name: Application Management
       items:
-        - name: Application List
-          herf: Operation-Guide/APP-Manage/APPList.md
+        - name: Application Management Overview
+          herf: Operation-Guide/APP-Manage/APPList.md        
+        - name: Deployment Application in Virtual Machines
+          herf: Operation-Guide/APP-Manage/APPDeloy.md
+  #      - name: Deployment Application in K8S
+  #       herf: Operation-Guide/APP-Manage/APPDeloyK8S.md
         - name: Deployment Group
           herf: Operation-Guide/APP-Manage/Deploy-Group.md
-        - name: Application Deployment
-          herf: Operation-Guide/APP-Manage/APPDeloy.md
         - name: Agent Installation
           href: Operation-Guide/APP-Manage/Install-Agent.md
     - name: Configuration Management
       herf: Operation-Guide/APP-Manage/Config-Manage.md
-    - name: Service Authentication
-      herf: Operation-Guide/APP-Manage/Service-Assignuse.md        
+    - name: Service Administration
+      items:
+        - name: Service Authentication
+          herf: Operation-Guide/APP-Manage/Service-Assignuse.md        
+        - name: Service Route
+          herf: Operation-Guide/APP-Manage/Service-Rules.md          
     - name: Calling Chain Analysis Service
       herf: Operation-Guide/DevOps/Analysis-Service.md       
     - name: Log Configuration
