@@ -111,6 +111,8 @@
 ## Manage the Listener associated with Forwarding Rules Group
 <div id="user-content-4"></div>
 
+    Note: Only seven-layer (HTTP/HTTPS) listening support association of forwarding rules groups. One listener only can be associated with one forwarding rules group; multiple listeners under the same Load Balancer can be reused to associate with the same forwarding rules group.
+
 1. Click **More** by Listener List Page - Operation Bar to pop up the dialog box of Manage Forwarding Rules Group.
 2. In the dialog box of Manage Forwarding Rules Group, associate, disassociate, and replace the forwarding rules group with the Listener.
 

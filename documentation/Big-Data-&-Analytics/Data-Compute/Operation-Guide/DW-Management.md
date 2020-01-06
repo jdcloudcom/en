@@ -10,15 +10,9 @@
 
 3. Click the **View Icon** of database actions to show such basic information as database name, list quantity, memory space and owner and description.
 
-asdfsadfsadf
-
 4. Click **Delete Icon** of database actions to make a notification whether to delete the database; after the delete icon is clicked, delete the database; only when the database is blank and no datasheet is provided, the database could be deleted.
 
-
 # Create Datasheet
-
-
-
 ## Action Steps:
 
 1. Click the **Database List** by page navigation; click the database name in the datasheet page to enter the database list page.

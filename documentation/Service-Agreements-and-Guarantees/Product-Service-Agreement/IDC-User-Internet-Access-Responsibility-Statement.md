@@ -1,0 +1,41 @@
+**IDC User Internet Access Responsibility Statement**
+
+Users accessing public telecommunication network through JD Cloud Data Center (the "User") must carefully read and sign the IDC User Internet Access Responsibility Statement (the "Responsibility Agreement"). You can choose to accept it by sealing, clicking on the web pages to confirm or other methods, and consciously abide by the provisions of the Responsibility Agreement.
+
+I. When accessing public telecommunication network, the user shall abide by relevant state laws, regulations as well as administrative rules and regulations.
+
+II. The user shall guarantee that they have all the legal and necessary qualifications to engage in Internet services, including but not limited to business license, business certificate for value-added telecommunications service, business certificate for advertising operation, tax registration certificate, non-operating Internet information service filing certificate, and other qualification certificates required by JD Cloud, so as to use the hosted devices and facilities to carry out business legally. On the date of signing the Cloud Cabinet Co-location Service Terms, the user shall provide JD Cloud with the originals of the aforesaid qualification documents for reviewing, and the copies with official seal shall be submitted to JD Cloud for filing. Where,
+
+1. If the user is engaged in special Internet information services such as electronic announcement board, news, publishing, education, medical care, pharmaceuticals, medical devices, culture, broadcasting, movie, television program and others, it shall be reviewed and approved by relevant competent departments in accordance with laws, administrative regulations and relevant state regulations for approval or filing formalities, and shall obtain the approval or filing formalities of relevant communication management departments.
+
+2. If users are engaged in non-operational Internet information service, they shall above all ensure that they have logged in the Ministry of Industry and Information Technology ICP Filing Management System to perform Internet filing procedures and annual review procedures on time. If local communication administrative department demands filing procedures for non-operational Internet information service, users shall also perform filing procedures for non-operating Internet information service at the local communication administrative department of the place where they live.
+
+3. If users are engaged in operational Internet service, they are required to obtain corresponding business certificate for value-added telecom businesses.
+
+4. If users are engaged in operational Internet service, their business certificate number shall appear on the prominent position of their website’s home page; if users are engaged in non-operational Internet service, their filing number shall appear on the central position of the bottom of home page when their websites are enabled, and the site URL of Ministry of Industry and Information Technology ICP Filing Management System shall be placed beneath the filing number. Besides, the filing electronic verification logo shall be placed at specified directory on their website by users in accordance with the requirements specified by Ministry of Industry and Information Technology ICP Filing Management System.
+
+5. Users shall ensure that they have completed procedures under other laws, regulations and department rules or acquired relevant supportive documents for qualification.
+
+III. Users shall not utilize public telecommunication network to commit crimes including threatening state security and disclosing state secrets, to access to, replicate and transmit information that threatens state security, interferes with public order and contains obscene materials, and to deliver vicious and defiant information. JD Cloud shall immediately report to relevant department when any such information is found and users shall pay the consequences at their own risks.
+
+IV. Users are required to establish effective security and confidentiality system and take technological assurance measures, obliged to provide network usage and relevant data as required by JD Cloud, and subject to surveillance by JD Cloud by virtue of network security management and information security management; users shall provide their effective information service detection means including detection account and password, and give a written notice to JD Cloud when the account is changed.
+
+V. Users shall not engage in activities that threaten information systems, network security and rights and interests of others when using public telecommunication network. When any abnormal condition occurs, users shall deal with it by active cooperation with JD Cloud. Maintenance as well as configuration and parameter adjustment for equipment shall be subject to Data Center Maintenance and Management  Agreement so as to avoid impact on other users.
+
+VI. Users shall strictly follow the regulations for Data Center when entering JD Cloud Data Center.
+
+VII. In case that users have machines hosted, users shall not, by any means, carry on businesses that are not approved by government administration or not agreed in Cloud Cabinet Co-location Service Terms. Users shall only have the right to use the IP Address assigned by JD Cloud and have no right to transfer the IP Address to others to use by any means, and once the transfer is found, the Cloud Cabinet Co-location Service for them will be disabled immediately and the Cloud Cabinet Co-location Service Terms will be terminated. JD Cloud shall configure server and network in strict accordance with the regulations made by users, and when user configuration exceeds the limits of IP Address assigned by JD Cloud, ~~Party B~~JD Cloud shall have the right to cut off network access immediately, and users shall pay the whole losses and undertake other obligations incurred from the influence and loss ~~Party ~~~~B~~other customers of JD Cloud suffer from.
+
+VIII. The special line users applied for the maintenance of machine shall be used only for daily maintenance of the machine and update of machine’s content and shall not be used for any other purpose, otherwise JD Cloud has the right to break off the line and recover the loss.
+
+IX. Users shall comply with Cloud Cabinet Co-location Service Terms and relevant management regulations specified by JD Cloud, otherwise JD Cloud has the right to enforce relevant penalties including closing down and dismantling the computer until the legal liability is investigated.
+
+X. According to the requirements of Network Surveillance Department of Public Security Bureau, users shall submit filing information online within five working days after entering the network, and go through filing businesses at the network surveillance department of local public security bureau with ten working days after the information is submitted.
+
+XI. According to the Article 23 of Measures for Management of Non-operational Internet Filing, the website will be closed and the filing will be de-registered on condition that the filing information is not true. Users shall promise and acknowledge that: all filing information they have submitted is true and valid, they will immediately submit the update information to the filing system when there is any change, and JD Cloud has the right to close the access website in accordance with laws in the event of incorrect filing information caused by failure to renew.
+
+XII. If users violate any of above commitments, JD Cloud has the right to deny or stop providing service or facilities and request them to correct in a definite time. If users fail to correct in the definite time, then JD Cloud has the right to terminate the Cloud Cabinet Co-location Service Terms signed by and between the parties without assume any responsibility; if users cause loss to JD Cloud because of foregoing circumstances, they shall pay the compensation.
+
+XIII. Users’ executives at all levels shall have the responsibility to educate and supervise their staff to strictly comply with the above terms.
+
+ 

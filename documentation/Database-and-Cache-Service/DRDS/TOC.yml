@@ -62,7 +62,15 @@
             - name: View the Expansion Task
               href: Operation-Guide/Database/Expand-Database/View-Expansion-Task.md
             - name: Check and Clear
-              href: Operation-Guide/Database/Expand-Database/Drop-Migrated-Databases.md               
+              href: Operation-Guide/Database/Expand-Database/Drop-Migrated-Databases.md 
+      - name: Security Management
+        items:
+          - name: Set IP White List
+            href: Operation-Guide/Security/Set-Whitelist.md
+      - name: Performance Optimization
+        items:
+          - name: Feature Introduction
+            href: Operation-Guide/Performance/Performace-Introduction.md
   - name: SQL Document
     items:
       - name: DRDS SQL Introduction

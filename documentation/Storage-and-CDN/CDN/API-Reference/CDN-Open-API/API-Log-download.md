@@ -13,7 +13,7 @@ Query Log Download Link (downloadUrlInterval)
 | domain     | String   | Yes           | Domain name which requires log downloading, support download of multiple domain names, parameter example "www.a.com,www.b.com" |
 | start_time | String   | Yes           | Time Format: yyyy-mm-dd hh:mi Reference example: 2016-12-14 07:00; the time span for query by day and by hour cannot be greater than 7 days |
 | end_time   | String   | No           | Not a compulsory parameter; if no parameter is uploaded, it is current time by default                            |
-| interval   | String   | No           | For HOUR (download by hour) and DAY (download by day), if there is no uploading or the uploading is wrong, it will download by hour. The time span for query by hour cannot exceed 3 days, while the time span for query by day cannot exceed 7 days. Notes: The .log file applicable for HOUR (download by hour), and .zip file is applicable for the DAY (download by day). |
+| interval   | String   | No           | HOUR (download by hour), DAY (download by day) Search logs of all granularities not transmitted or not correctly transmitted by default. The time span for query by hour cannot exceed 3 days, while the time span for query by day cannot exceed 7 days. Notes: The .log file applicable for HOUR (download by hour), and .zip file is applicable for the DAY (download by day). |
 
 
 ## **3. Return Parameter**

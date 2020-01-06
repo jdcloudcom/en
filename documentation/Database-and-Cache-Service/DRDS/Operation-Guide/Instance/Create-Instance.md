@@ -14,13 +14,15 @@ Enter Database Configuration page to select billing method (monthly package or p
 
 **Note: each Intranet in different regions does not connect with each other.**
 
-**3. Instance Name and Network**
+![实例配置1](../../../../../image/DRDS/create-instance-4.png)
 
-Enter instance name and select the virtual private cloud where DRDS is located and the subnet.
+**3. Instance Name, Network and Port Number**
 
 DRDS can only be created in the virtual private cloud. If the user has no virtual private cloud and subnet, the user can create virtual private cloud and subnet through the links of **New Virtual Private Cloud** and **New Subnet**. After creation completion, click **Refresh** to view the created virtual private cloud and the subnet.
 
-![Instance Configuration](../../../../../image/DRDS/create-instance.png)
+Then enter DRDS Instance Name and Port Number planned to be used
+
+![实例配置2](../../../../../image/DRDS/create-instance.png)
 
 4. Select Purchase Duration:
 

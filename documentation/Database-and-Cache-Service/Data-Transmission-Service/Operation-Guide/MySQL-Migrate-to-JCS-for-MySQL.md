@@ -1,123 +1,131 @@
-# 自建MySQL迁移至云数据库MySQL
+# Migrate self-built MySQL to cloud database MySQL
 
-本文介绍如何使用数据传输 DTS 将自建MySQL数据库迁移至云数据库 MySQL。
+The document specifies how to migrate self-built MySQL database to JCS for MySQL with data transmission DTS.
 
-数据传输 DTS 支持结构迁移、全量迁移、增量迁移，您可以根据实际情况选择。
+Data transmission DTS supports structure migration, full migration and incremental migration. You can select one type according to your real conditions.
 
-## 注意事项
+## Note
 
-### 源数据库配置要求
+### Source Database Configuration Requirement
 
-连接方式：
+Connection method:
 
-- 有公网IP的自建数据库
-- 通过专线连接的自建数据库
+- Self-built Database of Public IP
+- Self-built Database Connected via Direct Connection
 
-数据库版本：
+Database version:
 
+- MySQL 5.5
 - MySQL 5.6
 - MySQL 5.7
+- MySQL 8.0
 
-数据库配置：
+Database configuration:
 
-- server_id大于1
-- binlog开启
-- binlog_format为ROW
-- binlog_row_image为FULL
-- 如选择校验数据一致性，则不能存在数据库`_jdts_check__xxxx`
-- 表类型为'BASE TABLE'，需要有主键且没有外键
+- server_id is greater than 1
+- Enable binlog
+- binlog_format is ROW
+- binlog_row_image is FULL
+- If check data consistence is selected, the database `_jdts_check__xxxx` shall not exist.
+- The table type is 'BASE TABLE', requiring primary keys and having no foreign keys
 
-账号权限：
+Account permission:
 
 - GRANT RELOAD, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 'user'@'%';
 - GRANT SELECT ON `schemas`.* TO 'user'@'%';
-- 开启数据校验时，需要GRANT ALL PRIVILEGES ON `_jdts_check__xxxx`.* TO 'user'@'%';
+- When data check is enabled, GRANT ALL PRIVILEGES ON `_jdts_check__xxxx`.* TO 'user'@'%' is required;
 
-数据库引擎：
+Database engine:
 
-- 建议为InnoDB类型，全量迁移过程中，只有InnoDB等事务引擎可以保证一致性状态，MyISAM或者MEMORY等非事务引擎的状态可能不一致。
+- The InnoDB type is suggested. In the full migration process, only InnoDB and other transaction engine can ensure consistency status. Statuses of non-transaction engines such as MyISAM or MEMORY may be different.
 
-### 目标数据库配置要求
+### Source Database Configuration Requirement
 
-数据库类型：
+Database Type:
 
-- 云数据库 MySQL，需提前创建云数据库 MySQL实例。
+- For JCS for MySQL, JCS for MySQL instances can be created in advance.
 
-数据库版本：
+Database version:
 
-- 源数据库为MySQL 5.6版 支持迁移为 5.6/5.7 版
-- 源数据库为MySQL 5.7版 支持迁移为 5.7 版
+- Be consistent with the source database version or above version.
 
-账号权限：
+Account permission:
 
 - GRANT ALL PRIVILEGES ON `schemas`.* TO 'user'@'%';
 
-数据要求：
+Data requirement:
 
-- 不能存在与待迁移数据库重名的库。
-- 不能存在数据校验库`_jdts_check__xxxx`。
+- There shall not be any database in the same name of the database to be migrated.
+- The data check database `_jdts_check__xxxx` shall not exist.
 
 
 
-## 操作步骤
+## Operation Steps
 
-1. 创建迁移任务。
-   - 任务名称：名称长度不能少于2字符且不超过32个字符，只支持中文、数字、大小写字母、英文下划线及中划线。
-   - 源库信息：
-     - 数据库类型，选择"有公网IP的自建数据库"或"通过专线连接的自建数据库"。
-     - 数据库类型，选择MySQL。
-     - 数据库地址，填写数据库的域名或IP，如通过专线连接请填写内网IP。
-     - 端口，数据库端口。
-     - 账号和密码，请提前确认账号具备相应的权限。
-   - 目标库信息：
-     - 数据库类型，请选择"云数据库 MySQL"
-     - 地域，选择目标实例所在地域。
-     - 实例ID，请选择目标实例。
-     - 账号和密码，请提前确认账号具备相应的权限。
-   - 迁移类型
-     
-     - 请选择迁移类型，可选择结构迁移、全量迁移、增量迁移。
-   - 数据一致性校验
-     
-     - 如选择全量校验，在全量数据迁移完成后，可在任务列表或详情页开启。
-     
-     - 说明：
-     
-       MySQL的全量校验为动态校验，即部分数据如已完成校验，之后该部分数据的变更将不再校验。
-     
-       MySQL数据一致性校验过程中将持续同步增量数据，但性能会降低，建议源端停止写入后再执行数据一致性校验。
-   
-   - 选择迁移对象
-   
-     - 支持按库、表迁移。
-   
-     - 源库类型为"有公网IP的自建数据库"时，支持**可视化选择**和**JSON**两种方式定义要迁移的库表。
-   
-     - 源库类型为"通过专线连接的自建数据库"时，只支持通过**JSON**定义要迁移的库表。
-   
-     - 说明
-   
-       MySQL系统库不会迁移。
-   
-       当一个库内包含超过100个表时，不支持按表选择，只可选择当前库或通过JSON方式指定表。
-   
-2. 启动迁移任务。
+1. Create migration task.
 
-   - 在任务列表页或详情页，点击**启动**，启动迁移任务。任务启动后，第一步将执行预检查。
-   - 预检查成功后，在预检查弹窗中点击**下一步**，执行数据迁移。
+   - Task name: The name shall contain no less than 2 characters, but no more than 32 characters and shall only support Chinese, numbers, uppercase and lowercase letters, English underline and line-through.
 
-3. 执行数据校验。
+   - Source database information:
 
-   - 如创建任务时选择了"全量校验"，则在全量数据迁移完成后可点击**校验**按钮，执行数据一致性校验。
-   - 校验过程中将持续同步增量数据，但性能会降低，建议源端停止写入后再执行数据一致性校验。
+     - The "self-built database of Public IP" or the "self-built database connected via Direct Connection" can be selected as the database type.
+     - Please select database type as MySQL.
+     - Please fill in database domain or IP as the database address and fill in Private IP as the database address in case of Direct Connection.
+     - Port, database port.
+     - For account and password, please confirm in advance that if the account has corresponding permissions.
 
-4. 结束迁移任务。
+   - Target library information:
 
-   - 迁移类型为结构迁移、全量迁移时，数据迁移完成后，任务自动结束。
+     - Please select database type as "JCS for MySQL"
+     - Region, select the region of the target instance.
+     - Instance ID, please select the target instance.
+     - For account and password, please confirm in advance that if the account has corresponding permissions.
 
-   - 迁移类型为增量迁移时，需要手动结束迁移任务，建议目的库数据追上源库时，停止源库写入，检查目的库数据无误后，结束迁移任务。
+   - Migration Type
 
-   - 注意：迁移任务结束后，将不能再次开启。
+     - Please select migration type as structure migration, full migration or incremental migration.
+
+   - Data Consistence Check
+
+     - If full check is selected, it can be enabled on the task list or the Details after the full data migration is completed.
+
+     - Description:
+
+       MySQL full check is a dynamic check, i.e., if some data have been checked, changes of such data will not be checked anymore.
+
+       In MySQL data consistency check process, incremental data will be continuously synchronized, but performance will be reduced. It is suggested that data consistency check shall be executed after source end writing is stopped.
+
+   - Select Migration Object
+
+     - Support migration by databases and data tables.
+
+     - When the "self-built database of Public IP" is selected as the source database type, definition of database tables to be migrated via two methods are supported, i.e., **Visual Selection** and **JSON**.
+
+     - When the "self-built database connected via the Direct Connection" is selected as the source database type, definition of the database tables to be migrated via **JSON** is supported only.
+
+     - Description
+
+       The MySQL system database will not be migrated.
+
+       When one database contains more than 100 tables, selection by tables is not supported. Only the current database can be selected or tables can be appointed with the JSON method.
+
+2. Start migration task.
+
+   - Click **Start** on the task list page or Details to start a migration task. After the task is started, the pre-check will be executed at the first step.
+   - After pre-check is succeeded, click **Next** in the pre-check popup and execute data migration.
+
+3. Execute data check.
+
+   - Where "full check" is selected when a task is created, please click **Check** button after full data migration is completed to execute data consistency check.
+   - In the check process, incremental data will be continuously synchronized, but performance will be reduced. It is suggested that data consistency check shall be executed after source end writing is stopped.
+
+4. End migration task.
+
+   - If the migration types are structure migration and full migration, the task will be automatically ended after data migration is completed.
+
+   - If the migration type is incremental migration, the migration task shall be manually ended. It is suggested that when data of a target database catch up with the source database, writing to the source database shall be stopped and the migration task shall be ended after the target database data are checked to be correct.
+
+   - Note: When the migration task is completed, it cannot be enabled again.
 
      
 

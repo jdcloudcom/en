@@ -29,7 +29,7 @@ DNLB has the following functions and features:
 |Backend Service Instance Auto Scaling | ✔ | ✔ | ✔ |
 |High-availability deployment of multiple availability zones | ✔ | ✔ | ✔ |
 |Scheduling Algorithm	| Weighted Round Robin, Weighting Least Connection Count and Weighted Source IP | Weighted Round Robin, Weighting Least Connection Count and Weighted Source IP | Weighted Source IP and Weighted Quintuple Form |
-|SSL Unloading and Certificate Management | ✔ | —— | —— |
+|SSL Unloading | ✔ | —— | —— |
 |Idle Connection Timeout | ✔ | ✔ | —— |
 |Source IP Reservation	| Pass-through based on X-forward-for mechanism of HTTP Header | Pass-through of Three-layer Packet Source IP | Source IP Pass-through of Three-layer Packet |
 |Session Persistence | Cookie-based Session Persistence  |  Session Persistence of TCP Connection | —— |

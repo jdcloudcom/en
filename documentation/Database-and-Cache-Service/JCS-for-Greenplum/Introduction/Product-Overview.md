@@ -5,11 +5,11 @@ JCS for Greenplum is an online MPP large-scale parallel processing data reposito
 ## Main Features
 
 - Rapid deployment: Through the JD Cloud Console, Greenplum instances can be created within several minutes and then put into business application rapidly.
-- Service highly available: The master-slave high availability architecture is provided by default, and Segment nodes support automatic disaster recovery switch-over. When Primary fails, switch to Mirror automatically to ensure business availability.
-- Safe and reliable: The Greenplum instance is deployed in a user customized VPC, and network isolation protection is performed directly at the TCP layer to ensure data security.
-- Convenient operation and maintenance: The Console provides rich visual monitoring data indexes, various data are clear at a glance, automatic alarm rules can be set to master the operation of the instances anytime and anywhere.
+- Service high availability: high availability architecture is provided by default; Master nodes and Segment nodes support automatic disaster recovery switch-over to ensure business availability.
+- Security and reliability: The instance is deployed in a user customized VPC, and network isolation protection is performed directly at the TCP layer; the user-customized IP white list is supported as well for security control from access source.
+- Easy-expandability: The instance supports to upgrade the node specification and expand the node number that can be adjusted based on the business conditions as required to meet the business growth requirements.
+- Convenient operation and maintenance: The Console provides rich visual monitoring data indexes, various data are clear at a glance, customized alarm rules are supported to master the operation of the instances anytime and anywhere.
 
 ## Supported Version
 
 The current version is Greenplum 5.19, and its corresponding PostgreSQL is 8.3.23.
-

@@ -5,7 +5,9 @@ This document will introduce the important update history of the Application App
 
 |Release Date|Character|Description|
 |-|-|-|
+|December 2019|Connection of Cloud Security - SSL Certificate|SSL Certificate used by Application Load Balancer is migrated to Cloud Security - SSL Certificate, and Application Load Balancer - Certificate Modules will no longer provide SSL Certificate Management function but be managed by Cloud Security - SSL Certificate|
 |August 2019|Support forwarding rules group|Support forwarding the traffic to different backend servers for processing based on machine names and paths requested by URL|
+|July 2019|Seven-layer access log|Application Load Balancer supports the collection of seven-layer access log through the log service.|
 |March 2019|Function Iteration|Support deletion protection and support search by specified fields when adding instances to virtual server groups|
 |November 2018|Support TLS Protocol|Application Load Balancer Supports TLS Protocol Listening|
 |July 2018|Support availability group|Support providing backend service by availability group

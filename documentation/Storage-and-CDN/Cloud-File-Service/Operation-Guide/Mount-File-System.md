@@ -33,7 +33,7 @@ Ubuntu system runs the commands below:
 
 ![MtIp](../../../../image/Cloud-File-Service/MtIp.png)
 
-For example, the directory of the Mount target is 10.0.0.30:/cfs, which is attached to the nfs directory created in the previous step. **Note: The attach command defaults NFS agreement to be 4.0 Version. In case of attaching, the relevant parameters can be added depending on different requirements for version, performance and consistency. For more details, please see the descriptions at the end of the text.**
+For example, the directory of the Mount target is 10.0.0.30:/cfs, which is attached to the nfs directory created in the previous step. **Note: The attach command defaults NFS agreement to be 4.0 Version, and mounting via NFS v3 Version is suggested. In case of attaching, the relevant parameters can be added depending on different requirements for version, performance and consistency. For more details, please see the descriptions at the end of the text.**
 
 `mount -t nfs -o vers=3 -o noresvport 10.0.0.30:/cfs nfs`
 

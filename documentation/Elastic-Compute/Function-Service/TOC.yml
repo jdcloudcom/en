@@ -110,6 +110,11 @@ items:
            - name: Python WSGI Web Service Migration to Function Service
              href: Operation-Guide/use-cases/wsgi.md
   
+  - name: Developer Tools
+    items:
+      - name: SCA CLI
+        href: Developer-tools/SCA/sca-overview.md 
+  
   - name: FAQ
     href: FAQ.md  
     

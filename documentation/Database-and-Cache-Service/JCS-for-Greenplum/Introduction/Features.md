@@ -14,7 +14,7 @@ Segment node configuration supports a variety of specifications and quantity com
 
 ### Architecture Layer Disaster Recovery
 
-The master-slave high availability architecture is provided by default, and Segment nodes support automatic disaster recovery switch-over. When Primary is failed, switch to Mirror automatically.
+High availability architecture is provided by default, Master nodes and Segment nodes support automatic disaster recovery switch-over to ensure business availability.
 
 ### Storage Layer Disaster Recovery
 
@@ -26,9 +26,9 @@ The data storage is based on SSD RAID10 to realize data redundancy to protect da
 
 The Greenplum instance is deployed in a user customized VPC, and network isolation protection is performed directly at the TCP layer to ensure data security.
 
-### Firewall Protection
+### IP White List
 
-The host machine is under the protection of the firewall, only the necessary ports are opened, and system patches are installed timely to patch security vulnerabilities to protect against various malicious attacks and ensure database security.
+ Support user customized IP white list for security control from access sources. 
 
 ## Convenient Operation and Maintenance
 
@@ -39,4 +39,3 @@ The Greenplum Console provides rich monitoring information, including CPUs, memo
 ### Automatic Alarm
 
 You can set alarm rules based on monitoring items. When the monitoring item reaches the set threshold, the system will send you alarm information via SMS and email.
-

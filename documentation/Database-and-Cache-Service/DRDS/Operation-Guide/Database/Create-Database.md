@@ -15,9 +15,11 @@ Click the instance name to enter Instance page, select **Database Management** p
 
 **Type: ** only supports "split", i.e., the database will be corresponded to multiple databases of multiple JCS for MySQL instance
 
+**Number of Sub-library Per Instance: The number of sub-libraries to be created on each RDS MySQL can be customized. Currently, each RDS Instance supports 8~64 sub-libraries.
+
 **Select backend JCS for MySQL instance**
 
-All JCS for MySQL instances under VPC in the DRDS will be listed, DRDS will automatically create 8 databases on each JCS for MySQL instance and save the corresponding relations. E.g., if 4 instances have been selected, DRDS will create 8 databases on each of these instances, totally 32; if 10 instances have been selected, 80 databases will be created in total.
+All JCS for MySQL instances under VPC in the DRDS will be listed, and DRDS will automatically create 8 databases on each JCS for MySQL instance and save the corresponding relations. For example, 4 instances have been selected, the number of sub-libraries per instance is 8, and then DRDS will create 8 databases on each instance, 32 in total; if 10 instances have been selected, 80 databases will be created in total.
 
 Users need not to create each sub-database on MySQL by manual
 

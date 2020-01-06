@@ -1,11 +1,11 @@
-# 支持的数据库类型与版本
+# Supported Database Type and Version
 
-以下为数据传输 DTS 支持的迁移的数据库类型与版本。
+Database type and version for migration, supported by data transmission DTS, are as follows.
 
-| 数据库类型 | 源数据库连接方式 | 目标数据库          | 支持版本                                                     | 迁移类型                             |
+| Database Type | Source Database Connection Method | Target Database          | Supported Version                                                     | Migration Type                             |
 | ---------- | ---------------- | ------------------- | ------------------------------------------------------------ | ------------------------------------ |
-| MySQL      | 公网IP / 专线    | 云数据库 MySQL      | 5.6 → 5.6、5.7<br />5.7 → 5.7                                | 结构迁移<br />全量迁移<br />增量迁移 |
-| Percona    | 公网IP / 专线    | 云数据库 Percona    | 5.7 → 5.7                                                    | 结构迁移<br />全量迁移<br />增量迁移 |
-| MariaDB    | 公网IP / 专线    | 云数据库 MariaDB    | 10.2 → 10.2                                                  | 结构迁移<br />全量迁移<br />增量迁移 |
-| SQL Server | 公网IP / 专线    | 云数据库 SQL Server | 2018R2企业版 → 2018R2企业版<br />2012企业版 → 2012企业版 <br />2014企业版 → 2014企业版 <br />2016企业版 → 2016企业版  <br />2017企业版 → 2017企业版 | 结构迁移<br />全量迁移<br />增量迁移 |
-| MongoDB    | 公网IP           | 云数据库 MongoDB    | 3.2 → 3.2<br />3.4 → 3.4 <br />3.6 → 3.6                     | 结构迁移<br />全量迁移<br />增量迁移 |
+| MySQL      | Public IP / Directed Connection    | JCS for MySQL    | 5.5 → 5.5 and Above <br />5.6 → 5.6 and Above <br />5.7 → 5.7 and Above <br />8.0 → 8.0 |  Structure Migration<br />Full Migration<br />Incremental Migration |
+| Percona    | Public IP / Directed Connection    | JCS for Percona    | 5.7 → 5.7                                                    | Structure Migration<br />Full Migration<br />Incremental Migration |
+| MariaDB    | Public IP / Directed Connection    | JCS for MariaDB    | 10.2 → 10.2                                                  | Structure Migration<br />Full Migration<br />Incremental Migration |
+| SQL Server | Public IP / Directed Connection    | JCS for SQL Server | SQL Server Enterprise Version:<br />2018R2 → 2018R2 and Above<br />2012 → 2012 and Above <br />2014 → 2014 and Above <br />2016 → 2016 and Above<br />2017 → 2017 | Structure 2017 />Full Migration<br />Incremental Migration |
+| MongoDB    | Public IP| JCS for MongoDB | 3.2 → 3.2 and Above<br />3.4 → 3.4 and Above<br />3.6 → 3.6 | Full Migration<br />Incremental Migration               |

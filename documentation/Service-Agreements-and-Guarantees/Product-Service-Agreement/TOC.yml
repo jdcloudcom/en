@@ -100,6 +100,8 @@ items:
     href: Elastic-IP-For-Edge-Cloud-Terms-Of-Service.md
   - name: Edge Network Tunnel (ENT) Service Agreement
     href: Edge-Network-Tunnel-Terms-Of-Service.md
+  - name: Service Terms of Equal Edge Service (JEES)
+    href: JD-Cloud-Equal-EdgeService-Terms-Of-Service.md  
   - name: Message Queue Service Agreement
     href: Message-Queue-JCQ-Service-Terms.md
   - name: Message Queue Service Level Agreement (SLA)
@@ -178,3 +180,10 @@ items:
     href: Recommended-Rebate-User-Agreement.md
   - name: MINECRAFT Education Edition - Demo Edition Service Agreement
     href: MEE-Demo-Service-Terms-Of-Service.md
+  - name: Cloud Cabinet Co-location Service Terms
+    href: Cloud-Cabinet-Service-Terms-Of-Service.md
+  - name: Cloud Cabinet Co-location Service Level Agreement (SLA)
+    href: Cloud-Cabinet-Service-Level-Agreements-SLA.md
+  - name: IDC User Internet Access Responsibility Statement
+    href: IDC-User-Internet-Access-Responsibility-Statement.md
+    

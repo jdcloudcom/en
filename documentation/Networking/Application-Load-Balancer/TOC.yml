@@ -35,13 +35,13 @@
     items:
       - name: Create Application Load Balancer Instance
         href: Getting-Started/Create-Instance.md
-      - name: Create Listening Policy
+      - name: Create listening policy
         href: Getting-Started/Create-ListenerPolicy.md
       - name: Create Backend Service
         href: Getting-Started/Create-Backend.md
       - name: Create Virtual Server Group
         href: Getting-Started/Create-TargetGroup.md
-      - name: Register Service Instance
+      - name: Modify virtual server group
         href: Getting-Started/Register-Targets.md
       - name: Create Availability Group
         href: Getting-Started/Create-AvailabilityGroup.md
@@ -67,7 +67,7 @@
         href: Operation-Guide/Monitoring.md           
   - name: Best Practices
     items:
-    - name: Deploy HTTP service by Application Load Balancer
+    - name: Deploy HTTPS service by load balancer
       href: Best-Practices/Deploy-HTTPS-Service-with-ALB.md
     - name: Deploy TCP service by Application Load Balancer
       href: Best-Practices/Deploy-TCP-Service-with-ALB.md

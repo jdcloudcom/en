@@ -7,11 +7,12 @@ At the beginning of the application, you can use small instance type when the re
 * The instance must be in "Stopped" status. If the instance is in the "Running" status, please run [Stop Instance](Stop-Instance.md) first; if the instance is in other unstable status, please wait for the pre-order operation to complete before resizing.
 	
 		Please note that ::
-		* If the system disk is the local disk, intergenerational deployment is not allowed, e.g. the Virtual Machines of Generation I are not allowed to deploy with the Virtual Machines of Generation II;
-		* For Virtual Machines billing paid by configuration, after resizing, it will be billed according to the new instance types. The fee for current instance types will be immediately settled before resizing (that is, the bills incurred from the last settlement time to the current time will be settled);
+		* If the current instance system disk is the local disk, intergenerational deployment is not allowed, e.g. the Virtual Machines of Generation I are not allowed to be deployed with the Virtual Machines of Generation II and adjustment to Generation I storage optimization big data type s.d1 and Generation II storage optimization big data type s.d2 is not allowed;
+		* Where the current instance is in the Availability Group, it is allowed to adjust it to any Generation I Virtual Machines, except the GPU type and is subject to specification supported by Availability Group;
+		* Where the current instance is attached with an encrypted cloud disk, it is not allowed to be adjusted to the Generation I Virtual Machines and is subject to specification supporting encrypted disk;
+		* For instance paid by configuration, the billing shall be made by new specification after resizing. Before adjustment, specification will be immediately billed and settled (i.e., cost is settled from last integral settlement time to the current time);
 		* If there is a local data disk in the current instance, to resize, you need to clear the data in the local disk first, and please operate carefully;
-		* If the current instance is in the availability group, the deployable specifications are limited to the specifications supported by the availability group;
-		* If the encryption disk is attached by the current instance, the deployable specifications are limited to the specifications supporting the encryption disk;
+		* The target Instance Type can support the elastic network interface count which is no less than that currently-configured elastic network interface.
 		* For the monthly package billing Virtual Machines:
 			* If the price of instance types after resizing is lower than that before  resizing, the expiration time of VMs will be extended;
 			* If the price of instance types after resizing is higher than that before resizing, you need to pay the difference before the expiration.

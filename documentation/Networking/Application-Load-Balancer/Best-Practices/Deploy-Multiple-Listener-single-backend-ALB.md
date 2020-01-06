@@ -42,7 +42,7 @@ For example, if you need both HTTP and HTTPS services simultaneously when deploy
 	5. Scheduling algorithm: Select according to business needs, and specify it as weighted round robin here;
 
 	6. Session persistence: turn on;
-
+	
 	  timeout: define timeout time of cookie, use default value 0, represent the same life cycle as the browser;
 
 	7. Get real IP: Turn on by default: In such case, real IP of client can be obtained via header fields of X-Forwarded-For;
@@ -79,7 +79,7 @@ For example, if you need both HTTP and HTTPS services simultaneously when deploy
 
 	1. Configure frontend Listening Protocol as HTTPS, Port 443;
 
-	2. Select encryption certificate, if no certificate is available, click "Create a new certificate" to upload;
+	2. Select encryption certificate. If no certificate is available, click "Create Certificate" to subscribe/upload a certificate;
 
 	3. Set idle connection timeout time;
 

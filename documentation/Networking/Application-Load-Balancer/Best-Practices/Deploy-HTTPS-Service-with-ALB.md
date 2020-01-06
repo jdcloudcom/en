@@ -1,4 +1,4 @@
-# Configure to deploy HTTP listener
+# Deploy HTTPS service by load balancer
 
 ## Preparation and planning
 
@@ -24,7 +24,7 @@
 
 	![ALB后端服务设置](../../../../image/Networking/ALB/ALB-045.png)
 
-- Click **Create a new certificate** to create a new SSL certificate.
+- Click **Create Certificate** and redirect to **Cloud Security - SSL Certificate** page to subscribe/upload a certificate.
 
 	![ALB后端服务设置](../../../../image/Networking/ALB/ALB-046.png)
 

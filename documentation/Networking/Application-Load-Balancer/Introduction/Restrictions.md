@@ -13,7 +13,6 @@ You care rapidly create and use the Application Load Balancer ALB, but shall pay
 |Forwarding rules group under the same Application Load Balancer	|50 groups|	None|
 |Forwarding rules in a forwarding rules group	|50 rules|	None|
 |Security group able to be associated by one Application Load Balancer|4 groups|	None|
-|SSL certificate able to be uploaded under a single region|20 pieces|	None||
 
 
 ## Relevant references

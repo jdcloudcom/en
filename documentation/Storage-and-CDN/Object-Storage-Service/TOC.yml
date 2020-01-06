@@ -111,6 +111,8 @@ items:
             href: Operation-Guide/Manage-Object/Usage-Monitoring.md
           - name: Restore Archival Object
             href: Operation-Guide/Manage-Object/Restore-Glacier-Object.md
+          - name: Object Lock
+            href: Operation-Guide/Manage-Object/Object-Lock.md
       - name: Permission Control
         items:
            - name: Permission Control Overview
@@ -225,6 +227,8 @@ items:
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Website-2.md
                - name: Get Bucket lifecycle
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Lifecycle.md
+               - name: Get Bucket object lock configuration
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Object-Lock-Configuration.md
                - name: Get Bucket tagging
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Tagging.md
                - name: Get Bucket accelerate
@@ -251,6 +255,8 @@ items:
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Website-2.md
                - name: Put Bucket lifecycle
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Lifecycle.md
+               - name: Put Bucket object lock configuration
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Object-Lock-Configuration.md
                - name: Put Bucket tagging
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Tagging.md 
                - name: Put Bucket accelerate
@@ -268,6 +274,10 @@ items:
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Delete-Object-2.md
               - name: Get Object
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Get-Object-2.md
+              - name: Get Object legal hold
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Get-Object-Legal-Hold.md
+              - name: Get Object retention
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Get-Object-Retention.md
               - name: Head Object
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Head-Object-2.md
               - name: Initiate Multipart Upload
@@ -280,6 +290,10 @@ items:
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Put-Object-2.md
               - name: Put Object Copy
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Put-Object-Copy-2.md
+              - name: Put Object legal hold
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Put-Object-Legal-Hold.md
+              - name: Put Object retention
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Put-Object-Retention.md
               - name: Upload Part
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Upload-Part-2.md
               - name: Upload Part Copy

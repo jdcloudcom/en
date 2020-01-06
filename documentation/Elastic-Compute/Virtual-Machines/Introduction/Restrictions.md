@@ -1,22 +1,24 @@
 # Restrictions
 
 ## Account Limit
-* You need to perform real-name verification for the JD Cloud account used to create the VM instance. For details, please refer to [Real-name Verification](http://docs.jdcloud.com/en/real-name-verification/real-name-verification);
+* You need to perform real-name verification for the JD Cloud account used to create the VM instance. For details, please refer to [Real-name Verification](https://docs.jdcloud.com/en/real-name-verification/introduction);
 * The instance cost shall be pre-paid when a monthly package billing instance is created, and the sum of your account balance and available coupon shall not be less than the consumption threshold when a pay-by-configuration billing instance is created.
 
 ## Usage Restrictions
 * Secondary virtualization is not supported for now (such as installing and using VMware and Hyper-V).
 * External hardware devices (such as U disk, external hard disk, bank U shield, etc.) connection are not supported for now.
 * NAT Instance only supports Centos 7.2 system currently.
-* The first-generation instance type cannot be mutually resized with the second-generation instance type. For details, please refer to [Resize](http://docs.jdcloud.com/en/virtual-machines/resize-instance).
+* If the system disk is the local disk, intergenerational deployment is not allowed, e.g., adjustment from Generation I Instance Type to Generation II Instance Type is not allowed. For details, please refer to [Adjustment Configuration](http://docs.jdcloud.com/en/virtual-machines/resize-instance).
+* Generation I Virtual Machines do not support encrypted cloud disk.
+* Generation I Virtual Machines (except GPU type) do not support Availability Group.
 * For Windows Server system instances, it supports 64-core vCPU to the maximum. And it is recommended to purchase a minimum configuration of 1Core 2GB to ensure efficient operation of the business.
 * Single instance with a single private IP can only be associated to one elastic IP.
 * The multicast protocol is not supported at this time. It is recommended to use the unicast peer-to-peer method instead.
 * Windows Server instance supports password login, and Linux system instance supports password and key pair login.
 
 ## Other Restrictions
-Constraints|Constraint Rules|Exception Application Mode   
-:---|:---|:---     
+Constraints   |Constraint Rules|Exception Application Mode   
+:------- |:---|:---     
 Optional VM Instance Specifications|See [VM Instance Specifications](https://docs.jdcloud.com/en/virtual-machines/instance-type-family)|Open Ticket 
 Optional Public Image Types|See [Public Image Release Version](https://docs.jdcloud.com/en/virtual-machines/image-type)|Open Ticket         
 Single Region Instance Quota|20|Open Ticket

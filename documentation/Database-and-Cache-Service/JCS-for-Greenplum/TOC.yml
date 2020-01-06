@@ -33,6 +33,8 @@
         items:
           - name: Create Instance 
             href: Operation-Guide/Instance-Management/Create-Instance.md
+          - name: Change Instance Configuration 
+            href: Operation-Guide/Instance-Management/Modify-instance-spec.md
           - name: Restart Instance
             href: Operation-Guide/Instance-Management/Restart-Instance.md
           - name: Renewal Instance

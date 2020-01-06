@@ -12,7 +12,7 @@
 
 - Listening rules: At present, the protocol types and port number information to be monitored only cover three protocol types, including HTTPS/HTTP/TCP/TLS. The user can define several monitors in the same Application Load Balancer. Different protocol types or the same protocol type and different port number definition can be selected by the listener.
 
-- Encryption certificate: if the HTTPS/TLS protocol is used as the listening protocol, the encryption certificate shall be loaded when creating the listener.
+- SSL certificate: if the HTTPS/TLS protocol is used as the listening protocol, a SSL certificate shall be configured when creating a listener.
 
 - Idle connection timeout setting: An idle connection timeout setting for listening rules. In case of connection idle timeout, the Application Load Balancer will automatically disconnect the client and the Application Load Balancer as well as the two-end connection between the Application Load Balancer and the backend server.
 
@@ -55,7 +55,7 @@ The Application Load Balancer does not have the availability group function, but
 
 ## Relevant references
 
-- [Product overview](../Introduction/Overview.md)
+- [Product overview](../Introduction/Product-Overview.md)
 - [Product specification](../Introduction/Specification.md)
 - [Price overview](../Pricing/Price-Overview.md)
 - [Create instance](../Getting-Started/Create-Instance.md)

@@ -1,0 +1,51 @@
+name: Video Quality Detection
+href:
+items:
+- name: Introduction
+  items:
+    - name: Product Overview
+      href: Introduction/Product-Overview.md
+    - name: Core Concepts
+      href: Introduction/Core-Concepts.md
+    - name: Basic Architecture
+      href: Introduction/Basic-Infrastructure.md
+    - name: Benefits
+      href: Introduction/Benefits.md
+    - name: Features
+      href: Introduction/Features.md
+    - name: Restrictions
+      href: Introduction/Restrictions.md
+    - name: Application Scenarios 
+      href: Introduction/Application-Scenarios.md    
+- name: Pricing
+  items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+    - name: Billing Rules
+      href: Pricing/Billing-Rules.md
+    - name: Price Overview
+      href: Pricing/Price-Overview.md
+    - name: Purchase Process
+      href: Pricing/Purchase-Process.md 
+- name: Getting Started
+  href: Getting-Started/Started.md
+- name: Operation Guide
+  items:
+    - name: Detection Task List
+      href: Operation-Guide/Task-List.md
+    - name: Global Configuration
+      href: Operation-Guide/Configuration.md
+- name: Troubleshooting
+  items:
+    - name: Detection failed
+      href: Troubleshooting/Detection-failed.md 
+- name: FAQ
+  href: FAQ/FAQ.md
+- name: Relevant Agreement
+  items:
+    - name: Service Agreement
+      href: User-Agreements/Product-Terms-of-Service.md
+- name: Related Resources
+  items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md

@@ -11,6 +11,15 @@ The customized instance creation also includes the clone instance.
 
 <div id="user-content-1"></div>
 
+## Restriction
+
+* Generation I Virtual Machines do not support encrypted mount of Cloud Disk Service;
+* Generation I Virtual Machines (except GPU type) do not support Availability Group;
+* Generation I storage optimization big data type s.d1 and Generation II storage optimization big data type s.d2 do not support local system disk;
+* The Windows Server system instance supports maximum 64-core vCPU now;
+* NAT Instance only supports the Centos 7.2 system now.
+
+
 ## Create Customized Instance
 The custom creation indicates that you need to customize the region, availability zone, instance type, image, VPC, security group, login password and so on based on your business scenarios. Depending on the types of operating system platforms, please refer to [Create Linux Instance](http://docs.jdcloud.com/en/virtual-machines/create-linux-instance) and [Create Windows Instance](http://docs.jdcloud.com/en/virtual-machines/create-windows-instance) for detailed creation steps.
 

@@ -25,6 +25,8 @@
             href: Introduction/Application-Scenarios/Video-Acceleration.md
           - name: Live Video Acceleration
             href: Introduction/Application-Scenarios/Live-Acceleration.md  
+          - name: CDN Dynamic Acceleration
+            href: Introduction/Application-Scenarios/Dynamic-Acceleration.md
           - name: CDN Edge Computing
             href: Introduction/Application-Scenarios/CDN-Edge-Computing.md
   - name: Pricing
@@ -91,7 +93,7 @@
             href: Operation-Guide/Living-video/Create-living-domain.md
           - name: Blocked Streaming
             href: Operation-Guide/Living-video/Forbidden-Stream.md
-  - name: API Reference
+  - name:  API Reference of Previous Version
     items:
       - name: CDN OPEN API
         items:

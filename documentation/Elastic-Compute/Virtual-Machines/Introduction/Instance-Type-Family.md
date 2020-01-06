@@ -16,6 +16,7 @@ The General currently provides General Shared and General Standard types, provid
 
 ### General Shared
 <div id="user-content-1"></div>
+
 **Specification Type Features:**
 
 * vCPU to Memory Ratio is 1:1 or 1:2
@@ -38,10 +39,12 @@ Instance Type|vCPU (core)|Memory (GB)
 
 ### General Standard Type
 <div id="user-content-2"></div>
+
 **Specification type features:**
 
 * vCPU to memory ratio is 1:4 (except for g.n1.xlarge_m specification)
 * Processor:
+	* Generation III: Intel Xeon with 2.6 GHz dominant frequency  Gold 6267 (Cascade Lake) Processor  
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * The following Cloud Disk Service types are supported:
@@ -55,6 +58,22 @@ Instance Type|vCPU (core)|Memory (GB)
 	* Compute cluster, memory dependent data processing
 
 **Instance Type**
+
+Generation III
+
+Instance Type|vCPU (core)|Memory (GB)|Multi-queue network interface
+:---|:---|:---|:---
+|g.n3.medium|1|4|1
+|g.n3.large|2|8|2
+|g.n3.xlarge|4|16|4
+|g.n3.2xlarge|8|32|4
+|g.n3.3xlarge|12|48|4
+|g.n3.4xlarge|16|64|4
+|g.n3.6xlarge|24|96|4
+|g.n3.8xlarge|32|128|4
+|g.n3.12xlarge|48|192|4
+|g.n3.16xlarge|64|256|4
+|g.n3.18xlarge|72|288|4
 
 Second generation
 
@@ -87,11 +106,14 @@ The mark * indicates that the VM is not supported by this instance type, and you
 Compute Optimized Type currently offer Compute-Optimized Standard that provide you with high-performance computing resources that can be met. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
 
 <div id="user-content-3"></div>
+
 ### Compute-Optimized Standard
+
 **Specification Type Features:**
 
 * vCPU to Memory Ratio is 1:2 (except for c.n1.xlarge_m, c.n1.2xlarge_s, c.n1.2xlarge_m and c.n1.4xlarge_m specifications)
 * Processor:
+	* Generation III: Intel Xeon with 2.6 GHz dominant frequency  Gold 6267 (Cascade Lake) Processor
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * The following Cloud Disk Service types are supported:
@@ -106,6 +128,21 @@ Compute Optimized Type currently offer Compute-Optimized Standard that provide y
 	* High Performance Science and Engineering Applications
 
 **Instance Type**
+
+Generation III
+
+Instance Type|vCPU (core)|Memory (GB)|Multi-queue network interface
+:---|:---|:---|:---
+|c.n3.large|2|4|2
+|c.n3.xlarge|4|8|4
+|c.n3.2xlarge|8|16|4
+|c.n3.3xlarge|12|24|4
+|c.n3.4xlarge|16|32|4
+|c.n3.6xlarge|24|48|4
+|c.n3.8xlarge|32|64|4
+|c.n3.12xlarge|48|96|4
+|c.n3.16xlarge|64|128|4
+|c.n3.18xlarge|72|176|4
 
 Second generation
 
@@ -139,12 +176,14 @@ The standard * indicates that the Virtual Machines is not supported by this spec
 Memory-Optimized Standard currently offer a Memory-Optimized Standard Type for applications with large memory operations, lookups, and calculations. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
 
 <div id="user-content-4"></div>
+
 ### Memory-Optimized Standard
 
 **Specification Type Features:**
 
-* vCPU to memory ratio is 1:8 (except for m.n1.medium specification)
+* vCPU to Memory Ratio is 1:8
 * Processor:
+	* Generation III: Intel Xeon with 2.6 GHz dominant frequency  Gold 6267 (Cascade Lake) Processor 
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * The following Cloud Disk Service types are supported:
@@ -157,6 +196,18 @@ Memory-Optimized Standard currently offer a Memory-Optimized Standard Type for a
 	* Hadoop, Spark clusters and other enterprise large memory requirements applications
 
 **Instance Type**
+
+Generation III
+
+Instance Type|vCPU (core)|Memory (GB)|Multi-queue network interface
+:---|:---|:---|:---
+|m.n3.large|2|16|2
+|m.n3.xlarge|4|32|4
+|m.n3.2xlarge|8|64|4
+|m.n3.3xlarge|12|96|4
+|m.n3.4xlarge|16|128|4
+|m.n3.6xlarge|24|192|4
+|m.n3.8xlarge|32|256|4
 
 Second generation
 
@@ -188,6 +239,7 @@ The standard * indicates that the Virtual Machines is not supported by this spec
 High-frequency computing models currently offer high-frequency computing general-purpose models that provide you with high-performance computing resources. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
 
 <div id="user-content-5"></div>
+
 ### High-Frequency-Compute General
 
 **Specification Type Features:**
@@ -233,6 +285,7 @@ Instance Type|vCPU (core)|Memory (GB)|Network Interface Multi-Queue
 Storage Optimization type currently includes Storage Optimization IO type and Storage Optimization Big Data type, which can provide high-performance local storage resources for you. Each vCPU is corresponded to hyper-threading core of on Intel Xeon processor.
 
 <div id="user-content-7"></div>
+
 ### Storage Optimization IO Type
 
 **Specifications and Type Characteristics:**
@@ -263,6 +316,7 @@ Instance Type|vCPU (core)|Memory (GB)|Local Data Disk (temporary storage|multi-q
 |s.i1.14xlarge|56|224|14 x 894GB SSD|4
 
 <div id="user-content-8"></div>
+
 ### Storage Optimization Big Data Type
 
 **Specifications and Type Characteristics:**
@@ -307,6 +361,7 @@ Instance Type|vCPU (core)|Memory (GB)|Local Data Disk (temporary storage, GB)|Mu
 GPU Type currently provides GPU Standard Type, providing you with a heterogeneous computing resource with high performance. Each vCPU is corresponded to hyper-threading core of an Intel Xeon processor.
 
 <div id="user-content-6"></div>
+
 ### GPU Standard Type
 
 **Specifications and Type Characteristics:**
@@ -334,15 +389,15 @@ First Generation:
 
 Instance Type|vCPU(core)|Memory(GB)|GPU|Local Data Disk (Temporary Storage, GB)|Network Interface Multi-queue
 :---|:---|:---|:---|:---|:---|
-|p.n1p40.3xlarge|12|48|1 x Nvidia Tesla P40|1 x 960GB SSD|4
-|p.n1p40.7xlarge|28|110|2 x Nvidia Tesla P40|2 x 960GB SSD|4
-|p.n1p40.14xlarge|56|220|4 x Nvidia Tesla P40|4 x 960GB SSD|4
-|p.n1p40h.3xlarge|12|48|1 x Nvidia Tesla P40|1 x 1200GB HDD|4
-|p.n1p40h.7xlarge|28|110|2 x Nvidia Tesla P40|2 x 1200GB HDD|4
-|p.n1p40h.14xlarge|56|220|4 x Nvidia Tesla P40|4 x 1200GB HDD|4
-|p.n1v100.2xlarge|8|44|1 x Nvidia Tesla V100|1 x 6000GB HDD|4
-|p.n1v100.5xlarge|20|110|2 x Nvidia Tesla V100|2 x 6000GB HDD|4
-|p.n1v100.10xlarge|40|220|4 x Nvidia Tesla V100|4 x 6000GB HDD|4
+|p.n1p40.3xlarge|12|48|1 x Nvidia Tesla P40|1 x 894 SSD|4
+|p.n1p40.7xlarge|28|110|2 x Nvidia Tesla P40|2 x 894 SSD|4
+|p.n1p40.14xlarge|56|220|4 x Nvidia Tesla P40|4 x 894 SSD|4
+|p.n1p40h.3xlarge|12|48|1 x Nvidia Tesla P40|1 x 1117 HDD|4
+|p.n1p40h.7xlarge|28|110|2 x Nvidia Tesla P40|2 x 1117 HDD|4
+|p.n1p40h.14xlarge|56|220|4 x Nvidia Tesla P40|4 x 1117 HDD|4
+|p.n1v100.2xlarge|8|44|1 x Nvidia Tesla V100|1 x 5587 HDD|4
+|p.n1v100.5xlarge|20|110|2 x Nvidia Tesla V100|2 x 5587 HDD|4
+|p.n1v100.10xlarge|40|220|4 x Nvidia Tesla V100|4 x 5587 HDD|4
 
 
 Please note:

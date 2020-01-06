@@ -27,7 +27,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>cn-east-1</td>    
    </tr>
    <tr>
-      <td rowspan="17">General</td>
+      <td rowspan="28">General</td>
       <td rowspan="2">Share</td>
       <td>g.s1.micro</td>
       <td>1</td>
@@ -49,7 +49,117 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td></td>
    </tr>
    <tr>
-      <td rowspan="15">Standard</td>
+      <td rowspan="26">Standard</td>
+      <td>g.n3.medium</td>
+      <td>1</td>
+      <td>4</td>
+      <td>120</td>
+      <td>90</td>
+      <td>0.25</td>
+      <td>0.19</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3.large</td>
+      <td>2</td>
+      <td>8</td>
+      <td>240</td>
+      <td>180</td>
+      <td>0.5</td>
+      <td>0.38</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>480</td>
+      <td>360</td>
+      <td>1</td>
+      <td>0.75</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>960</td>
+      <td>720</td>
+      <td>2</td>
+      <td>1.5</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3.3xlarge</td>
+      <td>12</td>
+      <td>48</td>
+      <td>1440</td>
+      <td>1080</td>
+      <td>3</td>
+      <td>2.25</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>1920</td>
+      <td>1440</td>
+      <td>4</td>
+      <td>3</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3.6xlarge</td>
+      <td>24</td>
+      <td>96</td>
+      <td>2880</td>
+      <td>2160</td>
+      <td>6</td>
+      <td>4.5</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3.8xlarge</td>
+      <td>32</td>
+      <td>128</td>
+      <td>3840</td>
+      <td>2880</td>
+      <td>8</td>
+      <td>6</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3.12xlarge</td>
+      <td>48</td>
+      <td>192</td>
+      <td>5760</td>
+      <td>4320</td>
+      <td>12</td>
+      <td>9</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3.16xlarge</td>
+      <td>64</td>
+      <td>256</td>
+      <td>7680</td>
+      <td>5760</td>
+      <td>16</td>
+      <td>12</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3.18xlarge</td>
+      <td>72</td>
+      <td>288</td>
+      <td>8640</td>
+      <td>6480</td>
+      <td>18</td>
+      <td>13.5</td>
+      <td></td>
+   </tr>
+   <tr>
       <td>g.n2.medium</td>
       <td>1</td>
       <td>4</td>
@@ -200,8 +310,108 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td></td>
    </tr>
    <tr>
-      <td rowspan="17">Compute Optimized</td>
-      <td rowspan="17">Standard</td>
+      <td rowspan="27">Compute Optimized</td>
+      <td rowspan="27">Standard</td>
+      <td>c.n3.large</td>
+      <td>2</td>
+      <td>4</td>
+      <td>187</td>
+      <td>140.25</td>
+      <td>0.39</td>
+      <td>0.29</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.xlarge</td>
+      <td>4</td>
+      <td>8</td>
+      <td>374</td>
+      <td>280.5</td>
+      <td>0.78</td>
+      <td>0.59</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.2xlarge</td>
+      <td>8</td>
+      <td>16</td>
+      <td>748</td>
+      <td>561</td>
+      <td>1.56</td>
+      <td>1.17</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.3xlarge</td>
+      <td>12</td>
+      <td>24</td>
+      <td>1122</td>
+      <td>841.5</td>
+      <td>2.34</td>
+      <td>1.76</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.4xlarge</td>
+      <td>16</td>
+      <td>32</td>
+      <td>1496</td>
+      <td>1122</td>
+      <td>3.12</td>
+      <td>2.34</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.6xlarge</td>
+      <td>24</td>
+      <td>48</td>
+      <td>2244</td>
+      <td>1683</td>
+      <td>4.68</td>
+      <td>3.51</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.8xlarge</td>
+      <td>32</td>
+      <td>64</td>
+      <td>2992</td>
+      <td>2244</td>
+      <td>6.23</td>
+      <td>4.67</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.12xlarge</td>
+      <td>48</td>
+      <td>96</td>
+      <td>4488</td>
+      <td>3366</td>
+      <td>9.36</td>
+      <td>7.02</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.16xlarge</td>
+      <td>64</td>
+      <td>128</td>
+      <td>5984</td>
+      <td>4488</td>
+      <td>12.46</td>
+      <td>9.35</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.22xlarge</td>
+      <td>88</td>
+      <td>176</td>
+      <td>8228</td>
+      <td>6171</td>
+      <td>17.14</td>
+      <td>12.86</td>
+      <td></td>
+   </tr>
+   <tr>
       <td>c.n2.large</td>
       <td>2</td>
       <td>4</td>
@@ -372,8 +582,78 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td></td>
    </tr>
    <tr>
-      <td rowspan="14">Memory Optimized</td>
-      <td rowspan="14">Standard</td>
+      <td rowspan="21">Memory Optimized</td>
+      <td rowspan="21">Standard</td>
+      <td>m.n3.large</td>
+      <td>2</td>
+      <td>16</td>
+      <td>318</td>
+      <td>238.5</td>
+      <td>0.66</td>
+      <td>0.5</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3.xlarge</td>
+      <td>4</td>
+      <td>32</td>
+      <td>636</td>
+      <td>477</td>
+      <td>1.33</td>
+      <td>1</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3.2xlarge</td>
+      <td>8</td>
+      <td>64</td>
+      <td>1272</td>
+      <td>954</td>
+      <td>2.65</td>
+      <td>1.99</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3.3xlarge</td>
+      <td>12</td>
+      <td>96</td>
+      <td>1908</td>
+      <td>1431</td>
+      <td>3.98</td>
+      <td>2.99</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.4xlarge</td>
+      <td>16</td>
+      <td>128</td>
+      <td>2544</td>
+      <td>1908</td>
+      <td>5.3</td>
+      <td>3.98</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.6xlarge</td>
+      <td>24</td>
+      <td>192</td>
+      <td>3816</td>
+      <td>2862</td>
+      <td>7.95</td>
+      <td>5.96</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3.8xlarge</td>
+      <td>32</td>
+      <td>256</td>
+      <td>5088</td>
+      <td>3816</td>
+      <td>10.6</td>
+      <td>7.95</td>
+      <td></td>
+   </tr>
+   <tr>
       <td>m.n2.large</td>
       <td>2</td>
       <td>16</td>

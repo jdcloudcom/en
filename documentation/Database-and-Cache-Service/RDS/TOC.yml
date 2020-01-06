@@ -217,6 +217,8 @@
           href: Operation-Guide/Security/Set-Whitelist.md
         - name: Transparent Data Encryption TDE
           href: Operation-Guide/Security/tde.md
+        - name: Configure SSL Certificate 
+          href: Operation-Guide/Security/Configure-SSL.md
           
       - name: Cloud on Single Database
         items:

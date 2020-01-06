@@ -60,7 +60,13 @@ items:
         - name: View alarm rules
           href: Operation-Guide/resource-monitoring/view-resource-rules.md     
         - name: Add Alarm Rule
-          href: Operation-Guide/resource-monitoring/set-alarm-rules-details.md
+          items:
+            - name: Add Alarm in Batch
+              href: Operation-Guide/resource-monitoring/add-rule-in-batches.md
+            - name: Appoint Resource Addition Alarm
+              href: Operation-Guide/resource-monitoring/add-rule.md
+            - name: Add Alarm Based on Tag
+              href: Operation-Guide/resource-monitoring/add-rule-tags.md 
         - name: Manage Alarm Rule
           href: Operation-Guide/resource-monitoring/resource-rules.md  
         - name: Alarm Template

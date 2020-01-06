@@ -12,6 +12,8 @@ It shall be noted that reinstalling the system will result in the loss of all co
 		* If instance is created based on private image and private image has been deleted, you cannot use original image to rebuild, that is, you cannot restore to the original system status. It is recommended to keep private image referenced by instance;
 		* You need to reset password when rebuilding. For Linux system you can also reassign key pair;
 
+* For cloud disk serving as instance of system disk, corresponding system disk snapshot capacity of images selected for rebuilding shall not be greater than the current system disk size. System disk snapshot capacity refers to size of corresponding system disk file system when the image is making.
+* For rebuilding, images consistent to current instance system disk type can be selected only. For example, if current instance system disk is a local disk, only the local disk images can be selected for rebuilding.
 
 ## Operation Steps
 1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.

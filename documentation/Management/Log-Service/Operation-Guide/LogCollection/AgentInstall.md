@@ -1,15 +1,41 @@
 ## Installation of Business Application Log Collection Plug-in 
 
-Select the Virtual Machines that need to collect business application logs (support Linux machines only), and log in to the Virtual Machines.
+The corresponding log subject and collection configuration of log set have been created on the Console. Select the Virtual Machines that need to collect business application logs (support Linux machines only), and log in to the Virtual Machines.
+
+Overall process:
+
+- Create a log set and log subject in the Console, and add the collection configuration.
+- Create a sub-user and authorize to get AKSK.
+- Log in Virtual Machines and install agent.
+
+### I. Authorization steps
+
+1. Create a sub-user
+
+2. Create policy
+
+- Log in the Console Management -> Identity and Access Management page to choose policy management.
+- Click **Create Policy**, enter policy name and description, and select the resource type of **Log Service**. Access Permissions are allowed by default, and the operation permission can be select as **describeInstanceCollectConfs** and **describeLogdCA**. Regarding to resources, you can select all or designated resources according to your own needs.
+- Click **Create Policy** to complete policy creation.
+
+3. Grant above-mentioned policy to sub-user.
+
+### II. Agent Installation Steps
+
 1. Configure credential files     
 - Create ~/.jdcloud/logs_credentials.yml file     
 - Edit and save logs_credentials.yml file. The file content is:        
 
-ak: xxxxxxx (fill in YourAccessKeyID)
+```
+ak: xxxxxxx (Fill in sub-user AccessKeyID)
+sk: xxxxxxx(Fill in sub-user AccessKeySecret)   
+```
+**Note:**
 
-sk: xxxxxxx (fill in YourAccessKeySecret)   
+- It is recommended to use the sub-user AKSK, so as to control the permission scope.
+- Method to obtain AKSK: Click the user management in Identity and Access Management, select a sub-user, enter the user details, and click security credential to see the AKSK of the sub-user. (If no AKSK is available, click to create AccessKey)
+- ak (there must be spaces between key-value pairs). Otherwise ak will be read. For example: ak:(space)xxxxxx
 
-**Note: ak (there must be spaces between key-value pairs), otherwise ak will be read. For example: ak:(space)xxxxxx**
 
 2. Replicate installation commands to Virtual Machines.  
 

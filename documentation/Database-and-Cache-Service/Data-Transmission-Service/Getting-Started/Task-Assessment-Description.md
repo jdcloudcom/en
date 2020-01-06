@@ -1,56 +1,57 @@
-# 预检查说明
+# Pre-check Description
 
-迁移任务启动后将先执行预检查，检查源库、目标库是否可连通及版本、设置等是否满足迁移要求，预检查通过后，才可执行数据库迁移。
+After a migration task is enabled, please carry out pre-check at first; check if the source database and the target database can be communicated with and if version, setting and others reach migration requirements; and database migration can be executed after the pre-check is passed.
 
-以下为不同数据库类型的检查项，请在创建任务前提前检查相关项。
+Check items for different database types are listed below. Please check relevant items before any task is created.
 
 
 
 ## MySQL
 
-| 检查项             | 说明                                                         |
-| ------------------ | ------------------------------------------------------------ |
-| 源端连通性         | 检查源端是否可连通                                           |
-| 源端权限           | 检查源端账号权限是否满足要求                                 |
-| 源端ServerID       | 检查源端ServerID是否大于1                                    |
-| 源端BinlogOn       | 检查源端是否开启Binlog                                       |
-| 源端BinlogMode     | 检查源端binlog_format是ROW                                   |
-| 源端BinlogRowImage | 检查源端binlog_row_image是FULL                               |
-| 源端Schema         | 检查源端是否存在数据校验库`_jdts_check__xxxx`                |
-| 源端Table          | 检查源端是否存设置的待迁移Table                              |
-| 源端Table主键      | 检查源端Table是否有主键                                      |
-| 源端Table外键      | 检查源端是否有外键                                           |
-| 目标端连通性       | 检查目标端是否可连通                                         |
-| 目标端Schema       | 检查目标端是否有与源端同名的库，及是否存在数据校验库`_jdts_check__xxxx` |
-| 数据库版本         | 检查源端与目标端数据库版本是否符合要求                       |
+| Check Item                     | Content                                                     |
+| ---------------------- | ------------------------------------------------------------ |
+| Source Database Connectivity Check | Check if the source database can be connected                                           |
+| Source Database Permission Check | Check if the source database account can meet migration requirements                                 |
+| Source Database server_id Check | Check if the source database server_id is greater than 1                                   |
+| Source Database binlog Enable Check | Check if the source database enables binlog                                       |
+| Source Database binlog Format Check | Check if the source database binlog_format is ROW                                   |
+| Source Database binlogRowImage Check | Check if the source database binlog_row_image is FULL                               |
+| Source Database Schema Existence Check | Check if Schema to be migrated and _jdts_check__xxxx are existed in the source database              |
+| Source Database Table Existence Check | Check if Table to be migrated is existed in the source database                                  |
+| Source Database Table Primary Key Check | Check if the primary key is existed in the source database that cannot be migrated without the primary key                    |
+| Source Database Table External Key Check | Check if the external key is existed in the source database that only can be migrated without the external key                    |
+| Target Database Connectivity Check | Check if the target database can be connected                                         |
+| Target Database Schema Check | Check if Schema having the same name with the data to be migrated and _jdts_check__xxxx are existed in the target database |
+| Database Version Check | Check if the version of source database version and target database can meet migration requirements                   |
 
 
 
 ## SQL Server
 
-| 检查项                 | 说明                                   |
-| ---------------------- | -------------------------------------- |
-| 源端连通性             | 检查源端是否可连通                     |
-| 源端权限               | 检查源端账号权限是否符合要求           |
-| 源端数据库Recovery模式 | 检查源端Recovery模式是否为FULL         |
-| 源端DB                 | 检查是否存在待迁移的库                 |
-| 源端Table              | 检查源端是否存设置的待迁移Table        |
-| 源端Table主键          | 检查源端Table是否有主键                |
-| 目标端连通性           | 检查目标端是否可连通                   |
-| 目标端DB               | 检查目标端是否有与源端同名的库         |
-| 数据库版本             | 检查源端与目标端数据库版本是否符合要求 |
+| Check Item               | Description                                       |
+| -------------------- | ------------------------------------------ |
+| Source Database Connectivity Check | Source Database Connectivity Check                             |
+| Source Database Connectivity Check | Source Database Connectivity Check                             |
+| Source Database DB Existence Check | Check if DB to be migrated is existed in the source database                   |
+| Source Database Table Existence Check | Check if DB to be migrated is existed in the source database                   |
+| Source Database Table Primary Key Check | Check if the primary key is existed in the source database that cannot be migrated without the primary key  |
+| Source Database Recovery Mode Monitoring | Check if Recovery mode of source database is FULL             |
+| Target Database Connectivity Check | Check if the target database can be connected                       |
+| Target Database DB Existence Check | Check if DB having the same name with the data is existed in the target database     |
+| Database Version Check | Check if the version of source database version and target database can meet migration requirements |
 
 
 
 ## MongoDB
 
-| 检查项       | 说明                               |
-| ------------ | ---------------------------------- |
-| 源端连通性   | 检查源端是否可连通                 |
-| 源端版本     | 检查源端数据库版本是否符合要求     |
-| 源端权限     | 检查源端账号权限是否符合要求       |
-| 源端Oplog    | 检查源端是否为副本集模式           |
-| 目标端连通性 | 检查目标端是否可连通               |
-| 目标端权限   | 检查目标端权限是否符合要求         |
-| 目标端版本   | 检查目标端数据库版本是否符合要求   |
-| 目标端集合   | 检查目标端是否存在与源端重名的集合 |
+| Check Item                     | Description                                           |
+| -------------------------- | ---------------------------------------------- |
+| Source Database Connectivity Check | Check if the source database can be connected                             |
+| Source Database Permission Check | Check if the source database account can meet migration requirements                   |
+| Source Database Version Check | Check if the source database version can meet migration requirements                   |
+| Source Database Oplog Check | Check if source database is in the replica set mode                       |
+| Target Database Connectivity Check | Check if the target database can be connected                           |
+| Target Database Permission Check | Check if the target database account can meet migration requirements                 |
+| Target Database Collection Existence Check | Check if Collection having the same name with the data is existed in the target database |
+| Target Database Version Check | Check if the target database version can meet migration requirements                 |
+

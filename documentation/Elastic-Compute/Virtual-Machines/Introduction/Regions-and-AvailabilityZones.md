@@ -20,7 +20,7 @@ The availability zone is a physical zone that is independent from each other bet
 		</thead>
 	<tbody>
    	<tr>
-      	<td rowspan="8">Chinese Mainland Region</td>
+      	<td rowspan="9">Chinese Mainland Region</td>
       	<td rowspan="3">cn-north-1<br>cn-north-1</td>
      	<td> Availability Zone A<br>cn-north-1a</td>
 	   	<td> Beijing</td>
@@ -55,8 +55,12 @@ The availability zone is a physical zone that is independent from each other bet
 	   	<td>Shanghai</td>
    </tr>
   <tr>
-     	<td>cn-south-1<br>cn-south-1</td>
+     	<td rowspan="2">cn-south-1<br>cn-south-1</td>
      	<td>Availability Zone A<br>cn-south-1a</td>
+	   	<td>Guangzhou</td>
+  </tr>
+  <tr>
+	<td>Availability Zone B<br>cn-south-1a</td>
 	   	<td>Guangzhou</td>
    </tr>
    </tbody>

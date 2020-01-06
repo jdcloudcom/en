@@ -1,97 +1,97 @@
-# 自建MongoDB迁移至云数据库MongoDB
+# Migrate self-built MongoDB to JCS for MongoDB
 
-本文介绍如何使用数据传输 DTS 将自建MongoDB数据库迁移至云数据库MongoDB。
+The document specifies how to migrate self-built MongoDB database to JCS for MongoDB with data transmission DTS.
 
-数据传输 DTS 支持结构迁移、全量迁移、增量迁移，您可以根据实际情况选择使用。
+Data transmission DTS supports structure migration, full migration and incremental migration. You can select one type according to your real conditions.
 
-## 注意事项
+## Note
 
-### 源数据库配置要求
+### Source Database Configuration Requirement
 
-连接方式：
+Connection method:
 
-- 源数据库有公网IP的自建数据库
-- 通过专线连接的自建数据库
+- Self-built Database of Public IP in Source Database
+- Self-built Database Connected via Direct Connection
 
-数据库版本：
+Database version:
 
-- MongoDB 3.2 版
-- MongoDB 3.4 版
-- MongoDB 3.6 版
+- MongoDB 3.2 Version
+- MongoDB 3.4 Version
+- MongoDB 3.6 Version
 
-数据库配置：
+Database configuration:
 
-- 需要为副本集模式
+- Replica set mode is required
 
-账号权限：
+Account permission:
 
-- 待迁移库的读权限。
-- admin库的读权限。
+- Read permission of database to be migrated.
+- Read permission of admin database.
 
-### 目标数据库版本与配置要求
+### Target Database Version and Configuration Requirement
 
-数据库版本：
+Database version:
 
-- 与源数据库一致。
+- Be consistent with the source database version or above version.
 
-账号权限：
+Account permission:
 
-- 写权限
+- Write Permission
 
-数据要求：
+Data requirement:
 
-- 不能存在与待迁移数据库重名的库。
+- There shall not be any database in the same name of the database to be migrated.
 
-## 操作步骤
+## Operation Steps
 
-1. 创建迁移任务。
+1. Create migration task.
 
-   - 任务名称：名称长度不能少于2字符且不超过32个字符，只支持中文、数字、大小写字母、英文下划线及中划线。
+   - Task name: The name shall contain no less than 2 characters, but no more than 32 characters and shall only support Chinese, numbers, uppercase and lowercase letters, English underline and line-through.
 
-   - 源库信息：
+   - Source database information:
 
-     - 数据库类型，选择"有公网IP的自建数据库"。
-     - 数据库类型，选择MongoDB。
-     - 数据库地址，填写数据库的域名或IP，如通过专线连接请填写内网IP。
-     - 端口，数据库端口。
-     - 账号和密码，请提前确认账号具备相应的权限。
+     - Please select the database type as "self-built database of Public IP".
+     - Please select database type as MongoDB.
+     - Please fill in database domain or IP as the database address and fill in Private IP as the database address in case of Direct Connection.
+     - Port, database port.
+     - For account and password, please confirm in advance that if the account has corresponding permissions.
 
-   - 目标库信息：
+   - Target library information:
 
-     - 数据库类型，请选择"云数据库 MongoDB"
-     - 地域，选择目标实例所在地域。
-     - 实例ID，请选择目标实例。
-     - 鉴权库、账号和密码，请提前确认账号具备相应的权限。
+     - Please select database type as "JCS for MongoDB"."
+     - Region, select the region of the target instance.
+     - Instance ID, please select the target instance.
+     - For authentication database, account and password, please confirm in advance that if the account has corresponding permissions.
 
-   - 迁移类型
+   - Migration Type
 
-     - 请选择迁移类型，可选择全量迁移、增量迁移。
+     - Please select migration type as full migration or incremental migration.
 
-   - 选择迁移对象
+   - Select Migration Object
 
-     - 支持按库、表迁移。
+     - Support migration by databases and data tables.
 
-     - 源库类型为"有公网IP的自建数据库"时，支持**可视化选择**和**JSON**两种方式定义要迁移的库表。
+     - When the "self-built database of Public IP" is selected as the source database type, definition of database tables to be migrated via two methods are supported, i.e., **Visual Selection** and **JSON**.
 
-     - 源库类型为"通过专线连接的自建数据库"时，只支持通过**JSON**定义要迁移的库表。
+     - When the "self-built database connected via the Direct Connection" is selected as the source database type, definition of the database tables to be migrated via **JSON** is supported only.
 
-     - 说明
+     - Description
 
-       MongoDB不迁移以下数据：
+       The following data under MongoDB will not be migrated:
 
-       \- 库：amdin、local、config。
+       \- lib: amdin, local and config
 
-       \- 集合：以"system."开头的集合，包含"$"的集合。
+       \- Set: the set which start with "system." or include "$".
 
-       当一个库内包含超过100个表时，不支持按表选择，只可选择当前库或通过JSON方式指定表。
+       When one database contains more than 100 tables, selection by tables is not supported. Only the current database can be selected or tables can be appointed with the JSON method.
 
-2. 启动迁移任务。
+2. Start migration task.
 
-   - 在任务列表页或详情页，点击**启动**，启动迁移任务。任务启动后，第一步将执行预检查。
-   - 预检查成功后，在预检查弹窗中点击**下一步**，执行数据迁移。
+   - Click **Start** on the task list page or Details to start a migration task. After the task is started, the pre-check will be executed at the first step.
+   - After pre-check is succeeded, click **Next** in the pre-check popup and execute data migration.
 
-3. 结束迁移任务。
+3. End migration task.
 
-   - 迁移类型为全量迁移时，数据迁移完成后，任务自动结束。
-   - 迁移类型为增量迁移时，需要手动结束迁移任务，建议目的库数据追上源库时，停止源库写入，检查目的库数据无误后，结束迁移任务。
-   - 注意：迁移任务结束后，将不能再次开启。
+   - If the migration type is full migration, the task will be automatically ended after data migration is completed.
+   - If the migration type is incremental migration, the migration task shall be manually ended. It is suggested that when data of a target database catch up with the source database, writing to the source database shall be stopped and the migration task shall be ended after the target database data are checked to be correct.
+   - Note: When the migration task is completed, it cannot be enabled again.
