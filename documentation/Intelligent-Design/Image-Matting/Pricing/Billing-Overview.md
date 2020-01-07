@@ -2,6 +2,7 @@
 Image Matting is billed by times of API calls.
 
 Charging Standards:
+
 |  Times of calls in current month   | Intelligent image matting API  |
 |  ----  | ----  |
 | 1-3000  | RMB 0.08 |
