@@ -2,7 +2,7 @@
 # Introduction #
   Welcome to the JD Cloud Developer PHP Tool Kit (PHP SDK). With the JD Cloud PHP SDK, you can access the services provided by JD Cloud without complex programming. 
 
-  To facilitate the understanding of some concepts and parameters in the SDK, it's recommended to first review [JD Cloud OpenAPI Use Getting Started](http://www.jdcloud.com/help/detail/355/isCatalog/0) before using the SDK. To understand the specific parameters and meanings of each API, refer to the program comments or the API documentation for specific product lines under the OpenAPI & SDK.
+  To facilitate the understanding of some concepts and parameters in the SDK, it's recommended to first review [JD Cloud OpenAPI Use Getting Started](https://docs.jdcloud.com/en/common-declaration/api/introduction) before using the SDK. To understand the specific parameters and meanings of each API, refer to the program comments or the API documentation for specific product lines under the OpenAPI & SDK.
 
 
 

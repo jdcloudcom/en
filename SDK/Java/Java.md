@@ -2,7 +2,7 @@
 
   Welcome to the JD Cloud Developer Java Tools Kit (Java SDK). With JD Cloud Java SDK, you can access the services provided by JD Cloud without complex programming. 
 
-  To facilitate the understanding of some concepts and parameters in the SDK, it's recommended to review the [Getting Started to the OpenAPI](http://www.jdcloud.com/help/detail/355/isCatalog/0) before using the SDK. To understand the specific parameters and meanings of each API, refer to the program comments or documentation for specific product lines under OpenAPI&SDK.
+  To facilitate the understanding of some concepts and parameters in the SDK, it's recommended to review the [Getting Started to the OpenAPI](https://docs.jdcloud.com/en/common-declaration/api/introduction) before using the SDK. To understand the specific parameters and meanings of each API, refer to the program comments or documentation for specific product lines under OpenAPI&SDK.
 
 # Environment Preparation #
 1. The JD Cloud Java SDK is applicable to jdk7 and above versions.
@@ -28,7 +28,7 @@ With any of the problems in the SDK use, you are welcomed to communicate at the 
 
 - JD Cloud does not provide other downloading ways, please be sure to use the above-mentioned official download method.
 
-- The latest version number provided by JD Cloud product shall be used as the version number. For example: The latest version number used by VM in the example can be searched in API [Update History](https://docs.jdcloud.com/cn/virtual-machines/api/changelog).
+- The latest version number provided by JD Cloud product shall be used as the version number. For example: The latest version number used by VM in the example can be searched in API [Update History](https://docs.jdcloud.com/en/virtual-machines/api/changelog).
 
 - Each cloud product has its own Client. When API of this product is called, the Client of such product will be used. For example: When VmClient of Virtual Machines is used, only APIs of Virtual Machines (Vm) can be called; when AgClient of Availability Group is used, only APIs of Availability Group (Ag) can be called.
 
