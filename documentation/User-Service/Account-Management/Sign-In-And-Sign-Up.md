@@ -52,32 +52,19 @@ For users who use the JD account, please login from “JD login”. When you are
 ### 3. Login with WeChat
 You can also login to JD Cloud via WeChat account. If you selects to login via WeChat for PC, you need to scan the WeChat login QR code with your WeChat for mobile phone, and then agree on JD Cloud's use of WeChat login in the WeChat for mobile phone. JD Cloud will access your WeChat nickname for display on the page.
 
-![](../../../image/User/Account-Mgmt/wechat-login1.PNG)
-
 When you use the WeChat login for the first time, please associate the WeChat account with a JD Cloud account. When your mobile phone number is entered, the system will search the JD Cloud registered by you or automatically created a JD Cloud account for you.
 
-![](../../../image/User/Account-Mgmt/wechat-login2.PNG)
+![](../../../image/User/Account-Management/signin-and-signup/login6.PNG)
 
 If you have registered an account, you can select to associate with and login to this account.
 
-![](../../../image/User/Account-Mgmt/wechat-login3.png)
+![](../../../image/User/Account-Management/signin-and-signup/login7.png)
 
 If you are a new user, the system will automatically create an account for you. You can later view and manage the account in the "Account Management" center.
 
-![](../../../image/User/Account-Mgmt/wechat-login6.PNG)
-
 Under special circumstances, you will not be able to use the WeChat login because your JD Cloud account has been associated with another WeChat account or your account is a JD account, in which case, you can only login via JD; then please return to the login page and select **JD Login** — Only when the account is upgraded (view [JD Account Management](https://docs.jdcloud.com/cn/account-management/manage-jd-account) - for upgrading JD account to JD Cloud account), you can associate with the WeChat account and use WeChat login.
-
-![](../../../image/User/Account-Mgmt/wechat-login4.png)
 
 #### Disassociate WeChat account
 When you no more need to use WeChat login, you can disassociate WeChat account on the page "Account Management - Basic Data". The precondition for disassociation is that a login password has been set for the current account and you can login by other means other than WeChat login.
 
 If you haven't set a login password, you should set one too guarantee that the account can still be logged in by other means after the WeChat account is disassociated.
-
-![](../../../image/User/Account-Mgmt/wechat-safe1.png)
-
-Click **Disassociate** and confirm the available login method after disassociation.
-
-![](../../../image/User/Account-Mgmt/wechat-baseinfo1.png)
-![](../../../image/User/Account-Mgmt/wechat-baseinfo2.png)
