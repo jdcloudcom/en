@@ -1,8 +1,6 @@
   name: Account Management
   href: 
   items:
-  - name: Introduction to New JD Cloud Account
-    href: What-Is-JDCloud-Account.md
   - name: Login and Registration
     href: Sign-In-And-Sign-Up.md
   - name: View account information
