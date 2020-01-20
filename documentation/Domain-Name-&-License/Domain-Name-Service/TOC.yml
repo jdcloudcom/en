@@ -48,18 +48,18 @@
             herf: Operation-Guide/Domain-Transfer/Domain-Name-Transfer.md    
   - name: Troubleshooting
     items:
-    - name: Domain Name and Reverse Resolution
-      herf: Troubleshooting/Domain-Name-and-Reverse-Resolution.md
-    - name: How to Skip Root Domain Name without www to Main Domain Name with www
-      herf: Troubleshooting/How-to-Skip-Root-Domain-Name-Without-www-to-Main-Domain-Name-With-www.md
+      - name: Domain Name and Reverse Resolution
+        herf: Troubleshooting/Domain-Name-and-Reverse-Resolution.md
+      - name: How to Skip Root Domain Name without www to Main Domain Name with www
+        herf: Troubleshooting/How-to-Skip-Root-Domain-Name-Without-www-to-Main-Domain-Name-With-www.md
   - name: FAQ
     herf: FAQ/FAQ.md
   - name: User Agreements
     items:
-    - name: Online Terms of Service of Domain Name
-      herf: User-Agreements/Donline-Terms-of-Service-of-Domain-Name.md      
-    - name: IDN Online Transfer Agreement
-      herf: User-Agreements/IDN-Online-Transfer-Agreement.md      
+      - name: Online Terms of Service of Domain Name
+        herf: User-Agreements/Donline-Terms-of-Service-of-Domain-Name.md      
+      - name: IDN Online Transfer Agreement
+        herf: User-Agreements/IDN-Online-Transfer-Agreement.md      
 
           
           

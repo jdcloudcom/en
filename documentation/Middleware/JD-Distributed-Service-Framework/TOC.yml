@@ -21,8 +21,6 @@ items:
   items:
     - name: Billing Overview
       herf: Pricing/Billing-Overview.md
-    - name: Purchase Process
-      herf: Pricing/Purchase-Process.md 
 - name: Getting Started
   items:
     - name: Service Usage Overview
@@ -49,8 +47,8 @@ items:
           herf: Operation-Guide/APP-Manage/APPList.md        
         - name: Deployment Application in Virtual Machines
           herf: Operation-Guide/APP-Manage/APPDeloy.md
-  #      - name: Deployment Application in K8S
-  #       herf: Operation-Guide/APP-Manage/APPDeloyK8S.md
+        - name: Deployment Application in K8S
+          herf: Operation-Guide/APP-Manage/APPDeloyK8S.md
         - name: Deployment Group
           herf: Operation-Guide/APP-Manage/Deploy-Group.md
         - name: Agent Installation

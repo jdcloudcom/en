@@ -29,7 +29,7 @@ Sub-resources of bucket include:
 |website|Static Website Hosting Configuration of Bucket|
 |cors|Cross-origin Configuration Information of Bucket|
 |Encryption|Default Encryption Configuration of Bucket|
-|Replication|Cross-region Replication Configuration of Bucket|
+|Replication|Bucket Incremental Data Synchronization Configuration|
 |Image Back-to-Origin|Image Back-to-Origin Configuration of Bucket|
 |Customized Domain|Customized Domain Configuration of Bucket|
 

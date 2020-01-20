@@ -61,6 +61,36 @@ The test interface is as follows:
 - Click **Add Action** and an action popup will appear. There are three operation adding methods, respectively including forward to another Topic, forward to JCQ and forward to ES
 
 ![scrpit](../../../../../image/IoT/IoT-Hub/Add-Action.png)
+### Note:
+
+The data reported by the device will be enhanced after being forwarded by the rule engine, and information such as device name, device identifier and device product will be added. Examples are as follows:
+
+ The data format in which a device called test-device reports under the product iottest:
+
+```
+{
+ "msgId": "123",
+ "version": "1.0",
+ "data": {
+ "message": "Hello World"
+ },
+ "ts": 1559805611390
+}
+```
+
+The format in which rule engine forwards out:
+
+```
+{
+  "identifier":"kKvX***kvx",
+  "message":"Hello World",
+  "productKey":"REwf***gdne",
+  "deviceName":"test-device",
+  "ts":"1577181657114"
+} 
+```
+
+
 
 ### 2.2.1 Forward to another Topic
 

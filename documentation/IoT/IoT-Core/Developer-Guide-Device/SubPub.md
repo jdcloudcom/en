@@ -170,6 +170,35 @@ c) iot_subscribe_reply will receive hub and response reported by attribute.
 
 If a device needs to inform an event to hub, it can send the information with this method
 
+ The data format in which a device called test-device reports under the product iottest:
+
+```
+{
+ "msgId": "123",
+ "version": "1.0",
+ "data": {
+ "message": "Hello World"
+ },
+ "ts": 1559805611390
+}
+```
+
+The format in which rule engine forwards out:
+
+```
+{
+  "identifier":"kKvX***kvx",
+  "message":"Hello World",
+  "productKey":"REwf***gdne",
+  "deviceName":"test-device",
+  "ts":"1577181657114"
+} 
+```
+
+## Device Event Reporting
+
+If a device needs to inform an event to hub, it can send the information with this method
+
 1) Subscribed event reporting and reply Topic:         
 ```
 iot_mqtt_subscribe_router(handle, MQTT_SUB_TYPE_EVENT_REPLY, SMP_PRODUCT_KEY, SMP_IDENTIFIER, iot_subscribe_reply, NULL)

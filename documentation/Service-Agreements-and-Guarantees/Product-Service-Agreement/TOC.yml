@@ -82,6 +82,8 @@ items:
     href: Api-Gateway-Terms-Of-Service.md
   - name: API Gateway Service Level Agreement (SLA)
     href: Api-Gateway-Level-Agreements-SLA.md
+  - name: API Center Service Terms
+    href: API-Center-Service-Terms-Of-Service.md   
   - name: Cloud Physical Server Service Agreement
     href: Cloud-Physics-Server-Service-Clause.md
   - name: Cloud Physical Server Service Level Agreement (SLA)
@@ -102,6 +104,8 @@ items:
     href: Edge-Network-Tunnel-Terms-Of-Service.md
   - name: Service Terms of Equal Edge Service (JEES)
     href: JD-Cloud-Equal-EdgeService-Terms-Of-Service.md  
+  - name: Service Terms of Notification Service (JNS)
+    href: JD-Cloud-Notification-Service-Terms-Of-Service.md      
   - name: Message Queue Service Agreement
     href: Message-Queue-JCQ-Service-Terms.md
   - name: Message Queue Service Level Agreement (SLA)
@@ -186,4 +190,12 @@ items:
     href: Cloud-Cabinet-Service-Level-Agreements-SLA.md
   - name: IDC User Internet Access Responsibility Statement
     href: IDC-User-Internet-Access-Responsibility-Statement.md
+  - name: Service Terms of JD Cloud Distributed Service Framework (JDSF)
+    href: JDCloud-Distributed-Service-Framework-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) of JD Cloud Distributed Service Framework (JDSF)
+    href: JDCloud-Distributed-Service-Framework-Level-Agreements-SLA.md  
+  - name: Service Terms of Cloud Service Mesh
+    href: Mesh-Service-Terms-Of-Service.md
+  - name: Service Terms of Intelligent Edge Security
+    href: Intelligent-Edge-Security-Terms-Of-Service.md   
     

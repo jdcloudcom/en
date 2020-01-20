@@ -63,9 +63,12 @@ If the access permission of the bucket is "private read/write" or "customized pe
 ![](../../../../../image/vm/Image-Import-Image-Step2.png)
 
 ### 4. Image importation
+
+<div id="importIMG"></div>
+
 Since no Console operation entry is provided for the current image importation function, please complete importation by referring to the openAPI document and using CLI and SDK after completing the above-mentioned operating steps.<br>
 For the API document, see: [Image importation](https://docs.jdcloud.com/en/virtual-machines/api/importimage?content=API)<br>
-For CLI installation and configuration, please see [CLI Installation](https://docs.jdcloud.com/cn/cli/installation) [CLI Configuration](https://docs.jdcloud.com/cn/cli/config)<br>
+For CLI installation and configuration, please see [CLI Installation](https://docs.jdcloud.com/en/cli/installation) [CLI Configuration](https://docs.jdcloud.com/en/cli/config)<br>
 Meaning of CLI instruction:
 ```
 jdc vm import-image --architecture x86_64 --os-type linux --platform "Other Linux" --disk-format qcow2 --system-disk-size-gb 50 --image-url https://XXXX.cn-north-1.jdcloud-oss.com/XXXX.qcow2 --image-name importImageTest

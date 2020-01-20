@@ -1,5 +1,5 @@
 
-# Deploy Persistent Storage
+# Deploy Persistent Storage (Adapt to Kubernetes 1.12 version)
 
 JD Cloud Kubernetes Service integrates JD Cloud cloud disk, and you can use JD Cloud cloud disk service as persistent storage in the cluster.  
 
@@ -142,8 +142,6 @@ When the static PVs in the cluster do not match the new PersistentVolumeClaim, t
 
 |StorageClass type | Cloud Disk Service Type   |Capacity Range  |Step Size|
 | ------ | ------ | ------ |------ |
-|	ssd| SSD Cloud Disk  | [20-1000]GiB  |10GiB |
-|premium-hdd	| Premium Hdd Cloud Disk | [20-3000]GiB  |10GiB| 
 |hdd.std1	|Capacity Type hdd | [20-16000]GiB  |10GiB|
 |ssd.gp1	|General ssd | [20-16000]GiB  |10GiB|
 |ssd.io1	|Performance Type ssd | [20-16000]GiB  |10GiB| 

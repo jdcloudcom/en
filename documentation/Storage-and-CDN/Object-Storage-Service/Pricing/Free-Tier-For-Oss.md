@@ -20,8 +20,3 @@ The free quota will be deducted at first for daily billing and the portion in ex
 4. The settlement method of free quota deduction first and then Pay by Consumption according to standards is applicable to the user adopting the standard storage type. The free quota is not applicable to other storage types.
 
 5. The free quota will come into force since March 19, 2019. Subsequent changes (if any) will be informed in time via announcements, intra-website messages and emails.
-
-
-
-	
-	

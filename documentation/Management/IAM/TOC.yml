@@ -59,13 +59,13 @@ items:
                 href: Policy-Management/Policy_v3/Condition.md
       - name: Set
         href: Setting.md        
-      - name: Virtual MFA Equipment
+      - name: MFA  Multi-factor Authentication
         items:
           - name: Overview
             href: Virtual-MFA-Device/MFA-Overview.md   
-          - name: MFA Setting
+          - name: MFA  Enabling Process
             href: Virtual-MFA-Device/MFA-Settings.md
-          - name: Login Verification
+          - name: login Certification
             href: Virtual-MFA-Device/Sign-up-Verification.md
           - name: Guidance for Third-party Application Installation and Usage
             href: Virtual-MFA-Device/Third-party-Apps.md

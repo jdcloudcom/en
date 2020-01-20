@@ -2,7 +2,7 @@
 
 You can directly use the [Virtual Machines Price Calculator] provided by JD Cloud (https://www.jdcloud.com/calculator/calHost) to check the price of the product portfolio you need, or you can check the price overview of related resources for the estimation of the input cost.
 
-Please note: The price in the price overview is the unified official price excluding the user's discounts. To ensure the price accuracy, it is recommended that you log in and use the Virtual Machines price calculator or log in the Virtual Machines creation page at the console to view the configuration price.
+Please note: Prices on the Price Overview are unified official list prices, and do not include user discount. To ensure the accuracy of price, it is recommended that you use the VM Price Calculator after login or log in to the Console VM Instance Creation page to view the configuration price.
 
 
 The price of JD Cloud's VM instance mainly includes: instance price (vCPU and memory)/ cloud disk price/ EIP price. For the price of cloud disk, please refer to [Cloud Disk Price Overview](https://docs.jdcloud.com/en/cloud-disk-service/price-overview); for EIP price, please refer to [Elastic IP Price Overview](../../../Networking/Elastic-IP/Pricing/Price-Overview.md).
@@ -27,7 +27,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>cn-east-1</td>    
    </tr>
    <tr>
-      <td rowspan="28">General</td>
+      <td rowspan="29">General</td>
       <td rowspan="2">Share</td>
       <td>g.s1.micro</td>
       <td>1</td>
@@ -49,7 +49,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td></td>
    </tr>
    <tr>
-      <td rowspan="26">Standard</td>
+      <td rowspan="27">Standard</td>
       <td>g.n3.medium</td>
       <td>1</td>
       <td>4</td>
@@ -237,6 +237,16 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>6540.75</td>
       <td>30.277</td>
       <td>22.71</td>
+      <td></td>
+   </tr>
+      <tr> 
+      <td>g.n2.metal</td>
+      <td>80</td>
+      <td>384</td>
+      <td>9690</td>
+      <td>7267.5</td>
+      <td>33.65</td>
+      <td>25.23</td>
       <td></td>
    </tr>
    <tr>

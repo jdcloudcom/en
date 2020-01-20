@@ -2,9 +2,9 @@
 
 Mass data archiving and backup: facing scenarios of cloud backup (cold/hot backup) of mass data, Object Storage Service provides two storage methods based on the data access frequency. For the cold data with relatively low access frequency and not high access speed requirements can be stored in low-frequency-access storage so as to reduce about 50% storage costs without reducing data durability, giving you a massive and low-price space for data backup.
 
-## Cross-region Replication Disaster Tolerance
+## Data Disaster Recovery
 
-User’s storage data can be synchronized to an assigned region by cross-region replication function to realize cross-region disaster tolerance of data and deal with calmly extreme disaster so as to guarantee smoothness of business, offering multiple securities to important data.
+User’s storage data can be synchronized to an assigned region by data function to realize cross-region disaster recovery of data and calmly deal with extreme disaster so as to guarantee smoothness of business, offering multiple securities to important data.
 
 ![跨区域复制容灾](../../../../image/Object-Storage-Service/OSS-001.jpg)
 

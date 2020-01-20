@@ -9,7 +9,9 @@ Resource pool is a concept of a group of resource collection. With the resource 
 
 ## Preparatory Work
 
-Before creating a resource pool, it is deemed by default that the user has purchased Virtual Machines and other resources.
+If the user plans to create VM resource type, then before creating a resource pool, it is deemed by default that the user has purchased/subscribed Virtual Machines, Virtual Private Cloud and other resources;
+
+If the user plans to create K8S resource type, then before creating a resource pool, it needs to be deemed by default that the user has purchased/subscribed resources related to cloud K8S;
 
 
 ## Operation Steps
@@ -18,11 +20,18 @@ Before creating a resource pool, it is deemed by default that the user has purch
 
 1.	Log in the JD Distributed Service Framework Console. Click **Resource Management** on the left side navigation bar and log in the resource pool management list.
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/rsm-list.png)
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/rsm-list-1.png)
 
 2. 	Click **Create Resource Pool** on the top of the list and log in the creation page. Set information of resource pool and click **OK** to complete creation.
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/rsm-create-pool.png)
+If the user creates Virtual Machines resource, it needs to associate the corresponding Virtual Private Cloud.
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/rsm-create-pool-1.png)
+
+If the user creates K8S resource, it needs to associate the corresponding K8S cluster.
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/rsm-create-pool-k8s.png)
+
 
 3. Resource pool information
 
@@ -30,34 +39,46 @@ In which the available number of Virtual Machines refers to the number of runnin
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/rsm-pool-detail.png)
 
+| Field | Description |
+| :- | :- |
+|  Available Count of Virtual Machines |  Refers to the number of running Virtual Machines. |
+|  Resource Pool Virtual Machines  |  Refer to the total count of Virtual Machines in this resource pool.  |
+|  Ownership Namespace  |  Refers to the namespace attributed in JDSF in this resource pool.  |
+
+
 4. The Virtual Machine information in resource pool
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/rsm-pool-vmlist.png)
-
 
 
 **Note:**
 
 -   The resource pool and the namespace to be served by such resource pool shall be in the same VPC.
 -   Users can create/delete resource pools, import Virtual Machines and remove Virtual Machines in the resource pool.
-
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/rsm-create-1.png)
-
-
+ 
 
 ### Deletion of Resource Pool
 
 1. 	Log in the JD Distributed Service Framework Console. Click **Resource Management** on the left side navigation bar and log in the resource pool list page.
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/rsm-list.png)
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/rsm-list-1.png)
 
 2. 	For resources to be deleted, click **Deletion** on the operation bar.
+
+1) For Virtual Machines type resource:
 
 - Before deleting the resource pool, all Virtual Machines in the resource pool need to be deleted.
 
 - Before deleting the resource pool, you need to disassociate the deployment group that is associated on the Virtual Machines.
 
 - Before deleting the data, the user needs to well complete data backup work on his/her own.
+
+2) For K8S type resource:
+
+- Before deleting, you need to delete the application deployed through the resource pool.
+
+- Deletion is to disassociate K8S with JDSF platform.
+
 
 
 ### Import of Virtual Machines

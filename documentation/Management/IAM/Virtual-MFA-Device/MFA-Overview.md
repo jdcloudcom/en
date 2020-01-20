@@ -3,8 +3,7 @@ MFA (Multi-Factor Authentication) is a simple and effective best security practi
 
 Virtual MFA equipment is a software-based application that generates dynamic verification codes. It follows the Time-Based One-Time Password (TOTP) Standard (RFC 6238), and can install virtual MFA equipment to different mobile equipment, such as smartphones. After MFA is enabled, when a user logs in JD Cloud, the system will require a user name and password and then require a 6-digit dynamic verification code from his or her MFA equipment. Even if someone steals your password, this person will not be able to log in your account. Two-factor security verification will ensure the security of your account to the utmost extent.
 
-# JD Cloud Assistant
-JD Cloud Assistant (WeChat applet) is the unified virtual MFA equipment provided by JD Cloud for the convenience of users. It is recommended that you associate to your user information through this application to generate dynamic verification codes.
+# JD Cloud APP
+JD Cloud APP is the unified virtual MFA device provided by JD Cloud for the convenience of users. It is recommended that you associate to your user information through this application to generate dynamic verification codes.
 
-![京东云助手](../../../../image/IAM/Virtual-MFA-Device/二维码.jpg)
-
+![京东云APP](https://github.com/jdcloudcom/cn/blob/1231_ycx/image/IAM/Virtual-MFA-Device/%E4%BA%AC%E4%B8%9C%E4%BA%91APP.png)

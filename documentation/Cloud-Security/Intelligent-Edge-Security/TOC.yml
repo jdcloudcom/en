@@ -1,0 +1,57 @@
+  name: Intelligent Edge Security
+  href:
+  items:
+  - name: Introduction
+    items:
+    - name: Product Overview
+      herf : Introduction/Product-Overview.md
+    - name : Core Concepts
+      herf: Introduction/Core-Concepts.md
+    - name: Benefits
+      herf: Introduction/Benefits.md
+    - name: Features
+      herf: Introduction/Features.md
+    - name: Application Scenarios 
+      herf: Introduction/Scene.md    
+  - name: Pricing
+    items:
+    - name: Billing Overview
+      herf: Pricing/Billing-Overview.md
+    - name: Price Overview
+      herf: Pricing/Price-Overview.md
+  - name: Getting Started
+    items:
+    - name: Getting Started Overview
+      herf: Getting-Started/Getting-Started.md
+    - name: Create Instance
+      herf: Getting-Started/Create-Instance.md
+    - name: Enable Service
+      herf: Getting-Started/Open-edgesecurity-service.md
+  - name: Operation Guide
+    items:
+    - name: Introduction of Console
+      href: Operation-Guide/Console-introduction.md  
+    - name: Domain Management
+      items:
+        - name: Add Domain
+          herf: Operation-Guide/Domin-Management/Create-Domain.md
+        - name: IAM
+          herf: Operation-Guide/Domin-Management/Access-Control.md
+        - name: Back-to-origin Configuration
+          herf: Operation-Guide/Domin-Management/Back-To-Origin-Configuration.md
+        - name: HTTPS Configuration
+          herf: Operation-Guide/Domin-Management/Set-HTTPS.md
+        - name: Application Layer Protection Configuration
+          herf: Operation-Guide/Domin-Management/Web-Application-Firewall.md
+    - name: Network Layer Protection Configuration
+      items:
+        - name: Network Layer Protection Configuration
+          herf: Operation-Guide/Anti-DDOS/Protection-Configuration.md
+    - name: Security Monitoring
+      items:
+        - name: Application Layer Monitoring
+          herf: Operation-Guide/Security-Monitoring/Web-Analysis.md
+        - name: Network Layer Monitoring
+          herf: Operation-Guide/Security-Monitoring/Net-Analysis.md     
+  - name: Document History Records
+    href: Related-Resources/Document-History.md

@@ -1,0 +1,111 @@
+﻿  name: VPN
+  href:
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        items:
+          - name: Border Gateway
+            href: Introduction/Features/Border-Gateway-Features.md
+          - name: VPC Attachment
+            href: Introduction/Features/VPC-Interface-Features.md
+          - name: Customer Gateway
+            href: Introduction/Features/Customer-Gateway-Features.md
+          - name: VPN connection
+            href: Introduction/Features/VPN-Connection-Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios
+        items:
+          - name: Hybrid Cloud Environment Interconnection
+            href: Introduction/Application-Scenarios/Connection-Into-IDC&Office.md
+          - name: Co-construction of Hybrid Cloud by VPN as Direct Back-up
+            href: Introduction/Application-Scenarios/Connection-With-DirectConnect.md
+          - name: Multi-cloud Environment Interconnection
+            href: Introduction/Application-Scenarios/Multi-Cloud-Interconnect.md
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md
+  - name: Getting Started
+    items:
+       - name: Connect to Local Data Center
+         href: Getting-Started/Connection-Into-On-Premise.md
+  - name: Operation Guide
+    items:
+       - name: Border Gateway Management
+         items:
+          - name: Border Gateway Configuration
+            href: Operation-Guide/Border-Gateway-Management/Border-Gateway-Configuration.md
+          - name: VPC Attachment Configuration
+            href: Operation-Guide/Border-Gateway-Management/VPC-Attachment-Configuration.md
+       - name: Customer Gateway Management
+         items:
+          - name: Customer Gateway Configuration
+            href: Operation-Guide/Customer-Gateway-Management/Customer-Gateway-Configuration.md
+       - name: VPN Connection Management
+         items:
+          - name: VPN Connection Configuration
+            href: Operation-Guide/VPN-Connection-Management/VPN-Connection-Configuration.md
+          - name: VPN Tunnel Configuration
+            href: Operation-Guide/VPN-Connection-Management/VPN-Tunnel-Configuration.md
+       - name: Client Management
+         items:
+          - name: Cisco Client Configuration
+            href: Operation-Guide/Client-Site-Configuration/Cisco-Configuration.md
+          - name: Huawei Client Configuration
+            href: Operation-Guide/Client-Site-Configuration/Huawei-Configuration.md
+          - name: strongSwan Client Configuration
+            href: Operation-Guide/Client-Site-Configuration/StrongSwan-Configuration.md
+       - name: Route Management
+         items:
+          - name: Border Gateway Route Management
+            href: Operation-Guide/Route-Management/Border-Gateway-Route-Configuration.md
+          - name: VPC Route Management
+            href: Operation-Guide/Route-Management/VPC-Route-Configuration.md
+  - name: Best Practices
+    items:
+       - name: VPN High Availability
+         href: Best-Practices/VPN-High-Available.md
+       - name: Direct VPN Hybrid Cloud Solution
+         href: Best-Practices/Connection-With-DirectConnect.md
+       - name: VPN Connects to Amazon AWS
+         href: Best-Practices/Connection-Into-Amazon.md
+  - name: Troubleshooting
+    items:
+    status: 0
+  - name: FAQ
+    href: FAQ/FAQ.md
+  - name: API Reference
+    href:
+    status: 0
+  - name: SDK Reference
+    href:
+    status: 0
+  - name: User Agreements
+    status: 0
+    items:
+    - name: Service Terms
+      href:
+      status: 0
+  - name: Related Resources
+    status: 0
+    items:
+    - name: Document History Records
+      href:
+      status: 0
+

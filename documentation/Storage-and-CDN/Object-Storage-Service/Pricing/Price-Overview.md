@@ -22,42 +22,42 @@ The billing cycle of Object Storage Service is based on day, which settles the b
  </tr>
  <tr>
   <td rowspan="6">Access Traffic</td>
-  <td>Intranet Input Traffic</td>
+  <td>Uplink Traffic of Intranet</td>
   <td>Free</td>
   <td>Free</td>
   <td>Free</td>
   <td>Free</td>
  </tr>
  <tr>
-  <td>Intranet Output Traffic</td>
+  <td>Downlink Traffic of Intranet</td>
   <td>Free</td>
   <td>Free</td>
   <td>Free</td>
   <td>Free</td>
  </tr>
  <tr>
-  <td>Internet Input Traffic</td>
+  <td>Uplink Traffic of Internet</td>
   <td>Free</td>
   <td>Free</td>
   <td>Free</td>
   <td>Free</td>
  </tr>
  <tr>
-  <td>Internet Output Traffic</td>
+  <td>Downlink Traffic of Internet</td>
   <td>RMB 0.50/GB</td>
   <td>RMB 0.50/GB</td>
   <td>RMB 0.50/GB</td>
   <td>RMB 0.50/GB</td>
  </tr>
  <tr>
-  <td>CDN Back-to-origin Output Traffic</td>
+  <td>CDN Back-to-origin Downlink Traffic</td>
   <td>RMB 0.14/GB</td>
   <td>RMB 0.14/GB</td>
   <td>RMB 0.14/GB</td>
   <td>RMB 0.14/GB</td>
  </tr>
  <tr>
-  <td>Cross-region Replication Traffic</td>
+  <td>Data Synchronization Traffic</td>
   <td>Temporarily Free</td>
   <td>Temporarily Free</td>
   <td>Temporarily Free</td>

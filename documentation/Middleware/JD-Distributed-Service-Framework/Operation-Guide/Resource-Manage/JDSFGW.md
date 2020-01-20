@@ -27,15 +27,10 @@ JD Distributed Service gateway of JD Cloud helps users to call external JD Distr
 
 JD Distributed Service gateway service can serve as the backend service for API group of API gateway; when the API group is released in the deployment environment, users can call JD Distributed Service gateway through API Gateway and further call JD Distributed Service application instances in VPC. The JD Distributed Service gateway completes service discovery and Load Balancer (random mode).
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/st-wffwg.png)
-
-
 - VPC agent mode:
 
 The JD Distributed Service gateway can serve as the VPC agent, directly exposing any service which is deployed through the ip+ port in vpc to the public network via an API gateway, without direct exposure by Public IP and public network. For specific calling method, please refer to the example: [Use APIs in Open VPC of API Gateway](../../Getting-Started/GW_VPC.md)  
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/st-vpc.png)
- 
  
 ## Relationships Between Concepts
 

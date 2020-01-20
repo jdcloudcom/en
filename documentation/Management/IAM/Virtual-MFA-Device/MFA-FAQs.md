@@ -16,6 +16,6 @@ Please contact your primary account to help you associate again after disassocia
 
 ## Authorization failure is displayed when the primary account and sub-user perform virtual MFA code scanning login verification
 
-- First, please confirm whether or not the dynamic verification code is associated on JD Cloud's Mini Programs. If the dynamic verification code disappears, please follow *** If the primary account is associated to MFA and the mobile phone is lost, the virtual MFA verification program is uninstalled or deleted, then how to log in the account? *** for disposal.
-- If JD Cloud’s Mini Programs have the MFA dynamic verification code associated by corresponding account, when it displays "Authorization Failure" in code scanning login verification, please try the following ways to solve.
+- First, please confirm whether or not the dynamic verification code is associated on JD Cloud's APP. If the dynamic verification code disappears, please follow ***If the primary account is associated to MFA and the mobile phone is lost, the virtual MFA verification program is uninstalled or deleted, then how to log in the account?*** for disposal.
+- If JD Cloud’s APP have the MFA dynamic verification code associated by corresponding account, when it displays "Authorization Failure" in code scanning login verification, please try the following ways to solve.
   - Synchronize the mobile phone time with the network time; setting method: Select date and time management function on mobile phone, choose "Set date, time and time zone automatically", or "automatically determine date and time, use time provided by network".

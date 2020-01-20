@@ -70,8 +70,8 @@ Details:
 
 3. Click **OK** to complete the settings.
 
-## Default Encryption Used in Cross-region Replication
-After enabling default encryption for cross-region replication target bucket, the following encryption behaviors will be applied:
+## Default Encryption Used for Data Synchronization
+After enabling default encryption for data synchronization target bucket, the following encryption behaviors will be applied:
 
 If the target bucket you set has enabled the default encryption, then no matter the objects in the source bucket are encrypted or not, OSS will encrypt the replication objects in the target bucket.
 

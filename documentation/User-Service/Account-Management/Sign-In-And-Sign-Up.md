@@ -29,28 +29,33 @@ After filling in, JD Cloud will send a verification Email to your mailbox. Pleas
 
 ## Login Accounts
 
-### 1. JD Cloud Login
-JD Cloud supports login via the account name and password. For some users, if their mobile phone numbers or emails are unique for the accounts associated with JD Cloud, they can log in JD Cloud via the mobile phone number or email and the password.
+### 1. Login via Scanning Code
+You are recommended to use [JD Cloud App](https://console.jdcloud.com/download) to log in via scanning code. Search "JD Cloud" at major application shops to download and use. After scanning the code, confirm the login in the mobile phone, and you can log in on computer synchronously.
 
-![](../../../image/User/Account-Mgmt/log1-1030.PNG)
+![](../../../image/User/Account-Mgmt/log1-1231.png)
 
-The account registered before July 18, 2019 is a JD account. If this account is not upgraded, please access JD Cloud via "JD Login".
+### 2. Login via Password
+You can enter account name and password to log in.
 
-![](../../../image/User/Account-Mgmt/login2-1030.png)
+![](../../../image/User/Account-Mgmt/log2-1231.PNG)
 
-If you use your mobile phone number or email for login and a notification "this mobile phone number/email cannot log in", it means that the entered mobile phone number/email has been associated with several accounts in JD Cloud or the associated account does not support login via mobile phone number/email. In such case, please try to log in via your account name and password. If you confirm that this mobile phone number/email has been used for logging in JD Cloud successfully, your account might be the original JD account. Please try to access via "JD Login".
+Some users can also log in via the mobile phone number or email and the password, subject to the case that your mobile phone numbers or emails are associated with the unique account in JD Cloud.
+* If you receive a notification saying that "this mobile phone number/email cannot be used for login", it means that your account does not support login with mobile phone number or email. In such case, please try to enter your account name;
+* If you confirm that this mobile phone number or email has been used for login to JD Cloud successfully, you might be the early users of JD Cloud. Please try to access via "Login via JD" at the bottom of the page.
 
-![](../../../image/User/Account-Mgmt/login3-1030.png)
+![](../../../image/User/Account-Mgmt/log3-1231.png)
 
-### 2. Login through JD
-If you have enabled JD Cloud service before July 18, 2019 and have not upgraded your account, you can access JD Cloud via "JD Login".
+### 3. Login via JD
+For users who subscribe Cloud Service directly by using the JD account, please access via "Login via JD". When you are not sure whether you shall turn to "Login via JD", please operate following the page instructions.
+
+![](../../../image/User/Account-Mgmt/log1.2-1231.PNG)
+
+![](../../../image/User/Account-Mgmt/log4-1231.png)
 
 ![](../../../image/User/Account-Mgmt/log4.png)
 
-JD login rules are as the same as those of JD Mall. If you have any problems in the JD login process, please refer to [Introduction to New JD Cloud Account](https://docs.jdcloud.com/cn/account-management/what-is-jdcloud-account) or contact the customer service (400-615-1212) for account upgrade. After upgrade, you can log in directly with a JD Cloud account.
-
-### 3. Login via WeChat
-You can also login to JD Cloud via WeChat account. If you selects to login via WeChat for PC, you need to scan the WeChat login QR code with your WeChat for mobile phone, and then agree on JD Cloud's use of WeChat login in the WeChat for mobile phone. JD Cloud will access your WeChat nickname for display on the page.
+### 4. Login via WeChat
+You can also login to JD Cloud via WeChat account. Scan the WeChat login QR code with your WeChat for mobile phone, and then agree on JD Cloud's use of WeChat login in the WeChat for mobile phone. JD Cloud will access your WeChat nickname for display on the page.
 
 ![](../../../image/User/Account-Mgmt/wechat-login1.PNG)
 
@@ -66,7 +71,7 @@ If you are a new user, the system will automatically create an account for you. 
 
 ![](../../../image/User/Account-Mgmt/wechat-login6.PNG)
 
-Under special circumstances, you will not be able to use the WeChat login because your JD Cloud account has been associated with another WeChat account or your account is a JD account, in which case, you can only login via JD; then please return to the login page and select **JD Login** — Only when the account is upgraded (view [JD Account Management](https://docs.jdcloud.com/cn/account-management/manage-jd-account) - for upgrading JD account to JD Cloud account), you can associate with the WeChat account and use WeChat login.
+Under special circumstances, you will not be able to use the WeChat login because your JD Cloud account has been associated with another WeChat account or your account is a JD account, in which case, you can only login via JD; then please return to the login page and select **JD Login** — Only when the account is upgraded (view [JD Account Management](https://docs.jdcloud.com/en/account-management/manage-jd-account) - for upgrading JD account to JD Cloud account), you can associate with the WeChat account and use WeChat login.
 
 ![](../../../image/User/Account-Mgmt/wechat-login4.png)
 

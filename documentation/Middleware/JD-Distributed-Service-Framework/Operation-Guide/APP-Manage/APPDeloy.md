@@ -16,25 +16,27 @@ When an application is created, if users need to deploy applications by way of V
 
 ## Operation Steps
 
-### Step 1: Create application
+### Step 1: Create a namespace and a VM resource pool in JDSF
 
 After logging in the JD Distributed Service Framework Console, the following contents can be successively created by reference.
 
-1. Create a namespace. Process reference: [Namespace](../Namespace.md).
+1. Create a namespace in JDSF. Process reference: [Namespace](../Namespace.md).
 
 2. Create Resource Pool. Import Virtual Machine to resource pool for application deployment. Process reference: [Create Resource Pool and Import of Virtual Machine](../Resource-Manage/Resource-List.md).
 
-3. Then in the page of creating applications, select the creation of VM applications. Note: Java running environment currently supports JDK1.7, OpenJDK1.8 and OpenJDK11.
+
+### Step 2: Create application
+
+In the page of creating applications, select the creation of VM applications. Note: Java running environment currently supports JDK1.7, OpenJDK1.8 and OpenJDK11.
 
 **For example:**
 
 You can create an application named as jdsf-demo-producer, and select JAR package deployment, standard Java application running environment, OpenJDK1.8.
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/yybs-cjyy.png)
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/yybs-cjyy-1.png)
 
 
-
-### Step 2: Deployment group creation
+### Step 3: Deployment group creation
 
 Click an application name, enter the deployment group list page, configure the deployment group information to be executed.
 
@@ -72,7 +74,7 @@ Complete the association of the Virtual Machines.
 
 
 
-### Step 3: Configure the relevant information on deployment initiation
+### Step 4: Configure the relevant information on deployment initiation
 
 Currently, two deployment sources are supported: Program Package and CodeBuild. They are respectively introduced as follows:
  
@@ -110,7 +112,7 @@ Note:
 
 
 
-### Step 4: Implement deployment
+### Step 5: Implement deployment
 
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/bsz-xq.png)
@@ -125,7 +127,7 @@ Note:
 
 
 
-### Step 5: Verification and deployment.
+### Step 6: Verification and deployment.
 
 The following methods can be adopted to verify whether the deployed application has been normally enabled:
 

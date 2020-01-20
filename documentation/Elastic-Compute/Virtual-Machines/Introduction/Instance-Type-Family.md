@@ -44,7 +44,7 @@ Instance Type|vCPU (core)|Memory (GB)
 
 * vCPU to memory ratio is 1:4 (except for g.n1.xlarge_m specification)
 * Processor:
-	* Generation III: Intel Xeon with 2.6 GHz dominant frequency  Gold 6267 (Cascade Lake) Processor  
+	* Generation III: Intel Xeon with 2.6 GHz dominant frequency Gold 6267 (Cascade Lake) Processor  
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * The following Cloud Disk Service types are supported:
@@ -87,6 +87,9 @@ Instance Type|vCPU (core)|Memory (GB)|Network Interface Multi-Queue
 |g.n2.8xlarge|32|128|4
 |g.n2.16xlarge|64|256|4
 |g.n2.18xlarge|72|288|4
+|g.n2.metal|80|384|60
+
+**For more details on Bare Metal Virtual Machines g.n2.metal, please refer to [Overview of Bare Metal Virtual Machines](../Operation-Guide/Instance/Bare-Metal/Bare-Metal-Overview.md)
 
 First generation
 
@@ -113,7 +116,7 @@ Compute Optimized Type currently offer Compute-Optimized Standard that provide y
 
 * vCPU to Memory Ratio is 1:2 (except for c.n1.xlarge_m, c.n1.2xlarge_s, c.n1.2xlarge_m and c.n1.4xlarge_m specifications)
 * Processor:
-	* Generation III: Intel Xeon with 2.6 GHz dominant frequency  Gold 6267 (Cascade Lake) Processor
+	* Generation III: Intel Xeon with 2.6 GHz dominant frequency Gold 6267 (Cascade Lake) Processor
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * The following Cloud Disk Service types are supported:
@@ -183,7 +186,7 @@ Memory-Optimized Standard currently offer a Memory-Optimized Standard Type for a
 
 * vCPU to Memory Ratio is 1:8
 * Processor:
-	* Generation III: Intel Xeon with 2.6 GHz dominant frequency  Gold 6267 (Cascade Lake) Processor 
+	* Generation III: Intel Xeon with 2.6 GHz dominant frequency Gold 6267 (Cascade Lake) Processor 
 	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * The following Cloud Disk Service types are supported:

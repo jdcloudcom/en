@@ -1,0 +1,95 @@
+  name: Notification Service
+  href: 
+  items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Basic Architecture
+        href: Introduction/Basic-Infrastructure.md
+        status: 0
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios 
+        href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Process.md 
+  - name: Getting Started
+    items:
+      - name: Instructions for Use
+        href: Getting-Started/Getting-Started.md
+      - name: Create Resource
+        href: Getting-Started/Create-Resource.md
+      - name: Message Release and Message Push
+        href: Getting-Started/Publish-And-Notify-Message.md
+  - name: Operation Guide
+    items:
+      - name: Topic Management
+        items:
+          - name: Create Topic
+            href: Operation-Guide/Topic-Management/Create-Topic.md
+          - name: Management Topic
+            href: Operation-Guide/Topic-Management/Manage-Topic.md
+      - name: Subscription management
+        items:
+          - name: Subscription Filtering Policy
+            href: Operation-Guide/Subscription-Management/Filtering-Policies.md
+      - name: Message Management
+        items:
+          - name: Message Transmission Retry Policy
+            href: Operation-Guide/Message-Management/Reties-Policies.md     
+      - name: Monitoring Alarm
+        items:
+          - name: View Monitoring Information
+            href: Operation-Guide/Monitoring/Monitoring.md
+            status: 0
+          - name: Set Alarm Rules
+            href: Operation-Guide/Monitoring/Alarm-Rules.md
+            status: 0
+      - name: Authorization Management
+        items:
+          - name: Permission Control Overview
+            href: Operation-Guide/Authorization-Management/Authorization-Overview.md
+            status: 0
+          - name: Authorization to IAM Sub-users by Primary Account
+            href: Operation-Guide/Authorization-Management/Main-Sub-Authorization.md
+            status: 0
+          - name: Cross-primary Account Authorization
+            href: Operation-Guide/Authorization-Management/Main-Main-Authorization.md
+            status: 0
+  - name: SDK Reference
+    items:
+      - name: SDK Overview
+        href: SDK-Rerference/SDK-Overview.md         
+  - name: Tutorial
+    items:
+    status: 0
+  - name: Troubleshooting
+    items:
+    status: 0     
+  - name: FAQ
+    items:
+      - name: FAQ
+        href: FAQ/FAQ.md
+  - name: Related Resources
+    items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md
+    - name: Service Terms
+      href: Related-Resources/Related-Agreement.md
+      status: 0
+

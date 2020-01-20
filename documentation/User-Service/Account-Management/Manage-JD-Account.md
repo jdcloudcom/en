@@ -7,7 +7,7 @@ This document will introduce how to manage an un-upgraded JD account and how to 
 
 Since the account system of JD Cloud conducts overall upgrade, the cloud account independent from JD personal business can be used from July 18, 2019 and any other accounts registered prior to that day are attributed to the account system of JD Mall. If you see the following page when you access "[Account Management-Basic Data](https://uc.jdcloud.com/account/basic-info)", it means that your account is attributed to the un-upgraded JD account:
 
-![](../../../image/User/Account-Mgmt/jdInfo1.PNG)
+![](../../../image/User/Account-Mgmt/jdInfo1-copy.PNG)
 
 **What's a JD Cloud account**
 
@@ -23,10 +23,6 @@ Account upgrade means the process in which a JD account is upgraded to an indepe
 * Cannot log in with WeChat
 
 If you need to use these functions, please upgrade your account. The account upgrade portal is on the page "[Account Management-Basic Data](https://uc.jdcloud.com/account/basic-info)".
-
-![](../../../image/User/Account-Mgmt/uc-upgrade0.PNG)
-![](../../../image/User/Account-Mgmt/uc-upgrade1.PNG)
-
 The account name and password set in the upgrade process are irrelevant with the user name and password of the original JD account, but their underlayer is corresponding to the same one account entity, so all of your JD Cloud services and cloud resources will not be affected after the upgrade. The relation between JD Cloud account and JD account after upgrade is shown in the figure as below:
 
 ![](../../../image/User/Account-Mgmt/relationship.png)
@@ -36,7 +32,9 @@ The account name and password set in the upgrade process are irrelevant with the
 
 In JD Cloud, you can use the JD account to enable business. When using a JD account to log in, please select **JD Login** below the login page.
 
-![](../../../image/User/Account-Mgmt/login2-1030.png)
+![](../../../image/User/Account-Mgmt/log1.2-1231.PNG)
+
+![](../../../image/User/Account-Mgmt/log4-1231.png)
 
 ![](../../../image/User/Account-Mgmt/log4.png)
 

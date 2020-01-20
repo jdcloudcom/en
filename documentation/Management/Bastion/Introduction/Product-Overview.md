@@ -1,0 +1,2 @@
+# Overview
+Bastion is an operation and maintenance platform provided by JD Cloud, with capacities such as permission control, security audit and automatic operation and maintenance, aiming to help enterprises set up a unified, efficient and safe operation and maintenance channel at the cloud, guarantee that the cloud operation and maintenance work conforms to laws and regulations, reduce man-made security risks, improve operation and maintenance efficiency and assist development of enterprise’s core business.

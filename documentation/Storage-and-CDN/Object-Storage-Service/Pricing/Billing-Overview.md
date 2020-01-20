@@ -8,7 +8,7 @@ Storage capacity: means data usage of bucket, standard storage type files are bi
 
 Data retrieval amount: For archival storage type, the billing is based on the size of the read file and the retrieval mode; for infrequent access storage, the billing is based on the size of the read file; without differentiating Intranet and Internet;
 
-Access traffic: refers to the accumulative value of network traffic consumed, including output traffic of Internet, output traffic of Intranet, input traffic of Internet, input traffic of Intranet, CDN back-to-source output traffic and cross-region replication traffic;
+Access traffic: refers to the accumulative value of network traffic consumed, including downlink traffic of Internet, downlink traffic of Intranet, uplink traffic of Internet, uplink traffic of Intranet, CDN back-to-origin downlink traffic and data synchronization traffic;
 
 Request time: request time for calling Object Storage Service API. User console actions also are implemented by calling API, so when using console to operate on Object Storage Service, number of requests will be generated as well.
 

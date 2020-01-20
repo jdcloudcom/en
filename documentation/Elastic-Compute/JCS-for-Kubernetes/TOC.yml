@@ -87,18 +87,26 @@
             href: Best-Practices/Deploy-Applications/Deploy-Deployment.md
          -  name: Deployment Service
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
+         -  name: Deploy Service (New Version)
+            href: Best-Practices/Deploy-Applications/Deploy-Service-New.md
      - name: Use Cloud Disk as Volume
        items:
         -  name: Deploy StorageClass
            href: Best-Practices/Volumes/Cloud-Disk-Service/Deploy-StorageClass.md
+        -  name: Deploy CSI StorageClass
+           href: Best-Practices/Volumes/Cloud-Disk-Service/Deploy-StorageClass-New.md
         -  name: Deploy Persistent Storage
            href: Best-Practices/Volumes/Cloud-Disk-Service/Deploy-PV.md
+        -  name: Deploy CSI Persistent Volume
+           href: Best-Practices/Volumes/Cloud-Disk-Service/Deploy-PV-New.md
      -  name: Use CFS Cloud File Service as Volume
         items:
          -  name: Define Volume of nfs type
             href: Best-Practices/Volumes/Cloud-File-Service/CFS-Volume.md
          -  name: Use JD Cloud File Service through methods of static PV
             href: Best-Practices/Volumes/Cloud-File-Service/CFS-PVC.md
+         -  name: Use JD Cloud File Service through methods of CSI plug-in and static PV
+            href: Best-Practices/Volumes/Cloud-File-Service/CFS-CSI.md
          -  name: Deploy nfs-client-provisioner
             href: Best-Practices/Volumes/Cloud-File-Service/nfs-client-provisioner.md
          -  name: Dynamically create PV by using nfs-client-provisioner

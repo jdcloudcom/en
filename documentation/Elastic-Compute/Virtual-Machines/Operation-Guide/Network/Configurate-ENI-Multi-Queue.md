@@ -10,7 +10,7 @@ Currently, different images have different support for network interface multi-q
 #### Public Image:
 
 * CentOS 6.6/6.8/6.9/7.1/7.2/7.2 NAT Gateway/7.3/7.4/7.6 is supported, but 6.5 is not supported;
-* Ubuntu 14.04/16.04 is supported;
+* Ubuntu 14.04/16.04/18.04 is supported;
 * Windows Server is not support yet.
 
 #### Private Image:
@@ -27,6 +27,7 @@ Shared image is actually shared with other users' private image for use, and the
 Is not supported yet.
 
 ### Different Instance Types Support Multi-Queue
+
 For the current status of various instance types for network interface multi-queues' support, see [Instance Type](../../Introduction/Instance-Type-Family.md).
 
 ## Operation Steps
@@ -68,8 +69,6 @@ Here, CentOS 6.9 is taken as an example to introduce the configuration steps.
 	`systemctl start irqbalance `
 	
 	
-
-
 
 
 ## Related Reference

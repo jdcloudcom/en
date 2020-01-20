@@ -1,5 +1,5 @@
 
-# Deploying StorageClass
+# Deploying StorageClass (Adapt to Kubernetes 1.12 version)
 
 StorageClass provides a way for JCS for Kubernetes to describe storage classes, including fields such as provisioner, parameters, and reclaimPolicy, which are used when class needs to dynamically allocate persistent storage.  
 JD Cloud provides customized volume plug-in [kubernetes.io/jdcloud-ebs](https://kubernetes.io/docs/concepts/storage/storage-classes/) for JCS for Kubernetes, defines provisioner as JD Cloud customized volume plug-in, and provides persistent storage for JCS for Kubernetes with JD Cloud cloud disk. At present, in the JCS for Kubernetes service, we provide three kinds of storageclass.

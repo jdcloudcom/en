@@ -61,3 +61,5 @@
     items:
           - name: Build images and store them to Repository
             href: Best-Practices/Build-Image-Container.md
+          - name: Use JD Cloud artifact repository in maven engineering
+            href: Best-Practices/Build-Maven-Private.md

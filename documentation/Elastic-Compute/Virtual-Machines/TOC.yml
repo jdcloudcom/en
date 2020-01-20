@@ -95,6 +95,12 @@ items:
             href: Operation-Guide/Instance/Delete-Instance.md
           - name: GPU VM
             href: Operation-Guide/Instance/GPU-VM.md
+          - name: Bare Metal Virtual Machines
+            items: 
+              - name: Overview of Bare Metal Virtual Machines
+                href:  Operation-Guide/Instance/Bare-Metal/Bare-Metal-Overview.md
+              - name: Create Bare Metal Virtual Machines
+                href:  Operation-Guide/Instance/Bare-Metal/Create-BM-Instance.md
           - name: Customized Data
             href: Operation-Guide/Instance/Userdata.md
       - name: Instance Template

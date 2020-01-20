@@ -30,6 +30,7 @@ The following engines and versions are supported by RDS
     - 2017: Enterprise Version
 
 - PostgreSQL
+    - 9.6
     - 10.6
     - 11.2
 ## List of Supported Regions and Availability Zones

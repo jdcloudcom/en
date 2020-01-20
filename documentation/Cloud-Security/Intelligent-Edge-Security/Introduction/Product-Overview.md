@@ -1,0 +1,4 @@
+# Product Overview
+
+Intelligent Edge Security is a protection function which deeply integrates Anti-DDoS, WAF and CC Attack, providing the value-added service of security protection capability upgrading edge acceleration network in an overall manner. When requests of users arrive at the edge network, attack behavior can be pre-determined in an intelligent way. With the intelligent scheduling system, DDoS malicious requests can be smooth switched to Anti-DDoS Pro IP for completion of cleaning. The WAF cluster will make website security and protection detection and block malicious requests from arriving at the customer’s origin server, but the actual user request can obtain resources from the acceleration node normally, achieving the target of taking both acceleration and security into account.
+

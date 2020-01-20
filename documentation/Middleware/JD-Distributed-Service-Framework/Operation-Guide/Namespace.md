@@ -61,6 +61,8 @@ Currently, you can modify the name and description of the namespace.
 
 1. Before deleting a namespace, please clear all applications under such namespace, otherwise, it cannot be deleted.
 
-2. Before deleting the data, a user needs to well complete data backup work on his/her own.
+2. It requires **Registration Center Name to be Unique** in the JDSF platform. Therefore, if a new namespace is to be created after a namespace is deleted, it needs to ensure **Registration Center Name to be Unique**, and it cannot be repeated with the name of the registration center created ever before.
+
+3. Before deleting the data, a user needs to well complete data backup work on his/her own.
 
 

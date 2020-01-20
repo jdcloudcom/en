@@ -25,7 +25,7 @@ Application refers to a group of collections with specific functions. When devel
 3.	 Set basic information, click **OK** and complete creation.
 
 
-![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-create-11.png)
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-create-12.png)
 
 
 ### Delete Application
@@ -60,7 +60,7 @@ For details, please refer to: [Deployment Application in Virtual Machines](APPDe
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/app-flow-k8s.png)
 
-
+For details, please refer to: [Deploy Application in K8S Container](APPDeloyK8S.md)  
  
 
 **Description:**

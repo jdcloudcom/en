@@ -1,0 +1,82 @@
+name: Bastion
+href:
+items:
+  - name: Introduction
+    items:
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+  - name: Pricing
+    items:
+      - name: Billing Overview
+        href: Pricing/Billing-Overview.md
+      - name: Billing Rules
+        href: Pricing/Billing-Rules.md
+  - name: Getting Started
+    items:
+      - name: Overview
+        href: Getting-started/Getting-Started.md
+      - name: Log in Bastion Instance
+        href: Getting-started/Login-Bastion.md
+      - name: Import JD Cloud Virtual Machines
+        href: Getting-started/Import-ECS.md
+      - name: Import JD Cloud IAM Sub-user
+        href: Getting-started/Import-IAM.md
+      - name: Create Operation and Maintenance Rules and Apply Authorization
+        href: Getting-started/Create-Rules.md
+      - name: Machine Operation and Maintenance
+        href: Getting-started/Login-Instance.md
+        
+  - name: Operation Guide
+    items:
+      - name: Administrator Manual
+        items:
+          - name: Log in Bastion Instance
+            href: Operation-Guide/Administrator/Login-Bastion.md
+          - name: User
+            items:
+               - name: User Management
+                 href: Operation-Guide/Administrator/Users/Users.md
+               - name: User Group Management
+                 href: Operation-Guide/Administrator/Users/Users-Group.md
+               - name: Import JD Cloud IAM Sub-user
+                 href: Operation-Guide/Administrator/Users/Create-IAM.md
+          - name: Asset
+            items:
+                - name: Machine Management
+                  href: Operation-Guide/Administrator/Assets/Assets.md
+                - name: Machine Group Management
+                  href: Operation-Guide/Administrator/Assets/Assets-Group.md
+                - name: Account Management
+                  href: Operation-Guide/Administrator/Assets/Account.md
+          - name: Permission
+            items:
+                - name: Rule Management
+                  href: Operation-Guide/Administrator/Authorization/Rules.md
+                - name: Authorization Management
+                  href: Operation-Guide/Administrator/Authorization/Permission.md
+          - name: Audit
+            items:
+                - name: Real Time Audit
+                  href: Operation-Guide/Administrator/Audit/Real-Time-Session.md
+                - name: Session Audit
+                  href: Operation-Guide/Administrator/Audit/Session-Audit.md
+                - name: Audit Trail
+                  href: Operation-Guide/Administrator/Audit/Operational-Audit.md
+
+                    
+      - name: Operation and Maintenance Manual
+        items:
+          - name: WEB Browser Operation and Maintenance
+            href: Operation-Guide/Operation/Web.md
+          - name: SSH Protocol Operation and Maintenance
+            href: Operation-Guide/Operation/SSH.md
+          - name: MAC System Operation and Maintenance
+            href: Operation-Guide/Operation/Mac.md

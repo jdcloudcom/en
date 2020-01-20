@@ -62,6 +62,35 @@ The test interface is as follows:
 
 ![scrpit](../../../../../image/IoT/IoT-Engine/Add-Action.png)
 
+### Note:
+
+The data reported by the device will be enhanced after being forwarded by the rule engine, and information such as device name, device identifier and device product will be added. Examples are as follows:
+
+ The data format in which a device called test-device reports under the product iottest:
+
+```
+{
+ "msgId": "123",
+ "version": "1.0",
+ "data": {
+ "message": "Hello World"
+ },
+ "ts": 1559805611390
+}
+```
+
+The format in which rule engine forwards out:
+
+```
+{
+  "identifier":"kKvX***kvx",
+  "message":"Hello World",
+  "productKey":"REwf***gdne",
+  "deviceName":"test-device",
+  "ts":"1577181657114"
+} 
+```
+
 ### 2.2.1 Forward to another Topic
 
 - Select the required product and device and enter the customized topic name. If there is no optional product, please create a product in the product page and then add a device for the product on the device page. If there is no optional device, please add a device for the product on the device page.

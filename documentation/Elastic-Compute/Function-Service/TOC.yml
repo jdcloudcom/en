@@ -111,9 +111,9 @@ items:
              href: Operation-Guide/use-cases/wsgi.md
   
   - name: Developer Tools
-    items:
-      - name: SCA CLI
-        href: Developer-tools/SCA/sca-overview.md 
+    items:                           
+      - name: SCA CLI                           
+        href: Developer-tools/SCA/sca-overview.md                                  
   
   - name: FAQ
     href: FAQ.md  
@@ -136,4 +136,4 @@ items:
   - name: Related Resources
     status: 0
     items:
-
+    

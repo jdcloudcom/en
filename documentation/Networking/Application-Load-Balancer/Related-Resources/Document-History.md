@@ -5,6 +5,7 @@ This document will introduce the important update history of the Application App
 
 |Release Date|Character|Description|
 |-|-|-|
+|January 2020|Modify Billing Type|Application Load Balancer billing method will be changed from Pay By Configuration to Pay By Consumption, while it is for free temporarily|
 |December 2019|Connection of Cloud Security - SSL Certificate|SSL Certificate used by Application Load Balancer is migrated to Cloud Security - SSL Certificate, and Application Load Balancer - Certificate Modules will no longer provide SSL Certificate Management function but be managed by Cloud Security - SSL Certificate|
 |August 2019|Support forwarding rules group|Support forwarding the traffic to different backend servers for processing based on machine names and paths requested by URL|
 |July 2019|Seven-layer access log|Application Load Balancer supports the collection of seven-layer access log through the log service.|
