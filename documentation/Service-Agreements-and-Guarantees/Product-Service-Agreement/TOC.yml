@@ -58,8 +58,10 @@ items:
     href: Cloud-Host-Security-Service-Clause.md
   - name: Cloud Disk Service Agreement
     href: Cloud-Hard-Disk-Service-Clause.md
-  - name: Public IP Service Agreement
+  - name: Service Agreement on Elastic IP
     href: Public-Network-IP-Service-Clause.md
+  - name: Service Level Agreement (SLA) of Elastic IP
+    href: Elastic-IP-Level-Agreement-SLA.md   
   - name: Anti-DDoS Pro Service Agreement
     href: IP-High-Protection-Clause.md
   - name: Anti-DDoS Pro Service Level Agreement (SLA)
@@ -110,6 +112,8 @@ items:
     href: Message-Queue-JCQ-Service-Terms.md
   - name: Message Queue Service Level Agreement (SLA)
     href: Message-Queuing-JCQ-Service-Level-Protocol-SLA.md
+  - name: Service Terms of Message Queue Kafka
+    href: Jcs-For-Kafka-Terms-Of-Service.md
   - name: Distributed Relational Database DRDS Trial Service Agreement
     href: Distributed-Relational-Database-DRDS-Trial-Service-Clause.md
   - name: Distributed Relational Database DRDS Service Agreement
@@ -182,6 +186,8 @@ items:
     href: Voucher-Terms-Of-Service.md
   - name: JD Cloud Recommendation Rebate Agreement
     href: Recommended-Rebate-User-Agreement.md
+  - name: Power of Attorney
+    href: Power-Of-Attorney.md
   - name: MINECRAFT Education Edition - Demo Edition Service Agreement
     href: MEE-Demo-Service-Terms-Of-Service.md
   - name: Cloud Cabinet Co-location Service Terms
@@ -198,4 +204,5 @@ items:
     href: Mesh-Service-Terms-Of-Service.md
   - name: Service Terms of Intelligent Edge Security
     href: Intelligent-Edge-Security-Terms-Of-Service.md   
-    
+  - name: Bastion Service Terms
+    href: Bastion-Terms-Of-Service.md  

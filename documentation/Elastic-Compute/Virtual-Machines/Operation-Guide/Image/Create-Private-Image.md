@@ -44,3 +44,4 @@ You can create a private image from an instance created as required, and use thi
   [5]: ./images/Operation-Guide-Image-create3.png "Operation-Guide-Image-create3.png"
 
   [6]: ./images/Operation-Guide-Image-create4.png "Operation-Guide-Image-create4.png"
+

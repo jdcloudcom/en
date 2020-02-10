@@ -30,9 +30,15 @@ kind: StorageClass
 metadata:
   name: auto-cfs-storage
 provisioner: Definitions in jdcloud-cfs        #nfs-client-provisioner deployment env must be kept consistent with PROVISIONER_NAME
+mountOptions:
+  - vers=4
+  - noresvport
 parameters:
+  mountOptions: "vers=4,noresvport"
   archiveOnDelete: "When false"          #archiveOnDelete is defined as false, please delete the directory corresponding to NFS Server but is kept if it is defined as true;
 ```
+
+Remark: CFS currently does not support flock. If the application needs flock support, please open ticket for separate enabling
 
 * Create Storage Class by using Yaml files:
 

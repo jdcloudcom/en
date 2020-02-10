@@ -4,7 +4,7 @@
 
 - For Direct Connection requirements for Device of the client side, see Product Overview.
 - The Direct Connection Service only supports border gateways that are connected to the same region, that is, the physical connection and the border gateway belong to the same area.
-- Before using the Direct Connect, you shall plan the network segments in the IDC and the VPC to try to ensure that the network segments in the IDC and the network segments in the VPC do not overlap!
+- Before using the Direct Connect, you should plan the network segments in IDC and the VPC to ensure that the network segments in IDC and the network segments the VPC are overlapped;
 
 
 
@@ -18,8 +18,8 @@
 
 #### Related Resource Quota for Border Gateway
 
-| Resources	| Limits	| Requests for Exceptions	|
-| :-: | :-: | :-: |
+| Resources | Limits | Requests for Exceptions |
+|:---:|:---:|:---:|
 |Physical Connection in the Same Region + Number of Hosted Connection	|10	| Tickets	|
 |Number of Private Virtual Interface Created on Each Physical Connection	|50	| Tickets	|
 |Number of Hosted Private Virtual Interface Created on Each Hosted Connection	|50	| Tickets	|

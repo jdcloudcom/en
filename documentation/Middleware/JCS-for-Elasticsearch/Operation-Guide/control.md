@@ -16,6 +16,15 @@ System Policy Name | Permission Description | Type | Resource Scope | Descriptio
 JDCloudElasticSearchAdmin  | Read Permission of JCS for Elasticsearch | System Type | All Resources of JCS for Elasticsearch Under Primary Account | Provide the user with permissions of creating and managing all cluster instances of es, including Kibana access permission |
 JDCloudElasticSearchRead  | Administrator Permission of JCS for Elasticsearch | System Type | All Resources of JCS for Elasticsearch Under Primary Account | Provide the user with permissions of viewing ES cluster instances, including the kibana access permission and excluding operation permissions such as creation and deletion. |
 
+#### Dependence Policy
+Resource policies reliant by sub-account are as follows, which can be added when the system policies cannot meet use demands:</br>
+
+API Name | Permission Description | Permission Type | Remarks |  
+:---: | :--- | :--- | :--- | 
+JDCloudRenewalAdmin  | Renewal Administrator Permission | System Policy | Add when a sub-user can execute the renewal operation |
+JDCloudOrderPayment  | Cashier Desk Payment Permission | System Policy | Add when a sub-user can create resources and make renew operation |
+
+
 #### Customized Policy
 
 If system policies cannot meet your use demands, please refer to [Operation Guide](https://docs.jdcloud.com/en/iam/policy-management) of IAM and authorize corresponding operation permissions to the sub-account by [Customized Policy](https://iam-console.jdcloud.com/policy/generator). Now, operation-level permissions supported by ES are as follows:</br>

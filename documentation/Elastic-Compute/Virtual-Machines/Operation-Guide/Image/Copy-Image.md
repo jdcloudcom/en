@@ -34,3 +34,4 @@ The image replication operation includes, first, it copies the cloud disk snapsh
 
 
   [1]: https://cns-console.jdcloud.com/host/image/list
+

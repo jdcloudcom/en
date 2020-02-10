@@ -42,3 +42,4 @@ sudo ./jcs-image-tool
 | firewall      |The iptables service has been disabled      | if the access policy configured under the JD Cloud environment fails, some internal services may not be able to normally run due to access limitation     |disable the firewall
 | driver     | The virtio driver has been compiled into the kernel or as an kernel module     |  instances cannot be normally enabled    |  [install the virtio driver](https://docs.jdcloud.com/en/virtual-machines/install-virtio-driver)
 
+

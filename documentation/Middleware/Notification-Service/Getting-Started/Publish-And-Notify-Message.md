@@ -16,8 +16,8 @@ After a Message Topic is created in the Console, the users can release messages 
 
 2. Fill in the message topic (optional) and select the message format
 
-   - Original text: All terminal nodes send the same message contents. [Failure to send messaged to SMS terminal node]
-   - Json: Message contents of different terminal nodes can be selected via customization. [Suit for all terminal node types such as SMS terminal node. For templates, please refer to the example]
+   - Original text: All terminal nodes send the same message contents. [Because signature ID and template ID are required for sending SMS, it is not suggested to send messages via the original text for the topic with SMS terminal node. If so, the terminal nodes of other types will also receive signature ID and template ID rather than contents in an SMS template]
+   - Json: Message contents of different terminal nodes can be selected via customization. [Suit for all terminal node types such as SMS terminal node. For templates, please refer to [Messages Release](../Operation-Guide/Message-Management/Publish-Message.md)]
 
 3. Fill in message attribute. Set some message attributes for messages to help the subscribers filter policies and messages or classify different messages.
 

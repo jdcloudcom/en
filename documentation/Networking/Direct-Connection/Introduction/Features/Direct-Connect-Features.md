@@ -41,26 +41,28 @@ A Private Virtual Interface is a logical link used to connect a border gateway t
 When creating a Private Virtual Interface, you need to specify the following necessary information:
 
 - The /30 address used to establish a BGP session. Usually, the customer needs to configure two pairs of BGP sessions to connect to multiple services on JD Cloud. Allocate an interconnection address to four BGP sessions for establishing a three-layer interconnection with the DLR. The client uses the first address of 30/, and JD Cloud uses the second address of 30/;
-- The private AS number used to establish the BGP session. JD Cloud DLR uses the fixed AS number 64512, JD Cloud uses the fixed AS number 65501, and the customer can be allocated an AS number ranging from 65001 to 65499;
+- The private AS number used to establish the BGP session. JD Cloud DLR uses the fixed AS number 64512, and the customer can be allocated an AS number ranging from 65001 to 65499;
 - Vlan for business isolation, ranging from 2 to 4,000;
 
 
 
 #### **JD Cloud Direct Connect Points Coverage**
 
-![](/image/Networking/Direct-Connect-Service/IXP-Location.png)
+![](../../../../../image/Networking/Direct-Connect-Service/Feature/IXP-Location.png)
 
 
 
-List of JD Cloud Direct Connect Points (Last Updated on 12.10.2019)
+List of JD Cloud Direct Connect Points (Last Updated on 01.09.2020)
 
 The list only provides the information of the Direct Connect Points of JD Cloud, which is suitable for self-service application. For the information of the Direct Connect Points of the partner, please contact the specific partner.
 
-| Regionl  | Access Point Name |                   Detailed Address                  |                 Access Supporting Operators            |
-|:---------:|:----------:|:-------------------------------------------------:|:--------------------------------------:|
-| cn-north-1 |   Beijing-Haidian      | Building C, Advanced Technology & Materials Co., Ltd. Yongfeng Industrial Base in the Yongfeng High Technology and New Technology Industrial Base, Xibeiwang Town, Haidian District, Beijing | China Mobile, China Unicom, China Telecom and Other Operators in China |
-|            |   Beijing-Yizhuang    |          No.32, 9th Kechuang Street, Yizhuang Economic Development Zone, Beijing           | China Mobile, China Unicom, China Telecom and Other Operators in China |
-| cn-east-2  |   Shanghai-Jing’an    |            Building C, No.1268, Wanrong Road, Jing’an District, Shanghai            | China Mobile, China Unicom, China Telecom and Other Operators in China |
-|            |   Shanghai-Xuhui    |      Room 102, Building D, Leyetiandi, No.418, Tianlin Road, Xuhui District, Shanghai      | China Mobile, China Unicom, China Telecom and Other Operators in China |
-| cn-east-1  |   Suqian-Suyu      | West Side of the Intersection of Fazhan Avenue and Qingtong Road, Hubin New District, Suqian City, Jiangsu Province    | China Mobile, China Unicom, China Telecom and Other Operators in China |
-| cn-south-1 |   Guangzhou-Huangpu  |        No.20, Guanda Road, Huangpu District Science City, Guangzhou, Guangdong Province         | China Mobile, China Unicom, China Telecom and Other Operators in China |
+| Regionl | Access Point Name | Detailed Address | Access Supporting Operators |
+|:---:|:---:|:---:|:---:|
+| cn-north-1 | Beijing-Haidian | Building C, Advanced Technology & Materials Co., Ltd. Yongfeng Industrial Base in the Yongfeng High Technology and New Technology Industrial Base, Xibeiwang Town, Haidian District, Beijing | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|  | Beijing-Yizhuang | No.32, 9th Kechuang Street, Yizhuang Economic Development Zone, Beijing           | China Mobile, China Unicom, China Telecom and Other Operators in China |
+| cn-east-2  | Shanghai-Jing’an | Building C, No.1268, Wanrong Road, Jing’an District, Shanghai | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|  | Shanghai-Jing’an |  Building C, No.1268, Wanrong Road, Jing’an District, Shanghai | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|  | Shanghai-Xuhui | Room 102, Building D, Leyetiandi, No.418, Tianlin Road, Xuhui District, Shanghai      | China Mobile, China Unicom, China Telecom and Other Operators in China |
+| cn-east-1  | Suqian-Suyu | West Side of the Intersection of Fazhan Avenue and Qingtong Road, Hubin New District, Suqian City, Jiangsu Province    | China Mobile, China Unicom, China Telecom and Other Operators in China |
+| cn-south-1 | Guangzhou-Huangpu1 | No.20, Guanda Road, Huangpu District Science City, Guangzhou, Guangdong Province | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|  |Guangzhou-Huangpu2 | No.20, Guanda Road, Huangpu District Science City, Guangzhou, Guangdong Province | China Mobile, China Unicom, China Telecom and Other Operators in China |

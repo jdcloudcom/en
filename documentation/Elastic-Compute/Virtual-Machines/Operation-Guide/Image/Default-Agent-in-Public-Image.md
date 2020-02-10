@@ -3,8 +3,8 @@ The following system components are installed by default in the Public Image to 
 
 Due to the objective factors of system upgrade and component upgrade, the following components may not be installed in the early Public Image. It is recommended that you check the current system installation status and complete the installation one by one.
 
-    * Note:
-      When the private images are imported to the installed scenario, please install other agents (except ifrit) under the external environment. After the private images are imported to JD Cloud environment, ifrit shall be installed on your own.
+    * Notification:
+      ifrit can automatically install and update JCS-Agent. In the scenario of importing image/image component update, it is recommended that you refer to the following instructions and install ifrit directly on the premise that the cloud-init and QGA in the Virtual Machines have been uninstalled. After the installation, wait up to 10 minutes for the installation or update of JCS-Agent.
     
 
 | Component Name    | Relevant Process Name    | Main Feature     | Influence when it is not installed    |
@@ -52,13 +52,15 @@ Linux：`ps -ef|grep MonitorPlugin`<br>
 Windows：`wmic process where caption="MonitorPlugin.exe" get caption,commandline /value`
 
 ### Installation Mode
+**(It is recommended that you should [Install ifrit](default-agent-in-public-image#user-content-2) which will automatically pull up JCS-Agent. You can skip the following installation steps by this way.)**
+
 **Linux：**<br>
 1. Download the following installation package and installation script to the same directory (for example: /root/jcloud).<br>
-If the machine is not associated with any EIP, please replace bucket address "bj" and the region parameter "cn-north-1" in the link with code of region where the machine is located: "gz", "cn-south-1", "sq", "cn-east-1", "sh" and "cn-east-2".<br>
+If the machine is not associated with any EIP, it is necessary to download it in the Intranet environment. Please replace bucket address "bj" and the region parameter "cn-north-1" in the link with codes of region where the machine is located: "gz", "cn-south-1", "sq", "cn-east-1", "sh" and "cn-east-2", and change "s3" in the domain to "s3-internal".<br>
 https://bj-jcs-agent-linux.s3.cn-north-1.jdcloud-oss.com/jcloud-jcs-agent-linux-deploy.py <br>
 https://bj-jcs-agent-linux.s3.cn-north-1.jdcloud-oss.com/jcloud-jcs-agent-linux.zip <br>
 
-2. Execute the following instructions under the download directory and uninstall the older version (**this step is used for updating JCS-Agent and can be skipped if no installation is carried out**)<br>
+2. Execute the following instructions under the download directory and uninstall the older version。 (**this step is used for updating JCS-Agent and can be skipped if no installation is carried out**)<br>
 ```
 python jcloud-jcs-agent-linux-deploy.py uninstall
 ```
@@ -66,14 +68,13 @@ python jcloud-jcs-agent-linux-deploy.py uninstall
 3. Execute the following instructions under the download directory and install the latest version.<br>
 ```
 python jcloud-jcs-agent-linux-deploy.py install
-python /usr/local/share/jcloud/agent/scripts/linux/entry.py (This instruction is executed for installing or updating JCS-Agent after images are imported. If JCS-Agent is installed in the outer environment of JD Cloud before images are imported, please skip this step)
 ```
 
 4. Execute `ps -ef` and installation is successful when seeing there processes of UpgradePlugin, MonitorPlugin and JCSAgentCore. After successful installation, you can delete the installation package and the installation script.
 
 **Windows:**<br>
 1. Download the installation package, installation script and MD5 tools to the same directory (for example: C:\jcloud).<br>
-If the endpoint is not associated with EIP, please replace the regional parameter "cn-north-1" in the link with the code of endpoint region: "cn-south-1", "cn-east-1", "cn-east-2".<br>
+If the machine is not associated with any EIP, it is necessary to download it in the Intranet environment. Please replace region parameter "cn-north-1" in the link with codes of region where the machine is located: "cn-south-1", "cn-east-1", "cn-east-2" and change "s3" in the domain to "s3-internal".<br>
 https://bj-jcs-agent-windows.s3.cn-north-1.jdcloud-oss.com/jcloud-jcs-agent-windows-manual.zip <br>
 https://bj-jcs-agent-windows.s3.cn-north-1.jdcloud-oss.com/jcloud-jcs-agent-win-deploy.ps1 <br>
 https://bj-jcs-agent-windows.s3.cn-north-1.jdcloud-oss.com/MD5.exe <br>
@@ -82,14 +83,12 @@ https://bj-jcs-agent-windows.s3.cn-north-1.jdcloud-oss.com/MD5.exe <br>
 ```
 .\jcloud-jcs-agent-win-deploy.ps1 uninstall
 ```
-
-3. Open powershll and go to the directory where the installation package is located (C:\jcloud), execute the following command to install <br>
+3. Open powershll and go to the directory where the installation package is located (C:\jcloud), execute the following command to install
 ```
 .\jcloud-jcs-agent-win-deploy.ps1 install
-PS C:\Program Files\JD.com\jCloud\Agent\Scripts\Windows> .\InitializeInstance.ps1 (this instruction is executed for installing or updating JCS-Agent after images are imported. If JCS-Agent is installed in the outer environment of JD Cloud before images are imported, please skip this step)
 ```
 
-3. Execute `ps -ef` command and installation is successful when seeing there processes of UpgradePlugin, MonitorPlugin and JCSAgentCore. After successful installation, you can delete the installation package, the installation script and MD5 tools.
+4. Execute `ps -ef` command and installation is successful when seeing there processes of UpgradePlugin, MonitorPlugin and JCSAgentCore. After successful installation, you can delete the installation package, the installation script and MD5 tools.
 
 
 <div id="user-content-2"></div>
@@ -139,6 +138,21 @@ curl -fsSL http://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install_jcs | bash
 ```
 ($client = new-object System.Net.WebClient) -and ($client.DownloadFile('http://devops.s3-internal.cn-south-1.jdcloud-oss.com/ifrit/ifrit-external-v0.01.461.56ff760.20190517095556.exe', 'c:\ifrit.exe')) -or (Start-Process 'c:\ifrit.exe')
 ```
+
+Click **Next** in the Installation Guide; in the configuration information page, you only need to fill in AGENTS configuration: jcs-agent-core-win,jcs-agent-script-win,jcs-agent-monitor-win, and need not to fill in other configurations, which should be use default values.
+
+![](../../../../../image/vm/ifrit-install-1.png)
+![](../../../../../image/vm/ifrit-install-2.png)
+
+Customized installation path is not supported currently. Check "I agree to the terms and conditions of the license" and click **Next**.
+
+![](../../../../../image/vm/ifrit-install-3.png)
+
+Click **Installation** to complete the ifrit installation.
+
+![](../../../../../image/vm/ifrit-install-4.png)
+![](../../../../../image/vm/ifrit-install-5.png)
+
 
 <div id="user-content-3"></div>
 

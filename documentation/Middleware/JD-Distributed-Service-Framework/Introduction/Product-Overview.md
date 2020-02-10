@@ -17,8 +17,8 @@ The product is in Beta period and free in the period. The Beta version is the fo
 	- [Registration Center](../Operation-Guide/Resource-Manage/Cluster.md)
 	- [JD Distributed Service Gateway](../Operation-Guide/Resource-Manage/JDSFGW.md)
 - Application Management
-	- [Deployment Application in Virtual Machines](../Operation-Guide/APP-Manage/APPDeloy.md)
-	- [Deployment Application in K8S](../Operation-Guide/APP-Manage/APPDeloyK8S.md)
+	- [Application Deployment of Virtual Machines](../Operation-Guide/APP-Manage/APPDeloy.md)
+	- [Kubernetes Application Deployment](../Operation-Guide/APP-Manage/APPDeloyK8S.md)
 	- [Configuration Management](../Operation-Guide/APP-Manage/Config-Manage.md)
 	- [Service Administration](../Operation-Guide/APP-Manage/Service-Assignuse.md)
 - Operation and Maintenance Management

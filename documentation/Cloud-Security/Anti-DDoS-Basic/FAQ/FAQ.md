@@ -18,8 +18,7 @@ A: Anti-DDoS Basic can only defend the domain name that has been filed. If the d
 
 **5. Q: How long the public network IP will stay in black hole if a black hole is triggered?**
 
-A: The residence time of the public network IP triggering a black hole state in a black hole is at least 60 minutes, during which the IP of the public network is still monitored.
-Once attack flow exceeding the machine room capability is monitored again, the black hole time is extended by 60 minutes at the last time the attack was monitored.
+A: JD Cloud Security Protection System will constantly monitor the public IP traffic, which will automatically trigger the black hole status when detecting traffic attack exceeding the Anti-DDoS Basic capability of this data center. After the black hole status is triggered, the duration of the public IP entering the black hole status for the first time is 60 minutes. During this period, the public IP is still being monitored. Once a traffic attack exceeding the Anti-DDoS Basic capability of this data center is detected for the second time, the duration of the black hole status will be increased by 2 hours. At the moment, the public IP is still being monitored. If a traffic attack exceeding the Anti-DDoS Basic capability of this data center is detected for the third time when the public IP is still in black hole status, the duration of the black hole status will be increased by another 48 hours. In extreme cases, when the attack traffic of public IP is relatively large, it may trigger the black hole protection system of network operators, and the black hole status will last for 24 hours after entering the system. For individual users whose black hole status is frequently triggered, JD cloud reserves the right to extend the black hole duration and reduce the black hole threshold.
   
 **6. Q: How does the attack flow exceed 2G?**
 

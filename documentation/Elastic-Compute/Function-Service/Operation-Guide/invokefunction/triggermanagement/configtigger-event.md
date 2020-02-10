@@ -109,6 +109,7 @@ When Function Service is used as the backend service of an API gateway, API Gate
 } 
 
 ```
+
 For API Gateway Trigger Configuration details, please refer to [API Gateway Trigger](../triggermanagement/eventsourceservice/apig-tigger.md). 
 
 **Parameter Description**: The body content between the gateway and Function is not subject to Base64 coding.
@@ -126,4 +127,92 @@ Function will normalize the output content to return it to the API Gateway in th
  } 
 ```
 
+## Queue Service JQS Trigger
 
+### Event Format
+
+When the function service consumes a message in the queue service message queue, it will designate a queue by round robin and call the function asynchronously through an `event` that contains queue messages.
+
+```
+{
+    "Records":[
+        {
+            "version":"0",
+            "id":"9fd19a5b-ddff-41b8-9689-e539cfb5dc41",
+            "time":"2019-10-28T15:00:19.45626304+08:00",
+            "source":"jqs",
+            "base64OwnerPin":"based64Pin",
+            "resources":[
+                "jqs-jrn"
+            ],
+            "region":"cn-north-1",
+            "detailType":"jqspullReceived",
+            "detail":{
+                "messageId":"41783100ccd4ac4030b3b12061058618",
+                "receiptHandle":"based64receiptHandle",
+                "body":"test",
+                "attributes":{
+                    "ApproximateFirstReceiveTimestamp":"1572246000180643518",
+                    "ApproximateReceiveCount":"1",
+                    "SenderId":"senderpin",
+                    "SentTimestamp":"1572245999697935359"
+                },
+                "messageAttributes":null,
+                "md5OfBody":"098f6bcd4621d373cade4e832627b4f6"
+            }
+        }
+    ]
+}
+
+```
+
+For Queue Service JQS trigger configuration details, please refer to [Queue Service JQS Trigger](../triggermanagement/eventsourceservice/JQS-trigger.md). 
+
+
+## Cloud Event Trigger
+
+Cloud Event will pass the event request parameter to the request parameter `event` of Function through a fixed Mapping structure, and Function can get and process the required parameters through the following structure.
+
+
+### Event Format
+
+The following example is in the event format of system event
+
+```
+{
+    "Records": [
+        {
+            "version":"0",
+            "id":"2f30509d-3c5e-443e-9bd2-ebb9dda74e68",
+            "time":"2019-12-20T03:17:29Z",
+            "source":"events",
+            "base64OwnerPin":"amNsb3VkX21vbml0b3I=",
+            "resource":["bnti0hqm4n7mrlluj9cg"],
+            "region":"cn-north-1",
+            "detailType":"resourcesMonitor",
+            "detail": {
+                "version":"1.0",
+                "id":"85bf4aa3-3fb3-4cbb-ba52-cab54edae769",
+                "detailType":"resourcesMonitor",
+                "source":"jcloud.monitor.alert",
+                "pin":"jcloud_monitor",
+                "time":"2019-12-20T11:17:29+0800",
+                "region":"cn-north-1",
+                "resources":["alarm-aqoz718971"],
+                    "detail": {
+                        "content":"content",
+                        "resourceId":"mysql-fo32fberwl",
+                        "ruleId":" ",
+                        "serviceCode":"database",
+                        "threshold":7.77,
+                        "time":"2019-12-20T11:17:09+08:00",
+                        "times":2723,
+                        "value":11.43282585600461
+                    }
+            } 
+        }
+    ]
+}
+
+```
+For Cloud Event trigger configuration details, please refer to [Cloud Event Trigger](../triggermanagement/eventsourceservice/cloudevent.md). 

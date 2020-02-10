@@ -10,3 +10,5 @@ This document introduces the important update history of the Distributed Cloud P
 |2019.09.27|V1.2.1|The Elastic IP supports 2 billing items;|
 |2019.10.18|V1.3|When Pay By Configuration is added for Instance and Elastic IP, billing based on the usage duration is supported.|
 |2019.10.30|V1.4|Creation and association of alias IP ranges are supported;|
+|2019.12.23|V1.5|Support Audit Trail function;|
+|2019.12.27|V1.6|support tag function of instances;|

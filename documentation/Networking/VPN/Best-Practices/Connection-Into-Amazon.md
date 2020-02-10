@@ -12,7 +12,7 @@ The segment in JD Cloud VPC cannot overlap with that in Amazon AWS VPC.
 ###### Step 1. JD Cloud creates a border gateway
 
 a) Log in [JD Cloud Border Gateway Console](https://cns-console.jdcloud.com/host/borderGateway/list);  </br>
-b) Select the region using VPN, and click to create a border gateway;</br>
+b) Select the region using Virtual-Private-Network, and click **Create Border Gateway**;</br>
 c) The border gateway supports running BGP routing protocol. The BGP ASN of current JD Cloud border gateway is fixed to 65000, which will be open to modify in the future;</br>
 
 For more contents, refer to [Border Gateway Management](../Operation-Guide/Border-Gateway-Management/Border-Gateway-Configuration.md).

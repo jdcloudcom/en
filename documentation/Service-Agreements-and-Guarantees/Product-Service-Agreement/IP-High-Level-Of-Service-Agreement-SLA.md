@@ -107,10 +107,12 @@ When the Anti-DDoS Pro cannot be used normally due to the JD Cloud's equipment f
 
 JD Cloud compensates 100 times of the unavailable time for each instance of the user DDoS protection fault. The compensation amount = the average cost per minute before the instance fault in the first 24h × the service unavailable time × 100 times. 
 
-* If the use time of user is less than 24 hours, the cost shall be calculated based on the average of actual use time; and the fault time shall be calculated by minutes; 
+If the use time of user is less than 24 hours, the cost shall be calculated based on the average of actual use time; and the fault time shall be calculated by minutes; 
 
 The compensation shall be paid in the form of advanced anti- DDoS coupon only for users who uses the advanced anti- DDoS service with expenses incurred, which cannot be converted into cash back; the total amount of compensation shall not exceed the total amount of cash paid for current service by the instance of the advanced anti- DDoS service. 
 
 ### **4. Others** 
 
 JD Cloud has the right to make adjustments to some service indicators of the SLA according to the changes, and promptly publish announcements at [www.jdcloud.com](https://www.jdcloud.com/index) or send emails or written notices to notify users of the revised content. 
+
+

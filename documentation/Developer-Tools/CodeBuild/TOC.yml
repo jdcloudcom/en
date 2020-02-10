@@ -61,5 +61,7 @@
     items:
           - name: Build images and store them to Repository
             href: Best-Practices/Build-Image-Container.md
+          - name: Use maven to Build and Upload an Artifact to JD Cloud Artifact Repository
+            href: Best-Practices/Build-Upload-Maven.md
           - name: Use JD Cloud artifact repository in maven engineering
             href: Best-Practices/Build-Maven-Private.md

@@ -18,9 +18,9 @@ PUT blog_index
 
 "age": { "type": "integer" }
 
-}
-}
-}
+               }
+         }
+            }
 }
 ```
 The responses below indicate that creation succeeded:

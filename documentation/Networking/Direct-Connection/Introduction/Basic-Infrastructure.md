@@ -4,7 +4,7 @@
 
 Overall architecture diagram of Direct Connection is as follows:
 
- ![](/image/Networking/Direct-Connect-Service/Infrastructure.png)
+ ![](../../../../image/Networking/Direct-Connect-Service/Introduction/Infrastructure.png)
 
 
 

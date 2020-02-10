@@ -24,6 +24,8 @@ This document will introduce the important update history of the Cloud Physical 
 |2019.08.05|V2.3|Reinforce network functions and support route table and Load Balancer (four-layer) service;<br/>|
 |2019.08.26|V2.4|Support on-line password resetting and random password setting;<br/>support customized script function;|
 |2019.09.11|V2.5|Support the function of SSH Key Pair;|
+|2019.12.23|V2.6|Support Audit Trail function;|
+|2019.12.27|V2.7|support tag function of instances;|
 
 
 

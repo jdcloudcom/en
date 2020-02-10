@@ -5,7 +5,7 @@ IoT Edge comprises core functions including device access, core service, edge ap
 ## Business Architecture
 
 Business architecture is shown as in the following figure:
-![](../../../../image/IoT/IoT-Edge/EdgeArch.png)
+![](../../../../image/IoT/IoT-Edge/EdgeArch-New.png)
 
 | Name     | Description                                                         |
 | -------- | ------------------------------------------------------------ |

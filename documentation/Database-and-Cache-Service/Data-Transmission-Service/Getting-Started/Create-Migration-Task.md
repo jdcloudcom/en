@@ -1,62 +1,64 @@
-# 创建迁移任务
+# Create Migration Task
 
-在DTS 控制台，只需几步简单操作，即可创建数据迁移任务。
+Data migration tasks can be created by a few of simple operations steps on the DTS Console.
 
-本文介绍创建迁移任务的通用配置流程，不同类型的数据库在配置时略有不同，可参照操作指南中的迁移说明。
+The document specifies the general configuration processes for creating migration tasks, which are slightly different for configuration of databases of different types. For details, please refer to the migration description in the Operation Guide.
 
-## 准备工作
+## Preparatory Work
 
-- 创建作为迁移目标数据库的云数据库实例。
-- 待迁移数据库已开启公网IP或已开通专线可与目标数据库可连通。
-- 源数据库与目标数据库已创建有相应权限的迁移账号。
+- Create a cloud database instance as the target database for migration.
+- Public IP has been enabled to the database to be migrated or the Direct Connection has been subscribed for communication with the target database.
+- Migration accounts of corresponding permissions have been set up for source databases and target databases.
 
-## 操作步骤
+## Operation Steps
 
-1. 登录 DTS 控制台。
+1. Log in DTS console.
 
-2. 在DTS列表页，点击**创建迁移任务**，进入创建迁移任务页面。
+2. Click **Create Migration Task** on the DTS list page and enter the migration creation task page.
 
-3. 在创建迁移任务页，填写任务名称、源库信息、目的库信息。
+   ![](../../../../image/Data-Transmission-Service/dts-010.png)
+
+3. Complete task name, source database information and target database information on the migration task creation page.
 
    ![](../../../../image/Data-Transmission-Service/dts-001.png)
 
-   任务名称：
+   Task name: The name shall contain no less than 2 characters, but no more than 32 characters and shall only support Chinese, numbers, uppercase and lowercase letters, English underline and line-through.
 
-   名称长度不能少于2字符且不超过32个字符，只支持中文、数字、大小写字母、英文下划线及中划线。
+   Source database information:
 
-   源库信息：
+   - For the instance type family, the "self-built database of Public IP" and the "self-built database connected via Direct Connection" can be selected.
 
-   - 实例类型，可选"有公网IP的自建数据库"、"通过专线连接的自建数据库"。
+   - For database type, i.e., source database type, MySQL, Percona, MariaDB, SQL Server and MongoDB are supported.
+   - Domain or IP can be filled in as the database address.
+   - Port, database port.
+   - Database Account
+   - Database Password
 
-   - 数据库类型，源数据库类型，支持MySQL、Percona、MariaDB、SQL Server、MongoDB。
-   - 数据库地址，可填写域名或IP。
-   - 端口，数据库端口。
-   - 数据库账号
-   - 数据库密码
+   Target library information:
 
-   目标库信息：
+   - Database Type
+   - Instance region refers to the region where the target instance is located.
+   - Instance ID
+   - Database Account
+   - Database Password
+   - Search DTS IP section for search Public IP of DTS service. If an IP white list is enabled for source database, this IP segment shall be added to the white list, to ensure that DTS service can be connected to the source database. 
 
-   - 数据库类型
-   - 实例地域，目标实例所在地域。
-   - 实例ID
-   - 数据库账号
-   - 数据库密码
-   - 查询DTS IP段，用于查询DTS服务的公网IP，如果源数据库启用了IP白名单，需将此IP段加入到白名单，以确保DTS服务可以连接到源数据库。 
-
-4. 先写完成，点击**下一步**，进入下一步选择迁移类型与迁移对象。
+4. After completion, click **Next** and go to the next page to fill in information such as migration type, data check and migration object.
 
    ![1568966127085](../../../../image/Data-Transmission-Service/dts-002.png)
 
-   迁移类型：可选择结构迁移、全量迁移、增量迁移。
+   Migration type: The structure migration, full migration and incremental migration are available for selection.
 
-   数据一致性校验：可选择不检测或全量检测。
+   Data consistence check: No detection or full detection can be selected.
 
-   迁移对象：
+   Migration object:
 
-   - 源库类型为"有公网IP的自建数据库"时，支持**可视化选择**和**JSON**两种方式定义要迁移的库表。
-   - 源库类型为"通过专线连接的自建数据库"时，只支持通过**JSON**定义要迁移的库表。
+   - When the "self-built database of Public IP" is selected as the source database type, definition of database tables to be migrated via two methods are supported, i.e., **Visual Selection** and **JSON**.
+   - When the "self-built database connected via the Direct Connection" is selected as the source database type, definition of the database tables to be migrated via **JSON** is supported only.
 
-5. 同意授权DTS服务管理源库与目标库"。
+5. Agree to "Authorize DTS Service Management Source Database", click **Next** and select the migration instance type.
 
-6. 保存任务，等待迁移任务创建完成。
+   ![image-20200113174954675](../../../../image/Data-Transmission-Service/dts-008.png)
+
+6. Select the migration instance type and click **Save** to save the task and wait until the migration task is created.
 

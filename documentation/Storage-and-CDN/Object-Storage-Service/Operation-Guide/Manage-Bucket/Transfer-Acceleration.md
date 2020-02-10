@@ -16,7 +16,7 @@ To use transmission acceleration, please [Enable the CDN Service](https://docs.j
 
 - Dynamic accelerated domain: \<BUCKET\>.s3-accelerate.\<REGION\>.jdcloud-oss.com
 
-- Back-to-origin Accelerated Domain: \<BUCKET\>.s3-accelerate-cache.\<REGION\>.jdcloud-oss.com
+- Back-to-origin Accelerated Domain: \<BUCKET\>.s3-cache-accelerate.\<REGION\>.jdcloud-oss.com
 
 **Note:**
 

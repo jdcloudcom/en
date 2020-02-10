@@ -64,15 +64,19 @@
   - name: Operation Guide
     items:
       - name: Dedicated Primary Node
-        href: Operation-Guide/Dedicated-master.md 
+        href: Operation-Guide/Dedicated-master.md
+      - name: Coordinator Node
+        href: Operation-Guide/coordination_node.md
+      - name: Kibana
+        href: Operation-Guide/Kibana.md 
+      - name: Head
+        href: Operation-Guide/head.md
       - name: Plug-in Support
         href: Operation-Guide/IK.md
       - name: JCS for Elasticsearch Log
         href: Operation-Guide/eslog.md
       - name: Customized Word Library
         href: Operation-Guide/dic.md 
-      - name: Coordinator Node
-        href: Operation-Guide/coordination_node.md   
       - name: Snapshot
         items: 
         - name: Create Snapshot
@@ -85,8 +89,6 @@
           href: Operation-Guide/deletesnapshot.md
       - name: IAM
         href: Operation-Guide/control.md
-      - name: Kibana
-        href: Operation-Guide/Kibana.md 
       - name: Monitor Cluster
         items: 
         - name: View Monitoring Information

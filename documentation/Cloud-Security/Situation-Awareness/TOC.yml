@@ -27,6 +27,8 @@
         href: Operation-Guide/Asset-Print.md
       - name: Cloud Product Baseline
         href: Operation-Guide/Cloudbaseline.md
+      - name: Full Log Analysis
+        href: Operation-Guide/Fulllog.md
       - name: Threat Cheat
         href: Operation-Guide/honeyPot.md      
   - name: FAQ
@@ -37,4 +39,3 @@
     href: Related-Resources/Pricing-Model.md    
   - name: Service Terms
     href: SLA/SLA.md
-

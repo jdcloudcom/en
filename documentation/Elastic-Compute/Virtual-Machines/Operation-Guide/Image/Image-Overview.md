@@ -8,3 +8,4 @@ Create an image based on the instances deployed with environment, and then creat
 
 2. As a backup of the server's running environment:
 An image created based on an instance can be used to recover a damaged instance If this instance cannot run normally due to damaged software environment during subsequent use.
+

@@ -10,8 +10,6 @@ items:
       href: Introduction/Basic-Infrastructure.md
     - name: Benefits
       href: Introduction/Benefits.md
-    - name: Monitoring Metric
-      href: Introduction/Metrics.md
     - name: Specifications
       href: Introduction/Specifications.md
       status: 0
@@ -91,6 +89,24 @@ items:
       href: Best-Practices/bulk-resource-monitoring.md
     - name: Daily Workload Monitoring
       href: Best-Practices/daily-business-monitoring.md
+- name: Cloud Resource Monitoring Indicator
+  items:
+    - name: Monitoring Indicator Overview
+      href: Metrics/Metrics.md
+    - name: Virtual Machines
+      href: Metrics/vm.md
+    - name: Cloud Disk Service
+      href: Metrics/disk.md
+    - name: Container Instance
+      href: Metrics/nativecontainer.md
+    - name: JCS for kubernetes
+      href: Metrics/k8s.md  
+    - name: Elastic IP
+      href: Metrics/ip.md
+    - name: Load Balancer
+      href: Metrics/lb.md
+    - name: Cloud Database RDS
+      href: Metrics/rds.md
 - name: Tutorial
   items:
   status: 0

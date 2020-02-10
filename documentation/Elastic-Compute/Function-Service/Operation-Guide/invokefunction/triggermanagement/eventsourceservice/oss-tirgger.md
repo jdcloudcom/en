@@ -78,13 +78,12 @@ Resource and event are two elements that make up OSS trigger:
  
  * The event is a trigger event, including the event type in Table 1.
   
-  Currently, OSS gateway trigger only supports function association in the same region; the repeated association between OSS triggers and functions is unrestricted.
+  Currently, OSS gateway trigger only supports function association in the same region; the repeated association between **OSS triggers and functions is unrestricted**.
   
-  **Scenario 1**: The same OSS resource and the same event can associate the same or more functions. When the association is repeated, the event will only trigger the first function associated.
+  **Scenario 1 **: The same OSS resource and the same event can associate the same or more functions. When the association is repeated, the event will only trigger all functions associated.
   
-  **Scenario 2**: The same OSS resource and different events can associate the same or more functions. When the association is repeated, if the event types are inclusive, for example: configuring two triggers; the same Bucket, the types of events are: s3:ObjectCreated:*  and s3:ObjectCreated:Put respectively (s3:ObjectCreated:* including s3:ObjectCreated:Put event); When the user uploads a file to the Bucket, only the first function associated will be triggered.
+  **Scenario 2 **: The same OSS resource and different events can associate the same or more functions. When the association is repeated, if the event types are inclusive, for example: configuring two triggers; the same Bucket, the types of events are: s3:ObjectCreated:* and s3:ObjectCreated:Put (s3:ObjectCreated:*including s3:ObjectCreated:Put event); when the user uploads a file to the Bucket, all functions associated will be triggered.
 
  
 Note:
-1. Associated functions can be triggered at the same time only when resources and events are different at the same time.
-2. Be sure to avoid the **Loop Triggering** when using the OSS Trigger. A typical loop trigger scenario is that: Uploading file by some Bucket of OSS triggers execution of a function, which generates one or more files and writes back to OSS's Bucket, which triggers the execution of a function and forms a chain loop.
+Be sure to **avoid the Loop Triggering** when using the OSS Trigger. A typical loop trigger scenario is that: Uploading file by some Bucket of OSS triggers execution of a function, which generates one or more files and writes back to OSS's Bucket, which triggers the execution of a function and forms a chain loop.

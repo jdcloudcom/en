@@ -52,23 +52,23 @@ The calculation of route priority is divided into several different dimensions, 
 
 ##### Priority Description of Type of Next Hop of Route
 
-|                Name of Gateway of Next Hop                | Priority of Type of Next Hop |
-|:--------------------------------------------:|:------------:|
-|         VPC Attachment (VPC API)/VPC         |       100        |
+| Name of Gateway of Next Hop | Priority of Type of Next Hop |
+|:---:|:---:|
+| VPC Attachment (VPC API)/VPC | 100 |
 | Private Virtual Interface (Private Virtual Interface/Hosted Private Virtual Interface) |     120        |
-|           VPN Connection (VPN Connection)            |   140        |
+| VPN Connection (VPN Connection) | 140 |
 
 ```Description: The smaller the Type of Next Hop priority value, the higher the route priority. ```
 
 ##### Priority Description of Route Type (Administrative Distance, Administrative Distance of Route Protocol)
 
 
-|                Route Type                | Route Protocol Priority |
-|:--------------:|:--------------:|
-|      Static      |       100    |
-|      Internal Transmission (VPC Attachment Transmission)      |      120       |
-|      EBGP      |      150       |
-|      IBGP      |      200       |
+| Route Type | Route Protocol Priority |
+|:---:|:---:|
+| Static | 100 |
+| Internal Transmission (VPC Attachment Transmission) | 120 |
+| EBGP | 150 |
+| IBGP | 200 |
 
 ```Description: The smaller the route protocol priority value, the higher the route priority. ```
 

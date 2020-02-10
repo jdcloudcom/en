@@ -85,6 +85,9 @@ spec:
     storage: 1Gi
   accessModes:
     - ReadWriteOnce
+  mountOptions:
+  - vers=4
+  - noresvport
   persistentVolumeReclaimPolicy: Recycle
   storageClassName: manual-cfs-storage          #use Storage Class created in Step 1; it can be replaced with other customized Storage Class Name;
   nfs:

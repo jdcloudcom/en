@@ -52,7 +52,7 @@ For Linux images, self inspection of important system configurations can be comp
 
 ### 2. Prepare image files
 Importation of the image files in four types of formats, i.e., RAW, VHD, QCOW2 and VMDK are supported. Please designate the correct file format before generating image files.<br>
-The iso image format isn’t supported, please change the format of the image into the designated format by VirtualBox, virt-manager or other tools before importation. For the operation guidance, please refer to: [Convert the image format](Convert-Image-File-Format.md) [conversion of images in ISO format](Convert-Image-File-Format-From-ISO.md)
+The iso image format isn’t supported, please change the format of the image into the designated format by VirtualBox, virt-manager or other tools before importation. For the operation guidance, please refer to: [Convert the image format](Convert-Image-File-Format.md), [conversion of images in ISO format](Convert-Image-File-Format-From-ISO.md)
 
 ### 3. Upload the image file
 Before operating imported images, it is required to ensure that [the Object Storage Service has been enabled](https://docs.jdcloud.com/en/object-storage-service/sign-up-service-2) and [bucket has been created](https://docs.jdcloud.com/en/object-storage-service/create-bucket-2), and then upload the image file to the bucket in the **same region** of the image expected to be imported, and get the file downloading link.<br>
@@ -64,12 +64,12 @@ If the access permission of the bucket is "private read/write" or "customized pe
 
 ### 4. Image importation
 
-<div id="importIMG"></div>
+<div id="user-content-1"></div>
 
 Since no Console operation entry is provided for the current image importation function, please complete importation by referring to the openAPI document and using CLI and SDK after completing the above-mentioned operating steps.<br>
-For the API document, see: [Image importation](https://docs.jdcloud.com/en/virtual-machines/api/importimage?content=API)<br>
-For CLI installation and configuration, please see [CLI Installation](https://docs.jdcloud.com/en/cli/installation) [CLI Configuration](https://docs.jdcloud.com/en/cli/config)<br>
-Meaning of CLI instruction:
+* For the OpenAPI, see: [Image importation](https://docs.jdcloud.com/en/virtual-machines/api/importimage?content=API)<br>
+* For CLI installation and configuration, please see [CLI Installation](https://docs.jdcloud.com/en/cli/installation) [CLI Configuration](https://docs.jdcloud.com/en/cli/config)<br>
+* Meaning of CLI instruction:
 ```
 jdc vm import-image --architecture x86_64 --os-type linux --platform "Other Linux" --disk-format qcow2 --system-disk-size-gb 50 --image-url https://XXXX.cn-north-1.jdcloud-oss.com/XXXX.qcow2 --image-name importImageTest
 ```
@@ -96,8 +96,35 @@ After the import image request is submitted, you can immediately see the specifi
 As the system disk function of Cloud Disk Service in cn-north-1 is in the greyscale open period, if you cannot view imported disk images of cloud disk systems in the private image list, please open tickets to apply for permissions.
 
 If the image is found at "Creating 0%" for a long time when searched, it is possible that there are too much import image requests, so your request is at queuing status, then you can call [Image Import Task Search](https://docs.jdcloud.com/en/virtual-machines/api/imagetasks?content=API) APIs through openAPI to know more detailed task progress.
+* For OpenAPI document, see: [Search Image Task](https://docs.jdcloud.com/en/virtual-machines/api/imagetasks?content=API)<br>
+* Meaning of CLI instruction:
 
+```
+jdc vm image-tasks --region-id cn-north-1 --task-action ImportImage --input-json '{"taskIds":[xxx]}'
+```
 After the image import is finished, please use the image to create VM instance to test whether the creation is successful and whether the basic function is normal. If any exception occurs, you can check compliance with basic requirements for image production. If the problem still cannot be solved, please open ticket or contact customer service to get technical supports.
 
 After the import is successful, if you need to configure JD Cloud Intranet yum source or ntp service, you can refer to [Linux System Configuration of yum Source and ntpd Service](https://docs.jdcloud.com/en/virtual-machines/linux-yum-ntpd).
 
+## Related References
+[Public image system components](https://docs.jdcloud.com/en/virtual-machines/default-agent-in-public-image)
+
+[Image Type](https://docs.jdcloud.com/en/virtual-machines/image-type)
+
+[virtio Installation](https://docs.jdcloud.com/en/virtual-machines/install-virtio-driver)
+
+[Image Self-inspection Tool](Image-Check-Tool.md)
+
+[Convert Image Format](Convert-Image-File-Format.md) 
+
+[ISO Format Image Convert](Convert-Image-File-Format-From-ISO.md)
+
+[Image Import OpenAPI](https://docs.jdcloud.com/en/virtual-machines/api/importimage?content=API)
+
+[Image Task SearchOpenAPI](https://docs.jdcloud.com/en/virtual-machines/api/imagetasks?content=API) 
+
+[CLI Installation](https://docs.jdcloud.com/en/cli/installation) 
+
+[CLI Configuration](https://docs.jdcloud.com/en/cli/config)
+
+[Linux System Configure yum Source and ntpd Service](https://docs.jdcloud.com/en/virtual-machines/linux-yum-ntpd)

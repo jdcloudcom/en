@@ -48,9 +48,9 @@
           - name: Delete Instance
             href: Operation-Guide/Instance-Management/Release-Instance.md
       - name: Login
-        href: Operation-Guide/Login/Login.md
+        href: Operation-Guide/Login.md
       - name: Monitoring Alarm
-        href: Operation-Guide/Monitoring/Monitoring.md             
+        href: Operation-Guide/Monitoring.md             
   - name: Best Practices
     items:
     - name: C++ Client

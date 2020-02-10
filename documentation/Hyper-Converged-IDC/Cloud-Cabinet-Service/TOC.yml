@@ -52,11 +52,11 @@ items:
           - name: View the Cabinet List
             href: Operation-Guide/Resources-Management/View-Cabinet-List.md
           - name: View the Device List
-            href: Operation-Guide/Instance-Management/View-Device-List.md
+            href: Operation-Guide/Resources-Management/View-Device-List.md
           - name: View the Public IP List
-            href: Operation-Guide/Instance-Management/View-ipAddress-List.md
+            href: Operation-Guide/Resources-Management/View-ipAddress-List.md
           - name: View the Bandwidth List
-            href: Operation-Guide/Instance-Management/View-Bandwidth-List.md
+            href: Operation-Guide/Resources-Management/View-Bandwidth-List.md
       - name: Ticket Management
         items:
           - name: Open Ticket
@@ -66,7 +66,7 @@ items:
       - name: Monitoring Alarm
         items:
           - name: Bandwidth Traffic
-            href: Operation-Guide/Monitoring Alarm/View-Bandwidth-Traffic-List.md
+            href: Operation-Guide/Monitoring-Alarm/View-Bandwidth-Traffic-List.md
       - name: Alarm Management
         items:
           - name: Alarm Rules

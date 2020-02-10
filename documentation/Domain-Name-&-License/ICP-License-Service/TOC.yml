@@ -1,6 +1,6 @@
-  name: ICP License Service
-  href:
-  items:
+name: ICP License Service
+href:
+items:
   - name: Filing Guide
     items:
       - name: Filing Introduction
@@ -10,7 +10,11 @@
           - name: Add filing
             href: Getting-Started/Process/Addition-Filing.md
           - name: Add Website (with Main Body)
-            href: Getting-Started/Process/Addition-Website.md      
+            href: Getting-Started/Process/Addition-Website.md
+          - name: Website Change
+            href: Getting-Started/Process/Change-Website.md 
+          - name: Change Access
+            href: Getting-Started/Process/Change-Access.md     
       - name: Rules of Regulatory Authority
         items:
           - name: Anhui
@@ -84,7 +88,7 @@
       - name: Note on Access Cancellation
         href: FAQ/Cancel-Access.md
       - name: Access Filing Description
-        Href: FAQ/Access-Filing-Notes.md
+        href: FAQ/Access-Filing-Notes.md
   - name: User Agreement
     items:
        - name: Assistance in Changing Online Service Terms of Fling Information Service
@@ -101,16 +105,16 @@
         href: Loading/Internet-Information-Service-Filing-Commitment.md
       - name: Common Materials Download
         items:
-        - name: Filing Authorization for All Provinces
-          href: Loading/Common-data/Provincial-filing-authorization.md
-        - name: National Verification Form Download
-          href: Loading/Common-data/National-verification-checklist-download.md
-        - name: Guangdong Province Personal Verification Form Download
-          href: Loading/Common-data/Guangdong-Province-Personal-Verification-Checklist-Download.md
-        - name: Guangdong Province Corporate Verification Form Download
-          href: Loading/Common-data/Guangdong-Province-Unit-verification-form-download.md
-        - name: Government Website Filing Description
-          href: Loading/Common-data/Government-Website-Description.md
+          - name: Filing Authorization for All Provinces
+            href: Loading/Common-data/Provincial-filing-authorization.md
+          - name: National Verification Form Download
+            href: Loading/Common-data/National-verification-checklist-download.md
+          - name: Guangdong Province Personal Verification Form Download
+            href: Loading/Common-data/Guangdong-Province-Personal-Verification-Checklist-Download.md
+          - name: Guangdong Province Corporate Verification Form Download
+            href: Loading/Common-data/Guangdong-Province-Unit-verification-form-download.md
+          - name: Government Website Filing Description
+            href: Loading/Common-data/Government-Website-Description.md
   - name: Process Help
     items:
        - name: Notes on SMS Verification of MIIT

@@ -1,23 +1,22 @@
-# 启动迁移任务
+# Start Migration Task
 
-数据迁移任务创建后，默认不会自动启动，您可以在数据迁移任务列表页或详情页启动任务。
+Once a data migration task is created, it cannot be automatically started by default. You can start the task in the data migration task list page or the Details.
 
-迁移任务启动后，DTS将预检查迁移任务，包括连通性、账号权限等，预检查通过后才可执行数据迁移。
+When a migration task is enabled, DTS will pre-check the migration task, including community, account permission, etc. Data migration can be executed only when the pre-check is passed.
 
-## 操作步骤
+## Operation Steps
 
-1. 在迁移任务列表页或详情页，点击**启动**。
+1. Click **Start** on the migration task list page or Details.
 
-2. 等待预检查完成，可在预检查弹窗查看进度与检查结果。
+   ![image-20200113175505316](../../../../image/Data-Transmission-Service/dts-009.png)
 
-   ![1568967659421](../../../../image/Data-Transmission-Service/dts-006.png)
+2. After the pre-check is completed, you can view progress and check result in the pre-check popup.
 
-3. 预检查完成，点击下一步，执行数据迁移。
+   ![image-20200113180223366](../../../../image/Data-Transmission-Service/dts-012.png)
 
-4. 等待数据迁移完成。
+3. After the pre-check is completed, click **Next** to execute data migration.
 
-   - 迁移类型为"结构迁移"、"增量迁移"是，数据迁移完成后，任务将自动结束。
-   - 迁移类型为"增量迁移"时，DTS服务将持续获取源库数据变更后复制到目标库，需要您关注增量迁移的进度。建议在结束确认前停止源库写入，确认目的库数据已追上源库后再结束迁移任务。
+4. Wait until data migration is completed.
 
-
-
+   - When the migration types are "structure migration" and "incremental migration", the task will be automatically ended after data migration is completed.
+   - When the migration type is "incremental migration", DTS service will continuously get data changes of source database and duplicated the same to the target database. In such case, you need to pay attention to incremental migration progress. It is suggested that source database writing shall be stopped before confirmation and the migration task shall be ended after it is confirmed that the target database data have caught up with source database.

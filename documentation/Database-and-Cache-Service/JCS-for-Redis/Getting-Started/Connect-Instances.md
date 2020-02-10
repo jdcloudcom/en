@@ -19,3 +19,8 @@ Example: redis-cli -h jredis-cn-north-1-prod-redis-××××××××××.jdcloud.
 
 Reference Link: https://redis.io/topics/rediscli
 
+# Connection Instance Using Web-cli
+
+In the instance details, instances can be connected with Web-cli provided that a password has been set for this instance. Web-cli cannot be used without a password. For the purpose of security, please disable the password-free and set a password before using Redis Web Cli.
+![Webcli](https://github.com/jdcloudcom/cn/blob/master/image/Redis/webcli.png)
+

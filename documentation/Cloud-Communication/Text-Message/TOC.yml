@@ -33,8 +33,16 @@ items:
       href: Operation-Guide/stat.md
 - name: SDK Reference
   items:
-    - name: Environment Preparation
-      href: SDK-Rerference/Environment-Preparation.md      
+    - name: AccessKey
+      href: SDK-Rerference/accesskey.md      
+    - name: java Reference
+      href: SDK-Rerference/java.md 
+    - name: python Reference
+      href: SDK-Rerference/python.md 
+    - name: php Reference
+      href: SDK-Rerference/php.md 
+    - name: .net Reference
+      href: SDK-Rerference/dotnet.md 
 - name: Relevant Agreement
   items:
     - name: Service Agreement

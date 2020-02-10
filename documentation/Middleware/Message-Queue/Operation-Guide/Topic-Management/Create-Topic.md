@@ -20,7 +20,7 @@ In the left menu of the console, click **Create** in [Middleware] - [Message Que
 ### 2. Complete Topic Information and click **Create**.
 
 Refresh pages to finish new topic creation
- ![创建topic步骤2](../../../../../image/Internet-Middleware/Message-Queue/创建topic-02.png)  
+ ![创建topic步骤2](../../../../../image/Internet-Middleware/Message-Queue/创建topic-03.png)  
 I. The topic name can be entered according to the prompt information, and cannot be modified.  
 II. Message type consists of common message and global sequential message:  
 

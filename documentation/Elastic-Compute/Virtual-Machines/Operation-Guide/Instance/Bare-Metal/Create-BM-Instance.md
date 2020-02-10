@@ -7,7 +7,7 @@ You can use the following public images provided on and after January 2, 2020 in
 ## Private Image Creation
 The Bare Metal Virtual Machines requires your image to support UEFI start. If you need to create Bare Metal Virtual Machines via a private image on JD Cloud, please convert your private image to an image that supports UEFI start based on the following document. Currently, only private image with an operating system version of CentOS 7.2, CentOS 7.4 or CentOS 7.6 supports the following operation.
 
-If you need to migrate the current instance to a Bare Metal Virtual Machine, please make sure that the operating system version of your current instance is CentOS 7.2, CentOS 7.4 or CentOS 7.6. If the image category of your current instance is cloud disk system disk, then the first step in [Convert the Image to an Image that Supports UEFI Start](Create-BM-Instance#ImageTrans) can be neglected and you can directly take this instance as vm1 in the document and execute the follow-up steps based on document; if the image category of your current instance is local disk system disk, please create image for this instance and complete [Convert Image Type](https://docs.jdcloud.com/en/virtual-machines/convert-image), and then operate step by step according to the following document.
+If you need to migrate the current instance to a Bare Metal Virtual Machine, please make sure that the operating system version of your current instance is CentOS 7.2, CentOS 7.4 or CentOS 7.6. If the image category of your current instance is cloud disk system disk, then the first step in [Convert the Image to an Image that Supports UEFI Start](create-bm-instance#user-content-2) can be neglected and you can directly take this instance as vm1 in the document and execute the follow-up steps based on document; if the image category of your current instance is local disk system disk, please create image for this instance and complete [Convert Image Type](https://docs.jdcloud.com/en/virtual-machines/convert-image), and then operate step by step according to the following document.
 
 If you want to migrate your application in the local or other cloud environment to JD Cloud Bare Metal Virtual Machine, please save your application as an image and then execute [Private Image Importation](https://docs.jdcloud.com/en/virtual-machines/import-private-image).
 
@@ -15,7 +15,7 @@ If you want to migrate your application in the local or other cloud environment 
 
 ![](../../../../../../image/vm/BM-Image-Transfer1.png)
 
-<div id="ImageTrans"></div>
+<div id="user-content-2"></div>
 
 ### Convert the image to an image that supports UEFI start:
 1. Use your private image to create a Virtual Machine VM1 with the image category of cloud disk system disk.<br>
@@ -28,9 +28,11 @@ If you want to migrate your application in the local or other cloud environment 
    
   ./os-init.sh
 ```
-3. When the script execution is complete, Console will stop the vm1 and detach its system disk. You may refer to [Detach Cloud Disk]](https://docs.jdcloud.com/en/virtual-machines/detach-cloud-disk).
+
+3. When the script execution is complete, Console will stop the vm1 and detach its system disk. You may refer to [Detach Cloud Disk]](https://docs.jdcloud.com/en/virtual-machines/detach-cloud-disk)
 4. Take the detached vm1 system disk as a data disk to attach to Virtual Machine vm2 with the same operating system as vm1. You may refer to the document [Attach Cloud Disk](https://docs.jdcloud.com/en/virtual-machines/attach-cloud-disk). Please make sure that the operating system used by vm1 and vm2 is the same. For example, the operating system of vm1 is CentOS 7.6 and the operating system of vm2 is CentOS 7.4. Both vm1 and vm2 are in CentOS operating system.
 5. After attaching is completed, log in Virtual Machine vm2, then you can view disk partition information via the following command:
+
 ```
   lsblk
 ```
@@ -39,10 +41,12 @@ If you want to migrate your application in the local or other cloud environment 
  ![](../../../../../../image/vm/ImgTranfer3.png)
 
 6. It requires to execute the following command to create a file to be taken as the mount points of /dev/vdb1 and attach it thereon:
+
 ```
 mkdir newFile
 mount -o nouuid /dev/vdb1 newFile
 ```
+
 After attaching is completed, you can verify whether it is successful by running the `df -h` command. If the following result occurs, it indicates that /dev/vdb1 has been successfully attached to newFile.<br>
 ![](../../../../../../image/vm/ImgTranfer4.png)
 
@@ -75,7 +79,7 @@ Before operating imports images, it is required to ensure that [the Object Stora
 For uploading the image file in Virtual Machines to Object Storage Service, please refer to the document [Attach Bucket on Linux instance by using S3fs](https://docs.jdcloud.com/en/object-storage-service/s3fs). It requires long time for uploading steps, please wait patiently. If you need to complete the uploading quickly, you can choose to increase the Elastic IP bandwidth. Get the file downloading link after the uploading is completed.
 
 ### Import images
-For importing images, please refer to [Private Image Import](https://docs.jdcloud.com/en/virtual-machines/import-private-image#importIMG)
+For importing images, please refer to [Private Image Import](https://docs.jdcloud.com/en/virtual-machines/import-private-image#user-content-1)
 
 ### JD Cloud Processing
 After the image import is completed, JD Cloud needs to conduct related processing to your private image, so that it can be used by the Bare Metal Virtual Machines. Please open ticket to contact us after the image import is completed and indicate the private image ID in the ticket.

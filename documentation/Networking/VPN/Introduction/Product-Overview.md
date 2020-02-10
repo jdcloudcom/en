@@ -22,8 +22,8 @@ Where: VPN Gateway on cloud is carried by Border Gateway, Customer Gateway is th
 
 ### Hosted VPN VS Cloud Self-established VPN
 
-|          |                                                                    Hosted VPN  | Cloud Self-established VPN                                          |
-|:--------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
+|  | Hosted VPN | Cloud Self-established VPN |
+|:---:|:---:|:---:|
 | Simple Operation | VPN resources are created via console/API to establish VPN Tunnel | VPN software shall be installed into Virtual Machine and corresponding configuration shall be implemented for Virtual Machine to be as a VPN Gateway and establish VPN Tunnel with client.      |
 | Simple Operation and Maintenance  | Cloud manufacturers are responsible for maintenance on VPN’s underlayer facility | Cloud manufacturers are responsible for maintenance on VM's underlayer facility and customers are responsible for updating and maintaining VPN software in Virtual Machine.             |
 | High Availability | Two cloud public IP are automatically allocated to each VPN connection to establish at least two VPN tunnels with client devices. If fault occurs on certain tunnels, the route will be updated automatically by BGP with businesses being smoothly switched to tunnels available | Multiple virtual machines shall be created to establish multiple VPN tunnels with client devices and BGP Routing Protocol shall be self-realized by customers so as to achieve VPN high availability. |

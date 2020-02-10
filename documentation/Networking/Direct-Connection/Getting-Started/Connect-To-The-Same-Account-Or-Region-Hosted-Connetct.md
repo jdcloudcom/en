@@ -79,6 +79,10 @@ Primary configuration items are as follows:
 
 
 #### **Step 4: Create VPC Attachment interconnecting Border Gateway and VPC**
+```
+  The function of VPC Attachment is only released in regions of cn-east-2 and cn-south-1 and release time in other regions are to be determined.
+  For any region supporting no VPC Attachment, the Border Gateway will set up association relationship with all VPCs under the region by default. In such case, corresponding static route can be configured in the Border Gateway Route Table and VPC Route Table.
+```
 
 1. Log in JD Cloud console.
 
@@ -93,15 +97,15 @@ Primary configuration items are as follows:
 - - API name: Name of API connected Border Gateway and VPC;
 
   - Border Gateway: Select Border Gateway to be interconnected. Border Gateway can communicated with VPC internally and serve as the BGP running endpoint at the JD Cloud end and the customer IDC end;
-  
+
   - VPC: Select VPC to be interconnected;
-  
+
   - Transmitted VPC segment:
-  
+
     ``All VPC Segments``, full-automatic introduction method of Border Gateway routes, meaning that the system will automatically add Route Table entries accessing all VPC segments to Route Table of Border Gateway. All segments include segments of all current subnets of VPC, and the Route Table entries of the Border Gateway are automatically updated based on subsequent changes to the VPC subnet, for example, when adding a new subnet later, the system will automatically add routes reaching the new subnet to the Border Gateway Route Table, and when deleting the subnet, Route Table entries corresponding to the Border Gateway will be automatically deleted synchronously
-    
+
     ``Specified Subnet Segment``, semi-automatic introduction method of Border Gateway routes, meaning that the system will automatically add routes of specified segments in accessed VPC to Route Table of Border Gateway. Under the method, the route of the Border Gateway will not automatically adapt to adjustments outside the subnet specified within the VPC, for example, adding or deleting the subnet outside the range will not cause the route change of Border Gateway; however, if the subnet within the specified range changes, when deleting the subnet within the range, relevant route of this subnet will be synchronously deleted.
-    
+
     ``No Transmission Segment``, full-automatic configuration method of Border Gateway route, meaning that the system will not automatically add any VPC access routes to Route Table of Border Gateway, and a user needs to manually configure static routes in BGW Route Table.
 
 4. Click **OK**. In the VPC Attachment list, the status of the channel is configuring.
@@ -122,7 +126,7 @@ Primary configuration items are as follows:
   Static route method: If it is planned to adopt the customized route thoroughly, please adopt the static route configuration method. Click **Edit** on the "Route Policies" page in the route table to add route rules, in which the target end is the Cabinet Service business segment you expect to be accessed, the type of next hop selects Border Gateway and the next hop selects the name of Border Gateway to be connected.
 
   Automatic route transmission method: If you intend to simplify network configuration process, the automatic route transmission method can be adopted with the JD Cloud platform’s capacity of automatic route transmission from Border Gateway to VPC Route Table. One VPC can establish route transmission relationships with several Border Gateways at the same time. Click **Add** in the "Route Transmission" page in the Route Table and fill in route transmission information.
-  
+
 - - Border Gateway: Select a source Border Gateway transmitted routes to VPC
 
   - Route transmission range: Refer to the address range of routes which have the prefix CIDR and are transmitted from the Border Gateway to VPC. Support input of multiple CIDR ranges, with different CIDRs separated with English commas. After the transmission route is configured, this segment in the selected Border Gateway and route of its subnet segment will be transmitted to this Route Table. Support configuration of transmission 0.0.0.0/0 routes. In such case, it will transmit all routes in the selected Border Gateway.

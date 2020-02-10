@@ -6,12 +6,20 @@ You can consume messages in Queue Service Message Queuing by writing Function wh
 
 ## Function Service Role Permission
 
-Before creating Queue Service JQS Trigger, please make sure that Function to be associated has been added with a service role, and the service role policy contains the following necessary APIs permissions for Function round robin Queue Service message queuing to get message event:  
+Before creating Queue Service JQS Trigger, please make sure that Function to be associated has been added with a service role in the "Permission Configuration"/"Role", and the service role policy contains the following necessary APIs permissions for Function round robin Queue Service message queuing to get message event:  
 ReceiveMessage  
 DeleteMessage  
 DeleteMessageBatch
 
-You need to create a service role in "IAM" - "Role Management" in advance. To trust "Function Service" to access JD Cloud resources on behalf of you, you need to add round robin Queue Service JQS permissions for this role (The system policy of JDCloudQueneServiceTriggerFunction Queue Service Trigger Function Permissions preset by JQS can be directly added to this role). If there is no round robin Queue Service JQS APIs Permissions added in the Function Permission Configuration, the trigger creation fails.
+When the service role is added, you need to create a service role in "IAM" -- "Role Management" in advance. To trust "Function Service" to access JD Cloud resources on behalf of you, you need to add round robin Queue Service JQS permissions for this role (The system policy of JDCloudQueueServiceTriggerFunction Queue Service Trigger Function Permissions preset by JQS in IAM policy can be directly added to this role). If there is no round robin Queue Service JQS APIs Permissions added in the Function Permission Configuration, the trigger creation fails. For details, you can refer to [Create Service Role](../../../use-cases/role.md).
+
+
+ ![JQS10](https://github.com/jdcloudcom/cn/blob/function0116/image/Elastic-Compute/functionservice/JQS10.PNG)
+ 
+
+
+
+
 
 ## Trigger Configuration
 

@@ -1,4 +1,4 @@
-#  Deployment Application in Virtual Machines
+#  Virtual Machines Application Deployment
 
 On JDSF, users can deploy applications by way of Virtual Machines, specifically, by way of deployment group.
 

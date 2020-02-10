@@ -4,7 +4,7 @@ You can subscribe Video Quality Detection Service by any of the following method
 
 -   Dial 400-615-1212 to have your Video Quality Detection Service subscribed by the customer service staff.
 
--   Log in JD Console, find the ticket on the top menu bar, click to enter the ticket system and fill in the [Application for User Permission] ticket. Then, the customer service will contact you about the subscription of Video Quality Detection Service.
+-   Login the [Video Quality Detection Ticket System](https://ticket.jdcloud.com/applyorder/form?cateId=352&questionId=821), fill in the [Use Permission Application] ticket and then the customer service will contact you about the subscription affairs of video quality detection service.
 
 # Get URL of video to be detected
 

@@ -296,6 +296,8 @@ Storage Optimization type currently includes Storage Optimization IO type and St
 * vCPU to Memory Ratio is 1:4
 * Provide local storage of low latency and high IO
 * Processor:
+	* Generation III: Intel Xeon Gold 6267 (Cascade Lake) processor with 2.6 GHz dominant frequency  
+	* Generation II: Intel Xeon Gold 6148 (Skylake) processor with 2.4 GHz dominant frequency
 	* Generation I: Intel Xeon E5-2683 v4 (Broadwell) processor with 2.1 GHz dominant frequency
 * Support local data disk (for temporary storage) and support the following types of Cloud Disks: Please note that **local data disk is a temporary storage disk that is exposed to the loss of data (e.g. under the circumstance of transfer or system breakdown of host computers) and is not applicable to the customer scenarios where there is no data redundancy structure in the application layer. You are suggested to store important data in Cloud Disks.** 
 	* General SSD Cloud Disk
@@ -307,6 +309,25 @@ Storage Optimization type currently includes Storage Optimization IO type and St
 	* JCS for Elasticsearch and other circumstances
 
 **Instance Type**
+
+
+Generation III:
+
+Instance Type|vCPU (core)|Memory (GB)|Local Data Disk (temporary storage|multi-queue network interface
+:---|:---|:---|:---|:---
+|s.i3.2xlarge|8|32|1 x 1862 NVMe SSD|4
+|s.i3.4xlarge|16|64|2 x 1862 NVMe SSD|4
+|s.i3.6xlarge|24|96|3 x 1862 NVMe SSD|4
+|s.i3.8xlarge|32|128|4 x 1862 NVMe SSD|4
+|s.i3.12xlarge|48|192|6 x 1862 NVMe SSD|4
+|s.i3.16xlarge|64|256|8 x 1862 NVMe SSD|4
+|s.i3.22large|88|352|8 x 1862 NVMe SSD|4
+
+Generation II:
+
+Instance Type|vCPU (core)|Memory (GB)|Local Data Disk (temporary storage|multi-queue network interface
+:---|:---|:---|:---|:---
+|s.i2.metal|88|384|1 x 1862 NVMe SSD|60
 
 Generation I:
 

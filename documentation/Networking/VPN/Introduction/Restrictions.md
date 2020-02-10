@@ -8,8 +8,12 @@
   - UDP 500, for IKE negotiation;
   - IP 50, for IPsec ESP negotiated and encrypted data package transmission;
   - UDP 4500, NAT Traversal (NAT-T) shall be enabled at the same time if your client devices are behind the NAT devices;
-* MTU shall not exceed 1450;
+* MTU configured at the client contains no more than 1,400 bytes;
 
+
+#### Other Restrictions for VPN Connection
+* Do not support IPv6;
+* Do not support path MTU discovery;
 
 #### Compatible with Client
 List of clients passing the test:
@@ -27,16 +31,16 @@ List of clients passing the test:
 
 #### Related Resources Quota for VPN
 
-|   Product | Resource | Restriction | Exceptional Application Method |
-|:--------:|:-----------------------------------------------------------:|:----------------------------------------------------------------------:|:------------:|
-| VPN Connection | Number of VPN Connections creatable supported by each Border Gateway in the same region | 10 | Tickets     |
-|          |                Number of cloud public network addresses under the same VPN Connection | 2 | The number cannot be increased   |
-|          |               Number of VPN Tunnels creatable for the same VPN Connection | Up to (number of cloud public network address connected by VPN * number of Customer Gateway’s public network address piece) VPN Tunnels can be created | The number cannot be increased   |
-|          | Number of VPN Tunnels creatable between the same pair of cloud public network address and customer gateway public network addresses | 1 | The number cannot be increased   |
-| Border Gateway | Number of Border Gateways in the same region | 5 | Tickets     |
-|          |                Number of VPC Attachments creatable for each Border Gateway | 50 | Tickets     |
-|          |               Number of Static Route rules for the same Border Gateway | 50 | Tickets     |
-|          |               Number of Dynamic Route rules for the same Border Gateway | 300 | Tickets     |
+| Product | Resource | Restriction | Exceptional Application Method |
+|:---:|:---:|:---:|:---:|
+| VPN Connection | Number of VPN Connections creatable supported by each Border Gateway in the same region | 10 | Tickets |
+| | Number of cloud public network addresses under the same VPN Connection | 2 | The number cannot be increased |
+| | Number of VPN Tunnels creatable for the same VPN Connection | Up to (number of cloud public network address connected by VPN * number of Customer Gateway’s public network address piece) VPN Tunnels can be created | The number cannot be increased   |
+| | Number of VPN Tunnels creatable between the same pair of cloud public network address and customer gateway public network addresses | 1 | The number cannot be increased |
+| Border Gateway | Number of Border Gateways in the same region | 5 | Tickets |
+| | Number of VPC Attachments creatable for each Border Gateway | 50 | Tickets |
+| | Number of Static Route rules for the same Border Gateway | 50 | Tickets |
+| | Number of Dynamic Route rules for the same Border Gateway | 300 | Tickets |
 | VPC Attachment | Number of VPC Attachments creatable between the same pair of VPC and Border Gateway | 1 | The number cannot be increased   |
-| Customer Gateway | Number of Customer Gateways in the same region | 10 | Tickets     |
-|          |                 Number of public network addresses for the same Customer Gateway | 4 | The number cannot be increased.   |
+| Customer Gateway | Number of Customer Gateways in the same region | 10 | Tickets |
+| | Number of public network addresses for the same Customer Gateway | 4 | The number cannot be increased.   |

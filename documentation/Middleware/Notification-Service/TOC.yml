@@ -46,10 +46,16 @@
             href: Operation-Guide/Topic-Management/Manage-Topic.md
       - name: Subscription management
         items:
+          - name: Create Subscription
+            href: Operation-Guide/Subscription-Management/Create-Subscription.md      
+          - name: Subscribe Acknowledgement
+            href: Operation-Guide/Subscription-Management/Subscription-Confirm.md
           - name: Subscription Filtering Policy
             href: Operation-Guide/Subscription-Management/Filtering-Policies.md
       - name: Message Management
         items:
+          - name: Publish Messages
+            href: Operation-Guide/Message-Management/Publish-Message.md           
           - name: Message Transmission Retry Policy
             href: Operation-Guide/Message-Management/Reties-Policies.md     
       - name: Monitoring Alarm

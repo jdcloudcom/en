@@ -4,6 +4,11 @@
 
 VPC Attachment, is the service provided by JD Cloud, which is used to Get through the connection between JD Public Cloud VPC and Border Gateway, and realize the interconnection of single or multiple VPCs of JD Cloud and your IDC own network at the Intranet level, or your convenient connection among multiple VPCs in the same region on JD Cloud to provide users with rich and flexible connectivity solutions between the Hybrid Cloud and Isolation Network.
 
+```
+  The function of VPC Attachment is only released in regions of cn-east-2 and cn-south-1 and release time in other regions are to be determined.
+  For any region supporting no VPC Attachment, the Border Gateway will set up association relationship with all VPCs under the region by default. In such case, corresponding static route can be configured in the Border Gateway Route Table and VPC Route Table.
+```
+
 ### Features
 
 - Connect VPC to border gateway: Get through the connection between JD Public Cloud VPC and border gateway, and then use the transfer capability of border gateway to realize high-speed interconnection among one VPC and multiple VPCs in the same region or among VPN connection/private virtual interface/hosted private virtual interface.
@@ -17,5 +22,3 @@ VPC Attachment, is the service provided by JD Cloud, which is used to Get throug
   VPC->Route transmission to a border gateway: When creating VPC attachment based on border gateway, if "VPC All Segment" or "Specify Subnet Segment" is selected in the transmission of VPC segment, it is the automatic route transmission method. The Border Gateway Transmission Route Table will automatically add or delete route table items that reach the relevant subnet based on the configured subnet scope, the route prefix is the subnet segment, and the Next Hop is the VPC Attachment connecting the specified VPC and the Border Gateway.
 
 - Static Route Configuration: VPC and Border Gateway can realize the interconnection of VPC and Border Gateway through configuration of static route.
-
-- High Network Performance: The performance of single VPC Attachment can be up to 10Gbps.

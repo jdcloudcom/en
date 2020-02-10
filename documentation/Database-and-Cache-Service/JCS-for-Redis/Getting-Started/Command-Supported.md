@@ -55,9 +55,13 @@ Description:
 
 2. SORT command supports writing results in destination, so the destination shall be ensured to be in the same slot as the key. Otherwise, (error) ERR CROSSSLOT Keys in request don't hash to the same slot error occurs
 
+- Commands not supported in redis2.8 lua script: bgsave, bgrewriteaof, shutdown and config
+
+- Commands not supported in redis4.0 lua script: swapdb, rename, renamenx, bgsave, bgrewriteaof, shutdown, config, cluster, post and host:
+
 ## Increased Commands Supported by 4.0
 
-Key|Hash|SortedSet|Server|Scripting|HyperLogLog|Geo| Pub/Sub (Publication/Subscription) |
+| Key|Hash|SortedSet|Server|Scripting|HyperLogLog|Geo| Pub/Sub (Publication/Subscription) |
 | :-----: | :----------: | :-------------------: | :--------------: | :-------------: | :----------------: | :---------------: | :------------------: |
 | OBJECT  |   HSTRLEN    |    ZREVRANGEBYLEX     |      DBSIZE      |      EVAL       |       PFADD        |      GEOADD       |      PSUBSCRIBE      |
 |  TOUCH  |              |                       |    RANDOMKEY     |     EVALSHA     |      PFCOUNT       |     GEORADIUS     |       PUBLISH        |
@@ -79,7 +83,7 @@ MEMORY stats 1 indicates viewing the memory statistic information of Shard 1, an
 
 ## Commands not Supported by Cluster Instance
 
-Key|String|List|Set|SortedSet|Server|Transaction|
+| Key|String|List|Set|SortedSet|Server|Transaction|
 | :-------: | :--------------: | -----------: | ------------ | ---------------------- | ----------------- | ------------------- |
 |  RENAME   |      BITOP       |    RPOPLPUSH | SDIFF        | ZUNIONSTORE            | SLOWLOG           | DISCARD             |
 | RENAMENX  |      MSETNX      |              | SDIFFSTORE   | ZINTERSTORE            | CONFIG REWRITE    | EXEC                |

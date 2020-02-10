@@ -1,20 +1,16 @@
 name: Shorturl
-  href:
-  items:
+href:
+items:
     - name: Introduction
       items:
         - name: Product Overview
           href: Introduction/Product-Overview.md
         - name: Core Concepts
           href: Introduction/Core-Concepts.md
-        - name: Basic Architecture
-          href: Introduction/Basic-Infrastructure.md
         - name: Benefits
           href: Introduction/Benefits.md
         - name: Features
           href: Introduction/Features.md
-        - name: Specifications
-          href: Introduction/Specifications.md
         - name: Restrictions
           href: Introduction/Restrictions.md
         - name: Application Scenarios
@@ -40,11 +36,11 @@ name: Shorturl
     - name: Operation Guide
       items:
         - name: Overview
-            href: Operation-Guide/Shorturl-Overview.md
+          href: Operation-Guide/Shorturl-Overview.md
         - name: Required Parameter Description
-            href: Operation-Guide/Shorturl-Parameter-Info.md
+          href: Operation-Guide/Shorturl-Parameter-Info.md
         - name: Special Notification
-          - href: Operation-Guide/Special-Tip.md
+          href: Operation-Guide/Special-Tip.md
     - name: Best Practices
       items:
         - name: Information Promotion Through Short URL in Short Message

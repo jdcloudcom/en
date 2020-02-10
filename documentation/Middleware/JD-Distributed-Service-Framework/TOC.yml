@@ -27,10 +27,12 @@ items:
       herf: Getting-Started/Getting-Started.md
     - name: Examples for Getting Started
       herf: Getting-Started/Basic-Example.md
-    - name: Use APIs in Open VPC of API Gateway
-      herf: Getting-Started/GW_VPC.md
     - name: Description for JD Distributed Service Framework Plug-in
       herf: Getting-Started/JDSF-Plugin.md
+    - name: Use APIs in Open VPC of API Gateway
+      herf: Getting-Started/GW_VPC.md
+    - name: Kubernetes Application Deployment
+      herf: Getting-Started/Demo-Deploy-K8S.md
 - name: Operation Guide
   items:
     - name: Namespace
@@ -45,9 +47,9 @@ items:
       items:
         - name: Application Management Overview
           herf: Operation-Guide/APP-Manage/APPList.md        
-        - name: Deployment Application in Virtual Machines
+        - name: Virtual Machines Application Deployment
           herf: Operation-Guide/APP-Manage/APPDeloy.md
-        - name: Deployment Application in K8S
+        - name: Kubernetes Application Deployment
           herf: Operation-Guide/APP-Manage/APPDeloyK8S.md
         - name: Deployment Group
           herf: Operation-Guide/APP-Manage/Deploy-Group.md

@@ -82,7 +82,7 @@ Now, JD Distributed Service Gateway Service supports two calling methods: extern
 
 | Information Item |Description |
 |---|---|
-| Region and Availability Zone | The system assignment method is recommended for use to guarantee high availability of system at the greatest extent. Please note during creation that the different regional resource intranets neither be interconnected to each other, nor be changed upon creation.  |
+| Region and Availability Zone | The system assignment method is recommended for use to guarantee high availability of system at the greatest extent. Please note during creation that the different regional resource intranets neither be interconnected to each other, nor be changed upon creation. At present, the "system distribution" provides and supports multiple availability zones. "Users can select" 1 availability zone and only 1 availability zone is supported. |
 | JD Distributed Service Gateway Name |  The service name cannot be modified after being created. Subsequently, a bridge between API Gateway and JD Distributed Service Gateway will be built.   |
 | Creation Method-General Method of JD Distributed Service Gateway | Used for calling each JD Distributed Service and served as the general method of JD Distributed Service. If the user selects to adopt this method with the API gateway, he/she needs to select the "JD Distributed Service API Group" at the time of selecting the API group type while creating API group in the API Gateway.    |
 | Creation Method-VPC Agent | It can call the Internet via the API Gateway when the service of accessing IP and port via the Internet is not enabled, to further guarantee security of user’s external service. If the user selects to adopt this method with the API Gateway, he/she needs to select the "General API Group" at the time of selecting the API group type while creating API group in the API Gateway. |
@@ -494,6 +494,7 @@ Operations which can be made by the user on the service list page include:
 
 
 
+- If you resource(s) cannot be deleted, please check if your account is in arrears. If yes, please pay the arrears first and then delete the resource(s). If you still have other problems, please contact us via the customer service or by opening ticket.
 
 
 

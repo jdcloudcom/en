@@ -49,6 +49,10 @@ items:
       href: Operation-Guide/Statistical-Analysis.md
     - name: Identity and Access Management (IAM)
       href: Operation-Guide/IAM.md     
+- name: Upload SDK
+  items:
+    - name: AWS Native SDK Upload
+      href: Upload-SDK/AWS-Native-SDK-Upload.md
 - name: Best Practices
   items:
     - name: Terminal Format Suggestion

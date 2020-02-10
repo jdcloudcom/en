@@ -15,7 +15,7 @@ Connection method:
 
 Database version:
 
-- SQL Server 2018R2 Enterprise Version
+- SQL Server 2008R2 Enterprise Version
 - SQL Server 2012 Enterprise Version
 - SQL Server 2014 Enterprise Version
 - SQL Server 2016 Enterprise Version

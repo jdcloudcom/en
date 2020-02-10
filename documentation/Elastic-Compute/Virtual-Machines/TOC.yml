@@ -119,8 +119,14 @@ items:
             href: Operation-Guide/Image/Image-Type.md
           - name: Components of Public Image System
             href: Operation-Guide/Image/Default-Agent-in-Public-Image.md            
+          - name: Public Image Update Records
+            href: Operation-Guide/Image/Public-Image-Update-Record.md 
           - name: Make Private Image
             href: Operation-Guide/Image/Create-Private-Image.md
+          - name: Image Type Conversion
+            href: Operation-Guide/Image/Convert-Image.md
+          - name: Image Replication
+            href: Operation-Guide/Image/Copy-Image.md
           - name: Import images
             items:
               - name: Import private images
@@ -133,14 +139,12 @@ items:
                 href: Operation-Guide/Image/Convert-Image-File-Format.md
               - name: Conversion of Images in ISO Format
                 href: Operation-Guide/Image/Convert-Image-File-Format-From-ISO.md
+          - name: Export Image
+            href: Operation-Guide/Image/Export-Private-Image.md
           - name: Share Private Image
             href: Operation-Guide/Image/Share-Image.md
           - name: Cancel Private Image Sharing
             href: Operation-Guide/Image/Cancel-Share-Image.md
-          - name: Image Type Conversion
-            href: Operation-Guide/Image/Convert-Image.md
-          - name: Copy Image
-            href: Operation-Guide/Image/Copy-Image.md
           - name: Delete Private Image
             href: Operation-Guide/Image/Delete-Private-Image.md
       - name: Storage

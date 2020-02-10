@@ -53,5 +53,5 @@ Public network (require no configuration): The function opens public network acc
 | Python 3.7   | Python 3.7 Version | [python \runtime](runtime/python.md) | 
 | NodeJS 6    | NodeJS 6.17 Version | [nodejs runtime](runtime/nodejs.md) | 
 | NodeJS 8    | NodeJS 8.16 Version | [nodejs runtime](runtime/nodejs.md) | 
-
+| Java 8    | Java 8 Version | [java runtime](runtime/java.md) |
  

@@ -1,12 +1,10 @@
 # Release API Groups
 
-After API group created, it is required to publish the API group before using it. Currently, the JD Cloud provides 3 sets of publishing environment: Test, Pre-release and On-line. You can publish and test the API group in Test and pre-release environment, and download the SDK and documents; and officially publish the SDK and documents of on-line API group in on-line environment.
-
-API caller can access and call the API through custom domain or secondary domain after publishing.
+After API group created, it is required to publish the API group before using it. Currently, the JD Cloud provides 3 sets of publishing environment: Test, Pre-release and On-line. API caller can access and call the API through custom domain or secondary domain after publishing.
 
 Please note that:
-- If selecting Mock backend in publishing, directly return to normal constant result instead of requesting the real back service when commissioning. This method applies to test if the request link of API is correct and skip the APP authentication and signature verification;
-- The gateway will actually request the backend service if selecting the unique backend and call the backend address.
+
+* You need to make backend configuration to API group and release it then.
 
 
 ## Operation Steps:
@@ -15,14 +13,13 @@ Please note that:
 
 Firstly, enter the **API Group Management** page and find the group to be published
 
-![APIgroup list](../../../../../image/Internet-Middleware/API-Gateway/apigroup-rp-apigroup-list.png)
-
+![APIgroup list](../../../../../image/Internet-Middleware/API-Gateway/group-publishing-1.png)
 
 
 
 ### STEP2: click the **Publish**:
 
-![Publish](../../../../../image/Internet-Middleware/API-Gateway/apigroup-fb.png)
+![发布](../../../../../image/Internet-Middleware/API-Gateway/group-publishing-2.png)
 
 
 Description:
@@ -32,20 +29,18 @@ Description:
    
 2) Select the environment to be published. API gateway provides three environments: Test, Pre-release, On-line.
 
-3) Select the publishing type of backend service. Support Mock backend and real backend at present. When commissioning, if selecting Mock backend to publish, then do not request the real backend service, but return to constant result. This method applies to test if the request link of API is correct and skip the APP authentication and signature verification.
 
 
-
-### STEP3: Manage the versions published in different environments in the deployment management:
+### STEP3: Manage versions in the release list, which are released under each environment:
 The deployment of different environments can be seen in the page of deployment management after publishing.
-![Deployment list](../../../../../image/Internet-Middleware/API-Gateway/bslb-list.png)
+![发布列表](../../../../../image/Internet-Middleware/API-Gateway/group-publishing-3.png)
 
-API gateway supports to manage the API version used for test/online, so you can publish or off-line the API and switch the version will take effect immediately.
-![Switch Version](../../../../../image/Internet-Middleware/API-Gateway/bslb-qhbb.png)
+API Gateway supports version management for testing/pre-releasing/on-line API groups. You can release API groups and off-line API groups and switch versions, with switched versions taking effect in real time.
+![切换版本](../../../../../image/Internet-Middleware/API-Gateway/group-publishing-4.png)
 
 ### STEP4: logoff
 Directly click the "Off-line" if required, it will take effect in real time.
 
-![Logoff](../../../../../image/Internet-Middleware/API-Gateway/bslb-xx.png)
+![下线](../../../../../image/Internet-Middleware/API-Gateway/group-publishing-5.png)
 
 

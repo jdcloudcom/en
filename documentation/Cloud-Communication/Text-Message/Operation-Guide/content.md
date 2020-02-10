@@ -51,6 +51,5 @@ After the review is submitted, you can view the review status in the SMS templat
 Note: 
 Verification Code SMS and Notification SMS shall be called via API or SDK.  
 Promotion SMS and notification SMS can be sent on line via the "Send SMS" page on the Console and the on-line sending does not support the SMS with variables  
-For details, please refer to https://docs.jdcloud.com/en/?act=3  
 Relevant information necessary for API and SDK can be obtained in the Overview Page  
 ![ak](../../../../image/Text-Message/dx-017a.png)  

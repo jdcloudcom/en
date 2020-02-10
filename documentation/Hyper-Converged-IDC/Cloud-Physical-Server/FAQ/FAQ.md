@@ -61,4 +61,4 @@
 
 15.Q: What Security Services are supported to be accessed to Cloud Physical Server?
 
-&nbsp;&nbsp;&nbsp;AJD Cloud automatically offers up to 2Gbps traffic protection for your Public IP from malicious attack for free, please refer to Operation Guide for Enabling Anti-DDoS Basic [https://docs.jdcloud.com/anti-ddos-basic/anti-ddos-basic-started](https://docs.jdcloud.com/anti-ddos-basic/anti-ddos-basic-started); Besides, if you have purchased JD Cloud Web Application Firewall, please refer to Operation Guide for Configuring Web Application Firewall [https://docs.jdcloud.com/web-application-firewall/web-attack-protection](https://docs.jdcloud.com/web-application-firewall/web-attack-protection)
+&nbsp;&nbsp;&nbsp;AJD Cloud automatically offers up to 2Gbps traffic protection for your Public IP from malicious attack for free, please refer to [Operation Guide](https://docs.jdcloud.com/anti-ddos-basic/anti-ddos-basic-started) for Enabling Anti-DDoS Basic; Besides, if you have purchased JD Cloud Web Application Firewall, please refer to [Operation Guide](https://docs.jdcloud.com/web-application-firewall/web-attack-protection) for Configuring Web Application Firewall

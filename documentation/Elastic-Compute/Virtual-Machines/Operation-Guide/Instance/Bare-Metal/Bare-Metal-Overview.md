@@ -4,7 +4,7 @@ The Bare Metal Virtual Machines are of a VM instance type launched based on JD C
  
 ## Product Features
 *  Perfect performance: It has the same perfect performance as physical machines, providing network and storage with hardware acceleration capability, unintalling the original virtual network and storage protocol stack load from physical host machine to specified hardware without extra virtualization depletion, providing network bandwidth with speed over 10Gbit/s, and supporting nested virtualization
-*  Security isolation: It provides hardware-level isolation and exclusive resources (80C384GB), which means you do not need to scramble for the resources of machines with other users on cloud
+*  Security isolation: It provides hardware-level isolation and exclusive resources, which means you do not need to scramble for the resources of machines with other users on cloud
 *  Delivery within minutes: It can deliver a Bare Metal Virtual Machine within minutes without advanced purchasing and manual intervention, which ensures in-time response to demand on business expansion
 *  Seamless integration of cloud products: It is fully compatible with cloud products including VPC, cloud disk service, cloud database and cloud monitoring, providing complete cloud solutions
 *  Consistent management experience: It supports console and SDK/OpenAPI/CLI operation, providing the same experience as ordinary Virtual Machines
@@ -110,7 +110,7 @@ The Bare Metal Virtual Machines are of a VM instance type launched based on JD C
 
 ## Instance Type
 
-Support general Bare Metal Virtual Machines currently: g.n2.metal (80C384GB):
+Support general Bare Metal Virtual Machines currently g.n2.metal (80C384GB) and storage optimized Bare Metal Virtual Machines s.i2.metal (80C384GB+1862GB NVMe SSD):
 
 *	Intel Xeon Gold 6148 (Skylake) Processor based on 2.4 GHz dominant frequency.
 * 	Memory based on the latest generation 2666 DDR4.

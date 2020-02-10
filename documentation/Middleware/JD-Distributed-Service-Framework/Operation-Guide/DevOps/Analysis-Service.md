@@ -72,6 +72,9 @@ Step 2: Change the count of calling log concurrent writes
    ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/dyl-del.png)
 
 Description:
+
 - After deleting, the calling chain data will be discarded, please be careful for action.
+
+- If you resource(s) cannot be deleted, please check if your account is in arrears. If yes, please pay the arrears first and then delete the resource(s). If you still have other problems, please contact us via the customer service or by opening ticket.
 
 

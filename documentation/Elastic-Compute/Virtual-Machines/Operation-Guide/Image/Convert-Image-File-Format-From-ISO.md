@@ -53,3 +53,4 @@ Please refer to [private image imporation](https://docs.jdcloud.com/en/virtual-m
 Open the virt-manager and the hardware configuration page, open the icon with lamp bulb, and choose the left disk option. The right "Source path" is image file path.
 
 ![](../../../../../image/vm/Image-Import-convert-iso17.png)<br>
+

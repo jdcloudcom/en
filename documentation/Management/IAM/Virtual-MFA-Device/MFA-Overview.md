@@ -6,4 +6,4 @@ Virtual MFA equipment is a software-based application that generates dynamic ver
 # JD Cloud APP
 JD Cloud APP is the unified virtual MFA device provided by JD Cloud for the convenience of users. It is recommended that you associate to your user information through this application to generate dynamic verification codes.
 
-![京东云APP](https://github.com/jdcloudcom/cn/blob/1231_ycx/image/IAM/Virtual-MFA-Device/%E4%BA%AC%E4%B8%9C%E4%BA%91APP.png)
+![应用程序](https://github.com/jdcloudcom/cn/blob/1231-ycx/image/IAM/Virtual-MFA-Device/应用程序.png)

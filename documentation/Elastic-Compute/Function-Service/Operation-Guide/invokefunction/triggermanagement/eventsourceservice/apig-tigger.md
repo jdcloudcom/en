@@ -7,7 +7,7 @@ You can implement Web backend services through writing Function and provide serv
 
  
 
-See Table 1 for the trigger configuration parameter description for API Gateway trigger, * is a compulsory item.
+See Table 1 for the trigger configuration parameter description for API Gateway, * is a compulsory item.
  
 Table 1 API Gateway Trigger Information Table
 

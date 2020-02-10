@@ -15,9 +15,16 @@ For example, a user can respectively create 3 namespaces in the same VPC for the
 
 3.	 Set service information, click **Buy Now** button and complete creation.
 
+![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/mmkj-list-1.png)
+
+
 **Description:**
 
 -  The registration center will be synchronously generated to manage all service registration and discovery under the namespace.
+
+-  The application number displayed by the namespace refers to the total number of applications attached under the namespace, including those deployed, failed and un-deployed yet. However, the application number displayed by the registration center refers to the number of applications which are deployed and can be discovered in the registration center.
+
+-  At present, the "system distribution" provides and supports multiple availability zones. "Users can select" 1 availability zone and only 1 availability zone is supported.
 
 ![](../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/np-create-1.png)
 

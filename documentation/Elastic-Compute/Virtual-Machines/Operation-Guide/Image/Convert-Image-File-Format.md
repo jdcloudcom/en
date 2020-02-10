@@ -65,3 +65,4 @@ Where,
 ```
 .\qemu-img.exe info image_out.qcow2
 ```
+

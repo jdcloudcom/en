@@ -63,6 +63,8 @@
             href: Operation-Guide/VPN-Connection-Management/VPN-Connection-Configuration.md
           - name: VPN Tunnel Configuration
             href: Operation-Guide/VPN-Connection-Management/VPN-Tunnel-Configuration.md
+          - name: VPN Connection Monitoring
+            href: Operation-Guide/VPN-Connection-Management/VPN-Connection-Monitoring.md
        - name: Client Management
          items:
           - name: Cisco Client Configuration
@@ -79,7 +81,7 @@
             href: Operation-Guide/Route-Management/VPC-Route-Configuration.md
   - name: Best Practices
     items:
-       - name: VPN High Availability
+       - name: VPN with High Availability
          href: Best-Practices/VPN-High-Available.md
        - name: Direct VPN Hybrid Cloud Solution
          href: Best-Practices/Connection-With-DirectConnect.md
@@ -108,4 +110,3 @@
     - name: Document History Records
       href:
       status: 0
-

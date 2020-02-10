@@ -9,3 +9,4 @@
 3. You can Click **Share Image** in the list operation column, select the account to be unshared from the shared account displayed in the pop-up window, click **Cancel Sharing** in the operation column, then the sharing of private image with the corresponding account is canceled, and the image will be automatically removed from the **Shared Image** list of the corresponding account. You can also click on the image name to enter the detail page, select the **Image Sharing** TAB to view the account shared by this image, and click **Cancel Sharing**.
 
 
+

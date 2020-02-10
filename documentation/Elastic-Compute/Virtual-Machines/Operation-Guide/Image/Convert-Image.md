@@ -30,3 +30,4 @@ You must ensure that the private image and cloud disk snapshot quotas are suffic
   [1]: https://cns-console.jdcloud.com/host/image/list
   [2]: https://console.jdcloud.com/
  
+

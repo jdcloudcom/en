@@ -17,7 +17,7 @@ For creation of VPC Attachment and setting of VPC transmission segment, refer to
 If VPC Attachment is created with no VPC segment being assigned for transmission, routes to VPC can be manually added.
 a) Log in [JD Cloud Border Gateway Console](https://cns-console.jdcloud.com/host/borderGateway/list);  </br>
 b) Click corresponding border gateway and enter border gateway Details Page;</br>
-c) The "Route Table" Tab will display effective, static and dynamic route tables on current Border Gateway, click **Edit** on "Static Route Table" and select **Add One**. Target End is targeted VPC Intranet segment, Type of Next Hop is VPC Attachment and Next Hop is VPC Attachment created with VPC. Comments can be added to the route. For more content of Border Gateway Route Going Into Effect, refer to [Border Gateway Route Management](https://docs.jdcloud.com/en/direct-connection/border-gateway-features);
+c) The "Route Table" Tab will display effective, static and dynamic route tables on current Border Gateway, click **Edit** on "Static Route Table" and select **Add One**. Target End is targeted VPC Intranet segment(such as: 192.168.0.0/24), Type of Next Hop is VPC Attachment and Next Hop is VPC Attachment created with VPC. Comments can be added to the route. For more content of Border Gateway Route Going Into Effect, refer to [Border Gateway Route Management](https://docs.jdcloud.com/en/direct-connection/border-gateway-features);
 
 ```
   Valid route table stores all valid route clauses in Border Gateway.
@@ -28,7 +28,7 @@ c) The "Route Table" Tab will display effective, static and dynamic route tables
 ##### 3. Border Gateway route table adds route to client
 a) Log in [JD Cloud Border Gateway Console](https://cns-console.jdcloud.com/host/borderGateway/list);  </br>
 b) Click corresponding border gateway and enter border gateway Details Page;</br>
-c) In "Route Table" Tab, click **Edit** on "Static Route Table" and select **Add One**. Target End is targeted client segment, Type of Next Hop is VPN Connection and Next Hop is VPN Connection created with Customer Gateway. Comments can be added to the route.
+c) In "Route Table" Tab, click **Edit** on "Static Route Table" and select **Add One**. Target End is targeted client segment(Such as: 10.0.0.0/16), Type of Next Hop is VPN Connection and Next Hop is VPN Connection created with Customer Gateway. Comments can be added to the route.
 
 ```
   Because there are multiple VPN tunnels contained in VPN Connection, it is defaulted that traffic flows through all VPN tunnels with tunnel status as "UP". You shall disconnect or disable the tunnel if you want to prevent traffic from flowing through certain VPN tunnel.

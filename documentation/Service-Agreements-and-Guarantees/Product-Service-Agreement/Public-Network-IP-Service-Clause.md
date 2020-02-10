@@ -1,10 +1,10 @@
-**This Service Terms is a valid agreement between the owner of the JD Cloud website (referred to in this Agreement as "JD Cloud" website: www.jdcloud.com) and you on matters relating to the EIP service. By stamping, clicking to confirm on the web page, or other ways to accept the Service Terms, including but not limited to the actual use of EIP service of JD Cloud without clicking to confirm the Service Terms, you have reached an agreement with JD Cloud and agreed to accept all agreed contents of the Service Terms. In case of any inconsistency between the text stamped by both parties and the text of Service Terms accepted and confirmed by clicking the web page or other ways, the text stamped by both parties shall prevail.**
+**These Service Terms are the effective contract concluded by and between the owners of the JD Cloud website (referred to as "JD Cloud" website in the Agreement: http://www.jdcloud.com/) and you on the matters related to Elastic IP. You select to accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using JD Cloud Elastic IP service without clicking to confirm, indicating that you have reached an agreement with JD Cloud and agree to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
 
 **For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud and JD Cloud will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud, please do not continue the operation.**
 
 ## **1. Service Content**
 
-1.1 "Services" in the terms means JD Cloud provides you with the EIP service and related technical and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
+1.1 For the purpose of these terms, the "service" means: JD Cloud provides you with the Elastic IP service as well as related technologies and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
 
 ​1.2. The service provided by JD Cloud must comply with the provisions of the Service Terms.
 
@@ -24,13 +24,13 @@
 
 3.1.2 You shall pay the corresponding service fee according to the instructions of JD Cloud on the page and the provisions of the Service Terms.
 
-3.1.3 You promise that when you are using the EIP service:
+3.1.3 You undertake that, during your use of the Elastic IP service:
 
 3.1.3.1 You shall not conduct any behavior or attempt to undermine the network security (including but not limited to phishing, hacking, phishing, website or space containing or suspected of spreading: viruses, Trojans and malicious codes as well as suspected behaviors of attacking other websites and servers via virtual servers, such as scanning, sniffing, ARP spoofing and DDOS);
 
 3.1.3.2 You shall not change or attempt to change the system configuration provided by JD Cloud or damage the system security and network security;
 
-3.1.3.3 You shall not modify, translate, adapt, lease, transfer, or transmit on the information networks the software or services provided by JD Cloud, and the source code of software provided by JD Cloud shall not be discovered through reverse engineering, decompiling or other ways;
+3.1.3.3. The software or service provided by JD Cloud may not be modified, translated, adapted, leased, sub-licensed, or disseminated or transferred on the information network, nor reversely engineered, decompiled or found the source code of the software provided by JD Cloud in other ways by attempt;
 
 3.1.3.4 You shall not copy, distribute, transfer, license or provide others to use the EIP service provided by JD Cloud without the prior written consent of JD Cloud;
 
@@ -56,7 +56,7 @@
 
 3.1.3.7 You shall not occupy, or lead programs or processes, etc. to occupy a large amount of server memory, CPU or network bandwidth resources in the platform (hereinafter referred to as "cloud platform") composed of JD Cloud computing resources (such as Virtual Machines, network bandwidth and storage space), or bring severe and unreasonable loads to the JD Cloud platform or JD Cloud's other users' networks, servers (including but not limited to local and nonlocal and international networks, servers, etc.), products/applications, etc., or affect the normal and smooth communication among JD Cloud and the Internet, or JD Cloud and specific networks, servers, interior of JD Cloud as well, or result in server's downtime, crash of products and services of JD Cloud or other users, or no access to products/applications on the cloud platform for the users and other problems;
 
-3.1.3.8 You shall not use EIP service in any manner or purpose that would violate national and local laws and regulations, industry practices and social public ethics, and affect or damage or may affect or damage the interests of JD Cloud and JD Group.
+3.1.3.8 You shall not use the Elastic IP service in any manner or for any purpose that would violate national, local laws and regulations, industry practices and social public ethics, and affect or damage or may affect or damage the interests of JD Cloud and JD Group.
 
 3.1.3.9 You shall not engage in other activities in violation of laws, regulations or the Service Terms of JD Cloud.
 
@@ -88,7 +88,7 @@
 
 ## **5. Term and Termination**
 
-5.1 You can use the EIP service of JD Cloud from the date of opening. If you release any EIP, JD Cloud will stop providing you with the EIP service.
+5.1 You can use the JD Cloud Elastic IP service from the date of enabling. If you release any Public IP, JD Cloud will stop providing you with the Elastic IP service.
 
 5.2 You shall keep your account balance sufficient to ensure the uninterrupted use of the service. If you have arrears, JD Cloud reserves the right to stop providing you with the service under the Service Terms.
 
@@ -137,3 +137,5 @@
 **9.2 JD Cloud is entitled to, by announcing at www.jdcloud.com or notifying you through website or in writing, transfer all or part of the rights and obligations under the Service Terms to JD Cloud's affiliates.
 
 9.3 If any provisions should remain in existence in nature or otherwise at the termination of this agreement, they shall be deemed to be continuing terms, including but not limited to terms of guarantees terms, confidentiality terms, intellectual property terms, and governing law and dispute resolution.
+
+

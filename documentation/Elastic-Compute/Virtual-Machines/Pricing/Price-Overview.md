@@ -634,7 +634,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td></td>
    </tr>
    <tr>
-      <td>c.n3.4xlarge</td>
+      <td>m.n3.4xlarge</td>
       <td>16</td>
       <td>128</td>
       <td>2544</td>
@@ -644,7 +644,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td></td>
    </tr>
    <tr>
-      <td>c.n3.6xlarge</td>
+      <td>m.n3.6xlarge</td>
       <td>24</td>
       <td>192</td>
       <td>3816</td>
@@ -654,7 +654,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td></td>
    </tr>
    <tr>
-      <td>c.n3.8xlarge</td>
+      <td>m.n3.8xlarge</td>
       <td>32</td>
       <td>256</td>
       <td>5088</td>
@@ -906,8 +906,88 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td></td>
    </tr>
    <tr>
-      <td rowspan="15">Storage Optimization</td>
-      <td rowspan="5">IO</td>
+      <td rowspan="23">Storage Optimization</td>
+      <td rowspan="13">IO</td>
+      <td>s.i3.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>1395.7</td>
+      <td>1046.8</td>
+      <td>4.85</td>
+      <td>3.63</td>
+      <td>1*1862GB NVMe SSD</td>
+   </tr>
+   <tr>
+      <td>s.i3.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>2791.4</td>
+      <td>2093.6</td>
+      <td>9.69</td>
+      <td>7.27</td>
+      <td>2*1862GB NVMe SSD</td>
+   </tr>   
+   <tr>
+      <td>s.i3.6xlarge</td>
+      <td>24</td>
+      <td>96</td>
+      <td>4187.1</td>
+      <td>3140.4</td>
+      <td>14.54</td>
+      <td>10.9</td>
+      <td>3*1862GB NVMe SSD</td>
+   </tr> 
+   <tr>
+      <td>s.i3.8xlarge</td>
+      <td>32</td>
+      <td>128</td>
+      <td>5582.8</td>
+      <td>4187.2</td>
+      <td>19.38</td>
+      <td>14.54</td>
+      <td>4*1862GB NVMe SSD</td>
+   </tr> 
+   <tr>
+      <td>s.i3.12xlarge</td>
+      <td>48</td>
+      <td>192</td>
+      <td>8374.2</td>
+      <td>6280.8</td>
+      <td>29.08</td>
+      <td>21.81</td>
+      <td>6*1862GB NVMe SSD</td>
+   </tr>
+   <tr>
+      <td>s.i3.16xlarge</td>
+      <td>64</td>
+      <td>256</td>
+      <td>11165.6</td>
+      <td>8373.4</td>
+      <td>38.77</td>
+      <td>29.08</td>
+      <td>8*1862GB NVMe SSD</td>
+   </tr> 
+   <tr>
+      <td>s.i3.22xlarge</td>
+      <td>88</td>
+      <td>352</td>
+      <td>14045.7</td>
+      <td>10534.3</td>
+      <td>48.77</td>
+      <td>36.58</td>
+      <td>8*1862GB NVMe SSD</td>
+   </tr> 
+   <tr>
+      <td>s.i2.metal</td>
+      <td>88</td>
+      <td>384</td>
+      <td>10125.7</td>
+      <td>7594.3</td>
+      <td>35.16</td>
+      <td>26.37</td>
+      <td>1*1862GB NVMe SSD</td>
+   </tr> 
+   <tr>
       <td>s.i1.xlarge</td>
       <td>4</td>
       <td>16</td>

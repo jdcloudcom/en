@@ -53,6 +53,8 @@
             href: Operation-Guide/Instance/Reset-Password.md
           - name: Customized Data
             href: Operation-Guide/Instance/User-Data.md
+          - name: Tag
+            href: Operation-Guide/Instance/Tag.md
       - name: Network
         items:
           - name: VPC
@@ -119,6 +121,10 @@
             href: Operation-Guide/SSH-Key-Pair/Description-SSH-Key-Pair.md
           - name: Operation Steps
             href: Operation-Guide/SSH-Key-Pair/Step-SSH-Key-Pair.md
+      - name: Audit Trail
+        items:
+          - name: Overview
+            href: Operation-Guide/Audit-Trail/Audit-Trail-Ovewview.md
   - name: Best Practices
     items:
     - name: Network Security Scheme for NAT Gateway

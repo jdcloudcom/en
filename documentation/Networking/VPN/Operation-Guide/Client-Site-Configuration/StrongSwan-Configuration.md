@@ -3,47 +3,47 @@ After VPN Tunnel is created on [JD Cloud VPN Connection Console](https://cns-con
 
 Taking strongSwan 5.3.5 as the example, this article tells how to configure strongSwan VPN on Ubuntu 16.04 x86_64 machine, which is applicable for open source software client.
 
-Network Topology examples are as follows:
+Network topology examples are as follows (``Configuration to the following topology and operation steps is used for reference only. During actual configuration, please replace values in the example configuration item with the actual parameter value used by you``):
 
-|         |   VPN public network address | Intranet segment    |
-|:-------:|:---------------:|:--------------:|
-|  Cloud | 116.xxx.xxx.10  | 192.168.0.0/24 |
-| Enterprise IDC | 220.xxx.xxx.150 |  10.0.0.0/16   |
+|  | VPN public network address | Interconnected Intranet Segment |
+|:---:|:---:|:---:|
+| Cloud | 116.xxx.xxx.10  | 192.168.0.0/24 |
+| Enterprise IDC | 220.xxx.xxx.150 | 10.0.0.0/16 |
 
 VPN Tunnel configuration examples are as follows ("With a tunnel as the example, please create tunnels respectively on client by use of two public network addresses on VPN cloud in order to ensure business high availability"):
 
-| Parameter Type | Parameter | Value       |
-|:---------:|:-------------------------:|:---------------:|
-|   General         |   Cloud Public Network Address | 116.xxx.xxx.10  |
-|           |     Customer Gateway Public Network Address | 220.xxx.xxx.150 |
-|           |         Local ID          | 116.xxx.xxx.10  |
-|           |         Remote ID         | 220.xxx.xxx.150 |
-|           |          Tunnel IP         |  169.254.1.1/30  |
-|  IKE Configuration   |    Pre-shared key          |      secret      |
-|           |          IKE Version           |        v2        |
-|           |         DH Group          |     Group2      |
-|           |         Authentication Algorithm           |      SHA1       |
-|           |         Encryption Algorithm |  aes128      |
-|           |    IKE SA Lifetime(s)     |      14400      |
-| IPsec Configuration | Packet Encapsulation Mode | Tunnel Mode     |
-|           |         Security Protocol           |       ESP       |
-|           |         DH Group          |     Group2      |
-|           |         Authentication Algorithm           |      SHA1       |
-|           |         Encryption Algorithm |  aes128      |
-|           |   IPsec SA Lifetime(s)    |      3600       |
-|           |  IPsec SA Lifetime(Byte)  |        0        |
-|           | IPsec SA Lifetime(Packet) |        0        |
-|           |            DPD            |      Enable       |
+| Parameter Type | Parameter | Value |
+|:---:|:---:|:---:|
+| General | Cloud Public Network Address | 116.xxx.xxx.10  |
+|  | Customer Gateway Public Network Address | 220.xxx.xxx.150 |
+|  | Local ID | 116.xxx.xxx.10 |
+|  | Remote ID | 220.xxx.xxx.150 |
+|  | Tunnel IP |  169.254.1.1/30 |
+|  IKE Configuration | Pre-shared key | secret |
+|  | IKE Version | v2 |
+|  | DH Group | Group2 |
+|  | Authentication Algorithm | SHA1 |
+|  | Encryption Algorithm | aes128 |
+|  | IKE SA Lifetime(s) | 14400 |
+| IPsec Configuration | Packet Encapsulation Mode | Tunnel Mode |
+|  | Security Protocol | ESP |
+|  | DH Group | Group2 |
+|  | Authentication Algorithm | SHA1 |
+|  | Encryption Algorithm | aes128 |
+|  | IPsec SA Lifetime(s) | 3600 |
+|  | IPsec SA Lifetime(Byte) | 0 |
+|  | IPsec SA Lifetime(Packet) | 0 |
+|  | DPD | Enable |
 
 #### Main Configuration Steps
 1. Ubuntu installs strongSwan:
-```
+```shell
   apt-get install -y strongswan
   ipsec version
 ```
 
 2. Configure IKE and IPsec policy and edit /etc/ipsec.conf file:
-```
+```shell
   # ipsec.conf - strongSwan IPsec configuration file
   # basic configuration
   config setup
@@ -58,8 +58,8 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
       left=%defaultroute    # If client VPN gateway is behind NAT device, intranet address of client VPN gateway shall be filled in here
       leftid=220.xxx.xxx.150
       right=116.xxx.xxx.10
-      leftsubnet=0.0.0.0/0
-      rightsubnet=0.0.0.0/0
+      leftsubnet=0.0.0.0/0    #Open all segments for interconnection
+      rightsubnet=0.0.0.0/0   #Open all segments for interconnection
       type=tunnel
       leftauth=psk
       rightauth=psk
@@ -77,30 +77,30 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 3. Configure pre-shared key and edit /etc/ipsec.secrets file:
-```
+```shell
   220.xxx.xxx.150 116.xxx.xxx.10 : PSK "secret"
 ```
 
 4. Configure tunnel and use virtual tunnel interface (VTI):
-```
+```shell
   sudo ip link add jdcloud_tunnel1 type vti local 10.0.0.x remote 116.xxx.xxx.10 key 100
   sudo ip addr add 169.254.1.1/30 remote 169.254.1.2/30 dev jdcloud_tunnel1
   sudo ip link set jdcloud_tunnel1 up mtu 1450
 ```
 
 5. Configure iptables to allow needed segment communication;
-```
+```shell
   sudo iptables -t mangle -A FORWARD -o jdcloud_tunnel1 -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
   sudo iptables -t mangle -A INPUT -p esp -s 116.xxx.xxx.10 -d 220.xxx.xxx.150 -j MARK --set-xmark 100   # If client VPN gateway is behind NAT device, intranet address of client VPN gateway shall be filled in at -d.
 ```
 
 6. Set strongSwan to use route table defaulted by system and edit /etc/strongswan.d/charon.conf file:
-```
-  install_routes=no    # Yes is defaulted, comments shall be deleted and replaced by no
+```shell
+  install_routes=no    # Yes is defaulted, comments shall be deleted and replaced by no, preventing creation of new route tables
 ```
 
 7. Enable system IP forwarding, edit /etc/sysctl.conf file and execute "sudo sysctl -p":
-```
+```shell
   net.ipv4.ip_forward = 1
 ```
 
@@ -113,12 +113,12 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 9. Configure routes (with static route as the example);
-```
-  sudo ip route add 192.168.0.0/16 dev jdcloud_tunnel1 metric 100
+```shell
+  ip route add 192.168.0.0/16 dev jdcloud_tunnel1 metric 100
 ```
 
 10. Enable strongSwan:
-```
+```shell
   ipsec start
 ```
 
