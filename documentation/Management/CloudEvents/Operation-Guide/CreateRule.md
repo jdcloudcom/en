@@ -2,11 +2,11 @@
 
 ## Enter creation page
 
-1. Login the Cloud Event Console page
+1. Log in the Cloud Event Service Console page
 
 2. Click **Create Subscription Rule
 
-3. Enter **Event Subscription Creation Rule Page
+3. Enter Event Subscription Creation Rule Page
 
 ## Basic Information Setting
 
@@ -26,7 +26,7 @@
 
 ## Event Destination Setting
 
-1. Select **Restart API of Virtual Machines and Email API** according to demands
+1. Select **Restart API of Virtual Machines, Email API and Function Service API** according to demands
 
 2. Select one Virtual Machine or a designated contact group from the designated region
 

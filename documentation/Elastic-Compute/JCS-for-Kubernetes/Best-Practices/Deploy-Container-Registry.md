@@ -14,7 +14,7 @@ kubectl create secret docker-registry my-secret --docker-server=myregistry-cn-no
 3. When resources are creating, my-secret is used by imagePullSecrets:  
 For example
 ```
-apiVersion: extensions/v1beta1
+apiVersion: extensions/v1beta1   #1.16 Cluster should be changed to apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
@@ -93,7 +93,7 @@ spec:
               name: c-tokens-fresher-secret
               key: sk
         imagePullPolicy: Always
-        image: jdcloudiaas/jcrtoken:cronjob
+        image: jdcloudiaas/jcrtoken:cronjob # 1.16 Cluster should be changed to jdcloudiaas/jcrtoken:cronjob-14.6
 ---
 apiVersion: v1
 kind: ServiceAccount
@@ -145,7 +145,7 @@ spec:
                   name: c-tokens-fresher-secret
                   key: sk
             imagePullPolicy: Always
-            image: jdcloudiaas/jcrtoken:cronjob
+            image: jdcloudiaas/jcrtoken:cronjob  # 1.16 Cluster should be changed to jdcloudiaas/jcrtoken:cronjob-14.6
 ```  
 4. Execute the following commands to run:
 ```
@@ -155,7 +155,7 @@ kubectl create -f cronjob.yaml
 5. When resources are creating, please select the image under the ak and sk users and adopt jcr-pull-secret as imagePullSecrets:  
 For example:
 ```
-apiVersion: extensions/v1beta1
+apiVersion: extensions/v1beta1  #1.16 Cluster should be changed to apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:

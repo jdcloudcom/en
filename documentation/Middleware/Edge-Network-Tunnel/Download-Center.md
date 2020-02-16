@@ -1,6 +1,6 @@
 **SDK Download**
 
-Description: Download SDK of edge network tunnel service (ENT) here.
+Description: Download SDK of Edge Network Tunnel (ENT) here and then decompress it:
 
 <table>
   <tr bgcolor="#D8D8D8">
@@ -14,7 +14,7 @@ Description: Download SDK of edge network tunnel service (ENT) here.
     <td>C</td>
     <td>Linux</td>
     <td>x86(64 bit)</td>
-    <td><a href="https://ent-sdk.s3.cn-north-1.jdcloud-oss.com/C-SDK/ENT.tar.xz">Click to download</a></td>
+    <td><a href="https://ent-sdk.s3.cn-north-1.jdcloud-oss.com/C-SDK/ENT.tar.gz">Click to download</a></td>
     <td>Include: Directory of header file;<br>
 		Lib: Dynamic library and static library separately stored according to system and CPU architecture;<br>
 		Example: Instance code and ReadME file.
@@ -24,7 +24,7 @@ Description: Download SDK of edge network tunnel service (ENT) here.
     <td>Go</td>
     <td>Linux</td>
     <td>x86(64 bit)</td>
-    <td><a href="https://ent-sdk.s3.cn-north-1.jdcloud-oss.com/Go-SDK/ENT-Go.tar.xz">Click to download</a></td>
+    <td><a href="https://ent-sdk.s3.cn-north-1.jdcloud-oss.com/Go-SDK/ENT-Go.tar.gz">Click to download</a></td>
     <td>entplugin: Include entplugin.go, which a user places in project root directory as a package;<br>
 		Plugins: Go plugin separately stored according to system and CPU architecture, whose file name is ent-plugin.so;<br>
 		Example: Instance code and ReadME file.

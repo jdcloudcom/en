@@ -1136,7 +1136,7 @@ The price of JD Cloud's VM instance mainly includes: instance price (vCPU and me
       <td>5208.8</td>
       <td>24.11</td>
       <td>18.09</td>
-      <td>12*1117GB HDD</td>
+      <td>12*5587GB HDD</td>
    </tr> 
    <tr>
       <td rowspan="9">GPU</td>

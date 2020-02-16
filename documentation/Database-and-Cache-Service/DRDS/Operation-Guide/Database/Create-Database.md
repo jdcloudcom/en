@@ -11,7 +11,11 @@ Click the instance name to enter Instance page, select **Database Management** p
 
 **Database name: ** database name, the rules of database name are prompted on the console
 
-**Character sets: ** supports UTF8 character set currently and the other character sets of subsequent versions will be provided successively
+**Character Set: ** The following character set is supported at present:
+- utf8
+- utf8mb4
+- gbk
+- latin1
 
 **Type: ** only supports "split", i.e., the database will be corresponded to multiple databases of multiple JCS for MySQL instance
 
@@ -19,7 +23,7 @@ Click the instance name to enter Instance page, select **Database Management** p
 
 **Select backend JCS for MySQL instance**
 
-All JCS for MySQL instances under VPC in the DRDS will be listed, and DRDS will automatically create 8 databases on each JCS for MySQL instance and save the corresponding relations. For example, 4 instances have been selected, the number of sub-libraries per instance is 8, and then DRDS will create 8 databases on each instance, 32 in total; if 10 instances have been selected, 80 databases will be created in total.
+All MySQL instances under VPC in the DRDS will be listed; DRDS will automatically create databases of corresponding count on each MySQL instance and save the corresponding relations. For example, if 4 instances have been selected and there are 8 sub-databases on each instance, then DRDS will create 8 databases on each of these instances, totally 32; if 10 instances have been selected, then 80 databases will be created in total.
 
 Users need not to create each sub-database on MySQL by manual
 

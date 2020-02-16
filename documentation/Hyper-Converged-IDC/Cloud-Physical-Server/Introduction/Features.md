@@ -3,7 +3,7 @@
 JD Cloud Physical Server mainly provides the following functions, and for more functions, please visit JD Cloud console for experience:
 
 - **Multiple regions and multiple availability zones:**
-It covers four regions of cn-north-1 (Availability Zones A, B and C are open), cn-east-1 (Availability Zone A is open), cn-south-1 (In Preparation) and cn-east-2 (In Preparation), to meet user’s needs of specific application scenarios. To achieve less access delay, you may select the region and availability zone close to where you are located to deploy.
+It covers four regions of cn-north-1 (Availability Zones A, B and C are open), cn-east-1 (In Preparation), cn-south-1 (In Preparation) and cn-east-2 (In Preparation), to meet user’s needs of specific application scenarios. To achieve less access delay, you may select the region and availability zone close to where you are located to deploy.
 - **Multiple instance types:**
 Provide three instance types, including the computing type, the memory type and the GPU type. Now, different specifications and specific specifications are launched to meet different business scenarios of the user. For details, please refer to [Product Specifications](../Introduction/Specifications.md). More instance types are in preparation.
 - **Flexible billing method:**

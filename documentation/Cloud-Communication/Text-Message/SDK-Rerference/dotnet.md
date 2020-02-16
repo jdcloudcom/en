@@ -10,6 +10,10 @@ Confirm installation succeeded
 Note: dotnet requires 2.0 and above version. For specific requirements, see [JD Cloud Official Website Help Documentation](https://docs.jdcloud.com/en/sdk/dotnet)  
 <br><br>
 **II. SDK Installation**  
+Build a project, execute the following command under the created project directory  
+```
+dotnet new console -lang "C#"
+```  
 Install JD Cloud core package  
 ```
 dotnet add package JDCloudSDK.Core --version 0.2.10
@@ -20,7 +24,8 @@ Install SMS package
 ```
 dotnet add package JDCloudSDK.Sms --version 1.2.0.1
 ```  
-
+If the vscode tool is used for development, the NuGet Package Manager plug-in can be used. Please search JD Cloud core package (JDCloudSDK.Core) and SMS package (JDCloudSDK.Sms)  
+Note: The installed version shall be correspondingly modified by referring to the latest version of the official website  
 For the latest version number of .net SMS package, see https://www.nuget.org/packages/JDCloudSDK.Sms/  
 
 <br><br>

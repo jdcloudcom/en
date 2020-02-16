@@ -6,7 +6,7 @@ With the JD Cloud console or simple API calls, you can create MongoDB instances 
 
 ## High Service Availability
 
-By default, a highly available architecture with a three-node replica set is provided, which supports automatic disaster tolerance switching to ensure business availability. In addition, you can choose the instance deployment mode as a single availability zone deployment or a multiple availability zone deployment to provide different disaster tolerance levels.
+By default, a highly available architecture is provided, which supports automatic disaster tolerance switching to ensure business availability. In addition, you can choose the instance deployment mode as a single availability zone deployment or a multiple availability zone deployment to provide different disaster tolerance levels.
 
 ## Data lasting
 

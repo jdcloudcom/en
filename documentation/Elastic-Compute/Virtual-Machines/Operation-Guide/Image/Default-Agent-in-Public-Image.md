@@ -41,7 +41,7 @@ CentOS：`rpm -e cloud-init`、`rm -rf /etc/conf/cloud/*`、`rm -rf /var/lib/clo
 Ubuntu：` apt-get purge cloud-init`  <br>
 Windows: **Control Panel** — **Program**, find loudbase-Init, and right-click **Uninstall
 
-② qemu-guest-qgent uninstall clean:<br>
+② qemu-guest-agent uninstall clean:<br>
 CentOS：`rpm -e qemu-guest-agent`、`rm -fr /var/log/qemu-ga` <br>
 Ubuntu：`apt-get purge qemu-guest-agent` <br>
 Windows: **Control Panel** — **Program**, find qemu-guest-agent, and right-click **Uninstall

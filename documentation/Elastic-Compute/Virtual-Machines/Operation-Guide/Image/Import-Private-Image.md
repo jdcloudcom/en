@@ -45,12 +45,12 @@ Use Description about Image Importation:<br>
 ## Importation Steps
 
 ![](../../../../../image/vm/Image-Import-Image-Overview.png)<br>
-### 1. Prepare image files
+### 1. Image Preparation
 To guarantee the availability of imported images, please be sure to conduct image configuration test before import by referring to JD Cloud image making requirements, especially key configuration of starting method, partition and [virtio Installation](https://docs.jdcloud.com/en/virtual-machines/install-virtio-driver), and carry out import operation after confirming the images conforming to JD Cloud specifications.<br>
 Meanwhile, to guarantee that imported images can get such functions as password modification, monitoring data reporting, security scan testing, etc. under the JD Cloud environment, you are suggested to install important system components before exporting images. For the functions and installation methods of system components, please refer to: [Public image system components](https://docs.jdcloud.com/en/virtual-machines/default-agent-in-public-image). <br>
 For Linux images, self inspection of important system configurations can be completed with the image self-inspection tool provided by us. For the use method, please refer to: [Image Self-inspection Tool](Image-Check-Tool.md)
 
-### 2. Prepare image files
+### 2. Image File Generation
 Importation of the image files in four types of formats, i.e., RAW, VHD, QCOW2 and VMDK are supported. Please designate the correct file format before generating image files.<br>
 The iso image format isn’t supported, please change the format of the image into the designated format by VirtualBox, virt-manager or other tools before importation. For the operation guidance, please refer to: [Convert the image format](Convert-Image-File-Format.md), [conversion of images in ISO format](Convert-Image-File-Format-From-ISO.md)
 

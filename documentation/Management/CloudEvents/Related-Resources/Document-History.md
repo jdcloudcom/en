@@ -5,3 +5,4 @@ This document specifies the important update history of Cloud Event documentatio
 |Release Date|Features|Description|
 |-|-|-|
 |December 2019|Public Release|1st Public Launch of Product|
+|January 2020|Public Release|Add Function Service as Destination of Event Subscription|

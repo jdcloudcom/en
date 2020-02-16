@@ -1,4 +1,5 @@
 # Core Concepts
+
 Please refer to the following the concepts and explanations used in the Help Documentation of JCS for MongoDB.
 
 | Concept | Explanation |
@@ -8,7 +9,8 @@ Availability Zone | An Availability Zone is a physical zone in which the infrast
 | Virtual Private Cloud (VPC) | A logically isolated network space customized by users on JD Cloud. This Virtual Private Cloud space is fully controlled by users and supports customized network segmentation, routing policies, etc. The users can create and manage multiple cloud products in the VPC, such as Virtual Machines, Load Balancer, etc., and configure resources within the network to connect to the Internet. |
 | Subnet | A subnet is an IP address block within the IP address range of the Virtual Private Cloud (VPC). The subnet is under the VPC. After creating a VPC, the users can add subnets under the VPC. IP address blocks of subnets under the same VPC cannot overlap, and IP address blocks of subnets under different VPCs can overlap. |
 | Replica Sets| MongoDB replica sets are a set of mongoDB processes that maintain the same data set. The replica sets provide redundancy and high availability, which is the foundation for all production deployments. |
-| MongoDB Instance | MongoDB Instance, or "Instance", is the basic unit for users to purchase MongoDB services. JD Cloud currently provides MongoDB instances in 3-node replica set mode by default. Each instance contains 3 physical nodes with roles of Primary, Secondary, and Hidden. | 
+| Sharded Cluster | Sharding is a way to district data among multiple computers. MongoDB uses sharded cluster to support deployment with very large data set and high-throughput operations. Each sharded cluster is composed of three components, Mongos, Shard and ConfigServer. |
+| MongoDB Instance | MongoDB Instance, Instance for short, refers to basic unit of MongoDB Service purchased by a user. A replica set and a sharded cluster both are an Instance. |
 | Instance Specifications | Instance specifications refer to the number of CPU cores, memory capacity, maximum connections, and maximum IOPS that each node of the instance is assigned. |
 | CPU Core | The upper limit of the computing power that each node of the instance can use. One CPU has the computing power of at least 2.3GHz Hyper-Threading (Intel Xeon Series Hyper-Threading). |
 | Memory | The amount of memory allocated to each node of the instance. |

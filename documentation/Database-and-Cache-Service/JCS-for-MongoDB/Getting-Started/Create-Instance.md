@@ -15,9 +15,11 @@ This article describes how to create a MongoDB instance via console.
 
 2. On the "Instance List" page, click **Create** to enter the "Create Instance" page.
 
-   ![创建实例](../../../../image/mongodb/mongo-003.png)
+   ![image-20200120161354197](../../../../image/mongodb/mongo-047.png)
 
 3. On the "Create Instance" page, select the billing type and choose: **Monthly Package** or **Pay by Configuration**.
+
+   ![image-20200120161354197](../../../../image/mongodb/mongo-048.png)
 
 4. Select an instance configuration
 
@@ -31,13 +33,28 @@ This article describes how to create a MongoDB instance via console.
      - The intranet cannot communicate between cloud service products in different regions;
      - When purchasing a cloud service, it is recommended to choose the region closest to your customer to reduce the access delay;
 
-   - Specification configuration
+   - Specification
 
-     - 实例类型：默认为副本集，分片集群内测中，稍后将正式提供。
-     - Database Version: Currently available versions are 3.2 version, 3.4 version, 3.6 version and 4.0 version will be released soon.
-     - 存储类型：可选 本地盘 SSD 、本地盘 NVMe。
-     - Specifications: The CPU and memory occupied by the instance, different specifications correspond to different maximum number of connections and IOPS (that is, the maximum value that can be achieved by reading and writing respectively, and the maximum number of mixed reading and writing can reach 2 times of the index).
-     - Storage Space: The disk space occupied by the instance.
+     - Instance Type Family: Support replica set and sharded cluster.
+
+     - Replica Set Instance
+
+       ![image-20200120161354197](../../../../image/mongodb/mongo-049.png)
+
+       - Database version: Versions 3.2, 3.4, 3.6 and 4.0 are optional.
+       - Storage type: Local Disk SSD, Local Disk NVMe and SSD Cloud Disk are optional.
+       - Specifications: The CPU and memory occupied by the instance, different specifications correspond to different maximum number of connections and IOPS (that is, the maximum value that can be achieved by reading and writing respectively, and the maximum number of mixed reading and writing can reach 2 times of the index).
+       - Storage Space: The disk space occupied by the instance.
+
+     - Sharded Cluster Instance
+
+       ![image-20200120161354197](../../../../image/mongodb/mongo-050.png)
+
+       - Database version: Versions 3.4, 3.6 and 4.0 are optional.
+       - Storage type: Local Disk SSD is optional.
+       - mongos: Select specification and node count.
+       - configserver: 1 core 2GB and 20GB bucket by default.
+       - shard: Select specification and bucket.
 
    - Networking
 
@@ -50,6 +67,14 @@ This article describes how to create a MongoDB instance via console.
    - Deployment method
 
      MongoDB instance supports single and multiple availability zones deployment. Single availability zone deployment means that the three physical nodes of the MongoDB instance are distributed on different physical machines in the same Availability Zone, which can provide disaster tolerance across the racks. Multiple Availability Zone deployment refers to the three physical nodes of the MongoDB instance are distributed on physical machines in different Availability Zones, which can provide disaster tolerance across the machine rooms, but there is some delay in network transmission. You can choose the deployment method based on your business requirements.
+
+     - Replica set instance, successively select the availability zones of Primary, Secondary and Hidden nodes.
+
+       ![image-20200120161354197](../../../../image/mongodb/mongo-052.png)
+
+     - Sharded cluster instance, select the availability zones of Primary, Secondary and Hidden nodes of shard and configserver, as well as availability zones of multiple mongos.
+
+       ![image-20200120161354197](../../../../image/mongodb/mongo-051.png)
 
    - Password
 

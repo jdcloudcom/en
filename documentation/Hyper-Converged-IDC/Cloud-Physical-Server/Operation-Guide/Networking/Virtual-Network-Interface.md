@@ -20,7 +20,7 @@ Turn on the Console, click **Cloud Physical Server** -> **VPC** in turn in the l
 
 **Restriction**<br/>
 
-1. Now, 10 VPC can be created under the same region for the same account
+1. Now, 10 VPC can be created under the same region for the same account.
 
 
 

@@ -1,27 +1,41 @@
-Please download SDK in  ‘*[Download Zone](../Download-Center.md)*’.
+[The operating system in this document is Linux System (Ubuntu and CentOS)]<br>
+Please download SDK in ‘*[Download Zone](../Download-Center.md)*’; for codes, please refer to the two .c files under ENT/Example/Linux in SDK<br>
 
-1.	 Use shared library to build a project
-	 a) Install shared library, you can use the following command to install libentapi library:
-
-```
-	sudo cp libentapi.so /usr/lib/  //dynamic library installation
-```
-	
-	b) Build application, write your own application according to the API document, e.g.: example.c
-	
-	```
-	gcc -o example example.c -L. -Wl,-dy –lentapi
-	./example
-	```
-	
-2. Use static library to build a project
-   Build application, write your own application according to the API document, e.g.: example.c. If you place libentapi.a under the same folder, you can use the following command to build it:
-
+1. Use ENT dynamic library to build a project<br>
+   a) You can use the following command to install libentapi library:<br>
+   Install the corresponding system and the .so library file of CPU architecture
    ```
-   gcc -o example example.c -L. -Wl,-dn -lentapi -Wl,-dy -lpthread
-   ./example
+   sudo cp libentapi.so /usr/lib/
+   sudo ldconfig                       //Dynamic Library Installation
    ```
-
+   b) Compile example_a.c and example_b.c:<br>
+   Place the header file entapi.h in Include and the example_a.c and example_b.c under Example directory in the same directory, compile example_a.c and example_b.c
+   ```
+   gcc -o example_a example_a.c -L. -Wl,-dy -lentapi
+   gcc -o example_b example_b.c -L. -Wl,-dy -lentapi
+   ```
+   c) Open two terminals to enable example_b first and then  example_a:
+   ```
+   ./example_b
+   ```
+   ```
+   ./example_a
+   ```
+	
+2. Use ENT static library to build a project<br>
+   a) Compile example_a.c and example_b.c:<br>
+   Copy the header file entapi.h in Include directory, the example_a.c and example_b.c under Example directory, and the corresponding *.a library file in Lib (select the corresponding system and CPU architecture) in the same directory, and compile example_a.c and example_b.c
+   ```
+   gcc -o example_a example_a.c -L. -Wl,-dn -lentapi -Wl,-dy -lpthread
+   gcc -o example_b example_b.c -L. -Wl,-dn -lentapi -Wl,-dy -lpthread
+   ```
+   b) Open two terminals to enable example_b first and then  example_a:
+   ```
+   ./example_b
+   ```
+   ```
+   ./example_a
+   ```
 3. API Document
 
    <table>
@@ -180,49 +194,3 @@ Please download SDK in  ‘*[Download Zone](../Download-Center.md)*’.
    	</td>
      </tr>
    </table>
-
-4. Instance Code
-
-   ```
-   1.	#include <sys/types.h>
-   2.	#include <stdio.h>
-   3.	#include <string.h>
-   4.	#include <unistd.h>
-   5.	#include "entapi.h"
-   6.	 
-   7.	void ConnectHandler(const char*);
-   8.	 
-   9.	int main() {
-   10.	    int res;
-   11.	    void (*f)(const char*);
-   12.	    res = Register("test", "Peer2", DEFAULT_SERVER_ADDR);
-   13.	    if (res < 0) {
-   14.	        printf("register of Peer2 is %d\n", res);
-   15.	    }
-   16.	    f = ConnectHandler;
-   17.	    SetConnectHandler(f);
-   18.	    sleep(20); // hold the process
-   19.	}
-   20.	 
-   21.	void ConnectHandler(const char* connectID) {
-   22.	    char buf[50];
-   23.	    int nRead, nWrite;
-   24.	    SetTimeout(connectID, 5000);
-   25.	    sleep(1); // wait peer1 to send
-   26.	    while (1) {
-   27.	        nRead = Read(connectID, buf);
-   28.	        if (nRead < 0) {
-   29.	            printf("Peer2 fail to read from connect: %s\n", connectID);
-   30.	            return;
-   31.	        }
-   32.	        printf("Peer2 read data: %s\n", buf);
-   33.	        nWrite = Write(connectID, buf, nRead);
-   34.	        if (nWrite < 0) {
-   35.	            printf("Peer2 fail to read from connect: %s\n", connectID);
-   36.	            return;
-   37.	        }
-   38.	        printf("Peer2 write data: %s\n", buf);
-   39.	    }
-   40.	}
-   ```
-

@@ -1,12 +1,21 @@
-Please download SDK in  ‘*[Download Zone](../Download-Center.md)*’.
+Please download SDK in  ‘*[Download Zone](../Download-Center.md)*’, in this document, ENT is mainly used by way of Go Plugins; for codes, please refer to the two example files under ENT-Go/Example/ in SDK.
 
-1. Take Go SDK as plugin to build projects
+1. Make preparations<br>
+   Transfer the entplugin folder and entplugin.go therein to the root directory of your own project, and select the appropriate system and entplugin.so file under CPU architecture in Plugins, and then transfer them under the entplugin directory of the project.
+   
+2. Write your applications in the form of example.go<br>
+   Call GetEntService of this package in entplugin to get its return value EntService; use EntService.func to call a method. Please refer to the writing of  example_a.go and example_b.go.
+   
+3. Run example
+   In Plugins, select the ent-plugin.so of appropriate version, and place it to the entplugin folder of example_a and example_b. Successively go build commands for compiling, run example_b first and then example_a respectively in the two terminals:
+   ```
+   go build -o example_a example_a.go 
+   go build -o example_b example_b.go 
+   ./example_b
+   ./example_a
+   ```
 
-   a) Create entplugin file under the project root directory, select proper .so library version and place it inside, and place the entplugin.go in it.
-
-   b) In project codes, use our SDK through import entplugin, entplugin.GetEntService(). Please see the instance code at the end of the document for details.
-
-2. API Document
+4. API Document
 
    <table>
      <tr valign="top">
@@ -163,46 +172,3 @@ Please download SDK in  ‘*[Download Zone](../Download-Center.md)*’.
    	</td>
      </tr>
    </table>
-
-3. Instance Code
-
-   ```
-   1.	package main
-   2.	 
-   3.	import (
-   4.	    "fmt"
-   5.	    "time"
-   6.	 
-   7.	    "git.jd.com/jdcloud-epn/example-b/entplugin"
-   8.	)
-   9.	 
-   10.	/*
-   11.	    See the project structure and README document in resource download for details
-   12.	*/
-   13.	 
-   14.	func main() {
-   15.	    entService := entplugin.GetEntService()
-   16.	 
-   17.	    signalServer := "ent.jdcloud.com"
-   18.	    bPeerID := "api_test_with_id_b"
-   19.	 
-   20.	    _ = entService.Register("api_test", bPeerID, signalServer)
-   21.	    _ = entService.SetConnectHandler(func(connectID string) {
-   22.	        data := make([]byte, 50)
-   23.	        for {
-   24.	            n, err := entService.Read(connectID, data)
-   25.	            if err != nil {
-   26.	                return
-   27.	            }
-   28.	            fmt.Println("Read data is ", string(data[:n]))
-   29.	            err = entService.Write(connectID, data[:n])
-   30.	            if err != nil {
-   31.	                return
-   32.	            }
-   33.	            fmt.Println("Write data is ", string(data[:n]))
-   34.	        }
-   35.	    })
-   36.	    time.Sleep(1 * time.Minute)
-   37.	}
-   ```
-

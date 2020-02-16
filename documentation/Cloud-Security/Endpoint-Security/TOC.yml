@@ -31,6 +31,8 @@ items:
       href: Operation-Guide/Suspicious-Operation.md
     - name: Compliance Baseline
       href: Operation-Guide/Compliance-Baseline.md         
+    - name: Virus Webshell
+      href: Operation-Guide/Virus-Detection.md     
     - name: Asset Management
       href: Operation-Guide/Asset-Management.md   
   - name: Best Practices

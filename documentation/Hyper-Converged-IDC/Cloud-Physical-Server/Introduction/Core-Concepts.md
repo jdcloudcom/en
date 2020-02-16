@@ -45,7 +45,7 @@ The following is the regions and availability zones where the data centers with 
 	<tr>   
         <td >cn-east-1</td>
 		<td >Availability Zone A</td>
-		<td >Open</td>
+		<td >In Preparation</td>
     </tr>
 	<tr>   
         <td >cn-south-1</td>
