@@ -1,0 +1,25 @@
+  name: Intelligent Edge Security
+  href:
+  items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Intelligent edge security related APIs
+        items: 
+          - name: Create Instance
+            href: Intelligent-Edge-Security/createInstance.md
+          - name: Search instance information
+            href: Intelligent-Edge-Security/describeInstance.md
+          - name: Search information based on instance
+            href: Intelligent-Edge-Security/describeInstanceStandards.md
+          - name: Search attack peak
+            href: Intelligent-Edge-Security/describeNetAttackPeak.md
+          - name: Modify instance information
+            href: Intelligent-Edge-Security/modifyInstance.md
+          - name: Enable intelligent edge security service
+            href: Intelligent-Edge-Security/openService.md
+          - name: Search resources and associated resources
+            href: Intelligent-Edge-Security/selectDetailList.md

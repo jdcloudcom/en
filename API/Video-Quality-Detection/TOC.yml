@@ -1,0 +1,43 @@
+name: Video Quality Detection
+href:
+items:
+  - name: Interface Overview
+    href: overview.md
+  - name: Update History
+    href: ChangeLog.md
+  - name: Interface Information
+    items:
+      - name: Callback Configuration
+        items:
+          - name: Set callback configuration
+            href: Callback/setCallback.md
+          - name: Search callback configuration
+            href: Callback/queryCallback.md
+      - name: Manage video quality detection templates
+        items:
+          - name: Search Quality Control Template List
+            href: Vqd-Template/listVqdTemplates.md
+          - name: Create Quality Control Template
+            href: Vqd-Template/createVqdTemplate.md
+          - name: Search Quality Control Template
+            href: Vqd-Template/getVqdTemplate.md
+          - name: modify Quality Control Template
+            href: Vqd-Template/updateVqdTemplate.md
+          - name: Delete Quality Control Template
+            href: Vqd-Template/deleteVqdTemplate.md
+      - name: Video Detection Tasks
+        items:
+          - name: Submit quality detection tasks
+            href: Vqd-Task/submitVqdTask.md
+          - name: Submit video quality detection tasks in batches
+            href: Vqd-Task/batchSubmitVqdTasks.md
+          - name: Search the list of video quality detection tasks
+            href: Vqd-Task/listVqdTasks.md
+          - name: Search video quality detection tasks
+            href: Vqd-Task/getVqdTask.md
+          - name: Search the results of video quality detection tasks
+            href: Vqd-Task/queryVqdTaskResult.md
+          - name: Delete video quality detection tasks
+            href: Vqd-Task/deleteVqdTask.md
+          - name: Delete video quality detection tasks in batches
+            href: Vqd-Task/batchDeleteVqdTasks.md
