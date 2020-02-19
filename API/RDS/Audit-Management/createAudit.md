@@ -29,3 +29,25 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testCreateAudit(){
+    CreateAuditRequest request=new CreateAuditRequest();
+    request.setEnabled("DATABASE_OBJECT_ACCESS_GROUP");
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setRegionId("cn-north-1");
+    CreateAuditResponse response= rdsClient.createAudit(request);
+    String result = new Gson().toJson(response);
+    System.out.println(result);
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa2mu96juvq7qhpj9avhd1s596gjjdf"
+}
+```

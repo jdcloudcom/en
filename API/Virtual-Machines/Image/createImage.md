@@ -2,7 +2,8 @@
 
 
 ## Description
-Create a private image for a VM. The VM status must be <b>stopped</b>.
+Create private images for the Virtual Machines.<br>
+The Virtual Machine with local system disk must be in the status of <b>stopped</b>; the Virtual Machine with cloud disk system disk must be in the status of <b>stopped</b> or <b>running</b>.<br>
 The creation of an image is only available when there is no task in progress of the VM.
 The image creation is based on backing up the system disk. A image can be created containing all or partial attached cloud data disks (If no change is made, then the entile image contains all cloud data disks is created by default). During the process of creating an image, the snapshots of the choosen attached cloud disks will be created and will be associated with the image.
 After calling the API, you can not use the image normally until the image status becomes <b>ready</b>.

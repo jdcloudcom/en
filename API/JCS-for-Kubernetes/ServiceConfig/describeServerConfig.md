@@ -2,7 +2,7 @@
 
 
 ## Description
-Search (k8s cluster) service configuration information
+Search service configuration information of JCS for Kubernetes
 
 ## Request Method
 GET
@@ -21,20 +21,20 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeserverconfig#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**serverConfig**|ServerConfig| |
-### ServerConfig
+|**serverConfig**|[ServerConfig](describeserverconfig#serverconfig)| |
+### <div id="serverconfig">ServerConfig</div>
 |Name|Type|Description|
 |---|---|---|
 |**validMasterVersions**|String[]|Supported Version of kubernetes master|
 |**defaultMasterVersion**|String|Default Version of kubernetes master|
-|**validNodeConfig**|ValidNodeConfig[]|Configuration of node|
-### ValidNodeConfig
+|**validNodeConfig**|[ValidNodeConfig[]](describeserverconfig#validnodeconfig)|Configuration of node|
+### <div id="validnodeconfig">ValidNodeConfig</div>
 |Name|Type|Description|
 |---|---|---|
 |**nodeVersion**|String|Version of kubernetes node|

@@ -21,10 +21,10 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Search domain result|
+|**result**|[Result](getdomain#result)|Search domain result|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|String|Domain Name ID|

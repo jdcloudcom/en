@@ -27,3 +27,23 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+DELETE
+```
+public void testDeleteAudit(){
+    DeleteAuditRequest request=new DeleteAuditRequest();
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setRegionId("cn-north-1");
+    DeleteAuditResponse response= rdsClient.deleteAudit(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa2oa1smicmopa52n2oe7s1d6v5agdg"
+}
+```

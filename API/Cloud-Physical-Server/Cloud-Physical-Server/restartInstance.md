@@ -24,10 +24,10 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:restart
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](restartinstance#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Whether is the rebooting operation successful|

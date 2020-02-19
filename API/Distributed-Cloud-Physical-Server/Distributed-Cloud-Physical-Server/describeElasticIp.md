@@ -22,14 +22,14 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describeelasticip#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**elasticIp**|[ElasticIp](#elasticip)|Elastic IP Detail Information|
-### <div id="ElasticIp">ElasticIp</div>
+|**elasticIp**|[ElasticIp](describeelasticip#elasticip)|Elastic IP Detail Information|
+### <div id="elasticip">ElasticIp</div>
 |Name|Type|Description|
 |---|---|---|
 |**region**|String|Region code, e.g. cn-east-tz1|
@@ -43,8 +43,9 @@ None
 |**instanceId**|String|Instance ID|
 |**createTime**|String|Creation Time|
 |**aliasIpId**|String|Alias IP id|
-|**charge**|[Charge](#charge)|Billing Information|
-### <div id="Charge">Charge</div>
+|**aliasIp**|String|alias IP ip|
+|**charge**|[Charge](describeelasticip#charge)|Billing Information|
+### <div id="charge">Charge</div>
 |Name|Type|Description|
 |---|---|---|
 |**chargeMode**|String|Payment model, the value shall be: prepaid_by_duration, postpaid_by_usage or postpaid_by_duration. prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and the default is taken as postpaid_by_duration|

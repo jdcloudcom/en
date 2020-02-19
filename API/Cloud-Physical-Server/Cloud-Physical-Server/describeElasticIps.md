@@ -22,9 +22,10 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/elasticIps
 |**pageNumber**|Integer|False|1|Page number; xxx by default1|
 |**pageSize**|Integer|False|20|Segmentation size; it is 20 by default; value range[20, 100]|
 |**status**|String|False| |Elastic IP Status, Value Range: associate, disassociate|
-|**filters**|Filter[]|False| |elasticIpId - Elastic IPID, exact match, supporting multiple IDs<br/><br>elasticIp - Elastic IP, exact match, supporting multiple IPs<br>|
+|**includeLB**|String|False| |Contain Load Balancer or not|
+|**filters**|[Filter[]](describeelasticips#filter)|False| |elasticIpId - Elastic IPID, exact match, supporting multiple IDs<br/><br>elasticIp - Elastic IP, exact match, supporting multiple IPs<br>|
 
-### Filter
+### <div id="filter">Filter</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name of Filter Requirements|
@@ -34,17 +35,17 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/elasticIps
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeelasticips#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**elasticIps**|ElasticIp[]| |
+|**elasticIps**|[ElasticIp[]](describeelasticips#elasticip)| |
 |**pageNumber**|Integer|Page Number; 1 by Default|
 |**pageSize**|Integer|Segmentation size; it is 20 by default; value range[20, 100]|
 |**totalCount**|Integer|Search result amount|
-### ElasticIp
+### <div id="elasticip">ElasticIp</div>
 |Name|Type|Description|
 |---|---|---|
 |**region**|String|Region Code, e.g. cn-north-1|
@@ -56,8 +57,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/elasticIps
 |**instanceType**|String|Instance Type Family|
 |**instanceId**|String|Instance ID|
 |**createTime**|String|Creation Time|
-|**charge**|Charge|Billing Information|
-### Charge
+|**charge**|[Charge](describeelasticips#charge)|Billing Information|
+### <div id="charge">Charge</div>
 |Name|Type|Description|
 |---|---|---|
 |**chargeMode**|String|Payment model, the value shall be: prepaid_by_duration, postpaid_by_usage or postpaid_by_duration. prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and the default is taken as postpaid_by_duration|

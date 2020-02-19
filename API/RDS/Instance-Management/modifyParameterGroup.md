@@ -29,3 +29,24 @@ None
 |Return Code|Descripton|
 |---|---|
 |**200**|OK|
+
+## Request Example
+PUT
+```
+public void testModifyParameterGroup() {
+    ModifyParameterGroupRequest request = new ModifyParameterGroupRequest();
+    request.setInstanceId("mysql-k67q8n46si");
+    request.setParameterGroupId("mysql-pg-mpzspoh243");
+    request.setRegionId("cn-north-1");
+    ModifyParameterGroupResponse response = rdsClient.modifyParameterGroup(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa619fvrs7hr0ummene90284de7nq66"
+}
+```

@@ -21,20 +21,20 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Search result of category and its sub-category|
+|**result**|[Result](getcategorywithchildren#result)|Search result of category and its sub-category|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|Long|Category ID|
 |**name**|String|Category Name|
 |**level**|Integer|Category Level|
 |**description**|String|Category Description|
-|**children**|SubCategory[]|Sub-category|
+|**children**|[SubCategory[]](getcategorywithchildren#subcategory)|Sub-category|
 |**createTime**|String|Creation Time|
 |**updateTime**|String|Modification Time|
-### SubCategory
+### <div id="subcategory">SubCategory</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|Long|Category ID|

@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify the RDS instance backup policy. Currently only the modification by the user of the “automatic backup start time window” parameter is supported, and other parameters are not open for modification
+Modify the RDS instance backup policy. Currently only the modification by the user of the "automatic backup start time window" parameter is supported, and other parameters are not open for modification
 
 ## Request Method
 POST
@@ -29,3 +29,24 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testModifyBackupPolicy() {
+    ModifyBackupPolicyRequest request = new ModifyBackupPolicyRequest();
+    request.setInstanceId("mysql-wp4e9ztap2");
+    request.setRegionId("cn-north-1");
+    request.setStartWindow("04:00-05:00");
+    ModifyBackupPolicyResponse response = rdsClient.modifyBackupPolicy(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa4sjw0gogedcpe9kh65w4rc24eof3b"
+}
+```

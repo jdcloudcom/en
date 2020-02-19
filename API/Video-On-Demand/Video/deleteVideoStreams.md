@@ -23,15 +23,15 @@ https://vod.jdcloud-api.com/v1/videos/{videoId}:deleteStreams
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Delete video transcode flow|
+|**result**|[Result](deletevideostreams#result)|Delete video transcode flow|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**okTaskIds**|Number[]|List of Transcode Task ID Deleted|
-|**notFoundTaskIds**|Number[]|List of Transcode Task ID Not Found|
-|**failedTaskIds**|Number[]|List of Transcode Task ID Failed to Be Deleted|
+|**okTaskIds**|Long[]|List of Transcode Task ID Deleted|
+|**notFoundTaskIds**|Long[]|List of Transcode Task ID Not Found|
+|**failedTaskIds**|Long[]|List of Transcode Task ID Failed to Be Deleted|
 
 ## Return Code
 |Return Code|Description|

@@ -24,14 +24,14 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/os
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeos#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**oss**|Os[]| |
-### Os
+|**oss**|[Os[]](describeos#os)| |
+### <div id="os">Os</div>
 |Name|Type|Description|
 |---|---|---|
 |**osTypeId**|String|Operating System Type ID|

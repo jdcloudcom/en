@@ -1,9 +1,10 @@
 # Update History
 
-API Version: 2.1.0
+API Version: 2.2.0
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2019-11-27|2.2.0|Add API| *Add API: Adjust Native Container Instance Type Family configuration|
 |2019-08-06|2.1.0|Add API|* Add API: Search Instance Type Family|
 |2019-07-25|2.0.0|API Update|* Repair Identified Problems|
 |2019-06-05|1.0.2|Added API|* Add the internal API: Check images and secrets|

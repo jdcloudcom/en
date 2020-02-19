@@ -21,10 +21,10 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Search result of a single video information|
+|**result**|[Result](getvideo#result)|Search result of a single video information|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|String|Video ID|
@@ -38,10 +38,10 @@ None
 |**tags**|String[]|Tag Set|
 |**categoryId**|Long|Category ID|
 |**categoryName**|String|Category Name|
-|**snapshots**|Snapshot[]|Transcode Snapshot|
+|**snapshots**|[Snapshot[]](getvideo#snapshot)|Transcode Snapshot|
 |**createTime**|String|Creation Time|
 |**updateTime**|String|Modification Time|
-### Snapshot
+### <div id="snapshot">Snapshot</div>
 |Name|Type|Description|
 |---|---|---|
 |**imgId**|Long|Snapshot ID|

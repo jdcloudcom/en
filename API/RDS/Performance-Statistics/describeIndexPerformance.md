@@ -27,17 +27,17 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeIndexPerformance#Result)| |
+|**result**|[Result](describeindexperformance#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**missingIndexResult**|[MissingIndexResult[]](describeIndexPerformance#MissingIndexResult)|When queryType is Missing, the returned result set is MissingIndexResult<br>When queryType is another value, this field is null|
-|**indexPerformanceResult**|[IndexPerformanceResult[]](describeIndexPerformance#IndexPerformanceResult)|When queryType is Missing, this field is null<br>When queryType is another value, IndexPerformanceResult is returned|
+|**missingIndexResult**|[MissingIndexResult[]](describeindexperformance#missingindexresult)|When queryType is Missing, the returned result set is MissingIndexResult<br>When queryType is another value, this field is null|
+|**indexPerformanceResult**|[IndexPerformanceResult[]](describeindexperformance#indexperformanceresult)|When queryType is Missing, this field is null<br>When queryType is another value, IndexPerformanceResult is returned|
 |**totalCount**|Integer|Total Number of Records|
 |**pageNumber**|Integer|The Page Number of the Current Data|
 |**pageSize**|Integer|The Number of Data Displayed Per Page|
-### <a name="IndexPerformanceResult">IndexPerformanceResult</a>
+### <div id="indexperformanceresult">IndexPerformanceResult</div>
 |Name|Type|Description|
 |---|---|---|
 |**db**|String|Database Name|
@@ -50,7 +50,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |**lastUserSeek**|String|Last index search time, format YYYY-MM-DD hh:mm:ss|
 |**lastUserScan**|String|The most recent table scan time, format: YYYY-MM-DD hh:mm:ss|
 |**lastUserUpdate**|String|The most recent index update time, format: YYYY-MM-DD hh:mm:ss|
-### <a name="MissingIndexResult">MissingIndexResult</a>
+### <div id="missingindexresult">MissingIndexResult</div>
 |Name|Type|Description|
 |---|---|---|
 |**db**|String|Database Name|
@@ -66,3 +66,31 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testDescribeIndexPerformance() {
+    DescribeIndexPerformanceRequest request = new DescribeIndexPerformanceRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setQueryType("Missing");
+    DescribeIndexPerformanceResponse response = rdsClient.describeIndexPerformance(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpaoheg0ecbvgnj8verfr6e9awnfvicu", 
+    "result": {
+        "indexPerformanceResult": [], 
+        "missingIndexResult": [], 
+        "pageNumber": 1, 
+        "pageSize": 10, 
+        "totalCount": 0
+    }
+}
+```

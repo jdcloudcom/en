@@ -14,10 +14,10 @@ https://cdn.jdcloud-api.com/v1/domainGroup:create
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**shareCache**|String|False| |Share memory or not|
+|**shareCache**|String|True| |Share memory or not|
 |**primaryDomain**|String|False| |Master domain, be sure to transmitted when enabling cache sharing|
-|**domainGroupName**|String|False| |Name of Domain Group|
-|**domains**|String[]|False| |The domain in the domain group comprises a main domain|
+|**domainGroupName**|String|True| |Name of Domain Group|
+|**domains**|String[]|True| |The domain in the domain group comprises a main domain|
 
 
 ## Return Parameter

@@ -25,9 +25,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}/downloadURL
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeBackupDownloadURL#Result)| |
+|**result**|[Result](describebackupdownloadurl#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**publicURL**|String|Public network download link, if download is not available currently, it is an empty string|
@@ -37,3 +37,27 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups/{backupId}/downloadURL
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeBackupDownloadURL() {
+    DescribeBackupDownloadURLRequest describeBackupDownloadURLRequest = new DescribeBackupDownloadURLRequest();
+    describeBackupDownloadURLRequest.setBackupId("dcd25cd6-a787-4fea-8e89-1451ba600591");
+    describeBackupDownloadURLRequest.setRegionId("cn-north-1");
+    DescribeBackupDownloadURLResponse response = rdsClient.describeBackupDownloadURL(describeBackupDownloadURLRequest);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa32pwe54627hpuqdmbvkaafiii38sf", 
+    "result": {
+        "internalURL": "http://oss-internal.cn-north-1.jcloudcs.com/trove-online-hb/233f1965-3a30-4d8c-a618-25c6f286a96e/backup/dcd25cd6-a787-4fea-8e89-1451ba600591.xbstream?Expires=1578381967&AccessKey=872DED479C1C41757FDCC3A7542BE694&Signature=UxVL6fP+x/WLFMQ/fpUugtQ2MSM=", 
+        "publicURL": "http://oss.cn-north-1.jcloudcs.com/trove-online-hb/233f1965-3a30-4d8c-a618-25c6f286a96e/backup/dcd25cd6-a787-4fea-8e89-1451ba600591.xbstream?Expires=1578381967&AccessKey=872DED479C1C41757FDCC3A7542BE694&Signature=UxVL6fP+x/WLFMQ/fpUugtQ2MSM="
+    }
+}
+```

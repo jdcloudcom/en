@@ -17,14 +17,15 @@ https://billing.jdcloud-api.com/v1/regions/{regionId}/billDetail:list
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**startTime**|String|True| |Start Time of Billing|
-|**endTime**|String|True| |End Time of Billing|
+|**startTime**|String|True| |Start Time of Bill|
+|**endTime**|String|True| |End Time of Bill|
 |**appCode**|String|False| |Product Line Code|
 |**serviceCode**|String|False| |Product Code|
 |**billingType**|Integer|False| |Billing Type: 1. Pay By Configuration 2. Pay By Consumption 3. Monthly Package 4. Pay by Times|
-|**resourceIds**|String[]|False| |Resource Sheet id List|
-|**pageIndex**|Integer|False| |pageIndex|
-|**pageSize**|Integer|False| |pageSize|
+|**resourceIds**|String[]|False| |Resource sheet id list, supporting upload of 500 at most|
+|**tags**|Map[]|False| |Tag|
+|**pageIndex**|Integer|False| |pageIndex paging, starting from 1|
+|**pageSize**|Integer|False| |pageSize Search data entries per page, supporting 1000 entries at most|
 
 
 ## Return Parameter
@@ -63,6 +64,12 @@ https://billing.jdcloud-api.com/v1/regions/{regionId}/billDetail:list
 |**balancePayFee**|Number|Balance Payment Amount|
 |**cashPayFee**|Number|Cash Payment Amount|
 |**arrearFee**|Number|Overdue Amount|
+|**tagDetails**|ResourceTagVo[]|Tag Details|
+### ResourceTagVo
+|Name|Type|Description|
+|---|---|---|
+|**tagKey**|String|Tag Key|
+|**tagValue**|String|Tag Value|
 ### Pagination
 |Name|Type|Description|
 |---|---|---|

@@ -30,3 +30,25 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testSetImportFileShared(){
+    SetImportFileSharedRequest request=new SetImportFileSharedRequest();
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setRegionId("cn-north-1");
+    request.setFileName("db1_1.bak");
+    request.setShared("true");
+    SetImportFileSharedResponse response= rdsClient.setImportFileShared(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa4mid6vo1chcv7qarhhifq0wp51ceh"
+}
+```

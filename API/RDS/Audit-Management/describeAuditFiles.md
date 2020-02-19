@@ -22,13 +22,13 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeAuditFiles#Result)| |
+|**result**|[Result](describeauditfiles#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**auditFiles**|[AuditFile[]](describeAuditFiles#AuditFile)| |
-### <a name="AuditFile">AuditFile</a>
+|**auditFiles**|[AuditFile[]](describeauditfiles#auditfile)| |
+### <div id="auditfile">AuditFile</div>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Audit log file name|
@@ -40,3 +40,34 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeAuditFiles(){
+    DescribeAuditFilesRequest request = new DescribeAuditFilesRequest();
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setRegionId("cn-north-1");
+    DescribeAuditFilesResponse response= rdsClient.describeAuditFiles(request);
+    String result = new Gson().toJson(response);
+    System.out.println(result);
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa2rdrg41dcqujn7k4f89ji0ocfspde", 
+    "result": {
+        "auditFiles": [
+            {
+                "lastUpdateTime": "2020-01-07 14:56:23", 
+                "name": "RDSAudit_054F6E2E-01C1-41FD-ABC8-91EE34CD2AF9_0_132228536211390000.sqlaudit", 
+                "sizeByte": 8704, 
+                "uploadTime": "2020-01-07 14:56:24"
+            }
+        ]
+    }
+}
+```

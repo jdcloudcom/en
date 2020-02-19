@@ -2,7 +2,7 @@
 
 
 ## Introduction
-The Cloud Disk Service APIs contain the CDS APIs and Snapshot APIs. It can provide functions such as creating cloud disks in batches, deleting a cloud disk, and making a cloud disk snapshot.
+Cloud Disk Service APIs
 
 
 ### Version
@@ -12,9 +12,9 @@ v1
 ## API
 |Interface name|Request mehod|Function description|
 |---|---|---|
-|**createDisks**|POST|-   Create one or more Cloud Disks that are paid by configuration or by service time.</br>-   Cloud Disk Service types include Premium Hdd Cloud Disk (premium-hdd), SSD Cloud Disk (ssd), general SSD (ssd.gp1), performance-oriented SSD (ssd.io1) and capacity-oriented HDD (hdd.std1). </br>-   The billing method defaults to paying by configuration.</br>-   After creation is completed, the status of the Cloud Disk is available.</br>-   The optional parameter snapshot ID is used to create a new disk.</br>-   In batch creation, the name of the Cloud Disk is: hard disk name -number, such as myDisk-1 and myDisk-2.</br>-   maxCount is the maximum effort, and it is not guaranteed that maxCount can be reached.</br>|
+|**createDisks**|POST|-   Create one or more Cloud Disk Service paid by configuration or paid by service time. </br>-   Cloud Disk Service types include General SSD (ssd.gp1), Performance SSD (ssd.io1) and Capacity HDD (hdd.std1). </br>-   The default billing method is pay by configuration. </br>-   After being created, the Cloud Disk Service is available. </br>-   Available parameter snapshot ID is used for creating new disks from snapshots. </br>-   In case of creation in batches, Cloud Disk Service is named as Disk Name-Number, such as myDisk-1 and myDisk-2.</br>-   maxCount refers to the maximum effort and the maxCount is not guaranteed. </br>|
 |**createSnapshot**|POST|-   Create a snapshot for the specified cloud disk, and the status of the newly generated snapshot is creating.</br>-   The quota for single-user snapshots in the same region is 15.</br>-   To ensure data integrity, please stop writing to the cloud disk before creating a snapshot to ensure the integrity of snapshot data.</br>-   Before creating a snapshot, we suggest you detach the cloud disk and reattach the disk to the virtual machine after the snapshot is created.</br>-   The life cycle of manual snapshots is independent from the cloud disk. Please delete unnecessary snapshots in time.</br>-   The time demanded to create a snapshot depends on the capacity of the cloud disk. The larger the capacity is, the longer it will take.</br>|
-|**deleteDisk**|DELETE|-   Delete a Cloud Disk billing by configuration, Cloud Disk Service types include Premium Hdd Cloud Disk, SSD Cloud Disk, general SSD, performance-oriented SSD and capacity-oriented HDD. </br>-   When deleting a Cloud Disk, its status must be Available. </br>-   After a Cloud Disk has been deleted, the cloud disk snapshot can be retained. </br>|
+|**deleteDisk**|DELETE|-   Delete a Cloud Disk paid by configuration, Cloud Disk Service types include General SSD, Premium, Performance SSD and Capacity HDD. </br>-   When deleting a Cloud Disk, its status must be Available. </br>-   After a Cloud Disk has been deleted, the cloud disk snapshot can be retained. </br>|
 |**deleteSnapshot**|DELETE|-   Delete a single cloud disk snapshot: The snapshot status must be in available or error status.</br>-   The snapshot is independent from life cycle of the cloud disk. Deleting a snapshot does not have any effect on the cloud disk that created the snapshot.</br>-   After the snapshot is deleted, it cannot be recovered. Please be cautious.</br>|
 |**describeDisk**|GET|Query details of a cloud disk|
 |**describeDisks**|GET|-   Search the Cloud Disk you have created. </br>-   filters, between multiple filter conditions is logic AND, and multiple values ​​inside each condition is logic OR</br>|

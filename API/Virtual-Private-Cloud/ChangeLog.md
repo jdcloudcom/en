@@ -1,8 +1,9 @@
 # Update History #
-API Version: 0.5.1
+API Version: 0.9.1
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2019-11-04|0.9.1|Modify API|* Elastic IP is added with userTags parameters|
 |2018-12-06|0.5.1|Add new APIs|* Add the modification of elastic IP APIs|
 |2018-09-04|0.5.0|Add new APIs|* Add modification of Virtual Private Cloud APIs<br>* Add creation, deletion and modification of the subnet APIs<br>* Add creation, deletion and modification of networkAcl APIs<br>* Add search of ACL list and APIs of details<br>* Add APIs used for associating/disassociating networkAcl for the subnet<br>* Add addition, removal and modification of the networkAcl rules APIs<br>* Add creation, deletion and modification of route table APIs<br>* Add APIs for searching of route table list and details<br>* Add APIs used for associating/disassociating subnet to/from the route table<br>* Add APIs used for adding, removing and modifying rules of route tables|
 |2018-08-20|0.4.1|Extension Support|* Support to the Android system is added to Java SDK|

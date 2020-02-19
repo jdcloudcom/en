@@ -34,7 +34,7 @@ postpaid_by_duration | Pay-As-You-Go by configuration | |
 
 When calling OpenAPI, you must fill in the correct region code according to the actual location of the resources (RegionId).
 
-Region Code|Region Name
+Region Code
 :---|:---
 cn-north-1 | North China-Beijing 
 cn-east-1 | East China-Suqian 
@@ -57,7 +57,8 @@ cn-east-2 | Availability Zone A | cn-east-2a
 cn-east-2 | Availability Zone B | cn-east-2b 
 cn-east-2 | Availability Zone C | cn-east-2c
 cn-south-1 | Availability Zone A | cn-south-1a  
-   
+cn-south-1 | Availability Zone B | cn-south-1b  
+cn-south-1 | Availability Zone C | cn-south-1c  
 
 
 

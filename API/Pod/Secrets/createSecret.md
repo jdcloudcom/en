@@ -20,9 +20,9 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/secrets
 |---|---|---|---|---|
 |**name**|String|True| |Names of confidential data can’t be the same<br>|
 |**secretType**|String|True| |Now, only the following confidential data type is supported: docker-registry, which is the docker registry verification type. <br>|
-|**data**|DockerRegistryData|True| |Confidential data. <br><br>The valid characters of key include letters, figures, -, _, and.; <br><br>value is the character string encoded by Base64, which can’t comprise a line break (please use base64 -w 0 option under linux); the length cap of each value is 4KB; and the length of the entire data cannot exceed 256KB; <br><br>must contain server, username and password fields; email field is optional. <br><br>|
+|**data**|[DockerRegistryData](createsecret#dockerregistrydata)|True| |Confidential data. <br><br>The valid characters of key include letters, figures, -, _, and.; <br><br>value is the character string encoded by Base64, which can’t comprise a line break (please use base64 -w 0 option under linux); the length cap of each value is 4KB; and the length of the entire data cannot exceed 256KB; <br><br>must contain server, username and password fields; email field is optional. <br><br>|
 
-### DockerRegistryData
+### <div id="dockerregistrydata">DockerRegistryData</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**server**|String|True| |registry Server Address|
@@ -33,10 +33,10 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/secrets
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createsecret#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**secretName**|String| |

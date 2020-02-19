@@ -27,3 +27,23 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testEnableInternetAccess() {
+    EnableInternetAccessRequest request = new EnableInternetAccessRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("mysql-wp4e9ztap2");
+    EnableInternetAccessResponse response = rdsClient.enableInternetAccess(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa51721t8vscgc223qqpcagsqhtpgr7"
+}
+```

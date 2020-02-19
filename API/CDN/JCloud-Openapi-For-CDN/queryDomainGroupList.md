@@ -24,17 +24,17 @@ https://cdn.jdcloud-api.com/v1/domainGroup
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](querydomaingrouplist#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**totalCount**|Integer| |
 |**pageSize**|Integer| |
 |**pageNumber**|Integer| |
-|**domainGroups**|DomainGroupItem[]| |
-### DomainGroupItem
+|**domainGroups**|[DomainGroupItem[]](querydomaingrouplist#domaingroupitem)| |
+### <div id="domaingroupitem">DomainGroupItem</div>
 |Name|Type|Description|
 |---|---|---|
 |**domains**|String[]|Domain Group Member|

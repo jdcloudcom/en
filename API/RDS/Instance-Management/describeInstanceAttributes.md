@@ -22,13 +22,13 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeInstanceAttributes#Result)| |
+|**result**|[Result](describeinstanceattributes#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**dbInstanceAttributes**|[DBInstanceAttribute](describeInstanceAttributes#DBInstanceAttribute)| |
-### <a name="DBInstanceAttribute">DBInstanceAttribute</a>
+|**dbInstanceAttributes**|[DBInstanceAttribute](describeinstanceattributes#dbinstanceattribute)| |
+### <div id="dbinstanceattribute">DBInstanceAttribute</div>
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Instance ID|
@@ -56,24 +56,24 @@ None
 |**auditStatus**|String|Auditing status, see [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- Only support MySQL|
 |**instanceStatus**|String|Instance status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**createTime**|String|Instance Creation Time|
-|**charge**|[Charge](describeInstanceAttributes#Charge)|Billing Configuration|
+|**charge**|[Charge](describeinstanceattributes#charge)|Billing Configuration|
 |**sourceInstanceId**|String|Main Instance ID Corresponded To MySQL Read-only Instance<br>- Only support MySQL|
 |**roInstanceIds**|String[]|Read-only Instance ID List<br>- Only support MySQL|
-|**primaryNode**|[DBInstanceNode](describeInstanceAttributes#DBInstanceNode)|Information of primary node in high availability cluster<br>- Only support SQL Server|
-|**secondaryNode**|[DBInstanceNode](describeInstanceAttributes#DBInstanceNode)|Information of secondary node in high availability cluster<br>- only support SQL Server|
-|**tags**|[Tag[]](describeInstanceAttributes#Tag)|Tag Information|
-### <a name="Tag">Tag</a>
+|**primaryNode**|[DBInstanceNode](describeinstanceattributes#dbinstancenode)|Information of primary node in high availability cluster<br>- Only support SQL Server|
+|**secondaryNode**|[DBInstanceNode](describeinstanceattributes#dbinstancenode)|Information of secondary node in high availability cluster<br>- only support SQL Server|
+|**tags**|[Tag[]](describeinstanceattributes#tag)|Tag Information|
+### <div id="tag">Tag</div>
 |Name|Type|Description|
 |---|---|---|
 |**key**|String|Tag Key|
 |**value**|String|Tag Value|
-### <a name="DBInstanceNode">DBInstanceNode</a>
+### <div id="dbinstancenode">DBInstanceNode</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|String|Nodeid|
 |**name**|String|Node Name|
 |**status**|String|Node Status|
-### <a name="Charge">Charge</a>
+### <div id="charge">Charge</div>
 |Name|Type|Description|
 |---|---|---|
 |**chargeMode**|String|Payment Model, the value shall be prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and is postpaid_by_duration by default|
@@ -86,3 +86,62 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeInstanceAttributes() {
+    DescribeInstanceAttributesRequest request = new DescribeInstanceAttributesRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("mysql-wp4e9ztap2");
+    DescribeInstanceAttributesResponse response = rdsClient.describeInstanceAttributes(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa4ph6u278ofownjgc0ittjvh3se4p1", 
+    "result": {
+        "dbInstanceAttributes": {
+            "auditStatus": "on", 
+            "azId": [
+                "cn-north-1a", 
+                "cn-north-1b"
+            ], 
+            "charge": {
+                "chargeExpiredTime": "2020-01-31T15:59:59Z", 
+                "chargeMode": "prepaid_by_duration", 
+                "chargeStartTime": "2019-12-31T06:18:52Z", 
+                "chargeStatus": "normal"
+            }, 
+            "connectionMode": "standard", 
+            "createTime": "2019-12-31T14:18:52", 
+            "engine": "MySQL", 
+            "engineVersion": "5.7", 
+            "instanceCPU": 1, 
+            "instanceClass": "db.mysql.s1.micro", 
+            "instanceId": "mysql-wp4e9ztap2", 
+            "instanceMemoryMB": 1024, 
+            "instanceName": "hdj_test", 
+            "instancePort": "3306", 
+            "instanceStatus": "RUNNING", 
+            "instanceStorageGB": 20, 
+            "instanceStorageType": "LOCAL_SSD", 
+            "instanceType": "cluster", 
+            "internalDomainName": "mysql-cn-north-1-c1ce20704a60487d.rds.jdcloud.com", 
+            "parameterGroupId": "mysql-pg-3udygiyups", 
+            "parameterGroupName": "lh_pg", 
+            "parameterStatus": "VALID", 
+            "publicDomainName": "", 
+            "regionId": "cn-north-1", 
+            "storageEncrypted": false, 
+            "subnetId": "subnet-820lwf1mlp", 
+            "tags": [], 
+            "vpcId": "vpc-yn4dblxgeb"
+        }
+    }
+}
+```

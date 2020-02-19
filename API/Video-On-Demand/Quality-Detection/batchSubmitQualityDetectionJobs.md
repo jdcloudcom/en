@@ -14,9 +14,9 @@ https://vod.jdcloud-api.com/v1/qualityDetectionJobs:batchSubmit
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**bulkItems**|SubmitQualityDetectionJobRequestObject[]|False| | |
+|**bulkItems**|[SubmitQualityDetectionJobRequestObject[]](batchsubmitqualitydetectionjobs#submitqualitydetectionjobrequestobject)|False| | |
 
-### SubmitQualityDetectionJobRequestObject
+### <div id="submitqualitydetectionjobrequestobject">SubmitQualityDetectionJobRequestObject</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**mediaId**|String|False| |Media Source ID|

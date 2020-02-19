@@ -17,7 +17,7 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/ipBlackList
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**ips**|String[]|False| |ip blacklist, url cannot exceed 50 entries in ips|
+|**ips**|String[]|True| |ip black list, url cannot exceed 50 entries in ips|
 
 
 ## Return Parameter

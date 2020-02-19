@@ -14,9 +14,9 @@ https://cdn.jdcloud-api.com/v1/task:createLivePrefetchTask
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**urlList**|String[]|False| |Prewarm URL|
-|**prefetchTime**|Integer|False| |Prewarm Duration|
-|**action**|String|False| |Operation type only can be one of [start,stop]|
+|**urlList**|String[]|True| |Prewarm URL|
+|**prefetchTime**|Integer|True| |Prewarm Duration|
+|**action**|String|True| |Operation type only can be one of [start,stop]|
 
 
 ## Return Parameter

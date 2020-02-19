@@ -17,24 +17,24 @@ https://cdn.jdcloud-api.com/v1/liveDomain/{domain}/backSource
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**sourceType**|String|False| |Back-to-origin can be only one of types [ips,domain]|
+|**sourceType**|String|True| |Back-to-origin can be only one of types [ips,domain]|
 |**backSourceType**|String|False| | |
 |**defaultSourceHost**|String|False| |Default back-to-origin host|
-|**domainSource**|DomainSourceInfo[]|False| | |
-|**ipSource**|IpSourceInfo[]|False| | |
+|**domainSource**|[DomainSourceInfo[]](#domainsourceinfo)|False| | |
+|**ipSource**|[IpSourceInfo[]](#ipsourceinfo)|False| | |
 
-### IpSourceInfo
+### <div id="IpSourceInfo">IpSourceInfo</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**master**|Integer|False| | |
-|**ip**|String|False| | |
-|**ratio**|Double|False| | |
-### DomainSourceInfo
+|**master**|Integer|True| |1: Host; 2: Backup|
+|**ip**|String|True| |Back-to-origin IP|
+|**ratio**|Double|False| |Proportion|
+### <div id="DomainSourceInfo">DomainSourceInfo</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**priority**|Integer|False| | |
-|**sourceHost**|String|False| | |
-|**domain**|String|False| | |
+|**priority**|Integer|True| |Priority Level (1-10)|
+|**sourceHost**|String|False| |Back-to-origin host|
+|**domain**|String|True| |Back-to-origin Domain|
 
 ## Return Parameter
 |Name|Type|Description|

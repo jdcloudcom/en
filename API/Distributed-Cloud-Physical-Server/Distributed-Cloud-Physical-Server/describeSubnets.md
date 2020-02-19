@@ -22,9 +22,9 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/subnets
 |**az**|String|False| |Availability Zone, accurate match|
 |**name**|String|False| |Subnet Name|
 |**vpcId**|String|False| |VPC ID, Exact Match|
-|**filters**|[Filter[]](#filter)|False| |subnetId - Subnet ID, exact match, supporting multiple IDs<br>|
+|**filters**|[Filter[]](describesubnets#filter)|False| |subnetId - Subnet ID, exact match, supporting multiple IDs<br>|
 
-### <div id="Filter">Filter</div>
+### <div id="filter">Filter</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name of Filter Requirements|
@@ -34,17 +34,17 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/subnets
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describesubnets#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**subnets**|[Subnet[]](#subnet)| |
+|**subnets**|[Subnet[]](describesubnets#subnet)| |
 |**pageNumber**|Integer|Page Number; 1 by Default|
 |**pageSize**|Integer|Page size; it is 20 by default; value range[20, 100]|
 |**totalCount**|Integer|Search result amount|
-### <div id="Subnet">Subnet</div>
+### <div id="subnet">Subnet</div>
 |Name|Type|Description|
 |---|---|---|
 |**region**|String|Region code, e.g. cn-east-tz1|

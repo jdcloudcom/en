@@ -22,10 +22,10 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeinstancestatus#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**cpus**|Boolean|Whether the CPU status is normal|

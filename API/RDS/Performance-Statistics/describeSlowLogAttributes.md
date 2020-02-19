@@ -28,14 +28,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeSlowLogAttributes#Result)| |
+|**result**|[Result](describeslowlogattributes#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**slowLogsAttributes**|[SlowLogAttributes[]](describeSlowLogAttributes#SlowLogAttributes)|Slow Log Information|
+|**slowLogsAttributes**|[SlowLogAttributes[]](describeslowlogattributes#slowlogattributes)|Slow Log Information|
 |**totalCount**|Integer|Total Record Entries|
-### <a name="SlowLogAttributes">SlowLogAttributes</a>
+### <div id="slowlogattributes">SlowLogAttributes</div>
 |Name|Type|Description|
 |---|---|---|
 |**dbName**|String|Database name, representing the database in which the SQL is executed|
@@ -50,3 +50,29 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeSlowLogAttributes() {
+    DescribeSlowLogAttributesRequest request = new DescribeSlowLogAttributesRequest();
+    request.setRegionId("cn-north-1");
+    request.setStartTime("2020-01-08 00:00:00");
+    request.setEndTime("2020-01-08 14:00:00");
+    request.setInstanceId("mysql-k67q8n46si");
+    DescribeSlowLogAttributesResponse response = rdsClient.describeSlowLogAttributes(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpaoj3ang7j73mwoach4h6qd8jetmchm", 
+    "result": {
+        "slowLogsAttributes": [], 
+        "totalCount": 0
+    }
+}
+```

@@ -17,7 +17,7 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/ipBlackList:operate
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**status**|String|False| |ip Blacklist Status Value [on,off]|
+|**status**|String|True| |ip Black List Status Value [on,off]|
 
 
 ## Return Parameter

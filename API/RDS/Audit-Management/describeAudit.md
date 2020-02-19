@@ -22,9 +22,9 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeAudit#Result)| |
+|**result**|[Result](describeaudit#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**enabled**|String[]| |
@@ -33,3 +33,28 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeAudit(){
+    DescribeAuditRequest request=new DescribeAuditRequest();
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setRegionId("cn-north-1");
+    DescribeAuditResponse response= rdsClient.describeAudit(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa2nb742v05wneqcdwrgbvu6pae5djf", 
+    "result": {
+        "enabled": [
+            "DATABASE_OBJECT_ACCESS_GROUP"
+        ]
+    }
+}
+```

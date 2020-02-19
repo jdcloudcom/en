@@ -24,9 +24,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:d
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeAuditOptions#Result)| |
+|**result**|[Result](describeauditoptions#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**enabled**|String[]| |
@@ -36,3 +36,71 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/audit:d
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeAuditOptions(){
+    DescribeAuditOptionsRequest describeAuditOptionsRequest = new DescribeAuditOptionsRequest();
+    describeAuditOptionsRequest.setInstanceId("sqlserver-83uqv7avy4");
+    describeAuditOptionsRequest.setName("AuditOptions2016STD");
+    describeAuditOptionsRequest.setRegionId("cn-north-1");
+    DescribeAuditOptionsResponse describeAuditOptionsResponse = rdsClient.describeAuditOptions(describeAuditOptionsRequest);
+    System.out.println(new Gson().toJson(describeAuditOptionsResponse));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa2qaq8hkc99jeggm1thwhs2v9c9e7e", 
+    "result": {
+        "disabled": [
+            "APPLICATION_ROLE_CHANGE_PASSWORD_GROUP", 
+            "AUDIT_CHANGE_GROUP", 
+            "BACKUP_RESTORE_GROUP", 
+            "BROKER_LOGIN_GROUP", 
+            "DATABASE_CHANGE_GROUP", 
+            "DATABASE_LOGOUT_GROUP", 
+            "DATABASE_MIRRORING_LOGIN_GROUP", 
+            "DATABASE_OBJECT_ACCESS_GROUP", 
+            "DATABASE_OBJECT_CHANGE_GROUP", 
+            "DATABASE_OBJECT_OWNERSHIP_CHANGE_GROUP", 
+            "DATABASE_OBJECT_PERMISSION_CHANGE_GROUP", 
+            "DATABASE_OPERATION_GROUP", 
+            "DATABASE_OWNERSHIP_CHANGE_GROUP", 
+            "DATABASE_PERMISSION_CHANGE_GROUP", 
+            "DATABASE_PRINCIPAL_CHANGE_GROUP", 
+            "DATABASE_PRINCIPAL_IMPERSONATION_GROUP", 
+            "DATABASE_ROLE_MEMBER_CHANGE_GROUP", 
+            "DBCC_GROUP", 
+            "FAILED_DATABASE_AUTHENTICATION_GROUP", 
+            "FAILED_LOGIN_GROUP", 
+            "FULLTEXT_GROUP", 
+            "LOGIN_CHANGE_PASSWORD_GROUP", 
+            "LOGOUT_GROUP", 
+            "SCHEMA_OBJECT_ACCESS_GROUP", 
+            "SCHEMA_OBJECT_CHANGE_GROUP", 
+            "SCHEMA_OBJECT_OWNERSHIP_CHANGE_GROUP", 
+            "SCHEMA_OBJECT_PERMISSION_CHANGE_GROUP", 
+            "SERVER_OBJECT_CHANGE_GROUP", 
+            "SERVER_OBJECT_OWNERSHIP_CHANGE_GROUP", 
+            "SERVER_OBJECT_PERMISSION_CHANGE_GROUP", 
+            "SERVER_OPERATION_GROUP", 
+            "SERVER_PERMISSION_CHANGE_GROUP", 
+            "SERVER_PRINCIPAL_CHANGE_GROUP", 
+            "SERVER_PRINCIPAL_IMPERSONATION_GROUP", 
+            "SERVER_ROLE_MEMBER_CHANGE_GROUP", 
+            "SERVER_STATE_CHANGE_GROUP", 
+            "SUCCESSFUL_DATABASE_AUTHENTICATION_GROUP", 
+            "SUCCESSFUL_LOGIN_GROUP", 
+            "TRACE_CHANGE_GROUP", 
+            "TRANSACTION_GROUP", 
+            "USER_CHANGE_PASSWORD_GROUP", 
+            "USER_DEFINED_AUDIT_GROUP"
+        ], 
+        "enabled": []
+    }
+}
+```

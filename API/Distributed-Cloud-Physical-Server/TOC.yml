@@ -7,10 +7,12 @@
     herf: ChangeLog.md
   - name: Interface Information
     items:
-      - name: Distributed Cloud Physical Server APIs
+      - name: Distributed Cloud Physical Server
         items:
           - name: describeOS
             href: Distributed-Cloud-Physical-Server/describeOS.md
+          - name: describeDeviceStock
+            href: Distributed-Cloud-Physical-Server/describeDeviceStock.md
           - name: describeInstanceName
             href: Distributed-Cloud-Physical-Server/describeInstanceName.md
           - name: createInstances
@@ -51,6 +53,10 @@
             href: Distributed-Cloud-Physical-Server/describeAliasIps.md
           - name: deleteAliasIp
             href: Distributed-Cloud-Physical-Server/deleteAliasIp.md
+          - name: describeAvailablePrivateIp
+            href: Distributed-Cloud-Physical-Server/describeAvailablePrivateIp.md
+          - name: describeLineTypes
+            href: Distributed-Cloud-Physical-Server/describeLineTypes.md
       - name: Relevant Interface of Region
         items:
           - name: describeEdCPSRegions
@@ -67,6 +73,8 @@
             href: Distributed-Cloud-Physical-Server/describeElasticIp.md
           - name: modifyElasticIpBandwidth
             href: Distributed-Cloud-Physical-Server/modifyElasticIpBandwidth.md
+          - name: describeElasticIpStock
+            href: Distributed-Cloud-Physical-Server/describeElasticIpStock.md
       - name: Subnet APIs
         items:
           - name: describeSubnets
@@ -89,13 +97,13 @@
         items:
           - name: createKeypairs
             href: Distributed-Cloud-Physical-Server/createKeypairs.md
-          - name: queryKeypairs
+          - name: describeKeypairs
             href: Distributed-Cloud-Physical-Server/describeKeypairs.md
           - name: importKeypairs
             href: Distributed-Cloud-Physical-Server/importKeypairs.md
           - name: deleteKeypairs
             href: Distributed-Cloud-Physical-Server/deleteKeypairs.md
-          - name: queryKeypair
+          - name: describeKeypair
             href: Distributed-Cloud-Physical-Server/describeKeypair.md
       - name: VPC APIs
         items:

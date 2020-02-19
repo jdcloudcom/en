@@ -18,9 +18,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/paramet
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**parameters**|[Parameter[]](#Parameter)|True| |Modified Instance Parameter|
+|**parameters**|[Parameter[]](modifyparameters#parameter)|True| |Modified Instance Parameter|
 
-### <a name="Parameter">Parameter</a>
+### <div id="parameter">Parameter</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Parameter Name|
@@ -34,3 +34,27 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+PUT
+```
+public void testModifyParameters(){
+    ModifyParametersRequest request=new ModifyParametersRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    Parameter parameter=new Parameter();
+    parameter.setName("max_worker_threads");
+    parameter.setValue("32767");
+    request.addParameter(parameter);
+    ModifyParametersResponse response= rdsClient.modifyParameters(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpam6djdg3117vskkhm8c0fjmtksb9db"
+}
+```

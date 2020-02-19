@@ -14,20 +14,20 @@ https://cdn.jdcloud-api.com/v1/task:queryLivePrefetchTask
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**urlList**|String[]|False| |Prewarm URL|
+|**urlList**|String[]|True| |Prewarm URL|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Prewarm Detail|
+|**result**|[Result](#result)|Prewarm Detail|
 |**requestId**|String| |
 
-### Result
+### <div id="Result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**result**|QueryLivePrefetchItem[]| |
-### QueryLivePrefetchItem
+|**result**|[QueryLivePrefetchItem[]](#queryliveprefetchitem)| |
+### <div id="QueryLivePrefetchItem">QueryLivePrefetchItem</div>
 |Name|Type|Description|
 |---|---|---|
 |**stream**|String| |

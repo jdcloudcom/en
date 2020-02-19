@@ -19,9 +19,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**accountPrivileges**|[AccountPrivilege[]](#AccountPrivilege)|True| |Account Access Permission|
+|**accountPrivileges**|[AccountPrivilege[]](grantprivilege#accountprivilege)|True| |Account Access Permission|
 
-### <a name="AccountPrivilege">AccountPrivilege</a>
+### <div id="accountprivilege">AccountPrivilege</div>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**dbName**|String|False| |Database Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
@@ -35,3 +35,30 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testGrantPrivilege() {
+    GrantPrivilegeRequest grantPrivilegeRequest = new GrantPrivilegeRequest();
+    grantPrivilegeRequest.setAccountName("dj_ac");
+    grantPrivilegeRequest.setInstanceId("mysql-wp4e9ztap2");
+    grantPrivilegeRequest.setRegionId("cn-north-1");
+    AccountPrivilege accountPrivilege1 = new AccountPrivilege();
+    accountPrivilege1.setDbName("dj_db");
+    accountPrivilege1.setPrivilege("rw");
+    List<AccountPrivilege> aps = new ArrayList<AccountPrivilege>();
+    aps.add(accountPrivilege1);
+    grantPrivilegeRequest.setAccountPrivileges(aps);
+    GrantPrivilegeResponse grantPrivilegeResponse = rdsClient.grantPrivilege(grantPrivilegeRequest);
+    System.out.println(new Gson().toJson(grantPrivilegeResponse));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa08gdtob57p1ok65p1wpn86k9r7i1w"
+}
+```

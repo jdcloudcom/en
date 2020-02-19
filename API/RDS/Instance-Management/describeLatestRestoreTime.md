@@ -22,9 +22,9 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeLatestRestoreTime#Result)| |
+|**result**|[Result](describelatestrestoretime#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**latestRestoreTime**|String|When recover instances based on the time point, the latest time point can be recovered|
@@ -33,3 +33,26 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeLatestRestoreTime() {
+    DescribeLatestRestoreTimeRequest request = new DescribeLatestRestoreTimeRequest();
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setRegionId("cn-north-1");
+    DescribeLatestRestoreTimeResponse response = rdsClient.describeLatestRestoreTime(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa4ra7kttub98404upawr11a9dnf1bb", 
+    "result": {
+        "latestRestoreTime": "2020-01-07 17:18:26"
+    }
+}
+```

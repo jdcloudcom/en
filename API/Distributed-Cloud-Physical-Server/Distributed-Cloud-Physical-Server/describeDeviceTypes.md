@@ -23,14 +23,14 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/deviceTypes
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describedevicetypes#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**deviceTypes**|[DeviceType[]](#devicetype)| |
-### <div id="DeviceType">DeviceType</div>
+|**deviceTypes**|[DeviceType[]](describedevicetypes#devicetype)| |
+### <div id="devicetype">DeviceType</div>
 |Name|Type|Description|
 |---|---|---|
 |**deviceType**|String|Instance type family, e.g. edcps.c.normal1|

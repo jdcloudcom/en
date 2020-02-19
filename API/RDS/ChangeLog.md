@@ -1,8 +1,15 @@
 # Update History #
-API Version: 0.7.3
+API Version: 0.8.6
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2019-12-31|0.8.5|Update API|* PG account supports description<br>* PG support audit related APIs<br>* Support for restoring instance by storage table|
+|2019-12-26|0.8.3|Add API|* Open APIs for modifying instance availability zone<br>* Update the APIs related to permission authorization|
+|2019-12-19|0.8.0|Add field|* Add disk type to list| 
+|2019-11-25|0.7.7|Add API|* PG error log| 
+|2019-11-14|0.7.5|Added API|* SSL related functions| 
+|2019-11-14|0.7.4|Add Sold-out API| 
+|2019-11-14|0.7.3|Update information related to API Description and others| 
 |2019-10-30|0.7.2|API Update|* Log file list returns logs update| 
 |2019-10-30|0.7.1|API Update|* Log file list supports filters filtering| 
 |2019-10-30|0.7.0|API Update|*Configuration change supports disk type selection <br>* MySQL list returns domain and supports domain filtering| 

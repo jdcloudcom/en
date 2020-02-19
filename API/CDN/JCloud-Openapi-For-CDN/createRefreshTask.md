@@ -14,17 +14,17 @@ https://cdn.jdcloud-api.com/v1/task
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**taskType**|String|False| |Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|
-|**urls**|String[]|False| | |
+|**taskType**|String|True| |Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|
+|**urls**|String[]|True| | |
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createrefreshtask#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**errorCount**|Integer|Count of Failed Tasks|

@@ -10,14 +10,14 @@
       - name: Tag Edit
         items:
           - name: tagResources
-            href: Tag-Service/tagResources.md
+            href: Resource-Tag-APIs/tagResources.md
           - name: untagResources
-            href: Tag-Service/untagResources.md  
+            href: Resource-Tag-APIs/unTagResources.md
       - name: Tag Search
         items:
           - name: describeTags
-            href: Tag-Service/describeTags.md
+            href: Resource-Tag-APIs/describeTags.md
           - name: describeResources
-            href: Tag-Service/describeResources.md  
+            href: Resource-Tag-APIs/describeResources.md  
           - name: queryResource
-            href: Tag-Service/queryResource.md  
+            href: Resource-Tag-APIs/queryResource.md  

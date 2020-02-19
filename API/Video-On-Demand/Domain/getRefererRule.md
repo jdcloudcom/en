@@ -21,16 +21,16 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Search configuration result of CDN domain Referer anti-leech rule|
+|**result**|[Result](getrefererrule#result)|Search configuration result of CDN domain Referer anti-leech rule|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**ruleType**|String|Value of rule type is 'referer'|
-|**config**|RefererRuleConfigObject|Configuration Object of Referer Anti-Leech Rule|
+|**config**|[RefererRuleConfigObject](getrefererrule#refererruleconfigobject)|Configuration Object of Referer Anti-Leech Rule|
 |**enabled**|Boolean|Enable the rule or not|
-### RefererRuleConfigObject
+### <div id="refererruleconfigobject">RefererRuleConfigObject</div>
 |Name|Type|Description|
 |---|---|---|
 |**strategy**|String|Enabling policy. Value range: <br>  denial - deny<br>  allowance - allow<br>|

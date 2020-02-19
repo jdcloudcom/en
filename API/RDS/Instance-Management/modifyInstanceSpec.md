@@ -27,9 +27,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyI
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](modifyInstanceSpec#Result)| |
+|**result**|[Result](modifyinstancespec#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**orderId**|String|Generated Order Number|
@@ -38,3 +38,28 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modifyI
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testModifyInstanceSpec() {
+    ModifyInstanceSpecRequest modifyInstanceSpecRequest = new ModifyInstanceSpecRequest();
+    modifyInstanceSpecRequest.setRegionId("cn-north-1");
+    modifyInstanceSpecRequest.setInstanceId("mysql-wp4e9ztap2");
+    modifyInstanceSpecRequest.setNewInstanceClass("db.mysql.s1.micro");
+    modifyInstanceSpecRequest.setNewInstanceStorageGB(40);
+    ModifyInstanceSpecResponse response = rdsClient.modifyInstanceSpec(modifyInstanceSpecRequest);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa57oaqq1hdr0hsf3uoeuim9b22awg8", 
+    "result": {
+        "orderId": "188341099108437755"
+    }
+}
+```

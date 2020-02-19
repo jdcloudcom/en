@@ -12,7 +12,7 @@ https://jdccs.jdcloud-api.com/v1/idcs/{idc}/metrics/{metric}/lastDownsample
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**idc**|String|True| |Data Center Name (English Identifier)|
+|**idc**|String|True| |IDC Data Center ID|
 |**metric**|String|True| |English Identifier (id) of Monitoring Item|
 
 ## Request Parameter

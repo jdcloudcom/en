@@ -28,26 +28,26 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeSlowLogs#Result)| |
+|**result**|[Result](describeslowlogs#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**slowLogs**|[SlowLogDigest[]](describeSlowLogs#SlowLogDigest)|Slow Log Information|
+|**slowLogs**|[SlowLogDigest[]](describeslowlogs#slowlogdigest)|Slow Log Information|
 |**totalCount**|Integer|Total Record Entries|
-### <a name="SlowLogDigest">SlowLogDigest</a>
+### <div id="slowlogdigest">SlowLogDigest</div>
 |Name|Type|Description|
 |---|---|---|
 |**dbName**|String|Database name, representing the database in which the SQL is executed|
 |**sql**|String|SQL Statement|
 |**executionTime**|String|Start time of SQL statement execution, with the format as YYYY-MM-DD hh:mm:ss|
 |**executionCount**|Integer|Execution of SQL Statement|
-|**elapsedTime**|[DigestData](describeSlowLogs#DigestData)|Duration of SQL statement execution, unit: second|
-|**lockTime**|[DigestData](describeSlowLogs#DigestData)|Time of SQL statement waiting for lock, unit: second|
-|**sqlLength**|[DigestData](describeSlowLogs#DigestData)|Length of SQL statement|
-|**rowsExamined**|[DigestData](describeSlowLogs#DigestData)|Rows of SQL statement scanning|
-|**rowsReturned**|[DigestData](describeSlowLogs#DigestData)|Rows of SQL statement return|
-### <a name="DigestData">DigestData</a>
+|**elapsedTime**|[DigestData](describeslowlogs#digestdata)|Duration of SQL statement execution, unit: second|
+|**lockTime**|[DigestData](describeslowlogs#digestdata)|Time of SQL statement waiting for lock, unit: second|
+|**sqlLength**|[DigestData](describeslowlogs#digestdata)|Length of SQL statement|
+|**rowsExamined**|[DigestData](describeslowlogs#digestdata)|Rows of SQL statement scanning|
+|**rowsReturned**|[DigestData](describeslowlogs#digestdata)|Rows of SQL statement return|
+### <div id="digestdata">DigestData</div>
 |Name|Type|Description|
 |---|---|---|
 |**pct95**|Float|Represent that 95% data in the execution results lower than or equal to the value|
@@ -60,3 +60,31 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeSlowLogs() {
+    DescribeSlowLogsRequest request = new DescribeSlowLogsRequest();
+    request.setRegionId("cn-north-1");
+    request.setPageNumber(1);
+    request.setPageSize(20);
+    request.setStartTime("2020-01-08 00:00:00");
+    request.setEndTime("2020-01-08 14:00:00");
+    request.setInstanceId("mysql-k67q8n46si");
+    DescribeSlowLogsResponse response = rdsClient.describeSlowLogs(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpaojtjd19rwgeruauestqgwwfm9imwv", 
+    "result": {
+        "slowLogs": [], 
+        "totalCount": 0
+    }
+}
+```

@@ -25,14 +25,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGrou
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeParameterGroupAttachedInstances#Result)| |
+|**result**|[Result](describeparametergroupattachedinstances#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**instances**|[AttachedDBInstance[]](describeParameterGroupAttachedInstances#AttachedDBInstance)| |
+|**instances**|[AttachedDBInstance[]](describeparametergroupattachedinstances#attacheddbinstance)| |
 |**totalCount**|Integer| |
-### <a name="AttachedDBInstance">AttachedDBInstance</a>
+### <div id="attacheddbinstance">AttachedDBInstance</div>
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Instance ID|
@@ -49,3 +49,41 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGrou
 |Return Code|Descripton|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeParameterGroupAttachedInstances() {
+    DescribeParameterGroupAttachedInstancesRequest request = new DescribeParameterGroupAttachedInstancesRequest();
+    request.setPageNumber(1);
+    request.setPageSize(20);
+    request.setParameterGroupId("mysql-pg-mpzspoh243");
+    request.setRegionId("cn-north-1");
+    DescribeParameterGroupAttachedInstancesResponse response = rdsClient.describeParameterGroupAttachedInstances(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpaoeib2c7hcvwcso2ujcq31m9quh18f", 
+    "result": {
+        "instances": [
+            {
+                "createTime": "2020-01-07 18:42:46", 
+                "engine": "MySQL", 
+                "engineVersion": "5.7", 
+                "instanceId": "mysql-k67q8n46si", 
+                "instanceName": "hdj_test", 
+                "instanceStatus": "ACTIVE", 
+                "instanceType": "cluster", 
+                "parameterGroupId": "mysql-pg-mpzspoh243", 
+                "parameterStatus": "VALID"
+            }
+        ], 
+        "totalCount": 1
+    }
+}
+```

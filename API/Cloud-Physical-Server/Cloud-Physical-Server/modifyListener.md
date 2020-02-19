@@ -8,11 +8,11 @@ Modify listener
 POST
 
 ## Request Address
-https://cps.jdcloud-api.com/v1/regions/{regionId}/listeners/{listenerId}:modifylistenerAttributes
+https://cps.jdcloud-api.com/v1/regions/{regionId}/listeners/{listenerId}:modifyListenerAttributes
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID, call APIs (queryCPSLBRegions) to get regions supported by Cloud Physical Server|
+|**regionId**|String|True| |Region ID, call the API (describeCPSLBRegions) to get regions supported by Cloud Physical Server|
 |**listenerId**|String|True| |Listener ID|
 
 ## Request Parameter
@@ -34,14 +34,14 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/listeners/{listenerId}:modifyl
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](modifylistener#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**loadBalancer**|Listener|Detailed Details of Listener|
-### Listener
+|**listener**|[Listener](modifylistener#listener)|Detailed Details of Listener|
+### <div id="listener">Listener</div>
 |Name|Type|Description|
 |---|---|---|
 |**listenerId**|String|Listener ID|

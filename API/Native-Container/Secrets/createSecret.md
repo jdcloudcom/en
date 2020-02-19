@@ -20,9 +20,9 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/secrets
 |---|---|---|---|---|
 |**name**|String|True| |Secrets name, cannot be repeated<br>|
 |**secretType**|String|True| |Secrets type, now only support: docker-registry type which is the docker registry verification type. <br>|
-|**data**|DockerRegistryData|True| |Secrets data. <br><br>Fields such as server, username and password must be contained and the field of email is optional. <br><br>|
+|**data**|[DockerRegistryData](createsecret#dockerregistrydata)|True| |Secrets data. <br><br>Fields such as server, username and password must be contained and the field of email is optional. <br><br>|
 
-### DockerRegistryData
+### <div id="dockerregistrydata">DockerRegistryData</div>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**server**|String|True| |Registry Server Address|
@@ -33,10 +33,10 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/secrets
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createsecret#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**secretName**|String| |

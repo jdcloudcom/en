@@ -12,7 +12,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/slbs/{loadBalancerId}:modifyLo
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID, call APIs (queryCPSLBRegions) to get regions supported by Cloud Physical Server|
+|**regionId**|String|True| |Region ID, call the API (describeCPSLBRegions) to get regions supported by Cloud Physical Server|
 |**loadBalancerId**|String|True| |Load Balancer Instance ID|
 
 ## Request Parameter
@@ -25,14 +25,14 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/slbs/{loadBalancerId}:modifyLo
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](modifyloadbalancer#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**loadBalancer**|LoadBalancer|Details of Load Balancer Instance|
-### LoadBalancer
+|**loadBalancer**|[LoadBalancer](modifyloadbalancer#loadbalancer)|Details of Load Balancer Instance|
+### <div id="loadbalancer">LoadBalancer</div>
 |Name|Type|Description|
 |---|---|---|
 |**loadBalancerId**|String|Load Balancer Instance ID|
@@ -47,8 +47,8 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/slbs/{loadBalancerId}:modifyLo
 |**name**|String|Name|
 |**description**|String|Description|
 |**createTime**|String|Creation Time|
-|**charge**|Charge|Billing Configuration|
-### Charge
+|**charge**|[Charge](modifyloadbalancer#charge)|Billing Configuration|
+### <div id="charge">Charge</div>
 |Name|Type|Description|
 |---|---|---|
 |**chargeMode**|String|Payment model, the value shall be: prepaid_by_duration, postpaid_by_usage or postpaid_by_duration. prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and the default is taken as postpaid_by_duration|

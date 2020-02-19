@@ -27,10 +27,10 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:assoc
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](associateelasticip#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Associate result|

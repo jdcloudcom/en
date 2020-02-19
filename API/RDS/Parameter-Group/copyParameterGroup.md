@@ -25,9 +25,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups:copyParameterG
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](copyParameterGroup#Result)| |
+|**result**|[Result](copyparametergroup#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**parameterGroupId**|String| |
@@ -36,3 +36,28 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups:copyParameterG
 |Return Code|Descripton|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testCopyParameterGroup() {
+    CopyParameterGroupRequest request = new CopyParameterGroupRequest();
+    request.setDescription("copy mysql-pg-mpzspoh243");
+    request.setParameterGroupId("mysql-pg-mpzspoh243");
+    request.setParameterGroupName("copy");
+    request.setRegionId("cn-north-1");
+    CopyParameterGroupResponse response = rdsClient.copyParameterGroup(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpaodvuh5d8ncviu4bd10v05u451ghip", 
+    "result": {
+        "parameterGroupId": "mysql-pg-4xs1w58i9u"
+    }
+}
+```

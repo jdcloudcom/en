@@ -14,14 +14,14 @@ https://vod.jdcloud-api.com/v1/videos:batchUpdate
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**bulkItems**|BatchUpdateVideosBulkItem[]|True| |Update video entry set in batches|
+|**bulkItems**|[BatchUpdateVideosBulkItem[]](batchupdatevideos#batchupdatevideosbulkitem)|True| |Update video entry set in batches|
 
-### BatchUpdateVideosBulkItem
+### <div id="batchupdatevideosbulkitem">BatchUpdateVideosBulkItem</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**videoId**|String|False| |Video ID|
 |**name**|String|False| |Video Name|
-|**categoryId**|Number|False| |Category ID|
+|**categoryId**|Long|False| |Category ID|
 |**tags**|String[]|False| |Video Tagging|
 |**coverUrl**|String|False| |Cover Plot Address|
 |**description**|String|False| |Video Description Information|
@@ -29,10 +29,10 @@ https://vod.jdcloud-api.com/v1/videos:batchUpdate
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Modification Result of Video Information in Batches|
+|**result**|[Result](batchupdatevideos#result)|Modification result of video information in batches|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**okVideoIds**|String[]|List of Video ID Updated|

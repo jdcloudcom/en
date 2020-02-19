@@ -29,3 +29,24 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testRestoreInstance() {
+    RestoreInstanceRequest restoreInstanceRequest = new RestoreInstanceRequest();
+    restoreInstanceRequest.setRegionId("cn-north-1");
+    restoreInstanceRequest.setInstanceId("mysql-wp4e9ztap2");
+    restoreInstanceRequest.setBackupId("dcd25cd6-a787-4fea-8e89-1451ba600591");
+    RestoreInstanceResponse response = rdsClient.restoreInstance(restoreInstanceRequest);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa52futu48fs55crqrowuetussetnn0"
+}
+```

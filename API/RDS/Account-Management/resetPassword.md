@@ -30,3 +30,25 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testResetPassword() {
+    ResetPasswordRequest resetPasswordRequest = new ResetPasswordRequest();
+    resetPasswordRequest.setAccountName("dj_ac");
+    resetPasswordRequest.setAccountPassword("123456aA");
+    resetPasswordRequest.setInstanceId("mysql-wp4e9ztap2");
+    resetPasswordRequest.setRegionId("cn-north-1");
+    ResetPasswordResponse resetPasswordResponse = rdsClient.resetPassword(resetPasswordRequest);
+    System.out.println(new Gson().toJson(resetPasswordResponse));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa0adwouffbe0k4i5h82dom3ks4opnb"
+}
+```

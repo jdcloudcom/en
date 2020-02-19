@@ -2,7 +2,7 @@
 
 
 ## Description
-Search the details of an image importation task
+Search the details of an image importation and exportation task
 
 
 ## Request Method
@@ -18,7 +18,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/imageTasks
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**taskAction**|String|True| |Task Category. Optional Value: ImportImage|
+|**taskAction**|String|True| |Task Category. Optional Value: ImportImage, ExportImage|
 |**taskIds**|Integer[]|False| |Task id|
 |**taskStatus**|String|False| |Task Status. Optional Value: pending,running,failed,finished|
 |**startTime**|String|False| |Task Start Time|
@@ -30,15 +30,15 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/imageTasks
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|Result[ ]| |
 |**requestId**|String| |
 
-### Result
+### <div id="Result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**taskSet**|TaskInfo[]|Task Detail|
+|**taskSet**|TaskInfo[ ]|Task Detail|
 |**totalCount**|Integer|: Total number|
-### TaskInfo
+### <div id="TaskInfo">TaskInfo</div>
 |Name|Type|Description|
 |---|---|---|
 |**taskId**|Integer|Task id|

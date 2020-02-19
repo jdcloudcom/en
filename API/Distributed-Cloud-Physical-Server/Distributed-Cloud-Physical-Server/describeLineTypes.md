@@ -21,14 +21,14 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describelinetypes#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**lineTypes**|[LineType[]](#linetype)| |
-### <div id="LineType">LineType</div>
+|**lineTypes**|[LineType[]](describelinetypes#linetype)| |
+### <div id="linetype">LineType</div>
 |Name|Type|Description|
 |---|---|---|
 |**lineType**|String|Link Type|

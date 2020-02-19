@@ -31,3 +31,26 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testRestoreDatabaseFromBackup() {
+    RestoreDatabaseFromBackupRequest restoreDatabaseFromBackupRequest = new RestoreDatabaseFromBackupRequest();
+    restoreDatabaseFromBackupRequest.setBackupFileName("test_db.bak");
+    restoreDatabaseFromBackupRequest.setBackupId("sqlserver-4eac4982-d54b-4f97-80f9-ce404209b446");
+    restoreDatabaseFromBackupRequest.setDbName("test_db");
+    restoreDatabaseFromBackupRequest.setInstanceId("sqlserver-83uqv7avy4");
+    restoreDatabaseFromBackupRequest.setRegionId("cn-north-1");
+    RestoreDatabaseFromBackupResponse response = rdsClient.restoreDatabaseFromBackup(restoreDatabaseFromBackupRequest);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa3sm7ujvspre1rkfbhbr50g5se8g9e"
+}
+```

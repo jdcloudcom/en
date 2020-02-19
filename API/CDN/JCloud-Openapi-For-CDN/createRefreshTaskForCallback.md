@@ -14,22 +14,22 @@ https://cdn.jdcloud-api.com/v1/task:createForCallback
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**taskType**|String|False| |Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|
-|**urlItems**|UrlItem[]|False| | |
+|**taskType**|String|True| |Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|
+|**urlItems**|[UrlItem[]](createrefreshtaskforcallback#urlitem)|True| | |
 
-### UrlItem
+### <div id="urlitem">UrlItem</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**url**|String|False| |Task url|
+|**url**|String|True| |Task url|
 |**urlId**|Long|False| |Returned Task id|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createrefreshtaskforcallback#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**errorCount**|Integer|Count of Failed Tasks|

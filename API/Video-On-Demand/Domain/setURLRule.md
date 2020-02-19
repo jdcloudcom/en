@@ -17,10 +17,10 @@ https://vod.jdcloud-api.com/v1/domains/{domainId}:setURLRule
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**config**|URLRuleConfigObject|True| |URL authentication rule configuration object|
+|**config**|[URLRuleConfigObject](seturlrule#urlruleconfigobject)|True| |URL authentication rule configuration object|
 |**enabled**|Boolean|True| |Enable the rule or not|
 
-### URLRuleConfigObject
+### <div id="urlruleconfigobject">URLRuleConfigObject</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**authType**|String|True| |Authentication Type. Value range: <br>  by_params - parameter authentication<br>  by_path - path authentication<br>|

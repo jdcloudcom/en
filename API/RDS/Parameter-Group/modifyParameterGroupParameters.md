@@ -18,9 +18,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGrou
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**parameters**|[Parameter[]](#Parameter)|True| |Modified Parameters|
+|**parameters**|[Parameter[]](modifyparametergroupparameters#parameter)|True| |Modified Parameters|
 
-### <a name="Parameter">Parameter</a>
+### <div id="parameter">Parameter</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Parameter Name|
@@ -34,3 +34,27 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+PUT
+```
+public void testModifyParameterGroupParameters() {
+    ModifyParameterGroupParametersRequest request = new ModifyParameterGroupParametersRequest();
+    request.setParameterGroupId("mysql-pg-e4zkfymxwt");
+    Parameter parameter = new Parameter();
+    parameter.setName("binlog_cache_size");
+    parameter.setValue("5000");
+    request.addParameter(parameter);
+    request.setRegionId("cn-north-1");
+    ModifyParameterGroupParametersResponse response = rdsClient.modifyParameterGroupParameters(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpao8wga4wnjbj1p3rq6uw9nj2468sek"
+}
+```

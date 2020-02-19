@@ -27,3 +27,23 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testDisableAudit() {
+    DisableAuditRequest request = new DisableAuditRequest();
+    request.setInstanceId("mysql-wp4e9ztap2");
+    request.setRegionId("cn-north-1");
+    DisableAuditResponse response = rdsClient.disableAudit(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa2tb6ojwmckue98ke36cfg6fs02ouh"
+}
+```

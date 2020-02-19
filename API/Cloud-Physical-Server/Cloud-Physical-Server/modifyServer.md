@@ -12,7 +12,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/serverGroups/{serverGroupId}/s
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID, call APIs (queryCPSLBRegions) to get regions supported by Cloud Physical Server|
+|**regionId**|String|True| |Region ID, call the API (describeCPSLBRegions) to get regions supported by Cloud Physical Server|
 |**serverGroupId**|String|True| |ID of Server Group|
 |**serverId**|String|True| |Backend Server ID|
 
@@ -25,10 +25,10 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/serverGroups/{serverGroupId}/s
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](modifyserver#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**serverId**|String|Backend Server ID|

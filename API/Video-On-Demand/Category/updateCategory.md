@@ -25,10 +25,10 @@ https://vod.jdcloud-api.com/v1/categories/{categoryId}
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Modify category result|
+|**result**|[Result](updatecategory#result)|Modify category result|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|Long|Category ID|

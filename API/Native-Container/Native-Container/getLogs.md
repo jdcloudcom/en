@@ -27,10 +27,10 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{contai
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](getlogs#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**logs**|Object| |

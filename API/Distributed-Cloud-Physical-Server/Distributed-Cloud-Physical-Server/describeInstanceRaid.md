@@ -22,10 +22,10 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describeinstanceraid#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**sysRaidTypeId**|String|System Disk RAID Type ID|

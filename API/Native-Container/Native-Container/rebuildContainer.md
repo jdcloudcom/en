@@ -34,9 +34,9 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{contai
 |**args**|String[]|False| |Parameter of command executed in container start, if it is not specified to be CMD of image by default, the total length range of array characters: [0-2048]|
 |**tty**|Boolean|False| |Whether a container is assigned with tty. It is not assigned by default|
 |**workingDir**|String|False| |Container’s Working Catalog. If not specified, it is root catalog (/) by default; and the working catalog must be the absolute path. Character length range: [0-1024]|
-|**envs**|EnvVar[]|False| |Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 100 pairs at most|
+|**envs**|[EnvVar[]](rebuildcontainer#envvar)|False| |Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced; </br> 100 pairs at most|
 
-### EnvVar
+### <div id="envvar">EnvVar</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Environment Variable Name|

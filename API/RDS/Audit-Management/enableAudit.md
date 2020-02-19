@@ -27,3 +27,23 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testEnableAudit() {
+    EnableAuditRequest request = new EnableAuditRequest();
+    request.setInstanceId("mysql-wp4e9ztap2");
+    request.setRegionId("cn-north-1");
+    EnableAuditResponse response = rdsClient.enableAudit(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa2sur0aovda2093o03m9bfawbr3r1n"
+}
+```

@@ -23,13 +23,13 @@ https://cdn.jdcloud-api.com/v1/liveDomain/{domain}/protocolConvert
 |**sslCertId**|String|False| |ssl Certificate id|
 |**syncToSsl**|Boolean|False| |Whether to synchronize to ssl, boolean values, value true or false|
 |**certName**|String|False| |When syncToSsl is true, certName is mandatory|
-|**protocolConverts**|ProtocolConvert[]|False| | |
+|**protocolConverts**|[ProtocolConvert[]](#protocolconvert)|False| | |
 
-### ProtocolConvert
+### <div id="ProtocolConvert">ProtocolConvert</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**sourceProtocol**|String|False| |Currently, Source Protocol only can be rtmp|
-|**targetProtocol**|String|False| |Target Protocol|
+|**sourceProtocol**|String|True| |Currently, Source Protocol only can be rtmp|
+|**targetProtocol**|String|True| |Target Protocol|
 
 ## Return Parameter
 |Name|Type|Description|

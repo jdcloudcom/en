@@ -27,3 +27,23 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+DELETE
+```
+public void testDeleteBackupSynchronicity() {
+    DeleteBackupSynchronicityRequest request = new DeleteBackupSynchronicityRequest();
+    request.setRegionId("cn-east-2");
+    request.setServiceId("dbs-r1q51ene3s5d");
+    DeleteBackupSynchronicityResponse response = rdsClient.deleteBackupSynchronicity(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa35r3b7jni1rj6krrfbprsr68vpb38"
+}
+```

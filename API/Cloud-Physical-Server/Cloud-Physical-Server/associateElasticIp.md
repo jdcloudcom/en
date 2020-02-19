@@ -26,10 +26,10 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:associa
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](associateelasticip#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Associate result|

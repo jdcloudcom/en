@@ -20,6 +20,7 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 |---|---|---|---|---|
 |**accountName**|String|True| |For Account Name, in the same RDS instance, the Account Name cannot be repeated. See Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules of Account Name|
 |**accountPassword**|String|True| |Password, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules of Password|
+|**notes**|String|False| |Description information, only supports PostgreSQL|
 
 
 ## Response parameter
@@ -30,3 +31,25 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testCreateAccount() {
+    CreateAccountRequest createAccountRequest = new CreateAccountRequest();
+    createAccountRequest.setAccountName("dj_ac");
+    createAccountRequest.setAccountPassword("123456aA");
+    createAccountRequest.setInstanceId("mysql-wp4e9ztap2");
+    createAccountRequest.setRegionId("cn-north-1");
+    CreateAccountResponse createAccountResponse = rdsClient.createAccount(createAccountRequest);
+    System.out.println(new Gson().toJson(createAccountResponse));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa02f1veq58ctu9j1too76nbckvrp2m"
+}
+```

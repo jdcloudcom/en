@@ -18,7 +18,7 @@ https://vod.jdcloud-api.com/v1/videos/{videoId}
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|False| |Video Name|
-|**categoryId**|Number|False| |Category ID|
+|**categoryId**|Long|False| |Category ID|
 |**tags**|String[]|False| |Tag|
 |**coverUrl**|String|False| |Cover Address|
 |**description**|String|False| |Video Description Information|
@@ -27,10 +27,10 @@ https://vod.jdcloud-api.com/v1/videos/{videoId}
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Modification result of video information|
+|**result**|[Result](updatevideo#result)|Modification result of video information|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|String|Video ID|
@@ -44,10 +44,10 @@ https://vod.jdcloud-api.com/v1/videos/{videoId}
 |**tags**|String[]|Tag Set|
 |**categoryId**|Long|Category ID|
 |**categoryName**|String|Category Name|
-|**snapshots**|Snapshot[]|Transcode Snapshot|
+|**snapshots**|[Snapshot[]](updatevideo#snapshot)|Transcode Snapshot|
 |**createTime**|String|Creation Time|
 |**updateTime**|String|Modification Time|
-### Snapshot
+### <div id="snapshot">Snapshot</div>
 |Name|Type|Description|
 |---|---|---|
 |**imgId**|Long|Snapshot ID|

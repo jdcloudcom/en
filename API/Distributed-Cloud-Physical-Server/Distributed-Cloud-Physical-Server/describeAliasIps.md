@@ -22,22 +22,29 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/aliasIps
 |**subnetId**|String|False| |Subnet ID|
 |**instanceId**|String|False| |Instance ID|
 |**cidr**|String|False| |CIDR Fragment, Fuzzy Search|
+|**filters**|[Filter[]](describealiasips#filter)|False| |aliasIpId - Alias IP id<br/><br>|
 
+### <div id="filter">Filter</div>
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describealiasips#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**aliasIps**|[AliasIp[]](#aliasip)| |
+|**aliasIps**|[AliasIp[]](describealiasips#aliasip)| |
 |**pageNumber**|Integer|Page Number; 1 by Default|
 |**pageSize**|Integer|Page size; it is 20 by default; value range[20, 100]|
 |**totalCount**|Integer|Search result amount|
-### <div id="AliasIp">AliasIp</div>
+### <div id="aliasip">AliasIp</div>
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Instance ID|

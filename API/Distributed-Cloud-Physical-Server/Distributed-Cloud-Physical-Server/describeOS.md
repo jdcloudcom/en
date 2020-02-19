@@ -24,14 +24,14 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/os
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describeos#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**oss**|[Os[]](#os)| |
-### <div id="Os">Os</div>
+|**oss**|[Os[]](describeos#os)| |
+### <div id="os">Os</div>
 |Name|Type|Description|
 |---|---|---|
 |**osTypeId**|String|Operating System Type ID|

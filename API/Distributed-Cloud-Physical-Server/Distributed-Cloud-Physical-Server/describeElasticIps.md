@@ -22,9 +22,9 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/elasticIps
 |**pageNumber**|Integer|False|1|Page number; xxx by default1|
 |**pageSize**|Integer|False|20|Page size; it is 20 by default; value range[20, 100]|
 |**status**|String|False| |Elastic IP Status, Value Range: associate, disassociate|
-|**filters**|[Filter[]](#filter)|False| |elasticIpId - Elastic IPID, exact match, supporting multiple IDs<br/><br>elasticIp - Elastic IP, exact match, supporting multiple IPs<br>|
+|**filters**|[Filter[]](describeelasticips#filter)|False| |elasticIpId - Elastic IPID, exact match, supporting multiple IDs<br/><br>elasticIp - Elastic IP, exact match, supporting multiple IPs<br>|
 
-### <div id="Filter">Filter</div>
+### <div id="filter">Filter</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name of Filter Requirements|
@@ -34,17 +34,17 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/elasticIps
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describeelasticips#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**elasticIps**|[ElasticIp[]](#elasticip)| |
+|**elasticIps**|[ElasticIp[]](describeelasticips#elasticip)| |
 |**pageNumber**|Integer|Page Number; 1 by Default|
 |**pageSize**|Integer|Page size; it is 20 by default; value range[20, 100]|
 |**totalCount**|Integer|Search result amount|
-### <div id="ElasticIp">ElasticIp</div>
+### <div id="elasticip">ElasticIp</div>
 |Name|Type|Description|
 |---|---|---|
 |**region**|String|Region code, e.g. cn-east-tz1|
@@ -58,8 +58,9 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/elasticIps
 |**instanceId**|String|Instance ID|
 |**createTime**|String|Creation Time|
 |**aliasIpId**|String|Alias IP id|
-|**charge**|[Charge](#charge)|Billing Information|
-### <div id="Charge">Charge</div>
+|**aliasIp**|String|alias IP ip|
+|**charge**|[Charge](describeelasticips#charge)|Billing Information|
+### <div id="charge">Charge</div>
 |Name|Type|Description|
 |---|---|---|
 |**chargeMode**|String|Payment model, the value shall be: prepaid_by_duration, postpaid_by_usage or postpaid_by_duration. prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and the default is taken as postpaid_by_duration|

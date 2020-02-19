@@ -17,10 +17,10 @@ https://vod.jdcloud-api.com/v1/domains/{domainId}:setIPRule
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**config**|IPRuleConfigObject|True| |Configuration Object of IP Blacklist Rule|
+|**config**|[IPRuleConfigObject](setiprule#ipruleconfigobject)|True| |Configuration Object of IP Black List Rule|
 |**enabled**|Boolean|True| |Enable the rule or not|
 
-### IPRuleConfigObject
+### <div id="ipruleconfigobject">IPRuleConfigObject</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**ips**|String[]|True| |IP Blacklist|

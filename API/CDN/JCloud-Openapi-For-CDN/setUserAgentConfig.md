@@ -17,8 +17,8 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/userAgentConfig
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**userAgentType**|String|False| |userAgent type, value: block (blacklist), allow (White List), block by default|
-|**userAgentList**|String[]|False| |UA List, if userAgentList is null, all shall be deleted|
+|**userAgentType**|String|True| |userAgent type, value: block (black list), allow (white list), block by default|
+|**userAgentList**|String[]|True| |UA List, if userAgentList is null, all shall be deleted|
 
 
 ## Return Parameter

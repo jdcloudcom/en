@@ -2,7 +2,7 @@
 
 
 ## Description
-cluster removed nodeGroup and delete nodeGroup
+Cluster removes and deletes working node group
 
 ## Request Method
 DELETE
@@ -13,7 +13,7 @@ https://kubernetes.jdcloud-api.com/v1/regions/{regionId}/nodeGroups/{nodeGroupId
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
-|**nodeGroupId**|String|True| |ID of Node Group|
+|**nodeGroupId**|String|True| |Working Node Group ID|
 
 ## Request Parameter
 None

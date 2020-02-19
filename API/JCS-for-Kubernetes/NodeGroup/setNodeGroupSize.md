@@ -2,7 +2,7 @@
 
 
 ## Description
-Adjust instance count of node group
+Adjust instance count of working node group
 
 ## Request Method
 POST
@@ -13,12 +13,12 @@ https://kubernetes.jdcloud-api.com/v1/regions/{regionId}/nodeGroups/{nodeGroupId
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
-|**nodeGroupId**|String|True| |ID of Node Group|
+|**nodeGroupId**|String|True| |Working Node Group ID|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**expectCount**|Integer|True| |Create a cluster request parameter model|
+|**expectCount**|Integer|True| |Expected Target Node Quantity|
 
 
 ## Return Parameter

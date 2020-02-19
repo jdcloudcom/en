@@ -21,16 +21,16 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Search configuration result of CDN domain IP blacklist rule|
+|**result**|[Result](getiprule#result)|Search configuration result of CDN domain IP black list rule|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**ruleType**|String|The rule type value is 'ip'|
-|**config**|IPRuleConfigObject|Configuration Object of IP Blacklist Rule|
+|**config**|[IPRuleConfigObject](getiprule#ipruleconfigobject)|Configuration Object of IP Black List Rule|
 |**enabled**|Boolean|Enable the rule or not|
-### IPRuleConfigObject
+### <div id="ipruleconfigobject">IPRuleConfigObject</div>
 |Name|Type|Description|
 |---|---|---|
 |**ips**|String[]|IP blacklist|

@@ -27,10 +27,10 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/elasticIps/{elasticIpId}:mod
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](modifyelasticipbandwidth#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Whether the bandwidth modification succeeded|

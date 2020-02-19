@@ -17,7 +17,7 @@ https://cdn.jdcloud-api.com/v1/liveDomain/{domain}/accesskeyConfig
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**accesskeyType**|Integer|False| |url Authentication On 1 Off 0|
+|**accesskeyType**|Integer|True| |url Authentication On 1 Off 0|
 |**accesskeyKey**|String|False| |url Authentication must be uploaded when uploading|
 |**authLifeTime**|Integer|False| |The default value is 300s when it is on, 0 when it is off|
 

@@ -12,7 +12,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/slbs/{loadBalancerId}:startLoa
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID, call APIs (queryCPSLBRegions) to get regions supported by Cloud Physical Server|
+|**regionId**|String|True| |Region ID, call the API (describeCPSLBRegions) to get regions supported by Cloud Physical Server|
 |**loadBalancerId**|String|True| |Load Balancer Instance ID|
 
 ## Request Parameter
@@ -24,10 +24,10 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/slbs/{loadBalancerId}:startLoa
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](startloadbalancer#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Load Balancer instance is enabled or not|

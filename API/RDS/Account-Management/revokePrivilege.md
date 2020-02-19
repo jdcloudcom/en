@@ -30,3 +30,27 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testRevokePrivilege() {
+    RevokePrivilegeRequest revokePrivilegeRequest = new RevokePrivilegeRequest();
+    revokePrivilegeRequest.setAccountName("dj_ac");
+    revokePrivilegeRequest.setInstanceId("mysql-wp4e9ztap2");
+    revokePrivilegeRequest.setRegionId("cn-north-1");
+    List<String> dbNames = new ArrayList<>();
+    dbNames.add("dj_db");
+    revokePrivilegeRequest.setDbNames(dbNames);
+    RevokePrivilegeResponse response = rdsClient.revokePrivilege(revokePrivilegeRequest);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa09sqv506u80guctqkucpwwi7g74q6"
+}
+```

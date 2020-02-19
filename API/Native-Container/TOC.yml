@@ -31,6 +31,8 @@
             href: Native-Container/stopContainer.md
           - name: Reset the Native Dock Image
             href: Native-Container/rebuildContainer.md
+          - name: Adjust Native Container Instance Type Family configuration
+            href: Native-Container/resizeContainer.md
           - name: Create exec
             href: Native-Container/execCreate.md
           - name: Obtain exec exit code
@@ -53,5 +55,5 @@
             href: Secrets/describeSecrets.md
       - name: Instance Type
         items:
-          - name: describeInstanceTypes
+          - name: Search Instance Type
             href: Instance-Type/describeInstanceTypes.md

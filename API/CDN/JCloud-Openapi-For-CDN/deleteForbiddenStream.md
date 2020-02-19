@@ -17,13 +17,14 @@ https://cdn.jdcloud-api.com/v1/liveDomain/{domain}/stream:unForbidden
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**deleteStreams**|DeleteStream[]|False| |Forbidden Stream To Be Deleted|
+|**deleteStreams**|[DeleteStream[]](#deletestream)|True| |Forbidden Stream To Be Deleted|
 
-### DeleteStream
+### <div id="DeleteStream">DeleteStream</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**stream**|String|False| |Forbidden Stream|
-|**app**|String|False| |Blocked pushing streaming app|
+|**stream**|String|True| |Forbidden Stream|
+|**app**|String|True| |Blocked pushing streaming app|
+|**publishIp**|String|True| | |
 
 ## Return Parameter
 |Name|Type|Description|

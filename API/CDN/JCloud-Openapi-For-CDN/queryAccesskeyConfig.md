@@ -21,10 +21,10 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](queryaccesskeyconfig#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**accesskeyType**|Integer|Authentication type, where 0 represents without authentication, 1 represents parameter authentication, 2 represents path authentication|

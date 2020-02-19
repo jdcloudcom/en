@@ -24,8 +24,8 @@ https://order.jdcloud-api.com/v2/regions/{regionId}/orders
 |---|---|---|---|---|
 |**appCode**|String|False| |Business Line|
 |**chargeMode**|String|False| |Billing Type (CONFIG - Pay By Configuration, FLOW - Pay By Consumption, MONTHLY - Monthly Package, ONCE - Pay By Times)|
-|**startTime**|Long|False| |Search Order Start Time Stamp|
-|**endTime**|Long|False| |Search Order End Time Stamp|
+|**startTime**|Long|False| |Search Order Start Time Stamp (Search order start time is to search the interval from order start time to end time, and the maximum interval is one year. If both of them are null, then order start time shall be the latest month by default)|
+|**endTime**|Long|False| |Search Order End Time Stamp (Search order start time is to search the interval from order start time to end time, and the maximum interval is one year. If both of them are null, then order start time shall be the latest month by default)|
 |**orderType**|String|False| |Type of Purchase Order (NEW-New purchase, RENEW - Renewal, RESIZE_FORMULA - Configuration Changes, TEMP_UPGRADE - Temporary Configuration Upgrade)|
 |**pageNumber**|Integer|False| |Page: Page No.|
 |**pageSize**|Integer|False| |Page: Order Piece|

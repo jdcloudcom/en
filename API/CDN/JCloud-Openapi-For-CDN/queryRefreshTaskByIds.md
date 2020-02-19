@@ -14,21 +14,21 @@ https://cdn.jdcloud-api.com/v1/task:queryByIds
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**taskIds**|String[]|False| |Searched Task taskIds List, 10 pieces at most|
+|**taskIds**|String[]|True| |Searched Task taskIds List, 10 pieces at most|
 |**keyword**|String|False| |Fuzzy search keyword of url|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](queryRefreshTaskByIds#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="Result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**tasks**|RefreshTask[]| |
-### RefreshTask
+|**tasks**|[RefreshTask[]](queryRefreshTaskByIds#refreshtask)| |
+### <div id="RefreshTask">RefreshTask</div>
 |Name|Type|Description|
 |---|---|---|
 |**createDate**|String|Task Creation Time, UTC time|
@@ -39,8 +39,8 @@ https://cdn.jdcloud-api.com/v1/task:queryByIds
 |**retryStatus**|String|Try Again Status (unretry: not try again, retry: try again)|
 |**taskStatus**|String|Task Status (running: in running, success: success, failed: failure)|
 |**taskType**|String|Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|
-|**urlTasks**|UrlTask[]|Detailed Task|
-### UrlTask
+|**urlTasks**|[UrlTask[]](#urltask)|Detailed Task|
+### <div id="UrlTask">UrlTask</div>
 |Name|Type|Description|
 |---|---|---|
 |**taskType**|String|Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|

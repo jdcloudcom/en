@@ -30,14 +30,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeBackups#Result)| |
+|**result**|[Result](describebackups#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**backup**|[Backup[]](describeBackups#Backup)|Backup Set|
+|**backup**|[Backup[]](describebackups#backup)|Backup Set|
 |**totalCount**|Integer|Total Number of Records|
-### <a name="Backup">Backup</a>
+### <div id="backup">Backup</div>
 |Name|Type|Description|
 |---|---|---|
 |**backupId**|String|Backup ID|
@@ -56,3 +56,48 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backups
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeBackups() {
+    DescribeBackupsRequest describeBackupsRequest = new DescribeBackupsRequest();
+    describeBackupsRequest.setInstanceId("mysql-wp4e9ztap2");
+    describeBackupsRequest.setRegionId("cn-north-1");
+    describeBackupsRequest.setPageNumber(1);
+    describeBackupsRequest.setPageSize(10);
+    DescribeBackupsResponse response = rdsClient.describeBackups(describeBackupsRequest);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa30g4fdrqkkoe010om8t9rafn4qm43", 
+    "result": {
+        "backup": [
+            {
+                "backupId": "0313e588-44d0-4b20-b532-6eebb9d83352", 
+                "backupMode": "manual", 
+                "backupName": "dj_backup", 
+                "backupSizeByte": 15167776, 
+                "backupStartTime": "2020-01-07T15:14:07", 
+                "backupStatus": "COMPLETED", 
+                "instanceId": "mysql-wp4e9ztap2"
+            }, 
+            {
+                "backupId": "dcd25cd6-a787-4fea-8e89-1451ba600591", 
+                "backupMode": "auto", 
+                "backupName": "916450a3", 
+                "backupSizeByte": 15133149, 
+                "backupStartTime": "2020-01-07T02:13:03", 
+                "backupStatus": "COMPLETED", 
+                "instanceId": "mysql-wp4e9ztap2"
+            }
+        ], 
+        "totalCount": 2
+    }
+}
+```

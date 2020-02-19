@@ -17,7 +17,7 @@ https://cdn.jdcloud-api.com/v1/liveDomain/{domain}/backSourceHost
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**sourceHost**|String|False| |Default back-to-origin host|
+|**sourceHost**|String|True| |Default back-to-origin host|
 
 
 ## Return Parameter

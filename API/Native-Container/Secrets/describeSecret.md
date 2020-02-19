@@ -23,21 +23,21 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describesecret#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**secret**|Secret| |
-### Secret
+|**secret**|[Secret](describesecret#secret)| |
+### <div id="secret">Secret</div>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Confidential Data Name|
 |**secretType**|String|Now, only the following private data type is supported: docker-registry, which is the docker registry verification type|
 |**createdAt**|String|Creation Time|
-|**data**|DockerRegistryData|Confidential Data|
-### DockerRegistryData
+|**data**|[DockerRegistryData](describesecret#dockerregistrydata)|Confidential Data|
+### <div id="dockerregistrydata">DockerRegistryData</div>
 |Name|Type|Description|
 |---|---|---|
 |**server**|String|Registry Server Address|

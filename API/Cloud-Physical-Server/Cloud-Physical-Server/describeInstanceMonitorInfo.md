@@ -20,26 +20,32 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/monitor
 |---|---|---|---|---|
 |**startTime**|Long|False| |Time Stamp of Start Time, Format: 1562915166551|
 |**endTime**|Long|False| |Time Stamp of End Time, Format: 1562915166551|
-|**metrics**|String[]|False| |cps.cpu.util - CPU Util<br/><br>cps.memory.util - Memory Util<br/><br>cps.memory.used - Memory Used<br/><br>cps.disk.used - Disk Used<br/><br>cps.disk.util - Disk Util<br/><br>cps.disk.bytes.read - Disk Read Traffic<br/><br>cps.disk.bytes.write - Disk Write Traffic<br/><br>cps.disk.counts.read - IOPS for Disk Counts Read<br/><br>cps.disk.counts.write - IOPS for Disk Counts Write<br/><br>cps.network.bytes.ingress - Network Interface Ingress Traffic<br/><br>cps.network.bytes.egress - Network Interface Egress Traffic<br/><br>cps.network.packets.ingress - Network Ingress Packets <br/><br>cps.network.packets.egress - Network Egress Packets<br/><br>cps.avg.load1 - CPU Average Load 1min<br/><br>cps.avg.load5 - CPU Average Load 5min<br/><br>cps.avg.load15 - CPU Average Load 15min<br/><br>cps.tcp.connect.total - TCP Total Connection <br/><br>cps.tcp.connect.established - TCP Normal Connection<br/><br>cps.process.total - Total Process Count<br>|
+|**filters**|[Filter[]](describeinstancemonitorinfo#filter)|False| |metric - monitoring indicator, exact matching, supporting multiple indicators, with details below<br/><br>cps.cpu.util - CPU Utilization Rate<br/><br>cps.memory.util - Memory Utilization Rate<br/><br>cps.memory.used - Memory Used<br/><br>cps.disk.used - Disk Used<br/><br>cps.disk.util - Disk Utilization Rate<br/><br>cps.disk.bytes.read - Disk Read Traffic<br/><br>cps.disk.bytes.write - Disk Write Traffic<br/><br>cps.disk.counts.read - Disk Read IOPS<br/><br>cps.disk.counts.write - Disk Write IOPS<br/><br>cps.network.bytes.ingress - Network Interface Ingress Traffic<br/><br>cps.network.bytes.egress - Network Interface Egress Traffic<br/><br>cps.network.packets.ingress - Network Ingress Packets<br/><br>cps.network.packets.egress - Network Egress Packets<br/><br>cps.avg.load1 - CPU Average Load 1min<br/><br>cps.avg.load5 - CPU Average Load 5min<br/><br>cps.avg.load15 - CPU Average Load 15min<br/><br>cps.tcp.connect.total - TCP Total Connection<br/><br>cps.tcp.connect.established - TCP Normal Connection<br/><br>cps.process.total - Total Process Count<br>|
 
+### <div id="filter">Filter</div>
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**name**|String|True| |Name of Filter Requirements|
+|**operator**|String|False| |Operator of filter requirements is eq by default|
+|**values**|String[]|True| |Value of Filter Requirements|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeinstancemonitorinfo#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**metricDatas**|MetricData|Cloud Physical Server Monitoring Information|
-### MetricData
+|**metricDatas**|[MetricData[]](describeinstancemonitorinfo#metricdata)| |
+### <div id="metricdata">MetricData</div>
 |Name|Type|Description|
 |---|---|---|
-|**data**|MetricValue[]|Monitoring Indicator Data|
-|**tags**|MetricTag[]|Monitoring Indicator Tag|
-|**metric**|MetricInfo|Monitoring Indicator Overview|
-### MetricInfo
+|**data**|[MetricValue[]](describeinstancemonitorinfo#metricvalue)|Monitoring Indicator Data|
+|**tags**|[MetricTag[]](describeinstancemonitorinfo#metrictag)|Monitoring Indicator Tag|
+|**metric**|[MetricInfo](describeinstancemonitorinfo#metricinfo)|Monitoring Indicator Overview|
+### <div id="metricinfo">MetricInfo</div>
 |Name|Type|Description|
 |---|---|---|
 |**calculateUnit**|String|Statistical Unit of Monitoring Data|
@@ -47,12 +53,12 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/monitor
 |**metricName**|String|Monitoring Data Index Description|
 |**aggregator**|String|Monitoring Data Aggregation Method|
 |**period**|String|Statistical Period of Monitoring Data|
-### MetricTag
+### <div id="metrictag">MetricTag</div>
 |Name|Type|Description|
 |---|---|---|
 |**tagKey**|String|Monitoring Data Tag|
 |**tagValue**|String|Monitoring Data Tag Data|
-### MetricValue
+### <div id="metricvalue">MetricValue</div>
 |Name|Type|Description|
 |---|---|---|
 |**timestamp**|Long|Data Collection Time, Format: 1562915166551|

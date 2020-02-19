@@ -19,7 +19,7 @@ https://kubernetes.jdcloud-api.com/v1/regions/{regionId}/clusters/{clusterId}
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|False| |Cluster Name|
-|**description**|String|False| |Either cluster name or description must be designated|
+|**description**|String|False| |Cluster Description|
 
 
 ## Return Parameter

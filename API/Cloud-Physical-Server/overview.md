@@ -29,6 +29,7 @@ v1
 |**deleteSubnet**|DELETE|Delete subnet|
 |**deleteVpc**|DELETE|Delete VPC<br>|
 |**describeBasicSubnet**|GET|Search underlying network Subnet|
+|**describeCPSLBRegions**|GET|Search Load Balancer region list|
 |**describeDeviceRaids**|GET|Query the RAID types supported by the Cloud Physical Server of a certain instance type family, may query the system disk RAID type and data disk RAID type|
 |**describeDeviceTypes**|GET|Query the instance type family of Cloud Physical Server|
 |**describeElasticIp**|GET|Search elastic IP detail|
@@ -39,8 +40,19 @@ v1
 |**describeInstanceRaid**|GET|Query the installed RAID information of a single Cloud Physical Server, including the system disk RAID information and data disk RAID information|
 |**describeInstanceStatus**|GET|Query the hardware monitoring information of a single Cloud Physical Server|
 |**describeInstances**|GET|Search Cloud Physical Server detail information in batches<br/><br>Support paging search, with 20 entries per page by default<br/><br>|
+|**describeKeypair**|GET|Search key pair details|
+|**describeKeypairs**|GET|Search key pair list|
+|**describeListener**|GET|Search listener details|
+|**describeListeners**|GET|Search Listener|
+|**describeLoadBalancer**|GET|Search Load Balancer instance details|
+|**describeLoadBalancers**|GET|Search Load Balancer instance list|
 |**describeOS**|GET|Query the Operating Systems Supported by the Cloud Physical Server|
 |**describeRegiones**|GET|Cloud Physical Server Region List Query|
+|**describeRouteTable**|GET|Search route table details|
+|**describeRouteTables**|GET|Query route table list|
+|**describeServerGroup**|GET|Search Virtual Server Group|
+|**describeServerGroups**|GET|Search Virtual Server Group list|
+|**describeServers**|GET|Search backend server list|
 |**describeSubnet**|GET|Search Subnet detail|
 |**describeSubnets**|GET|Query subnet list|
 |**describeVpc**|GET|Search VPC detail|
@@ -57,18 +69,6 @@ v1
 |**modifyServerGroup**|POST|Modify virtual server group|
 |**modifySubnet**|POST|Modify subnet|
 |**modifyVpc**|POST|Modify VPC<br>|
-|**queryCPSLBRegions**|GET|Search Load Balancer region list|
-|**queryKeypair**|GET|Search key pair details|
-|**queryKeypairs**|GET|Search key pair list|
-|**queryListener**|GET|Search listener details|
-|**queryListeners**|GET|Search Listener|
-|**queryLoadBalancer**|GET|Search Load Balancer instance details|
-|**queryLoadBalancers**|GET|Search Load Balancer instance list|
-|**queryRouteTable**|GET|Search route table details|
-|**queryRouteTables**|GET|Query route table list|
-|**queryServerGroup**|GET|Search Virtual Server Group|
-|**queryServerGroups**|GET|Search Virtual Server Group list|
-|**queryServers**|GET|Search backend server list|
 |**reinstallInstance**|PUT|When reinstalling Cloud Physical Servers, only servers in the stopped status can be reinstalled<br/><br>- Call API (describeOS) to get OS list supported by Cloud Physical Servers<br>Sensitive operation can be enabled<a href="https://docs.jdcloud.com/en/security-operation-protection/operation-protection">MFA Operation Protection</a>|
 |**removeServer**|DELETE|Remove backend server|
 |**resetPassword**|PUT|Reset Cloud Physical Server password<br>|

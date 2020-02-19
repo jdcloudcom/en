@@ -14,7 +14,19 @@ items:
           - name: describeRooms
             href: Resource-API/describeRooms.md
           - name: describeCabinets
-            href: Resource-API/describeCabinets.md            
+            href: Resource-API/describeCabinets.md
+          - name: describeCabinet
+            href: Resource-API/describeCabinet.md
+          - name: describeDevices
+            href: Resource-API/describeDevices.md
+          - name: describeDevice
+            href: Resource-API/describeDevice.md
+          - name: describeIps
+            href: Resource-API/describeIps.md
+          - name: describeBandwidths
+            href: Resource-API/describeBandwidths.md
+          - name: describeBandwidth
+            href: Resource-API/describeBandwidth.md			
       - name: Monitoring APIs
         items:
           - name: describeMetrics
@@ -23,3 +35,21 @@ items:
             href: Monitor-API/describeMetricData.md
           - name: lastDownsample
             href: Monitor-API/lastDownsample.md            
+          - name: describeBandwidthTraffics
+            href: Monitor-API/describeBandwidthTraffics.md
+          - name: describeBandwidthTraffic
+            href: Monitor-API/describeBandwidthTraffic.md
+      - name: Alarm APIs
+        items:
+          - name: describeAlarms
+            href: Alarm-API/describeAlarms.md
+          - name: describeAlarm
+            href: Alarm-API/describeAlarm.md
+          - name: describeAlarmHistory
+            href: Alarm-API/describeAlarmHistory.md 
+      - name: Ticket APIs
+        items:
+          - name: describeTickets
+            href: Ticket-API/describeTickets.md
+          - name: describeTicket
+            href: Ticket-API/describeTicket.md

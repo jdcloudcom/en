@@ -14,26 +14,26 @@ https://vod.jdcloud-api.com/v1/transcodeTasks:batchSubmitJobs
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**bulkItems**|SubmitTranscodeJobRequestObject[]|False| | |
+|**bulkItems**|[SubmitTranscodeJobRequestObject[]](batchsubmittranscodejobs#submittranscodejobrequestobject)|False| | |
 
-### SubmitTranscodeJobRequestObject
+### <div id="submittranscodejobrequestobject">SubmitTranscodeJobRequestObject</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**videoId**|String|False| |Video ID|
-|**templateIds**|Number[]|False| |List of Transcode Template ID|
-|**watermarkIds**|Number[]|False| |Watermark ID List|
+|**templateIds**|Long[]|False| |List of Transcode Template ID|
+|**watermarkIds**|Long[]|False| |Watermark ID List|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Submit result of transcode jobs in batches|
+|**result**|[Result](batchsubmittranscodejobs#result)|Submit result of transcode jobs in batches|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**tasks**|SubmittedTranscodeTask[]| |
-### SubmittedTranscodeTask
+|**tasks**|[SubmittedTranscodeTask[]](batchsubmittranscodejobs#submittedtranscodetask)| |
+### <div id="submittedtranscodetask">SubmittedTranscodeTask</div>
 |Name|Type|Description|
 |---|---|---|
 |**taskId**|Long|Task ID|

@@ -22,13 +22,13 @@ None
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeParameterGroupParameters#Result)| |
+|**result**|[Result](describeparametergroupparameters#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**parameters**|[ParameterGroupParameter[]](describeParameterGroupParameters#ParameterGroupParameter)| |
-### <a name="ParameterGroupParameter">ParameterGroupParameter</a>
+|**parameters**|[ParameterGroupParameter[]](describeparametergroupparameters#parametergroupparameter)| |
+### <div id="parametergroupparameter">ParameterGroupParameter</div>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Parameter Name|
@@ -43,3 +43,37 @@ None
 |Return Code|Descripton|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeParameterGroupParameters() {
+    DescribeParameterGroupParametersRequest request = new DescribeParameterGroupParametersRequest();
+    request.setParameterGroupId("mysql-pg-e4zkfymxwt");
+    request.setRegionId("cn-north-1");
+    DescribeParameterGroupParametersResponse response = rdsClient.describeParameterGroupParameters(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpao9dpjb6w3rhja4dswi216drtajeih", 
+    "result": {
+        "parameters": [
+            {
+                "configureValue": "5000", 
+                "defaultValue": "262144", 
+                "description": "The size of the cache to hold changes to the binary log during a transaction", 
+                "name": "binlog_cache_size", 
+                "needRestart": "false", 
+                "range": "4096-16777216", 
+                "type": "integer"
+            }, 
+            "..."
+        ]
+    }
+}
+```

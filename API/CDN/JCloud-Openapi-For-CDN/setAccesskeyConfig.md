@@ -17,9 +17,9 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/accesskeyConfig
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**accesskeyType**|Integer|False| |Authentication type, where 0 represents without authentication, 1 represents parameter authentication, 2 represents path authentication|
-|**accesskeyKey**|String|False| |Password, the length is from 8 to 32|
-|**accesskeyKeep**|Integer|False| |Whether it is back-to-origin authentication, 0 represents Yes, 1 represents No|
+|**accesskeyType**|Integer|True| |Authentication type, where 0 represents without authentication, 1 represents parameter authentication, 2 represents path authentication|
+|**accesskeyKey**|String|True| |Password, the length is from 8 to 32|
+|**accesskeyKeep**|Integer|True| |Whether it is back-to-origin authentication, 0 represents Yes, 1 represents No|
 
 
 ## Return Parameter

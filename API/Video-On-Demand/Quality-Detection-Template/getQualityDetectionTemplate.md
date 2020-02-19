@@ -21,10 +21,10 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Result of Searching Quality Control Template Information|
+|**result**|[Result](getqualitydetectiontemplate#result)|Result of Searching Quality Control Template Information|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|Long|Template ID|

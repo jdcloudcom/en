@@ -19,9 +19,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**restoreTime**|String|True| |Create New Instance Based on Which Time Point of the Source Instance|
-|**instanceSpec**|[RestoredNewDBInstanceSpec](createInstanceByTime#RestoredNewDBInstanceSpec)|True| |Create Instance Type|
+|**instanceSpec**|[RestoredNewDBInstanceSpec](createinstancebytime#restorednewdbinstancespec)|True| |Create Instance Type|
 
-### <a name="RestoredNewDBInstanceSpec">RestoredNewDBInstanceSpec</a>
+### <div id="restorednewdbinstancespec">RestoredNewDBInstanceSpec</div>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceName**|String|False| |Database Instance Name, see [Help Center Document](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for restrictions of Name|
@@ -31,12 +31,12 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 |**vpcId**|String|True| |VPC ID|
 |**subnetId**|String|True| |Subnet ID|
 |**parameterGroup**|String|False| |Parameter Set ID, system will create a default parameter set by default <br>- only support MySQL|
-|**chargeSpec**|[ChargeSpec](createInstanceByTime#ChargeSpec)|True| |Billing Specification, including Billing Type, Billing Period, etc.|
+|**chargeSpec**|[ChargeSpec](createinstancebytime#chargespec)|True| |Billing Specification, including Billing Type, Billing Period, etc.|
 |**instanceStorageType**|String|False| |Storage Type, see [Enumeration Parameter Definitions](../Enum-Definitions/Enum-Definitions.md), the default value is: LOCAL_SSD<br>- Only support MySQL|
-|**instancePort**|String|False| |Application access port, only support MySQL, Percona, and MariaDB, Default value is 3306|
+|**instancePort**|String|False| |The port range supported by application access port is: 1150～5999. The default value for MySQL, Percona and MariaDB is 3306; the default port number for PostgreSQL is 5432;|
 |**storageEncrypted**|Boolean|False| |Instance Data Encryption (data encryption will be supported only when the storage type is Cloud Disk Service). false: no encryption, true: encryption, the default is false<br> - Only support MySQL|
 |**instanceType**|String|False| |Instance Availability Architecture. standalone: single machine, cluster: architecture of master and slave machines, the default is cluster<br>- Only support SQL Server|
-### <a name="ChargeSpec">ChargeSpec</a>
+### <div id="chargespec">ChargeSpec</div>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; is postpaid_by_duration by default. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line|
@@ -48,9 +48,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](createInstanceByTime#Result)| |
+|**result**|[Result](createinstancebytime#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Newly Created Instance ID|
@@ -59,3 +59,42 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createI
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testCreateInstanceByTime() {
+    CreateInstanceByTimeRequest request = new CreateInstanceByTimeRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("mysql-wp4e9ztap2");
+    request.setRestoreTime("2020-01-07 17:44:00");
+    RestoredNewDBInstanceSpec instanceSpec = new RestoredNewDBInstanceSpec();
+    List<String> azids = new ArrayList<String>();
+    azids.add("cn-north-1a");
+    instanceSpec.setAzId(azids);
+    instanceSpec.setInstanceClass("db.mysql.s1.micro");
+    instanceSpec.setInstanceName("create_by_time");
+    instanceSpec.setInstanceStorageGB(20);
+    instanceSpec.setVpcId("vpc-yn4dblxgeb");
+    instanceSpec.setSubnetId("subnet-820lwf1mlp");
+    ChargeSpec chargeSpec = new ChargeSpec();
+    chargeSpec.setChargeMode("postpaid_by_duration");
+    chargeSpec.setChargeUnit("month");
+    chargeSpec.setChargeDuration(1);
+    instanceSpec.setChargeSpec(chargeSpec);
+    request.setInstanceSpec(instanceSpec);
+    CreateInstanceByTimeResponse response = rdsClient.createInstanceByTime(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa580vbmtbfswbvnpeggh9fuc8aetro", 
+    "result": {
+        "instanceId": "mysql-7omv3ll8pk"
+    }
+}
+```

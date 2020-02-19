@@ -21,22 +21,38 @@ items:
       href: Cluster/modifyCluster.md
     - name: Set custom metric monitoring
       href: Cluster/setUserMetrics.md
+    - name: Set cluster component
+      href: Cluster/setAddons.md
+    - name: Set automatic upgrade
+      href: Cluster/setAutoUpgrade.md
+    - name: Search progress of cluster operation
+      href: Cluster/describeProgress.md
+    - name: Trigger upgrade
+      href: Cluster/upgradeCluster.md
+    - name: Terminate upgrade
+      href: Cluster/abortUpgrade.md
   - name: Node Group
     items:
-    - name: Create node group
+    - name: Create working node group
       href: NodeGroup/createNodeGroup.md
-    - name: Delete node group
+    - name: Delete working node group
       href: NodeGroup/deleteNodeGroup.md
-    - name: Search details of node group
+    - name: Search details of working node group
       href: NodeGroup/describeNodeGroup.md
-    - name: Search list of node group
+    - name: Search list of working node group
       href: NodeGroup/describeNodeGroups.md
-    - name: Modify attribute of node group
+    - name: Modify attribute of working node group
       href: NodeGroup/modifyNodeGroup.md
     - name: Set automatic upgrade
       href: NodeGroup/setAutoRepair.md
-    - name: Set size of node group
+    - name: Set size of working node group
       href: NodeGroup/setNodeGroupSize.md
+    - name: Roll back upgrade-incomplete working node group
+      href: NodeGroup/rollbackNodeGroupUpgrade.md
+    - name: Set automatic scaling of working node group
+      href: NodeGroup/setNodeGroupCA.md
+    - name: Delete specified instances from working node group
+      href: NodeGroup/deleteNodeInstances.md
   - name: Quota
     items:
     - name: Query Quota
@@ -45,3 +61,11 @@ items:
     items:
     - name: Search version information
       href: ServiceConfig/describeVersions.md
+    - name: Search node version
+      href: ServiceConfig/describeNodeVersion.md
+    - name: Search configuration information of cluster service
+      href: ServiceConfig/describeServerConfig.md
+    - name: Search upgradable control node versions
+      href: ServiceConfig/describeUpgradableMasterVersions.md
+    - name: Search upgradable node versions
+      href: ServiceConfig/describeUpgradableNodeVersions.md

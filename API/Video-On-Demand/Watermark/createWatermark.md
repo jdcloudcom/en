@@ -16,33 +16,33 @@ https://vod.jdcloud-api.com/v1/watermarks
 |---|---|---|---|---|
 |**name**|String|True| |Watermark Name. Support Chinese or English letters and numbers only. Length cannot exceed 128 characters. UTF-8 code. <br>|
 |**imgUrl**|String|True| |Image Address|
-|**width**|Integer|True| |Watermark Width. <br>When sizeUnit = pixel , the value is the integer from the value range [8, 4096]<br>When sizeUnit = percent, the value is the integer from the value range [1, 100]<br>|
-|**height**|Integer|True| |Watermark Height. <br>When sizeUnit = pixel , the value is the integer from the value range [8, 4096]<br>When sizeUnit = percent, the value is the integer from the value range [1, 100]<br>|
+|**width**|String|True| |Watermark width. <br>When sizeUnit = pixel, the value is the integer from the value range [8, 4096]<br>When sizeUnit = percent, the value is the decimal from the value range [0, 100]<br>|
+|**height**|String|True| |Watermark height. <br>When sizeUnit = pixel, the value is the integer from the value range [8, 4096]<br>When sizeUnit = percent, the value is the decimal from the value range [0, 100]<br>|
 |**sizeUnit**|String|False| |Size Unit. Value range: <br>  pixel - pixel<br>  percent - percent<br>the default value is pixel<br>|
 |**position**|String|True| |Watermark Location. Value range: <br>  LT - left top<br>  RT - right top<br>  LB - left bottom<br>  RB - right bottom<br>|
-|**offsetX**|Integer|True| |Horizontal Shift. <br>When offsetUnit = pixel, the value is the integer from the value range [8, 4088]<br>When offsetUnit = percent, the value range is the integer from the value range [1, 100]<br>|
-|**offsetY**|Integer|True| |Vertical Shift. <br>When offsetUnit = pixel, the value is the integer from the value range [8, 4088]<br>When offsetUnit = percent, the value range is the integer from the value range [1, 100]<br>|
+|**offsetX**|String|True| |Horizontal shift. <br>When offsetUnit = pixel, the value is the integer from the value range [8, 4088]<br>When offsetUnit = percent, the value range is the decimal from the value range [0, 100]<br>|
+|**offsetY**|String|True| |Vertical shift. <br>When offsetUnit = pixel, the value is the integer from the value range [8, 4088]<br>When offsetUnit = percent, the value range is the decimal from the value range [0, 100]<br>|
 |**offsetUnit**|String|False| |Shifting Unit. Value range: <br>  pixel - pixel<br>  percent - percent<br>the default value is pixel<br>|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Add watermark result|
+|**result**|[Result](createwatermark#result)|Add watermark result|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|Long|Watermark ID|
 |**name**|String|Watermark Name. Support Chinese or English letters and numbers only. Length cannot exceed 128 characters. UTF-8 code. <br>|
 |**imgUrl**|String|Image Address|
-|**width**|Integer|Watermark Width. <br>When sizeUnit = pixel , the value is the integer from the value range [8, 4096]<br>When sizeUnit = percent, the value is the integer from the value range [1, 100]<br>|
-|**height**|Integer|Watermark Height. <br>When sizeUnit = pixel , the value is the integer from the value range [8, 4096]<br>When sizeUnit = percent, the value is the integer from the value range [1, 100]<br>|
+|**width**|String|Watermark width. <br>When sizeUnit = pixel, the value is the integer from the value range [8, 4096]<br>When sizeUnit = percent, the value is the decimal from the value range [0, 100]<br>|
+|**height**|String|Watermark height. <br>When sizeUnit = pixel, the value is the integer from the value range [8, 4096]<br>When sizeUnit = percent, the value is the decimal from the value range [0, 100]<br>|
 |**sizeUnit**|String|Size Unit. Value range: <br>  pixel - pixel<br>  percent - percent<br>the default value is pixel<br>|
 |**position**|String|Watermark Location. Value range: <br>  LT - left top<br>  RT - right top<br>  LB - left bottom<br>  RB - right bottom|
-|**offsetX**|Integer|Horizontal Shift. <br>When offsetUnit = pixel, the value is the integer from the value range [8, 4088]<br>When offsetUnit = percent, the value range is the integer from the value range [1, 100]<br>|
-|**offsetY**|Integer|Vertical Shift. <br>When offsetUnit = pixel, the value is the integer from the value range [8, 4088]<br>When offsetUnit = percent, the value range is the integer from the value range [1, 100]<br>|
+|**offsetX**|String|Horizontal shift. <br>When offsetUnit = pixel, the value is the integer from the value range [8, 4088]<br>When offsetUnit = percent, the value range is the decimal from the value range [0, 100]<br>|
+|**offsetY**|String|Vertical shift. <br>When offsetUnit = pixel, the value is the integer from the value range [8, 4088]<br>When offsetUnit = percent, the value range is the decimal from the value range [0, 100]<br>|
 |**offsetUnit**|String|Shifting Unit. Value range: <br>  pixel - pixel<br>  percent - percent<br>the default value is pixel<br>|
 |**createTime**|String|Creation Time|
 |**updateTime**|String|Modification Time|

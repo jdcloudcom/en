@@ -17,18 +17,18 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/monitor
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**cycle**|Integer|False| |Detection period, value: 1 and 5, unit: minute|
-|**monitorPath**|String|False| |Detection Path|
+|**cycle**|Integer|True| |Detection period, value: 1 and 5, unit: minute|
+|**monitorPath**|String|True| |Detection Path|
 |**httpRequestHeader**|Object|False| |http Request Head|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](setmonitor#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**monitorId**|Long| |

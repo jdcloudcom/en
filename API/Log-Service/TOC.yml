@@ -43,3 +43,9 @@ items:
             href: CollectInfo-APIs/updateCollectInfo.md
           - name: updateCollectResources
             href: CollectInfo-APIs/updateCollectResources.md
+      - name: Log Retrieval
+        items:
+          - name: search
+            href: LogSearch-APIs/search.md
+          - name: searchLogContext
+            href: LogSearch-APIs/searchLogContext.md

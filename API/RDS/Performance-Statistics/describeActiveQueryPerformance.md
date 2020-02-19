@@ -27,16 +27,16 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeActiveQueryPerformance#Result)| |
+|**result**|[Result](describeactivequeryperformance#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**activeQueryPerformanceResult**|[ActiveQueryPerformanceResult[]](describeActiveQueryPerformance#ActiveQueryPerformanceResult)|Search Performance Statistics Result Set|
+|**activeQueryPerformanceResult**|[ActiveQueryPerformanceResult[]](describeactivequeryperformance#activequeryperformanceresult)|Search Performance Statistics Result Set|
 |**totalCount**|Integer|Total Record Entries|
 |**pageNumber**|Integer|Page of Current Data|
 |**pageSize**|Integer|Data Entries Displayed per Page|
-### <a name="ActiveQueryPerformanceResult">ActiveQueryPerformanceResult</a>
+### <div id="activequeryperformanceresult">ActiveQueryPerformanceResult</div>
 |Name|Type|Description|
 |---|---|---|
 |**sql**|String|sql Sentence|
@@ -51,3 +51,31 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeActiveQueryPerformance() {
+    DescribeActiveQueryPerformanceRequest request = new DescribeActiveQueryPerformanceRequest();
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setPageNumber(1);
+    request.setPageSize(10);
+    request.setRegionId("cn-north-1");
+    DescribeActiveQueryPerformanceResponse response = rdsClient.describeActiveQueryPerformance(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpaokdet7i0w6kji3dhck0pooh0qecgo", 
+    "result": {
+        "activeQueryPerformanceResult": [], 
+        "pageNumber": 1, 
+        "pageSize": 10, 
+        "totalCount": 0
+    }
+}
+```

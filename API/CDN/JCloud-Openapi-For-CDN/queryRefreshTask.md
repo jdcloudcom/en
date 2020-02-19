@@ -14,8 +14,8 @@ https://cdn.jdcloud-api.com/v1/task
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**startTime**|String|False| |Search start time, UTC time, format: yyyy-MM-dd'T'HH:mm:ss’Z’, example: 2018-10-21T10:00:00Z|
-|**endTime**|String|False| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ss’Z’, example: 2018-10-21T10:00:00Z|
+|**startTime**|String|True| |Search start time, UTC time, format: yyyy-MM-dd'T'HH:mm:ss’Z’, example: 2018-10-21T10:00:00Z|
+|**endTime**|String|True| |Search end time, UTC time, format: yyyy-MM-dd'T'HH:mm:ss’Z’, example: 2018-10-21T10:00:00Z|
 |**keyword**|String|False| |Fuzzy search keyword of url or directory|
 |**taskId**|String|False| |Task id|
 |**taskStatus**|String|False| | |
@@ -27,15 +27,15 @@ https://cdn.jdcloud-api.com/v1/task
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](queryrefreshtask#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**total**|Integer|Total Count of Refresh and Prewarm Entries.|
-|**tasks**|RefreshTask[]| |
-### RefreshTask
+|**tasks**|[RefreshTask[]](queryrefreshtask#refreshtask)| |
+### <div id="refreshtask">RefreshTask</div>
 |Name|Type|Description|
 |---|---|---|
 |**createDate**|String|Task Creation Time, UTC time|
@@ -46,8 +46,8 @@ https://cdn.jdcloud-api.com/v1/task
 |**retryStatus**|String|Try Again Status (unretry: not try again, retry: try again)|
 |**taskStatus**|String|Task Status (running: in running, success: success, failed: failure)|
 |**taskType**|String|Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|
-|**urlTasks**|UrlTask[]|Detailed Task|
-### UrlTask
+|**urlTasks**|[UrlTask[]](queryrefreshtask#urltask)|Detailed Task|
+### <div id="urltask">UrlTask</div>
 |Name|Type|Description|
 |---|---|---|
 |**taskType**|String|Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|

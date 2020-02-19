@@ -17,8 +17,8 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/httpHeader
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**headerType**|String|False| |header type [resp,req]|
-|**headerName**|String|False| |header name|
+|**headerType**|String|True| |header type [resp,req]|
+|**headerName**|String|True| |header name|
 
 
 ## Return Parameter

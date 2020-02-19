@@ -21,10 +21,10 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Search configuration results of CDN domain SSL|
+|**result**|[Result](gethttpssl#result)|Search configuration results of CDN domain SSL|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**source**|String|Certificate Sources. Value range: default|

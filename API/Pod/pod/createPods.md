@@ -46,9 +46,11 @@ Create one or more pods
     - default: A 10MB bucket will be distributed to the local by default and is automatically rotated
 - DNS-1123 label specification
     - Length Range: [1-63]
+    - Regular Expression: ^[a-z0-9]([-a-z0-9]{0,61}[a-z0-9])? $
     - Example: my-name, 123-abc
 - DNS-1123 subdomain specification
     - Length Range: [1-253]
+    - Regular Expression: ^[a-z0-9]([-a-z0-9]*[a-z0-9])? (\.[a-z0-9]([-a-z0-9]*[a-z0-9])?) *$
     - Example: example.com, registry.docker-cn.com
 - Others
     - After being created, the pod is in running status
@@ -68,11 +70,11 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**podSpec**|PodSpec|True| |Creation Parameter of pod|
+|**podSpec**|[PodSpec](createpods#podspec)|True| |Creation Parameter of pod|
 |**maxCount**|Integer|True| |Purchase number of instances; value range: [1,100]|
 |**clientToken**|String|False| |Guarantee the character string of request idempotence; the maximum length is 64 ASCII characters|
 
-### PodSpec
+### <div id="podspec">PodSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Pod Name|
@@ -82,21 +84,21 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |**terminationGracePeriodSeconds**|Integer|False| |Elegant shutdown grace period, in case of time-out, forced shutdown will be triggered. Default: 30s; the value cannot be negative; range: [0-300]|
 |**instanceType**|String|True| |Instance type family; refer to [Document](https://www.jdcloud.com/help/detail/1992/isCatalog/1)|
 |**az**|String|True| |Availability Zone of Container|
-|**dnsConfig**|DnsConfigSpec|False| |/etc/resolv.conf configuration of container in pod|
-|**logConfig**|LogConfigSpec|False| |Container log configuration information; 10MB storage space will be assigned to the local by default|
-|**hostAliases**|HostAliasSpec[]|False| |Domain and IP mapping information; </br> at most 10 alias|
-|**volumes**|VolumeSpec[]|False| |The volume list of Pod can be attached to container. Length Range: [0,7]|
-|**containers**|ContainerSpec[]|True| |The container list of Pod shall have at least one container. Length Range [1,8]|
-|**charge**|ChargeSpec|False| |Billing mode: Prepaid by duration (prepaid_by_duration), postpaid by duration (postpaid_by_duration). Default: Pay-As-You-Go by Configuration|
-|**elasticIp**|ElasticIpSpec|False| |Elastic IP specification related to primary IP of primary network interface|
-|**primaryNetworkInterface**|NetworkInterfaceAttachmentSpec|True| |Primary Network Interface Configuration Information|
-### NetworkInterfaceAttachmentSpec
+|**dnsConfig**|[DnsConfigSpec](createpods#dnsconfigspec)|False| |/etc/resolv.conf configuration of container in pod|
+|**logConfig**|[LogConfigSpec](createpods#logconfigspec)|False| |Container log configuration information; 10MB storage space will be assigned to the local by default|
+|**hostAliases**|[HostAliasSpec[]](createpods#hostaliasspec)|False| |Domain and IP mapping information; </br> at most 10 alias|
+|**volumes**|[VolumeSpec[]](createpods#volumespec)|False| |The volume list of Pod can be attached to container. Length Range: [0,7]|
+|**containers**|[ContainerSpec[]](createpods#containerspec)|True| |The container list of Pod shall have at least one container. Length Range [1,8]|
+|**charge**|[ChargeSpec](createpods#chargespec)|False| |Billing mode: Prepaid by duration (prepaid_by_duration), postpaid by duration (postpaid_by_duration). Default: Pay-As-You-Go by Configuration|
+|**elasticIp**|[ElasticIpSpec](createpods#elasticipspec)|False| |Elastic IP specification related to primary IP of primary network interface|
+|**primaryNetworkInterface**|[NetworkInterfaceAttachmentSpec](createpods#networkinterfaceattachmentspec)|True| |Primary Network Interface Configuration Information|
+### <div id="networkinterfaceattachmentspec">NetworkInterfaceAttachmentSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**autoDelete**|Boolean|False| |Indicate if the network interface is deleted when deleting the pod, it is True by default; only True is supported now|
 |**deviceIndex**|Integer|False| |Device Index, currently pod supports one network interface only, so it can be set as 1 only|
-|**networkInterface**|NetworkInterfaceSpec|True| |Network Interface Specification|
-### NetworkInterfaceSpec
+|**networkInterface**|[NetworkInterfaceSpec](createpods#networkinterfacespec)|True| |Network Interface Specification|
+### <div id="networkinterfacespec">NetworkInterfaceSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**subnetId**|String|True| |Subnet ID|
@@ -108,41 +110,43 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |**securityGroups**|String[]|False| |Security group ID list to be associated, a maximum of 5 security groups can be done|
 |**sanityCheck**|Integer|False| |Source and target IP address verification, with value 0 or 1, default value is 1|
 |**description**|String|False| |Description, all characters allowed to enter under UTF-8 coding, which is not more than 256 characters|
-### ElasticIpSpec
+### <div id="elasticipspec">ElasticIpSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**bandwidthMbps**|Integer|True| |Elastic IP Speed Limit (Unit: MB)|
 |**provider**|String|False| |IP service provider, values include bgp or no_bgp, default: bgp|
-|**chargeSpec**|ChargeSpec|False| |Pay-In-Advance (prepaid_by_duration), Pay-As-You-Go by Configuration (postpaid_by_duration). Default: Pay-As-You-Go by Configuration|
-### ChargeSpec
+|**chargeSpec**|[ChargeSpec](createpods#chargespec)|False| |Pay-In-Advance (prepaid_by_duration), Pay-As-You-Go by Configuration (postpaid_by_duration). Default: Pay-As-You-Go by Configuration|
+### <div id="chargespec">ChargeSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, while postpaid_by_usage means Pay-As-You-Go By Consumption; and postpaid_by_duration means pay by configuration and is the default value. Please refer to the help documentation of specific product line to confirm the billing type supported by the production line|
 |**chargeUnit**|String|False| |Billing unit of Pay-In-Advance, the Pay-In-Advance is compulsory, which is valid only when chargeMode is prepaid_by_duration, with the values of month and year and the default value of month|
 |**chargeDuration**|Integer|False| |Pay-In-Advance billing hours, the Pay-In-Advance is compulsory and is valid only when the value of chargeMode is prepaid_by_duration. When chargeUnit is month, the value shall be: 1~9; when chargeUnit is year, the value shall be 1, 2 and 3|
-### ContainerSpec
+|**autoRenew**|Boolean|False| |True=: OPEN——Enable automatic renewal, False=CLOSE—— Disable automatic renewal, with default value of CLOSE|
+|**buyScenario**|String|False| |The unified activity credential, JSON character string, for the product line needs the BASE64 code. Now, the format required before coding is {"activity":{"activityType": required field, "activityIdentifier": required field}}|
+### <div id="containerspec">ContainerSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Container name, comply with DNS-1123 label specification, cannot be repeated in a Pod.|
 |**command**|String[]|False| |The container will carry out the command. It is ENTRYPOINT of docker image by default if none is specified. The total length is 256 characters.|
 |**args**|String[]|False| |The container will carry out the parameter of the command. It is CMD of docker image by default if none is specified. The total length is 2,048 characters.|
-|**env**|EnvSpec[]|False| |Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced. Array Range: [0-100]|
+|**env**|[EnvSpec[]](createpods#envspec)|False| |Environment variables executed by containers; if the environmental variable Key is the same in the image, values in the image will be replaced. Array Range: [0-100]|
 |**image**|String|True| |Image name </br><br>Docker image name. nginx:latest. Length range: [1-639]<br>1. Docker Hub public image is specified via names as nginx, mysql/mysql-server </br> <br>2. The length of repository contains at most 256 characters, tag contains at most 128 characters and registry contains at most 255 characters </br> <br>|
 |**secret**|String|False| |Secrets. If not uploaded currently, dockerHub image is selected by default|
 |**tty**|Boolean|False| |Whether a container is assigned with tty. It is not assigned by default|
 |**workingDir**|String|False| |Container’s Working Catalog. If not specified, it is root directory (/) by default; and the working catalog must be the absolute path; length range: [0-1024]|
-|**livenessProbe**|ProbeSpec|False| |Container Liveness Probe Configuration|
-|**readinessProbe**|ProbeSpec|False| |Container Service Readiness Probe Configuration|
-|**resources**|ResourceRequestsSpec|False| |Container Computing Resource Configuration|
-|**systemDisk**|CloudDiskSpec|True| |Container Computing Resource Configuration|
-|**volumeMounts**|VolumeMountSpec[]|False| |Cloud Disk Attach Information|
-### VolumeMountSpec
+|**livenessProbe**|[ProbeSpec](createpods#probespec)|False| |Container Liveness Probe Configuration|
+|**readinessProbe**|[ProbeSpec](createpods#probespec)|False| |Container Service Readiness Probe Configuration|
+|**resources**|[ResourceRequestsSpec](createpods#resourcerequestsspec)|False| |Container Computing Resource Configuration|
+|**systemDisk**|[CloudDiskSpec](createpods#clouddiskspec)|True| |Container Computing Resource Configuration|
+|**volumeMounts**|[VolumeMountSpec[]](createpods#volumemountspec)|False| |Cloud Disk Attach Information|
+### <div id="volumemountspec">VolumeMountSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Cloud disks to be attached must use the pod volumeSpec.name.|
 |**mountPath**|String|True| |Attach point in the container, with absolute path; repeated attaching and nesting attaching are not allowed; it is not allowed to be attached to the root directory ("/"). Length range: [1-1024]|
 |**readOnly**|Boolean|False| |Whether to attach with the method of read-only. Default Read and Write mode|
-### CloudDiskSpec
+### <div id="clouddiskspec">CloudDiskSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**volumeId**|String|False| |Cloud disk ID, specified use of the existing cloud disk|
@@ -153,17 +157,17 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |**fsType**|String|False| |Specify volume file system type and support [xfs, ext4] now; if the file system type is not specified for the newly-created disk, such disk will be formatted to xfs by default.|
 |**iops**|Integer|False| |Only the ssd.io1 type iops value of cloud disk is valid now|
 |**autoDelete**|Boolean|False| |Whether to delete with pod. Default: true|
-### ResourceRequestsSpec
+### <div id="resourcerequestsspec">ResourceRequestsSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**requests**|RequestSpec|False| |Computing Resource Necessary for Container|
-|**limits**|RequestSpec|False| |Cap of Computing Resource Used by Container|
-### RequestSpec
+|**requests**|[RequestSpec](createpods#requestspec)|False| |Computing Resource Necessary for Container|
+|**limits**|[RequestSpec](createpods#requestspec)|False| |Cap of Computing Resource Used by Container|
+### <div id="requestspec">RequestSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**cpu**|String|False| |Computing Resource Necessary for Container|
-|**memoryMB**|String|False| |Cap of Computing Resource Used by Container|
-### ProbeSpec
+|**cpu**|String|False| |Computing resource necessary for container, for instance: 300m, 1000m|
+|**memoryMB**|String|False| |Cap of computing resource used by container, for instance: 1024Mi, 16384Mi|
+### <div id="probespec">ProbeSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**initialDelaySeconds**|Integer|False| |How long after the container starts can trigger the probe. Default value: 10 seconds; range: [0-300]|
@@ -171,41 +175,41 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |**timeoutSeconds**|Integer|False| |Time-out period of detection. Default value is 1 second; range: [1-300]|
 |**failureThreshold**|Integer|False| |The number of consecutive alive detection failure after a successful status, to which extent the alive detection is considered as failed. Default value is 3 times; range:[1-10]|
 |**successThreshold**|Integer|False| |The number of consecutive alive detection success after a successful status, to which extent the alive detection is considered as successful. Default value is 1 time; range:[1-10]|
-|**exec**|ExecSpec|False| |Execute specified command within the container; if the return code is 0 when the command exits, the diagnostic is considered as successful.|
-|**httpGet**|HgSpec|False| |Execute HTTP Get request to the IP address of the container on the specified port and path. <br><br>If the response status code is greater than or equal to 200 and less than 400, the diagnosis is considered as successful. <br>|
-|**tcpSocket**|TcpSocketSpec|False| |Conduct TCP inspection to the IP address of the container on the specified port. If the port opens, the diagnosis is considered as successful.|
-### TcpSocketSpec
+|**exec**|[ExecSpec](createpods#execspec)|False| |Execute specified command within the container; if the return code is 0 when the command exits, the diagnostic is considered as successful.|
+|**httpGet**|[HgSpec](createpods#hgspec)|False| |Execute HTTP Get request to the IP address of the container on the specified port and path. <br><br>If the response status code is greater than or equal to 200 and less than 400, the diagnosis is considered as successful. <br>|
+|**tcpSocket**|[TcpSocketSpec](createpods#tcpsocketspec)|False| |Conduct TCP inspection to the IP address of the container on the specified port. If the port opens, the diagnosis is considered as successful.|
+### <div id="tcpsocketspec">TcpSocketSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**port**|Integer|True| |Port number, range: [1-65535]|
-### HgSpec
+### <div id="hgspec">HgSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**scheme**|String|False| |Default value: http; optional values include http, https, HTTP, HTTPS.|
 |**host**|String|False| |pod_ip is used by default as hose information connected to pod, to satisfy hostname or ipv4 format. Length range:[0-253]|
 |**port**|Integer|True| |Port Number. Range: [1-65535]|
 |**path**|String|True| |Path of HTTP Range: [1-256]|
-|**httpHeader**|HhSpec[]|False| |Customized Http headers|
-### HhSpec
+|**httpHeader**|[HhSpec[]](createpods#hhspec)|False| |Customized Http headers|
+### <div id="hhspec">HhSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |http header key, http rules shall be followed. Length Range:[1-64]|
 |**value**|String|True| |http header Value|
-### ExecSpec
+### <div id="execspec">ExecSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**command**|String[]|True| |The total length of the command executed is 256 characters.|
-### EnvSpec
+### <div id="envspec">EnvSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**name**|String|True| |Environment Variable Name (ASCII). Range: [1-64]. Must be letters, numbers and underline (_). The regular is `[a-zA-Z0-9]*$`.|
+|**name**|String|True| |Environment Variable Name (ASCII). Range: [1-64]. Must be letters, figures and underline (). The regular is `^[a-zA-Z0-9]*$`.|
 |**value**|String|False| |Environment Variable Value. Range: [0-1024]|
-### VolumeSpec
+### <div id="volumespec">VolumeSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |volume name, comply with DNS-1123 label specification, which is unique in a Pod.|
-|**jdcloudDisk**|JDCloudVolumeSourceSpec|True| |cloud disk provided to Pod.|
-### JDCloudVolumeSourceSpec
+|**jdcloudDisk**|[JDCloudVolumeSourceSpec](createpods#jdcloudvolumesourcespec)|True| |cloud disk provided to Pod.|
+### <div id="jdcloudvolumesourcespec">JDCloudVolumeSourceSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**volumeId**|String|False| |Cloud Disk id, use existed Cloud Disk|
@@ -217,22 +221,22 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |**formatVolume**|Boolean|False| |A new disk automatically created with the container will be automatically formatted to the specified file system type; the existing disk mounted will not be formatted by default and only will be mounted as per specified fsType; and if you intend to format the mounted disk, be sure to set the field as true.|
 |**iops**|Integer|False| |Only the ssd.io1 type iops value of cloud disk is valid now.|
 |**autoDelete**|Boolean|False| |Whether to delete with pod. Default: true|
-### HostAliasSpec
+### <div id="hostaliasspec">HostAliasSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**hostnames**|String[]|True| |Domain List. <br><br>eg  ["foo.local", "bar.local"]. Length range is 1-10; elements conform to hostname naming convention. <br>|
 |**ip**|String|True| |ipv4 address; eg "127.0.0.1"|
-### LogConfigSpec
+### <div id="logconfigspec">LogConfigSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**logDriver**|String|False| |Name log configuration information; currently it only supports that a 10MB bucket is assigned to each container to the local by default and is automatically rotated. Only support default currently. Default value: default.|
-### DnsConfigSpec
+### <div id="dnsconfigspec">DnsConfigSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**nameservers**|String[]|False| |IP address list of DNS server; the repeated ones will be removed. <br><br>eg ["8.8.8.8", "4.2.2.2"]. List length: [0-20]; elements in the list conform to IPv4 format. <br>|
 |**searches**|String[]|False| |DNS search domain list, used for search of host name. <br><br>eg ["ns1.svc.cluster.local", "my.dns.search.suffix"]. List length: [0-6]; the total length of all characters in the list cannot exceed 256. <br>|
-|**options**|PodDnsConfigOptionSpec[]|False| |DNS解析器选项列表。<br><br>eg ["ndots":"2", "edns0":""]. List length: [0-10]|
-### PodDnsConfigOptionSpec
+|**options**|[PodDnsConfigOptionSpec[]](createpods#poddnsconfigoptionspec)|False| |DNS Resolver Option List. <br><br>eg ["ndots":"2", "edns0":""]. List length: [0-10]|
+### <div id="poddnsconfigoptionspec">PodDnsConfigOptionSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Length range: [1-63]; linux resolver restriction shall be followed|
@@ -241,10 +245,10 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createpods#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**podIds**|String[]| |

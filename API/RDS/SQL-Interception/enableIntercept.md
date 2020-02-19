@@ -27,3 +27,23 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testEnableIntercept() {
+    EnableInterceptRequest request = new EnableInterceptRequest();
+    request.setInstanceId("mysql-k67q8n46si");
+    request.setRegionId("cn-north-1");
+    EnableInterceptResponse response = rdsClient.enableIntercept(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpakbc5ihe8icrgq0b7cre48fkgk3n7o"
+}
+```

@@ -30,3 +30,25 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testCreateSuperAccountRequest() {
+    CreateSuperAccountRequest request = new CreateSuperAccountRequest();
+    request.setAccountName("dj_ac");
+    request.setAccountPassword("123456aA");
+    request.setInstanceId("mysql-wp4e9ztap2");
+    request.setRegionId("cn-north-1");
+    CreateSuperAccountResponse response = rdsClient.createSuperAccount(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa2gss98ajwjm0n7k9q8i5g1m1pdnjv"
+}
+```

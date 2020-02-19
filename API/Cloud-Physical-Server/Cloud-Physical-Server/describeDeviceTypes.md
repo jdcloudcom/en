@@ -23,14 +23,14 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/deviceTypes
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describedevicetypes#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**deviceTypes**|DeviceType[]| |
-### DeviceType
+|**deviceTypes**|[DeviceType[]](describedevicetypes#devicetype)| |
+### <div id="devicetype">DeviceType</div>
 |Name|Type|Description|
 |---|---|---|
 |**deviceType**|String|Instance Type Family, e.g. cps.c.normal|

@@ -28,3 +28,24 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+DELETE
+```
+public void testDeleteAccount() {
+    DeleteAccountRequest deleteAccountRequest = new DeleteAccountRequest();
+    deleteAccountRequest.setAccountName("dj_ac");
+    deleteAccountRequest.setInstanceId("mysql-wp4e9ztap2");
+    deleteAccountRequest.setRegionId("cn-north-1");
+    DeleteAccountResponse deleteAccountResponse = rdsClient.deleteAccount(deleteAccountRequest);
+    System.out.println(new Gson().toJson(deleteAccountResponse));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa0670tan56mcbetqsimbk8a5ijr116"
+}
+```

@@ -21,16 +21,16 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Search configuration result of CDN domain URL authentication rule|
+|**result**|[Result](geturlrule#result)|Search configuration result of CDN domain URL authentication rule|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**ruleType**|String|Value of rule type is 'url'|
-|**config**|URLRuleConfigObject|URL authentication rule configuration object|
+|**config**|[URLRuleConfigObject](geturlrule#urlruleconfigobject)|URL authentication rule configuration object|
 |**enabled**|Boolean|Enable the rule or not|
-### URLRuleConfigObject
+### <div id="urlruleconfigobject">URLRuleConfigObject</div>
 |Name|Type|Description|
 |---|---|---|
 |**authType**|String|Authentication type. Value range: <br>  by_params - parameter authentication<br>  by_path - path authentication<br>|

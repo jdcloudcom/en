@@ -17,9 +17,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Request parameter
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
-|**instanceSpec**|[DBInstanceSpec](createInstance#DBInstanceSpec)|True| |Create Instance Type|
+|**instanceSpec**|[DBInstanceSpec](createinstance#dbinstancespec)|True| |Create Instance Type|
 
-### <a name="DBInstanceSpec">DBInstanceSpec</a>
+### <div id="dbinstancespec">DBInstanceSpec</div>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**instanceName**|String|False| |Instance Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
@@ -31,12 +31,12 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 |**vpcId**|String|True| |VPC ID|
 |**subnetId**|String|True| |Subnet ID|
 |**parameterGroup**|String|False| |Parameter Set ID, system will create a default parameter set by default <br>- only support MySQL|
-|**chargeSpec**|[ChargeSpec](createInstance#ChargeSpec)|True| |Billing Specification, including Billing Type, Billing Period, etc.|
+|**chargeSpec**|[ChargeSpec](createinstance#chargespec)|True| |Billing Specification, including Billing Type, Billing Period, etc.|
 |**instanceStorageType**|String|False| |Storage Type, see [Enumeration Parameter Definitions](../Enum-Definitions/Enum-Definitions.md), the default value is: LOCAL_SSD<br>- Only support MySQL|
-|**instancePort**|String|False| |Application access port, only support MySQL, Percona, and MariaDB, Default value is 3306|
+|**instancePort**|String|False| |The port range supported by application access port is: 1150～5999. The default value for MySQL, Percona and MariaDB is 3306; the default value for SQL SQL Server is 1433, and 5022 is not supported; the default port number for PostgreSQL is 5432;|
 |**storageEncrypted**|Boolean|False| |Instance Data Encryption (data encryption will be supported only when the storage type is Cloud Disk Service). false: no encryption, true: encryption, the default is false<br> - Only support MySQL|
 |**instanceType**|String|False| |Instance Availability Architecture. standalone: single machine, cluster: architecture of master and slave machines, the default is cluster<br>- Only support SQL Server|
-### <a name="ChargeSpec">ChargeSpec</a>
+### <div id="chargespec">ChargeSpec</div>
 |Name|Type|Required or not|Default value|Description|
 |---|---|---|---|---|
 |**chargeMode**|String|False|postpaid_by_duration|Billing model value is prepaid_by_duration, postpaid_by_usage or postpaid_by_duration; prepaid_by_duration means Pay-In-Advance, postpaid_by_usage means Pay-As-You-Go By Consumption and postpaid_by_duration means pay by configuration; is postpaid_by_duration by default. Please refer to the Help Documentation of specific product line to confirm the billing type supported by the production line|
@@ -48,9 +48,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](createInstance#Result)| |
+|**result**|[Result](createinstance#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String| |

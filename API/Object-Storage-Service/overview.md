@@ -21,3 +21,7 @@ v1
 |**putBackSourceConfiguration**|PUT|Add and Modify Back-to-origin Configuration (ossopenapi)|
 |**putBucket**|PUT|Create a bucket(oss)</br>|
 |**getSingleBucketCapacity**|POST|Obtain designated bucket consumption data by type (ossopenapi)|
+|**createHistoricalReplicatTask**|POST|Create historical synchronization task|
+|**abortHistoricalReplicatTask**|POST|Abort bucket name to obtain the synchronization task under the bucket|
+|**getHistoricalReplicatTask**|GET|Obtain the synchronization task under the bucket according to bucket name|
+|**listHistoricalReplicatTasks**|GET|Obtain the synchronization task list under the bucket according to bucket name|

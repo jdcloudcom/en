@@ -20,9 +20,10 @@ https://cdn.jdcloud-api.com/v1/domain:query
 |**pageSize**|Integer|False|20|pageSize, the default value is 20, the maximum value is 50|
 |**status**|String|False| |Search by domain status, value: [offline, online, configuring, auditing, audit_reject]|
 |**type**|String|False| |Domain type, (web: static small file, download: large file acceleration, vod: video acceleration, live: live acceleration), do not upload all|
-|**tagFilters**|TagFilter[]|False| |Tag Filter Requirements|
+|**accelerateRegion**|String|False| |Acceleration Region (mainLand: Mainland China, nonMainLand: overseas regions, Hong Kong, Macao and Taiwan, all: the World) null transmission means the world|
+|**tagFilters**|[TagFilter[]](getdomainlistbyfilter#tagfilter)|False| |Tag Filter Requirements|
 
-### TagFilter
+### <div id="tagfilter">TagFilter</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**key**|String|False| | |
@@ -31,17 +32,17 @@ https://cdn.jdcloud-api.com/v1/domain:query
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](getdomainlistbyfilter#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**totalCount**|Integer| |
 |**pageSize**|Integer| |
 |**pageNumber**|Integer| |
-|**domains**|ListDomainItemByFilter[]| |
-### ListDomainItemByFilter
+|**domains**|[ListDomainItemByFilter[]](getdomainlistbyfilter#listdomainitembyfilter)| |
+### <div id="listdomainitembyfilter">ListDomainItemByFilter</div>
 |Name|Type|Description|
 |---|---|---|
 |**cname**|String| |
@@ -50,10 +51,12 @@ https://cdn.jdcloud-api.com/v1/domain:query
 |**created**|String| |
 |**modified**|String| |
 |**status**|String| |
+|**wafStatus**|String| |
 |**type**|String| |
 |**auditStatus**|String| |
-|**tags**|Tag[]| |
-### Tag
+|**accelerateRegion**|String| |
+|**tags**|[Tag[]](getdomainlistbyfilter#tag)| |
+### <div id="tag">Tag</div>
 |Name|Type|Description|
 |---|---|---|
 |**key**|String| |

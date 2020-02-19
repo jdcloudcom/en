@@ -15,28 +15,29 @@ https://cdn.jdcloud-api.com/v1/liveDomain:batchCreate
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**x-jdcloud-channel**|String|False|cdn|Domain source cdn/cdn, video cloud|
-|**playDomain**|String|False| |Playing Domain|
+|**playDomain**|String|True| |Playing Domain|
 |**publishDomain**|String|False| |Be sure to transmit the pushing streaming domain when creating the same|
-|**sourceType**|String|False| |Back-to-origin can be only one of types [ips,domain]|
+|**sourceType**|String|True| |Back-to-origin can be only one of types [ips,domain]|
 |**backHttpType**|String|False| | |
 |**defaultSourceHost**|String|False| |Default back-to-origin host|
-|**siteType**|String|False| |Site type includes pull (pulling streaming) and push (pushing streaming)|
+|**siteType**|String|True| |Site type includes pull (pulling streaming) and push (pushing streaming)|
 |**backSourceType**|String|False| |Back-to-origin type, being rtmp only now|
-|**ipSource**|IpSourceInfo[]|False| | |
-|**domainSource**|DomainSourceInfo[]|False| | |
+|**ipSource**|[IpSourceInfo[]](#ipsourceinfo)|False| | |
+|**domainSource**|[DomainSourceInfo[]](#domainsourceinfo)|False| | |
+|**accelerateRegion**|String|False| |Acceleration Region (mainLand: Mainland China, nonMainLand: overseas regions, Hong Kong, Macao and Taiwan, all: the World) the default value is mainLand|
 
-### DomainSourceInfo
+### <div id="DomainSourceInfo">DomainSourceInfo</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**priority**|Integer|False| | |
-|**sourceHost**|String|False| | |
-|**domain**|String|False| | |
-### IpSourceInfo
+|**priority**|Integer|True| |Priority Level (1-10)|
+|**sourceHost**|String|False| |Back-to-origin host|
+|**domain**|String|True| |Back-to-origin Domain|
+### <div id="IpSourceInfo">IpSourceInfo</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**master**|Integer|False| | |
-|**ip**|String|False| | |
-|**ratio**|Double|False| | |
+|**master**|Integer|True| |1: Host; 2: Backup|
+|**ip**|String|True| |Back-to-origin IP|
+|**ratio**|Double|False| |Proportion|
 
 ## Return Parameter
 |Name|Type|Description|

@@ -27,14 +27,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGrou
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeParameterModifyRecords#Result)| |
+|**result**|[Result](describeparametermodifyrecords#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**records**|[ParameterModifyRecords[]](describeParameterModifyRecords#ParameterModifyRecords)| |
+|**records**|[ParameterModifyRecords[]](describeparametermodifyrecords#parametermodifyrecords)| |
 |**totalCount**|Integer| |
-### <a name="ParameterModifyRecords">ParameterModifyRecords</a>
+### <div id="parametermodifyrecords">ParameterModifyRecords</div>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Parameter Name|
@@ -46,3 +46,36 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups/{parameterGrou
 |Return Code|Descripton|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeParameterModifyRecords() {
+    DescribeParameterModifyRecordsRequest request = new DescribeParameterModifyRecordsRequest();
+    request.setParameterGroupId("mysql-pg-e4zkfymxwt");
+    request.setRegionId("cn-north-1");
+    request.setPageNumber(1);
+    request.setPageSize(10);
+    DescribeParameterModifyRecordsResponse response = rdsClient.describeParameterModifyRecords(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpaod3dd4dgdc3tp0swuhpti0kncek92", 
+    "result": {
+        "records": [
+            {
+                "name": "binlog_cache_size", 
+                "postModify": "5000", 
+                "preModify": "262144", 
+                "updateTime": "2020-01-08 14:19:43"
+            }
+        ], 
+        "totalCount": 1
+    }
+}
+```

@@ -16,9 +16,9 @@ https://vod.jdcloud-api.com/v1/categories
 |---|---|---|---|---|
 |**pageNumber**|Integer|False|1|Page number; the default value is 1|
 |**pageSize**|Integer|False|10|page size; the default value is 10; the value range is [10, 100]|
-|**sorts**|Sort[]|False| | |
+|**sorts**|[Sort[]](listcategories#sort)|False| | |
 
-### Sort
+### <div id="sort">Sort</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|False| |Sorting Attribute Name|
@@ -27,18 +27,18 @@ https://vod.jdcloud-api.com/v1/categories
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Search category list information result …|
+|**result**|[Result](listcategories#result)|Search category list information result…|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**pageNumber**|Integer|Current Page Number|
 |**pageSize**|Integer|Number on Each Page|
 |**totalElements**|Integer|Search total amount|
 |**totalPages**|Integer|Total Number of Pages|
-|**content**|CategoryObject[]|Paging Content|
-### CategoryObject
+|**content**|[CategoryObject[]](listcategories#categoryobject)|Paging Content|
+### <div id="categoryobject">CategoryObject</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|Long|Category ID|

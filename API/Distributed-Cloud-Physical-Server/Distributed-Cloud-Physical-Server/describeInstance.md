@@ -22,14 +22,14 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describeinstance#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**instance**|[Instance](#instance)| |
-### <div id="Instance">Instance</div>
+|**instance**|[Instance](describeinstance#instance)| |
+### <div id="instance">Instance</div>
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Cloud Physical Server Instance ID|
@@ -64,8 +64,8 @@ None
 |**publicIpv6**|String|Public IPv6|
 |**keypairId**|String|Key Pair id|
 |**agentStatus**|String|agent status|
-|**charge**|[Charge](#charge)|Billing Information|
-### <div id="Charge">Charge</div>
+|**charge**|[Charge](describeinstance#charge)|Billing Information|
+### <div id="charge">Charge</div>
 |Name|Type|Description|
 |---|---|---|
 |**chargeMode**|String|Payment model, the value shall be: prepaid_by_duration, postpaid_by_usage or postpaid_by_duration. prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and the default is taken as postpaid_by_duration|

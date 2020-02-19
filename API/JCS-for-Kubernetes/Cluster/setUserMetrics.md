@@ -2,7 +2,7 @@
 
 
 ## Description
-Set custom metric monitoring status of user
+Suggest using setAddons API for Deprecated <br>Set user custom metric monitoring status
 
 ## Request Method
 POST

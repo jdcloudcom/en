@@ -22,9 +22,13 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Array|Available Private IP Set|
+|**result**|[Result](describeavailableprivateip#result)| |
 |**requestId**|String| |
 
+### <div id="result">Result</div>
+|Name|Type|Description|
+|---|---|---|
+|**availablePrivateIps**|String[]|Available Private IP Set|
 
 ## Return Code
 |Return Code|Description|

@@ -27,3 +27,23 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+DELETE
+```
+public void testDeleteInstance() {
+    DeleteInstanceRequest request = new DeleteInstanceRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("mysql-4kopy2wqc3");
+    DeleteInstanceResponse response = rdsClient.deleteInstance(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa4otkbpdiwmomei1s23irbgawe6skn"
+}
+```

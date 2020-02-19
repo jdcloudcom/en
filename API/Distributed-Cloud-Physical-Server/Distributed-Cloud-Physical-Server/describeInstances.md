@@ -27,10 +27,11 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/instances
 |**deviceType**|String|False| |Instance type family, exact matching, getting instance type family by calling API (describeDeviceTypes)|
 |**subnetId**|String|False| |Subnet ID|
 |**enableInternet**|String|False| |Whether to enable Internet, yes/no|
+|**privateIp**|String|False| |Private IP|
 |**keypairId**|String|False| |Key Pair id|
-|**filters**|[Filter[]](#filter)|False| |instanceId - Distributed Cloud Physical Server ID, exact matching, supporting multiple IDs<br/><br>privateIp - Distributed Cloud Physical Server Private IP, exact match, supporting multiple IPs<br/><br>status - Distributed Cloud Physical Server Status, referring to Distributed Cloud Physical Server Status, exact match, supporting multiple statuses<br>|
+|**filters**|[Filter[]](describeinstances#filter)|False| |instanceId - Distributed Cloud Physical Server ID, exact matching, supporting multiple IDs<br/><br>status - Distributed Cloud Physical Server status, referring to the status of Distributed Cloud Physical Server, exact matching, supporting multiple statuses<br>|
 
-### <div id="Filter">Filter</div>
+### <div id="filter">Filter</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name of Filter Requirements|
@@ -40,17 +41,17 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/instances
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describeinstances#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**instances**|[Instance[]](#instance)| |
+|**instances**|[Instance[]](describeinstances#instance)| |
 |**pageNumber**|Integer|Page Number; 1 by Default|
 |**pageSize**|Integer|Page size; it is 20 by default; value range[20, 100]|
 |**totalCount**|Integer|Search result amount|
-### <div id="Instance">Instance</div>
+### <div id="instance">Instance</div>
 |Name|Type|Description|
 |---|---|---|
 |**instanceId**|String|Cloud Physical Server Instance ID|
@@ -85,8 +86,8 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/instances
 |**publicIpv6**|String|Public IPv6|
 |**keypairId**|String|Key Pair id|
 |**agentStatus**|String|agent status|
-|**charge**|[Charge](#charge)|Billing Information|
-### <div id="Charge">Charge</div>
+|**charge**|[Charge](describeinstances#charge)|Billing Information|
+### <div id="charge">Charge</div>
 |Name|Type|Description|
 |---|---|---|
 |**chargeMode**|String|Payment model, the value shall be: prepaid_by_duration, postpaid_by_usage or postpaid_by_duration. prepaid_by_duration refers to Pay-In-Advance; postpaid_by_usage refers to Pay By Consumption and Pay-As-You-Go; postpaid_by_duration refers to Pay By Configuration and Pay-As-You-Go, and the default is taken as postpaid_by_duration|

@@ -24,10 +24,10 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/subnets/{subnetId}
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](deletesubnet#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Whether the deletion operation succeeded|

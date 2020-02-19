@@ -26,10 +26,10 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:resetPa
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](resetpassword#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Resetting result|

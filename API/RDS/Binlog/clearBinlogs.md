@@ -27,3 +27,23 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testClearBinlogs() {
+    ClearBinlogsRequest request = new ClearBinlogsRequest();
+    request.setInstanceId("mysql-wp4e9ztap2");
+    request.setRegionId("cn-north-1");
+    ClearBinlogsResponse response = rdsClient.clearBinlogs(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa3bcofkik62ocnf5794sti5fnmnufj"
+}
+```

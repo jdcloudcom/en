@@ -26,10 +26,10 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/elasticIps/{elasticIpId}:modif
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](modifyelasticipbandwidth#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Whether the bandwidth modification succeeded|

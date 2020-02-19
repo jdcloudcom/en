@@ -24,14 +24,14 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/raids
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describedeviceraids#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**raids**|[Raid[]](#raid)| |
-### <div id="Raid">Raid</div>
+|**raids**|[Raid[]](describedeviceraids#raid)| |
+### <div id="raid">Raid</div>
 |Name|Type|Description|
 |---|---|---|
 |**volumeType**|String|Disk Type, such as system/data|

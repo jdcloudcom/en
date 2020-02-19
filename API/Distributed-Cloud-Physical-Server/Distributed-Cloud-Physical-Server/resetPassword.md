@@ -26,10 +26,10 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:reset
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](resetpassword#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Resetting result|

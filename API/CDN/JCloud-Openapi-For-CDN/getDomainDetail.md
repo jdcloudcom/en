@@ -21,10 +21,10 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](getdomaindetail#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**allStatus**|String| |
@@ -46,7 +46,7 @@ None
 |**modified**|String| |
 |**status**|String| |
 |**auditStatus**|String| |
-|**source**|BackSourceInfo| |
+|**source**|[BackSourceInfo](getdomaindetail#backsourceinfo)| |
 |**sourceType**|String| |
 |**defaultSourceHost**|String|Default Back-to-origin Host|
 |**backSourceType**|String| |
@@ -60,24 +60,25 @@ None
 |**certType**|String| |
 |**sslCertStartTime**|String| |
 |**sslCertEndTime**|String| |
-### BackSourceInfo
+|**accelerateRegion**|String|Acceleration Region|
+### <div id="backsourceinfo">BackSourceInfo</div>
 |Name|Type|Description|
 |---|---|---|
-|**ips**|IpSourceInfo[]| |
-|**domain**|DomainSourceInfo[]| |
+|**ips**|[IpSourceInfo[]](getdomaindetail#ipsourceinfo)| |
+|**domain**|[DomainSourceInfo[]](getdomaindetail#domainsourceinfo)| |
 |**ossSource**|String| |
-### DomainSourceInfo
+### <div id="domainsourceinfo">DomainSourceInfo</div>
 |Name|Type|Description|
 |---|---|---|
-|**priority**|Integer| |
-|**sourceHost**|String| |
-|**domain**|String| |
-### IpSourceInfo
+|**priority**|Integer|Priority Level (1-10)|
+|**sourceHost**|String|Back-to-origin host|
+|**domain**|String|Back-to-origin Domain|
+### <div id="ipsourceinfo">IpSourceInfo</div>
 |Name|Type|Description|
 |---|---|---|
-|**master**|Integer| |
-|**ip**|String| |
-|**ratio**|Double| |
+|**master**|Integer|1: Host; 2: Backup|
+|**ip**|String|Back-to-origin IP|
+|**ratio**|Double|Proportion|
 
 ## Return Code
 |Return Code|Description|

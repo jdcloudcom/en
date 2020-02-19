@@ -30,14 +30,14 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods/{podId}/containers/{conta
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](getcontainerlogs#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**logs**|Logs| |
-### Logs
+|**logs**|[Logs](getcontainerlogs#logs)| |
+### <div id="logs">Logs</div>
 |Name|Type|Description|
 |---|---|---|
 |**content**|String|Container log contents; return 4KB at most|

@@ -20,10 +20,10 @@ https://vod.jdcloud-api.com/v1/domains
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Add domain result|
+|**result**|[Result](createdomain#result)|Add domain result|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|String|Domain Name ID|

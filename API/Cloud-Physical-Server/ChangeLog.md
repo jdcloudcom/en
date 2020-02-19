@@ -1,9 +1,10 @@
 # Update History #
 
-API Version: 2.2.0
+API Version: 2.2.1
 
 |Release Time|Version Number| Update |Instructions|
 |---|---|---|---|
+|2019-11-29|2.2.1|Complete Document|* Organize file, complete description|
 |2019-08-26|2.2.0|Add APIs|* Add secret key pair APIs<br> * Support ssh login for created physical machine and reinstalled physical machine|
 |2019-08-05|2.1.1|API Change|* Add executable scripts when creation of physical machine is supported<br>* Generation of random password for physical machine is supported by the service|
 |2019-08-05|2.1.0|Add APIs|* Add Load Balancer APIs<br> * Add Route Table APIs<br> * Search Elastic IP APIs and add return type cpslb for instanceType|

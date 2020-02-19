@@ -27,3 +27,6 @@ v1
 |**updateCollectResources**|POST|Incrementally update collection instance list. Updated action supports add and remove|
 |**updateLogset**|PUT|Update log sets. Log set names cannot be updated.|
 |**updateLogtopic**|PUT|Update log subjects. Log subject names cannot be updated.|
+|**search**|GET|Search log|
+|**searchLogContext**|POST|Search context of log|
+

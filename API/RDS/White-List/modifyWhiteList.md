@@ -29,3 +29,24 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+PUT
+```
+public void testModifyWhiteList() {
+    ModifyWhiteListRequest request = new ModifyWhiteListRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("mysql-k67q8n46si");
+    request.setIps("127.0.0.1,0.0.0.1");
+    ModifyWhiteListResponse response = rdsClient.modifyWhiteList(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpaote3hqwti0r73ow6q0dct8ogcn507"
+}
+```

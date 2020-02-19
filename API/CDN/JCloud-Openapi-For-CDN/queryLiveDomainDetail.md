@@ -21,10 +21,10 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](querylivedomaindetail#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**domainType**|String|Domain Type|
@@ -35,7 +35,7 @@ None
 |**cname**|String|cname|
 |**siteType**|String|Site Type Pushing Streaming push, Pulling Streaming pull|
 |**status**|String|Domain Status|
-|**source**|BackSourceInfo|Back-to-origin Information|
+|**source**|[BackSourceInfo](querylivedomaindetail#backsourceinfo)|Back-to-origin Information|
 |**sourceType**|String|Domain Back-to-origin Type|
 |**backSourceType**|String|Back-to-origin Type Only Can Be rtmp Now|
 |**videoType**|String|Video Format H.264|
@@ -53,7 +53,7 @@ None
 |**flvUrls**|String[]|flvUrls|
 |**hlsUrls**|String[]|hlsUrls|
 |**rtmpUrls**|String[]|rtmpUrls|
-|**protocolConverts**|ProtocolConvert[]|Forwarding Protocol|
+|**protocolConverts**|[ProtocolConvert[]](querylivedomaindetail#protocolconvert)|Forwarding Protocol|
 |**certificate**|String|https Certificate|
 |**rsaKey**|String|https Private Key|
 |**accesskeyType**|Integer|url Authentication Switch|
@@ -83,29 +83,30 @@ None
 |**certType**|String|Certificate Type|
 |**sslCertStartTime**|String| |
 |**sslCertEndTime**|String| |
-### ProtocolConvert
+|**accelerateRegion**|String| |
+### <div id="protocolconvert">ProtocolConvert</div>
 |Name|Type|Description|
 |---|---|---|
 |**sourceProtocol**|String|Currently, Source Protocol only can be rtmp|
 |**targetProtocol**|String|Target Protocol|
-### BackSourceInfo
+### <div id="backsourceinfo">BackSourceInfo</div>
 |Name|Type|Description|
 |---|---|---|
-|**ips**|IpSourceInfo[]| |
-|**domain**|DomainSourceInfo[]| |
+|**ips**|[IpSourceInfo[]](querylivedomaindetail#ipsourceinfo)| |
+|**domain**|[DomainSourceInfo[]](querylivedomaindetail#domainsourceinfo)| |
 |**ossSource**|String| |
-### DomainSourceInfo
+### <div id="domainsourceinfo">DomainSourceInfo</div>
 |Name|Type|Description|
 |---|---|---|
-|**priority**|Integer| |
-|**sourceHost**|String| |
-|**domain**|String| |
-### IpSourceInfo
+|**priority**|Integer|Priority Level (1-10)|
+|**sourceHost**|String|Back-to-origin host|
+|**domain**|String|Back-to-origin Domain|
+### <div id="ipsourceinfo">IpSourceInfo</div>
 |Name|Type|Description|
 |---|---|---|
-|**master**|Integer| |
-|**ip**|String| |
-|**ratio**|Double| |
+|**master**|Integer|1: Host; 2: Backup|
+|**ip**|String|Back-to-origin IP|
+|**ratio**|Double|Proportion|
 
 ## Return Code
 |Return Code|Description|

@@ -17,16 +17,16 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/certificate
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**content**|String|False| | |
+|**content**|String|True| | |
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="Result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**sigAlgName**|String| |

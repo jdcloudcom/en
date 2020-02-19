@@ -24,9 +24,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backupSynchronicities
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](createBackupSynchronicity#Result)| |
+|**result**|[Result](createbackupsynchronicity#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**serviceId**|String|Cross-Region Backup Synchronization Service ID|
@@ -35,3 +35,27 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backupSynchronicities
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testCreateBackupSynchronicity() {
+    CreateBackupSynchronicityRequest request = new CreateBackupSynchronicityRequest();
+    request.setDestRegion("cn-east-2");
+    request.setInstanceId("mysql-wp4e9ztap2");
+    request.setRegionId("cn-north-1");
+    CreateBackupSynchronicityResponse response = rdsClient.createBackupSynchronicity(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa344ech6367jbt0tfeojpe578n61a9", 
+    "result": {
+        "serviceId": "dbs-r1q51ene3s5d"
+    }
+}
+```

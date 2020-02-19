@@ -25,10 +25,10 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/vpcs/{vpcId}
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](deletevpc#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Whether the deletion operation succeeded|

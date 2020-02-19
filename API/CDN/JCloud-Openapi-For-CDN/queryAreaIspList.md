@@ -18,16 +18,22 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](queryareaisplist#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**mainLand**|AreaIspItem[]| |
-|**overseas**|AreaIspItem[]| |
-|**isp**|AreaIspItem[]| |
-### AreaIspItem
+|**mainLand**|[AreaIspItem[]](queryareaisplist#areaispitem)|Mainland City|
+|**overseas**|[AreaIspItem[]](queryareaisplist#areaispitem)|Overseas Country|
+|**isp**|[AreaIspItem[]](queryareaisplist#areaispitem)|Domestic Operator|
+|**gangaotai**|[AreaIspItem[]](queryareaisplist#areaispitem)|Hong Kong, Macao and Taiwan|
+|**oceanica**|[AreaIspItem[]](queryareaisplist#areaispitem)|Oceania Countries|
+|**southAmerica**|[AreaIspItem[]](queryareaisplist#areaispitem)|South American Countries|
+|**northAmerica**|[AreaIspItem[]](queryareaisplist#areaispitem)|North American Countries|
+|**asia**|[AreaIspItem[]](queryareaisplist#areaispitem)| |
+|**europe**|[AreaIspItem[]](queryareaisplist#areaispitem)|European Counties|
+### <div id="areaispitem">AreaIspItem</div>
 |Name|Type|Description|
 |---|---|---|
 |**description**|String| |

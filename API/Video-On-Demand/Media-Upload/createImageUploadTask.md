@@ -15,17 +15,17 @@ https://vod.jdcloud-api.com/v1/imageUploadTask
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**httpMethod**|String|False| |Value range of HTTP request method is GET, POST, PUT, DELETE, HEAD and PATCH and the default value is PUT|
-|**fileName**|String|False| |File Name|
+|**fileName**|String|True| |File Name|
 |**fileSize**|Long|False| |File Size|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Get result of image uploading address and credential|
+|**result**|[Result](createimageuploadtask#result)|Get result of image uploading address and credential|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**imageId**|String|Image ID|

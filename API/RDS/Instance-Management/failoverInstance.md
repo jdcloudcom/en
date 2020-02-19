@@ -27,3 +27,23 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testFailoverInstance(){
+    FailoverInstanceRequest request=new FailoverInstanceRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    FailoverInstanceResponse response= rdsClient.failoverInstance(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa4v9q21m5v70qm4i9kw699dpi8ctv9"
+}
+```

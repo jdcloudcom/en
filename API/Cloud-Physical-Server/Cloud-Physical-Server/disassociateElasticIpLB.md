@@ -12,7 +12,7 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/slbs/{loadBalancerId}:disassoc
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**regionId**|String|True| |Region ID, call APIs (queryCPSLBRegions) to get regions supported by Cloud Physical Server|
+|**regionId**|String|True| |Region ID, call the API (describeCPSLBRegions) to get regions supported by Cloud Physical Server|
 |**loadBalancerId**|String|True| |Load Balancer Instance ID|
 
 ## Request Parameter
@@ -25,10 +25,10 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/slbs/{loadBalancerId}:disassoc
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](disassociateelasticiplb#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Disassociate results|

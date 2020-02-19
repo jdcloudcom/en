@@ -33,9 +33,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createR
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](createROInstance#Result)| |
+|**result**|[Result](createroinstance#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**roInstanceId**|String[]|List of Newly Created Read-only Instance IDs|
@@ -45,3 +45,36 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:createR
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testCreateROInstance() {
+    CreateROInstanceRequest request = new CreateROInstanceRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("mysql-k67q8n46si");
+    request.setAzId("cn-north-1a");
+    request.setInstanceClass("db.mysql.s1.micro");
+    request.setInstanceStorageGB(40);
+    request.setCount(1);
+    request.setVpcId("vpc-yn4dblxgeb");
+    request.setSubnetId("subnet-820lwf1mlp");
+    request.setInstanceName("test");
+    CreateROInstanceResponse response = rdsClient.createROInstance(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa5kgpsceej8ks7j8abs2tw163o1bgv", 
+    "result": {
+        "orderId": "124073346420319835", 
+        "roInstanceId": [
+            "mysqlro-57ge82b4le"
+        ]
+    }
+}
+```

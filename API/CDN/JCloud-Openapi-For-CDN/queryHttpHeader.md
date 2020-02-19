@@ -21,15 +21,15 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](queryhttpheader#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**domain**|String| |
-|**headers**|QueryHttpHeaderResp[]| |
-### QueryHttpHeaderResp
+|**headers**|[QueryHttpHeaderResp[]](queryhttpheader#queryhttpheaderresp)| |
+### <div id="queryhttpheaderresp">QueryHttpHeaderResp</div>
 |Name|Type|Description|
 |---|---|---|
 |**headerType**|String| |

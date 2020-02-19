@@ -24,10 +24,10 @@ https://vod.jdcloud-api.com/v1/qualityDetectionTemplates/{templateId}
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Result of Modifying Quality Control Template|
+|**result**|[Result](updatequalitydetectiontemplate#result)|Result of Modifying Quality Control Template|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|Long|Template ID|

@@ -21,10 +21,10 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](querydomainconfig#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**ignoreQueryString**|String|Ignore Parameter [on,off]|
@@ -40,8 +40,8 @@ None
 |**jcdnTimeAnti**|String| |
 |**shareCache**|String| |
 |**isShareOpen**|String| |
-|**cacheRules**|CacheRule[]| |
-### CacheRule
+|**cacheRules**|[CacheRule[]](querydomainconfig#cacherule)| |
+### <div id="cacherule">CacheRule</div>
 |Name|Type|Description|
 |---|---|---|
 |**weight**|Integer| |

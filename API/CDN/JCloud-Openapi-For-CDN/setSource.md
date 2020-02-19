@@ -17,32 +17,36 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/source
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**sourceType**|String|False| |Back-to-origin can be one of types [ips,domain,oss] only|
-|**backSourceType**|String|False| |Back-to-origin can be one of methods [https,http] and shall be http by default|
-|**ipSource**|IpSourceInfo[]|False| | |
-|**domainSource**|DomainSourceInfo[]|False| | |
+|**sourceType**|String|True| |Back-to-origin can be one of types [ips,domain,oss] only|
+|**backSourceType**|String|True| |Back-to-origin can be one of methods [https,http] and shall be http by default|
+|**ipSource**|[IpSourceInfo[]](setsource#ipsourceinfo)|False| | |
+|**domainSource**|[DomainSourceInfo[]](setsource#domainsourceinfo)|False| | |
 |**ossSource**|String|False| |oss Back-to-origin Domain|
 |**defaultSourceHost**|String|False| |Default back-to-origin host|
 
-### DomainSourceInfo
+### <div id="domainsourceinfo">DomainSourceInfo</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**priority**|Integer|False| | |
-|**sourceHost**|String|False| | |
-|**domain**|String|False| | |
-### IpSourceInfo
+|**priority**|Integer|True| |Priority Level (1-10)|
+|**sourceHost**|String|False| |Back-to-origin host|
+|**domain**|String|True| |Back-to-origin Domain|
+### <div id="ipsourceinfo">IpSourceInfo</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**master**|Integer|False| | |
-|**ip**|String|False| | |
-|**ratio**|Double|False| | |
+|**master**|Integer|True| |1: Host; 2: Backup|
+|**ip**|String|True| |Back-to-origin IP|
+|**ratio**|Double|False| |Proportion|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Object| |
+|**result**|[Result](setsource#result)| |
 |**requestId**|String| |
 
+### <div id="result">Result</div>
+|Name|Type|Description|
+|---|---|---|
+|**taskId**|String|Task id|
 
 ## Return Code
 |Return Code|Description|

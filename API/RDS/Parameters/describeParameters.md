@@ -22,13 +22,13 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeParameters#Result)| |
+|**result**|[Result](describeparameters#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**parameters**|[DBInstanceParameter[]](describeParameters#DBInstanceParameter)|List of Instance Configuration Parameters|
-### <a name="DBInstanceParameter">DBInstanceParameter</a>
+|**parameters**|[DBInstanceParameter[]](describeparameters#dbinstanceparameter)|List of Instance Configuration Parameters|
+### <div id="dbinstanceparameter">DBInstanceParameter</div>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Parameter Name|
@@ -42,3 +42,51 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeParameters() {
+    DescribeParametersRequest request = new DescribeParametersRequest();
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setRegionId("cn-north-1");
+    DescribeParametersResponse response = rdsClient.describeParameters(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpam6r0kgsjvd3eshajnhaa1b5ifrwec", 
+    "result": {
+        "parameters": [
+            {
+                "configureValue": "32767", 
+                "description": "enables SQL Server to create a pool of worker threads to service a larger number of query requests", 
+                "name": "max_worker_threads", 
+                "needRestart": "false", 
+                "range": "[0,128-32767]", 
+                "runningValue": "32767"
+            }, 
+            {
+                "configureValue": "2", 
+                "description": "limit the number of processors to use in parallel plan execution", 
+                "name": "max_degree_of_parallelism", 
+                "needRestart": "false", 
+                "range": "[0-64]", 
+                "runningValue": "2"
+            }, 
+            {
+                "configureValue": "1887437", 
+                "description": "Maximum amount of memory in megabytes in the buffer pool used by an instance of Microsoft SQL Server", 
+                "name": "max_server_memory_(MB)", 
+                "needRestart": "false", 
+                "range": "[512-2147483647]", 
+                "runningValue": "1887437"
+            }
+        ]
+    }
+}
+```

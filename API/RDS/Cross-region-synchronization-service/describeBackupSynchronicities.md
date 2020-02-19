@@ -24,14 +24,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backupSynchronicities
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeBackupSynchronicities#Result)| |
+|**result**|[Result](describebackupsynchronicities#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**backupSynchronicities**|[BackupSynchronicity[]](describeBackupSynchronicities#BackupSynchronicity)| |
+|**backupSynchronicities**|[BackupSynchronicity[]](describebackupsynchronicities#backupsynchronicity)| |
 |**totalCount**|Integer| |
-### <a name="BackupSynchronicity">BackupSynchronicity</a>
+### <div id="backupsynchronicity">BackupSynchronicity</div>
 |Name|Type|Description|
 |---|---|---|
 |**serviceId**|String|Cross-Region Backup Synchronization Service ID|
@@ -48,3 +48,40 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/backupSynchronicities
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeBackupSynchronicities() {
+    DescribeBackupSynchronicitiesRequest request = new DescribeBackupSynchronicitiesRequest();
+    request.setPageNumber(1);
+    request.setPageSize(10);
+    request.setRegionId("cn-east-2");
+    DescribeBackupSynchronicitiesResponse response = rdsClient.describeBackupSynchronicities(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa34rjhhaak7vqv10dw79t2ok13c566", 
+    "result": {
+        "backupSynchronicities": [
+            {
+                "createTime": "2020-01-07 15:24:06", 
+                "destRegion": "cn-east-2", 
+                "engine": "mssjstack", 
+                "engineVersion": "5.7", 
+                "instanceId": "mysql-wp4e9ztap2", 
+                "newestDataTime": "", 
+                "serviceId": "dbs-r1q51ene3s5d", 
+                "serviceStatus": "RUNNING", 
+                "srcRegion": "cn-north-1"
+            }
+        ], 
+        "totalCount": 1
+    }
+}
+```

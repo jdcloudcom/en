@@ -29,3 +29,24 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testExchangeInstanceDns() {
+    ExchangeInstanceDnsRequest request = new ExchangeInstanceDnsRequest();
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setTargetInstanceId("sqlserver-0nyjcvjxls");
+    request.setRegionId("cn-north-1");
+    ExchangeInstanceDnsResponse response = rdsClient.exchangeInstanceDns(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa61wag1qsn1pcvq86ksr053pfpnt75"
+}
+```

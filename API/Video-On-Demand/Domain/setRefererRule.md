@@ -17,10 +17,10 @@ https://vod.jdcloud-api.com/v1/domains/{domainId}:setRefererRule
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**config**|RefererRuleConfigObject|True| |Configuration Object of Referer Anti-Leech Rule|
+|**config**|[RefererRuleConfigObject](setrefererrule#refererruleconfigobject)|True| |Configuration Object of Referer Anti-Leech Rule|
 |**enabled**|Boolean|True| |Enable the rule or not|
 
-### RefererRuleConfigObject
+### <div id="refererruleconfigobject">RefererRuleConfigObject</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**strategy**|String|True| |Enabling Policy. Value range: <br>  denial - deny<br>  allowance - allow<br>|

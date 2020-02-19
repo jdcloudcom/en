@@ -17,7 +17,7 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/shareCache
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**status**|String|False| |Shared Cache only can be off or on|
+|**status**|String|True| |Shared Cache only can be off or on|
 
 
 ## Return Parameter

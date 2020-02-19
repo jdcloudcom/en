@@ -17,19 +17,19 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/cacheRule
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**weight**|Integer|False| |The weight value of this configuration varies within the value range 1-10, and 1 is the maximum value|
-|**ttl**|Long|False| |Cache time, in second|
+|**weight**|Integer|True| |The weight value of this configuration varies within the value range 1-10, and 1 is the maximum value|
+|**ttl**|Long|True| |Cache time, in second|
 |**contents**|String|False| |Rule content. Other types can start with / or ., such as /a/b or.jpg|
-|**cacheType**|Integer|False| |Cache method: 0 means no cache, 1 means customization|
+|**cacheType**|Integer|True| |Cache method: 0 means no cache, 1 means customization|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createcacherule#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**configId**|Long|Cache Rule Configuration ID|

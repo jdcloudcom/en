@@ -18,20 +18,20 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describeedcpsregions#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**regions**|[Region[]](#region)| |
-### <div id="Region">Region</div>
+|**regions**|[Region[]](describeedcpsregions#region)| |
+### <div id="region">Region</div>
 |Name|Type|Description|
 |---|---|---|
 |**region**|String|Region code, e.g. cn-east-tz1|
 |**regionName**|String|Region name, cn-east-tz1|
-|**azs**|[Az[]](#az)|Availability Zone List|
-### <div id="Az">Az</div>
+|**azs**|[Az[]](describeedcpsregions#az)|Availability Zone List|
+### <div id="az">Az</div>
 |Name|Type|Description|
 |---|---|---|
 |**region**|String|Region code, e.g. cn-east-tz1|

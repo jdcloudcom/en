@@ -12,16 +12,16 @@ https://jdccs.jdcloud-api.com/v1/idcs/{idc}/rooms
 
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**idc**|String|True| |IDC Data Center id|
+|**idc**|String|True| |IDC Data Center ID|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**pageNumber**|Integer|False|1|page; it is 1 by default, the value range: [1,∞)|
-|**pageSize**|Integer|False|20|Paging size; it is 20 by default; value range: [10, 100]|
-|**filters**|Filter[]|False| |roomNo - Room number, exact match, supporting multiple numbers<br>|
+|**pageNumber**|Integer|False|1|Page number, xxx by default1|
+|**pageSize**|Integer|False|20|Paging size, default value is20|
+|**filters**|[Filter[]](describerooms#filter)|False| |roomNo - Room number, exact match, supporting multiple numbers<br>|
 
-### Filter
+### <div id="filter">Filter</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name of Filter Requirements|
@@ -31,17 +31,17 @@ https://jdccs.jdcloud-api.com/v1/idcs/{idc}/rooms
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describerooms#result)| |
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**rooms**|Room[]|Room Number List|
+|**rooms**|[Room[]](describerooms#room)|Room Number List|
 |**pageNumber**|Integer|Page|
 |**pageSize**|Integer|Paging Size|
 |**totalCount**|Integer|Total Count|
-### Room
+### <div id="room">Room</div>
 |Name|Type|Description|
 |---|---|---|
 |**idc**|String|English Identifier of Data Center|

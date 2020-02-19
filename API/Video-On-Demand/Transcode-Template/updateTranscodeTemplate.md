@@ -18,17 +18,17 @@ https://vod.jdcloud-api.com/v1/transcodeTemplates/{templateId}
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|False| |Template Name. Length cannot exceed 128 characters. UTF-8 code. <br>|
-|**video**|Video|False| |Video Parameter Configuration|
-|**audio**|Audio|False| |Audio Parameter Configuration|
-|**encapsulation**|Encapsulation|False| |Encapsulation Configuration|
+|**video**|[Video](updatetranscodetemplate#video)|False| |Video Parameter Configuration|
+|**audio**|[Audio](updatetranscodetemplate#audio)|False| |Audio Parameter Configuration|
+|**encapsulation**|[Encapsulation](updatetranscodetemplate#encapsulation)|False| |Encapsulation Configuration|
 |**definition**|String|False| |Definition Specification Mark. Value range: <br>  SD - standard definition<br>  HD - high definition<br>  FHD - super definition<br>  2K<br>  4K<br>|
 |**templateType**|String|False| |Template Type. Value range: <br>  jdchd - Jingxiang Super Definition<br>  jdchs - Topspeed Transcode<br>|
 
-### Encapsulation
+### <div id="encapsulation">Encapsulation</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**format**|String|False| |Encapsulation Format|
-### Audio
+### <div id="audio">Audio</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**codec**|String|False| |Audio Code. Value range: aac|
@@ -36,7 +36,7 @@ https://vod.jdcloud-api.com/v1/transcodeTemplates/{templateId}
 |**sampleRate**|Integer|False| |Audio Sampling Rate. Value range: 8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000, 64000, 88200 and 96000|
 |**channels**|Integer|False| |Audio Sound Channel Number: 1 and 2|
 |**comfortable**|Boolean|False| |Turn on the comfortable audio or not: true and false|
-### Video
+### <div id="video">Video</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**codec**|String|False| |Video Code. Value range: h265 and h264|
@@ -48,27 +48,27 @@ https://vod.jdcloud-api.com/v1/transcodeTemplates/{templateId}
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Modification Result of Transcode Template Information|
+|**result**|[Result](updatetranscodetemplate#result)|Modification result of transcode template information|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|Long|Template ID|
 |**name**|String|Template Name. Length cannot exceed 128 characters. UTF-8 code. <br>|
-|**video**|Video|Video Parameter Configuration|
-|**audio**|Audio|Audio Parameter Configuration|
-|**encapsulation**|Encapsulation|Encapsulation Configuration|
+|**video**|[Video](updatetranscodetemplate#video)|Video Parameter Configuration|
+|**audio**|[Audio](updatetranscodetemplate#audio)|Audio Parameter Configuration|
+|**encapsulation**|[Encapsulation](updatetranscodetemplate#encapsulation)|Encapsulation Configuration|
 |**definition**|String|Definition Specification Mark. Value range: <br>  SD - standard definition<br>  HD - high definition<br>  FHD - super definition<br>  2K<br>  4K<br>|
 |**source**|String|Template Source. Value range:<br>  system - preset by the system<br>  custom - built by users<br>|
 |**templateType**|String|Template Type. Value range: <br>  jdchd - Jingxiang Super Definition<br>  jdchs - Topspeed Transcode<br>|
 |**createTime**|String|Creation Time|
 |**updateTime**|String|Modification Time|
-### Encapsulation
+### <div id="encapsulation">Encapsulation</div>
 |Name|Type|Description|
 |---|---|---|
 |**format**|String|Encapsulation Format|
-### Audio
+### <div id="audio">Audio</div>
 |Name|Type|Description|
 |---|---|---|
 |**codec**|String|Audio Code. Value range: aac|
@@ -76,7 +76,7 @@ https://vod.jdcloud-api.com/v1/transcodeTemplates/{templateId}
 |**sampleRate**|Integer|Audio Sampling Rate. Value range: 8000, 11025, 12000, 16000, 22050, 24000, 32000, 44100, 48000, 64000, 88200 and 96000|
 |**channels**|Integer|Audio sound channel number: 1 and 2|
 |**comfortable**|Boolean|Turn on the comfortable audio or not: true and false|
-### Video
+### <div id="video">Video</div>
 |Name|Type|Description|
 |---|---|---|
 |**codec**|String|Video Code. Value range: h265 and h264|

@@ -22,9 +22,9 @@ None
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeIntercept#Result)| |
+|**result**|[Result](describeintercept#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**available**|Boolean| |
@@ -33,3 +33,26 @@ None
 |Return Code|Descripton|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeIntercept() {
+    DescribeInterceptRequest request = new DescribeInterceptRequest();
+    request.setInstanceId("mysql-k67q8n46si");
+    request.setRegionId("cn-north-1");
+    DescribeInterceptResponse response = rdsClient.describeIntercept(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpakd27kavrguqb926odbdbqdj49rfq7", 
+    "result": {
+        "available": false
+    }
+}
+```

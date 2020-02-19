@@ -23,3 +23,12 @@
         href: OSS-APIs/deleteBackSourceConfiguration.md
       - name: getSingleBucketCapacity
         href: OSS-APIs/getSingleBucketCapacity.md
+      - name: createHistoricalReplicatTask
+        href: OSS-APIs/createHistoricalReplicatTask.md
+      - name: abortHistoricalReplicatTask
+        href: OSS-APIs/abortHistoricalReplicatTask.md
+      - name: getHistoricalReplicatTask
+        href: OSS-APIs/getHistoricalReplicatTask.md
+      - name: listHistoricalReplicatTasks
+        href: OSS-APIs/listHistoricalReplicatTasks.md 
+        

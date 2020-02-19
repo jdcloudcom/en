@@ -22,13 +22,13 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeWhiteList#Result)| |
+|**result**|[Result](describewhitelist#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**whiteLists**|[WhiteList[]](describeWhiteList#WhiteList)|White List|
-### <a name="WhiteList">WhiteList</a>
+|**whiteLists**|[WhiteList[]](describewhitelist#whitelist)|White List|
+### <div id="whitelist">WhiteList</div>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|White List Name|
@@ -38,3 +38,31 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeWhiteList() {
+    DescribeWhiteListRequest request = new DescribeWhiteListRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("mysql-k67q8n46si");
+    DescribeWhiteListResponse response = rdsClient.describeWhiteList(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpaot34k3hifbuhtjkb181j0mbg42gke", 
+    "result": {
+        "whiteLists": [
+            {
+                "ips": "8.8.0.0/16", 
+                "name": "default"
+            }
+        ]
+    }
+}
+```

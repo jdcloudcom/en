@@ -25,20 +25,24 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeAccounts#Result)| |
+|**result**|[Result](describeaccounts#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**accounts**|[Account[]](describeAccounts#Account)| |
+|**accounts**|[Account[]](describeaccounts#account)| |
 |**totalCount**|Integer| |
-### <a name="Account">Account</a>
+### <div id="account">Account</div>
 |Name|Type|Description|
 |---|---|---|
 |**accountName**|String|Account Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules of Account Name|
 |**accountStatus**|String|Account status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **MySQL: Not support, not return this field**<br>- **SQL Server: return this field**|
-|**accountPrivileges**|[AccountPrivilege[]](describeAccounts#AccountPrivilege)|Permission Owned|
-### <a name="AccountPrivilege">AccountPrivilege</a>
+|**accountType**|String|Account types of normal: Normal and super: Advanced permission<br>- Only support SQL Server|
+|**createTime**|String|Account creation time, with the format: YYYY-MM-DD HH:mm:ss<br>- Only support PostgreSQL|
+|**updateTime**|String|Account modification time, with the format: YYYY-MM-DD HH:mm:ss<br>- Only support PostgreSQL|
+|**notes**|String|Account description content<br>- Only support PostgreSQL|
+|**accountPrivileges**|[AccountPrivilege[]](describeaccounts#accountprivilege)|Permission Owned|
+### <div id="accountprivilege">AccountPrivilege</div>
 |Name|Type|Description|
 |---|---|---|
 |**dbName**|String|Database Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
@@ -48,3 +52,33 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/account
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeAccounts() {
+    DescribeAccountsRequest request = new DescribeAccountsRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("mysql-wp4e9ztap2");
+    DescribeAccountsResponse response = rdsClient.describeAccounts(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa03bvk9sf8qkbri7215avh7k4q2rdv", 
+    "result": {
+        "accounts": [
+            {
+                "accountName": "dj_ac", 
+                "accountPrivileges": [], 
+                "accountStatus": "RUNNING"
+            }
+        ], 
+        "totalCount": 1
+    }
+}
+```

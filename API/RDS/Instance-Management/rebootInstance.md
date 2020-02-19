@@ -30,3 +30,24 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testRebootInstance() {
+    RebootInstanceRequest request = new RebootInstanceRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("mysql-wp4e9ztap2");
+    request.setRebootSlave(true);
+    RebootInstanceResponse response = rdsClient.rebootInstance(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa4w921t82as6c9rm18m8m88fc01rcm"
+}
+```

@@ -45,12 +45,14 @@
             href: Cloud-Physical-Server/associateElasticIp.md
           - name: disassociateElasticIp
             href: Cloud-Physical-Server/disassociateElasticIp.md
+          - name: describeInstanceMonitorInfo
+            href: Cloud-Physical-Server/describeInstanceMonitorInfo.md
       - name: Relevant Interface of Region
         items:
           - name: describeRegiones
             href: Cloud-Physical-Server/describeRegiones.md
-          - name: queryCPSLBRegions
-            href: Cloud-Physical-Server/queryCPSLBRegions.md
+          - name: describeCPSLBRegions
+            href: Cloud-Physical-Server/describeCPSLBRegions.md
       - name: Elastic IP APIs
         items:
           - name: describeElasticIps
@@ -79,14 +81,14 @@
         items:
           - name: createKeypairs
             href: Cloud-Physical-Server/createKeypairs.md
-          - name: queryKeypairs
-            href: Cloud-Physical-Server/queryKeypairs.md
+          - name: describeKeypairs
+            href: Cloud-Physical-Server/describeKeypairs.md
           - name: importKeypairs
             href: Cloud-Physical-Server/importKeypairs.md
           - name: deleteKeypairs
             href: Cloud-Physical-Server/deleteKeypairs.md
-          - name: queryKeypair
-            href: Cloud-Physical-Server/queryKeypair.md
+          - name: describeKeypair
+            href: Cloud-Physical-Server/describeKeypair.md
       - name: VPC APIs
         items:
           - name: describeVpc
@@ -101,18 +103,18 @@
             href: Cloud-Physical-Server/createVpc.md
       - name: Route table APIs
         items:
-          - name: queryRouteTables
-            href: Cloud-Physical-Server/queryRouteTables.md
-          - name: queryRouteTable
-            href: Cloud-Physical-Server/queryRouteTable.md
+          - name: describeRouteTables
+            href: Cloud-Physical-Server/describeRouteTables.md
+          - name: describeRouteTable
+            href: Cloud-Physical-Server/describeRouteTable.md
       - name: Load Balancer APIs
         items:
           - name: createLoadBalancer
             href: Cloud-Physical-Server/createLoadBalancer.md
-          - name: queryLoadBalancers
-            href: Cloud-Physical-Server/queryLoadBalancers.md
-          - name: queryLoadBalancer
-            href: Cloud-Physical-Server/queryLoadBalancer.md
+          - name: describeLoadBalancers
+            href: Cloud-Physical-Server/describeLoadBalancers.md
+          - name: describeLoadBalancer
+            href: Cloud-Physical-Server/describeLoadBalancer.md
           - name: modifyLoadBalancer
             href: Cloud-Physical-Server/modifyLoadBalancer.md
           - name: startLoadBalancer
@@ -125,10 +127,10 @@
             href: Cloud-Physical-Server/disassociateElasticIpLB.md
           - name: createListener
             href: Cloud-Physical-Server/createListener.md
-          - name: queryListeners
-            href: Cloud-Physical-Server/queryListeners.md
-          - name: queryListener
-            href: Cloud-Physical-Server/queryListener.md
+          - name: describeListeners
+            href: Cloud-Physical-Server/describeListeners.md
+          - name: describeListener
+            href: Cloud-Physical-Server/describeListener.md
           - name: modifyListener
             href: Cloud-Physical-Server/modifyListener.md
           - name: deleteListener
@@ -139,18 +141,18 @@
             href: Cloud-Physical-Server/stopListener.md
           - name: createServerGroup
             href: Cloud-Physical-Server/createServerGroup.md
-          - name: queryServerGroups
-            href: Cloud-Physical-Server/queryServerGroups.md
-          - name: queryServerGroup
-            href: Cloud-Physical-Server/queryServerGroup.md
+          - name: describeServerGroups
+            href: Cloud-Physical-Server/describeServerGroups.md
+          - name: describeServerGroup
+            href: Cloud-Physical-Server/describeServerGroup.md
           - name: modifyServerGroup
             href: Cloud-Physical-Server/modifyServerGroup.md
           - name: deleteServerGroup
             href: Cloud-Physical-Server/deleteServerGroup.md
           - name: addServers
             href: Cloud-Physical-Server/addServers.md
-          - name: queryServers
-            href: Cloud-Physical-Server/queryServers.md
+          - name: describeServers
+            href: Cloud-Physical-Server/describeServers.md
           - name: modifyServer
             href: Cloud-Physical-Server/modifyServer.md
           - name: removeServer

@@ -11,18 +11,22 @@
         items:
           - name: createAccount
             herf: Account-Management/createAccount.md
+          - name: createSuperAccount
+            herf: Account-Management/createSuperAccount.md
           - name: deleteAccount
             herf: Account-Management/deleteAccount.md
+          - name: describeAccountPrivilege
+            herf: Account-Management/describeAccountPrivilege.md
           - name: describeAccounts
             herf: Account-Management/describeAccounts.md
+          - name: grantAccountPrivilege
+            herf: Account-Management/grantAccountPrivilege.md
           - name: grantPrivilege
             herf: Account-Management/grantPrivilege.md
           - name: resetPassword
             herf: Account-Management/resetPassword.md
           - name: revokePrivilege
             herf: Account-Management/revokePrivilege.md
-          - name: createSuperAccount
-            herf: Account-Management/createSuperAccount.md
 
       - name: Audit Management
         items:
@@ -82,6 +86,16 @@
             herf: Cloud-on-Single-Database/getUploadKey.md
           - name: setImportFileShared
             herf: Cloud-on-Single-Database/setImportFileShared.md
+            
+      - name: Command Management
+        items:
+          - name: alterTableWithOnlineDDL
+            herf: command/alterTableWithOnlineDDL.md
+            
+      - name: Public API Management
+        items:
+          - name: describePrivilege
+            herf: Common/describePrivilege.md
 
       - name: Cross-region Backup
         items:
@@ -134,10 +148,14 @@
             herf: Instance-Management/describeInstances.md
           - name: describeLatestRestoreTime
             herf: Instance-Management/describeLatestRestoreTime.md
+          - name: describeSSL
+            herf: Instance-Management/describeSSL.md
           - name: disableInternetAccess
             href: Instance-Management/disableInternetAccess.md
           - name: enableInternetAccess
             href: Instance-Management/enableInternetAccess.md
+          - name: enableSSL
+            herf: Instance-Management/enableSSL.md
           - name: exchangeInstanceDns
             href: Instance-Management/exchangeInstanceDns.md
           - name: failoverInstance
@@ -146,6 +164,8 @@
             herf: Instance-Management/modifyBackupPolicy.md
           - name: modifyConnectionMode
             herf: Instance-Management/modifyConnectionMode.md
+          - name: modifyInstanceAz
+            herf: Instance-Management/modifyInstanceAz.md
           - name: modifyInstanceName
             herf: Instance-Management/modifyInstanceName.md
           - name: modifyInstanceSpec
@@ -156,6 +176,8 @@
             herf: Instance-Management/rebootInstance.md
           - name: restoreInstance
             herf: Instance-Management/restoreInstance.md
+          - name: restoreInstanceByTime
+            herf: Instance-Management/restoreInstanceByTime.md
 
       - name: Log Management
         items:
@@ -198,6 +220,8 @@
         items:
           - name: describeActiveQueryPerformance
             herf: Performance-Statistics/describeActiveQueryPerformance.md
+          - name: describeErrorLog
+            herf: Performance-Statistics/describeErrorLog.md
           - name: describeIndexPerformance
             herf: Performance-Statistics/describeIndexPerformance.md
           - name: describeQueryPerformance
@@ -217,6 +241,11 @@
             herf: SQL-Interception/disableIntercept.md
           - name: enableIntercept
             herf: SQL-Interception/enableIntercept.md
+            
+      - name: Table Management
+        items:
+          - name: describeTables
+            herf: Table-Management/describeTables.md
 
       - name: Transparent Data Encryption
         items:

@@ -23,22 +23,23 @@ https://kubernetes.jdcloud-api.com/v1/regions/{regionId}/versions
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeversions#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**masterVersions**|MasterVersion[]| |
-### MasterVersion
+|**masterVersions**|[MasterVersion[]](describeversions#masterversion)| |
+### <div id="masterversion">MasterVersion</div>
 |Name|Type|Description|
 |---|---|---|
 |**version**|String|Cluster Version Number|
 |**isDefault**|Boolean|Whether or not default version|
-|**defaultNodeVersion**|String|node Version Number by Default|
+|**defaultNodeVersion**|String|Working Node Version Number by Default|
 |**versionStatus**|String|Version Status|
-|**nodeVersions**|NodeVersion[]|Configuration of node|
-### NodeVersion
+|**nodeVersions**|[NodeVersion[]](describeversions#nodeversion)|Configuration of node|
+|**nodeOsTypes**|String|node Node Operating System Type List is divided by "," and supports CentOS|Windows now|
+### <div id="nodeversion">NodeVersion</div>
 |Name|Type|Description|
 |---|---|---|
 |**version**|String|Node Version Number|

@@ -21,15 +21,15 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Get video playing information result|
+|**result**|[Result](getvideoplayinfo#result)|Get video playing information result|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**baseInfo**|VideoBaseInfo|Basic Video Information|
-|**playInfoList**|VideoPlayInfo[]|Video Play Information List|
-### VideoPlayInfo
+|**baseInfo**|[VideoBaseInfo](getvideoplayinfo#videobaseinfo)|Basic Video Information|
+|**playInfoList**|[VideoPlayInfo[]](getvideoplayinfo#videoplayinfo)|Video Play Information List|
+### <div id="videoplayinfo">VideoPlayInfo</div>
 |Name|Type|Description|
 |---|---|---|
 |**taskId**|String|Produce transcode task ID of playing information|
@@ -47,7 +47,7 @@ None
 |**fps**|String|Video Frame Rate|
 |**createTime**|String| |
 |**updateTime**|String| |
-### VideoBaseInfo
+### <div id="videobaseinfo">VideoBaseInfo</div>
 |Name|Type|Description|
 |---|---|---|
 |**videoId**|String|Video ID|

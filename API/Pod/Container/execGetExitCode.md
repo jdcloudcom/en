@@ -25,10 +25,10 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods/{podId}/containers/{conta
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](execgetexitcode#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**execCode**|Integer|Exit Code Executed by exec Command|

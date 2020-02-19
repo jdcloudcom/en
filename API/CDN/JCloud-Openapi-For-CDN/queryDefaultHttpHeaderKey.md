@@ -18,10 +18,10 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](querydefaulthttpheaderkey#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**reqDefaultHttpHeaderKey**|String[]|Default http Request Head|

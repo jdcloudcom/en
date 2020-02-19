@@ -14,23 +14,23 @@ https://cdn.jdcloud-api.com/v1/task:createForCallbackV2
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**taskType**|String|False| |Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|
-|**urlItems**|UrlItemV2[]|False| | |
+|**taskType**|String|True| |Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|
+|**urlItems**|[UrlItemV2[]](createRefreshTaskForCallbackV2#urlitemv2)|True| | |
 
-### UrlItemV2
+### <div id="UrlItemV2">UrlItemV2</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**url**|String|False| |Task url|
+|**url**|String|True| |Task url|
 |**urlId**|String|False| |Returned Task id|
-|**callbackUrl**|String|False| |Returned Address|
+|**callbackUrl**|String|True| |Returned Address|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createRefreshTaskForCallbackV2#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="Result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**errorCount**|Integer|Count of Failed Tasks|

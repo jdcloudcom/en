@@ -22,13 +22,13 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeImportFiles#Result)| |
+|**result**|[Result](describeimportfiles#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**importFiles**|[ImportFile[]](describeImportFiles#ImportFile)|Import File Set|
-### <a name="ImportFile">ImportFile</a>
+|**importFiles**|[ImportFile[]](describeimportfiles#importfile)|Import File Set|
+### <div id="importfile">ImportFile</div>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|File Name|
@@ -43,3 +43,45 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void  testDescribeImportFiles(){
+    DescribeImportFilesRequest describeImportFilesRequest = new DescribeImportFilesRequest();
+    describeImportFilesRequest.setInstanceId("sqlserver-83uqv7avy4");
+    describeImportFilesRequest.setRegionId("cn-north-1");
+    DescribeImportFilesResponse response = rdsClient.describeImportFiles(describeImportFilesRequest);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa4kdtfsgq7t2406a0swem2010wkhd9", 
+    "result": {
+        "importFiles": [
+            {
+                "importTime": "2019-12-31 14:11:06", 
+                "isLocal": "false", 
+                "name": "db1.bak", 
+                "sharedFileGid": "b9c74930-142b-4859-be26-cc4e0c0743a8", 
+                "sizeByte": 244736, 
+                "status": "ACTIVE", 
+                "uploadTime": "2019-08-20 22:49:18"
+            }, 
+            {
+                "importTime": "2020-01-07 16:22:12", 
+                "isLocal": "false", 
+                "name": "db1_1.bak", 
+                "sharedFileGid": "fcbb66c6-e7f0-4228-b4c0-b3e5a0d452c8", 
+                "sizeByte": 1593856, 
+                "status": "ACTIVE", 
+                "uploadTime": "2019-12-09 11:40:00"
+            }
+        ]
+    }
+}
+```

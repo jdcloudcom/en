@@ -22,18 +22,18 @@ https://vod.jdcloud-api.com/v1/qualityDetectionTemplates
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Result of Searching Quality Control Template List Information|
+|**result**|[Result](listqualitydetectiontemplates#result)|Result of Searching Quality Control Template List Information|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**pageNumber**|Integer|Current Page Number|
 |**pageSize**|Integer|Number on Each Page|
 |**totalElements**|Integer|Search Total Amount|
 |**totalPages**|Integer|Total Number of Pages|
-|**content**|QualityDetectionTemplateObject[]|Paging Content|
-### QualityDetectionTemplateObject
+|**content**|[QualityDetectionTemplateObject[]](listqualitydetectiontemplates#qualitydetectiontemplateobject)|Paging Content|
+### <div id="qualitydetectiontemplateobject">QualityDetectionTemplateObject</div>
 |Name|Type|Description|
 |---|---|---|
 |**id**|Long|Template ID|

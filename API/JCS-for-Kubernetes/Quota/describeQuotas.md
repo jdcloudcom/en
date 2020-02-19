@@ -2,7 +2,7 @@
 
 
 ## Description
-Search (k8s cluster) quota
+Search quota of JCS for Kubernetes
 
 ## Request Method
 GET
@@ -17,9 +17,9 @@ https://kubernetes.jdcloud-api.com/v1/regions/{regionId}/quotas
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**filters**|Filter[]|False| |resourceTypes - Resource type, and currently it only supports [kubernetes]<br>|
+|**filters**|[Filter[]](describequotas#filter)|False| |resourceTypes - Resource type, and currently it only supports [kubernetes]<br>|
 
-### Filter
+### <div id="filter">Filter</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name of Filter Requirements|
@@ -29,14 +29,14 @@ https://kubernetes.jdcloud-api.com/v1/regions/{regionId}/quotas
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describequotas#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**quotas**|Quota[]|Quota List|
-### Quota
+|**quotas**|[Quota[]](describequotas#quota)|Quota List|
+### <div id="quota">Quota</div>
 |Name|Type|Description|
 |---|---|---|
 |**resourceType**|String|Resource type [kubernetes]|

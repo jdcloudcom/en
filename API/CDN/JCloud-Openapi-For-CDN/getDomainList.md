@@ -20,22 +20,23 @@ https://cdn.jdcloud-api.com/v1/domain
 |**pageSize**|Integer|False|20|pageSize, maximum value 50, default value20|
 |**status**|String|False| |Search by domain status, value: [offline, online, configuring, auditing, audit_reject]|
 |**type**|String|False| |Domain type, (web: static small file, download: large file acceleration, vod: video acceleration, live: live acceleration), do not upload all|
+|**accelerateRegion**|String|False| |Acceleration Region (mainLand: Mainland China, nonMainLand: overseas regions, Hong Kong, Macao and Taiwan, all: the World) null transmission means the world|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](getdomainlist#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**totalCount**|Integer| |
 |**pageSize**|Integer| |
 |**pageNumber**|Integer| |
-|**domains**|ListDomainItem[]|Domain List|
-### ListDomainItem
+|**domains**|[ListDomainItem[]](getdomainlist#listdomainitem)|Domain List|
+### <div id="listdomainitem">ListDomainItem</div>
 |Name|Type|Description|
 |---|---|---|
 |**cname**|String| |
@@ -44,8 +45,10 @@ https://cdn.jdcloud-api.com/v1/domain
 |**created**|String| |
 |**modified**|String| |
 |**status**|String| |
+|**wafStatus**|String| |
 |**type**|String| |
 |**auditStatus**|String| |
+|**accelerateRegion**|String| |
 
 ## Return Code
 |Return Code|Description|

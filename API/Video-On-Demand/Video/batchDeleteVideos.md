@@ -20,10 +20,10 @@ https://vod.jdcloud-api.com/v1/videos:batchDelete
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result|Delete video results in batches|
+|**result**|[Result](batchdeletevideos#result)|Delete video results in batches|
 |**requestId**|String|Request ID|
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**okVideoIds**|String[]|Video ID Set Deleted|

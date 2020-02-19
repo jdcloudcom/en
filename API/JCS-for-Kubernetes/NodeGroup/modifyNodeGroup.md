@@ -2,7 +2,7 @@
 
 
 ## Description
-Modify name and description of the node group
+Modify name and description of working node group<br>Either name or description must be specified
 
 ## Request Method
 PATCH
@@ -13,13 +13,13 @@ https://kubernetes.jdcloud-api.com/v1/regions/{regionId}/nodeGroups/{nodeGroupId
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**regionId**|String|True| |Region ID|
-|**nodeGroupId**|String|True| |ID of Node Group|
+|**nodeGroupId**|String|True| |Working Node Group ID|
 
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**name**|String|False| |Name of Node Group|
-|**description**|String|False| |Either cluster name or description must be designated|
+|**name**|String|False| |Working Node Group Name|
+|**description**|String|False| |Working Node Group Description|
 
 
 ## Return Parameter

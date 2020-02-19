@@ -31,3 +31,26 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testAlterTableWithOnlineDDL() {
+    AlterTableWithOnlineDDLRequest request = new AlterTableWithOnlineDDLRequest();
+    request.setCommand("add column x int");
+    request.setDatabase("dj_db");
+    request.setTable("dj_db");
+    request.setInstanceId("mysql-wp4e9ztap2");
+    request.setRegionId("cn-north-1");
+    AlterTableWithOnlineDDLResponse response = rdsClient.alterTableWithOnlineDDL(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa3hn82be6twg4dwk033s2o0i3j9bmh"
+}
+```

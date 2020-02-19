@@ -22,14 +22,14 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describekeypair#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**server**|[Keypair](#keypair)|Details About Key Pairs|
-### <div id="Keypair">Keypair</div>
+|**keypair**|[Keypair](describekeypair#keypair)|Details About Key Pairs|
+### <div id="keypair">Keypair</div>
 |Name|Type|Description|
 |---|---|---|
 |**keypairId**|String|Key Pair id|

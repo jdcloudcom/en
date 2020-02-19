@@ -22,9 +22,9 @@ None
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](getUploadKey#Result)| |
+|**result**|[Result](getuploadkey#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**key**|String|The Key to be used to upload the file|
@@ -33,3 +33,26 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testGetUploadKey(){
+    GetUploadKeyRequest request=new GetUploadKeyRequest();
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setRegionId("cn-north-1");
+    GetUploadKeyResponse response= rdsClient.getUploadKey(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa4m1sg1b8refswmtdq9h0r40082h3r", 
+    "result": {
+        "key": "GQx4EEy53e44Zt0por6NKhkrbhiHqw3NK4MBbZBft9xVy11m6BL5wTFsthBraXNSiN8G97OOED4dMryee1vybuQW7UliGAtzZdwX21NIX5dNcDQBcrELtQ=="
+    }
+}
+```

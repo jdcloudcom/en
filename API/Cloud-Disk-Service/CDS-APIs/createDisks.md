@@ -41,6 +41,7 @@ https://disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**description**|String|False| |Description of the cloud disk|
 |**diskType**|String|True| |Cloud Disk Service type, with the value of ssd.gp1, ssd.io1 or hdd.std1|
 |**diskSizeGB**|Integer|True| |Size of Cloud Disk Service is in GiB; for the ssd.io1 type, the value range is [20,16000]GB and the step size is 10G, for the ssd.gp1 type, the value range is [20,16000]GB, and the step size is 10G; and for the hdd.std1 type, the value range is [20,16000]GB and the step size is 10G|
+|**iops**|Integer|False| |The size of Cloud Disk Service IOPS is effective only when the cloud disk type is ssd.io1, and the step size is 10. The default value is capacity*30 and the maximum value is capacity*50|
 |**snapshotId**|String|False| |Snapshot ID used to create a cloud disk|
 |**charge**|ChargeSpec|False| |Billing configuration. If not specified, the default billing type is pay-as-you-go - pay by service time by default.|
 |**multiAttachable**|Boolean|False| |Whether the Cloud Disk Service supports the mode that one disk is attached to multiple machines. It is set as false by default (not supported).|

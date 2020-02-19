@@ -27,3 +27,23 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testEnableTde() {
+    EnableTdeRequest request = new EnableTdeRequest();
+    request.setInstanceId("sqlserver-0nyjcvjxls");
+    request.setRegionId("cn-north-1");
+    EnableTdeResponse response = rdsClient.enableTde(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpaoqk0mt49r2cc5bhh9ahq4vvivw1ie"
+}
+```

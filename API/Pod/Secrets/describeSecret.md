@@ -23,21 +23,21 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describesecret#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**secret**|Secret| |
-### Secret
+|**secret**|[Secret](describesecret#secret)| |
+### <div id="secret">Secret</div>
 |Name|Type|Description|
 |---|---|---|
 |**name**|String|Secrets Name|
 |**type**|String|Secrets Type|
 |**createdAt**|String|Creation Time of Secrets|
-|**data**|DockerRegistryData|Secrets Data|
-### DockerRegistryData
+|**data**|[DockerRegistryData](describesecret#dockerregistrydata)|Secrets Data|
+### <div id="dockerregistrydata">DockerRegistryData</div>
 |Name|Type|Description|
 |---|---|---|
 |**server**|String|registry Server Address|

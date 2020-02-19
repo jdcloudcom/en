@@ -20,9 +20,9 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/keypairs
 |**pageNumber**|Integer|False|1|Page number; xxx by default1|
 |**pageSize**|Integer|False|20|Page size; it is 20 by default; value range[20, 100]|
 |**name**|String|False| |Key Pair Name|
-|**filters**|[Filter[]](#filter)|False| |keypairId  - key pair ID, exact matching, supporting multiple IDs<br>|
+|**filters**|[Filter[]](describekeypairs#filter)|False| |keypairId  - key pair ID, exact matching, supporting multiple IDs<br>|
 
-### <div id="Filter">Filter</div>
+### <div id="filter">Filter</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name of Filter Requirements|
@@ -32,17 +32,17 @@ https://edcps.jdcloud-api.com/v1/regions/{regionId}/keypairs
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|[Result](describekeypairs#result)| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**servers**|[Keypair[]](#keypair)| |
+|**keypairs**|[Keypair[]](describekeypairs#keypair)| |
 |**pageNumber**|Integer|Page Number; 1 by Default|
 |**pageSize**|Integer|Page size; it is 20 by default; value range[20, 100]|
 |**totalCount**|Integer|Search result amount|
-### <div id="Keypair">Keypair</div>
+### <div id="keypair">Keypair</div>
 |Name|Type|Description|
 |---|---|---|
 |**keypairId**|String|Key Pair id|

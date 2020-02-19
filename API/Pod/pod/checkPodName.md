@@ -25,10 +25,10 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods:checkPodName
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](checkpodname#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**code**|Integer|Whether the podName assigned by the user passes the verification, 0 means pass, 1 means that the name is blank, 2 means that the specifications are not met, and 3 means the name is duplicate.|

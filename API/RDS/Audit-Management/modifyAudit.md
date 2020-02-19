@@ -30,3 +30,25 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testModifyAudit(){
+    ModifyAuditRequest request=new ModifyAuditRequest();
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setRegionId("cn-north-1");
+    request.setDrop("DATABASE_OBJECT_ACCESS_GROUP");
+    request.setAdd("AUDIT_CHANGE_GROUP");
+    ModifyAuditResponse response= rdsClient.modifyAudit(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa2r0c5vtp69o4q3ded1gbud7h0jtmt"
+}
+```

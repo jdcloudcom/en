@@ -21,14 +21,14 @@ None
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](queryrefreshtaskbyid#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**task**|RefreshTask| |
-### RefreshTask
+|**task**|[RefreshTask](queryrefreshtaskbyid#refreshtask)| |
+### <div id="refreshtask">RefreshTask</div>
 |Name|Type|Description|
 |---|---|---|
 |**createDate**|String|Task Creation Time, UTC time|
@@ -39,8 +39,8 @@ None
 |**retryStatus**|String|Try Again Status (unretry: not try again, retry: try again)|
 |**taskStatus**|String|Task Status (running: in running, success: success, failed: failure)|
 |**taskType**|String|Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|
-|**urlTasks**|UrlTask[]|Detailed Task|
-### UrlTask
+|**urlTasks**|[UrlTask[]](queryrefreshtaskbyid#urltask)|Detailed Task|
+### <div id="urltask">UrlTask</div>
 |Name|Type|Description|
 |---|---|---|
 |**taskType**|String|Refresh and prewarm type, (url: url refresh, dir: directory refresh, prefetch: prewarm)|

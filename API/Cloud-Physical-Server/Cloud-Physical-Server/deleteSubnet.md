@@ -24,10 +24,10 @@ https://cps.jdcloud-api.com/v1/regions/{regionId}/subnets/{subnetId}
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](deletesubnet#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**success**|Boolean|Whether the deletion operation succeeded|

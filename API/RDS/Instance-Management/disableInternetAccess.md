@@ -27,3 +27,23 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testDisableInternetAccess() {
+    DisableInternetAccessRequest request = new DisableInternetAccessRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("mysql-wp4e9ztap2");
+    DisableInternetAccessResponse response = rdsClient.disableInternetAccess(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa51bee41j6djud8ucu3kehnipmsof0"
+}
+```

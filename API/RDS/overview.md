@@ -35,13 +35,14 @@ v1
 |**deleteImportFile**|DELETE|Delete database backup file uploaded by users via the tool of Cloud on Single Database<br>- Support SQL Server only|
 |**deleteInstance**|DELETE|Delete one RDS instance or the read-only instance of MySQL/PostgreSQL. Corresponding MySQL/PostgreSQL read-only instances will also be deleted while deleting the main MySQL/PostgreSQL<br>Sensitive operation can be enabled<a href="https://docs.jdcloud.com/en/security-operation-protection/operation-protection">MFA operation protection</a>|
 |**deleteParameterGroup**|DELETE|Delete parameter set<br>- Support MySQL, Percona, MariaDB and PostgreSQL only|
+|**describeAccountPrivilege**|GET|View the permission information for RDS instance account \- Only support MySQL, Percona and MariaDB|
 |**describeAccounts**|GET|View all account information in an RDS instance, including the account name, access rights to each database, etc.|
 |**describeActiveQueryPerformance**|GET|Obtain performance information about a running SQL execution according to search conditions defined by the user. The user can search performance necks related to SQL execution based on such information and make the optimization. <br>- Only support SQL Server|
 |**describeAudit**|GET|View the audit options of the current instance that have been enabled. If no audit option is enabled for the current instance, it returns an empty array<br>- Support SQL Server Only|
 |**describeAuditDownloadURL**|GET|Obtain the download link of a certain audit file, both internal and external links are supported, and the validity time of the link is 24 hours<br>- Only support SQL Server|
 |**describeAuditFiles**|GET|Obtain the list of all the audit result files under the current instance<br>- only support SQL Server|
 |**describeAuditOptions**|GET|Obtain the audit option of various database version supported by the current system and the relevant options<br>- only support SQL Server|
-|**describeAuditResult**|GET|Only support view of audit content of MySQL instance<br>- Only support MySQL 5.6, MySQL 5.7, Percona and MariaDB|
+|**describeAuditResult**|GET|Only support view of audit content of MySQL instance<br>- Only support MySQL 5.6, MySQL 5.7, Percona, MariaDB and PostgreSQL|
 |**describeAzs**|GET|View availability zones supported by various RDS databases in specified regions. The availability zones supported by RDS of different types are different|
 |**describeBackupDownloadURL**|GET|Obtain the download link of the entire backups or  a single file in the backup. <br>- When there is a file name in the input parameter, obtain the download link of the file. <br>- When there is no file name in the input parameter, obtain the download link of the entire backups. <br>Due to the difference of backup mechanism, when using this API to download backups, SQL Server must input the file name, and each file is downloaded one by one. It does not support downloading the entire backup. The file name (excluding the suffix) in the SQL Server backup is the database name of the backup. For example, the file name is my_test_db.bak, indicating that the file is a backup of the my_test_db database. <br>MySQL can download the entire backup set, but does not support the download of a single file. <br>- Support SQL Server Only|
 |**describeBackupPolicy**|GET|View RDS instance backup policy. The supported backup policies differ based on different database type. See the detailed instructions in return parameters|
@@ -50,6 +51,7 @@ v1
 |**describeBinlogDownloadURL**|GET|Obtain the binlog download link of MySQL instance<br>- Only support MySQL, Percona and MariaDB|
 |**describeBinlogs**|GET|Obtain the binlog detailed information in MySQL instance<br>- Only support MySQL, Percona and MariaDB|
 |**describeDatabases**|GET|Obtain a list of all database details for the current instance|
+|**describeErrorLog**|GET|Search the summary information of error logs of PostgreSQL instance. <br>- Only Support PostgreSQL|
 |**describeErrorLogs**|GET|Obtain error logs of SQL Server and download information<br>- only support SQL Server|
 |**describeImportFiles**|GET|Obtain the list of files uploaded by the user to the instance through Cloud on Single Database<br>- only support SQL Server|
 |**describeIndexPerformance**|GET|Obtain statistics on index performance based on user-defined query conditions, and provide missing indexes and suggestions for index creation. Users can use these information to find index-related performance bottlenecks and optimize them. <br>- Support SQL Server Only|
@@ -65,25 +67,31 @@ v1
 |**describeParameterGroups**|GET|Get all parameter set lists under current account<br>- Only support MySQL, Percona, MariaDB and PostgreSQL|
 |**describeParameterModifyRecords**|GET|View parameter modification history<br>- Only support MySQL, Percona, MariaDB and PostgreSQL|
 |**describeParameters**|GET|View configuration parameter of SQL Server instance<br>- only support SQL Server|
+|**describePrivilege**|GET|View the permission information for Cloud Database RDS \- Only support MySQL, Percona and MariaDB|
 |**describeQueryPerformance**|GET|Obtain the information of performance statistics of SQL execution, such as slow SQL, etc. based on user-defined query conditions. Based on this information, users can find and optimize performance bottlenecks related to SQL execution. <br>- Support SQL Server Only|
+|**describeSSL**|GET|View the current instance with the encrypted connection enabled.|
 |**describeSlowLogAttributes**|GET|Query the detailed information of slow log of MySQL instance. <br>- only support MySQL|
 |**describeSlowLogs**|GET|Query the summary information of slow log of MySQL instance. <br>- only support MySQL|
+|**describeTables**|GET|Obtain the list information of the library designated by the current instance \- Only support MySQL, Percona and MariaDB|
 |**describeTde**|GET|View whether the current instance enables TDE|
 |**describeWhiteList**|GET|View the current White List of RDS instances. The White List is a list of IP/IP segments that are allowed to access the current instance. By default, the White List is open to the VPC. If the user has enabled the internet access, you need to configure a White List for the IP of the internet.|
-|**disableAudit**|POST|Only support disabled database audit of MySQL instance<br>- Only support MySQL 5.6, MySQL 5.7, Percona and MariaDB|
+|**disableAudit**|POST|Only support disabled database audit of MySQL instance<br>- Only support MySQL 5.6, MySQL 5.7, Percona, MariaDB and PostgreSQL|
 |**disableIntercept**|POST|Disable high security mode of database<br>- Support MySQL only|
 |**disableInternetAccess**|POST|Disable the internet access function of the RDS instance. After the disabling, users cannot access the RDS through the Internet, but can access the domain name through the intranet domain in JD Cloud|
-|**enableAudit**|POST|Only support enabled database audit of MySQL instance<br>- Only support MySQL 5.6, MySQL 5.7, Percona and MariaDB|
+|**enableAudit**|POST|Only support enabled database audit of MySQL instance<br>- Only support MySQL 5.6, MySQL 5.7, Percona, MariaDB and PostgreSQL|
 |**enableIntercept**|POST|Enable high security mode of database<br>- Support MySQL only|
 |**enableInternetAccess**|POST|Enable the internet access function of the RDS instance. After enabling, users can access RDS instances through the internet|
+|**enableSSL**|POST|Enable the encryption connection to database, and restart the database instance|
 |**enableTde**|POST|Enable TDE function of database|
 |**exchangeInstanceDns**|POST|Exchange the domains of two instances, including intranet and internet ones. No exchange is allowed, when one instance has an internet domain while the other doesn’t. <br>- Only Support SQL Server|
 |**failoverInstance**|POST|Perform a RDS Instance Failover. <br>Note: If the instance is being backed up, the failover will terminate the backup operation. You can view the start time of backup in the backup policy to see whether a backup is running. If you need to perform the failover during the instance backup, you are advised to perform a full instance backup manually<br>for SQL Server, within 30 minutes of failover, restore/create by time point is not supported. For example, the user performs the failover at 10:05, then the time period from 10:05 to 10:35 cannot be restored/created. <br>- Support SQL Server Only|
 |**getUploadKey**|POST|Obtain the required key for uploading files from Cloud on Single Database. Cloud on Single Database needs the correct key value to connect to JD Cloud<br>- only support SQL Server|
+|**grantAccountPrivilege**|POST|Grant fine-grained permission to access the database account \- Only support MySQL, Percona, and MariaDB|
 |**grantPrivilege**|POST|Grant the database access privilege to the account, i.e., the privilege the account has to the database. An account can have access to multiple databases. <br>For ease of management, RDS classifies the privileges. Currently, it provides the following two privileges<br>- ro: Read-only privilege, with which, the user can only read the data in the database, and cannot perform creation, insertion, deletion, change, etc. <br>- rw: Read-write privilege, with which, the user can perform addition, deletion, change and other operations on the database<br>-Support SQL Server Only|
 |**modifyAudit**|POST|Modify Current Audit Options. Currently available audit options are available through describeAudit, and all supported options are available through getAuditOptions. <br>- Support SQL Server Only|
 |**modifyBackupPolicy**|POST|Modify the RDS instance backup policy. Currently only the modification by the user of the "automatic backup start time window" parameter is supported, and other parameters are not open for modification|
 |**modifyConnectionMode**|POST|Modify the connection mode of MySQL instance: standard and high security modes.<br>- **Standard mode**: the despondence time is short, without SQL audit and interception capability. <br>- **High security mode**: has certain SQL injection interception capability (through analysis expression, key system function, etc. to implement the prevention from SQL injection attack), and SQL audit may be enabled, but the response time will be extended to a certain extent. <br>- only support MySQL|
+|**modifyInstanceAz**|POST|Modify the availability zone of an instance. For example, adjust the availability zone of the instance from a single availability zone to a multi-availability zone|
 |**modifyInstanceName**|POST|Modify Instance Nam, which may support Chinese, and the specific rules of Instance Nam may refer to the Help Center Document: [Name and Password Restrictions](../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md)|
 |**modifyInstanceSpec**|POST|Instance Expansion, Supports Upgrading the Instance CPU, Memory and Disk.|
 |**modifyParameterGroup**|PUT|Modify parameters of a DS instances<br>- Only support MySQL|
@@ -97,6 +105,7 @@ v1
 |**restoreDatabaseFromFile**|POST|Restore a single database from the backup file uploaded by the user to the cloud through the Cloud on Single Database<br>- only support SQL Server|
 |**restoreDatabaseFromOSS**|POST|Restore a single database from the backup file uploaded to OSS<br> \- only support SQL Server|
 |**restoreInstance**|POST|Use the full backup of instance to replace and recover the current instance|
+|**restoreInstanceByTime**|POST|Select a single table to recover the current instance base on the point in time<br>- Only support MySQL|
 |**revokePrivilege**|POST|Cancel all permissions of the account to a certain database. After the permissions are canceled, the account will not be able to access the database. Cancel the access permission of the account to a certain database without affecting the access permissions of the account to other databases|
 |**setImportFileShared**|POST|Set or cancel whether the uploaded file is shared to other instances under the same account. By default, files are only visible and can be imported on the uploaded instance. Other instances are not visible and cannot be imported. If you need this file to be imported on other instances, you can set this file to share<br>- only support SQL Server|
 |**updateLogDownloadURLInternal**|POST|Set a download link expiration time to log file, and refresh to generate a log file download link to PostgreSQL|

@@ -17,7 +17,7 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/ignoreQueryString
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**status**|String|False| |Switch Value [on,off]|
+|**status**|String|True| |Switch Value [on,off]|
 
 
 ## Return Parameter

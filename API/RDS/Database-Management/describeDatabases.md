@@ -26,22 +26,22 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeDatabases#Result)| |
+|**result**|[Result](describedatabases#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**databases**|[Database[]](describeDatabases#Database)| |
+|**databases**|[Database[]](describedatabases#database)| |
 |**totalCount**|Integer| |
-### <a name="Database">Database</a>
+### <div id="database">Database</div>
 |Name|Type|Description|
 |---|---|---|
 |**dbName**|String|Database Name, see Help Center Document: [Name and Password Restrictions](../../../documentation/Database-and-Cache-Service/RDS/Introduction/Restrictions/SQLServer-Restrictions.md) for specific rules|
 |**dbStatus**|String|Database status, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)<br>- **MySQL: Not support, not return this field**<br>- **SQL Server: return this field**|
 |**characterSetName**|String|Character set, detailed in [Enumeration Parameter Definition](../Enum-Definitions/Enum-Definitions.md)|
 |**createTime**|String|Database creation time, with the format: YYYY-MM-DD HH:mm:ss<br>- only support SQL Serverer|
-|**accessPrivilege**|[DBAccessPrivilege[]](describeDatabases#DBAccessPrivilege)|Account permission list related to this database|
-### <a name="DBAccessPrivilege">DBAccessPrivilege</a>
+|**accessPrivilege**|[DBAccessPrivilege[]](describedatabases#dbaccessprivilege)|Account permission list related to this database|
+### <div id="dbaccessprivilege">DBAccessPrivilege</div>
 |Name|Type|Description|
 |---|---|---|
 |**accountName**|String|Account Name|
@@ -51,3 +51,47 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/databas
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeDatabases() {
+    DescribeDatabasesRequest request = new DescribeDatabasesRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("mysql-wp4e9ztap2");
+    DescribeDatabasesResponse response = rdsClient.describeDatabases(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa3nt4613954dn6hp9k8d1wc4f5prwp", 
+    "result": {
+        "databases": [
+            {
+                "accessPrivilege": [
+                    {
+                        "accountName": "ac", 
+                        "privilege": "rw"
+                    }, 
+                    {
+                        "accountName": "dj_ac", 
+                        "privilege": "rw"
+                    }
+                ], 
+                "characterSetName": "utf8", 
+                "dbName": "dj_db"
+            }, 
+            {
+                "accessPrivilege": [], 
+                "characterSetName": "utf8", 
+                "dbName": "test_db"
+            }
+        ], 
+        "totalCount": 2
+    }
+}
+```

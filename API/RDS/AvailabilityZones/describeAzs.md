@@ -23,9 +23,9 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/azs
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeAzs#Result)| |
+|**result**|[Result](describeazs#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**azs**|String[]|List of Availability Zone ID|
@@ -34,3 +34,30 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/azs
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeAzs() {
+    DescribeAzsRequest request = new DescribeAzsRequest();
+    request.setEngine("MySQL");
+    request.setRegionId("cn-north-1");
+    DescribeAzsResponse response = rdsClient.describeAzs(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa2vibb9hrscave4tdhacpqd8od3i5e", 
+    "result": {
+        "azs": [
+            "cn-north-1a", 
+            "cn-north-1b", 
+            "cn-north-1c"
+        ]
+    }
+}
+```

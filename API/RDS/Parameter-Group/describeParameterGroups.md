@@ -24,14 +24,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups
 ## Returned Parameters
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeParameterGroups#Result)| |
+|**result**|[Result](describeparametergroups#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**parameterGroups**|[ParameterGroup[]](describeParameterGroups#ParameterGroup)| |
+|**parameterGroups**|[ParameterGroup[]](describeparametergroups#parametergroup)| |
 |**totalCount**|Integer| |
-### <a name="ParameterGroup">ParameterGroup</a>
+### <div id="parametergroup">ParameterGroup</div>
 |Name|Type|Description|
 |---|---|---|
 |**parameterGroupId**|String|Parameter group ID|
@@ -47,3 +47,39 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/parameterGroups
 |Return Code|Descripton|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeParameterGroups() {
+    DescribeParameterGroupsRequest request = new DescribeParameterGroupsRequest();
+    request.setPageNumber(1);
+    request.setPageSize(10);
+    request.setRegionId("cn-north-1");
+    DescribeParameterGroupsResponse response = rdsClient.describeParameterGroups(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpao7omjn7039ocmwo25nhdae9mag0pb", 
+    "result": {
+        "parameterGroups": [
+            {
+                "createTime": "2020-01-08 14:15:49", 
+                "description": "tttttt", 
+                "engine": "MySQL", 
+                "engineVersion": "5.7", 
+                "parameterGroupId": "mysql-pg-e4zkfymxwt", 
+                "parameterGroupName": "test mysql", 
+                "parameterGroupStatus": "AVAILABLE", 
+                "regionId": "cn-north-1"
+            }
+        ], 
+        "totalCount": 1
+    }
+}
+```

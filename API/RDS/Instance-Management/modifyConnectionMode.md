@@ -29,3 +29,24 @@ None
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testModifyConnectionMode() {
+    ModifyConnectionModeRequest request = new ModifyConnectionModeRequest();
+    request.setInstanceId("mysql-k67q8n46si");
+    request.setRegionId("cn-north-1");
+    request.setConnectionMode("security");
+    ModifyConnectionModeResponse response = rdsClient.modifyConnectionMode(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa5qbifb8uqcvkpi5goe9ts978evm6o"
+}
+```

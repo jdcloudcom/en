@@ -25,10 +25,10 @@ https://cdn.jdcloud-api.com/v1/liveDomain/{domain}/stream:fuzzyQuery
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](querypushdomainorapporstream#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**streams**|String[]| |

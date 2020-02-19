@@ -17,10 +17,10 @@ https://cdn.jdcloud-api.com/v1/domainGroup/{id}:update
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**domains**|String[]|False| |The domain in the domain group comprises a primary domain|
+|**domains**|String[]|True| |The domain in the domain group comprises a primary domain|
 |**primaryDomain**|String|False| |Master domain, be sure to transmitted when enabling cache sharing|
-|**shareCache**|String|False| |Share memory or not|
-|**domainGroupName**|String|False| | |
+|**shareCache**|String|True| |Share memory or not|
+|**domainGroupName**|String|True| | |
 
 
 ## Return Parameter

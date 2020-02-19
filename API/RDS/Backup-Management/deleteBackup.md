@@ -27,3 +27,23 @@ None
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+DELETE
+```
+public void testDeleteBackup() {
+    DeleteBackupRequest request = new DeleteBackupRequest();
+    request.setRegionId("cn-north-1");
+    request.setBackupId("0313e588-44d0-4b20-b532-6eebb9d83352");
+    DeleteBackupResponse response = rdsClient.deleteBackup(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa3243h5ev46ih8q7dr4au0021v1btg"
+}
+```

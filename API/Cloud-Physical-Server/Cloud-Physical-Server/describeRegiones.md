@@ -20,20 +20,20 @@ https://cps.jdcloud-api.com/v1/regions
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describeregiones#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**regions**|Region[]| |
-### Region
+|**regions**|[Region[]](describeregiones#region)| |
+### <div id="region">Region</div>
 |Name|Type|Description|
 |---|---|---|
 |**region**|String|Region Code, such as cn-east-1|
 |**regionName**|String|Region Name, such as East China Region 1|
-|**azs**|Az[]|Availability Zone List|
-### Az
+|**azs**|[Az[]](describeregiones#az)|Availability Zone List|
+### <div id="az">Az</div>
 |Name|Type|Description|
 |---|---|---|
 |**region**|String|Region Code, such as cn-east-1|

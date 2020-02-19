@@ -13,7 +13,7 @@
     - running, running_with_error statuses can operate all interfaces of nodegroup
     - error status can search and delete only
     - cluster under delete status can be searched within 15 minutes and cannot be searched after 15 minutes
-- Status Restriction
+- Status
   - pending,reconciling,deleting statuses cannot operate update interfaces
   - running status can operate all interfaces of cluster
   - error status can search and delete only
@@ -39,43 +39,65 @@ https://kubernetes.jdcloud-api.com/v1/regions/{regionId}/clusters
 |**clientCertificate**|Boolean|False| |Enable clientCertificate by default|
 |**version**|String|False| |Version of kubernetes|
 |**azs**|String[]|True| |az where the cluster is located|
-|**nodeGroup**|NodeGroupSpec|True| |Creation Parameter of pod|
+|**nodeGroup**|[NodeGroupSpec](createcluster#nodegroupspec)|True| |Cluster Node Group|
 |**masterCidr**|String|True| |cidr of master of k8s|
 |**accessKey**|String|True| |User’s AccessKey, the verification credential when the plug-in calls open-api|
 |**secretKey**|String|True| |User’s SecretKey, the verification credential when the plug-in calls open-api|
-|**userMetrics**|Boolean|False| |Whether to enable the Custom Metric Monitoring: Not enable it by default|
+|**userMetrics**|Boolean|False| |deprecated is specified in addonsConfig simultaneously and will be replaced by addonsConfig <br>Whether to enable user custom metric monitoring|
+|**addonsConfig**|[AddonConfigSpec[]](createcluster#addonconfigspec)|False| |Cluster Component Configuration|
 
-### NodeGroupSpec
+### <div id="addonconfigspec">AddonConfigSpec</div>
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**name**|String|True| |Component Name, customMetrics and logging are supported now|
+|**enabled**|Boolean|False| |Whether to enable the component, false by default.|
+### <div id="nodegroupspec">NodeGroupSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**name**|String|True| |Name|
 |**description**|String|False| | |
-|**nodeConfig**|NodeConfigSpec|True| |Information of Node|
-|**initialNodeCount**|Integer|True| |The initial size of nodeGroup shall be one at least|
-|**vpcId**|String|True| |vpc run by k8s|
-|**nodeCidr**|String|False| |cidr of node of k8s|
+|**nodeConfig**|[NodeConfigSpec](createcluster#nodeconfigspec)|True| |Information of Working Node Group|
+|**azs**|String[]|False| |az in Working Node Group must be subset of cluster az, and cluster az is set by default|
+|**initialNodeCount**|Integer|True| |The initial size of Working Node Group shall be one at least|
+|**vpcId**|String|True| |VPC Operated by Working Node Group|
+|**nodeCidr**|String|False| |cidr of Working Node Group|
 |**autoRepair**|Boolean|False| |Whether to enable automatic repair: not enable it by default.|
-### NodeConfigSpec
+|**caConfig**|[CAConfigSpec](createcluster#caconfigspec)|False| |Auto-Scaling Configuration|
+### <div id="caconfigspec">CAConfigSpec</div>
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**enable**|Boolean|False| |Whether to enable auto scaling, false<br> is set by default|
+|**maxNode**|Integer|False| |Maximum working node number is automatically expanded with the value range being [1, min (2000, subnet surplus ip)]|
+|**minNode**|Integer|False| |Minimum working node number is automatically expanded with the value range being [0, min (2000, maxNode)]|
+### <div id="nodeconfigspec">NodeConfigSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
 |**instanceType**|String|True| |Instance Type Family|
-|**version**|String|False| |Image Information|
-|**systemDiskSize**|Integer|True| |System disk size of cloud disk  unit (GB)|
-|**systemDiskType**|String|True| |System disk size of cloud disk [ssd,premium-hdd]|
-|**labels**|LabelSpec[]|False| |Information of Node|
-### LabelSpec
+|**version**|String|False| |Working Node Version, if not specified, the default version shall be used|
+|**password**|String|False| |Virtual Machine password is cluster password by default and for the password specification, refer to: [Specification for Public Parameters](https://docs.jdcloud.com/en/virtual-machines/api/general_parameters)|
+|**keyNames**|String[]|False| |Virtual Machine SSH Key Pair Name, only one is supported now Do not delete the SSH key pair in service|
+|**systemDisk**|[DiskSpec](createcluster#diskspec)|False| |Configuration Information of Virtual Machines System Disk|
+|**labels**|[LabelSpec[]](createcluster#labelspec)|False| |Tag of Working Node Group, ten tags are supported at most|
+### <div id="labelspec">LabelSpec</div>
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**key**|String|True| |key consists of two parts: prefix and name, name is compulsory while prefix is optional. prefix is separated from name with "/”. <br>name can use letters, figures and [-_.]. The length shall be less than 63. prefix: Follow DNS standard (For example: kubernetes.io/) and the length cannot exceed 253 <br>[Reference](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#syntax-and-character-set)    <br>|
+|**key**|String|True| |key consists of two parts: prefix and name, name is compulsory while prefix is optional. prefix is separated from name with "/". <br>name can use letters, figures and [-_.]. The length shall be less than 63. prefix: Follow DNS standard (For example: kubernetes.io/) and the length cannot exceed 253 <br>[Reference](https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/#syntax-and-character-set)    <br>|
 |**value**|String|False| |letters, figures, [-_.], and the length cannot exceed 63|
+### <div id="diskspec">DiskSpec</div>
+|Name|Type|Required or Not|Default Value|Description|
+|---|---|---|---|---|
+|**systemDiskCategory**|String|False| |Disk type, with value of cloud or local, cloud is set by default|
+|**systemDiskSize**|Integer|False| |System disk size of cloud disk  unit (GB)|
+|**systemDiskType**|String|False| |Cloud Disk System Disk type, supports hdd.std1, ssd.gp1 and ssd.io1|
+|**systemDiskIops**|Integer|False| |Cloud Disk iops, only cloud disk of ssd.io1 type is valid|
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](createcluster#result)| |
 |**requestId**|String| |
 
-### Result
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**clusterId**|String| |

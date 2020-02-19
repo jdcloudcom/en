@@ -17,15 +17,19 @@ https://cdn.jdcloud-api.com/v1/domain/{domain}/followSourceProtocol
 ## Request Parameter
 |Name|Type|Required or Not|Default Value|Description|
 |---|---|---|---|---|
-|**status**|String|False| |Switch Value [on,off]|
+|**status**|String|True| |Switch Value [on,off]|
 
 
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|Object| |
+|**result**|[Result](setfollowsourceprotocol#result)| |
 |**requestId**|String| |
 
+### <div id="result">Result</div>
+|Name|Type|Description|
+|---|---|---|
+|**taskId**|String|Task id|
 
 ## Return Code
 |Return Code|Description|

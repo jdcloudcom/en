@@ -27,16 +27,16 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 ## Response parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeQueryPerformance#Result)| |
+|**result**|[Result](describequeryperformance#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
-|**queryPerformanceResult**|[QueryPerformanceResult[]](describeQueryPerformance#QueryPerformanceResult)|Search Performance Statistics Result Set|
+|**queryPerformanceResult**|[QueryPerformanceResult[]](describequeryperformance#queryperformanceresult)|Search Performance Statistics Result Set|
 |**totalCount**|Integer|Total Number of Records|
 |**pageNumber**|Integer|The Page Number of the Current Data|
 |**pageSize**|Integer|The Number of Data Displayed Per Page|
-### <a name="QueryPerformanceResult">QueryPerformanceResult</a>
+### <div id="queryperformanceresult">QueryPerformanceResult</div>
 |Name|Type|Description|
 |---|---|---|
 |**sql**|String|Sql Statement|
@@ -53,3 +53,44 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/perform
 |Return code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+POST
+```
+public void testDescribeQueryPerformance() {
+    DescribeQueryPerformanceRequest request = new DescribeQueryPerformanceRequest();
+    request.setRegionId("cn-north-1");
+    request.setInstanceId("sqlserver-83uqv7avy4");
+    request.setQueryType("LogicalReads");
+    request.setPageSize(10);
+    request.setPageNumber(1);
+    DescribeQueryPerformanceResponse response = rdsClient.describeQueryPerformance(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpaohu1t9up4ide0a9g4pwcoinp86hwn", 
+    "result": {
+        "pageNumber": 1, 
+        "pageSize": 10, 
+        "queryPerformanceResult": [
+            {
+                "elapsedTime": 1, 
+                "executionCount": 7, 
+                "lastExecutionTime": "2020-01-08 14:35:51.440", 
+                "lastRows": 3, 
+                "logicalReads": 43, 
+                "logicalWrites": 0, 
+                "physicalReads": 0, 
+                "sql": "select 1", 
+                "workerTime": 1
+            }
+        ], 
+        "totalCount": 1
+    }
+}
+```

@@ -27,14 +27,14 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/binlogs
 ## Return Parameter
 |Name|Type|Description|
 |---|---|---|
-|**result**|[Result](describeBinlogs#Result)| |
+|**result**|[Result](describebinlogs#result)| |
 
-### <a name="Result">Result</a>
+### <div id="result">Result</div>
 |Name|Type|Description|
 |---|---|---|
 |**totalCount**|Integer|Number of Total Records|
-|**binlogs**|[Binlog[]](describeBinlogs#Binlog)|Backup Set|
-### <a name="Binlog">Binlog</a>
+|**binlogs**|[Binlog[]](describebinlogs#binlog)|Backup Set|
+### <div id="binlog">Binlog</div>
 |Name|Type|Description|
 |---|---|---|
 |**binlogBackupId**|String|binlog log backup ID|
@@ -47,3 +47,44 @@ https://rds.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/binlogs
 |Return Code|Description|
 |---|---|
 |**200**|OK|
+
+## Request Example
+GET
+```
+public void testDescribeBinlogs() {
+    DescribeBinlogsRequest request = new DescribeBinlogsRequest();
+    request.setInstanceId("mysql-wp4e9ztap2");
+    request.setRegionId("cn-north-1");
+    request.setStartTime("2020-01-07 14:08:00");
+    request.setEndTime("2020-01-07 14:09:00");
+    DescribeBinlogsResponse response = rdsClient.describeBinlogs(request);
+    System.out.println(new Gson().toJson(response));
+}
+
+```
+
+## Return Example
+```
+{
+    "requestId": "bpa39u79di4knqu1cp5nhwt2nnuui5d8", 
+    "result": {
+        "binlogs": [
+            {
+                "binlogBackupId": "bceed098-0c5d-48a1-9625-4126e32bed29", 
+                "binlogEndTime": "2020-01-07T14:13:50", 
+                "binlogName": "mysql-bin.002009", 
+                "binlogSizeKB": 281, 
+                "binlogStartTime": "2020-01-07T14:08:49"
+            }, 
+            {
+                "binlogBackupId": "200a08e4-d9ca-47ac-9347-6f442d8acfb5", 
+                "binlogEndTime": "2020-01-07T14:08:49", 
+                "binlogName": "mysql-bin.002008", 
+                "binlogSizeKB": 281, 
+                "binlogStartTime": "2020-01-07T14:03:48"
+            }
+        ], 
+        "totalCount": 2
+    }
+}
+```
