@@ -37,9 +37,9 @@ When a function is created, in addition to the code and any associated dependenc
 
 Public network (require no configuration): The function opens public network access by default.
 
-**logSetId**(optional): Designate log set.
+**logSetId**(optional): Designate log set (select the partial instances where a log set and log topic have been created in Log Service and the log topic collection is configured as Function Service).
 
-**logTopicId**(optional): Designate log topic.
+**logTopicId**(optional): Designate log topic (select the part of instances where a log set and log topic have been created in Log Service and the log topic collection is configured as Function Service).  
 
 **Description **:  Other attributes can be modified later, except the function name.
 
@@ -49,8 +49,8 @@ Public network (require no configuration): The function opens public network acc
 | Type Upon Running | Version Upon Running | Document Link |
 | ---------- | -------- | -------- |
 | Python 2.7  | Python 2.7 Version | [python runtime](runtime/python.md) |  
-| Python 3.6   | Python 3.6 Version | [python \runtime](runtime/python.md) | 
-| Python 3.7   | Python 3.7 Version | [python \runtime](runtime/python.md) | 
+| Python 3.6   | Python 3.6 Version | [python runtime](runtime/python.md) | 
+| Python 3.7   | Python 3.7 Version | [python runtime](runtime/python.md) | 
 | NodeJS 6    | NodeJS 6.17 Version | [nodejs runtime](runtime/nodejs.md) | 
 | NodeJS 8    | NodeJS 8.16 Version | [nodejs runtime](runtime/nodejs.md) | 
 | Java 8    | Java 8 Version | [java runtime](runtime/java.md) |

@@ -19,6 +19,14 @@ items:
         href: Pricing/Billing-Overview.md
       - name: Billing Rules
         href: Pricing/Billing-Rules.md
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Purchase Process
+        href: Pricing/Purchase-Procedure.md
+      - name: Renew Process
+        href: Pricing/Renewal-Procedure.md
+      - name: Upgrade Quota
+        href: Pricing/Resize-Instance.md
   - name: Getting Started
     items:
       - name: Overview

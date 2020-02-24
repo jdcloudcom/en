@@ -34,14 +34,9 @@ callback: This parameter is used to return the information you want to the calle
 
 ## Log
 
-You can print the log output using the following statement and view output in the function log:
+You can print the log output using the print statement and view output in the function log:
 
-```JavaScript
-console.log()
-console.error()
-console.warn()
-console.info()
-```
+
 
 
 ## Use Built-in Module

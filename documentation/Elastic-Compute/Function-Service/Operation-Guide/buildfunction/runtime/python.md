@@ -32,17 +32,9 @@ context:  This parameter is used to pass running information to your processing 
 
 ## Log
 
-You can print the log output using the print or logging module and view output in the function log:
+You can print the log output using the print statement and view output in the function log.
 
-```Python
-import logging
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
-def main_handler(event, context):
-    logger.info('got event{}'.format(event))
-    print("got event{}".format(event))
-    return 'Hello World!'
-```
+
 
 
 ## Use Built-in Module

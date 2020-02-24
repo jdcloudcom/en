@@ -48,7 +48,7 @@ When API provider provides API calling without authentication, API caller may di
 
 ###  Step 5: API caller downloads and uses SDK package to call functions
 
-- Easy action: [Rapid Release and Call of an API Application](https://docs.jdcloud.com/en/api-gateway/example_signaturekey)
+
 
 
 

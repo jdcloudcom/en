@@ -20,7 +20,7 @@ Concurrent Execution means the number of simultaneous executions of your functio
 
 **Request Rate * Function Execution Time**
 
-In which, the request rate is the rate at which a function is invoked, and the unit is "the number of requests per second" or "the number of events per second". The unit of function execution time is "second". For example, consider one function that processes an API Gateway event of JD Cloud. Assuming that the function takes an average time of 1.5 seconds, API Gateway releases 10 events per second. Therefore, your function has 15 concurrent executions.
+In which, the request rate is the rate at which a function is invoked, and the unit is "the number of requests per second" or "the number of events per second". The unit of function execution time is "second". For example, consider one function that processes an API Gateway event of JD Cloud. Assuming that the function takes an average time of 2 seconds, API Gateway releases 10 events per second. Therefore, your function has 20 concurrent executions.
 
  
 

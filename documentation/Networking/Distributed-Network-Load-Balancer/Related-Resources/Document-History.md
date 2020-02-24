@@ -4,6 +4,8 @@ This document introduces the important update history of Distributed Network Loa
 
 |Release Date|Features|Description|
 |-|-|-|
+|February 2020|Open OpenAPI and SDK|Distributed Network Load Balancer OpenAPI and SDK Open to the Public|
+|January 2020|Distributed Network Load Balancer list page supports search|Distributed Network Load Balancer list page supports search based on ID, name and the like|
 |March 2019|Beta|Beta for Distributed Network Load Balancer was launched officially.|
 
 

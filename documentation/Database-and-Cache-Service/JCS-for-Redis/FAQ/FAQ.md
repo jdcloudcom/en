@@ -27,3 +27,7 @@ A: Please refer to the [Command Supported](https://docs.jdcloud.com/en/jcs-for-r
 **Q: How to import and export Redis data?**
 
 A: Please refer to the [Data Migration](https://docs.jdcloud.com/en/jcs-for-redis/data-migration) document. Please contact the customer service if you have other doubts.
+
+**Q: In the use of jedis, how to deal with character strings, such as \xac\xed\x00\x05t\x00, which are excessive in the key stored in redis?**
+
+A: It is a problem of jedis serialization. Please modify the serialization method of redisTemplate. If it cannot be resolved, please contact the customer service.

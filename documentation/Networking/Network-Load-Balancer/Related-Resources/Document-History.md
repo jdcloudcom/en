@@ -4,6 +4,8 @@ This document will introduce the important update history of the network load ba
 
 |Release Date|Character|Description|
 |-|-|-|
+|February 2020|Open OpenAPI and SDK|Network Load Balancer OpenAPI and SDK Open to the Public|
+|January 2020|Network Load Balancer list page supports search|Network Load Balancer list page supports search based on ID, name and the like|
 |March 2019|Public beta| Network load balancer (public beta) goes online. |
 
 

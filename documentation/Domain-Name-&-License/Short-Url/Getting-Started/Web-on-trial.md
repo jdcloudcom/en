@@ -1,3 +1,9 @@
+# Page Trial
+
+Access [Trial Page](http://short.jdcloud.com/)
+
+Generate trial on the page
+
 ## Generate
 
 1. Select to shorten the short URL tab

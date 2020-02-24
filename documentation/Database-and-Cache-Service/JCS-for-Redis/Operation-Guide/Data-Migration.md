@@ -66,3 +66,6 @@ servers:
 3. Run the tool to migrate data, "./redis-migrate-tool -c rmt.conf" (server is configured to support synchronization data in real time at the server address and the port, and configured to synchronize data in single time at the AOF storage path)
  
 - Note: If the user key is big, failover will occur
+
+## 5. Other migration
+If you need support for more versions, please contact customer service for support

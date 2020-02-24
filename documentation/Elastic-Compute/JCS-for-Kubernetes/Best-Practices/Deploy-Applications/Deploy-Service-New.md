@@ -117,7 +117,6 @@ metadata:
             algorithm: "IpHash"
             proxyProtocol: false
 spec:
-  externalTrafficPolicy: Local
   ports:
     - name: http1
       protocol: TCP

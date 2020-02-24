@@ -14,7 +14,6 @@ JCS for InfluxDB supports two billing types, including Monthly Package and Pay b
 | tsds.s1.16xlarge | 32         | 128        | 300000                 | 4096            | 8.42            |
 | tsds.s1.32xlarge | 64         | 256        | 500000                 | 8192            | 16.83           |
 
-
 ## Bucket Cost
 
 | Monthly Package (RMB/G/Month), Pay by Configuration (RMB/G/Hour) |

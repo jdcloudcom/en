@@ -24,3 +24,8 @@ Reference Link: https://redis.io/topics/rediscli
 In the instance details, instances can be connected with Web-cli provided that a password has been set for this instance. Web-cli cannot be used without a password. For the purpose of security, please disable the password-free and set a password before using Redis Web Cli.
 ![Webcli](https://github.com/jdcloudcom/cn/blob/master/image/Redis/webcli.png)
 
+# Test Connectivity
+
+Please use a standard redis-cli tool to test connectivity, and use the command redis-cli -h [host] ping to view if it is connected
+
+(Note: For Redis 4.0, please test the connectivity by this way. You cannot test it by directly sending the ping command)

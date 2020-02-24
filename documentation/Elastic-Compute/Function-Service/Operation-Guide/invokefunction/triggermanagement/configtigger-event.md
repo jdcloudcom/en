@@ -215,4 +215,6 @@ The following example is in the event format of system event
 }
 
 ```
+
+
 For Cloud Event trigger configuration details, please refer to [Cloud Event Trigger](../triggermanagement/eventsourceservice/cloudevent.md). 

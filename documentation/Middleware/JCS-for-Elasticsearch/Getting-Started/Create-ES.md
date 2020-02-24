@@ -24,9 +24,9 @@ You can create clusters via the console of JCS for Elasticsearch. For billing in
 * "Number of dedicated master node": For most instances, three dedicated master nodes are applicable.</br>
 * "Storage of dedicated master node": Fixed 20G.</br>
 * "Coordinator Node Switch": The coordinator node can improve cluster performance. Therefore, it is suggested to enable the coordinator node.</br>
-* "Dedicated Primary Node Specification": Support three specifications, i.e. 2-core 8G, 4-core 16G, 8-core 32G and 16-core 64G.</br>
-* "Coordination Quantity": Support the ticket method to increase the node quota.</br>
-* "Storage of dedicated master node": Fixed 20G.</br>
+* "Coordinator Node Specification": Support three specifications, i.e. 2-core 8G, 4-core 16G, 8-core 32G and 16-core 64G.</br>
+* "Coordinator Node Count": Support the ticket method to increase the node quota.</br>
+* "Coordinator Node Storage": Fixed 20G.</br>
 * "Virtual Private Cloud": Displays the current VPC list. The most newly created VPC is selected by default. Click "Create New Virtual Private Cloud" after the list to jump to the Virtual Private Cloud (VPC) page.</br>
 * "Subnet": Displays the current subnet list. The most newly created subnet is selected by default. Click "Create New Subnet" after the list to jump to the Virtual Private Cloud - Subnet page.</br>
 * "Snapshot Switch": Disabled by default, can be enabled.</br>

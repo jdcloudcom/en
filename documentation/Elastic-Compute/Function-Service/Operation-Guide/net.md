@@ -1,13 +1,13 @@
 # Network Configuration
 
-Function is deployed on the public network by default and cannot access resources in the VPC.
+Function is deployed on the public network by default and cannot access resources in VPC.
 
  
 **Configure Function to access VPC resources**
 
-Usually, you create resources within JD Cloud VPC so that these resources are not accessible over the public Internet. By default, resources in VPC cannot be accessed through Function.
+Usually, you create resources within JD Cloud VPC so that these resources are not accessible over the public network. By default, resources in VPC cannot be accessed through Function.
 
-If your Function wants to access resources in the VPC, such as databases, Redis, and other products or services, you must provide configuration information for both Virtual Private Cloud and Subnets.
+If your Function wants to access resources in VPC, such as databases, Redis and other products or services, you must prepare VPC and Subnet information in advanced configuration of function attribute.
 
 **Please note the following notes:**
 

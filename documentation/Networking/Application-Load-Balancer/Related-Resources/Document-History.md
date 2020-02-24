@@ -5,6 +5,8 @@ This document will introduce the important update history of the Application App
 
 |Release Date|Character|Description|
 |-|-|-|
+|February 2020|Open OpenAPI and SDK|Application Load Balancer OpenAPI and SDK Open to the Public|
+|January 2020|Application Load Balancer list page supports search|Application Load Balancer list page supports search based on ID, name and the like|
 |January 2020|Modify Billing Type|Application Load Balancer billing method will be changed from Pay By Configuration to Pay By Consumption, while it is for free temporarily|
 |December 2019|Connection of Cloud Security - SSL Certificate|SSL Certificate used by Application Load Balancer is migrated to Cloud Security - SSL Certificate, and Application Load Balancer - Certificate Modules will no longer provide SSL Certificate Management function but be managed by Cloud Security - SSL Certificate|
 |August 2019|Support forwarding rules group|Support forwarding the traffic to different backend servers for processing based on machine names and paths requested by URL|
