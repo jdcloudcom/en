@@ -1,7 +1,7 @@
 # Price Overview
 
  The billing for IoT Core Service is collected based on the number of purchased standard specification (Number of Device Connections: 100,000; Maximum Monthly Number of Messages: 200 million entries). Billing method: monthly package.
- IoT Core Service is 80% off at the moment!
+ IoT Core Service is 50% off at the moment!
  
  ## Specification Cost
  

@@ -6,8 +6,8 @@ JCS for Greenplum allows users to select the specification and count of Segment 
 
 | Node Specification Code    | vCPU | Memory GB | Available Bucket GB | Total Bucket of Dual Replicas GB | Primary Segment Count | Node Count |
 | --------------- | ---- | ------ | -------------- | ------------------ | ------------------- | -------- |
-| jdw.dc1.large   | 2    | 16     | 160            | 320                | 1                   | 2-8      |
-| jdw.dc1.4xlarge | 16   | 128    | 1280           | 2560               | 4                   | 2-8      |
+| jdw.dc1.large   | 2    | 16     | 160            | 320                | 1                   | 2-16      |
+| jdw.dc1.4xlarge | 16   | 128    | 1280           | 2560               | 4                   | 2-16      |
 
 **Description:**
 

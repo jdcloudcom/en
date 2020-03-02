@@ -14,7 +14,7 @@
 
 7. **After the filed website is turned on**, a file number hyperlink and website copyright ownership identifier must be provided at the bottom of the website. **The website of unfiled domain cannot be opened. Otherwise, filling will fail**
 
-8. If an entity has been filed, please provide [Website Construction Scheme](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/hunan/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E6%96%B9%E6%A1%88%E4%B9%A6.docx)
+8. If an entity has been filed, please provide [Website Construction Scheme](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/hunan/wzjsfas.docx)
 
 9. Prepare materials before filing:
 
@@ -44,7 +44,7 @@
 
 5. **After the filed website is turned on**, a file number hyperlink and website copyright ownership identifier must be provided at the bottom of the website. **The website of unfiled domain cannot be opened. Otherwise, filling will fail**
 
-6. If an entity has been filed, please provide [Website Construction Scheme](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/hunan/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE%E6%96%B9%E6%A1%88%E4%B9%A6.docx)
+6. If an entity has been filed, please provide [Website Construction Scheme](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/hunan/wzjsfas.docx)
 
 7. Prepare materials before filing:
 

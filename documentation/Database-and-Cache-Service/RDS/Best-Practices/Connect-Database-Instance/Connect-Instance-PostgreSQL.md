@@ -1,27 +1,69 @@
 # Connect PostgreSQL instance
-If you have purchased the Cloud Database PostgreSQL instance, you can connect the instance via JD Cloud Virtual Machines Intranet and the local client can remotely connect the instance via Internet access domain. But when you remotely connect the instance via Internet access domain, please complete the access permission control in advance to guarantee the security of database.
+The instance of JCS for PostgreSQL supports connection via a local client. By default, Internet access is not supported and you need manually enable the access. For operation details, please refer to "Enable Internet Access".
+Two connection methods, connection via command lines and via the pgAdmin client, are specified below.
 
-## Connect database via JD Cloud Virtual Machines
-After PostgreSQL client is installed on JD Cloud Virtual Machines, you can enter command line mode to connect database.
+## Preparation
+1. Connect the instance of JCS for PostgreSQL via Virtual Machines;
+2. Install the pgAdmin client;
 
-1. Command format: mysql -h domain -P port -U user name -d database name.
-2. Domain: The domain of Cloud Database PostgreSQL to be accessed and is displayed on the details of the instance.
-3. Port: The link port number is 5432 by default.
-4. User name: The user name created in account management.
-5. Database name: The database name to be accessed.
+## Connection Method
+## 1. Connect via a command line
+1. Log in Cloud ECS or the device which can access JCS for PostgreSQL;
+2. Create a PostgreSQL instance user in JD Cloud RDS Console;
+3. Execute the commands below to connect JCS for PostgreSQL:
 
-## Connect the instance via local database management software
-If local database management software is required for connecting Cloud Database PostgreSQL and the Cloud Database PostgreSQL doesn't support Internet access by default, you need to manually enable it. For specific operations, please refer to [Enable Internet Access](../../Operation-Guide/Instance/Internet-Access.md).
-We take the SQLPro for Postgres software for example to introduce how to connect Cloud Database PostgreSQL 
+ *psql  -U\<user\> -h\<host\> -p\<port\> -d\<database\> -W*
+    
+### Parameter Description
 
-### Operation Steps
-1. Enable the local database management software and the parameters are described as below:
-    * Server Host: Fill in the Internet access domain of Cloud Database PostgreSQL.
-    * Port: 5432 by default and no need to modify it.
-    * Login: Fill in the account name of Cloud Database PostgreSQL.
-    * Password: Fill in the password corresponding to the account name of Cloud Database PostgreSQL.
-    * Database: Optional field, refers to the database name to be accessed
+ \<user\> User name, account of JCS for PostgreSQL
+ 
+ \<host\> Domain of the Cloud Database to be accessed will be shown in the Details of Cloud Database
+ 
+ \<port\> Port number, 5432 by default, will be displayed in the Details of the Cloud Database
+ 
+ \<database\> Name of database to be connected, the default management database is postgres
+ 
+ -W is an option which forces the user to enter the access password. After the above commands are run, please enter the password according to the notification
+    
+### Example
+The user name test_user is connected to the postgres database instance:
 
-    ![截图](../../../../../image/RDS/Connect-Instance-PostgreSQL.png)
+*psql  -U test_user -h 192.168.0.44 -p 5432 -d postgres -W*
 
-2. Click ***Save and Connect*** button to connect the Cloud Database instance. 
+## 2. Log in to JCS for PostgreSQL via the client pgAdmin
+ 1. Add the IP address of the RDS instance to be accessed to the RDS white list.
+ 
+ 2. Start the pgAdmin 4 client.
+ 
+ 3. Right click Servers and select **Create** > **Server**.
+ 
+![Connect-Instance-PostgreSQL1](../../../../image/RDS/Connect-Instance-PostgreSQL1.png)
+
+4. Enter the server name on the common tab page of Create - Server page.
+
+![Connect-Instance-PostgreSQL2](../../../../image/RDS/Connect-Instance-PostgreSQL2.png)
+
+5. Select the Connection tab and enter information of the instance to be connected.
+
+![Connect-Instance-PostgreSQL3](../../../../image/RDS/Connect-Instance-PostgreSQL3.png)
+### Parameter Description
+
+ Host Name/Address: If Intranet connection is adopted, it is necessary to enter the Intranet address of RDS instance. If Internet connection is adopted, it is necessary to enter the Internet of RDS instance. Please follow the steps below for viewing Intranet and Internet addresses and port information of RDS instance:
+ 
+    1. Log in to RDS Management Console.
+    2. Select the region of the instance on the upper right corner of the page.
+    3. Find the target instance and click **Instance ID**.
+    4. Addresses and port information of Intranet and Internet can be viewed in the basic information bar.
+    
+ Port: If Intranet connection is adopted, it is necessary to enter the Intranet port of RDS instance. If Internet connection is adopted, it is necessary to enter the Internet port of RDS instance.
+ 
+ User name: Name of RDS instance account with high permission.
+ 
+ Password: Password corresponding to RDS instance account with high permission.
+      
+6. Click **Save**.
+
+7. If the connection information is correct, please select **Servers > Server Name > Database > postgres**. If the following interface is popped up, it means connection succeeds.
+
+![Connect-Instance-PostgreSQL4](../../../../image/RDS/Connect-Instance-PostgreSQL4.png)

@@ -1,7 +1,6 @@
 # Price Overview
 
  The charges for IoT Hub Protocol Adaptor Service is billed based on the number of purchased standard specification (Number of Device Connections: 50,000; Maximum Monthly Number of Messages: 100 million entries). Billing method: monthly package.
- IoT Hub Protocol Adaptor Service is 80% off at the moment.
  
  ## Specification Cost
  

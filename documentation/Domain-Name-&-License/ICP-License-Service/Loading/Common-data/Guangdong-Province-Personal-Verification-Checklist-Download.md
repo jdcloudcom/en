@@ -2,4 +2,4 @@ Please right-click the Verification Form, select "Save Image As" to a local fold
 
 
 
-![广东（个人网站）.jpg](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-2020011705/image/ICP-License-Service/Guangdong-Province-Personal-Verification-Checklist-Download-cn-2020.jpg)
+![广东（个人网站）.jpg](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-2020022401/image/ICP-License-Service/Guangdong-Province-Personal-Verification-Checklist-Download-cn-20200220.jpg)

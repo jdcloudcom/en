@@ -1,5 +1,19 @@
 # Protection Threshold Setting
 
+After EIP is purchased, the default cleaning trigger value of EIP is provided as below.
+
+|   Bandwidth (Mbps)   | The default cleaning trigger value is Mbps | The default cleaning trigger value is pps |
+| :-------------: | :----------------: | :---------------: |
+|    Bandwidth<=100    |        300         |       100K        |
+|  100<Bandwidth<=200  |        400         |       150K        |
+|  200<Bandwidth<=500  |      Bandwidth Value*3      |    Bandwidth Value*750     |
+| 500<Bandwidth<=1,000  |     Bandwidth Value*2.5     |    Bandwidth Value*600     |
+| 1,000<Bandwidth<=2,000 |      Bandwidth Value*2      |    Bandwidth Value*500     |
+| 2,000<Bandwidth<=5,000 |     Bandwidth Value*1.5     |    Bandwidth Value*400     |
+|    Bandwidth>5,000    |     Bandwidth Value*1.2     |    Bandwidth Value*300     |
+
+If it is necessary to modify the cleaning trigger value, please follow the following operation steps.
+
 1. Navigate to the Console->Anti-DDoS Basic->EIP List, base protection, find the IP of the public network that needs to be modified, enter the basic information page, as follows:
 
 ![公网IP菜单](../../../../image/Basic%20Anti-DDos/IP-list.png)

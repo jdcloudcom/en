@@ -401,7 +401,9 @@
       - name: Connect to SQL Server from Client
         href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
       - name: Connect to SQL Server from Virtual Machine
-        href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md  
+        href: Best-Practices/Connect-Database-Instance/Host-Connect-SQLServer.md
+      - name: Connect PostgreSQL instance
+        href: Best-Practices/Connect-Database-Instance/Connect-Instance-PostgreSQL.md
     - name: Upgrade Database Version
       items:
       - name: Upgrade Database MySQL Version 

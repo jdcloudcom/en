@@ -30,6 +30,4 @@ Fill in Log Path. The path is the storage path where the user business applicati
 
 6. After the log collection agent is successfully installed, the log data in Virtual Machines can be collected.
 
-### II. Report log data through log data report API
 
-View log data report API document for details.

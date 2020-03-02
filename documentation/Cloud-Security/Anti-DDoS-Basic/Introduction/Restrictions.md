@@ -4,8 +4,20 @@ Only JD Cloud users who successfully apply for public network IPs have permissio
 
 ## Protective Bandwidth
 
-Anti-DDoS Basic maximum support 2G attack protection capability. If the attack on the public network IP is more than 2G, a black hole is triggered to mask all its access.
-If you need mass-traffic attack protection, please buy the Anti-DDoS Protection Package.
+The protection capability of Anti-DDoS Basic is related to the bandwidth of EIP purchased by you. If the attack to EIP exceeds the blackhole threshold of this IP, the blackhole will be triggered and all accesses of the attack will be shielded. Correspondence between the blackhole threshold of EIP and the bandwidth is shown in the table below.
+
+|     Bandwidth (Mbps)     | Black Hole Threshold |
+| :-----------------: | :------: |
+|     Bandwidth <= 100    |    2G    |
+|  100 < Bandwidth <= 200  |    2G    |
+|  200 < Bandwidth <= 500  |    2G    |
+| 500 < Bandwidth <= 1,000  |    3G    |
+| 1,000 < Bandwidth <= 2,000 |    4G    |
+| 2,000 < Bandwidth <= 5,000 | Bandwidth Value*2 |
+|     Bandwidth > 5,000     | Bandwidth Value*2 |
+
+
+If you need higher attack protection capability, please purchase Anti-DDoS Protection Package.
 
 
 ## Related References
