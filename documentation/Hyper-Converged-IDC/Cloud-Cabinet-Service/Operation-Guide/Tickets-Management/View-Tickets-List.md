@@ -1,13 +1,13 @@
 # View the Tickets List
+Turn on the Console, select **Cloud Cabinet Service** -> **Ticket Management** -> **My Ticket** to view the ticket list. You can view all opened tickets.</br>
+After you open a ticket, JD Cloud will inform you via email and SMS for your convenience to check the progress of tickets.</br>
+My ticket list includes: ticket number, ticket name, ticket type, status, description, creation time, disabling time, operation, etc.</br>
+The ticket statuses are mainly divided into four categories, i.e., "To be processed by me", "To be audited", "In processing" and "All".</br>
 
-Open the Console and select Hyper-Converged IDC -> Cloud Cabinet Service -> Ticket Management -> My Tickets to view the Work Order List. You can view all the tickets that you have submitted; </br>
-JD Cloud will notify you by mail and SMS after you submit the ticket, convenient for you to view the process schedule. </br>
-The tickets are divided into four categories: "Assigned to Me", "To be Approved", "In Progress", "All", as shown below:
-![我的工单页面查看连接](../../../../../image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS009.png)
-
-# View the Tickets Details
-Click on the **View** in the tickets list to skip to the Ticket Details page, as shown below
-![工单详细查看连接](../../../../../image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS008.png)
+# View Ticket Details
+Click **View** in the ticket list and redirect to Ticket Details.</br>
+Click **Ticket Number** or click **View** on the operation bar to view ticket details. Ticket Details comprise Current Status, Basic Information, Application Information and Personnel List Information.</br>
+Click **Edit** on the operation bar, edit tickets in the draft and make **Submit/Save Draft/Cancel** after edition.
 
 
 

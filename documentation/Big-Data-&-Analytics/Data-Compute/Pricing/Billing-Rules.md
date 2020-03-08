@@ -10,11 +10,10 @@ Formula for billing: storage costs per hour = storage capacity * storage price a
 
 |Storage|Tiered Unit Price|
 |---|---|
-|0GB ~ 100GB|RMB 0.0192/GB/Day|
-|100GB ~ 1TB|RMB 0.0096/GB/Day|
-|1TB ~ 10TB|RMB 0.0084/GB/Day|
-|10TB ~ 100TB|RMB 0.0072/GB/Day|
-|100TB ~ 1PB|RMB 0.006/GB/Day|
+|0GB ~ 1TB|RMB 0.007/GB/Day|
+|1TB ~ 10TB|RMB 0.006/GB/Day|
+|10TB ~ 100TB|RMB 0.005/GB/Day|
+|100TB ~ 1PB|RMB 0.0035/GB/Day|
 |1PB or above|Please contact us by ticket|
 
 
@@ -26,14 +25,14 @@ Description:
 
 3) If actual storage used is less than 512MB, dcs will charge for RMB 0.01/day for this item
 
-For example, if user's storage used is 50TB, charges for every day are as below: (100GB * RMB 0.0192/GB/day) + (900GB * RMB 0.0096/GB/day) + (9216GB * RMB 0.0084/GB/day) + (40960GB * RMB 0.0072/GB/day) = RMB 382.8/day 
+For example, if user's storage used is 50TB, charges for every day are as below: (1000GB * RMB 0.007/GB/day) + (9000GB * RMB 0.006/GB/day) + (40000GB * RMB 0.005/GB/day) = RMB 261/day 
 
 The billing period is once per hour in general. For example, the bill for 00:00-01:00 generally is generated at 01:00.
 
 The specific billing time of the system shall prevail. Costs will be automatically deducted from your account balance to settle the bill.
 
 For example:
-If a user successfully uploads 1000GB data on the Data Compute at 00:00, the bill amounting to 1000GB*1H*RMB 0.0008/GB/H=RMB 8 will be billed at 01:00.
+If a user successfully uploads 1000GB data on the Data Compute at 00:00, the bill amounting to 1000GB * 1H * RMB 0.0008/GB/H=RMB 8 will be billed at 01:00.
 
 If data is deleted, costs will be calculated accurately to hour according to specific storage duration. Detail bill can be viewed in the User Center.
 
@@ -46,7 +45,7 @@ If data is deleted, costs will be calculated accurately to hour according to spe
 
 | Billing Item | Price | 
 | ------ | ------ | 
-| SQL Price (RMB/GB) | RMB 0.3 | 
+| SQL Price (RMB/GB) | RMB 0.25 | 
 
 ## Description:
 Actual processing data size of computing means data bulk actually scanned by a SQL query task.
@@ -77,7 +76,7 @@ SELECT DISTINCT total1 FROM
 
 (SELECT id1, COUNT(f1) AS total1 FROM in1 GROUP BYid1) tmp1 ORDER BY total1 DESC LIMIT 100;
 
-Where number of SQL keywords is 4 and SQL complexity is 1.5, if the data actually scanned by the user is 100GB, the cost =100*1.5*0.3=RMB 45.
+Where number of SQL keywords is 4 and SQL complexity is 1.5, if the data actually scanned by the user is 100GB, the cost = 100 * 1.5 * 0.25=RMB 37.5.
 
 The billing time is within the first billing period at the end of computing task and the maximum billing time will not exceed 12 hours.
 
@@ -86,7 +85,7 @@ After successfully finishing the computing task, the system will sum up the read
 ### Reserved computing resource (please contact customer service to turn on)
 
 When user steadily runs business on the Data Compute, it is recommended to adopt use mode of reserved computing resource to save more costs.
-Formula for billing: cost of reserved computing resource=lease duration*number of configuration nodes*unit price. The price is as below:
+Formula for billing: cost of reserved computing resource=lease duration * number of configuration nodes * unit price. The price is as below:
 
 | Node configuration | CPU (core) |  Memory (GB) | Unit price (RMB/node/day) |  
 | ------ | ------ | ------ | ------ | 
@@ -112,4 +111,4 @@ Where the price is as below:
 
 | Billing Item | Price | 
 | ------ | ------ | 
-| Extranet download price (RMB /GB) | RMB 0.8 | 
+| Extranet download price (RMB /GB) | RMB 0.7 | 

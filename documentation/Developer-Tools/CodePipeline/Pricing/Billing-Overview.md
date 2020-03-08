@@ -1,3 +1,3 @@
 # Billing Overview
 
-CodePipeline Service itself is free while only rescources used by it is charged: such as Cloud Storage, Container Registry and other relevant resources.
+The CodePipeline service is currently free of charge and only the below resources used will be charged: Cloud Storage, Container Registry and related resources. Specific billing methods will be introduced to you after the free use.

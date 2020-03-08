@@ -86,9 +86,9 @@ spec:
   accessModes:
     - ReadWriteOnce
   mountOptions:
-  - vers=4
+  - vers=3
   - noresvport
-  persistentVolumeReclaimPolicy: Recycle
+  persistentVolumeReclaimPolicy: Retain
   storageClassName: manual-cfs-storage          #use Storage Class created in Step 1; it can be replaced with other customized Storage Class Name;
   nfs:
     path: /cfs                  #Replace with the directory supported by the attached target, which is attached to the root directory by default

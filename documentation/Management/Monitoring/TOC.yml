@@ -97,16 +97,42 @@ items:
       href: Metrics/vm.md
     - name: Cloud Disk Service
       href: Metrics/disk.md
-    - name: Container Instance
+    - name: Native Container
       href: Metrics/nativecontainer.md
     - name: JCS for kubernetes
-      href: Metrics/k8s.md  
+      href: Metrics/k8s.md
+    - name: Auto Scaling
+      href: Metrics/autoscaling.md
+    - name: Function Service
+      href: Metrics/function.md   
     - name: Elastic IP
       href: Metrics/ip.md
+    - name: Direct Connection
+      href: Metrics/DirectConnection.md
+    - name: NAT Gateway
+      href: Metrics/natgateway.md
     - name: Load Balancer
       href: Metrics/lb.md
     - name: Cloud Database RDS
       href: Metrics/rds.md
+    - name: DRDS
+      href: Metrics/drds.md
+    - name: JCS for Memcached
+      href: Metrics/Memcached.md
+    - name: JCS for InfluxDB
+      href: Metrics/tsds.md
+    - name: JCS for Greenplum
+      href: Metrics/jdw.md
+    - name: Data Transmission DTS
+      href: Metrics/dts.md
+    - name: Object Storage Service
+      href: Metrics/oss.md
+    - name: CDN
+      href: Metrics/CDN.md
+    - name: Message Queue
+      href: Metrics/jcq.md
+    - name: JCS for Elasticsearch
+      href: Metrics/es.md  
 - name: Tutorial
   items:
   status: 0

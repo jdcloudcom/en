@@ -1,4 +1,2 @@
 # Use Notes
-When the customer enters the Console and has the permission, the page displays resource management and ticket management.</br>
-Resource management displays the cabinets, devices, public IP and bandwidth resource of the customer.</br>
-Ticket management includes Open Ticket and My Tickets.
+After logging in the Console and subscribing permissions, a customer can view purchased cabinet, bandwidth, IP resources and hosted devices on line; the network traffic monitoring and alarm functions will be provided; and one-click ticket loading and on-line ticket process follow-up can be realized.

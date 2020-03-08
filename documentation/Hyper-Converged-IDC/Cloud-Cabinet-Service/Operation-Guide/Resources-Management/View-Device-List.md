@@ -1,12 +1,12 @@
 # View the Device List
 
-Open the Console and select Hyper-Converged IDC -> Cloud Cabinet Service -> Resource Management -> Device to view the Device List, as shown as below:</br>
-Click on the **Data Center** tab at the top to switch the Data Center and view the Device List separately.
-![设备列表](../../../../../image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS011.png)
+Open the console, select **Cloud Cabinet Service** -> **Resource Management** -> **Device**, and view the device list.</br>
+Click **Data Center Name** on the top to switch the data center and view another device list. The device list comprises: device code, SN number, cabinet code, U location, U number, brand, model, device type, device status, etc.
 
-# View the Device Details
 
-Click on the **SN** to skip to the Device Details page which displays the information in three portions, including basic information, hosting information and configuration information as shown bellow:
-![设备详情](../../../../../image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS002.png)
+# View Device Details
+
+Click **Device Code**, redirect to Device Details which displays 3 parts including Basic Information, Ownership Information, and Configuration Information.
+
 
 

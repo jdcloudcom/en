@@ -1,17 +1,16 @@
 # View bandwidth traffic
 
-Open the Console, select **Hyper-Converged IDC** -> **Cloud Cabinet Service** -> **Monitoring Alarm** -> **Bandwidth Traffic**, and view the information of bandwidth traffic monitoring list, as shown in the following figure:</br>
-Click **Data Center Name** on the top to switch the data centers and view the bandwidth traffic of the data centers.
-![带宽流量监控列表](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS017.png)
+Turn on the Console, select **Cloud Cabinet Service** -> **Resource Monitoring -> **Bandwidth (Exit) Traffic** and view the bandwidth traffic Monitoring List information.</br>
 
-# View resource information of bandwidth traffic
-Click **Bandwidth Name** to view the resource information of bandwidth, as shown in the following figure:
-![带宽流量资源信息](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS018.png)
+Click **Data Center Name** to switch the data center and view the bandwidth traffic of another data center. The bandwidth (exit) traffic list comprises: bandwidth (exit) name, total uplink real-time traffic, total downlink real-time traffic, operation, etc.
 
-# View monitoring information of bandwidth traffic
-Click **Monitoring Graph** in the list, redirect to the monitoring details of bandwidth traffic, and view the historic traffic information of bandwidth. Customized time search is supported, as shown in the following figure:
-![带宽流量监控信息](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS019.png)
+# View Bandwidth Traffic Details
+Click **Bandwidth (Exit) Name** and redirect to Bandwidth (Exit) Traffic Details which displays 3 parts, including: Resource Information, Monitoring Information and Alarm Rules. These parts can be switched and viewed via the navigation bar on the top of Bandwidth (Exit) Traffic Details.</br>
 
-# View alarm information of bandwidth traffic
-Click **Alarm Rule** button in the list to redirect to Alarm Rule Details of Bandwidth Traffic to view alarm rule information of bandwidth, shown as in the following figure:
-![带宽流量报警规则信息](https://github.com/jdcloudcom/cn/blob/cn-Cloud-Cabinet-Service/image/Hyper-Converged-IDC/Cloud-Cabinet-Service/CCS020.png)
+
+1. Click **Resource Information** and view current bandwidth resource information, including basic information, interchanger information, associated Public IP, etc.</br>
+
+2. Click **Monitoring Information/Operation Bar Monitoring Graph**, redirect to the Bandwidth Traffic Monitoring Details to show the traffic trend chart of current bandwidth and to view historical traffic information of bandwidth. Search by customized time is supported.</br>
+
+3. Click **Alarm Rules/Operation Bar Alarm Rules** to redirect to the Bandwidth Traffic Alarm Rule Details. Then, bandwidth alarm rule information can be viewed, including rule name, interchanger IP & port number, alarm condition, notification period, notification, rule status, etc.
+
