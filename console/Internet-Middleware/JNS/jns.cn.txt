@@ -1,0 +1,547 @@
+{
+
+  common: {
+
+    copy: '复制',
+
+    delete: '删除',
+
+    restart: '重启',
+
+    oper: '操作',
+
+    notes: '注意',
+
+    alter: '变更',
+
+    cancel: '取消',
+
+    tips: {
+
+      success: '操作成功！',
+
+      delSuccess: '删除成功',
+
+      delFailed: '删除失败',
+
+      fail: '请求失败，请稍后再试',
+
+      copy: '复制',
+
+      copySuccess: '复制成功'
+
+    },
+
+    emptyText: '无数据',
+
+    loadMore: '加载更多',
+
+    allLoaded: '全部加载完毕',
+
+    seeDetails: '详见',
+
+    CNY: '元'
+
+  },
+
+  dialog: {
+
+    confirm: '确 定',
+
+    cancel: '取 消',
+
+    tip: '提示'
+
+  },
+
+
+
+  someHour: '{hour}小时',
+
+  someDay: '{day}天',
+
+  choiceDateRange: '选择查询的日期范围',
+
+  monitor: {
+
+    alarmLink: '设置报警规则'
+
+  },
+
+  helpLink: 'JNS帮助文档',
+
+  subject: {
+
+    title: '主题管理',
+
+    searchPlaceHolder: '请输入主题名称搜索',
+
+    create: '新建',
+
+    accessPoint: '获取接入点',
+
+    accessAddress: {
+
+      title: '接入点地址',
+
+      public: '接入点地址'
+
+    },
+
+    columns: {
+
+      name: '主题名称',
+
+      showName: '显示名称',
+
+      jrn: 'JRN',
+
+      monitor: '监控',
+
+      time: '创建时间/修改时间',
+
+      oper: '操作'
+
+    },
+
+    columnConfig: {
+
+      title: '自定义列表',
+
+      tips: '请选择要显示在列表的信息，已选中{count}/{total}',
+
+      all: '全选'
+
+    },
+
+    action: {
+
+      subscribe: '订阅',
+
+      sendMessage: '发送消息',
+
+      more: '更多',
+
+      modifyName: '显示名称修改',
+
+      confirm: '订阅确认',
+
+      config: '配置变更',
+
+      authority: '主题权限',
+
+      encrypt: '加密配置',
+
+      delete: '删除主题',
+
+      editTag: '编辑标签'
+
+    },
+
+    removeTopic: {
+
+      title: '删除主题',
+
+      tips: '您确定要删除 {name} ？',
+
+      tips1: '删除 {name} 后，主题中的信息将无法恢复，主题将停止服务。'
+
+    },
+
+    createTopic: {
+
+      title: '创建主题',
+
+      chargeMode: '按用量',
+
+      basicInfo: '基本信息',
+
+      region: '地域',
+
+      topicName: '主题名称',
+
+      showName: '显示名称',
+
+      placeholder: {
+
+        name: '请输入主题名称，创建后不能修改',
+
+        showName: '请输入主题显示名称'
+
+      },
+
+      tips: {
+
+        nameRequired: '主题名称不能为空',
+
+        name: '只能包含字母、数字、连字符(-)、下划线(_)或加号 (+)',
+
+        name1: '长度最大为256个字符',
+
+        showName:
+
+          '推送邮件消息时，已设置显示名称，发件人则为"显示名称<example@example.com>"，否则为"<example@example.com>"',
+
+        showName1: '长度最大为256个字符'
+
+      },
+
+      choosed: {
+
+        title: '已选配置',
+
+        count: '购买数量',
+
+        price: {
+
+          create: '创建费用',
+
+          api: 'API调用次数',
+
+          api1: '￥{amount} 元/100W次',
+
+          notify: '通知推送费用',
+
+          notify1: '详见'
+
+        }
+
+      },
+
+
+
+      failTips: '创建失败！'
+
+    },
+
+    detail: {
+
+      title: '主题详情',
+
+      tabs: {
+
+        info: '主题信息',
+
+        monitor: '监控',
+
+        subscribe: '订阅'
+
+      },
+
+      info: {
+
+        region: '所属地域',
+
+        name: '主题名称',
+
+        showName: '显示名称',
+
+        jrn: '主题JRN',
+
+        subscribeCount: '订阅数',
+
+        createTime: '创建时间',
+
+        modifyTime: '修改时间'
+
+      }
+
+    }
+
+  },
+
+  strategy: {
+
+    title: '主题传输重试策略（HTTP/S）',
+
+    retryCount: '重试次数',
+
+    instantRetry: '立即重试',
+
+    minTime: '最小延迟时间',
+
+    maxTime: '最大延迟时间',
+
+    minRetry: '最小延迟重试',
+
+    maxRetry: '最大延迟重试',
+
+    maxRate: '最大接收速率',
+
+    reteTips: '1或更多',
+
+    strategy: '重试退避策略',
+
+    strategys: {
+
+      linear: '线性',
+
+      arithmetic: '算术',
+
+      geometric: '几何',
+
+      exponential: '指数'
+
+    },
+
+    ignoreCover: '忽略订阅覆盖',
+
+    ignoreText: {
+
+      1: '开启',
+
+      0: '关闭'
+
+    },
+
+    unit: {
+
+      count: '次数',
+
+      time: '秒',
+
+      rate: '个/秒'
+
+    }
+
+  },
+
+  subscribe: {
+
+    title: '订阅管理',
+
+    searchPlaceHolder: '请输入订阅名称搜索',
+
+    confirm: '订阅确认',
+
+    action: {
+
+      config: '配置变更',
+
+      confirm: '请求确认'
+
+    },
+
+    detail: {
+
+      title: '订阅详情',
+
+      info: '订阅信息',
+
+      topic: '所属主题',
+
+      subscribeJrn: '订阅JRN',
+
+      status: '状态',
+
+      owner: '订阅用户'
+
+    },
+
+    total: '订阅总数：{total}',
+
+    columns: {
+
+      id: '订阅ID',
+
+      category: '订阅类型',
+
+      status: '状态',
+
+      address: '接收端地址',
+
+      subjectName: '主题名称',
+
+      owner: '订阅用户',
+
+      createTime: '创建时间',
+
+      modifyTime: '修改时间'
+
+    },
+
+    create: {
+
+      title: '创建订阅',
+
+      basicInfo: '基础信息',
+
+      protocol: '订阅类型',
+
+      config: '订阅配置',
+
+      endpoint: '终端地址',
+
+      endpointPlaceholder: {
+
+        basic: '\n可以批量添加订阅终端地址，以换行符分割。',
+
+        http: 'http://www.example.com',
+
+        https: 'https://www.example.com',
+
+        email: 'example@example.com',
+
+        jqs: 'jrn:jqs:cn-north-1:userPin:testQueue（标准队列）',
+
+        function: '请选择触发函数',
+
+        function1: '请选择函数版本',
+
+        sms: '13xxxxxxxxx（国内）、+[国家码]13xxxxxxxxx （国际）'
+
+      },
+
+      rawMsgDelivery: '原始消息传输',
+
+      msgTips: '原始消息传输不包含通知服务JSON格式的元数据，只包含原始消息本身。',
+
+      deliveryPolicy: '订阅传输重试策略（HTTP/S）',
+
+      filterPolicy: {
+
+        title: '订阅筛选策略',
+
+        json: '筛选JSON',
+
+        rule: '筛选策略规则',
+
+        tips: '请输入JSON对象'
+
+      },
+
+      validTips: {
+
+        filter: '请输入进行筛选',
+
+        json: '请输入正确的策略JSON',
+
+        subject: '请选择一个主题',
+
+        endpoint: '请输入终端地址'
+
+      }
+
+    },
+
+    delete: {
+
+      title: '删除订阅',
+
+      tips: '您确定要删除{name}？',
+
+      tips1: '删除{name}后，订阅无法收到主题中的信息，并且无法恢复。'
+
+    },
+
+    confirmSub: {
+
+      title: '订阅确认',
+
+      url: '请输入确认订阅的URL',
+
+      success: '订阅确认成功！',
+
+      fail: '订阅确认失败!',
+
+      jrn: '请输入topicJrn',
+
+      token: '请输入token'
+
+    }
+
+  },
+
+  tag: {
+
+    chooseTag: '已选标签',
+
+    clearTag: '清空',
+
+    tableTag: '标签键'
+
+  },
+
+  sendMessage: {
+
+    title: '发送消息',
+
+    topicName: '主题名称',
+
+    jrn: 'JRN',
+
+    messageTopic: '消息主题',
+
+    messageFormat: '消息格式',
+
+    FORMATTYPE: {
+
+      string: '原文',
+
+      json: 'JSON'
+
+    },
+
+    content: '消息内容',
+
+    attribute: {
+
+      title: '消息属性',
+
+      add: '增加属性',
+
+      name: '名称',
+
+      type: '类型',
+
+      value: '值',
+
+      palceholder: {
+
+        String: '请输入字符串',
+
+        'String.Array': '请输入字符串数组',
+
+        Number: '请输入数字',
+
+        Binary: '请输入base64编码值'
+
+      },
+
+      validTips: {
+
+        name: '支持 A-Z、a-z、0-9、下划线 (_)、连字符 (-) 和句点 (.)',
+
+        nameLength: '最长可为 256 个字符',
+
+        nameOnly: '必须在消息的所有属性名中唯一',
+
+        nameDot: '不能以句点开头或结尾',
+
+        nameDot1: '不能有连续句点',
+
+        value: '值不能为空',
+
+        json: '请输入Json格式'
+
+      }
+
+    },
+
+    confirm: '发布消息',
+
+    confirmed: {
+
+      sended: '您的消息已成功发送至 {topicName} ',
+
+      subject: '消息主题',
+
+      content: '消息内容',
+
+      next: '发送下一条'
+
+    }
+
+  }
+
+}
