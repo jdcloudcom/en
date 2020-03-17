@@ -2,207 +2,207 @@
 
   common: {
 
-    copy: '复制',
+    copy: 'Replicate',
 
-    delete: '删除',
+    delete: 'Delete',
 
-    restart: '重启',
+    restart: 'Restart',
 
-    oper: '操作',
+    oper: 'Operations',
 
-    notes: '注意',
+    notes: 'Note',
 
-    alter: '变更',
+    alter: 'Change',
 
-    cancel: '取消',
+    cancel: 'Cancel',
 
     tips: {
 
-      success: '操作成功！',
+      success: 'Operate successfully!',
 
-      delSuccess: '删除成功',
+      delSuccess: 'Deletion succeeded',
 
-      delFailed: '删除失败',
+      delFailed: 'Deletion failed',
 
-      fail: '请求失败，请稍后再试',
+      fail: 'Request failed. Please try again later',
 
-      copy: '复制',
+      copy: 'Replicate',
 
-      copySuccess: '复制成功'
+      copySuccess: 'Copied'
 
     },
 
-    emptyText: '无数据',
+    emptyText: 'No data',
 
-    loadMore: '加载更多',
+    loadMore: 'Load more',
 
-    allLoaded: '全部加载完毕',
+    allLoaded: 'All loaded',
 
-    seeDetails: '详见',
+    seeDetails: 'For details, please refer to',
 
-    CNY: '元'
+    CNY: 'RMB'
 
   },
 
   dialog: {
 
-    confirm: '确 定',
+    confirm: 'OK',
 
-    cancel: '取 消',
+    cancel: 'Cancel',
 
-    tip: '提示'
+    tip: 'Notification'
 
   },
 
 
 
-  someHour: '{hour}小时',
+  someHour: '{hour} hour(s)',
 
-  someDay: '{day}天',
+  someDay: '{day} day(s)',
 
-  choiceDateRange: '选择查询的日期范围',
+  choiceDateRange: 'Select time range for search',
 
   monitor: {
 
-    alarmLink: '设置报警规则'
+    alarmLink: 'Set alarm rules'
 
   },
 
-  helpLink: 'JNS帮助文档',
+  helpLink: 'JNS Help Documentation',
 
   subject: {
 
-    title: '主题管理',
+    title: 'Subject Management',
 
-    searchPlaceHolder: '请输入主题名称搜索',
+    searchPlaceHolder: 'Please enter the subject name for search',
 
-    create: '新建',
+    create: 'Create',
 
-    accessPoint: '获取接入点',
+    accessPoint: 'Obtain access point',
 
     accessAddress: {
 
-      title: '接入点地址',
+      title: 'Access Point Address',
 
-      public: '接入点地址'
+      public: 'Access Point Address'
 
     },
 
     columns: {
 
-      name: '主题名称',
+      name: 'Subject Name',
 
-      showName: '显示名称',
+      showName: 'Display Name',
 
       jrn: 'JRN',
 
-      monitor: '监控',
+      monitor: 'Monitoring',
 
-      time: '创建时间/修改时间',
+      time: 'Creation Time/Modification Time',
 
-      oper: '操作'
+      oper: 'Operations'
 
     },
 
     columnConfig: {
 
-      title: '自定义列表',
+      title: 'Edit Columns',
 
-      tips: '请选择要显示在列表的信息，已选中{count}/{total}',
+      tips: 'Please select the information to be displayed in the list and {count}/{total} has been selected',
 
-      all: '全选'
+      all: 'Select all'
 
     },
 
     action: {
 
-      subscribe: '订阅',
+      subscribe: 'Subscribe',
 
-      sendMessage: '发送消息',
+      sendMessage: 'Send message',
 
-      more: '更多',
+      more: 'More',
 
-      modifyName: '显示名称修改',
+      modifyName: 'Modify display name',
 
-      confirm: '订阅确认',
+      confirm: 'Subscription Confirmation',
 
-      config: '配置变更',
+      config: 'Configuration Changes',
 
-      authority: '主题权限',
+      authority: 'Subject Permission',
 
-      encrypt: '加密配置',
+      encrypt: 'Encryption Configuration',
 
-      delete: '删除主题',
+      delete: 'Delete subject',
 
-      editTag: '编辑标签'
+      editTag: 'Edit tag'
 
     },
 
     removeTopic: {
 
-      title: '删除主题',
+      title: 'Delete subject',
 
-      tips: '您确定要删除 {name} ？',
+      tips: 'Confirm to delete {name}?',
 
-      tips1: '删除 {name} 后，主题中的信息将无法恢复，主题将停止服务。'
+      tips1: 'After {name} is deleted, information in the subject cannot be recovered and the subject service will be stopped.'
 
     },
 
     createTopic: {
 
-      title: '创建主题',
+      title: 'Create subject',
 
-      chargeMode: '按用量',
+      chargeMode: 'Pay by Consumption',
 
-      basicInfo: '基本信息',
+      basicInfo: 'Basic Information',
 
-      region: '地域',
+      region: 'Region',
 
-      topicName: '主题名称',
+      topicName: 'Subject Name',
 
-      showName: '显示名称',
+      showName: 'Display Name',
 
       placeholder: {
 
-        name: '请输入主题名称，创建后不能修改',
+        name: 'Please enter subject name, which cannot be modified upon creation',
 
-        showName: '请输入主题显示名称'
+        showName: 'Please enter subject name for presentation.'
 
       },
 
       tips: {
 
-        nameRequired: '主题名称不能为空',
+        nameRequired: 'Must provide a subject name',
 
-        name: '只能包含字母、数字、连字符(-)、下划线(_)或加号 (+)',
+        name: 'It can only contain letters, numbers, hyphens (-), underlines (_) or addition operator (+)',
 
-        name1: '长度最大为256个字符',
+        name1: 'Contain 256 characters in length',
 
         showName:
 
-          '推送邮件消息时，已设置显示名称，发件人则为"显示名称<example@example.com>"，否则为"<example@example.com>"',
+          'When the email message is pushed, the display name has been set, and the sender is "Display Name<example@example.com>". Otherwise, the sender is "<example@example.com>""',
 
-        showName1: '长度最大为256个字符'
+        showName1: 'Contain 256 characters in length'
 
       },
 
       choosed: {
 
-        title: '已选配置',
+        title: 'Selected Configuration',
 
-        count: '购买数量',
+        count: 'Purchase Quantity',
 
         price: {
 
-          create: '创建费用',
+          create: 'Creation Cost',
 
-          api: 'API调用次数',
+          api: 'API Calling Times',
 
-          api1: '￥{amount} 元/100W次',
+          api1: 'RMB {amount}/1 million times',
 
-          notify: '通知推送费用',
+          notify: 'Notice Pushing Cost',
 
-          notify1: '详见'
+          notify1: 'For details, please refer to'
 
         }
 
@@ -210,39 +210,39 @@
 
 
 
-      failTips: '创建失败！'
+      failTips: 'Creation failed!'
 
     },
 
     detail: {
 
-      title: '主题详情',
+      title: 'Subject Details',
 
       tabs: {
 
-        info: '主题信息',
+        info: 'Subject Information',
 
-        monitor: '监控',
+        monitor: 'Monitoring',
 
-        subscribe: '订阅'
+        subscribe: 'Subscribe'
 
       },
 
       info: {
 
-        region: '所属地域',
+        region: 'Region',
 
-        name: '主题名称',
+        name: 'Subject Name',
 
-        showName: '显示名称',
+        showName: 'Display Name',
 
-        jrn: '主题JRN',
+        jrn: 'Subject JRN',
 
-        subscribeCount: '订阅数',
+        subscribeCount: 'Number of Subscriptions',
 
-        createTime: '创建时间',
+        createTime: 'Creation Time',
 
-        modifyTime: '修改时间'
+        modifyTime: 'Modification Time'
 
       }
 
@@ -252,55 +252,55 @@
 
   strategy: {
 
-    title: '主题传输重试策略（HTTP/S）',
+    title: 'Subject Transmission Retry Policy (HTTP/S)',
 
-    retryCount: '重试次数',
+    retryCount: 'Retry Count',
 
-    instantRetry: '立即重试',
+    instantRetry: 'Retry Now',
 
-    minTime: '最小延迟时间',
+    minTime: 'Minimum Delay Time',
 
-    maxTime: '最大延迟时间',
+    maxTime: 'Maximum Delay Time',
 
-    minRetry: '最小延迟重试',
+    minRetry: 'Minimum Delay Retry',
 
-    maxRetry: '最大延迟重试',
+    maxRetry: 'Maximum Delay Retry',
 
-    maxRate: '最大接收速率',
+    maxRate: 'Maximum Reception Rate',
 
-    reteTips: '1或更多',
+    reteTips: '1 or more',
 
-    strategy: '重试退避策略',
+    strategy: 'Retry Black-off Policy',
 
     strategys: {
 
-      linear: '线性',
+      linear: 'Linear',
 
-      arithmetic: '算术',
+      arithmetic: 'Arithmetic',
 
-      geometric: '几何',
+      geometric: 'Geometric',
 
-      exponential: '指数'
+      exponential: 'Index'
 
     },
 
-    ignoreCover: '忽略订阅覆盖',
+    ignoreCover: 'Ignore subscription replacement',
 
     ignoreText: {
 
-      1: '开启',
+      1: 'Enable',
 
-      0: '关闭'
+      0: 'Disable'
 
     },
 
     unit: {
 
-      count: '次数',
+      count: 'Times',
 
-      time: '秒',
+      time: 'Second',
 
-      rate: '个/秒'
+      rate: 'Nr./second'
 
     }
 
@@ -308,73 +308,73 @@
 
   subscribe: {
 
-    title: '订阅管理',
+    title: 'Subscription Management',
 
-    searchPlaceHolder: '请输入订阅名称搜索',
+    searchPlaceHolder: 'Please enter the subscription name for search',
 
-    confirm: '订阅确认',
+    confirm: 'Subscription Confirmation',
 
     action: {
 
-      config: '配置变更',
+      config: 'Configuration Changes',
 
-      confirm: '请求确认'
+      confirm: 'Request Confirmation'
 
     },
 
     detail: {
 
-      title: '订阅详情',
+      title: 'Subscription Details',
 
-      info: '订阅信息',
+      info: 'Subscription Information',
 
-      topic: '所属主题',
+      topic: 'Subject',
 
-      subscribeJrn: '订阅JRN',
+      subscribeJrn: 'Subscribe JRN',
 
-      status: '状态',
+      status: 'Status',
 
-      owner: '订阅用户'
+      owner: 'Subscriber'
 
     },
 
-    total: '订阅总数：{total}',
+    total: 'Total number of subscriptions: {total}',
 
     columns: {
 
-      id: '订阅ID',
+      id: 'Subscription ID',
 
-      category: '订阅类型',
+      category: 'Subscription Type',
 
-      status: '状态',
+      status: 'Status',
 
-      address: '接收端地址',
+      address: 'Receiver End Address',
 
-      subjectName: '主题名称',
+      subjectName: 'Subject Name',
 
-      owner: '订阅用户',
+      owner: 'Subscriber',
 
-      createTime: '创建时间',
+      createTime: 'Creation Time',
 
-      modifyTime: '修改时间'
+      modifyTime: 'Modification Time'
 
     },
 
     create: {
 
-      title: '创建订阅',
+      title: 'Subscription Creation',
 
-      basicInfo: '基础信息',
+      basicInfo: 'Basic Information',
 
-      protocol: '订阅类型',
+      protocol: 'Subscription Type',
 
-      config: '订阅配置',
+      config: 'Subscription Configuration',
 
-      endpoint: '终端地址',
+      endpoint: 'Terminal Address',
 
       endpointPlaceholder: {
 
-        basic: '\n可以批量添加订阅终端地址，以换行符分割。',
+        basic: '\n Subscription terminal addresses can be added in batches, which shall be separated with line breaks.',
 
         http: 'http://www.example.com',
 
@@ -382,43 +382,43 @@
 
         email: 'example@example.com',
 
-        jqs: 'jrn:jqs:cn-north-1:userPin:testQueue（标准队列）',
+        jqs: 'jrn:jqs:cn-north-1:userPin:testQueue (Standard Queue)',
 
-        function: '请选择触发函数',
+        function: 'Please select a trigger function',
 
-        function1: '请选择函数版本',
+        function1: 'Please select a function version',
 
-        sms: '13xxxxxxxxx（国内）、+[国家码]13xxxxxxxxx （国际）'
+        sms: '13xxxxxxxxx (Domestic), +[National Code]13xxxxxxxxx (International)'
 
       },
 
-      rawMsgDelivery: '原始消息传输',
+      rawMsgDelivery: 'Original Message Transmission',
 
-      msgTips: '原始消息传输不包含通知服务JSON格式的元数据，只包含原始消息本身。',
+      msgTips: 'The original message transmission only contains the origin message itself rather than metadata in JSON format of Notification Service.',
 
-      deliveryPolicy: '订阅传输重试策略（HTTP/S）',
+      deliveryPolicy: 'Subscription Transmission Retry Policy (HTTP/S)',
 
       filterPolicy: {
 
-        title: '订阅筛选策略',
+        title: 'Subscription Filtering Policy',
 
-        json: '筛选JSON',
+        json: 'Filter JSON',
 
-        rule: '筛选策略规则',
+        rule: 'Filtering Policy Rules',
 
-        tips: '请输入JSON对象'
+        tips: 'Please enter JSON object'
 
       },
 
       validTips: {
 
-        filter: '请输入进行筛选',
+        filter: 'Please enter for filtering',
 
-        json: '请输入正确的策略JSON',
+        json: 'Please enter correct policy JSON',
 
-        subject: '请选择一个主题',
+        subject: 'Please select a subject',
 
-        endpoint: '请输入终端地址'
+        endpoint: 'Please enter the terminal address'
 
       }
 
@@ -426,27 +426,27 @@
 
     delete: {
 
-      title: '删除订阅',
+      title: 'Delete subscription',
 
-      tips: '您确定要删除{name}？',
+      tips: 'Confirm to delete {name}?',
 
-      tips1: '删除{name}后，订阅无法收到主题中的信息，并且无法恢复。'
+      tips1: 'After {name} is deleted, information in the subject can neither be received by a subscriber nor be recovered.'
 
     },
 
     confirmSub: {
 
-      title: '订阅确认',
+      title: 'Subscription Confirmation',
 
-      url: '请输入确认订阅的URL',
+      url: 'Please enter and confirm subscribed URL',
 
-      success: '订阅确认成功！',
+      success: 'Subscription confirmation succeeded!',
 
-      fail: '订阅确认失败!',
+      fail: 'Subscribe confirmation failed!',
 
-      jrn: '请输入topicJrn',
+      jrn: 'Please enter topicJrn',
 
-      token: '请输入token'
+      token: 'Please enter the token'
 
     }
 
@@ -454,91 +454,91 @@
 
   tag: {
 
-    chooseTag: '已选标签',
+    chooseTag: 'Selected Tag(s)',
 
-    clearTag: '清空',
+    clearTag: 'Clear',
 
-    tableTag: '标签键'
+    tableTag: 'Tag Key'
 
   },
 
   sendMessage: {
 
-    title: '发送消息',
+    title: 'Send message',
 
-    topicName: '主题名称',
+    topicName: 'Subject Name',
 
     jrn: 'JRN',
 
-    messageTopic: '消息主题',
+    messageTopic: 'Message Subject',
 
-    messageFormat: '消息格式',
+    messageFormat: 'Message Format',
 
     FORMATTYPE: {
 
-      string: '原文',
+      string: 'Original Text',
 
       json: 'JSON'
 
     },
 
-    content: '消息内容',
+    content: 'Message Content',
 
     attribute: {
 
-      title: '消息属性',
+      title: 'Message Attribute',
 
-      add: '增加属性',
+      add: 'Add attribute',
 
-      name: '名称',
+      name: 'Name',
 
-      type: '类型',
+      type: 'Type',
 
-      value: '值',
+      value: 'Value',
 
       palceholder: {
 
-        String: '请输入字符串',
+        String: 'Please enter the character string',
 
-        'String.Array': '请输入字符串数组',
+        'String.Array': 'Please enter the character string array',
 
-        Number: '请输入数字',
+        Number: 'Please enter the number',
 
-        Binary: '请输入base64编码值'
+        Binary: 'Please enter base64 code value'
 
       },
 
       validTips: {
 
-        name: '支持 A-Z、a-z、0-9、下划线 (_)、连字符 (-) 和句点 (.)',
+        name: 'A-Z, a-z, 0-9 (_), underline (_), hyphen (-) and dot (.) are supported',
 
-        nameLength: '最长可为 256 个字符',
+        nameLength: 'The maximum length is 256 characters',
 
-        nameOnly: '必须在消息的所有属性名中唯一',
+        nameOnly: 'It must be unique among all attributes of the message',
 
-        nameDot: '不能以句点开头或结尾',
+        nameDot: 'It cannot start or end with a dot',
 
-        nameDot1: '不能有连续句点',
+        nameDot1: 'No consecutive dots are allowed',
 
-        value: '值不能为空',
+        value: 'The value cannot be null',
 
-        json: '请输入Json格式'
+        json: 'Please enter in Json format'
 
       }
 
     },
 
-    confirm: '发布消息',
+    confirm: 'Release messages',
 
     confirmed: {
 
-      sended: '您的消息已成功发送至 {topicName} ',
+      sended: 'Your message has been sent to {topicName} ',
 
-      subject: '消息主题',
+      subject: 'Message Subject',
 
-      content: '消息内容',
+      content: 'Message Content',
 
-      next: '发送下一条'
+      next: 'Send the next one'
 
     }
 
