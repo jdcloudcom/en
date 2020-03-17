@@ -180,7 +180,7 @@
 
         showName:
 
-          'When the email message is pushed, the display name has been set, and the sender is "Display Name<example@example.com>". Otherwise, the sender is "<example@example.com>""',
+          'When the email message is pushed, the display name has been set, and the sender is "Display Name<example@example.com>". Otherwise, the sender is "<example@example.com>"',
 
         showName1: 'Contain 256 characters in length'
 
