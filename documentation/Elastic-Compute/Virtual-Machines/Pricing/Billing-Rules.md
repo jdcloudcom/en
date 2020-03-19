@@ -1,6 +1,6 @@
 # Billing Rules
 
-The following description is only for instances. If you need to check the instance association resource billing rules, please refer to [Cloud Disk Billing Documentation](http://docs.jdcloud.com/en/cloud-disk-service/price-overview) and [Elastic IP Billing Documentation](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md). The instance of JD Cloud provides two billing methods for different business scenario requirements, namely, monthly package billing and billing by configuration.
+The following description is only for instances. If you need to check the instance association resource billing rules, please refer to [Cloud Disk Billing Documentation](http://docs.jdcloud.com/en/cloud-disk-service/price-overview) and [Elastic IP Billing Documentation](../../../Networking/Elastic-IP/Pricing/Billing-Overview.md). The instance of JD Cloud & AI provides two billing methods for different business scenario requirements, namely, monthly package billing and billing by configuration.
 
 ## Monthly Package Billing
 
@@ -14,8 +14,8 @@ For example: if the order start time is 15:00:00 on January 1, 2018, and the pur
 ### Instructions for Service Stop Due to Expiration
 
 * When the expiration time of your instance under monthly package is earlier than or equal to the current time, your instance billing state will be changed to expired. After the expiration, the instance services will be stopped and you cannot continue to use the instance;
-* 30 days, 15 days, 7 days, 3 days and 1 day before the expiration of your Virtual Machines under monthly package, JD Cloud will respectively send you a notice reminding you that the resource is about to expire. Please pay attention to check and promptly [Renew](Renew-Process.md);
-* After the expiration of your instance under monthly package, JD Cloud will send you a notice reminding you that the resource has expired. Please pay attention to the notice and promptly [Renew](Renew-Process.md) to avoid unnecessary losses caused by resource recovery made seven days after the instance expiration. For details, please refer to the expiration & arrears reminder;
+* 30 days, 15 days, 7 days, 3 days and 1 day before the expiration of your Virtual Machines under monthly package, JD Cloud & AI will respectively send you a notice reminding you that the resource is about to expire. Please pay attention to check and promptly [Renew](Renew-Process.md);
+* After the expiration of your instance under monthly package, JD Cloud & AI will send you a notice reminding you that the resource has expired. Please pay attention to the notice and promptly [Renew](Renew-Process.md) to avoid unnecessary losses caused by resource recovery made seven days after the instance expiration. For details, please refer to the expiration & arrears reminder;
 * Your instance and the data in the instance will be retained for 7 days from the time when the services are stopped. 7 days later, a resource release notice will be sent to you. After the resource is recovered, the data cannot be retrieved;
 * Within the 7 days when the resource is deactivated, that is, before the resource recovery is triggered, you can renew it. After the renewal, the resource will be automatically activated for use. If the instance is not restored to the running state after the renewal, please manually [Start Instance](../Operation-Guide/Instance/Start-Instance.md).
 		

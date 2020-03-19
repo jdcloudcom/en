@@ -1,6 +1,6 @@
 # **Information Security Management Agreements**
 
-**As for network information security management, party A and party B (Party A is for you; Party B is for JD Cloud) achieve an agreement. Party A clicks to confirm this page or chooses to accept this terms of service in other ways, including but not limited to do not click to confirm but actually use this filing system to access filing, which means Party A agrees to accept the entire contents of this agreement. Party A cannot claim this agreement invalid or cancel it in the name of not reading the contents of this agreement etc.**
+**As for network information security management, party A and party B (Party A is for you; Party B is for JD Cloud & AI) achieve an agreement. Party A clicks to confirm this page or chooses to accept this terms of service in other ways, including but not limited to do not click to confirm but actually use this filing system to access filing, which means Party A agrees to accept the entire contents of this agreement. Party A cannot claim this agreement invalid or cancel it in the name of not reading the contents of this agreement etc.**
 
 **The processing terms of violations of party A will be noted in bold font form.**
 

@@ -10,7 +10,7 @@ You can view the instances you have through the console:
 
 ## Overview Page
 
-[Overview Page](https://console.jdcloud.com) is the default home page for logging in to the JD Cloud console. You can view the number of region instances and quota in the current account. ![](../../../../../image/vm/queryinstance4.png)
+[Overview Page](https://console.jdcloud.com) is the default home page for logging in to the JD Cloud & AI console. You can view the number of region instances and quota in the current account. ![](../../../../../image/vm/queryinstance4.png)
 
 	
 	
@@ -18,7 +18,7 @@ You can view the instances you have through the console:
 
 ## Instance List Page
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select Region. ![](../../../../../image/vm/queryinstance3.png)
 
 	You can view the information about all instances in the selected territory, including ID, name, availability zone, IP address, and more. Since there are many instance information items, you can adjust the items displayed on the instance list page through Edit Columns as needed. The detailed steps are as follows:
@@ -35,7 +35,7 @@ You can also view related information from the instance list page to VPC, Subnet
 
 ## Instance Details Page
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. In the instance list, select the instance for which you want to view the details, and click the instance name to go to the details page.
 

@@ -9,7 +9,7 @@ Due to the objective factors of system upgrade and component upgrade, the follow
 
 | Component Name    | Relevant Process Name    | Main Feature     | Influence when it is not installed    |
 | --- | --- | --- | --- |
-|   JCS-Agent  | JCSAgentCore <br> MonitorPlugin-‘Version Number’  <br>  UpgradePlugin-‘Version Number’  | General core components provide password key injection, customized script injection, monitoring data reporting and other features  in cooperation metadata service    |  It is impossible to set passwords, keys and customized user data through JD Cloud Console or openAPI, and some VM Monitoring data cannot be obtained   |
+|   JCS-Agent  | JCSAgentCore <br> MonitorPlugin-‘Version Number’  <br>  UpgradePlugin-‘Version Number’  | General core components provide password key injection, customized script injection, monitoring data reporting and other features  in cooperation metadata service    |  It is impossible to set passwords, keys and customized user data through JD Cloud & AI Console or openAPI, and some VM Monitoring data cannot be obtained   |
 | Ifrit    |  ifrit-agent <br> ifrit-supervise   |   General deployment plug-in, realizing automatic upgrade of JCS-Agent	  |  Unable to obtain the capability of  automatic upgrade of JCS-Agent, if you want to use the new feature developed based on JCS-Agent in the future, you need to upgrade JCS-Agent manually   |
 |  Jcloudhids   |jcloudhids <br> jcloudhidsupdate    | Security core components provide security protection capability    | Unable to monitor the security hazards and abnormal behavior of Virtual Machines through "Endpoint Security" products   |
 | Jdog-Monitor |	jdog-monitor.’Version Number'<br>jdog-watchdog<br>jdog-kunlunmirror| Security auxiliary plug-in, realizing automatic upgrade of Jcloudhids (currently only installed on Linux system|Unable to obtain the capability of automatic upgrade of Jcloudhids, if you want to use the new feature developed based on Jcloudhids in the future, you need to upgrade manually|
@@ -24,7 +24,7 @@ Due to the objective factors of system upgrade and component upgrade, the follow
 
 ## JCS-Agent
 ### Component Introduction
-JCS-Agent is the core component of Virtual Machines developed by JD Cloud, which can provide features such as basic information (password, key) injection of Virtual Machines, user data injection, KSM activation of Windows system, monitoring data report.
+JCS-Agent is the core component of Virtual Machines developed by JD Cloud & AI, which can provide features such as basic information (password, key) injection of Virtual Machines, user data injection, KSM activation of Windows system, monitoring data report.
 
 Public Image was upgraded from August to December 2018, completing the default installation of JCS-Agent. cloud-init and qemu-guest-agent were installed in the early Public Image. Such images still have features such as the basic endpoint information injection, monitoring and reporting, but the user data injection, KMS activation in Windows system and the following additional features cannot be supported. If you are currently using early agent, it is recommended that you change to JCS-Agent (if the version of JCS-Agent you are currently using is lower than 1.0.728, it is recommended that you follow the following steps to install the new version, so as to obtain the automatic upgrade management feature of Ifrit).
 
@@ -32,7 +32,7 @@ JCS-Agent of Cloud Marketplacet Image Installation depends on the release time o
 
 ### Installation Preparation
 #### Uninstall conflicting software
-***If the image you are using is the imported image of JD Cloud’s external environment, and cloud-init or qemu-guest-agent has been installed before the import, please be sure to install after uninstalling!***
+***If the image you are using is the imported image of JD Cloud & AI’s external environment, and cloud-init or qemu-guest-agent has been installed before the import, please be sure to install after uninstalling!***
 
 If there is a prompt that the software is not installed when uninstalling, it means that the current system is not installed with the software, and there is no need for subsequent configuration files and log cleaning. It is also recommended to run 'ps-ef' to see if the service has been cleaned up after uninstalling.
 
@@ -95,7 +95,7 @@ https://bj-jcs-agent-windows.s3.cn-north-1.jdcloud-oss.com/MD5.exe <br>
 
 ## Ifrit
 ### Component Introduction
-Ifrit is a lightweight and general deployment, operation and maintenance tool developed by JD Cloud, which can realize the deployment, upgrade, unload and other management operations of its managed components. Ifrit is cooperate with JCS-Agent to realize automatic upgrade of JCS-Agent.
+Ifrit is a lightweight and general deployment, operation and maintenance tool developed by JD Cloud & AI, which can realize the deployment, upgrade, unload and other management operations of its managed components. Ifrit is cooperate with JCS-Agent to realize automatic upgrade of JCS-Agent.
 
 The Public Image will be upgraded from May to July 2019 gradually to complete the default installation of Ifrit. Cloud Marketplacet Image Installation depends on the release time of the image (Public Image production based on which version) and the production status of the service provider. Please consult the Cloud Marketplace for details.
 
@@ -106,7 +106,7 @@ The Public Image will be upgraded from May to July 2019 gradually to complete th
 wget -c http://devops-hb.s3.cn-north-1.jdcloud-oss.com/ifrit/ifrit-agent-external-v0.01.465.534ae3d.20190523181914.bin -O installer && sh installer -- -a jcs-agent-core,jcs-agent-script,jcs-agent-monitor -O /usr/local/share/jcloud/ifrit && rm -f installer
 ```
 
-* Intranet Environment of JD Cloud<br>
+* Intranet Environment of JD Cloud & AI<br>
 ```
 curl -fsSL http://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install_jcs | bash
 ```
@@ -117,7 +117,7 @@ curl -fsSL http://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install_jcs | bash
 ($client = new-object System.Net.WebClient) -and ($client.DownloadFile('http://devops-hb.s3.cn-north-1.jdcloud-oss.com/ifrit/ifrit-external-v0.01.461.56ff760.20190517095556.exe', 'c:\ifrit.exe')) -or (Start-Process 'c:\ifrit.exe')
 ```
 
-* Intranet Environment of JD Cloud<br>
+* Intranet Environment of JD Cloud & AI<br>
 
 ① cn-north-1:<br>
 ```
@@ -158,7 +158,7 @@ Click **Installation** to complete the ifrit installation.
 
 ## Jcloudhids
 ### Component Introduction
-Jcloudhids is the core component of Endpoint Security provided by JD Cloud, is the core of security monitoring and prevention features realized by "Endpoint Security" products, which can provide security features such as Anti-brute Force, Abnormal Login Detection, High-risk Vulnerability Detection. Please refer to: https://www.jdcloud.com/en/products/endpoint-security for Endpoint Security products
+Jcloudhids is the core component of Endpoint Security provided by JD Cloud & AI, is the core of security monitoring and prevention features realized by "Endpoint Security" products, which can provide security features such as Anti-brute Force, Abnormal Login Detection, High-risk Vulnerability Detection. Please refer to: https://www.jdcloud.com/en/products/endpoint-security for Endpoint Security products
 
 Jcloudhids is installed in Public Image by default. Cloud Marketplacet Image Installation depends on the production status of the service provider. If the feature of image overlaps or conflicts with the feature of Jcloudhidsns, installation of Jcloudhids for the image is not mandatory. Please consult the Cloud Marketplace for details.
 
@@ -170,7 +170,7 @@ Please refer to: https://docs.jdcloud.com/en/endpoint-security/getting-started
 
 ## Jdog-Monitor
 ### Component Introduction
-Jdog-Monitor is the upgrade plug-in provided by JD Cloud for the core security components to realize maintenance and upgrade for security related components.
+Jdog-Monitor is the upgrade plug-in provided by JD Cloud & AI for the core security components to realize maintenance and upgrade for security related components.
 
 ### Installation Mode
 **Linux：**<br>

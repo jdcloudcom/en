@@ -1,5 +1,5 @@
 # Image self-inspection tool
-For the Linux system, you can use the image self-inspection tool provided by JD Cloud, and before an image is exported from the external environment, test the key system configuration by running the self-inspection tool, and make adjustment based on the test report.
+For the Linux system, you can use the image self-inspection tool provided by JD Cloud & AI, and before an image is exported from the external environment, test the key system configuration by running the self-inspection tool, and make adjustment based on the test report.
 
 To guarantee the availability and usability of imported images as far as possible, the system tests the key configuration in an image when it is imported, and such importation will fail in case of noncompliance. Therefore, you are suggested to, before producing the imported image, refer to the basic image requirement in [private image importation](https://docs.jdcloud.com/en/virtual-machines/import-private-image) to confirm the system configuration, and use the image self-inspection tool to check the main configurations.
 
@@ -39,7 +39,7 @@ sudo ./jcs-image-tool
 | partition     | MBR partition is adopted     | instances cannot be normally enabled     |MBR partition is adopted
 |  diskCharacterCheck    |Correctly configure fstab  | instances cannot be normally enabled     | configure automatic mount in the form of /dev/vda or uuid
 | network     | NetworkManager	 hasn’t been enabled     |the network may be unavailable due to its conflicting with network service      |disable or delete NetworkManager
-| firewall      |The iptables service has been disabled      | if the access policy configured under the JD Cloud environment fails, some internal services may not be able to normally run due to access limitation     |disable the firewall
+| firewall      |The iptables service has been disabled      | if the access policy configured under the JD Cloud & AI environment fails, some internal services may not be able to normally run due to access limitation     |disable the firewall
 | driver     | The virtio driver has been compiled into the kernel or as an kernel module     |  instances cannot be normally enabled    |  [install the virtio driver](https://docs.jdcloud.com/en/virtual-machines/install-virtio-driver)
 
 

@@ -1,4 +1,4 @@
-# **Question Summary**
+# Basic Questions on License
 
 1. Why should we perform filing?
 
@@ -6,7 +6,7 @@ According to the regulations of the Ministry of Industry and Information Technol
 
 2. How long will it take for the review of filing?
 
-Review Time of JD Cloud Stage: 1-3 business days depending on user's location (excluding the time required for the user to process the necessary information)
+Review Time of JD Cloud & AI Stage: 1-3 business days depending on user's location (excluding the time required for the user to process the necessary information)
 
 Stage of Authority Review: Filing’s review time at each province will be within 20 working days, and the time will be different in different places;
 
@@ -42,11 +42,11 @@ For Units:
 
 5. Ingress of Submitting the Filing
 
-The ingress of "Filing" on the upper right corner of official website of JD Cloud ([www.jdcloud.com](http://www.jcloud.com/)). Filing process for all types of filing is consistent. Please truthfully fill in the form following the prompts.
+The ingress of "Filing" on the upper right corner of official website of JD Cloud & AI ([www.jdcloud.com](http://www.jcloud.com/)). Filing process for all types of filing is consistent. Please truthfully fill in the form following the prompts.
 
 6. Expense of Filing
 
-Whole process of filing on JD Cloud is free, and for some special materials required by authority, which needs express delivery, the expense of express delivery shall be handled by themselves
+Whole process of filing on JD Cloud & AI is free, and for some special materials required by authority, which needs express delivery, the expense of express delivery shall be handled by themselves
 
 7. Can the website be opened during filing’s review time?
 
@@ -62,10 +62,10 @@ Whether the non-business-related filing is completed or not decides that whether
 
 9. Quantity of Filing’s Subject under Each JD Account
 
-One JD Cloud account can only correspond to one filing’s subject, for the sake of avoiding the occurrence of agent filing and avoiding the disclosure of filing information for the actual sponsor of the website.
+One JD Cloud & AI account can only correspond to one filing’s subject, for the sake of avoiding the occurrence of agent filing and avoiding the disclosure of filing information for the actual sponsor of the website.
 
-If you are the administrator of the server and you need to submit the filings of multiple subjects, please submit the application of filing through the manner of registering different JD Cloud account after explaining the situations with the actual sponsor of the website.
+If you are the administrator of the server and you need to submit the filings of multiple subjects, please submit the application of filing through the manner of registering different JD Cloud & AI account after explaining the situations with the actual sponsor of the website.
 
-10. How many subjects can be filed in each JD Cloud server?
+10. How many subjects can be filed in each JD Cloud & AI server?
 
-Each JD Cloud Server can be filed with 5 websites at most (after the filing is canceled, the quota will be released, which means each website can simultaneously keep 5 valid registration websites at most)
+Each JD Cloud & AI Server can be filed with 5 websites at most (after the filing is canceled, the quota will be released, which means each website can simultaneously keep 5 valid registration websites at most)

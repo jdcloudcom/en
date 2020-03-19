@@ -2,7 +2,7 @@
 Security group can act on any instance of the same VPC in the same region. Before creating security group, you need to create VPC.
 
 ## Operation Steps
-1. Access Security Group Console, or visit JD Cloud Console Click on the left navigation bar [Elastic Compute] - [Virtual Machine] - [Security Group] to enter the security group list page, click [Create], then pop up the creation window.
+1. Access Security Group Console, or visit JD Cloud & AI Console Click on the left navigation bar [Elastic Compute] - [Virtual Machine] - [Security Group] to enter the security group list page, click [Create], then pop up the creation window.
 ![](../../../../../image/vm/Operation-Guide-SG-create1.png)
 
 2. First, you need to select the region where the security group is located and VPC. The security group can only be applied to instances under the same VPC. You can create a security group for the VPC you have created. You can also click **Create VPC** to go to the VPC creation page and create a new VPC.

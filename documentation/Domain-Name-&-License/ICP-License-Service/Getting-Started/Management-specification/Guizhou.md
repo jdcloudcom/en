@@ -1,4 +1,4 @@
-**Rules of Unit Filing in Guizhou:**
+# **Rules of Unit Filing in Guizhou:**
 
 1. The unit must use the new documents integrating the three certificates to perform filing. The people whose age is under 18 is not allowed to perform filing
 
@@ -14,11 +14,11 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
-   **⑤Authorization Letter of Guizhou (this should be provided when website's responsible person is not the legal person) **
+   **⑤ Authorization Letter of Guizhou (this should be provided when website's responsible person is not the legal person) **
 
-   **⑥Certificate of Domain Name (this should be provided when the quantity of the submitting domain name in this time is ≥4)**
+   **⑥ Certificate of Domain Name (this should be provided when the quantity of the submitting domain name in this time is ≥4)**
 
    
 
@@ -32,6 +32,6 @@
 
 4. Data to be prepared prior to filing:
 
-   ①The color picture of the front and back of the personal ID card
+   ① The color picture of the front and back of the personal ID card
 
-   ②**Certificate of Domain Name (this should be provided when the quantity of the submitting domain name in this time is ≥4)**
+   ② **Certificate of Domain Name (this should be provided when the quantity of the submitting domain name in this time is ≥4)**

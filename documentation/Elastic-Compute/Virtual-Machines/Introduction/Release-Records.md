@@ -15,4 +15,4 @@ Virtual Machines billed by pay by configuration can be changed to monthly packag
 
 Feature Name|Feature Description|Launch Time|Launch Region|Document|
 :--|:--|:--|:--|:--|
-Virtual Machines Official Launch|Virtual Machine is a basic service unit of cloud computing provided by JD Cloud, providing computing services with scalable processing capacity. It includes CPU, memory, operating system, disk, network, security and all required resources. Every resource has a variety of specifications to choose to meet the personalized needs of different business. |April 1, 2016|All|[Virtual Machines Overview](https://docs.jdcloud.com/en/virtual-machines/product-overview)
+Virtual Machines Official Launch|Virtual Machine is a basic service unit of cloud computing provided by JD Cloud & AI, providing computing services with scalable processing capacity. It includes CPU, memory, operating system, disk, network, security and all required resources. Every resource has a variety of specifications to choose to meet the personalized needs of different business. |April 1, 2016|All|[Virtual Machines Overview](https://docs.jdcloud.com/en/virtual-machines/product-overview)

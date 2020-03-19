@@ -1,3 +1,5 @@
+# Description of Supplementary Materials in each Province
+
 In filing process, local Communication Administration needs different supplementary materials as the following summarized results, see:
 
 I. Unit Filing
@@ -18,4 +20,4 @@ II. Personal Filing
 
 (23) **Cannot filing** due to the ID card’s inconsistent with the filing province Heilongjiang, Shanxi, Gansu, Xinjiang, Qinghai, Chongqing, Henan, Jiangxi
 
-JD Cloud assessor will give a specific communication in the process of audit and rectification when other provinces need very few supplementary materials (certificate of enterprise change, license for practicing of danger, pre-approval, website construction proposal etc.)
+JD Cloud & AI assessor will give a specific communication in the process of audit and rectification when other provinces need very few supplementary materials (certificate of enterprise change, license for practicing of danger, pre-approval, website construction proposal etc.)

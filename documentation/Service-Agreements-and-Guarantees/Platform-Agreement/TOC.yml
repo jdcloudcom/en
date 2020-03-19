@@ -3,9 +3,7 @@
   items:
   - name: User Registration Agreement
     href: Registration-Agreement.md
-  - name: User Service Agreement
-    href: Service-Agreement.md
-  - name: JD Cloud Privacy Policy
+  - name: JD Cloud & AI Privacy Policy
     href: Privacy-Policy.md
   - name: Third-part’s account association and login agreement
     href: bind-agreement.md

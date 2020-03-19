@@ -1,4 +1,4 @@
-**Rules of Unit Filing in Hubei:**
+# **Rules of Unit Filing in Hubei:**
 
 1. Only one domain can be submitted for each filing;  
 
@@ -22,9 +22,9 @@
 
    ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
-   **⑤Authorization Letter of Hubei (provided when website's responsible person is not the legal person)**
+   **⑤ Authorization Letter of Hubei (provided when website's responsible person is not the legal person)**
 
-   ⑥For enterprise filing, please submit [Instruction for E-commerce Filing in Hubei](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/hubei/%E6%B9%96%E5%8C%97%E5%A4%87%E6%A1%88%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E8%AF%B4%E6%98%8E.docx)
+   ⑥ For enterprise filing, please submit [Instruction for E-commerce Filing in Hubei](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/hubei/%E6%B9%96%E5%8C%97%E5%A4%87%E6%A1%88%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E8%AF%B4%E6%98%8E.docx)
 
 **Rules of Personal Filing in Hubei:**
 

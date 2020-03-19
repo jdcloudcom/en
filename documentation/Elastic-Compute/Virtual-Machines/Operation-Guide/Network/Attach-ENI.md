@@ -26,7 +26,7 @@ Over 8-core	|8	|21
 
 ## Operation Steps
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. In the instance list, select the instance to which you want to bind the elastic network interface. Click the name to enter the details page.
 4. Click **Elastic Network Interface** tab - **Bind Elastic Network Interface**.

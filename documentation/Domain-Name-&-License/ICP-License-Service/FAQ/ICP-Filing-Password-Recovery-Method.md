@@ -1,3 +1,5 @@
+# Ways to Retrieve License Password
+
 **If you forget the password of your filing, you can retrieve your filing’s password through the manners of online retrieval and offline retrieval.**
 
 **I. Retrieve the Password of Filing Online**

@@ -1,4 +1,4 @@
-**Rules of Unit Filing in Sichuan:**
+# **Rules of Unit Filing in Sichuan:**
 
 1. The unit must use the latest documents integrating the three certificates to perform filing
 
@@ -10,11 +10,11 @@
 
 5. Data to be prepared prior to filing:
 
-   ①The clear color picture of Unified Social Credit Code
+   ① The clear color picture of Unified Social Credit Code
 
-   ②The clear color picture of the front and back of subject’s and website responsible person’s ID card
+   ② The clear color picture of the front and back of subject’s and website responsible person’s ID card
 
-   ③Official seal of the filing unit (the verification form shall be sealed during the process)
+   ③ Official seal of the filing unit (the verification form shall be sealed during the process)
 
 **Rules of Personal Filing in Sichuan:**
 

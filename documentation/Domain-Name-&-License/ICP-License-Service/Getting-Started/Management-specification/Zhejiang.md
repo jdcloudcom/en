@@ -1,4 +1,4 @@
-**Rules for Unit Filing in Zhejiang:**
+# **Rules for Unit Filing in Zhejiang:**
 
 1. Enterprises must use business license to perform filing
 
@@ -14,7 +14,7 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
 **Rules for Personal Filing in Zhejiang:**
 

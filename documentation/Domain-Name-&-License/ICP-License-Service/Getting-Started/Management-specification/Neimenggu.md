@@ -1,8 +1,8 @@
-**Rules of Unit Filing in Inner Mongolia:**
+# **Rules of Unit Filing in Inner Mongolia:**
 
 1. Enterprises must use the new documents integrating the three certificates to perform filing
 
-2. ** Responsible person of the subject shall be the legal person. The people whose age is under 18 is not allowed to perform filing**
+2. **Responsible person of the subject shall be the legal person. The people whose age is under 18 is not allowed to perform filing**
 
 3. **In case of prior filing with JD**, its filing information must be consistent with the actual information of the current unit. If there is any inconsistency, please go to the original filing provider to make change, and then apply for a new one
 
@@ -14,7 +14,7 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
 **Rules of Personal Filing in Inner Mongolia:**
 

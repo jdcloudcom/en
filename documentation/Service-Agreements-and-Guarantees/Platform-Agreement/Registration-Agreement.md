@@ -1,155 +1,295 @@
-## <div align=center>JD User Registration Agreement</div>
-This Agreement is a contract between you and the owner of JD website (abbreviation; the website URL: www.jd.com) (hereinafter referred to as "JD") on JD website services and other related matters. Please read carefully this registration agreement. After you click **Agree and Continue**, this Agreement constitutes a legal document binding on both parties.       
+## <div align=center>JD Cloud & AI User Service Agreement</div>
+This Agreement is the contract entered into by and between the user ("you") and the owner (hereinafter referred to as the "JD Cloud & AI") of JD Cloud & AI website (hereinafter referred to as "the website", the website: www.jdcloud.com) with respect to JD Cloud & AI website services and other related matters. Please read this agreement carefully. After you click the **Agree and Continue** button, this agreement is a legal document binding upon the Parties.<br/>
+JD Cloud & AI provides users with the products and services displayed on the website (hereinafter referred to as "JD Cloud & AI Service" and "the Service"), and will constantly update the service content. The latest JD Cloud & AI Service is subject to the presentation of relevant products and services on the website page and the actual provisions to users.
+<br/>
+### 1. General<br/><br/>
+1.1 You confirm: You have fully read, understood and accepted all contents of the Service Terms (especially those marked with bold and/or underline) before using the Service. Once you select "Agree" and complete the registration process or use the Service, it means that you agree to abide by all provisions of the Service Terms.<br/>
+1.2 You agree: JD Cloud & AI has the right to unilaterally change the Service Agreement and corresponding service rules at any time, and has the right to announce them by means of message push, webpage announcement, etc., without separate notification to you; if you continue to use the service after the change of the Service Terms is announced, it means that you have fully read, understood and accepted the modified agreement, and you will use the Service in accordance with the modified terms; and if you do not agree to the revised service terms, you shall immediately stop using the Service.
+<br/><br/>
+### 2. Account<br/><br/>
+#### 2.1 Registration
 
+2.1.1 Qualification of registrant
 
+(1) You confirm that you shall be a natural person, legal person or other organization with full capacity for civil rights and full capacity for civil conduct (hereinafter collectively referred to as "legal subject") when you complete the registration process or use the Service in other methods allowed by JD Cloud & AI.
 
-### Article 1 Confirmation and Acceptance of the Terms of Service on This Website      
-1.1 The ownership and operation rights of the various electronic services of this website belong to JD. Users agree to the terms of all registration agreements and complete the registration so as to become a formal user of this website. User Confirmation: The terms of this Agreement are a contract to deal with the rights and obligations of both parties, and are always valid. If there are other mandatory provisions of laws or special agreements between both parties, such provisions shall apply.      
+(2) If you are a minor or a person with limited capacity for civil conduct, you do not have the foregoing subject qualification, you and your guardian shall bear all consequences caused by your improper registration, and JD Cloud & AI has the right to cancel (permanently freeze) your account and claim compensation from you and your guardian.
 
-1.2 If the user clicks to agree to this Agreement, the user is deemed to confirm the corresponding rights and behavioral capacity to enjoy the service of this website, order shopping, etc., and can independently assume legal responsibilities.
+2.1.2 Registration, account and real-name verification
 
-1.3 If you are under the age of 18, you can only use this website with the guardianship participation of your parent or guardian.         
+(1) After you fill up the information in accordance with the registration page notification, read and agree the Service Terms and complete the whole registration process, or you fill up the information in accordance with the activation page notification, read and agree the Service Terms and complete the whole registration process, or you actually use the service of the website in other methods allowed by JD Cloud & AI, you are bound by the Service Terms. You can use the email, mobile phone number you provided or confirmed or other methods allowed by JD Cloud & AI as the login means to enter the website.
 
-1.4 JD reserves the right to refuse service, close user accounts, clear or edit content, or cancel orders within the scope permitted by the laws of the People's Republic of China.        
+(2) You understand and agree that you have obtained the account of JD Cloud & AI after you complete the registration procedure of the website the registration has been successful.
 
+(3) Currently, JD Cloud & AI allows a legal subject to have multiple JD Cloud & AI accounts, but one JD Cloud & AI account only corresponds to a unique legal subject. Unless otherwise provided by law or confirmed by an effective legal instrument, or in accordance with the conditions announced by JD Cloud & AI, you shall not transfer, grant or allow others to inherit your JD Cloud & AI account in any method. Meanwhile, upon the transfer, grant or inheritance of qualified JD Cloud & AI account, JD Cloud & AI shall have the right to request you, and/or the grantee, or your inheritor to provide qualified documents and handle the operation process as required by JD Cloud & AI.
 
+(4) You understand and agree that, in order to guarantee the security of the account and transaction, JD Cloud & AI has the right to request you to complete the real-name verification of JD Cloud & AI account at any time. Meanwhile, JD Cloud & AI may request you to provide more identity data and information for start-up of certain products or services. Your account can only be qualified to use related products or services after passing these authentications and verifications.
 
-### Article 2 Service of This Website        
-2.1 JD provides users with Internet information and other services through the Internet in accordance with the law. Users shall have the right to use the relevant services provided by the website on condition that they fully agree with this Agreement and the provisions of the website.        
+(5) Generally, your JD Cloud & AI account is the unique identification basis for all your activities on the website. Every JD Cloud & AI account can carry out activities independently on the website. But under one of any following circumstance, JD Cloud & AI is entitled to handle several JD Cloud & AI accounts owned by the same and/or associated legal subjects at its own discretion, including but not limited to:
 
-2.2 Users must prepare the following equipment and bear the following expenses:
+a) There is correlation of primary account and subaccount, authorizing account and authorized account among several JD Cloud & AI accounts and these accounts assume joint liability for each other in accordance with the laws and regulations, the Service Terms, the JD Cloud & AI product terms or other JD Cloud & AI rules;
 
-(1) Internet devices, including but not limited to computers or other Internet ends, modems and other necessary Internet devices;
+b) Several JD Cloud & AI accounts use a same real-name verification, of which two or more JD Cloud & AI accounts synchronously exist malice arrearage and/or violate the laws and regulations, the Service Terms, the JD Cloud & AI product terms or other JD Cloud & AI rules;
 
-(2) Internet expenses, including but not limited to network access fees, Internet equipment rental fees, mobile traffic cost, etc.        
+c) Several JD Cloud & AI accounts can be associated to the same account for payment, of which two or more JD Cloud & AI accounts synchronously exist malice arrearage and/or violate the laws and regulations, the Service Terms, the JD Cloud & AI product terms or other JD Cloud & AI rules;
 
+d) There is one or more same registration information, payments on behalf of others, purchased products or services being used for the same purpose or other associations among several JD Cloud & AI accounts existing malice arrearage and/or violating the laws and regulations, the Service Terms, the JD Cloud & AI product terms or other JD Cloud & AI rules and judging from other evidences, JD Cloud & AI believes the foregoing JD Cloud & AI accounts belong to a same legal subject or a same organization in fact;
 
+e) Other circumstances where JD Cloud & AI has sufficient reasons to handle several JD Cloud & AI accounts.
 
-### Article 3 User Information        
-3.1 The user shall provide the registration information to this website in good faith. The user agrees that the registration information provided is true, accurate, complete, legal and valid. If the user registration information changes, it shall be updated timely. If the registration information provided by the user is illegal, untrue, inaccurate or incomplete, the user shall bear the corresponding responsibility and consequences arising therefrom, and JD reserves the right to terminate services of JD.        
+2.1.3 Information
 
-3.2 When the user browses or places the order with shopping and other activities on this website, the user's real name/description, correspondence address, contact number, email and other private information will be strictly confidential. Unless the user's authorization or other legal provisions, this website will not disclose the user's private information to the outside world.        
+(1) When completing the registration or activation process, you shall, in accordance with the requirements of laws and regulations, accurately provide and timely update your data as per corresponding notification on the page to guarantee its authenticity, timeliness, completeness and accuracy. In case of any suspicion of error, misrepresentation, invalidation or incompleteness of your data by reasonable cause, JD Cloud & AI shall be entitled to give you a notice of inquiry and/or request for correctness and directly delete corresponding data till suspend or terminate the services partially or entirely provided for you. JD Cloud & AI will not bear any liability incurred thereby and you will assume any direct or indirect loss and adverse effect caused thereby.
 
-3.3 After successful registration, user name, password and other account information will be generated. The user can change password according to the website regulations. The user shall carefully and reasonably save and use his user name and password. If the user finds any illegal use of the user account or any security vulnerability, please notify this website immediately and report the case to the public security organ.        
+(2) You shall accurately fill in and timely update your email address, contact number, contact address, zip code and other contacts so that JD Cloud & AI or other members effectively contact you. In case of any failure to contact you through the above contacts, resulting in any loss or incremental expense during your application of JD Cloud & AI service, you shall undertake such loss or incremental expense by yourself. You understand and agree that you are obliged to maintain the effectiveness of your contacts; in the event of any update, you shall operate in accordance with JD Cloud & AI's requirements.
 
-3.4 The user agrees that JD has the right to send order information and promotion activities to registered users, shopping users and consignee via email, SMS and telephone, etc.
+#### 2.2 Account Security
 
-3.5 The user shall not lend the account registered on this website to others for use, otherwise the user shall bear all liabilities arising therefrom and shall be jointly and severally liable with the actual user.
+2.2.1   You must take responsibility for confidentiality of your own JD Cloud & AI account and password and all activities you engage in under this login name and password, including but not limited to information disclosure, information delivery, clicking **Agree** online or submitting rules agreements, renewing agreements online or purchase of services, etc.). You agree: (a) In the event any one uses your JD Cloud & AI account and password without authorization or violates confidentiality rules or any other circumstances, you shall immediately inform JD Cloud & AI and authorize JD Cloud & AI to synchronize this information on the JD website; and (b) to ensure you leave the website
+as per the correct procedures when finishing your access time. JD Cloud & AI cannot and will not be liable for any loss or damage caused by your failure of compliance with this provision. You understand that JD Cloud & AI requires for reasonably time to take action on your request and JD Cloud & AI will not answer for the consequences have caused prior to the action (including but not limited to your any loss).
 
-3.6 The user agrees that JD has the right to use the user’s registration information, user name, password and other information to log into the user's registered account for evidence preservation, including but not limited to notarization and witness.         
+#### 2.2.2 You understand and agree that JD Cloud & AI shall be entitled to understand your true background and purpose for using the website product and service and ask you to provide authentic, complete and accurate information; in the event JD Cloud & AI has reasonable grounds for suspecting that your information is false or you are engaging in sham transaction or your acts violate the website rules of JD Cloud & AI, JD Cloud & AI shall be entitled to temporarily or permanently restrict the functions, in part or in whole, of all products and/or services used under your account.
 
+#### 2.2.3 You understand and agree that, based on needs of operation and transaction security, JD Cloud & AI shall be entitled to temporarily stop or restrict the fund payment function, in part or in whole, under your account and JD Cloud & AI will inform you by email, intra-website message, SMS or phone and you shall pay timely attention and perform appeal and other subsequent operations as per the procedures.
 
+#### 2.2.4 You understand and agree that JD Cloud & AI shall be entitled to search, freeze or deduct your personal information and the funds, transaction and account in the website in accordance with the requirements of the state judicial, administrative, military and security organs (including but not limited to public security organ, procuratorial organ, court, customs, tax authority, security department, etc.).
 
-### Article 4 User's Obligation According to Laws        
-this Agreement is formulated in accordance with relevant national laws, regulations and rules. The user agrees to strictly observe the following obligations:        
+#### 2.3 Account Cancellation
 
-(1) No speech shall be transmitted or published: incitement to resist or undermine the implementation of the constitution, laws and administrative regulations, incitement to subvert the state power, overthrow the socialist system, incitement to split the country, undermine national unity, incitement to hatred, discrimination and destruction of national unity;        
+2.3.1 JD Cloud & AI reserves the right to suspend or terminate the services partially or entirely provided for you till cancel your JD Cloud & AI account if you violate the state or local laws and regulations or the Service Terms.
 
-(2) When transmitting information from China to overseas, it must comply with relevant Chinese laws and regulations;        
+2.3.2 Cancellation of login name
 
-(3) Do not use this website to engage in illegal activities such as money laundering, stealing trade secrets, and stealing personal information;        
+(1) You understand and agree that, where you do not login the website by your email, mobile or other means approved by the website and password for 12 consecutive months and there is no any undue service under your account, JD Cloud & AI shall be entitled to cancel your login name and you cannot login the JD Cloud & AI website anymore.
 
-(4) not interfering with the normal operation of this website, nor invading the information system of this website and national computer;        
+(2) You agree and authorize the JD website that, where you engage in fraudulent conduct, issuance or sale of imitative and inferior commodities, infringement of legal interests of others or other acts seriously violating rules of any of the JD websites in any of the JD websites, such website has the right to disclose such breach within the scope of JD websites and your JD Cloud & AI login name may be canceled, in which circumstance, you cannot login the JD Cloud & AI website anymore and your JD Cloud & AI website service will be terminated at the same time.
 
-(5) No information such as illegal, harassing, slanderous, abusive, intimidating, harmful, vulgar, obscene, and uncivilized may be transmitted or published;        
+#### 2.3.3 You guarantee not to take any acts or means impacting and damaging or may impact and damage the legal interests of the associated companies of JD and JD Cloud & AI or the companies and websites within the JD Group (including but not limited to JD and JD Finance, hereinafter collectively referred to as the JD Company); such acts or means impacting and damaging the legal interests of the JD Company and websites include but not limited to:
 
-(6) It is not allowed to transmit or publish information or speech that harms the public interest of the State and involves national security;        
+#### 2.3.3.1 Violation of any service agreement/term, management standard and transaction rule issued by JD;
 
-(7) Do not incite others to engage in acts prohibited by this article;        
+#### 2.3.3.2 Destruction or attempt to destroy the fair transaction environment or normal transaction order of JD;
 
-(8) Do not use the account registered on this website for profit-making business activities;        
+#### 2.3.3.3 Any suspicion of misguidance for others by using JD name and brand or any intention of presenting or mapping a certain relation with the JD Company by using certain Chinese or English words (full name or abbreviation), numbers, domain names, etc.;
 
-(9) Do not release any content that infringes the copyright or trademark rights of others, such as copyright or trademark rights;        
+#### 2.3.3.4 Other circumstances where JD Cloud & AI believes it may be the same nature as the above acts or may generate similar risks as above at its reasonable discretion.
 
-The user shall pay attention to and comply with the legal rules published or modified by this website frequently.        
+#### You acknowledge that JD Cloud & AI shall be entitled to terminate the services provided for you where you violate the above-mentioned agreement, namely you cannot login any of the JD website anymore and all your JD website services will be terminated at the same time.
 
-This website reserves the right to delete all kinds of information that do not comply with legal policies or untrue information without necessarily notifying the user.        
 
-If the user fails to obey the above provisions, this website has the right to make independent judgments and take measures such as suspending or closing the user account. The user is legally responsible for his own statements and actions on the Internet.  
 
-      
+### 3. Use Rules of Website Service
+In order to effectively secure your legal interests in using the Service, you understand and agree to accept the rules as below:
 
-### Article 5 Product Information        
-Product information such as the price, quantity, and availability of goods on this website may change at any time. This website does not give special notice. Although the website will do its best to ensure the accuracy of the product information you browse, you know and understand that the information displayed on this website may have certain lag or error due to the extremely large amount of product information on this website and the well-known Internet technology factors and other objective reasons. JD welcomes error correction and will reward the person who corrects the error as the case may be.        
+3.1 Instructions given by you to JD Cloud & AI by means including but not limited to the followings shall be deemed as your personal irrevocable or irrepealable instructions and you shall answer for any consequence incurred to JD Cloud & AI by performing the foregoing instructions.
 
-For the convenience of expression, product and service are referred to as; product; or; commodity;       
+3.1.1 All operations conducted through your JD Cloud & AI account and password;
 
+3.1.2 All messages sent to JD Cloud & AI through your mobile phone number associated with your account;
 
+3.1.3 Messages sent to JD Cloud & AI through other tangible items or intangible items such as hardware, terminal, designation, coding, code, other account name associated with your account;
 
-### Article 6 Order        
-6.1 When you place an order, please carefully confirm the name, price, quantity, model, specification, size, contact address, phone number, consignee and other information of the purchased product. If the consignee is inconsistent with the user, the behavior and will of the consignee shall be deemed as the behavior and will of the user, and the user shall be jointly and severally liable for the legal consequences of the behavior and will of the consignee.        
+3.1.4 Other means agreed by JD Cloud & AI with you or approved by JD Cloud & AI.
 
-6.2 Unless otherwise mandatory provisions of the law, the parties agree as follows: the information such as products and prices displayed by the seller on the website is only the release of transaction information, and you shall fill in the quantity, price and payment methods, consignee, contact information and address of the goods you wish to purchase when placing the order; the order information generated by the system is the data automatically generated by the computer information system based on the content you fill in, which is just the transaction appeal you send to the seller; after the seller receives the information of your order, only when the seller actually sends the product you have ordered from the warehouse to you (with the mark of product out of the warehouse) shall be deemed to have established a transaction relationship between you and the seller with respect to the product actually sent directly to you; if you place an order for multiple items and the seller sends you some items, you and the seller establish a transaction relationship only with the products that are actually sent directly to you; a transaction relationship can be established between you and the seller only with respect to the other items in the order that have actually been directly sent to you by the seller. You can log in to your account registered at this website to check the status of your order.        
+#### 3.2 In using the Service, the contents of the Service Terms, notification of transaction operation popping up on the page or message (SMS or phone, etc.) sent to your mobile by JD Cloud & AI shall be rules for your use of the Service; your use of the Service shall be the evidence of your agreement on accepting relevant rules of the Service. You understand and agree that JD Cloud & AI shall be entitled to unilaterally amend relevant rules of the service without your consent. The service rules shall be subject to the page notification (or SMS sent to the mobile or phone, etc.) when you use the Service; your agreement and compliance with the service rules shall be the prerequisite for your use of the Service.
 
-6.3 Due to market changes and various factors beyond the control of reasonable commercial efforts, this website cannot guarantee that the products you wish to purchase in your order information be available; if the product you intend to purchase is out of stock, you have the right to cancel the order.        
+#### 3.3 JD Cloud & AI may inform you of service progress and notify you of next action by email (or SMS sent to your mobile or phone call, etc.); but JD Cloud & AI will not guarantee your receipt or timely receipt of this email (or message sent to your mobile or phone, etc.) and will not be liable for any consequence incurred thereby. Therefore, you shall timely login the website to check and perform transaction operation in the course of service. JD Cloud & AI shall not bear any liability for any dispute or loss arising out of your failure of timely checking and modification or confirmation of service status or failure of submitting relevant application.
 
+3.4 You authorize JD Cloud & AI to obtain relevant data of you use the Service by reviewing your identity and qualifications with a third party.
 
+3.5 Before beginning to use a product or service of JD Cloud & AI, you may need to enter into a separate service agreement in respect of this product or service with JD Cloud & AI. You may use this product or service until you accept all contents of this service agreement; in the event you do not agree on this service agreement in part or in whole, please do not continue subsequent operations.
 
-### Article 7 Delivery        
-7.1 The seller will deliver the product (commodity) to the delivery address you have specified. All the delivery times listed on this website are reference time, which is estimated based on the inventory status, normal processing and delivery time and location.        
+#### 3.6 When you use the JD Cloud & AI service, JD Cloud & AI shall be entitled to collect service charges from you pursuant to corresponding charge instructions of product and/or service, orders and/or relevant agreements. JD Cloud & AI has the right to work out and adjust the service charges. Specific service charges and other relevant rights and obligations shall be subject to the announcement on collection manner listed on the page when you use the Service or other written agreement concluded by and between you and JD Cloud & AI.
 
-7.2 The seller shall not be responsible for the delay of delivery due to the following circumstances:        
+#### 3.7 When you use corresponding product and service of JD Cloud & AI, JD Cloud & AI will enter into a specific service agreement with you (including but not limited to service terms and service level agreements of products, etc.). In case of conflict between the service agreement of a specific product and this agreement, the specific service agreement shall prevail; in case of lack of agreement, this agreement shall prevail.
 
-(1) the information provided by the user is incorrect, the address is not detailed, etc.;        
+#### 3.8 Special Notification
 
-(2) no one signs after the delivery of the goods, resulting in failure to deliver or delay delivery;        
+#### 3.8.1 For part of the JD Cloud & AI service, after provision, though you do not add new service items or resources or conduct new operation, since charges and deduction for taking up resources will continue, please timely replenish amount in the account to guarantee the service will not be terminated or you shall timely terminate the service by yourself.
 
-(3) caused by circumstance changes;        
+#### 3.8.2 In the event your service is terminated by virtue of arrearage, you still shall pay off the overdue expenses. Otherwise, JD Cloud & AI will reserve the right to collect overdue fines from you on a daily basis as per 0.05% of your unpaid expenses.
 
-(4) caused by force majeure factors, such as natural disasters, traffic martial law, and sudden wars.        
+#### 3.8.3 JD Cloud & AI will retain all of your data in the cloud service account or any information stored in the JD Cloud & AI server by virtue of using JJD Cloud & AI service for 7 days, regardless of the agreement or JD Cloud & AI service is terminated by any reason. You shall undertake the cloud service charges generated during the retention and settle the bill, complete the migration and backup of all data prior to the expiration of the retention period. At the end of the retention period, JD Cloud & AI will terminate the service and the service system will automatically delete all of your data.
 
+#### 3.9 Appeal and Settlement
 
+#### 3.9.1 During you use the JD Cloud & AI service, you may be taken measures including but not limited to stopping all or part of the service, restricting all or part of functions of the service, freezing all or part of account funds, etc. by JD Cloud & AI due to one of the circumstances stated in Article 5.3 of the Service Terms, JD Cloud & AI will inform you of appealing as per corresponding procedures by Email, intra-website message, SMS or phone.
 
-### Article 8 Ownership and Terms of Intellectual Property Rights        
-8.1 Once the user accepts this Agreement, it indicates that any transferable right, such as property rights in a work (including but not limited to reproduction rights, distribution rights, rental rights, exhibition rights, performance rights, screening rights, broadcasting rights, information communication on network rights, filming rights, adaptation rights, translations rights, compilation rights, and other transferred rights that shall be enjoyed by the copyright holder) of any form of information (including but not limited to customer evaluation, customer consultation, various topic articles, etc.) that the user takes the initiative to disclose and publish on this website at any time are all exclusive and irrevocably transferred to JD. The user agrees that JD has the right to file a separate lawsuit against any subject infringement.        
+#### 3.9.2 Where you apply for canceling the above restriction or freeze or service recovery through the appeal procedures, you shall, in accordance with the requirements of JD Cloud & AI, faithfully provide the identification paper and relevant data and other information and documents required by JD Cloud & AI for JD Cloud & AI's verification. You shall fully understand your appeal may not be permitted and JD Cloud & AI shall be entitled to determine whether to approve your appeal request or not at its own discretion.
 
-8.2 This Agreement has constituted a written agreement on the transfer of rights in Article 25 of the Copyright Law of the People's Republic of China (the serial number of the Article is determined in accordance with the 2011 Copyright Law) and the property rights in a work of the relevant laws. The validity of this Agreement is published on the JD website. Its validity works at the contents of any published work protected by copyright law on the JD website, no matter whether such contents are formed before or after the conclusion of this Agreement.        
+#### 3.9.3 You understand and agree that, where you refuse to faithfully provide the identification paper and relevant data or fail to pass the review of JD Cloud & AI, JD Cloud & AI shall be entitled to freeze such account for a long term and restrict part of or all of the functions of such product or service for a long term.
 
-8.3 The user agrees and fully understands the terms of this Agreement and promises not to publish the information that has already published on this website in any form or authorize other subjects to use it in any way (including but not limited to various websites and media).        
+3.10 About Third Party
 
-8.4 JD is the producer of this website who owns the copyright and other legal rights of the content and resources of this website and is protected by national laws, and has the right to modify this Agreement and the content of this website from time to time, and post it on this website without further notice to users. JD has the right to interpret this Agreement and the content of this website to the fullest extent permitted by law.        
+3.10.1 If you obtain to use any products or services from a third party by using the Service, you may also be subject to the relevant terms and conditions of such third party; JD Cloud & AI shall admit no interference and shall not take any liability, and these Service Terms shall not affect your legal relation with such third party.
 
-8.5 Unless otherwise required by law, no unit or individual may copy, reprint, reprint, quote, link, grab or otherwise use the information contents of this website in whole or in part in illegal way without the specific written permission of JD. Otherwise, JD has the right to pursue its legal responsibility.        
+3.10.2 You acknowledge and agree that all of JD Cloud & AI's affiliated companies are third-party beneficiaries of these Service Terms, and JD Cloud & AI’s affiliated companies have the right to directly enforce and rely on any provisions of the Service Terms granting them benefits. Except for this, no third party may be a third party beneficiary of these Service Terms.
 
-8.6 The information published on this website (such as text, graphics, logos, button icons, images, sound file fragments, digital downloads, data editing and software) is the property of JD or its content providers and is protected by Chinese and international copyright laws. The compilation of all content on this site is the exclusive property of JD. It is protected by Chinese and international copyright laws. All software on this website are the property of JD or its affiliates software suppliers which are protected by Chinese and international copyright laws.        
 
+### 4. Your Rights and Obligations
+4.1 You have the right to enjoy the Internet technology and information services provided by JD Cloud & AI, and have the right to receive technical support, consulting and other services from JD Cloud & AI when accepting the services provided by JD Cloud & AI. For details of the service contents, please refer to the related product introduction on the website.
 
+4.2 You guarantee that you will not use the JD Cloud & AI Platform to engage in activities that endanger national interests, collective interests and the legitimate interests of citizens, and you may not jeopardize the security of JD Cloud & AI Platform, or use technology or other approaches to destroy or disrupt the websites of other JD Cloud & AI customers.
 
-### Article 9 Limitation of Liability and Non-commitment Guarantee        
-Unless otherwise explicitly stated in written forms, all information, contents, materials, products (including software) and services contained in or otherwise provided to you by the website are; all provided ; according to the present situation; and; according to the existing basis.        
+4.3 You shall respect the intellectual property rights and other legal rights of JD Cloud & AI and other third parties, and guarantee that JD Cloud & AI and its shareholders, employees, partners, etc., are protected in the event of illegal incidents in terms of infringing aforementioned rights and interests from influences or losses; JD Cloud & AI reserves the right to terminate the services provided to you when you infringe the legal rights of JD Cloud & AI without refund any payment.
 
-Unless otherwise explicitly stated in written forms, JD shall not make any representations or warranties in any form, express or implied, in respect of the operation of the website and the information, contents, materials, products (including software) or services contained on the site (as otherwise provided by laws of the People's Republic of China).        
+4.4 You are solely liable for all the consequences of your wrong contact provided to JD Cloud & AI and the unfavorable security and stability of your email address used to accept mails from JD Cloud & AI, including but not limited to the consequences and losses caused by timely notification of JD Cloud & AI.
 
-JD does not guarantee that there are no viruses or other harmful ingredients of all information, contents, materials, products (including software) and services contained in or otherwise provided to you by this website, emails and information sent from its servers or this website.        
+#### 4.5 You guarantee:
 
-JD will reasonably try its best to assist in the handling of the aftermath if the sales system of this website collapses or cannot be used normally due to force majeure or other reasons beyond the control of this website, resulting in online transactions not completed or related information and records lost, etc.        
+#### 4.5.1. When you use JD Cloud & AI products or services, you will comply with national and local laws and regulations, industry practices and social public ethics. You will not use the services provided by JD Cloud & AI to store, publish or disseminate the following information and content: Any contents (information) in violation of national laws, regulations and policies; political propaganda and/or news information in violation of national regulations; information concerning state secrets and/or security; feudal superstitions and/or obscenity, pornography, indecent information or crime instigation information; gambling prizes, gambling games; information in violation of national ethnic and religious policies; information impeding the safe operation of the Internet; information infringing the legitimate rights and interests of others and/or other information or contents detrimental to social order, social security and public morals; you also undertake not to provide any convenience for others publishing the aforementioned information or contents that does not comply with national regulations and/or the provisions in these Service Terms, including but not limited to setting URLs, BANNER links, etc.;
 
+#### 4.5.2. When using JD Cloud & AI products or services, you shall abide by the service terms you have signed with JD Cloud & AI, the management specifications, procedures, service descriptions, and price descriptions of JD Cloud & AI on the relevant pages of www.jdcloud.com, and the contents on the ordering page you confirmed agreement, including but not limited to:
 
+(1) You shall pay on time;
 
-### Article 10 Agreement Update and User Attention Obligations        
-In accordance with changes in national laws and regulations and the operation of the website, JD has the right to modify the terms of this Agreement from time to time. Once the revised agreement is posted on the site, it will take effect and replace the original agreement. Users can log in to check the latest agreement at any time;        
+(2) There shall be no acts or attempts to undermine network security;
 
-Users are obliged to pay attention to and read the latest version of the agreement and website announcement from time to time. If the user does not agree to the updated agreement, he/she may and should immediately stop accepting receiving the services provided by JD Website in accordance with this Agreement; if the user continues to use the services provided by this website, it shall be deemed to agree to the updated agreement. JD recommends that you read this Agreement and the announcement of this website before using it.        
+(3) You are not allowed to transmit any cross-border illegal information, not subject to network audit and ICP filing, with technical means through service of JD Cloud & AI.
 
-If any provision of this Agreement is deemed to be abolished, invalid or unenforceable for any reason, the article shall be deemed separable and shall not affect the validity and enforceability of any remaining provisions.        
+#### 4.5.3. You and your affiliated parties are not the subject(s) of trade restrictions, sanctions or other legal restrictions imposed by any country, international organization or region.
 
+For any violation to the aforementioned guarantees, JD Cloud & AI shall be entitled to take measures such as deleting information, suspending service or terminating service according to relevant Services Terms and to restrict functions of your account in part or in whole, such as purchase new product or service and renewal. For the suspected unlawful acts, JD Cloud & AI will report to relevant judicial supervision authorities. You shall cover loss of JD Cloud & AI due to your behavior as mentioned above (if any).
 
+4.6 If a service that you use includes downloadable JD Cloud & AI software, JD Cloud & AI will only grant you a non-exclusive, non-transferable, non-commercial personal use license. You may not copy, modify, publish, sell or rent the service or any part of the software contained therein, or conduct reverse engineering or attempt to extract the source code of the software, unless otherwise expressly stated or otherwise agreed between you and JD Cloud & AI.
 
-### Article 11 Jurisdiction and Application of Law        
-The conclusion, execution and interpretation of this Agreement and the resolution of disputes shall apply to the effective laws in the mainland of the People's Republic of China (but excluding the conflict of laws rules).         In the event of any conflict between this Agreement and the applicable law, these terms shall be reinterpreted in full accordance with the law, while other valid terms shall remain in force.        
+4.7 If the business information system deployed on JD Cloud & AI meets or must meet the national level protection grading or the requirements specified by the industry or the competent departments, you shall meet the security requirements of the corresponding level according to law, obtain the corresponding security verification or approval, and bear and be liable for the security checks of relevant departments.
 
-In the event of any dispute between the parties concerning the content of this Agreement or its implementation, the parties shall endeavor to solve such dispute through friendly consultation. When the negotiation fails, either party may file a lawsuit in the people's court where the agreement is signed. The signing place of this Agreement is Daxing District, Beijing, the People's Republic of China.        
 
+### 5. Rights and Obligations of JD Cloud & AI
+5.1 JD Cloud & AI shall provide you with qualified network technology and information services based on the services you select and the payments you made.
 
+5.2 JD Cloud & AI undertakes to taking external confidentiality measures on your data, not disclosing your information to third parties, and not authorizing third parties to use your information unless:
 
-### Article 12 Others       
-12.1 The owner of JD website refers to the business subject of JD website which is in legal license or ICP filling of government departments.         
+5.2.1 According to these Service Terms or other service agreements, contracts, online terms and other provisions between you and JD Cloud & AI;
 
-12.2 JD respects the legal rights of users and consumers. this Agreement and the various rules, statements and other contents published on this website are for better and more convenient service for users and consumers. This website welcomes users and the community to provide comments and suggestions and JD will accept and modify various rules of this Agreement and this website timely.  
+5.2.2 It is provided according to the provisions of laws and regulations;
 
-12.3 Please read carefully the terms of this Agreement which are clearly marked in SimHei, bold, underlined, italic, etc.
+5.2.3 Administrative, judicial and other authority departments require JD Cloud & AI to provide it;
 
-12.4 If you click **Agree and Continue** below this Agreement, you will be deemed to have fully accepted this Agreement. Please confirm again that you have known and fully understood this Agreement before clicking.
+5.2.4 You agree that JD Cloud & AI may provide it to third parties;
 
-[JD Users Registration Agreement-PDF Download](https://docs-downloads.oss.cn-north-1.jcloudcs.com/Registration-Agreement-pdf.pdf)
+5.2.5 JD Cloud & AI submit it to resolve a report or to file a lawsuit;
+
+5.2.6 JD Cloud & AI must submit it to take necessary and reasonable actions to prevent major illegal acts or suspected criminal acts;
+
+5.2.7 JD Cloud & AI provides it to third parties so as to provide products, services and information to you, including the situation where JD Cloud & AI provide products, services and information through third-party technology and services.
+
+5.3 JD Cloud & AI has the right to deduct the relevant service fees directly from your account balance as agreed in these Service Terms according to your use of the services.
+
+#### 5.4 When one of the following situations exists, JD Cloud & AI has the right to freeze part or all of the funds in your account:
+
+#### 5.4.1 As prescribed in national laws, regulations, policies and legal documents:
+
+#### 5.4.2 The national authorities request the freezing:
+
+#### 5.4.3 Your use of JD Cloud & AI services is suspected of violating national laws, regulations and administrative regulations;
+
+#### 5.4.4 JD Cloud & AI believes that there are exceptions in your account operations, funds in and out, etc. based on unilateral and reasonable judgments;
+
+#### 5.4.5 Someone may have improperly remitted funds to your account, which may result in your unjust enrichment:
+
+#### 5.4.6 You have been complained by someone, who has provided certain evidence:
+
+#### 5.4.7 Other situations where JD Cloud & AI believes in potential risks based on its own reasonable judgments.
+
+After JD Cloud & AI freezes your account funds according to the aforementioned regulations, you will be notified by email, intra-website message, SMS or phone to appeal following the corresponding procedures. If you appeal in accordance with the requirements of Article 3.8 of the Service Terms and have been reviewed and approved by JD Cloud & AI, JD Cloud & AI will immediately release the funds freezing measures; if you do not apply within the specified time, or your appeal fails to pass the JD Cloud & AI’s review, then you confirm that JD Cloud & AI has the right to freeze the funds for a long term, or return the relevant frozen funds to the source accounts (including but not limited to bank accounts, payment accounts, etc.) of such funds the same way they were recharged.
+
+5.5 Without prejudice to your use of JD Cloud & AI, JD Cloud & AI may transfer part or all of the contracted services to JD Cloud & AI's affiliated enterprises or partners. For the purpose of effectiveness of the paragraph, the Parties agree to sign all reasonable and necessary documents and take reasonable and necessary measures.
+
+
+### 6. Protection of Privacy and Other Personal Information
+Once you agree to these Service Terms or use the Service, you agree that JD Cloud & AI may use and disclose your personal information in accordance with the following terms.
+
+#### 6.1 Login Name and Password
+
+When you register your account, JD Cloud & AI will ask you to set up your JD Cloud & AI account login name and password to identify you and set password reminder questions and their answers to confirm your identity in case you lose your password. You may only use this account with the password you set. If you disclose your password, you may lose your personal identification information and may result in legal consequences disadvantageous to you. If the account and password are subject to potential or actual danger for any reason, you shall immediately contact JD Cloud & AI, and JD Cloud & AI shall take no liability for it before JD Cloud & AI takes actions.
+
+#### 6.2 Bank Account Information
+
+If the services provided by JD Cloud & AI require you to provide your bank account information, JD Cloud & AI will strictly implement the relevant confidentiality agreement after you provide the corresponding information.
+
+#### 6.3 Login Records
+
+To protect the security of your use of the Service and to continuously improve the service quality, JD Cloud & AI will record and save the information about your login and use of the Service; however, JD Cloud & AI guarantees not to provide such information to any third party (except as otherwise agreed by the Parties or otherwise prescribed in laws and regulations, and excluding the JD Cloud & AI’s affiliated companies).
+
+#### 6.4 Advertisement
+
+JD Cloud & AI will collect the identity data of JD Cloud & AI users comprehensively and use or disclose them for sales and rewards purposes.
+
+#### 6.5 Object url
+
+This website contains links to other websites; however, JD Cloud & AI is not liable for the privacy protection measures of other websites. JD Cloud & AI may add websites for business partners or shared brands whenever needed.
+
+#### 6.6 Security
+
+JD Cloud & AI only provides corresponding security measures according to the existing technology to ensure the information held by JD Cloud & AI will not be lost, abused or altered. These security measures include backing up data to other servers and encrypting users’ passwords. Despite these security measures, JD Cloud & AI does not guarantee the absolute security of the information.
+
+#### 6.7 User Information
+
+6.7.1. When you complete your account registration or activate your account, you shall provide your real name, address, nationality, phone number and Email address to JD Cloud & AI. You may also choose to fill in the relevant additional information (including but not limited to the province and city your company is located, time zone and zip code, fax number, personal home page and your position). You further understand and agree that when you agree to this Agreement or when you submit your personal information to JD Cloud & AI, you will transfer your data from your country to mainland China, and the transfer is a necessary step for fulfilling the Agreement concluded by and between you and JD Cloud & AI and/or providing you with the services you request.
+
+6.7.2. To provide better service to you, JD Cloud & AI is possible to collect and store your software information and hardware information from your intelligent equipment such as computer and mobile phone and the browser, backup information automatically uploaded to the Cloud Storage by default, and information you actively uploaded to JD Cloud & AI server. Such information includes but not limited to your JD Cloud & AI account, operation system information, your IP address, Cookie information, GPS and position service conditions, pages accessed by your, contacts, SMS and pictures you actively uploaded or automatically uploaded to Cloud Storage by your, etc.
+
+#### 6.8 You further agree that JD Cloud & AI may:
+
+6.8.1. Send you customized information or new product/service information via Email, phone (including voice calls, fax or message, if you declare that we can contact you in such way);
+
+6.8.2. Use your personal information for purpose of providing you with enhanced or analyzed statistical function or use or disclose personal information for purpose of sales or encourage.
+
+
+### 7. System Interruption or Fault
+JD Cloud & AI shall not be liable for compensation for damages if you cannot use all the Internet services caused by system malfunctions properly due to the following situations, including but not limited to:
+
+7.1 Caused by the system maintenance that JD Cloud & AI has notified the users in advance, including migration, maintenance, upgrade and simulation fault drill.
+
+7.2 Data transmission failure due to the fault of telecommunication equipment.
+
+7.3 Failure of business execution due to JD Cloud & AI’s system obstacles caused by force majeure such as typhoons, earthquakes, tsunamis, floods, power cuts, wars, terrorist attacks, etc.
+
+7.4 Service interruption or delay due to hacking, technical adjustments in the telecommunications sector or failures, website upgrades, banking issues, etc.
+
+7.5 Any problems caused by the network, equipment failure or configuration adjustment other than JD Cloud & AI’s equipment, including but not limited to the user side;
+
+
+### 8. Liability Scope and Liability Limitation
+8.1 JD Cloud & AI is solely liable for the liability scope set forth in these Service Terms.
+
+8.2 The cooperation units of the Service shall be liable for the quality and contents of the services provided by such cooperation units.
+
+8.3 You understand and agree that any third-party claims resulting from your use of the Service, violations of these Service Terms, or any actions taken under your account shall be and shall solely be borne by you. If JD Cloud & AI and its affiliated companies, employees, customers and partners are claimed by third parties, you shall be liable for handling them and take all liability arising therefrom.
+
+8.4   With permit by law, JD Cloud & AI shall take no liability for any indirect, punitive, special or derivative losses (including business loss, loss of revenues, loss of profits, use of data, business reputations and other loss of economic interests) in connection with or arising from these business, regardless of how they incur and whether or not they are caused by breach of contract (including breach of warranty) or infringement of the Service Terms, even if it has been previously notified of such losses. In addition, even if the exclusive remedies prescribed in these Service Terms do not meet the basic purposes, JD Cloud & AI's liability for the above losses shall be excluded.
+
+8.5 Under any circumstances, you agree that JD Cloud & AI's total liability for damage for these Service Terms shall not exceed the total amount of the service fees charged to you, unless otherwise prescribed in these Service Terms or otherwise agreed by and between you and JD Cloud & AI on a specific product and/or service.
+
+
+### 9. Complete Agreement
+9.1 The Service Terms are made up of these Service Terms and all the rules published on the website. The relevant terms may be referred to each other, and if there are different understandings, these Service Terms shall prevail.
+
+9.2 The section headings in these Service Terms are for convenience only and do not have legal or contractual effect.
+
+9.3 By understanding and agreeing to these Service Terms, you understand and agree to all the integral parts of these Service Terms; and once you use the Service, you and JD Cloud & AI are subject to all the integral parts of these Service Terms.
+
+9.4 Where partial contents of these Service Terms are deemed to be illegal by a court of jurisdiction, the effect of other contents shall not be affected.
+
+
+### 10. Protection of Trademarks and Intellectual Property Rights
+10.1 Except for third-party products or services, the intellectual property rights of all contents on the website, including but not limited to works, pictures, files, information, data, architecture and page design, are owned by JD Cloud & AI or JD Cloud & AI’s affiliated enterprises in accordance with law, including but not limited to trademark rights, patents, copyrights, trade secrets, etc.
+
+10.2 No one may use, modify, copy, publicly disseminate, alter, distribute, issue or publicly publish the programs or contents on the website without the written consent of JD Cloud & AI or JD Cloud & AI’s affiliated enterprises.
+
+10.3 Respecting intellectual property rights is your obligation, and you shall take liability for compensation for damages in the event of violations.
+
+
+### 11. Delivery of Notice
+11.1 You understand and agree that JD Cloud & AI may, based on its own judgments, notify you by means of web announcement, Email, SMS on mobile or regular mail delivery, and JD Cloud & AI may rely on the contact information provided by you to be complete, accurate and currently valid; the aforementioned notice is deemed delivered to the recipient on the date being sent.
+
+11.2 The notice you send to JD Cloud & AI shall be delivered according to the contact information such as the communication address, fax number and email address officially announced by JD Cloud & AI, unless otherwise agreed in these Service Terms or the notice methods are expressly prescribed in the agreement otherwise signed by and between you and JD Cloud & AI.
+
+
+### 12. Legal Application and Jurisdiction
+The laws of the People's Republic of China shall apply to the effect, interpretation, alteration, enforcement and dispute resolution of these Service Terms. Disputes arising from these Service Terms shall be resolved in accordance with the laws of the People's Republic of China and submitted to the People's Court of Jurisdiction of Daxing District, Beijing, where the Contract is signed.
+
+[JD Cloud & AI User Service Agreement - PDF Download](https://github.com/jdcloudcom/cn/blob/edit/image/Service-Agreements-and-Guarantees/Platform-Agreement/JDcloud-Service-Agreement-x.pdf)
 

@@ -84,6 +84,7 @@ Instructions:
 VII. Digivoice
 * Failure time = failure resolution time-failure start time. Calculate the failure time in minute, and calculate the failure time as one minute when the failure time is less than one minute. For example, if the failure time is 1 minute and 01 second, calculate as per 2 minutes.
 
-* Platform failure of JD Cloud digivoice big data is compensated by 100 times:
+* Platform failure of JD Cloud & AI digivoice big data is compensated by 100 times:
 
 * The way of compensation is to extend the use time of big data service, extension time = failure time * 100.
+

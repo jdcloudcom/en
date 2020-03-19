@@ -6,7 +6,7 @@
 * Images of local system disk cannot be deleted if the machine creating such images is available (if images are deleted, data cannot be recovered in case of migration or machine system breakdown). If image quota is insufficient due to this restriction, please open ticket to apply for quota increase.
 
 ## Operation Steps
-1. Access [Image Console][1], or access [JD Cloud Console](https://console.jdcloud.com/overview) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
+1. Access [Image Console][1], or access [JD Cloud & AI Console](https://console.jdcloud.com/overview) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
 2. Select the "Private Image" TAB to find the private image needs to be deleted, then select **Delete** in the private image list.
 ![](../../../../../image/vm/Operation-Guide-Image-delete1.png)
 

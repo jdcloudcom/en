@@ -4,7 +4,7 @@ You can output instance lists under designed regions via the Console, customize 
 
 ## Operation Steps
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. Click the export list icon on the top right corner of the Instance list page. <br> ![](../../../../../image/vm/exportinstance.png)
 4. Specify output range and output method in the "Output Data" popup: Select **All Data** in the output range and then all resource information under the current region will be outputted; if there are more than 2,000 data, please output them in batches by designating pages in the output method; if you select **Filter Data** in the output range, relevant data obtained by filtering will be outputted; and if you haven’t made any filter operation, all resource information under current region will not be outputted. If there are more than 2,000 data to be outputted, please select to output the data by batches by specifying the page. Select **Select Data** in the output range to output relevant data checked in the Instance List Page. <br> ![](../../../../../image/vm/importData1.png)

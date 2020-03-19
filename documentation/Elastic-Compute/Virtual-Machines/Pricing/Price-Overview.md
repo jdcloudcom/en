@@ -1,11 +1,11 @@
 # Price Overview
 
-You can directly use the [Virtual Machines Price Calculator] provided by JD Cloud (https://www.jdcloud.com/calculator/calHost) to check the price of the product portfolio you need, or you can check the price overview of related resources for the estimation of the input cost.
+You can directly use the [Virtual Machines Price Calculator] provided by JD Cloud & AI (https://www.jdcloud.com/calculator/calHost) to check the price of the product portfolio you need, or you can check the price overview of related resources for the estimation of the input cost.
 
 Please note: Prices on the Price Overview are unified official list prices, and do not include user discount. To ensure the accuracy of price, it is recommended that you use the VM Price Calculator after login or log in to the Console VM Instance Creation page to view the configuration price.
 
 
-The price of JD Cloud's VM instance mainly includes: instance price (vCPU and memory)/ cloud disk price/ EIP price. For the price of cloud disk, please refer to [Cloud Disk Price Overview](https://docs.jdcloud.com/en/cloud-disk-service/price-overview); for EIP price, please refer to [Elastic IP Price Overview](../../../Networking/Elastic-IP/Pricing/Price-Overview.md).
+The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU and memory)/ cloud disk price/ EIP price. For the price of cloud disk, please refer to [Cloud Disk Price Overview](https://docs.jdcloud.com/en/cloud-disk-service/price-overview); for EIP price, please refer to [Elastic IP Price Overview](../../../Networking/Elastic-IP/Pricing/Price-Overview.md).
 
 ## Instance Price:
 

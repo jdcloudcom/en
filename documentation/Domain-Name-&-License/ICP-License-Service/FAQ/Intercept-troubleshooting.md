@@ -1,4 +1,4 @@
-# **After the filing is successful, the following scenarios may still cause the domain name to be intercepted**
+# License Interception and Screen
 
 (1) Within 6 hours of receiving the notification by SMS or email for the successful filing (in general, it shall be 1 natural day by conservative calculation)
 

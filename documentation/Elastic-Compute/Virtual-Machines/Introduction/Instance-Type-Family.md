@@ -1,8 +1,8 @@
 # Instance Type Family
 
-An instance is the smallest unit for the computing services provided by JD Cloud for your business. Different instances identify their corresponding computing, memory, storage, and networking capabilities by their instance type familes and specific instance types. Meanwhile, the instance type family you specified when you create an instance determines the hardware configuration of this instance. You can select the appropriate instance type family and instance types based on the type and size of the application you need to deploy.
+An instance is the smallest unit for the computing services provided by JD Cloud & AI for your business. Different instances identify their corresponding computing, memory, storage, and networking capabilities by their instance type familes and specific instance types. Meanwhile, the instance type family you specified when you create an instance determines the hardware configuration of this instance. You can select the appropriate instance type family and instance types based on the type and size of the application you need to deploy.
 
-The following is the information on the instance type family currently sold on JD Cloud. The instance type families and instance types of the saleable instances in different regions are not identical, please refer to the information shown on the instance creation page. The specific Instance Type specifications can be classified according to different application scenarios:
+The following is the information on the instance type family currently sold on JD Cloud & AI. The instance type families and instance types of the saleable instances in different regions are not identical, please refer to the information shown on the instance creation page. The specific Instance Type specifications can be classified according to different application scenarios:
 
 * General: General Shared Type(instance-type-family#user-content-1), General Standard Type(instance-type-family#user-content-2)
 * Compute-Optimized Standard type: Compute Optimized Standard Type(instance-type-family#user-content-3)

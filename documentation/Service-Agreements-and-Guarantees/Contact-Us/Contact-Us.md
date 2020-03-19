@@ -1,6 +1,10 @@
 # Contact Us
-JD Cloud- Future Beyond Possibility<br />
-JD Cloud (JDCloud.com) is the cloud computing integrated service provider of JD Group, possessing world's leading cloud computing technology and complete service platform. With the rapid development of "Internet +", JD Cloud formed the cloud ecological pattern from the establishment of basic platform and planning of business advisory to the construction and operation of the business platform. Relying on JD Group's long-term business practices and technology accumulation in the cloud computing, big data, IoT and mobile internet applications, JD Cloud is also designed to build a public cloud service platform, and provide secure, professional, stable and convenient cloud computing services to the whole society. JD Cloud aims to work hand in hand with enterprises to develop together, create a new "Internet +" solution, and help enterprises realize the transformation and upgrading of "Internet +" business. JD Cloud expert team is at your service at any time.
+
+JD Cloud & AI is the intelligent technology provider under JD Group. Based on business practices and technical accumulation as for AI, big data, cloud computing, IoT and others of JD Group, JD Cloud & AI forms the scientific and technical ecology pattern from establishment of basic platform, business consultation and planning, business platform construction to operation & maintenance. JD Cloud & AI has digital and intelligent products and creates multi-scenario solutions serving digital enterprises and governments, making values for customers. 
+
+JD Cloud & AI provides multi-cloud, safe and trustworthy basic cloud service, including Public Cloud, Private Cloud, Hybrid Cloud and Proprietary Cloud; supported by the intelligent supply chain, it provides digital and intelligent Industrial Internet Application Cloud Service; in August 2019, JD Cloud & AI Neuhub Platform was selected as the "National AI Open Innovation Platform of New Generation for Intelligent Supply Chain", further improving out external output capacity of JD Cloud & AI supply chain; meanwhile, JD Cloud & AI focuses on release of applications, provides the intelligent cloud service of next generation, which is represented by edge computing and coordinated from the cloud, side and end level; and JD Cloud & AI explores business modes and release scientific and technical values with trustworthy technologies. 
+
+JD Cloud & AI is dedicated to becoming the most trustworthy intelligent technology provider.
 <br />
 1. 400 Service Phone Number<br />
 Tel: 400 615 1212<br />
@@ -12,6 +16,6 @@ Service Time: 7*24h Support<br /><br />
 4. Email<br />
 Mail: jdcloud@jd.com<br />
 Service Time: 7*24h Support<br /><br />
-5. JD Cloud WeChat Service Account<br />
-Wechat: JD Cloud<br />
+5. JD Cloud & AI WeChat Service Account<br />
+Wechat: JD-jcloud<br />
 Service Time: 7*24h Support

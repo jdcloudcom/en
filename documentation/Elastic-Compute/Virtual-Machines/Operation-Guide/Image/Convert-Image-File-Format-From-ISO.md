@@ -27,10 +27,10 @@ Set the capacities of CPU and memory and choose the disk capacity. The capacity 
 ![](../../../../../image/vm/Image-Import-convert-iso3.png)<br>
 ![](../../../../../image/vm/Image-Import-convert-iso4.png)<br>
 ![](../../../../../image/vm/Image-Import-convert-iso5.png)<br>
-Start setting the partition sheet after choosing the speech. This is an important step. Use one root directory region based on JD Cloud’s requirements. As shown below, click the circled option with yellow identifier in the figure, and choose "I will configure partitioning" in the following interface.
+Start setting the partition sheet after choosing the speech. This is an important step. Use one root directory region based on JD Cloud & AI’s requirements. As shown below, click the circled option with yellow identifier in the figure, and choose "I will configure partitioning" in the following interface.
 ![](../../../../../image/vm/Image-Import-convert-iso6.png)<br>
 ![](../../../../../image/vm/Image-Import-convert-iso7.png)<br>
-It is especially noteworthy that the "LVM" mode selected by default must be changed to the traditional partition mode. Please click **Add** to add new attach points, choose the standard partition, and choose the file system type complying with JD Cloud’s requirements (the default file system of CentOS 7 is xfs; the default file system of Ubuntu is ext4; the default file system of Windows is NTFS). Moreover, according to JD Cloud’s image requirement, only one partition of the system disk is required. Both Windows and Linux shall set only one root partition, when setting partitions.
+It is especially noteworthy that the "LVM" mode selected by default must be changed to the traditional partition mode. Please click **Add** to add new attach points, choose the standard partition, and choose the file system type complying with JD Cloud & AI’s requirements (the default file system of CentOS 7 is xfs; the default file system of Ubuntu is ext4; the default file system of Windows is NTFS). Moreover, according to JD Cloud & AI’s image requirement, only one partition of the system disk is required. Both Windows and Linux shall set only one root partition, when setting partitions.
 
 When the Ubuntu system image is made, there is a disk partition setting step, although the installation interface is different. Similarly, we only need to set one main partition. In case the Windows system is slightly different, a hidden partition will be generated after Windows is installed (as shown in the following figure). So, there should be two partitions in the Windows system: One is hidden partition, and the other is default system partition known as disk C.
 ![](../../../../../image/vm/Image-Import-convert-iso8.png)<br>
@@ -46,7 +46,7 @@ At this point, Centos 7 is completely installed.
 
 For the specific installation method, please refer to [install virtio driver](https://docs.jdcloud.com/en/virtual-machines/install-virtio-driver).
 
-### 4. Configure the software environment required by JD Cloud
+### 4. Configure the software environment required by JD Cloud & AI
 Please refer to [private image imporation](https://docs.jdcloud.com/en/virtual-machines/import-private-image), check and configure the system environment, and install the [public image system component](https://docs.jdcloud.com/en/virtual-machines/default-agent-in-public-image).
 
 ### 5. Get image files

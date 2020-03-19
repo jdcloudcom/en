@@ -1,8 +1,8 @@
 # Create Windows Instance
-1. Access [Instance Console](https://cns-console.jdcloud.com/host/compute/list), or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Instance** to enter the instance list page.
+1. Access [Instance Console](https://cns-console.jdcloud.com/host/compute/list), or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Instance** to enter the instance list page.
 
 
-2. Select the region where the instance belongs and click  **Create** to enter the VM purchase page. You are suggested to select the region of the instance according to the business condition. Fore more information about the region of JD Cloud, please refer to [Region and Availability Zone](../Introduction/Regions-and-AvailabilityZones.md).
+2. Select the region where the instance belongs and click  **Create** to enter the VM purchase page. You are suggested to select the region of the instance according to the business condition. Fore more information about the region of JD Cloud & AI, please refer to [Region and Availability Zone](../Introduction/Regions-and-AvailabilityZones.md).
 ![](../../../../image/vm/Getting-Start-Linux-Create-Region.png)
 
 3. Select the Billing Method: User can choose monthly package or pay by configuration. Monthly package is purchased and charged as per entire month, while paying by configuration is charged according to the actual using time (accurate to the second) with fee deducted per hour. For the difference between the two billing methods, please see [Billing Rules](../Pricing/Billing-Rules.md).
@@ -18,9 +18,9 @@
 6. Select Image: The image is divided into cloud system disk image and local system disk image, the former only supports the creation of instance with Cloud Disk as the system disk, and the latter only supports the creation of instance with the local disk as the system disk.
 	In addition, the images are of following types: **Public Image**, **Private Image**, **Shared Image** and **Image in Marketplace**. Please refer to [Image Overview](../Operation-Guide/Image/Image-Overview.md) for division details.
 	       
-	Users first using JD Cloud can choose the "Public Image" provided by JD Cloud. You can choose the corresponding system and the appropriate version as required.
+	Users first using JD Cloud & AI can choose the "Public Image" provided by JD Cloud & AI. You can choose the corresponding system and the appropriate version as required.
 	
-	If you have created your own instance and configured the appropriate environment, you can create a Private Image for this instance, create a batch of hosts based on this image with the same system and environment configuration, and share this private image with other JD Cloud users. 
+	If you have created your own instance and configured the appropriate environment, you can create a Private Image for this instance, create a batch of hosts based on this image with the same system and environment configuration, and share this private image with other JD Cloud & AI users. 
 ![](../../../../image/vm/Getting-Start-Windows-Create-image.png)
 
 7. Select Instance Type: The instance type supports customized selection of users, from minimum 1-core 1GB (such as g.s1.micro) to the maximum 72C576GB (such as m.n2.18xlarge). Users can select the instance type and corresponding configuration according to different business scenarios. For details, please see [Instance Type](../Introduction/Instance-Type-Family.md).
@@ -49,7 +49,7 @@
 
 10. Configure EIP Bandwidth:
 
-   * Billing by Bandwidth: JD Cloud provides elastic IP charged by fixed bandwidth and by traffic, the former is charged according to the bandwidth cap set when purchasing, which is not related to the actual access to the public network bandwidth, and the latter is charged according to the actual traffic of your real-time access to the public network.
+   * Billing by Bandwidth: JD Cloud & AI provides elastic IP charged by fixed bandwidth and by traffic, the former is charged according to the bandwidth cap set when purchasing, which is not related to the actual access to the public network bandwidth, and the latter is charged according to the actual traffic of your real-time access to the public network.
    * IP Provider: Elastic IP provider is divided into BGP and non-BGP, and BGP is provided for a faster and more efficient network access.                
    * Bandwidth Range: 1Mbps~200Mbps.
 You may not purchase the public IP during the process of creating a host. After the host is created, you can associate it. The Elastic IP bandwidth cost is independent of the instance cost. For specific price information, please refer to [Elastic IP Price](../../../Networking/Elastic-IP/Pricing/Price-Overview.md).      

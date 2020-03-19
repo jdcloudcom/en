@@ -1,4 +1,4 @@
-**Rules of Unit Filing in Guangxi:**
+# **Rules of Unit Filing in Guangxi:**
 
 1. Enterprises must use the new documents integrating the three certificates to perform filing
 
@@ -20,7 +20,7 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
 **Rules of Personal Filing in Guangxi:**
 

@@ -60,7 +60,7 @@ The implementation of the customized data function depends on the system compone
 
 * Public Image: This function can be used normally when using the public image to create an instance after December 14, 2018;<br>
 * Private/shared Image: If an instance of a private image is created using a public image and created no earlier than December 14, 2018, then this function can be normally used when using the private/shared image to create instances;<br>
-* Cloud Marketplace Image: The frequency of Cloud Marketplace image update depends on the service provider. Different images support different types of customized data functions. Please open ticket or contact JD Cloud technical support personnel for consulting.
+* Cloud Marketplace Image: The frequency of Cloud Marketplace image update depends on the service provider. Different images support different types of customized data functions. Please open ticket or contact JD Cloud & AI technical support personnel for consulting.
 
 You can confirm whether the private image created based on the current instance supports this function by viewing the version of JCS-Agent in the instance by the following means. If the agent installed in the current instance is other early-stage components or the version of JCS-Agent is too low, please refer to [Public Image System Component](http://docs.jdcloud.com/en/virtual-machines/default-agent-in-public-image) for installation.<br>
 
@@ -99,7 +99,7 @@ wmic process where caption="MonitorPlugin.exe" get caption,commandline /value
 <div id="user-content-4"></div>
 
 ## Operation Steps
-1. Access [Instance Console](https://cns-console.jdcloud.com/host/compute/list), or access the JD Cloud Console and click on the left navigation bar **Elastic Compute** - **Virtual Machines** - **Instance** to enter the instance list page and click **Create** to enter the Virtual Machines purchase page.
+1. Access [Instance Console](https://cns-console.jdcloud.com/host/compute/list), or access the [JD Cloud & AI Console)(https://console.jdcloud.com/) andAz click on the left navigation bar **Elastic Compute** - **Virtual Machines** - **Instance** to enter the instance list page and click **Create** to enter the Virtual Machines purchase page.
 2. Select the region where the instance belongs and click **Create** to enter the VM instance purchase page.
 3. After selecting image and completing other basic configurations, turn on the "Customized Data" function in the "Advanced Options" area.
 ![](../../../../../image/vm/Operation-Guide-Instance-userdata5.png)

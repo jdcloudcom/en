@@ -1,6 +1,6 @@
 # Assign Secondary Private IP
 
-The private IP of JD Cloud is an IP address that cannot be accessed through the Internet. JD Cloud supports you to assign multiple private IP addresses to different elastic network interface of the instance, which are the main private IP and secondary private IPs of the corresponding ENI. Each private IP can be associated to an elastic IP:
+The private IP of JD Cloud & AI is an IP address that cannot be accessed through the Internet. JD Cloud & AI supports you to assign multiple private IP addresses to different elastic network interface of the instance, which are the main private IP and secondary private IPs of the corresponding ENI. Each private IP can be associated to an elastic IP:
 
 Primary private IP address: The first private IP address assigned when elastic network interface is created can be specified by the user or assigned by the system but not supported for release.
 
@@ -14,7 +14,7 @@ The single elastic network interface can have an upper limit of 21 private IP ad
 
 ## Operation Steps
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. In the instance list, select the instance that needs to be assigned the secondary private IP and click the name to enter the details page.
 4. Click ENI Tab, select the ENI that needs to be assigned IP, and click Assign Private IP.

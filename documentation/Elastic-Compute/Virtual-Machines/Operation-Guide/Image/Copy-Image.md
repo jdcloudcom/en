@@ -16,7 +16,7 @@ The image replication operation includes, first, it copies the cloud disk snapsh
 
 
 ## Operation Steps
-1. Access [Image Console][1] to enter the image list page. Or access [JD Cloud Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
+1. Access [Image Console][1] to enter the image list page. Or access [JD Cloud & AI Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
 2. Select **Private Image** TAB, select the private image needs to be replicated (the image type must be the cloud system disk), click **More** - **Copy Image**; or batch to tick no more than 5 images, click **Copy Image** below the list.
 ![](../../../../../image/vm/Operation-Guide-Image-copy1.png)
 ![](../../../../../image/vm/Operation-Guide-Image-copy2.png)
@@ -34,4 +34,5 @@ The image replication operation includes, first, it copies the cloud disk snapsh
 
 
   [1]: https://cns-console.jdcloud.com/host/image/list
+  [2]: https://console.jdcloud.com
 

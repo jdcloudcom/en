@@ -1,13 +1,15 @@
-  name: Website Threat Scan
-  href: 
-  items:
+name: Website Threat Scan
+href: 
+items:
   - name: Introduction
     items:
-      - name: Website Threat Scan System
+      - name: Product Overview
         href: Introduction/Product-Overview.md
-      - name: Product Architecture
+      - name: Technical Architecture
         href: Introduction/Basic-Infrastructure.md
-  - name: Operation Manual
+      - name: Features
+        href: Introduction/Features.md
+  - name: User Guide
     items:
       - name: Threat Overview
         href: Operation-Guide/Threat-Overview.md
@@ -16,6 +18,4 @@
       - name: Task management
         href: Operation-Guide/Task-Management.md
       - name: Risk Management
-        href: Operation-Guide/Risk-Management.md         
-
-
+        href: Operation-Guide/Risk-Management.md

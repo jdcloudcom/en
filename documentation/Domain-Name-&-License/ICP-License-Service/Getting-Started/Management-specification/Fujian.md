@@ -1,9 +1,9 @@
-** Rules for Unit Filing in Fujian:**
+# ** Rules for Unit Filing in Fujian:**
 
 1. The unit must use the latest documents integrating the three certificates to perform filing
 
 2. For the item of subject’s responsible person and website’s responsible person, they must be filled with the legal person. If they are not filled with the legal person, the authorization letter provided by the legal person shall be provide (![img](http://cms.jcloud.com/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif)
-[Authorization Letter of Fujian.doc](https://img1.jcloudcs.com/cms/7374aaf2- Dcf6-41fc-99b8-a07636fbf09a20180503112947.doc))
+[Authorization Letter of Fujian.doc](https://img1.jcloudcs.com/cms/7374aaf2-dcf6-41fc-99b8-a07636fbf09a20180503112947.doc))
 
 3. Through the business phone, it must be able to contact corresponding responsible person, otherwise the filing will not be passed.
 
@@ -21,7 +21,7 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
    **⑤ Authorization Letter of Fujian (this should be provided when the responsible person is not the legal person)**
 

@@ -21,12 +21,12 @@ After purchasing and launching an instance of Linux type, you can choose to logi
 Create an instance and acquire the account number and corresponding password:
 
 * Administrator Account: root
-* Password: JD Cloud instance can obtain password in two ways.
+* Password: JD Cloud & AI instance can obtain password in two ways.
   * When creating an instance, select **Set Later** and the system will send a default password by SMS and email. You can use the default password to verify when you login to the instance.
   * Select **Set Now**, and then you should enter a customized password in the password setting text box. If you forget the password, you can reset the password by [Reset Password](../Operation-Guide/Instance/Reset-Password.md). This function is only available for the "Running" instance.
 
 ## Use VNC to Login Linux Instance
-VNC login is a way provided by JD Cloud for remote connection to instance for users via Web browser. In the case that a remote login client is not installed or the client remote login is not available, the user can connect to the instance through VNC login, observe the instance status, and perform basic instance management operations through the instance user.
+VNC login is a way provided by JD Cloud & AI for remote connection to instance for users via Web browser. In the case that a remote login client is not installed or the client remote login is not available, the user can connect to the instance through VNC login, observe the instance status, and perform basic instance management operations through the instance user.
 The scenarios of VNC login include at least the following:
 
 * View the starting progress of the instance
@@ -48,7 +48,7 @@ Please note:
 * File upload and download are not supported yet.
 
 ## Local Windows, Use Password/Key Pair to Login through Remote Login Software
-You can use a variety of remote login software to login to the JD Cloud Linux instance. If you use the key pair to login to the instance, you need to enable the key pair login function when creating the instance and bind a key pair to the instance. Please ensure the private key pair of the bound key pair has been downloaded before that. For the creation of key pair, please refer to [Create a Key Pair](../Operation-Guide/Key-Pair/Create-Keypair.md).
+You can use a variety of remote login software to login to the JD Cloud & AI Linux instance. If you use the key pair to login to the instance, you need to enable the key pair login function when creating the instance and bind a key pair to the instance. Please ensure the private key pair of the bound key pair has been downloaded before that. For the creation of key pair, please refer to [Create a Key Pair](../Operation-Guide/Key-Pair/Create-Keypair.md).
 
 Meanwhile, please check the instance association [Security Group](http://docs.jdcloud.com/en/virtual-private-cloud/security-group-features) and the [Network ACL](http://docs.jdcloud.com/en/virtual-private-cloud/network-acl-features) configuration of the subnet to confirm instance 22 port has been opened.
 

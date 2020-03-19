@@ -1,8 +1,10 @@
+# Description of ICP License Domain Verification Function
+
 This information is according to the Standardized Network Information Service Use of Domain Name by MIIT. Relevant notice from MIIT link: <http://www.miit.gov.cn/newweb/n1146285/n1146352/n3054355/n3057709/n3057714/c5930543/content.html> .
 
 To implement the requirements of Anti-Terrorism Law of the People's Republic of China, Cybersecurity Law of People's Republic of China, Internet Information Service Management Measures and Internet Domain Name Management Method and further standardize the use of Internet information service domain names, from January 1, 2018, domain names of Internet using should be registered according to law; registrants of personal filing should be himself/herself; and registrants of corporate filing should be the units (including company shareholder), responsible person of the subject of the units or the senior managers.
 
-Communication management department will check the website filing domain name after submitting your filing message to communication management department through JD Cloud. JD Cloud cannot provide service for you as requests if you can’t pass the verification. Besides, JD Cloud will verify the domain name using state of Internet information service users regularly through the filing system. According to the requirements of communication management department, JD Cloud will stop providing access services for those whose domain name does not exist or expired without real identity information when verifying.
+Communication management department will check the website filing domain name after submitting your filing message to communication management department through JD Cloud & AI. JD Cloud & AI cannot provide service for you as requests if you can’t pass the verification. Besides, JD Cloud & AI will verify the domain name using state of Internet information service users regularly through the filing system. According to the requirements of communication management department, JD Cloud & AI will stop providing access services for those whose domain name does not exist or expired without real identity information when verifying.
 
 For your website filing related business, please complete the relevant information of your holding domain name as soon as possible.
 

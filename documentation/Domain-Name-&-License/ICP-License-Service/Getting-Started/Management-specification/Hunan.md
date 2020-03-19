@@ -1,4 +1,4 @@
-**Rules of Unit Filing in Hunan:**
+# **Rules of Unit Filing in Hunan:**
 
 1. Only one domain can be submitted for each filing  
 
@@ -24,11 +24,11 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
-   **⑤All color pictures of domain-name certificate involved in this filing**
+   **⑤ All color pictures of domain-name certificate involved in this filing**
 
-   **⑥Authorization Letter of Hunan (this should be provided when website's responsible person is not the legal person)**
+   **⑥ Authorization Letter of Hunan (this should be provided when website's responsible person is not the legal person)**
 
    
 
@@ -48,6 +48,6 @@
 
 7. Prepare materials before filing:
 
-   ①The clear color picture of the front and back of the personal ID card
+   ① The clear color picture of the front and back of the personal ID card
 
-   ②**All color pictures of domain-name certificate involved in this filing**
+   ② **All color pictures of domain-name certificate involved in this filing**

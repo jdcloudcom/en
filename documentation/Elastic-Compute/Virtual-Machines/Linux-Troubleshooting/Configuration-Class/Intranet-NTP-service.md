@@ -1,5 +1,5 @@
 # Intranet NTP Service
-JD Cloud provides an intranet NTP server for Virtual Machines. You only need to make corresponding configuration to synchronize with the NTP server. Configuration method is as follows:
+JD Cloud & AI provides an intranet NTP server for Virtual Machines. You only need to make corresponding configuration to synchronize with the NTP server. Configuration method is as follows:
 
 
 

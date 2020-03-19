@@ -1,6 +1,6 @@
 # Create Instance
 
-You should specify information such as the instance type, image, VPC, security group, and login password when creating an instance. JD Cloud provides the user with a variety of ways to create an instance, including:
+You should specify information such as the instance type, image, VPC, security group, and login password when creating an instance. JD Cloud & AI provides the user with a variety of ways to create an instance, including:
 
 * [Create customized instance](Create-Instance#user-content-1)
 * [Create instance by instance template](Create-Instance#user-content-2)
@@ -27,7 +27,7 @@ The custom creation indicates that you need to customize the region, availabilit
 You can create an instance of the same configuration as your current instance, including information such as the region, instance type, image, VPC, security group, etc., without including information such as the availability zone, login password, instance name, and description, etc. Clone instance is a quick customized creation method,
 The detailed steps are as follows:
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. Select the instance in the list where you want to create within the same configuration, click Operate - More - Clone Instance, or click More - Clone Instance on the details page of the instance where you want to create within the same configuration to enter the instance creation page.
 4. The creation method in the creation page is customized instance creation by default, and instance type, image, VPC, security group, etc. will be selected in the same configuration as the original instance by default, which you can change. In addition, you should select the availability zone, re-specify the login password, instance name, and description, etc. 
@@ -41,7 +41,7 @@ The detailed steps are as follows:
 <div id="user-content-2"></div>
 
 ## Create Instance by Instance Template
-The instance template is the configuration information template for creating VM instance provided by JD Cloud, including the image, instance type, type and capacity of system disk & data disk, VPC and subnet configuration, security group, and login information, etc., but without including the availability zone, instance name and description, etc. Please refer to [Instance Template Overview](http://docs.jdcloud.com/en/virtual-machines/instance-template-overview) for detailed instructions of the instance template.
+The instance template is the configuration information template for creating VM instance provided by JD Cloud & AI, including the image, instance type, type and capacity of system disk & data disk, VPC and subnet configuration, security group, and login information, etc., but without including the availability zone, instance name and description, etc. Please refer to [Instance Template Overview](http://docs.jdcloud.com/en/virtual-machines/instance-template-overview) for detailed instructions of the instance template.
 
 When creating instance by instance template, the configuration included in the instance template is selected by default and you can change it based on this.
 
@@ -65,7 +65,7 @@ The detailed steps are as follows, there are two operation entrances:
 <div id="user-content-3"></div>
 
 ## Create Instance in Availability Group
-Availability Group (AG) is a logical collection of VM instance provided by JD Cloud. The instances in the Availability Group are distributed on the physical resources that are isolated from each other. When a hardware failure occurs, only some instances are affected. Your overall business is still not available. For details of Availability Group, please see [Availability Group Overview](http://docs.jdcloud.com/en/availability-group/product-overview).
+Availability Group (AG) is a logical collection of VM instance provided by JD Cloud & AI. The instances in the Availability Group are distributed on the physical resources that are isolated from each other. When a hardware failure occurs, only some instances are affected. Your overall business is still not available. For details of Availability Group, please see [Availability Group Overview](http://docs.jdcloud.com/en/availability-group/product-overview).
 
 Create instance in the Availability Group means that the newly created instances will be deployed on the corresponding physical resources according to the rules of the current Availability Group
 

@@ -12,7 +12,7 @@ If you no longer need these instances due to business changes, you can delete in
 		* When an instance is deleted, the attached cloud disk will be executed according to the configured delete attributes. The associated elastic IP will continue to be retained. If you do not need to keep it, please go to the corresponding page to delete it in void of extra cost.
 
 ## Operation Steps
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. Select the instance you want to delete from the instance list and confirm that its status is "Stopped". If you need to operate multiple instances at the same time, you can complete through multiple selection.
 4. Single Operation: Click **Operate** - **More** - **Delete**, or click instance name to enter the details page and then click **Operate** - **Delete**.

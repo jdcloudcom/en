@@ -1,4 +1,4 @@
-**Rules of Unit Filing in Henan:**
+# **Rules of Unit Filing in Henan:**
 
 1. Only one domain can be submitted for each filing  
 
@@ -20,9 +20,9 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
-   **⑤Certificate of Domain Name (this should be provided when the quantity of the submitting domain name in this time is ≥4)**
+   **⑤ Certificate of Domain Name (this should be provided when the quantity of the submitting domain name in this time is ≥4)**
 
 **Rules of Personal Filing in Henan:**
 
@@ -38,6 +38,6 @@
 
 6. Prepare materials before filing:
 
-   ①The clear color picture of the front and back of the personal ID card
+   ① The clear color picture of the front and back of the personal ID card
 
-   ②**Certificate of Domain Name (this should be provided when the quantity of the submitting domain name in this time is ≥4)**
+   ② **Certificate of Domain Name (this should be provided when the quantity of the submitting domain name in this time is ≥4)**

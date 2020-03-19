@@ -15,7 +15,7 @@ You can create a private image from an instance created as required, and use thi
 		
 		
 ## Operation Steps
-1. Access [Virtual Machines Console][1] to enter the instance list page. Or access [JD Cloud Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Instance** to enter the instance list page.
+1. Access [Virtual Machines Console][1] to enter the instance list page. Or access [JD Cloud & AI Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Instance** to enter the instance list page.
 2. Select the instance which you want to create a private image and click**More** - **Create Image**.
 ![](../../../../../image/vm/Operation-Guide-Image-create1.png)
 3. In the pop-up window of create images, supplement the "Name" and "Description" of the private image，click **OK** to start the creation of the private image.

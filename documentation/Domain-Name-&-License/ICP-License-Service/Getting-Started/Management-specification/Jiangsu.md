@@ -1,4 +1,4 @@
-**Rules of Unit Filing in Jiangsu:**
+# **Rules of Unit Filing in Jiangsu:**
 
 1. If **the responsible person of the subject is not the legal person**, website’s responsible person should be the responsible person of the subject
 
@@ -12,13 +12,13 @@
 
 6. Data to be prepared prior to filing:
 
-   ①The clear color picture of Unified Social Credit Code
+   ① The clear color picture of Unified Social Credit Code
 
-   ②The clear color picture of the front and back of subject’s and website responsible person’s ID card
+   ② The clear color picture of the front and back of subject’s and website responsible person’s ID card
 
-   ③Official seal of the filing unit (the verification form shall be sealed during the process)
+   ③ Official seal of the filing unit (the verification form shall be sealed during the process)
 
-   ④**All color pictures of domain-name certificate involved in this filing**
+   ④ **All color pictures of domain-name certificate involved in this filing**
 
 **Rules of Personal Filing in Jiangsu:**
 
@@ -34,6 +34,6 @@
 
 6. Data to be prepared prior to filing:
 
-   ①The clear color picture of the front and back of the personal ID card
+   ① The clear color picture of the front and back of the personal ID card
 
-   ②Color pictures of domain-name certificate
+   ② Color pictures of domain-name certificate

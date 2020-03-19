@@ -21,4 +21,3 @@ The information on database and table permission supported by the instance is as
 
 
 
-![修改权限2](../../../../../image/RDS/Modify-Privilege-2.png)

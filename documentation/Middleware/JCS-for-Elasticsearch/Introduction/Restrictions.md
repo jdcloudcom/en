@@ -1,5 +1,5 @@
 ## Restrictions
-For security reasons, JCS for Elasticsearch cluster is constructed in Virtual Private Cloud (VPC), and the writing and search of the cluster data is also limited within the same VPC network.
+### Region and Availability Zone
 
 <table>
 	<thead>
@@ -43,19 +43,12 @@ For security reasons, JCS for Elasticsearch cluster is constructed in Virtual Pr
    </tbody>
 </table>
 
-
-### Specification Configuration
+### Specification Restriction
 
 |Limit Item|Limiting Rules | Exceptional Application Method
 :--|:---|:---
-|Cluster Version|V6.5.4, V5.6.9|Unadjustable
-|Data Node Count|cn-north-1 (Availability Zone A): 1-20, cn-north-1 (Availability Zone B): 1-40, cn-north-1 (Availability Zone C): 1-15, cn-east-2 (Availability Zone A): 1-30, cn-east-2 (Availability Zone B): 1-15, cn-east-2 (Availability Zone C): 1-15, |Ticket
-|Coordinator Node Count	|cn-north-1 (Availability Zone A): 2-20, cn-north-1 (Availability Zone B): 2-40, cn-north-1 (Availability Zone C): 2-15, cn-east-2 (Availability Zone A): 2-30, cn-east-2 (Availability Zone B): 2-15, cn-east-2 (Availability Zone C): 2-15 |Ticket
-|Dedicated Primary Node Count|	3|Unadjustable
-|Node Storage|20-4000G (the step size is 10GB)|Unadjustable
-|Specification of Data Node|1-core 2G, 2-core 4G, 2-core 8G, 4-core 16G, 8-core 32G, 16-core 64G|Unadjustable
-|Specification of Coordinator Node|2-core 8G, 4-core 16G, 8-core 32G, 16-core 64G|Unadjustable
-|Specification of Dedicated Primary Node|2-core 8G, 4-core 16G, 8-core 32G, 16-core 64G|Unadjustable
+|Cluster Version|V6.5.4, V5.6.9, V6.7.0|Unadjustable
+|Quota of Instances that Can Be Created in Each Region|20| Ticket
 
 ### Network Access
 

@@ -12,7 +12,7 @@
 
 The cloud disk is attached to the instance as a data disk by default. The detailed steps are as follows:
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. In the Instances list, select the instance to which the cloud disk is to be attached and click on the name to go to the details page.
 4. Click **Disk** tab - **Attach**.
@@ -22,7 +22,7 @@ The cloud disk is attached to the instance as a data disk by default. The detail
 
 If the instance currently has not attached a system disk with the device name of /dev/vda, you can attach the cloud disk as the system disk of the instance. The detailed steps are as follows:
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. In the Instances list, select the instance to which the cloud disk is to be attached and click on the name to go to the details page.
 4. Click **Disk** tab - **Attach**.

@@ -1,5 +1,5 @@
 # SQL Image Login Method of Windows System
-Some Windows image systems of JD Cloud have Microsoft SQL Server database, and customers may fail to log in for the first login to SQL Server;
+Some Windows image systems of JD Cloud & AI have Microsoft SQL Server database, and customers may fail to log in for the first login to SQL Server;
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9FSQL%E9%95%9C%E5%83%8F%E7%99%BB%E9%99%86%E6%96%B9%E6%B3%9501.png)
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/Virtual-Machine/Windows/Windows%E7%B3%BB%E7%BB%9FSQL%E9%95%9C%E5%83%8F%E7%99%BB%E9%99%86%E6%96%B9%E6%B3%9502.png)

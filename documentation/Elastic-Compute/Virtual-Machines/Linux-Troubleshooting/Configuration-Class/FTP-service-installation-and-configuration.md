@@ -11,7 +11,7 @@ Vsftpd is one of the most recommendable FTP server programs among the Linux rele
 
 **I.  Preparation Before Installation**
 
-Use the public image CentOS 7.3 64-bit to create a VM instance in JD Cloud, connect and login as root.
+Use the public image CentOS 7.3 64-bit to create a VM instance in JD Cloud & AI, connect and login as root.
 
 **II. FTP Installation**
 

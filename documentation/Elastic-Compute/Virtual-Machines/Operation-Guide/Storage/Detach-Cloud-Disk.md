@@ -7,7 +7,7 @@ If you want to detach the system disk from an instance, the instance needs to be
 
 The cloud disk is attached to the instance as a data disk by default. The detailed steps are as follows:
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. In the Instances list, select the instance from which the cloud disk is to be detached and click on the name to go to the details page.
 4. Click **Disk** Tab, find the cloud disk to be detached and click **Detach**. ![](../../../../../image/vm/detachclouddisk.png)

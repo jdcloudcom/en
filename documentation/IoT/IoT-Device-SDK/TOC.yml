@@ -16,7 +16,9 @@
   - name: Secondary API
     href: Developer-Guide-Device/API.md  
   - name: Gateway Function
-    href: Developer-Guide-Device/Gateway_Connection.md         
+    href: Developer-Guide-Device/Gateway_Connection.md     
+  - name: Device End OTA Support
+    href: Developer-Guide-Device/Device-OTA.md      
   - name: Terminology
     href: Developer-Guide-Device/Glossary.md 
   - name: Device SDK Download

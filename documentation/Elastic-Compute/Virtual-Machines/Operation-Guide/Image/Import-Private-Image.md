@@ -1,7 +1,7 @@
 # Private Image Importation
 ## Function Overview
 
-Private image importation means that the system disk of the server used by you in the locality or other cloud environments is saved as an image and imported into the JD Cloud environment, so as to rapidly achieve the business deployment on JD Cloud.<br>
+Private image importation means that the system disk of the server used by you in the locality or other cloud environments is saved as an image and imported into the JD Cloud & AI environment, so as to rapidly achieve the business deployment on JD Cloud & AI.<br>
 
 Use Description about Image Importation:<br>
 * As for image importation, currently only system disk image importation is supported;
@@ -46,8 +46,8 @@ Use Description about Image Importation:<br>
 
 ![](../../../../../image/vm/Image-Import-Image-Overview.png)<br>
 ### 1. Image Preparation
-To guarantee the availability of imported images, please be sure to conduct image configuration test before import by referring to JD Cloud image making requirements, especially key configuration of starting method, partition and [virtio Installation](https://docs.jdcloud.com/en/virtual-machines/install-virtio-driver), and carry out import operation after confirming the images conforming to JD Cloud specifications.<br>
-Meanwhile, to guarantee that imported images can get such functions as password modification, monitoring data reporting, security scan testing, etc. under the JD Cloud environment, you are suggested to install important system components before exporting images. For the functions and installation methods of system components, please refer to: [Public image system components](https://docs.jdcloud.com/en/virtual-machines/default-agent-in-public-image). <br>
+To guarantee the availability of imported images, please be sure to conduct image configuration test before import by referring to JD Cloud & AI image making requirements, especially key configuration of starting method, partition and [virtio Installation](https://docs.jdcloud.com/en/virtual-machines/install-virtio-driver), and carry out import operation after confirming the images conforming to JD Cloud & AI specifications.<br>
+Meanwhile, to guarantee that imported images can get such functions as password modification, monitoring data reporting, security scan testing, etc. under the JD Cloud & AI environment, you are suggested to install important system components before exporting images. For the functions and installation methods of system components, please refer to: [Public image system components](https://docs.jdcloud.com/en/virtual-machines/default-agent-in-public-image). <br>
 For Linux images, self inspection of important system configurations can be completed with the image self-inspection tool provided by us. For the use method, please refer to: [Image Self-inspection Tool](Image-Check-Tool.md)
 
 ### 2. Image File Generation
@@ -104,7 +104,7 @@ jdc vm image-tasks --region-id cn-north-1 --task-action ImportImage --input-json
 ```
 After the image import is finished, please use the image to create VM instance to test whether the creation is successful and whether the basic function is normal. If any exception occurs, you can check compliance with basic requirements for image production. If the problem still cannot be solved, please open ticket or contact customer service to get technical supports.
 
-After the import is successful, if you need to configure JD Cloud Intranet yum source or ntp service, you can refer to [Linux System Configuration of yum Source and ntpd Service](https://docs.jdcloud.com/en/virtual-machines/linux-yum-ntpd).
+After the import is successful, if you need to configure JD Cloud & AI Intranet yum source or ntp service, you can refer to [Linux System Configuration of yum Source and ntpd Service](https://docs.jdcloud.com/en/virtual-machines/linux-yum-ntpd).
 
 ## Related References
 [Public image system components](https://docs.jdcloud.com/en/virtual-machines/default-agent-in-public-image)

@@ -38,15 +38,15 @@ The user name test_user is connected to the postgres database instance:
  
  3. Right click Servers and select **Create** > **Server**.
  
-![Connect-Instance-PostgreSQL1](../../../../image/RDS/Connect-Instance-PostgreSQL1.png)
+![Connect-Instance-PostgreSQL1](../../../../../image/RDS/Connect-Instance-PostgreSQL1.png)
 
 4. Enter the server name on the common tab page of Create - Server page.
 
-![Connect-Instance-PostgreSQL2](../../../../image/RDS/Connect-Instance-PostgreSQL2.png)
+![Connect-Instance-PostgreSQL2](../../../../../image/RDS/Connect-Instance-PostgreSQL2.png)
 
 5. Select the Connection tab and enter information of the instance to be connected.
 
-![Connect-Instance-PostgreSQL3](../../../../image/RDS/Connect-Instance-PostgreSQL3.png)
+![Connect-Instance-PostgreSQL3](../../../../../image/RDS/Connect-Instance-PostgreSQL3.png)
 ### Parameter Description
 
  Host Name/Address: If Intranet connection is adopted, it is necessary to enter the Intranet address of RDS instance. If Internet connection is adopted, it is necessary to enter the Internet of RDS instance. Please follow the steps below for viewing Intranet and Internet addresses and port information of RDS instance:
@@ -66,4 +66,4 @@ The user name test_user is connected to the postgres database instance:
 
 7. If the connection information is correct, please select **Servers > Server Name > Database > postgres**. If the following interface is popped up, it means connection succeeds.
 
-![Connect-Instance-PostgreSQL4](../../../../image/RDS/Connect-Instance-PostgreSQL4.png)
+![Connect-Instance-PostgreSQL4](../../../../../image/RDS/Connect-Instance-PostgreSQL4.png)

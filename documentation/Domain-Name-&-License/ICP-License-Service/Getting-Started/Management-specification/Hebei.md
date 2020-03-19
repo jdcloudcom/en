@@ -1,4 +1,4 @@
-**Rules of Unit Filing in Hebei:**
+# **Rules of Unit Filing in Hebei:**
 
 1. The latest documents integrating the three certificates to perform filing must be used
 
@@ -16,7 +16,7 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
 **Rules of Personal Filing in Hebei:**
 

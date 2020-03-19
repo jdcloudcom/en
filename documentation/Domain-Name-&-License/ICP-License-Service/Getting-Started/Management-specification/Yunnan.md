@@ -1,4 +1,4 @@
-**Rules for Corporate Filing in Yunnan:**
+# **Rules for Corporate Filing in Yunnan:**
 
 1. The unit must use the latest documents integrating the three certificates to perform filing
 
@@ -8,13 +8,13 @@
 
 4. Data to be prepared prior to filing:
 
-   ①The clear color picture of Unified Social Credit Code
+   ① The clear color picture of Unified Social Credit Code
 
-   ②The clear color picture of the front and back of subject’s and website responsible person’s ID card
+   ② The clear color picture of the front and back of subject’s and website responsible person’s ID card
 
-   ③Official seal of the filing unit (the verification form shall be sealed during the process)
+   ③ Official seal of the filing unit (the verification form shall be sealed during the process)
 
-   ④The colorful images of the certificate for the domain name to be submitted for filing
+   ④ The colorful images of the certificate for the domain name to be submitted for filing
 
 **Rules for Personal Filing in Yunnan:**
 
@@ -26,6 +26,6 @@
 
 4. Data to be prepared prior to filing:
 
-   ①The clear color picture of the front and back of the personal ID card
+   ① The clear color picture of the front and back of the personal ID card
 
-   ②The colorful images of the certificate for the domain name to be submitted for filing
+   ② The colorful images of the certificate for the domain name to be submitted for filing

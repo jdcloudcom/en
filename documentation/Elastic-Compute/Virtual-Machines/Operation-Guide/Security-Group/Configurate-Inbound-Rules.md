@@ -4,7 +4,7 @@ Inbound rules are used to filter network traffic from the cloud network or other
 ## Precautions
 * Security group rules in the state. If you allow instance to send a request externally by configuring an inbound rule, the response traffic for that request will be allowed to flow regardless of the outbound rule configuration.
 ## Operation Steps
-1. Access [Security Group Console]https://cns-console.jdcloud.com/host/netSecurity/list, or access [JD Cloud Console](https://console.jdcloud.com/overview) click the left navigation bar **Elastic Compute** - **Virtual Machines** - **Security Group** to enter the security group list page and find the security group that needs to be configured with inbound rules, click **Modify Inbound Rules** in **More** or click the security group name to jump to its details page.
+1. Access [Security Group Console]https://cns-console.jdcloud.com/host/netSecurity/list, or access [JD Cloud & AI Console](https://console.jdcloud.com/overview) click the left navigation bar **Elastic Compute** - **Virtual Machines** - **Security Group** to enter the security group list page and find the security group that needs to be configured with inbound rules, click **Modify Inbound Rules** in **More** or click the security group name to jump to its details page.
 ![](../../../../../image/vm/Operation-Guide-SG-inbound1.png)
 2. Enter the Inbound Rules TAB page and click **Edit Rules** on the page to enter the Inbound Rules Edit page.
 ![](../../../../../image/vm/Operation-Guide-SG-inbound2.png)

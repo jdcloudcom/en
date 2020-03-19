@@ -1,4 +1,4 @@
-**Rules of Unit Filing in Xinjiang:**
+# **Rules of Unit Filing in Xinjiang:**
 
 1. Enterprises must use the new documents integrating the three certificates to perform filing
 
@@ -14,7 +14,7 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
    ⑤Certification of CCP construction should be issued at local Cyberspace Administration.
 
@@ -28,8 +28,8 @@
 
 4. Data to be prepared prior to filing:
 
-   ①The clear color picture of the front and back of the personal ID card
+   ① The clear color picture of the front and back of the personal ID card
 
-   ②A certificate of party construction issued by the local CAC shall be required
+   ② A certificate of party construction issued by the local CAC shall be required
 
  

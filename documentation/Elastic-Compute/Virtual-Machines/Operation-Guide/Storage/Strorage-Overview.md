@@ -1,5 +1,5 @@
 # Storage Overview
-The instance of JD Cloud provides different types and combinable data storage devices. Storage devices of different types and capacities have different performance and price, which are applicable to different scenarios. According to different dimensions, they can be divided into the following categories:
+The instance of JD Cloud & AI provides different types and combinable data storage devices. Storage devices of different types and capacities have different performance and price, which are applicable to different scenarios. According to different dimensions, they can be divided into the following categories:
 <table>
    <tr>
       <td> Dimension  </td>
@@ -43,11 +43,11 @@ The local disk and the instance are in the same physical machine. With the insta
 ### Cloud Disk
 The cloud disk is a data block storage device with a triple copy architecture, which makes it highly available.
 
-JD Cloud provides five classes of cloud disks with different storage mediums, including general SSD Cloud Disk, performance-oriented SSD Cloud Disk, capacity-oriented HDD Cloud Disk. Currently, you may use cloud disk whose life cycle is independent from that of the instance as the data disk of the instance. Such cloud disk can be either purchased along with the instance, or be separately purchased after the creation of the instance and then attached to the instance, and can be unattached from the current instance and attached to other instances.
+JD Cloud & AI provides five classes of cloud disks with different storage mediums, including general SSD Cloud Disk, performance-oriented SSD Cloud Disk, capacity-oriented HDD Cloud Disk. Currently, you may use cloud disk whose life cycle is independent from that of the instance as the data disk of the instance. Such cloud disk can be either purchased along with the instance, or be separately purchased after the creation of the instance and then attached to the instance, and can be unattached from the current instance and attached to other instances.
 
 In addition, it can support the creation of multi-point attaching cloud disk. For details, refer to [Multi-point Attaching Cloud Disk](Strorage-Overview#user-content-1).
 
-You can create a snapshot of the cloud disk to keep a backup of the data, and create a new cloud disk from the snapshot at any time and attach it to another instance. For more information of the cloud disk, please refer to [Cloud Disk Product Documentation of JD Cloud](http://docs.jdcloud.com/en/cloud-disk-service/product-overview).
+You can create a snapshot of the cloud disk to keep a backup of the data, and create a new cloud disk from the snapshot at any time and attach it to another instance. For more information of the cloud disk, please refer to [Cloud Disk Product Documentation](http://docs.jdcloud.com/en/cloud-disk-service/product-overview).
 
 ## Category according to Purpose
 
@@ -65,12 +65,12 @@ The instances support the use of local disk and the Cloud Disk Service as the da
 
 **The local disk is only provided by the GPU virtual machine at present, and the data will be cleared at the time of shutting down the virtual machine. It is not suggested to save important data here.
 
-**Cloud Disk** Support multiple types, including General SSD Cloud Disk, Performance SSD Cloud Disk and Capacity-oriented HDD Cloud Disk. Each instance can attach a maximum of 7/8 cloud disks as data disks (if the system disk is a cloud disk, 7 cloud disks can be attached as data disks). In case of adjustment to this quota, please go to [Open Ticket][1] for application. Please refer to [JD Cloud Disk Documentation](http://docs.jdcloud.com/en/cloud-disk-service/product-overview) for more information.
+**Cloud Disk** Support multiple types, including General SSD Cloud Disk, Performance SSD Cloud Disk and Capacity-oriented HDD Cloud Disk. Each instance can attach a maximum of 7/8 cloud disks as data disks (if the system disk is a cloud disk, 7 cloud disks can be attached as data disks). In case of adjustment to this quota, please go to [Open Ticket][1] for application. Please refer to [Cloud Disk Product Documentation](http://docs.jdcloud.com/en/cloud-disk-service/product-overview) for more information.
 
 ## Block Storage Device Mapping
 Each instance has a system disk for operating system, and you can also attach more data disks to the instance. For details, please refer to [Attach Cloud Disk](Attach-Cloud-Disk.md). The instance uses the block storage device mapping to map these storage devices to locations that can be recognized by itself.
 
-Block storage is a storage device that is partitioned in bytes and supports random access. JD Cloud supports two types of block storage devices:
+Block storage is a storage device that is partitioned in bytes and supports random access. JD Cloud & AI supports two types of block storage devices:
 
 * System Disk (Local Disk or Cloud Disk)
 * Data Disk (Cloud Disk)
@@ -90,7 +90,7 @@ When it is attached to an instance, it shares the quota of attachable cloud disk
 
 
 ## Related Reference
-[Cloud Disk Product Documentation of JD Cloud](http://docs.jdcloud.com/en/cloud-disk-service/product-overview)
+[Cloud Disk Product Documentation](http://docs.jdcloud.com/en/cloud-disk-service/product-overview)
 
 [Create Cloud Disk](http://docs.jdcloud.com/en/virtual-machines/create-cloud-disk)
 

@@ -1,8 +1,10 @@
+# Website Change
+
 **Process of Submitting License for First Review**
 
 **I. Log in Filing System**
 
-1. Log in the official website of JD Cloud [www.jdcloud.com](http://www.jdcloud.com) and click **Filing** on the upper right
+1. Log in the official website of JD Cloud & AI [www.jdcloud.com](http://www.jdcloud.com) and click **Filing** on the upper right
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20200117/image/ICP-License-Service/Change-website-cn-1.jpg)
 
@@ -30,7 +32,7 @@
 
   ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20200117/image/ICP-License-Service/Change-website-cn-6.jpg)
 
-Submit information and wait for first view by JD Cloud.
+Submit information and wait for first view by JD Cloud & AI.
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20200117/image/ICP-License-Service/Change-website-cn-7.jpg)
 
@@ -40,11 +42,11 @@ If the first view fails, the system will display contents below and customers ca
 
 **Face-to-face Verification and Shooting Process**
 
-1. After the first review, please log in the JD Cloud filing system and the person in charge of the on-line transaction shall be responsible for shooting and verification.
+1. After the first review, please log in the JD Cloud & AI filing system and the person in charge of the on-line transaction shall be responsible for shooting and verification.
 
-If no JD Cloud curtain is available, please click the **Apply for Sending Curtains by Post** button. Fill in the mailing address and then JD Cloud will send the curtain to the mailing address by post (such address must be within Mainland China). After receiving the curtain, please take photos and upload such photos for review (please read the shooting instruction in advance and do not take photos while putting on red or blue jackets).
+If no JD Cloud & AI curtain is available, please click the **Apply for Sending Curtains by Post** button. Fill in the mailing address and then JD Cloud & AI will send the curtain to the mailing address by post (such address must be within Mainland China). After receiving the curtain, please take photos and upload such photos for review (please read the shooting instruction in advance and do not take photos while putting on red or blue jackets).
 
-If you have the JD Cloud curtain and took photos, please directly **Upload Photos**.
+If you have the JD Cloud & AI curtain and took photos, please directly **Upload Photos**.
 
 **Shooting requirements:**
 
@@ -52,7 +54,7 @@ a)   Person taking photos must be the same person as the person in charge of web
 
 b)   Person in charge needs to stand in the middle of the background curtain, and only the upper part of the body is required;
 
-c)   The whole background canvas must be the curtain of JD Cloud, and the curtain shall be blue and with clear characters;
+c)   The whole background canvas must be the curtain of JD Cloud & AI, and the curtain shall be blue and with clear characters;
 
 d)   The dressing of the person in charge shall correspond to the season (for example, he/she shall not take the photo while putting on a T-shirt).
 
@@ -60,11 +62,11 @@ d)   The dressing of the person in charge shall correspond to the season (for ex
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20200117/image/ICP-License-Service/Change-website-cn-10.jpg)
 
-2. After the photo is reviewed, JD Cloud will submit your filing information to the communication administration for review within 1 working day
+2. After the photo is reviewed, JD Cloud & AI will submit your filing information to the communication administration for review within 1 working day
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20200117/image/ICP-License-Service/Change-website-cn-11.jpg)
 
-The communication administration will inform the review result in forms of SMS and emails. You can also log in the home page of JD Cloud filing system to view your filing information and situation.
+The communication administration will inform the review result in forms of SMS and emails. You can also log in the home page of JD Cloud & AI filing system to view your filing information and situation.
 
 **Curtain Application Process**
 

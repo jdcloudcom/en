@@ -1,6 +1,6 @@
 # Billing Overview
 
-You can directly use the [Virtual Machines Price Calculator] provided by JD Cloud (https://www.jdcloud.com/calculator/calHost) to check the price of the product portfolio you need, or you can check the [Price Overview](Price-Overview.md) for the estimation of the input cost.
+You can directly use the [Virtual Machines Price Calculator] provided by JD Cloud & AI (https://www.jdcloud.com/calculator/calHost) to check the price of the product portfolio you need, or you can check the [Price Overview](Price-Overview.md) for the estimation of the input cost.
 
 Please note: The price in the price overview is the unified official price excluding the user's discounts. To ensure the price accuracy, it is recommended that you log in and use the Virtual Machines price calculator or log in the Virtual Machines creation page at the console to view the configuration price.
 

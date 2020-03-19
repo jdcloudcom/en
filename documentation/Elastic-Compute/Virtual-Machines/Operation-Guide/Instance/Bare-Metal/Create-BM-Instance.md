@@ -5,11 +5,11 @@ You can use the following public images provided on and after January 2, 2020 in
 
 
 ## Private Image Creation
-The Bare Metal Virtual Machines requires your image to support UEFI start. If you need to create Bare Metal Virtual Machines via a private image on JD Cloud, please convert your private image to an image that supports UEFI start based on the following document. Currently, only private image with an operating system version of CentOS 7.2, CentOS 7.4 or CentOS 7.6 supports the following operation.
+The Bare Metal Virtual Machines requires your image to support UEFI start. If you need to create Bare Metal Virtual Machines via a private image on JD Cloud & AI, please convert your private image to an image that supports UEFI start based on the following document. Currently, only private image with an operating system version of CentOS 7.2, CentOS 7.4 or CentOS 7.6 supports the following operation.
 
 If you need to migrate the current instance to a Bare Metal Virtual Machine, please make sure that the operating system version of your current instance is CentOS 7.2, CentOS 7.4 or CentOS 7.6. If the image category of your current instance is cloud disk system disk, then the first step in [Convert the Image to an Image that Supports UEFI Start](create-bm-instance#user-content-2) can be neglected and you can directly take this instance as vm1 in the document and execute the follow-up steps based on document; if the image category of your current instance is local disk system disk, please create image for this instance and complete [Convert Image Type](https://docs.jdcloud.com/en/virtual-machines/convert-image), and then operate step by step according to the following document.
 
-If you want to migrate your application in the local or other cloud environment to JD Cloud Bare Metal Virtual Machine, please save your application as an image and then execute [Private Image Importation](https://docs.jdcloud.com/en/virtual-machines/import-private-image).
+If you want to migrate your application in the local or other cloud environment to JD Cloud & AI Bare Metal Virtual Machine, please save your application as an image and then execute [Private Image Importation](https://docs.jdcloud.com/en/virtual-machines/import-private-image).
 
 ### Operation Steps
 
@@ -81,6 +81,6 @@ For uploading the image file in Virtual Machines to Object Storage Service, plea
 ### Import images
 For importing images, please refer to [Private Image Import](https://docs.jdcloud.com/en/virtual-machines/import-private-image#user-content-1)
 
-### JD Cloud Processing
-After the image import is completed, JD Cloud needs to conduct related processing to your private image, so that it can be used by the Bare Metal Virtual Machines. Please open ticket to contact us after the image import is completed and indicate the private image ID in the ticket.
+### JD Cloud & AI Processing
+After the image import is completed, JD Cloud & AI needs to conduct related processing to your private image, so that it can be used by the Bare Metal Virtual Machines. Please open ticket to contact us after the image import is completed and indicate the private image ID in the ticket.
 

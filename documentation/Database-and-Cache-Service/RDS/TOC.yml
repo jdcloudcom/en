@@ -201,9 +201,9 @@
               herf: Operation-Guide/Backup/Create-To-Point-In-Time/Percona-Create-To-Point-In-Time.md                  
             - name: Create MariaDB based on time point
               herf: Operation-Guide/Backup/Create-To-Point-In-Time/MariaDB-Create-To-Point-In-Time.md                  
-          - name: Create based on time point
+          - name: Recovery Based on Time Point
             items:
-            - name: SQL Server Recovery Based on Time Point
+            - name: MySQL Recovery Based on Time Point
               herf: Operation-Guide/Backup/Recover-To-Point-In-Time/MySQL-Recover-To-Point-In-Time.md
           - name: Delete Backup
             href: Operation-Guide/Backup/Delete-Backup.md

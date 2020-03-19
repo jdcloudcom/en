@@ -1,6 +1,6 @@
 # Create Instance Template
 ## Operation Steps
-1.  Access [Instance Template Console](https://cns-console.jdcloud.com/host/launchtemplate/list) and enter the instance template list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Instance Template** to enter the instance template list page.
+1.  Access [Instance Template Console](https://cns-console.jdcloud.com/host/launchtemplate/list) and enter the instance template list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Instance Template** to enter the instance template list page.
 2. Select a region, please note that the instance templates cannot be used across regions, and the instance templates in the cn-south-1 region are not supported for creating VM instances. If the quota of the selected region is full, it can be increased by open ticket.
 3. Click **Create** to enter the instance template creation page.
 4. Set the instance template name and description.
@@ -9,19 +9,19 @@
 	
 	In addition, the image is divided into the following image types:
 	
-	* Public Image: It is provided and maintained by JD Cloud, which provides basic operating system, initialization components and some pre-installed software, and supports multiple released versions of Linux and Windows, thus it is available to all users.
-	* Private Image: A customized image created based on the user's instance. You can create the image for an instance with deployed environment and quickly create multiple VMs with the same configuration and software environment based on this image. You can share the private image with other JD Cloud users, and the shared image will be displayed in the shared image list of the target user in the same region. The private image supports deletion and basic information modification.
-	* Shared Image: A customized image shared by other JD Cloud users through the image sharing function, the display region is the same as the shared private image. The shared image can only be used to create VM, while the modification of basic information and deletion cannot be performed. If the image owner cancels the sharing, the image will not be displayed on the list and automatically deleted from the list.
+	* Public Image: It is provided and maintained by JD Cloud & AI, which provides basic operating system, initialization components and some pre-installed software, and supports multiple released versions of Linux and Windows, thus it is available to all users.
+	* Private Image: A customized image created based on the user's instance. You can create the image for an instance with deployed environment and quickly create multiple VMs with the same configuration and software environment based on this image. You can share the private image with other JD Cloud & AI users, and the shared image will be displayed in the shared image list of the target user in the same region. The private image supports deletion and basic information modification.
+	* Shared Image: A customized image shared by other JD Cloud & AI users through the image sharing function, the display region is the same as the shared private image. The shared image can only be used to create VM, while the modification of basic information and deletion cannot be performed. If the image owner cancels the sharing, the image will not be displayed on the list and automatically deleted from the list.
 	* Marketplace Image: A image provided by the service providers in the cloud marketplace, integrating the running environment or software for different business scenarios to make it easy for users to quickly deploy their businesses.
 	
-	Users first using JD Cloud can choose the "Public Image" provided by JD Cloud. You can choose the corresponding system and the appropriate version as required. If you have created your own instance and configured the appropriate environment, you can create a private image for this instance, create a batch of instances based on this image with the same system and environment configuration, and share this private image with other JD Cloud users.
+	Users first using JD Cloud & AI can choose the "Public Image" provided by JD Cloud & AI. You can choose the corresponding system and the appropriate version as required. If you have created your own instance and configured the appropriate environment, you can create a private image for this instance, create a batch of instances based on this image with the same system and environment configuration, and share this private image with other JD Cloud & AI users.
 
 
-6. Instance Type Selection: JD Cloud instance type supports customized selection: Users can select instance types and corresponding configurations according to different business scenarios, please refer to [Instance Type] for details(http://docs.jdcloud.com/en/virtual-machines/instance-type-family).
+6. Instance Type Selection: JD Cloud & AI instance type supports customized selection: Users can select instance types and corresponding configurations according to different business scenarios, please refer to [Instance Type] for details(http://docs.jdcloud.com/en/virtual-machines/instance-type-family).
 
 		Note: If you plan to use the instance template to create an  Availability Group, you should select a second generation instance type, such as g.n2.large when creating the instance template.
 
-7. Storage Selection: JD Cloud provides the cloud disk and local disk.
+7. Storage Selection: JD Cloud & AI provides the cloud disk and local disk.
 	
 	Cloud Disk: Adopt a multi-backup and distributed storage mode with high data reliability;
 	
@@ -44,7 +44,7 @@
 
 9. Select EIP Bandwidth:
 
-	The EIP bandwidth provided by JD Cloud is charged by fixed bandwidth and by traffic, the former is charged according to the bandwidth upper limit set when purchasing, which is not related to the real-time access bandwidth to the public network of your instance, and the latter is charged according to the actual traffic of your real-time access to the public network.
+	The EIP bandwidth provided by JD Cloud & AI is charged by fixed bandwidth and by traffic, the former is charged according to the bandwidth upper limit set when purchasing, which is not related to the real-time access bandwidth to the public network of your instance, and the latter is charged according to the actual traffic of your real-time access to the public network.
     EIP providers are divided into BGP and non-BGP, and BGP is provided for a faster and more efficient network access.        
 
 	Bandwidth Range: 1Mbps~200Mbps, EIP cannot be configured with instance, and you could purchase and associate it after creating instance by instance template.

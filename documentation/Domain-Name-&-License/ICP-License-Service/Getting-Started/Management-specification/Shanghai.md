@@ -16,9 +16,9 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
-   ⑤Authorization Letter of Legal Person (**this should be provided when website's responsible person is not the legal person**![img](http://cms.jcloud.com/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif)[ Authorization Letter of Shanghai.docx](https://img1.jcloudcs.com/cms/9d1d682f- 969c-4b9b-b3af-0b700696ff5520180503100248.docx))
+   ⑤ Authorization Letter of Legal Person (**this should be provided when website's responsible person is not the legal person** [ Authorization Letter of Shanghai.docx](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/shanghai/shanghaishouquanshu.docx))
 
 **Rules of Personal Filing in Shanghai**
 

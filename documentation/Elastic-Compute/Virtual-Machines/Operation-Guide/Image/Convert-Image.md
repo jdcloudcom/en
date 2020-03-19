@@ -21,7 +21,7 @@ You must ensure that the private image and cloud disk snapshot quotas are suffic
 
 
 ## Operation Steps
-1. Access [Image Console][1] to enter the image list page. Or access [JD Cloud Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
+1. Access [Image Console][1] to enter the image list page. Or access [JD Cloud & AI Console][2] Click navigation bar on the left **Elastic Compute** - **Virtual Machines** - **Image** to enter the image list page.
 2. Select [Private Image] TAB, select the private image needs to be converted (the image type should be the local system disk), and click **Image Type Conversion** in the **More**.>
 ![](../../../../../image/vm/Operation-Guide-Image-Convert1.png)
 3. Click **OK** in the confirmation pop-up window to start the image conversion. The name of new image and system disk snapshot are the same as that of the original image by default, which can be modified after creation.

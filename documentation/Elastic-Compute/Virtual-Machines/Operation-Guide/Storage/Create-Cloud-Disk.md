@@ -1,6 +1,6 @@
 # Create Cloud Disk
 
-JD Cloud provides you with a variety of ways to create a cloud disk:
+JD Cloud & AI provides you with a variety of ways to create a cloud disk:
 
 * Create a cloud disk when the instance is created. For details, please refer to [Create Instance](../Instance/Create-Instance.md);
 * Separately [Create Cloud Disk](http://docs.jdcloud.com/en/cloud-disk-service/create-cloud-disk);

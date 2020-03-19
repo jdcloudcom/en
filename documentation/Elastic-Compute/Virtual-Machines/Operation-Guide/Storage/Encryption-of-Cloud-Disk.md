@@ -1,7 +1,7 @@
 # Cloud Disk Service Encryption (in Beta)
 
 The encryption to the Cloud Disk Service refers to the encryption to the data of the Cloud Disk Service for the purpose of guaranteeing security of static data in the Cloud Disk Service and data transmission security between the Virtual Machine instance and the Cloud Disk Service.
-JD Cloud is responsible for maintenance and management of the key pair used for encryption, while the user cannot obtain the key pair information. Encryption to the Cloud Disk Service by your customized key pair is not supported now.
+JD Cloud & AI is responsible for maintenance and management of the key pair used for encryption, while the user cannot obtain the key pair information. Encryption to the Cloud Disk Service by your customized key pair is not supported now.
 
 ## Create Encrypted Cloud Disk Service
 

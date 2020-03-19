@@ -1,7 +1,7 @@
 # Monitoring and Alarm Overview
 Instance monitoring and alarms provide you with real-time instance monitoring management services, which support different monitoring dimensions, and start collecting data after instance is created successfully. It can be displayed graphically, which is convenient for you to grasp the usage of instance resources and running status. At the same time, you can set different alarm rules and the alarm notification will be triggered when this type of condition is triggered, which can  locate the fault easily for you.
 ## Monitoring Items 
-JD Cloud provide instances with the following monitoring indicators which can be divided into three categories according to the collected and reported preconditions:
+JD Cloud & AI provide instances with the following monitoring indicators which can be divided into three categories according to the collected and reported preconditions:
 * They are collected by the host machine where the instance is located, rather than monitoring plug-in in Virtual Machines. There are 4 indicators of this type, whose Chinese or English display names have suffix ‘(Host)’, including:
   * Disk Read Throughput (Host): vm.disk.bytes.read
   * Disk Write Throughput (Host): vm.disk.bytes.write

@@ -4,7 +4,7 @@ You can associate a security group when creating instances, or you can select se
 Each network interface of an instance must be associated to at least one security group.
 
 ## Operation Steps
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. In the instance list, select the instance to which you want to associate the security group and click on the name to enter the details page.
 4. Click **Security Group** tab - **Add**.

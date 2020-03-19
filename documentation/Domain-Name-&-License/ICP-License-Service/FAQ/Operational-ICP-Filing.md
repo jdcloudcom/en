@@ -1,4 +1,4 @@
-## How to Handle Business-related Filing?
+# ICP License for Commercial Websites
 
 Online platform or a third-party seller of the product or service shall obtain commercial license. If you intend to apply for business-related ICP license, you must have a valid ICP filing No. firstly (that's, the non-business-related ICP filing shall be performed firstly). Users need to go to relevant local authorities to process business-related filing, and the service provider may assist in providing qualifications and access protocol. For specific requirements of handling, you need to search it by logging in to local business-related filing website.
 

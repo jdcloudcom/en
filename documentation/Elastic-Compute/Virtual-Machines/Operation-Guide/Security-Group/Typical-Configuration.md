@@ -53,8 +53,8 @@ If you hope that the instance created provides database services, you can realiz
 |  Inbound   |  Customize TCP |   TCP |   443  |  1433 (SQL Server)   |  Accept   |
 If you hope that the instance can have access to the remote database server, simply change the direction in the above rules to "Outbound".
 
-## Allow Instances to Access Object Storage Service (OSS) of JD Cloud
-If you hope that the instance created can access OSS domain name of JD Cloud, you can do so by configuring the following outbound rules:
+## Allow Instances to Access Object Storage Service (OSS) of JD Cloud & AI
+If you hope that the instance created can access OSS domain name of JD Cloud & AI, you can do so by configuring the following outbound rules:
 
 |  **Rule Direction**   |  **Type**   |  **Protocol**   |  **Destination Port**   |  **Destination IP**   |  **Policy**   |
 | --- | --- | --- | --- | --- | --- |

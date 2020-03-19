@@ -1,6 +1,6 @@
 # Overview of Bare Metal Virtual Machines
 
-The Bare Metal Virtual Machines are of a VM instance type launched based on JD Cloud’s new-generation self-developed virtualization technology architecture, which are equipped with both performance of physical machines and flexibility of virtual machines. Compared with the previous generation virtualization technology architecture, the new generation virtualization technology architecture no longer has any virtualization overhead. It provides physical level of resource isolation and supports nested virtualization. Your business can make direct access to computing resources on the Bare Metal Virtual Machines to secure your business.
+The Bare Metal Virtual Machines are of a VM instance type launched based on JD Cloud & AI’s new-generation self-developed virtualization technology architecture, which are equipped with both performance of physical machines and flexibility of virtual machines. Compared with the previous generation virtualization technology architecture, the new generation virtualization technology architecture no longer has any virtualization overhead. It provides physical level of resource isolation and supports nested virtualization. Your business can make direct access to computing resources on the Bare Metal Virtual Machines to secure your business.
  
 ## Product Features
 *  Perfect performance: It has the same perfect performance as physical machines, providing network and storage with hardware acceleration capability, unintalling the original virtual network and storage protocol stack load from physical host machine to specified hardware without extra virtualization depletion, providing network bandwidth with speed over 10Gbit/s, and supporting nested virtualization
@@ -119,7 +119,7 @@ Support general Bare Metal Virtual Machines currently g.n2.metal (80C384GB) and 
 
 ## Use Restrictions
 
-* 	Support only the following public images provided by JD Cloud on and after January 2, 2020 in cn-north-1 region: CentOS 7.2, CentOS 7.4 and CentOS 7.6, as well as private images based on Virtual Machines created by the above public images. If you need to convert an existing private image to an image that supports the creation of Bare Metal Virtual Machines, please refer to [Create Bare Metal Virtual Machines](Create-BM-Instance.md)
+* 	Support only the following public images provided by JD Cloud & AI on and after January 2, 2020 in cn-north-1 region: CentOS 7.2, CentOS 7.4 and CentOS 7.6, as well as private images based on Virtual Machines created by the above public images. If you need to convert an existing private image to an image that supports the creation of Bare Metal Virtual Machines, please refer to [Create Bare Metal Virtual Machines](Create-BM-Instance.md)
 *  	Provided only in cn-north-1 region
 *  	Only the Cloud Disk is supported to be a system disk
 * 	Configuration of multiple network interfaces are not supported, and only a single network interface (primary network interface) is supported

@@ -1,6 +1,6 @@
 # Restart Inatance in Expiration/Arrears
 
-After the monthly package instance expires or the billing instance paid by configuration is in arrears, JD Cloud will stop the service of the instance and set it to the "Stopped" status, and the instance data will remain for 7 days. During this period you can do the following to recover the instance service:
+After the monthly package instance expires or the billing instance paid by configuration is in arrears, JD Cloud & AI will stop the service of the instance and set it to the "Stopped" status, and the instance data will remain for 7 days. During this period you can do the following to recover the instance service:
 
 ## Monthly Package Instance
 

@@ -47,6 +47,10 @@
         href: Operation-Guide/Thing-Model/Create-Thing-Model.md    
       - name: Create Rule Engine
         href: Operation-Guide/Rule-Engine/Create-Rule.md
+  - name: Development Service
+    items:
+      - name: Firmware Upgrade
+        href: Development/OTA/OTA.md          
   - name: Device Development Guide
     items:
       - name: Device SDK Introduction
@@ -63,6 +67,8 @@
         href: Developer-Guide-Device/HeartBeat-Reconnection.md
       - name: Gateway Function
         href: Developer-Guide-Device/Gateway_Connection.md   
+      - name: Device End OTA Support
+        href: Developer-Guide-Device/Device-OTA.md  
       - name: Secondary API
         href: Developer-Guide-Device/API.md  
       - name: Terminology

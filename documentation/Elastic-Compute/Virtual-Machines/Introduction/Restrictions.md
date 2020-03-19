@@ -1,7 +1,7 @@
 # Restrictions
 
 ## Account Limit
-* You need to perform real-name verification for the JD Cloud account used to create the VM instance. For details, please refer to [Real-name Verification](https://docs.jdcloud.com/en/real-name-verification/introduction);
+* You need to perform real-name verification for the JD Cloud & AI account used to create the VM instance. For details, please refer to [Real-name Verification](https://docs.jdcloud.com/en/real-name-verification/introduction);
 * The instance cost shall be pre-paid when a monthly package billing instance is created, and the sum of your account balance and available coupon shall not be less than the consumption threshold when a pay-by-configuration billing instance is created.
 
 ## Usage Restrictions
@@ -37,7 +37,7 @@ Quota of Elastic IP Associated to Single Virtual Machine |Limited by Count of El
 Quota of Security Group Associated to Single Virtual Machine|5|Adjustment Not Supported    
 Quota of Key Pair Associated to Single Virtual Machine|1|Adjustment Not Supported     
 System Disk Type and Capacity|40GB Local Disk for Free and Adjustment Not Supported<br>Cloud Disk 40~500GB|Local Disk Capacity Adjustment Not Supported   
-Data Disk Type and Capacity|All Are Cloud Disk Services<br>General SSD Cloud Disk: 20GB~4000GB<br>Performance-oriented SSD Cloud Disk: 20GB~4000GB<br>Capacity-oriented HDD Cloud Disk: 20GB~4000GB<br>SSD Cloud Disk: 20GB~1000GB<br>Premium HDD Cloud Disk: 20GB~3000GB |For General SSD Cloud Disk, Performance-oriented SSD Cloud Disk and Capacity-oriented HDD Cloud Disk, 16000GB for one single disk can be created at most by SDK, adjustment to disks of other types are not supported.            
+Data Disk Type and Capacity|All Are Cloud Disk Services<br>General SSD Cloud Disk: 20GB～4000GB<br>Performance-oriented SSD Cloud Disk: 20GB～4000GB<br>Capacity-oriented HDD Cloud Disk: 20GB～4000GB<br>SSD Cloud Disk: 20GB～1000GB<br>Premium HDD Cloud Disk: 20GB～3000GB |For General SSD Cloud Disk, Performance-oriented SSD Cloud Disk and Capacity-oriented HDD Cloud Disk, 16000GB for one single disk can be created at most by SDK, adjustment to disks of other types are not supported.            
 Single Security Group Rules Quota|Total Outbound and Inbound Rules No More Than 100|Adjustment Not Supported    
 
 

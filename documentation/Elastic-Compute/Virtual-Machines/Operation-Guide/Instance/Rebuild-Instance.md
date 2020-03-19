@@ -16,7 +16,7 @@ It shall be noted that reinstalling the system will result in the loss of all co
 * For rebuilding, images consistent to current instance system disk type can be selected only. For example, if current instance system disk is a local disk, only the local disk images can be selected for rebuilding.
 
 ## Operation Steps
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. In the instance list, select the instance that needs rebuilding and confirm that its status is "Stopped".
 4. Click **Operate** - **More** - **Rebuild**, or click instance name to enter the details page and click **Operate** - **Rebuild**.

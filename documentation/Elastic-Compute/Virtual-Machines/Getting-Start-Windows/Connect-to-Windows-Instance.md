@@ -26,12 +26,12 @@ After purchasing and launching an instance of Windows type, you can choose to lo
 Create an instance and acquire the account number and corresponding password.
 
 * Administrator Account: Administrator
-* Password: JD Cloud instance can obtain password in two ways.
+* Password: JD Cloud & AI instance can obtain password in two ways.
   * When creating an instance, select **Set Later** and the system will send a default password by SMS and email. You can use the default password to verify when you login to the instance.
   * Select **Set Now**, and then you should enter a customized password in the password setting text box. If you forget the password, you can reset the password by [Reset Password](../Operation-Guide/Instance/Reset-Password.md). This function is only available for the "Running" instance.
 
 ## Use VNC to Login Instance
-VNC login is a way provided by JD Cloud for remote connection to instance for users via Web browser. In the case that a remote login client is not installed or the client remote login is not available, the user can connect to the instance through VNC login, observe the instance status, and perform basic instance management operations through the instance user.
+VNC login is a way provided by JD Cloud & AI for remote connection to instance for users via Web browser. In the case that a remote login client is not installed or the client remote login is not available, the user can connect to the instance through VNC login, observe the instance status, and perform basic instance management operations through the instance user.
 The scenarios of VNC login include at least the following:
 * View the starting progress of the instance
 * When logging in via client SSH or mstsc is unavailable, log in the instance via VNC login.
@@ -52,7 +52,7 @@ Please note:
 * File upload and download are not supported yet.
 
 ## If the local system is Windows, login the Windows instance using remote desktop.
-Before connecting the Windows instance using MSTSC remote desktop, user must first ensure that the instance is associated to the EIP, and such access is allowed in the security group and network ACL rules. You can create a Windows instance on the JD Cloud console and acquire the EIP: XXX.XXX.XXX.XXX.
+Before connecting the Windows instance using MSTSC remote desktop, user must first ensure that the instance is associated to the EIP, and such access is allowed in the security group and network ACL rules. You can create a Windows instance on the JD Cloud & AI console and acquire the EIP: XXX.XXX.XXX.XXX.
 1. Click **Start** on the computer and find **Run**. <br>
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-menu.png)<br>
 2. Enter mstsc command in Running and click **OK** to open the remote desktop connection dialog. <br>
@@ -63,7 +63,7 @@ Before connecting the Windows instance using MSTSC remote desktop, user must fir
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc2.png)
 5. Select **Do not ask me again if to connect to this computer** and click **Yes**. <br>
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc3.png)
-6. Connect to the Windows instance you created on JD Cloud Successfully. <br>
+6. Connect to the Windows instance you created on JD Cloud & AI Successfully. <br>
 ![](../../../../image/vm/Getting-Start-Linux-Connect-Windows-mstsc4.png)
 7. If the login fails, please confirm whether the EIP address is entered correctly, and check the instance association [Security Group](https://docs.jdcloud.com/en/virtual-private-cloud/security-group-features) and the [Network ACL](http://docs.jdcloud.com/en/virtual-private-cloud/network-acl-features) configuration of the subnet to confirm whether the instance allows the incoming traffic at port 3389.
 

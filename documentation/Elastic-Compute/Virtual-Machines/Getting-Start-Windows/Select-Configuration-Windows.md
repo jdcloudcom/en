@@ -10,8 +10,8 @@ After you have successfully registered an account and completed real-name verifi
 	Currently, it covers four domestic regions with multiple availability zones including **cn-north-1 (three availability zones), cn-south-1 (single availability zone), cn-east-1 (single availability zone), cn-east-2 (three availability zones)**. These regions are completely isolated from each other to ensure maximum stability and fault tolerance between each two. Please refer to [Region and Availability Zone] for detailed regional information.  
 	The following points are recommended for reference when selecting a region:
 	
-	* Choose the region that is close to your customers to the maximum, which can reduce the access delay and increase the download speed. At the same time, JD Cloud provides BGP EIP in cn-north-1, cn-south-1 and cn-east-2, which can ensure fast access in mainland China. For instance, if most of the users are located near the Pearl River Delta, the cn-south-1 region is a better choice;
-	* As for the deployment area of ​​other JD Cloud products and the communication requirements of the instance, by default, cross-region mutual intranet access of the instances cannot be realized and access to other cloud products, such as the cloud database and cloud cache, cannot be realized neither. The instance only supports associating the EIP and Load Balancer under the same region.
+	* Choose the region that is close to your customers to the maximum, which can reduce the access delay and increase the download speed. At the same time, JD Cloud & AI provides BGP EIP in cn-north-1, cn-south-1 and cn-east-2, which can ensure fast access in mainland China. For instance, if most of the users are located near the Pearl River Delta, the cn-south-1 region is a better choice;
+	* As for the deployment area of ​​other JD Cloud & AI products and the communication requirements of the instance, by default, cross-region mutual intranet access of the instances cannot be realized and access to other cloud products, such as the cloud database and cloud cache, cannot be realized neither. The instance only supports associating the EIP and Load Balancer under the same region.
 (The above mutual intranet access refers to the resources access under the same account, and the resource intranets of different accounts are completely isolated).
 
 * Creation Method:
@@ -26,9 +26,9 @@ After you have successfully registered an account and completed real-name verifi
    
    It provides **Public Image**, **Private Image**, **Shared Image** and **Marketplace Image**.
    
-   * Public Image: It is provided and maintained by JD Cloud, which provides basic operating system, initialization components and some pre-installed software, and supports multiple released versions of Linux and Windows, thus it is available to all users.
-   * Private Image: It is a customized image created based on the user's VM instance. You can create the image for a machine deployed with businesses and quickly create multiple machines with the same configuration and software environment based on this image. You can share the private image with other JD Cloud users, and the shared image will be displayed in the shared image list of the target user in the same region. The private image is only available to the owner and the specified shared accounts.
-   * Shared Image: a user-defined image shared by other JD Cloud users through the image sharing feature. The shared image can only be used to create VM instance under the same region, while the basic information modification and deletion cannot be performed. If the shared user cancels the sharing, the image will be automatically deleted from the list.
+   * Public Image: It is provided and maintained by JD Cloud & AI, which provides basic operating system, initialization components and some pre-installed software, and supports multiple released versions of Linux and Windows, thus it is available to all users.
+   * Private Image: It is a customized image created based on the user's VM instance. You can create the image for a machine deployed with businesses and quickly create multiple machines with the same configuration and software environment based on this image. You can share the private image with other JD Cloud & AI users, and the shared image will be displayed in the shared image list of the target user in the same region. The private image is only available to the owner and the specified shared accounts.
+   * Shared Image: a user-defined image shared by other JD Cloud & AI users through the image sharing feature. The shared image can only be used to create VM instance under the same region, while the basic information modification and deletion cannot be performed. If the shared user cancels the sharing, the image will be automatically deleted from the list.
    * Marketplace Image: It is provided by the service provider in the cloud marketplace, which integrates the running environment or software for different business scenarios, so that users can quickly deploy services and all users can use it. It is applicable to all users.       
 
 * Specifications:
@@ -37,7 +37,7 @@ After you have successfully registered an account and completed real-name verifi
 
 * Storage:
     
-    JD Cloud provides cloud disk and local disk. A local disk is a storage device on a physical machine where the cloud server is located. It can obtain a lower delay, but there is a risk of single point data loss. The Cloud Disk adopts a multi-backup and distributed storage mode with high data reliability. Cloud Disk Service provides various types of Cloud Disks to be taken by instances as system and data disks. See [Cloud Disk Service Type] for details.
+    JD Cloud & AI provides cloud disk and local disk. A local disk is a storage device on a physical machine where the cloud server is located. It can obtain a lower delay, but there is a risk of single point data loss. The Cloud Disk adopts a multi-backup and distributed storage mode with high data reliability. Cloud Disk Service provides various types of Cloud Disks to be taken by instances as system and data disks. See [Cloud Disk Service Type] for details.
     
     * System Disk: It supports local disks and Cloud Disk; specifically, the local disk has free-of-charge 40GB, which, moreover, cannot be changed. Cloud Disk supports 40GB~500GB.
     * Data Disk: If the system disk is a local disk, 8 data disks can be attached. If the system disk is Cloud Disk, 7 data disks can be attached.

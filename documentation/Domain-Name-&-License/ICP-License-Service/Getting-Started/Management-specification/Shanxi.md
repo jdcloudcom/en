@@ -1,4 +1,4 @@
-**Rules of Unit Filing in Shaanxi:**
+# **Rules of Unit Filing in Shaanxi:**
 
 1. Enterprises must use the new documents integrating the three certificates to perform filing
 
@@ -22,9 +22,9 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
-   **⑤Certificate of Domain Name (this should be provided when the cumulative quantity of subject’s filing is ≥5)**
+   **⑤ Certificate of Domain Name (this should be provided when the cumulative quantity of subject’s filing is ≥5)**
 
 **Rules of Personal Filing in Shaanxi:**
 
@@ -42,6 +42,6 @@
 
 7. Prepare materials before filing:
 
-   ①The clear color picture of the front and back of the personal ID card
+   ① The clear color picture of the front and back of the personal ID card
 
-   ②**Certificate of Domain Name (this should be provided when the cumulative quantity of subject’s filing is ≥5)**
+   ② **Certificate of Domain Name (this should be provided when the cumulative quantity of subject’s filing is ≥5)**

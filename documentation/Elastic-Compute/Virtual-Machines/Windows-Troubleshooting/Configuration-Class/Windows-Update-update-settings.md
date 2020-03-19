@@ -1,5 +1,5 @@
 # Windows Update Settings
-Windows system server of JD Cloud does not enable Windows Update to check for updates by default. Users can set the check for updates by themselves in the following way:
+Windows system server of JD Cloud & AI does not enable Windows Update to check for updates by default. Users can set the check for updates by themselves in the following way:
 
 1. Click **Start** - **Control Panel**;
 

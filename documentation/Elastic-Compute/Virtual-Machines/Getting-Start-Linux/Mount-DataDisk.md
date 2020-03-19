@@ -4,7 +4,7 @@ After the console attaches the data disk for the Linux instance, you need to log
 How to complete attaching using script and manually are described respectively in the following.
 
 ## Use Script to Complete Partitioning, Formatting and Attaching of Data Disk
-Under Linux, you can use the script provided by JD Cloud to detect whether there is a data disk that has not been partitioned, and automatically complete formatting and attaching of the data disk, which will leave out the complicated commands and steps you need to enter.
+Under Linux, you can use the script provided by JD Cloud & AI to detect whether there is a data disk that has not been partitioned, and automatically complete formatting and attaching of the data disk, which will leave out the complicated commands and steps you need to enter.
 Attach Script: [MountDataDisk][1].
 
 You can use the script in the following two ways:

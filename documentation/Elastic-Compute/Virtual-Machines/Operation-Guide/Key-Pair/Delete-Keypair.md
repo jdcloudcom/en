@@ -8,7 +8,7 @@ The created SSH Key Pair can be deleted. When the key pair is deleted, the insta
 
 ## Operation Steps
 
-1. Access [SSH Key Pair Console][1] or access the [JD Cloud Console] [2]. Click **Elastic Compute**-**Virtual Machine**-**[SSH Key Pair** on the left navigation bar to enter the key pair list page.
+1. Access [SSH Key Pair Console][1] or access the [JD Cloud & AI Console] [2]. Click **Elastic Compute**-**Virtual Machine**-**[SSH Key Pair** on the left navigation bar to enter the key pair list page.
 
 2. Select the key pair to be deleted and click **Delete** in the operation.
 

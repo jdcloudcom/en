@@ -1,6 +1,6 @@
 # Billing rules
 
-The products of Application Load Balancer are currently for free, which will be billed by consumption subsequently. Pay by consumption is a Pay-As-You-Go type. The billing cycle is one day. In the early hours of each day, a retention fee is charged for the length of time occupied by each Load Balancer instance, and the traffic cost will be settled on the basis of the total outgoing and inbound business traffic actually processed by the Load Balancer each day.
+The Application Load Balancer adopts the billing method of Pay By Consumption. Pay By Consumption is a Pay-As-You-Go type. Users do not need to pay fees at the time of enabling. The billing cycle is one day. In the early hours of each day, the resource retention fee is charged for the length of time occupied by each Load Balancer instance, and the traffic cost will be settled on the basis of the total outgoing and inbound traffic actually processed by the Load Balancer each day.
 
 The following descriptions are for Application Load Balancer instance only. If you need to review the Elastic IP cost associated by Application Load Balancer, please refer to [EIP Pricing](https://docs.jdcloud.com/elastic-ip/billing-overview).
 
@@ -8,7 +8,7 @@ The following descriptions are for Application Load Balancer instance only. If y
 
 To ensure your normal use, the sum of your account balance and available coupon will be no less than consumption threshold when you subscribe an Application Load Balancer instance billed by consumption. If your account balance is less than consumption threshold, please use it after recharging.
 
-## Description for Service Stopping Due to Arrearage
+## Detailed Description for Stopping Service in Arrears and Billing
 - When the bill comes out and if the available balance in your account (including cash balance and available coupon) is not enough to pay off the bill for the Load Balancer instance, the billing status of your Load Balancer instance will be changed to be in arrears;
 
 - When your Load Balancer instance is in arrears, the service will be stopped, and after the service is stopped, no fee will be charged;
@@ -20,3 +20,5 @@ To ensure your normal use, the sum of your account balance and available coupon 
 - The stopped Load Balancer instance can be used normally after you make a supplementary payment for the amount in arrears;
 
 - If you don’t want to continue use the Load Balancer instance, please delete the resources in time.
+
+- When the Load Balancer is deleted, costs will be billed and settled according to the actual resource retention duration and traffic usage in the billing cycle.

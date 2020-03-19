@@ -1,7 +1,7 @@
 # Convert the image format
 The supported formats of imported images are QCOW2, RAW, VHD and VMDK, and if your image file is in other formats, you need to convert the image into any of the above-mentioned four types before importation.
 
-Before exporting an image, please refer to [private image importation](https://docs.jdcloud.com/en/virtual-machines/import-private-image) and use the [image self-inspection tool](https://docs.jdcloud.com/en/virtual-machines/image-check-tool), for ensuring that the current system configuration complies with JD Cloud’s image requirement.
+Before exporting an image, please refer to [private image importation](https://docs.jdcloud.com/en/virtual-machines/import-private-image) and use the [image self-inspection tool](https://docs.jdcloud.com/en/virtual-machines/image-check-tool), for ensuring that the current system configuration complies with JD Cloud & AI’s image requirement.
 
 ## Linux System
 The Linux system can export the system disk image and convert its format with qemu-img. The mutually convertible formats include: raw, qcow2, qcow, cow, vmdk and cloop.
@@ -26,7 +26,7 @@ sz image_out.tar.gz
 ![](../../../../../image/vm/Image-Import-convert1.png)<br>
 
 ### Convert the image file format
-qemu-img can be made to execute the following instruction to convert the format of the designated image file, if the image file format is not within those supported by JD Cloud.
+qemu-img can be made to execute the following instruction to convert the format of the designated image file, if the image file format is not within those supported by JD Cloud & AI.
 ```
 qemu-img convert -f raw -O qcow2 image.raw image_out.qcow2
 ```

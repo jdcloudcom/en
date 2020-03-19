@@ -5,7 +5,7 @@ After you bind a tag to a resource, you can use the tag to quickly filter the in
 
 Filter resources by tag through the console:
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. Click **Tag Filter** icon, enter key/ value, and it supports fuzzy search. Ticking a tag key indicates that you need to filter out the Virtual Machines bound with this tag key (possibly with multiple tag values). Ticking the tag key/value (Key-Value) indicates that you need to filter out the Virtual Machines bound with this key-value pair (Key-Value). The relationship among different keys is logic AND, and relationship among different values of the same key is logic OR. If "Owner (Key)", "Purpose: Test (Key-Value)" and "Purpose: Development (Key-Value)" are ticked, it means that you need to filter out the VMs bound with the tag "Owner" with the "Purpose" of test or development.
 4. Click **Filter** to filter the VMs according to the ticks.

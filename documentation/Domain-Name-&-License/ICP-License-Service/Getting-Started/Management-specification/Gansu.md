@@ -1,4 +1,4 @@
-**Rules of Unit Filing in Gansu:**
+# **Rules of Unit Filing in Gansu:**
 
 1. Enterprises must use the new documents integrating the three certificates to perform filing
 
@@ -20,7 +20,7 @@
 
    ③ Clear color pictures of the front and back of website responsible person’s ID card
 
-   ③ Official seal of the filing unit (the Verification Form shall be sealed during the process)
+   ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
    **⑤ Authorization Letter of Gansu (this should be provided when website’s responsible person is not the legal person)**
 

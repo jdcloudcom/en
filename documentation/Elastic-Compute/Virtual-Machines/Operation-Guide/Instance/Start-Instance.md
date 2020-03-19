@@ -13,7 +13,7 @@ The instance must be in the "Stopped" status. If the instance is in the "Running
 
 ## Operation Steps
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. Select the instance you want to start in the list of instances and confirm that its status is "Stopped". If you need to operate multiple instances at the same time, you can complete through multiple selection.
 4. Single Operation: Click **Operate** - **Start**, or click the instance name to enter the details page and click **Operate** - **Start**;

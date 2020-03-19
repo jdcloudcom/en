@@ -2,7 +2,7 @@
 
 ## Operation Steps
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. In the instance list, select the instance that needs to release the secondary private IP and click the name to enter the details page.
 4. Click **Elastic Network Interface** tab, select the elastic network interface that needs to release IP, find the secondary private IP that needs to be released, and click **Release**.

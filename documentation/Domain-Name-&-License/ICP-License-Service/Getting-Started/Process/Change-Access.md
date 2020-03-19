@@ -1,8 +1,10 @@
+# Change Access
+
 **Process of Submitting License for First Review**
 
 **I. Log in Filing System**
 
-1. Log in the official website of JD Cloud [www.jdcloud.com](http://www.jdcloud.com) and click **Filing** on the upper right
+1. Log in the official website of JD Cloud & AI [www.jdcloud.com](http://www.jdcloud.com) and click **Filing** on the upper right
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20200117/image/ICP-License-Service/Change-access-cn-1.jpg)
 
@@ -22,7 +24,7 @@
 
 **III. Approval of First Review**
 
-1. Click **Next** to directly submit to JD Cloud for first review.
+1. Click **Next** to directly submit to JD Cloud & AI for first review.
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20200117/image/ICP-License-Service/Change-access-cn-5.jpg)
 
@@ -30,7 +32,7 @@
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20200117/image/ICP-License-Service/Change-access-cn-6.jpg)
 
-3. After the first review is approved, JD Cloud will submit your license information to the communication administration for review within 1 working day.
+3. After the first review is approved, JD Cloud & AI will submit your license information to the communication administration for review within 1 working day.
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20200117/image/ICP-License-Service/Change-access-cn-7.jpg)
 
@@ -38,7 +40,7 @@
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20200117/image/ICP-License-Service/Change-access-cn-8.jpg)
 
-The communication administration will inform the review result in forms of SMS and emails. You can also log in the home page of JD Cloud filing system to view your filing information and situation.
+The communication administration will inform the review result in forms of SMS and emails. You can also log in the home page of JD Cloud & AI filing system to view your filing information and situation.
 
 4. System notification page after approval failure by the communication administration
 

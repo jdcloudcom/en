@@ -4,7 +4,7 @@
 
 **Problem Phenomenon:**
 
-The delay is not high when ping the target address, but the total time is very high. For example, in the following figure, test ping 4 packets for JD Cloud. Each packet is basically within 35ms, but the total  time is over 3,000 ms, and execute:
+The delay is not high when ping the target address, but the total time is very high. For example, in the following figure, test ping 4 packets for JD Cloud & AI. Each packet is basically within 35ms, but the total  time is over 3,000 ms, and execute:
 
 *ping www.jdcloud.com -c 4*
 

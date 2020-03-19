@@ -1,7 +1,7 @@
 # Private Image Export
 
 ## Function Overview
-Private image export refers to exporting the private image you make in the JD Cloud environment to the JD Cloud OSS bucket in the same region. After exported, the image file can be downloaded at any time for deployment in other environments.
+Private image export refers to exporting the private image you make in the JD Cloud & AI environment to the JD Cloud & AI OSS bucket in the same region. After exported, the image file can be downloaded at any time for deployment in other environments.
 
 	* Note:
 	  1. The export function is currently only supported in cn-east-2 region. If you need to export images in other regions, please copy the images to cn-east-2 before exporting
@@ -30,14 +30,14 @@ Private image export refers to exporting the private image you make in the JD Cl
 ### 1. Confirm OSS bucket<br>
 Images can only be exported to OSS bucket in the same region. Therefore, if private images in multiple regions need to be exported, please confirm that there is bucket that can store image files in each region (currently only support cn-east-2 region). <br>For Bucket creation, please refer to [Create Bucket](https://docs.jdcloud.com/en/object-storage-service/create-bucket-2).<br>
 ### 2. Create service role<br>
-Access [Role Management Console](https://iam-console.jdcloud.com/role/list), or access [JD Cloud Console](https://console.jdcloud.com/overview) successively click **Management** - **IAM** - **Role Management** in the top [Cloud Service] menu to go to the role management page.<br>
+Access [Role Management Console](https://iam-console.jdcloud.com/role/list), or access [JD Cloud & AI Console](https://console.jdcloud.com/overview) successively click **Management** - **IAM** - **Role Management** in the top [Cloud Service] menu to go to the role management page.<br>
 ![](../../../../../image/vm/image-export-image2.png)
 
 Click ** Create Role**, select "Service Role", and on the role creation page, customize the service role name, e.g.: image-export, the role name should be provided as a required parameter when exported. <br>In the trust relationship, select "Cloud Disk Service" (Cloud disk system disk is Cloud Disk Snapshot in nature, so the Cloud Disk Service will write image files in OSS on behalf of you in the final export operations).<br>
 ![](../../../../../image/vm/image-export-image3.png)
 
 ### 3. Create policy for service role<br>
-Access [Policy Management Console](https://iam-console.jdcloud.com/policy/list), or access [JD Cloud Console](https://console.jdcloud.com/overview) successively click **Management** - **IAM** - **Policy Management** in the top [Cloud Service] menu to go to the policy management page.
+Access [Policy Management Console](https://iam-console.jdcloud.com/policy/list), or access [JD Cloud & AI Console](https://console.jdcloud.com/overview) successively click **Management** - **IAM** - **Policy Management** in the top [Cloud Service] menu to go to the policy management page.
 ![](../../../../../image/vm/image-export-image4.png)
 Click **Create Policy**, select "Policy Editor", and on the policy creation page, customize the policy name, e.g.: image-export-policy. Copy the following policy template in JSON format to the content input area.<br>
 ![](../../../../../image/vm/image-export-image5.png)  

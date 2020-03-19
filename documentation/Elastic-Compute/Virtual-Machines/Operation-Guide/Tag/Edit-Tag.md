@@ -5,7 +5,7 @@ When you create a new machine instance or have the machine instance, you can ass
 
 ### Operation Steps
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) to log in the instance list page. Or, access [JD Cloud Console](https://console.jdcloud.com) and log in the instance list page by clicking [Elastic Compute]-[Virtual Machines] on the left navigation bar.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) to log in the instance list page. Or, access [JD Cloud & AI Console](https://console.jdcloud.com) and log in the instance list page by clicking [Elastic Compute]-[Virtual Machines] on the left navigation bar.
 2. Select the region of the created instance and click the **Create** button to enter the Virtual Machines Purchase Page. Click the **+Add** button on the Basic Information-Tag to add tags for your resources of Virtual Machines. <br> ![](../../../../../image/vm/CreateWithTags1new.png)
 3. Key-Value can be added for the added tags in the added tag key and tag value input box or be added by directly selecting from a drop-down menu of existing tag or selecting corresponding tag Key-Value after fuzzy match. If the tag parameter is illegal, please make corresponding modification according to notification below the label box. Each resource can associate 10 tags at most. <br> ![](../../../../../image/vm/CreateWithTags2new.png)
 
@@ -23,7 +23,7 @@ The instance state needs to be "Running" or "Stopped".
 
 ## Operation Steps
 
-1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
+1. Access [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list) and enter the instance list page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) Click navigation bar on the left **Elastic Compute** - **Virtual Machines** to enter the instance list page.
 2. Select a region.
 3. Select the instance with tag to be edited from the instance list and confirm that its status is either "Running" or "Stopped".
 4. Single Operation: Click **Operation** - **More** - **Edit Tag**, or click instance name to enter the details page and then click **Operation** - **Edit Tag**.

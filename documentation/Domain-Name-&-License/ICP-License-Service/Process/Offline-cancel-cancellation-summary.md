@@ -1,6 +1,4 @@
-
-
-
+# Schedule of Off-line License Cancellation
 
 You can logout offline if the filing information of domain name is no longer use and cannot logout online through service providers. Access the Communication Administration website where your domain name record number belongs to; download and print application form of logout of filing; and submit the form with your credentials to the Communication Administration where recorded. Please fill and submit the logout application form according to the requirement for filing in the forms and the mode of submission. The logout website domain name cannot access after check passed by Communication Administration. You can resubmit the filing application of this domain name after logout.
 

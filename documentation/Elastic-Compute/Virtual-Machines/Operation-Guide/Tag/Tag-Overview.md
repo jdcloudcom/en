@@ -1,6 +1,6 @@
 # Tag Overview
 
-Tag provides a method for resource classification conforming to multiple classification specifications (e.g., the Owner, Purpose, etc.), allowing users to quickly locate specific resources based on tags in case of a large number of similar resources. A tag consists of a pair of key-value, both defined by users. For example, users can identify their VM resources based on the owner of VM. In addition, it is more convenient for users to manage resources on JD Cloud by using the same batch of tags for different types of resources, such as VM and cloud databases.
+Tag provides a method for resource classification conforming to multiple classification specifications (e.g., the Owner, Purpose, etc.), allowing users to quickly locate specific resources based on tags in case of a large number of similar resources. A tag consists of a pair of key-value, both defined by users. For example, users can identify their VM resources based on the owner of VM. In addition, it is more convenient for users to manage resources on JD Cloud & AI by using the same batch of tags for different types of resources, such as VM and cloud databases.
 ![](../../../../../image/vm/tagoverview.png)
 
 The figure above shows the implementation of the tag. For both instance 1 and instance 2, two tags are bound, which are the owner and the purpose. The owners of instance 1 and instance 2 are product development, the purpose of instance 1 is test, and the purpose of instance 2 is development.
