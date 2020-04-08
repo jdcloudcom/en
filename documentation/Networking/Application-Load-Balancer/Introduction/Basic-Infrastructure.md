@@ -25,7 +25,7 @@ A set of VM or container resources receiving access request is managed by the vi
 
 - Availability Group
 
-Availability Group is the Virtual Machine logic set provided by JD Cloud, which may support auto scaling across racks, across AZ according to the machine template designated by the user so as to distribute Virtual Machines in dispersion to the physical resources separately isolated. When hardware or power failure occurs, only the Virtual Machines in Availability Group can be affected, the business is still in available status.
+Availability Group is the Virtual Machine logic set provided by JD Cloud & AI, which may support auto scaling across racks, across AZ according to the machine template designated by the user so as to distribute Virtual Machines in dispersion to the physical resources separately isolated. When hardware or power failure occurs, only the Virtual Machines in Availability Group can be affected, the business is still in available status.
 
 - Forwarding Rules Group
 

@@ -32,19 +32,19 @@ Log in to the Virtual Machines needed to be the detection source (only Linux mac
 
 **Create the monitoring task**   
 
-4. Log in to JD Cloud Detection Console and click **Management->Cloud Detection->Availability Monitoring** to enter the availability monitoring task list page. Click **Create Task** button in the upper left corner.  
-5. Complete configuration information
+1. Log in to JD Cloud & AI Detection Console and click **Management->Cloud Detection->Availability Monitoring** to enter the availability monitoring task list page. Click **Create Task** button in the upper left corner.  
+2. Complete configuration information
 - Complete name of the availability monitoring task;
 - Select the detection source, and select the Virtual Machines in which the monitoring plug-in has been installed, and the plug-in is in "normal" status
 - Select the detection target URL/IP, with the detection protocol as HTTP(S), and enter the detection target, e.g., console.jdcloud.com  
 
-6. Click **Confirm** to complete creation.
+3. Click **Confirm** to complete creation.
 
 **View the monitoring graph**  
 
-7. After the above-mentioned task is successfully added, wait for 5 to 10 minutes, and click **Monitoring Graph** in the availability monitoring task list to view the response time and availability to the detection target of the task in the selected detection source.  
+After the above-mentioned task is successfully added, wait for 5 to 10 minutes, and click **Monitoring Graph** in the availability monitoring task list to view the response time and availability to the detection target of the task in the selected detection source.  
 
 **Set alarm**  
 
-8. Return to the availability monitoring task list, click **Alarm Rule** to enter the **Alarm Rule** page, and click **Add Alarm Rule** to open the set alarm rule page.  
-9. Select monitoring items, statistical periods, statistic methods, calculation methods, thresholds and durations; click **Next** to set the notification method, select the contact person to be notified, and click **Next** to complete alarm configuration.
+1. Return to the availability monitoring task list, click **Alarm Rule** to enter the **Alarm Rule** page, and click **Add Alarm Rule** to open the set alarm rule page.  
+2. Set rule name, for triggering conditions, select overall or city-operator for detection node, configure monitoring items, statistical cycle, statistical method, calculation method, threshold and duration, in notification policy, select contact or contact group, click **OK** to complete the alarm configuration.

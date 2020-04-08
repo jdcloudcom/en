@@ -1,6 +1,6 @@
 # Billing Overview
 
-JD Cloud Distributed Service Framework (JDSF) is respectively billed for namespace, calling chain analysis services and JD Distributed Service gateway, and the price is related to the selected service specification. The billing method, pay by configuration or monthly package, will be provided depending on different user demands.
+JD Cloud & AI Distributed Service Framework (JDSF) is respectively billed for namespace, calling chain analysis services and JD Distributed Service gateway, and the price is related to the selected service specification. The billing method, pay by configuration or monthly package, will be provided depending on different user demands.
 
 ##  Billing Rules
 
@@ -74,8 +74,8 @@ Basic Version
 
 | Specification Tier (QPS) |  Pay By Configuration (RMB/hour) | Monthly Package (RMB/month) |
 | :- | :- | :- |
-| 1-1500     | 1.6 | 818 |
-| 1501-3000   | 2.6 | 1329 |	
+| 1-1500     | 1 | 511 |
+| 1501-3000   | 2 | 1022 |	
 
 
 	

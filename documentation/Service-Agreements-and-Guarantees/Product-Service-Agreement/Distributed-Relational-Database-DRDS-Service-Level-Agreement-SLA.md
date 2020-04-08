@@ -1,6 +1,6 @@
 ## **1.Service Scope**
 
-JD Cloud provides the user with the Distributed Relational Database Service (DRDS) with the functions such as database and table sharding, online expansion and performance monitoring, and provides the settlement functions based on the cloud computing mode, such as pay by consumption and pay by demands.
+JD Cloud & AI provides the user with the Distributed Relational Database Service (DRDS) with the functions such as database and table sharding, online expansion and performance monitoring, and provides the settlement functions based on the cloud computing mode, such as pay by consumption and pay by demands.
 
 ## **2.Service Level Indicator**
 
@@ -10,31 +10,31 @@ The Distributed Relational Database Service (DRDS) itself is not used for data s
 
 **2.2 Destruction Nature of Data**
 
-   2.2.1 If the users actively delete the data or need to destruct the data after expiry of the service period, JD Cloud will automatically remove corresponding data in the physical disks and memory of the server, which the data cannot be recovered.
+   2.2.1 If the users actively delete the data or need to destruct the data after expiry of the service period, JD Cloud & AI will automatically remove corresponding data in the physical disks and memory of the server, which the data cannot be recovered.
 
-   2.2.2 Before scrapping, disposal, outsourced maintenance or resale of the device used for the Distributed Relational Database Service (DRDS), JD Cloud will adopt demagnetization operation on its physical disk.
+   2.2.2 Before scrapping, disposal, outsourced maintenance or resale of the device used for the Distributed Relational Database Service (DRDS), JD Cloud & AI will adopt demagnetization operation on its physical disk.
 
 **2.3 Privacy of Data**
 
-By means of encryption and security group isolation, JD Cloud ensures that the user data in the same resource pools are invisible with each other. In which, security groups can isolate different user resources through a series of data link level and network level IAM technology.
+By means of encryption and security group isolation, JD Cloud & AI ensures that the user data in the same resource pools are invisible with each other. In which, security groups can isolate different user resources through a series of data link level and network level IAM technology.
 
 **2.4 Right to Know of Data**
 
    2.5.1 Users have the right to know the geographical location of data center with their data and backup data, as well as the number of data backup, of which:
 
-   2.5.1.1 At present, JD Cloud data centers are distributed in North China (Beijing), East China (Suqian), East China (Shanghai), South China (Guangzhou). Users must select the corresponding data center according to the geographical location when they open cloud service, and their data will be stored in the data center specified by themselves;
+   2.5.1.1 At present, JD Cloud & AI data centers are distributed in North China (Beijing), East China (Suqian), East China (Shanghai), South China (Guangzhou). Users must select the corresponding data center according to the geographical location when they open cloud service, and their data will be stored in the data center specified by themselves;
 
-   2.5.2 JD Cloud data centers will comply with the relevant local laws and regulations, users have the right to know and they can contact customer service personnel of JD Cloud to acquire the detailed information.
+   2.5.2 JD Cloud & AI data centers will comply with the relevant local laws and regulations, users have the right to know and they can contact customer service personnel of JD Cloud & AI to acquire the detailed information.
 
-   2.5.3 Except for the requirements of local laws and regulations or the supervision and auditing of regulatory authorities, all user data, applications and behavior log will not be provided to the third party. Apart from being used for statistics & analysis of product operating status of JD Cloud, user behavior logs will not display user personal information data to the external.
+   2.5.3 Except for the requirements of local laws and regulations or the supervision and auditing of regulatory authorities, all user data, applications and behavior log will not be provided to the third party. Apart from being used for statistics & analysis of product operating status of JD Cloud & AI, user behavior logs will not display user personal information data to the external.
 
 **2.5 Reviewability of Data**
 
-In accordance with existing laws and regulations or the requirements from reasons such as supervision by government supervision department, safety and compliance, audit or forensic investigation, and subject to compliance with processes and procedures, JD Cloud may provide relevant information about the services used by users including the running log of key components, operational records of operation and maintenance personnel, records user operation and other information.
+In accordance with existing laws and regulations or the requirements from reasons such as supervision by government supervision department, safety and compliance, audit or forensic investigation, and subject to compliance with processes and procedures, JD Cloud & AI may provide relevant information about the services used by users including the running log of key components, operational records of operation and maintenance personnel, records user operation and other information.
 
 **2.6 Service Functions**
 
-The Distributed Relational Database Service (DRDS) is an on-line database service, providing functions such as database and table sharding, online expansion and performance monitoring. For all specific functions of DRDS, please see detailed description documents, technical documents and help documentation provided by JD Cloud on its official website. Any functional change with possible influence to the user will be announced to the user.
+The Distributed Relational Database Service (DRDS) is an on-line database service, providing functions such as database and table sharding, online expansion and performance monitoring. For all specific functions of DRDS, please see detailed description documents, technical documents and help documentation provided by JD Cloud & AI on its official website. Any functional change with possible influence to the user will be announced to the user.
 
 **2.7 Service Availability**
 
@@ -54,19 +54,19 @@ Multiple configurations and elastic expansion capacity are provided. The user ca
 
 **2.9 Fault Recovery Capability**
 
-JD Cloud provides 7×24 hours of operation maintenance for the Distributed Relational Database Service (DRDS) of the paying users, and provides technical support by means of online ticket and telephone fault reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc.
+JD Cloud & AI provides 7×24 hours of operation maintenance for the Distributed Relational Database Service (DRDS) of the paying users, and provides technical support by means of online ticket and telephone fault reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc.
 
 **2.10 Service Metering Accuracy**
 
-The Distributed Relational Database Service (DRDS) has an accurate and transparent metering and billing system. JD Cloud settles and deducts charges in real time of DRDS according to the user’s actual usage. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud official website. The user's original billing log shall be kept for at least 1 year by default for future reference.
+The Distributed Relational Database Service (DRDS) has an accurate and transparent metering and billing system. JD Cloud & AI settles and deducts charges in real time of DRDS according to the user’s actual usage. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud & AI official website. The user's original billing log shall be kept for at least 1 year by default for future reference.
 
 **2.11 Service Compensation Terms**
 
    2.11.1 Compensation Scope:
 
-In the event of failure of normal use of the Distributed Relational Database Service (DRDS) due to JD Cloud’s fault, or failure of normal website access due to JD Cloud’s fault, JD Cloud will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
+In the event of failure of normal use of the Distributed Relational Database Service (DRDS) due to JD Cloud & AI’s fault, or failure of normal website access due to JD Cloud & AI’s fault, JD Cloud & AI will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
 
-(1) Caused by the system maintenance that JD Cloud have notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
+(1) Caused by the system maintenance that JD Cloud & AI have notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
 
 (2) Unavailability situations such as packet loss and latency caused by operator fault;
 
@@ -82,7 +82,7 @@ In the event of failure of normal use of the Distributed Relational Database Ser
 
 (8) Caused by force majeure and accidents;
 
-(9) Other unavailability caused not due to JD Cloud’s account.
+(9) Other unavailability caused not due to JD Cloud & AI’s account.
 
    2.11.2 Compensation Scheme
    
@@ -102,4 +102,4 @@ The total compensation amount shall not exceed the total service expense paid in
 
 **3. Miscellaneous**
 
-JD Cloud has the right to make adjustments to some service indicators of the Service Level Agreement according to changes, and promptly publish announcements on JD Cloud official website [www.jdcloud.com](https://www.jdcloud.com/), or send emails or written notices to notify the users of the modified contents.
+JD Cloud & AI has the right to make adjustments to some service indicators of the Service Level Agreement according to changes, and promptly publish announcements on JD Cloud & AI official website [www.jdcloud.com](https://www.jdcloud.com/), or send emails or written notices to notify the users of the modified contents.

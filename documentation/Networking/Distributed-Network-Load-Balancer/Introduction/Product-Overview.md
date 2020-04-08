@@ -3,7 +3,7 @@
 
 The Distributed Network Load Balancer (DNLB) is a four-layer distributed Load Balancer product. It automatically distributes the user’s stateless business requests to several backend servers based on some policies, to adjust resource utilization, eliminate influence to systems by a single failed backend server, improve system availability and expand system service capability.
 
-The Distributed Network Load Balancer is a lightweight Load Balancer based on JD Cloud’s SDN technology. Without any entity of the Load Balancer, it provides software-defined Distributed Load Balancer Service to all AZs, aiming to provide you with super high performance and long-term free four-layer stateless Load Balancer Service, mainly for stateless business distribution scenarios with super high performance, large concurrency and low latency.
+The Distributed Network Load Balancer is a lightweight Load Balancer based on JD Cloud & AI’s SDN technology. Without any entity of the Load Balancer, it provides software-defined Distributed Load Balancer Service to all AZs, aiming to provide you with super high performance and long-term free four-layer stateless Load Balancer Service, mainly for stateless business distribution scenarios with super high performance, large concurrency and low latency.
 
    ![DNLB分布式部署架构](../../../../image/Networking/Distributed-Network-Load-Balancer/DNLB-001.png)
 

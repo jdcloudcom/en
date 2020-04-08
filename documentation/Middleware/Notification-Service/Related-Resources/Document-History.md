@@ -4,4 +4,5 @@ The document specifies the significant update history of Notification Service, i
 
 |Release Date|Features|Description|
 |-|-|-|
+|March 19, 2020|GA|The Middleware-Notification Service is officially launched.|
 |December 31, 2019|Beta|Middleware-Notification Service Beta version went online. <br/>Support the Notification Service releasing subscription message models, support subscription terminals of HTTP, HTTPS and Queue Service (JQS) and support subscription filtering policy, retry push policy and subscription acknowledgement mechanism.|

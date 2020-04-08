@@ -10,7 +10,7 @@ This Guide includes the following steps:
  
  2. [Create Availability Group](../Getting-Started/Create-AvailabilityGroup.md)
  
-    Create an Availability Group. Availability Group is a highly available deployment solution for its business provided by JD Cloud, it is the a logical collection of computing resources, and can be associated with Distributed Network Load Balancer as the backend server group to provide services.
+    Create an Availability Group. Availability Group is a highly available deployment solution for its business provided by JD Cloud & AI, it is the a logical collection of computing resources, and can be associated with Distributed Network Load Balancer as the backend server group to provide services.
 
  3. [Create Listener and Backend Service](../Getting-Started/Manage-Instance.md)
  

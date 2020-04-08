@@ -23,7 +23,7 @@ For the cost incurred due to message notification times of the Notification Serv
 | Billing Item   | Cost                                  |
 | -------- | ------------------------------------- |
 | HTTP/S   | RMB 2/1 million times                           |
-| Email | RMB 2 per 1,000 Emails                            |
-| SMS Push | Details of Charge of Text Message              |
-| Queue Service | Notification Service push is free of charge and calling to Queue Service API will be charged |
-| Function Service | Notification Service push is free of charge and calling to Function Service will be charged  |
+| Email (Not Provided Yet) | RMB 2 per 1,000 Emails                            |
+| SMS Push | Text Message will be charged              |
+| Queue Service | Notification Service push is free of charge and Queue Service will be charged |
+| Function Service (Not Provided Yet) | Notification Service push is free of charge and Function Service will be charged |

@@ -2,7 +2,7 @@
 # Create an availability group
 ## Operation Steps
 ### Create instance template
- 1. Select **Elastic Compute**>> **Virtual Machines**>> **Instance Template** on the left navigation bar of JD Cloud Console to log in the Instance Template List page.
+ 1. Select **Elastic Compute**>> **Virtual Machines**>> **Instance Template** on the left navigation bar of Console to log in the Instance Template List page.
  
  2. Click **Create** button to go to instance template creating page
  
@@ -14,7 +14,7 @@
  
    - Image: Virtual Machines in Availability Group shall be created by the selected image.
    - Specifications: Select specifications of Generation II Virtual Machines, only the instance templates in specifications of Generation II Virtual Machines support creating Availability Group.
-   - Storage: JD Cloud provides two types of Cloud Disk Service and Local Hard Disk.
+   - Storage: Cloud Disk Service or Local Hard Disk Service can be selected.
    - Networking: Select Virtual Private Cloud and Subnet where Virtual Machines are located, the count of Virtual Machines that can be created within the Subnet will be displayed after selecting Subnet. If there is no Subnet currently, you may create a new Subnet through the fast entrance and select in "Virtual Machines Network".
    - Public Network Bandwidth: Virtual Machines in the Guide provide services through Public IP associated with Distributed Network Load Balancer, Public IP is not required to be associated temporarily, click **Not Purchase Now**. If the backend Virtual Machines under your scenario need to be separately associate EIP to provide services, please configure public network bandwidth.
    - Login information: Configure login information of Virtual Machines in Availability Group.

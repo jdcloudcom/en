@@ -1,28 +1,20 @@
-1 **Service Scope**
+### 1. Service Scope
 
-JD Cloud IoT Hub Service is an IoT access platform, providing users with rapid, efficient, safe and low-cost device connection, device management, device data collection, forwarding and dumping functions.
+JD Cloud & AI IoT Hub Service is an IoT access platform, providing users with rapid, efficient, safe and low-cost device connection, device management, device data collection, forwarding and dumping functions.
 
-2 **Service Level Indicator**
+### 2. Service Level Indicator
 
- 
+#### 2.1 Service Functions
 
-2.1 **Service Functions**
+For details of all functions of the IoT Hub Service, please refer to the detailed description document, technical document and help documentation provided by JD Cloud & AI on the official website. All functional changes of IoT Hub Service that may affect users will be announced to the users.
 
- 
-
-For details of all functions of the IoT Hub Service, please refer to the detailed description document, technical document and help documentation provided by JD Cloud on the official website. All functional changes of IoT Hub Service that may affect users will be announced to the users.
-
- 
-
-2.2 **Service Availability**
+#### 2.2 Service Availability
 
 Service cycle: one natural month shall be defined as one service cycle. In case of less than one natural month, it shall not be counted as one service cycle.
 
 Service availability: not less than 99.9%.
 
 Calculation formula for service availability of IoT Hub Service is: ((Effective messages per service cycle - failed message count per service cycle)/effective message count per service cycle)×100%.** Monthly free message quota shall not be counted.**
-
- 
 
 Where,
 
@@ -46,53 +38,33 @@ Failed messages: Effective messages which are not circulated due to system failu
 
 (3) Messages failed to be sent to a device due to system exception when a user calls an API and sends an instruction to an on-line device.
 
- 
+#### 2.3 Service Resource Allocation Capability
 
-2.3 **Service Resource Allocation Capability**
+The IoT Hub Service provides multiple configurations. Therefore, users can expand IoT Hub resources in service on line by themselves based on JD Cloud & AI configuration schemes according to concurrent device count and the demand for count of messages received and sent per month.
 
- 
+#### 2.4 Fault Recovery Capability
 
-The IoT Hub Service provides multiple configurations. Therefore, users can expand IoT Hub resources in service on line by themselves based on JD Cloud configuration schemes according to concurrent device count and the demand for count of messages received and sent per month.
+JD Cloud & AI provides 7×24 hours of operation maintenance for the load balancer instance of the paying users, and provides technical support by means of telephone fault reporting, and has a series of fault incident response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc.
 
- 
+#### 2.5 Network Access Performance
 
-2.4 **Fault Recovery Capability**
+JD Cloud & AI adopts BGP multi-line access to ensure the quality of network access for users.
 
- 
-
-JD Cloud provides 7×24 hours of operation maintenance for the load balancer instance of the paying users, and provides technical support by means of telephone fault reporting, and has a series of fault incident response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc.
+#### 2.6 Service Metering Accuracy
 
  
 
-2.5 **Network Access Performance**
+IoT Hub Service has an accurate and transparent metering and billing system. JD Cloud & AI settles and deducts charges in real time according to actual usage of the users’ Virtual Machines. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud & AI official website. The user's original billing log shall be kept for at least 3 years by default for future reference.
 
- 
+### 3. Service Compensation Terms
 
-JD Cloud adopts BGP multi-line access to ensure the quality of network access for users.
+#### 3.1 Compensation Scope
 
- 
+In the event of failure of normal use of IoT Hub Service purchased by users due to JD Cloud & AI’s device faults, design defects or misoperation, JD Cloud & AI will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
 
-2.6 **Service Metering Accuracy**
+(1) Caused by the system maintenance that JD Cloud & AI has notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
 
- 
-
-IoT Hub Service has an accurate and transparent metering and billing system. JD Cloud settles and deducts charges in real time according to actual usage of the users’ Virtual Machines. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud official website. The user's original billing log shall be kept for at least 3 years by default for future reference.
-
- 
-
- 
-
-3 **Service Compensation Terms**
-
- 
-
-3.1 **Compensation Scope**
-
-In the event of failure of normal use of IoT Hub Service purchased by users due to JD Cloud’s device faults, design defects or misoperation, JD Cloud will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
-
-(1) Caused by the system maintenance that JD Cloud has notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
-
-(2) Any problems caused by the network, equipment failure or configuration adjustment other than JD Cloud’s device;
+(2) Any problems caused by the network, equipment failure or configuration adjustment other than JD Cloud & AI’s device;
 
 (3) Caused by hacker attacks to the user’s application program or data information;
 
@@ -106,14 +78,11 @@ In the event of failure of normal use of IoT Hub Service purchased by users due 
 
 (8) Caused by force majeure and accidents;
 
-(9) Other unavailability caused not due to JD Cloud’s account.
+(9) Other unavailability caused not due to JD Cloud & AI’s account.
 
- 
-
-3.2 **Compensation Scheme**
+#### 3.2 Compensation Scheme
 
 The compensation amount for the IoT Hub Service shall be calculated according to standards of the table below on the basis of the service availability of one service cycle. The compensation method is only limited to coupons used for purchasing IoT Hub, and the total compensation amount shall not exceed the service charge paid by the customer for the IoT Hub for the month in which the service availability commitments are not reached (excluding the fees deducted with coupons).
-
  
 
 | Service Availability                   | Compensation Coupon Quota             |
@@ -121,13 +90,12 @@ The compensation amount for the IoT Hub Service shall be calculated according to
 | Lower than 99.9% but equal to or above 99.00% | 10% of the service charge of the service cycle  |
 | Lower than 99.00% but equal to or above 95.00% | 25% of the service charge of the service cycle  |
 | Lower than 95.00%                   | 100% of the service charge of the service cycle |
-
  
 
-3.3 **Compensation Time Limit**
+#### 3.3 Compensation Time Limit
 
 Customers may apply for compensation after the fifth (5th) working day of each month for the service failed to meet the availability commitment for a two-month period. The compensation application must be made within two (2) months at the end of the relevant month in which the IoT Hub Service fails to meet the availability commitment. Compensation application exceeding the time limit for application will be deemed as the customer’s waiver to such request.
 
-4 **Others**
+### 4. Others
 
-JD Cloud has the right to from time to time make adjustments to partial service indicators of the Service Level Agreement according to changes and promptly release announcements on JD Cloud official website [www.jdcloud.com](https://www.jdcloud.com) or send emails or written notices to notify users of the modified contents.
+JD Cloud & AI has the right to from time to time make adjustments to partial service indicators of the Service Level Agreement according to changes and promptly release announcements on JD Cloud & AI official website [www.jdcloud.com](https://www.jdcloud.com) or send emails or written notices to notify users of the modified contents.

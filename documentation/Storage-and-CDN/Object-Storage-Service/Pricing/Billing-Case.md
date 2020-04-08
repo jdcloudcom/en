@@ -1,6 +1,6 @@
 ## Billing Case
 
-This paper introduces the calculation method of OSS cost in the form of a case. The unit price in the case is from the price information published on the official website of JD Cloud. See [Pricing Description](./Price-Overview.md) for the price details. For free tier change used in the case,
+This paper introduces the calculation method of OSS cost in the form of a case. The unit price in the case is from the price information published on the official website of JD Cloud & AI. See [Pricing Description](./Price-Overview.md) for the price details. For free tier change used in the case,
 [Free-Tier](./Free-Tier-For-Oss.md) shall prevail.
 
 **Case background : Use standard storage + data access**
@@ -13,9 +13,9 @@ Company A is a media enterprise which stores a huge number of picture material f
 
 *  Internet downlink traffic cost: 500 (GB) \* RMB 0.50/GB = RMB 250.00
 
-*  Cost of times of request: It is free temporarily, if it is charged, then the cost of this part is 200 (million times)\* Unit price/10,000 times
+*  Cost of times of request: 200 (million times)\* RMB 0.01/10,000 times = RMB 2.00
 
-*  Monthly consumption = Storage capacity cost + Internet downlink traffic cost = 12.81 + 250.00 = RMB 262.81
+*  Monthly consumption = Storage capacity cost + Internet downlink traffic cost = 12.81 + 250.00 + 2.00 = RMB 264.81
 
 **Case background: Use standard storage + CDN**
 
@@ -27,9 +27,9 @@ Company B is a video website enterprise which stores a huge number of video file
 
 * CDN back-to-origin traffic cost: 800(GB) \*RMB 0.14/GB = RMB 112.00
 
-* Cost of times of request: It is free temporarily, if it is charged, then the cost of this part is 500 (million times)\* Unit price/10,000 times
+* Cost of times of request: 500 (million times)\* RMB 0.01/10,000 times = RMB 5.00
 
-* Monthly consumption = Storage capacity cost + CDN back-to-origin traffic cost = 25.62 + 112.00 = RMB 137.62
+* Monthly consumption = Storage capacity cost + CDN back-to-origin traffic cost = 25.62 + 112.00 + 5.00= RMB 142.62
 
 **Case Background: Use standard archival type storage**
 
@@ -44,6 +44,6 @@ Company C is an E-commerce enterprise which stores a huge number of electronic i
 
 *  Data retrieval cost: 2GB \* RMB 0.2/GB (quick retrieval mode) = RMB 0.4
 
-*  Number of request cost: temporarily free
+*  Number of request cost: Negligible
 
 *  Monthly consumption = Storage capacity cost + Internet downlink traffic cost + data retrieval cost = 15360 + 5 + 0.4 = RMB 15365.4

@@ -6,11 +6,11 @@ By adopting the fully-hosted management node, JCS for Kubernetes provides simple
 
 ## Operation Scenario
 
-If a JD Cloud user has created JCS for Kubernetes on JD Cloud, then the application will need to be deployed in the cluster. At this point, the user can complete the application deployment through the interface operation via the JDSF Console.
+If a JD Cloud & AI user has created JCS for Kubernetes on JD Cloud & AI, then the application will need to be deployed in the cluster. At this point, the user can complete the application deployment through the interface operation via the JDSF Console.
 
 ## Environment Preparation
 
-1. JCS for Kubernetes of JD Cloud has been purchased and enabled.
+1. JCS for Kubernetes of JD Cloud & AI has been purchased and enabled.
 
 2. Resources required are enabled, such as: JDSF, etc.
 
@@ -102,7 +102,7 @@ Click **Details** in the operation bar and adjust total number and specification
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/k8s-zyc-yyxq-step2-zdks-2.png)
 
-For example, when auto expansion is configured as above, it means when cpu load exceeds 50% of the cap of resource configured for application deployment at present, Kubernetes will automatically create one Pod expansion application instance. If all Pod resources exceed 50% of the resource cap of each Pod after completion of expansion, Kubernetes will continue the expansion and contraction until 5 Pods are left. When application load falls back, Kubernetes will be automatically contracted, with some Pod removed to recover resources. It should be noted that auto expansion and contraction (HPA) is supported only when above version 1.12.3-jcs.4 JD Cloud Kubernetes is supported.
+For example, when auto expansion is configured as above, it means when cpu load exceeds 50% of the cap of resource configured for application deployment at present, Kubernetes will automatically create one Pod expansion application instance. If all Pod resources exceed 50% of the resource cap of each Pod after completion of expansion, Kubernetes will continue the expansion and contraction until 5 Pods are left. When application load falls back, Kubernetes will be automatically contracted, with some Pod removed to recover resources. It should be noted that auto expansion and contraction (HPA) is supported only when above version 1.12.3-jcs.4 JD Cloud & AI Kubernetes is supported.
 
 
 2) Manual Expansion and Contraction
@@ -123,7 +123,7 @@ For example, when configuration is made as shown above, the number of applicatio
 
 1. Log in the JD Distributed Service Framework Console. Click **Application Management** on the left side navigation bar and log in the application list page.
 
-2. Select the application for configuration expansion and contraction, click application name and enter the application details.
+2. Select the application for configuration, click application name and enter the application details.
 
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/k8s-zyc-yyxq.png)
 

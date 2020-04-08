@@ -43,6 +43,8 @@ items:
       href: SDK-Rerference/php.md 
     - name: .net Reference
       href: SDK-Rerference/dotnet.md 
+    - name: Node.JS Reference
+      href: SDK-Rerference/nodejs.md 
 - name: Relevant Agreement
   items:
     - name: Service Agreement

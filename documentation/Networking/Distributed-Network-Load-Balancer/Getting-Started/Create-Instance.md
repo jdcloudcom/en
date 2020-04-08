@@ -3,7 +3,7 @@
 If you are required to provide Load Balancer services for public network service requests, it is required to create a Load Balancer instance of public network type first.
 ## Operation Steps
 
- 1. Select ** Networking**>> **Network Load Balancer** at the navigation bar on the left side of the JD Cloud Console to go to the Application Load Balancer List Page.
+ 1. Select ** Networking**>> **Network Load Balancer** at the navigation bar on the left side of the Console to go to the Application Load Balancer List Page.
 
  2. Select ** Distributed Network Type** tag to go to the Distributed Network Load Balancer List page.
 

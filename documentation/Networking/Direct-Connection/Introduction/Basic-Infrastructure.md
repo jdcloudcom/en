@@ -1,37 +1,28 @@
-## **Basic Architecture**
+## Basic Architecture
 
-#### **Summary**
+#### Summary
 
 Overall architecture diagram of Direct Connection is as follows:
 
  ![](../../../../image/Networking/Direct-Connect-Service/Introduction/Infrastructure.png)
 
-
-
-#### **Components of Direct Connection**
+#### Components of Direct Connection
 
 Direct Connection
 
-- Physical Connection: the physical links for the connection between JD Cloud machine room and customer IDC machine room.
+- Physical Connection: the physical links for the connection between JD Cloud & AI machine room and customer IDC machine room.
 - Private Virtual Interface: a logical link for the connection between border gateway and physical connection.
-
-
 
 Hosted Connect
 
-- Hosted Connection: a physical link for the connection between JD Cloud machine room and devices of customer JD Cloud hosted area.
+- Hosted Connection: a physical link for the connection between JD Cloud & AI machine room and devices of customer JD Cloud & AI hosted area.
 - Hosted Private Virtual Interface: a logical link for the connection between border gateway and hosted connection.
-
-
 
 Border Gateway (BGW): The gateway to host the communication between VPCs and between VPC and external private environment and the current hosted functions include Direct Connection, Cabinet Service, VPN Connection and VPC Attachment.
 
+VPC Attachment: Interconnection APIs between JD Cloud & AI VPC and Border Gateway.
 
-VPC Attachment: Interconnection APIs between JD Cloud VPC and Border Gateway.
-
-
-
-#### **High-availability Architecture**
+#### High-availability Architecture
 
 High-availability architecture designs are used/ supported for all components of the Direct Connection Service, in which:
 
@@ -39,7 +30,7 @@ High-availability architecture designs are used/ supported for all components of
 - When the customer creates a border gateway, the border gateway of active-active mode will be created by default.
 - When the customer creates an interface, the private virtual interface/ hosted private virtual interface of active-active mode will be created by default.
 
-#### **Description of adjustment to interconnection method between Border Gateway and VPC**
+#### Description of adjustment to interconnection method between Border Gateway and VPC
 
 1) Description of interconnection method
 

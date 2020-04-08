@@ -1,195 +1,196 @@
-**本服务条款是京东集团旗下综合云计算服务商（以下简称"京东云"）与您就边缘网络隧道等相关事项所订立的有效合约。您通过盖章、网络页面点击确认或以其他方式选择接受本服务条款，包括但不限于未点击确认本服务条款而事实上使用了京东云边缘网络隧道服务，即表示您与京东云已达成协议并同意接受本服务条款的全部约定内容。如若双方盖章文本与网络页面点击确认或以其他方式选择接受之服务条款文本，存有不一致之处，以双方盖章文本为准。**
+**These Service Terms are the effective contracts concluded by and between the integrated cloud computing service provider (hereinafter referred to as "JD Cloud & AI") under JD Group and you for Edge Network Tunnel and relevant matters. You select to accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using JD Cloud & AI’s Edge Network Tunnel services without clicking to confirm, indicating that you have reached an agreement with JD Cloud & AI and agreed to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
 
-**关于本服务条款，提示您特别关注限制、免责条款，京东云对您违规、违约行为的认定处理条款，以及管辖法院的选择条款等。限制、免责条款可能以加粗或加下划线形式提示您注意。在接受本服务条款之前，请您仔细阅读本服务条款的全部内容。如果您对本服务条款的条款有疑问的，请通过京东云相关业务部门进行询问，京东云将向您解释条款内容。如果您不同意本服务条款的任意内容，或者无法准确理解京东云对条款的解释，请不要进行后续操作。**
+**With regards to these Service Terms, you are notified to pay extra attention on the terms of limitation and exemption, terms of JD Cloud & AI judging and handling your violation and breach of Terms, and the optional terms of the competent court. Limit and exemption terms may be in bold or underlined for highlighting. Please read through these Service Terms carefully before accepting these Service Terms. If you have any questions about the terms of these Service Terms, please contact the relevant business department of JD Cloud & AI to state the inquiry, and JD Cloud & AI will interpret the term contents to you. If you do not agree with any of these Service Terms, or cannot accurately understand JD Cloud & AI's interpretation of the Terms, please do not conduct follow-up operations.**
 
-**1.服务内容**
+**1. Service Content**
 
-1.1本条款中"服务"指：京东云向您提供[www.jdcloud.com](https://www.jdcloud.com/)网站上所展示的边缘网络隧道以及相关的技术及网络支持服务。
+1.1 For the purposes of these Terms, the "service" means: JD Cloud & AI provides you with Edge Network Tunnel as well as related technologies and network support services as displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
 
-1.2 京东云提供的服务必须符合本服务条款的约定。
+1.2 The services provided by JD Cloud & AI must comply with these Service Terms.
 
-**2.服务费用**
+**2. Service Charge**
 
-2.1 服务费用将在您订购页面予以列明公示，您可自行选择具体服务类型并按列明的价格予以支付。
+2.1 The service cost will be listed and shown on your subscription page; you can choose the specific type of service and pay at the listed price.
 
-2.2 您使用后付费。具体扣费规则请查看[www.jdcloud.com](https://www.jdcloud.com/)上的页面公告且以页面公布的后付费服务当时有效的计费模式、标准为准。
+2.2 You are using Pay-As-You-Go. Please view the page announcement on [www.jdcloud.com](https://www.jdcloud.com/) for the specific deduction rules, which is subject to the current effective billing mode and standard of Pay-As-You-Go service on the page.
 
-2.3 京东云保留在您未按照约定支付全部费用之前不向您提供服务和/或技术支持，或者终止服务和/或技术支持的权利。同时，京东云保留对后付费服务中的欠费行为追究法律责任的权利。
+2.3 JD Cloud & AI reserves the right not to provide you with services and/or technical supports or to terminate the services and/or technical supports until you have paid off all the costs as agreed. In the meanwhile, JD Cloud & AI reserves the right to pursue legal liability for arrears in the Pay-As-You-Go service.
 
-2.4 您完全理解京东云价格体系中所有的赠送服务项目或活动均为京东云在正常服务价格之外的一次性特别优惠，优惠内容不包括赠送服务项目的修改、更新及维护费用，并且赠送服务项目不可折价冲抵服务价格。
+2.4 You fully understand that all the free service items or activities in the JD Cloud & AI price system are one-off special offers from JD Cloud & AI in addition to the normal service price. The contents of the offer do not include the modification, update and maintenance costs of the free service items, and the free service items cannot be converted into money to offset the service charge.
 
-2.5 您理解并同意，京东云有权根据实际情况随时单方调整费用标准及收费方式，而无需获得您的事先同意，京东云会尽合理范围内的最大努力，将前述调整及变化，通过官网公告、站内通知或您预留的联系信息等方式提前告知您，且调整日之前已经购买并已全额支付费用的服务不受影响。
+2.5 You understand and agree that JD Cloud & AI has the right to unilaterally adjust the charge standard and charging method at any time according to the actual situation without obtaining your prior consent; JD Cloud & AI will make the best efforts within the reasonable scope to notify you in advance of the aforementioned adjustments and changes by the official website announcement, the intra-website notices or the contact information you provided; and the services purchased and paid in full amount before the adjustment date will not be affected.
 
-**3.权利义务**
+**3. Rights and Obligations**
 
-3.1 您的权利、义务
+3.1 Your Rights and Obligations
 
-**3.1.1 您同意遵守本服务条款以及服务展示页面的相关管理规范及流程。您了解上述协议及规范等的内容可能会不时变更。如本服务条款的任何内容发生变动，京东云应通过提前在**[**www.jdcloud.com**](https://www.jdcloud.com/)**的适当版面公告向您提示修改内容。如您不同意京东云对本服务条款相关条款所做的修改，您有权停止使用京东云的服务,此等情况下，京东云应与您进行服务费结算（如有），并且您应将业务数据迁出。如您继续使用京东云服务，则视为您接受京东云对本服务条款相关条款所做的修改。**
+**3.1.1 You agree to abide by these Service Terms and the relevant management specifications and processes on the service display Page. You understand that the above contents of the agreement and specification may change from time to time. In the event of any change to any content of these Service Terms, JD Cloud & AI shall notify you of the modified contents by announcement on the suitable coverage on **[**www.jdcloud.com**](https://www.jdcloud.com/)** in advance. If you disagree with JD Cloud & AI’s modification to the related terms in these Service Terms, you have the right to stop using JD Cloud & AI’s services. In such case, JD Cloud & AI shall settle the service charge with you (if any), and you shall move the business data out. If you continue to use JD Cloud & AI services, you are deemed to have accepted the modifications made by JD Cloud & AI to the related terms in these Service Terms.**
 
-3.1.2 您应按照京东云的页面提示及本服务条款的约定支付相应服务费用。
+3.1.2 You shall pay the corresponding service charge according to the page notifications of JD Cloud & AI and the agreement in these Service Terms.
 
-3.1.3 您承诺：
+3.1.3 You undertake that:
 
-3.1.3.1 如果您利用京东云提供的服务进行的经营或非经营活动需要获得国家有关部门的许可或批准的，应获得该有关的许可或批准。若您从事新闻、出版、教育、医疗保健、药品和医疗器械等互联网信息服务，依照法律、行政法规以及国家有关规定须经有关主管部门审核同意，在申请经营许可或者履行备案手续前，应当依法经有关主管部门审核同意。
+3.1.3.1 If your business or non-business activities using the services provided by JD Cloud & AI require the license or approval of the relevant state departments, you shall obtain the relevant license or approval. If you are engaged in Internet information services such as news, publication, education, medical care, pharmaceuticals and medical devices, it shall be reviewed and approved by relevant competent departments in accordance with laws, administrative regulations and relevant state regulations, and shall be reviewed and approved by relevant competent departments before applying for business license or handling ICP filing formalities.
 
-**您理解并认可，以上列举并不能穷尽您进行经营或非经营活动需要获得国家有关部门的许可或批准的全部类型，您应获得有关的许可或批准，并应符合国家及地方不时颁布相关法律法规之要求。**
+**You understand and acknowledge that the above list does not exhaust all types of licenses or approvals required by the relevant state departments for your business or non-business activities. You shall obtain relevant licenses or approvals, and shall comply with the requirements of relevant laws and regulations issued by the state and local from time to time.**
 
-3.1.3.2 除京东云明示许可外，不得修改、翻译、改编、出租、转许可、在信息网络上传播或转让京东云提供的软件，也不得逆向工程、反编译或试图以其他方式发现京东云提供的软件的源代码；
+3.1.3.2 Except for the express permission of JD Cloud & AI, the software provided by JD Cloud & AI may not be modified, translated, adapted, leased, sub-licensed, or disseminated or transferred on the information network, nor reversely engineered, decompiled or found the source code of the software provided by JD Cloud & AI in other ways by attempt;
 
-3.1.3.3 若京东云的服务涉及第三方软件之许可使用的，您同意遵守相关的许可协议的约束；
+3.1.3.3 If JD Cloud & AI’s services involve the use license of third-party software, you agree to abide by the relevant license agreement;
 
-3.1.3.4 不散布电子邮件广告、垃圾邮件（Spam）：不利用京东云提供的服务散发大量不受欢迎的或者未经请求的电子邮件、电子广告或包含反动、色情等有害信息的电子邮件；
+3.1.3.4 Do not disseminate email advertisements or Spam: Do not use the services provided by JD Cloud & AI to disseminate a large number of unwanted or unsolicited emails, electronic advertisements or emails containing reactionary, pornographic and other harmful information;
 
-3.1.3.5 不利用京东云边缘网络隧道提供的资源和服务上传（Upload）、下载（Download）、储存、发布如下信息或者内容，不为他人发布该等信息提供任何便利（包括但不限于设置URL、Banner链接等）:
+3.1.3.5 Do not use the resources and services provided by JD Cloud & AI’s Edge Network Tunnel to upload, download, store and release the following information or contents, and do not provide any convenience for others to publish such information (including but not limited to setting URLs, Banner links, etc.):
 
-3.1.3.5.1 违反国家规定的政治宣传和/或新闻信息；
+3.1.3.5.1 Political propaganda and/or news in violation of state regulations;
 
-3.1.3.5.2 涉及国家秘密和/或安全的信息；
+3.1.3.5.2 Information concerning state secrets and/or security;
 
-3.1.3.5.3 封建迷信和/或淫秽、色情、下流的信息或教唆犯罪的信息；
+3.1.3.5.3 Information on feudalistic superstition and/or obscenity, pornography, indecency or information abetting commitment of crime;
 
-3.1.3.5.4 博彩有奖、赌博游戏、"私服"、"外挂"等非法互联网出版活动；
+3.1.3.5.4 Lottery prizes, gambling games, "private services", "plug-ins" and other illegal Internet publishing activities;
 
-3.1.3.5.5 违反国家民族和宗教政策的信息；
+3.1.3.5.5 Information that violates national ethnic and religious policies;
 
-3.1.3.5.6 妨碍互联网运行安全的信息；
+3.1.3.5.6 Information that impedes running security of the Internet;
 
-3.1.3.5.7 侵害他人合法权益的信息和/或其他有损于社会秩序、社会治安、公共道德的信息或内容；
+3.1.3.5.7 Information that infringes upon the legitimate rights and interests of others and/or other information or contents detrimental to social order, social security and public morals;
 
-3.1.3.5.8 其他违反法律法规、部门规章或国家政策的内容。
+3.1.3.5.8 Other contents that violate laws and regulations, departmental regulations or national policies.
 
-3.1.3.6 不应大量占用，亦不得导致如程序或进程等大量占用京东云云计算资源（如云服务器、网络带宽、存储空间等）所组成的平台（以下简称"云平台"）中服务器内存、CPU或者网络带宽资源，并给京东云云平台或者京东云的其他用户的网络、服务器（包括但不限于本地及外地和国际的网络、服务器等）、产品/应用等带来严重的、不合理的负荷，影响京东云与国际互联网或者京东云与特定网络、服务器及京东云内部正常通畅的联系，或者导致京东云云平台产品与服务或者京东云的其他用户的服务器宕机、死机或者用户基于云平台的产品/应用不可访问等；
+3.1.3.6 Do not occupy or cause programs or processes to occupy a large amount of the server memory, CPU or network bandwidth resources on the platform (hereinafter referred to as the "cloud platform") consisting of cloud computing resources of JD Cloud & AI (such as cloud servers, network bandwidth, bucket, etc.), cause serious and unreasonable load to JD Cloud & AI cloud platform or the networks, servers (including but not limited to local and foreign and international networks, servers, etc.), products/applications, etc. of other JD Cloud & AI users, affect the smooth communications between JD Cloud & AI and the Internet or between JD Cloud & AI specific and networks and servers and internal smooth communication within JD Cloud & AI, or cause the system breakdown or system halt of the servers that the products and services of JD Cloud & AI cloud platform or other user websites of JD Cloud & AI are on, or failure of access of users to the products/applications based on the cloud platform, etc.;
 
-3.1.3.7 不进行任何破坏或试图破坏网络安全的行为（包括但不限于钓鱼，黑客，网络诈骗，网站或空间中含有或涉嫌散播：病毒、木马、恶意代码，及通过虚拟服务器对其他网站、服务器进行涉嫌攻击行为如扫描、嗅探、ARP欺骗、DOS等）；
+3.1.3.7 Do not conduct any acts that damage or attempt to damage network security (including but not limited to phishing, hacking, internet fraud, website or space containing or suspected of disseminating: viruses, Webshell, malicious code, and other acts suspected of attacking other websites and servers through virtual servers such as scanning, sniffing, ARP spoofing, DOS, etc.);
 
-3.1.3.8 不进行任何改变或试图改变京东云提供的系统配置或破坏系统安全的行为；
+3.1.3.8 Do not make any changes or attempts to change the system configuration provided by JD Cloud & AI or damage the security of the system;
 
-3.1.3.9 不利用京东云提供的服务从事损害京东云、京东云的关联公司或京东集团内包括但不限于京东商城、京东物流、京东数科等（以下统称为京东集团）各公司、网站合法权益之行为，前述损害京东集团、网站合法权益的行为包括但不限于违反京东集团公布的任何服务协议/条款、管理规范、交易规则等规范内容、破坏或试图破坏京东集团公平交易环境或正常交易秩序等；
+3.1.3.9 Do not use the service provided by JD Cloud & AI to engage in acts causing damage to legal rights and interests of JD Cloud & AI, JD Cloud & AI’s affiliated companies or all companies and websites within JD Group including but not limited to JD Mall, JD Logistics, JD Digits (hereinafter collectively referred to as JD Group). The aforementioned acts that damage the legitimate rights and interests of JD Group and websites include but are not limited to violations of any service agreements/terms, management specifications, trading rules and other regulatory contents published by JD Group, acts or attempts to undermine the fair trading environment or normal trading order of JD Group, etc.;
 
-3.1.3.10 不从事其他违法、违规或违反京东云服务条款的行为；
+3.1.3.10 Do not engage in other acts that violate laws, regulations or JD Cloud & AI Service Terms;
 
-**3.1.3.11 如京东云发现您违反上述条款的约定，有权根据情况采取相应的处理措施，包括但不限于立即终止服务、中止服务或删除相应信息等。如果第三方机构或个人对您提出质疑或投诉，京东云将通知您，您有责任在规定时间内进行说明并出具证明材料，如您未能提供相反证据或您逾期未能反馈的，京东云将采取包括但不限于立即终止服务、中止服务或删除相应信息等处理措施。因您未及时更新联系方式或联系方式不正确而致使未能联系到您的，亦视为您逾期未能反馈。**
 
-**3.1.4 您理解及同意，中华人民共和国的国家秘密受法律保护，您有保守中华人民共和国的国家秘密的义务，您使用****边缘网络隧道** **应遵守相关保密法律法规的要求，并不应危害中华人民共和国国家秘密的安全，否则您将受到相关法律的追究。**
+**3.1.3.11 If JD Cloud & AI finds that you have violated the agreement of the above terms, it has the right to take corresponding measures in accordance with the situations, including but not limited to immediately termination or suspension of the services or deletion of the corresponding information. If a third party institution or individual challenges you or complains against you, JD Cloud & AI will notify you that you are responsible for making the explanation and issuing the certification materials within the specified time. If you fail to provide the evidence to the contrary or if you fail to provide feedback within the specified time, JD Cloud & AI will take measures including but not limited to immediately terminating the service, suspending the service or deleting the corresponding information. In the event of failure to contact you due to the wrong contact information you provided or your failure of updating the contact information in time, you are deemed to have failed to provide feedback.**
 
-3.1.5 您不应在京东云服务或平台之上安装、使用盗版软件；您对自己行为（如自行安装的软件和进行的操作）所引起的结果承担全部责任。
+**3.1.4 You understand and agree that the state secrets of the People’s Republic of China are protected by laws; you have the obligations to keep confidential the state secrets of the People’s Republic of China; your use of ****Edge Network Tunnel** ** shall comply with the requirements of laws and regulations related to confidentiality, and shall not damage the security of the state secrets of the People’s Republic of China, or you will be investigated under the relevant laws.**
 
-**3.1.6 您对自己存放在京东云云平台上的数据以及进入和管理京东云云平台上各类产品与服务的口令、密码的完整性和保密性负责。因您维护不当或保密不当致使上述数据、口令、密码等丢失或泄漏所引起的一切损失和后果均由您自行承担。**
+3.1.5 You shall not install or use pirated software on JD Cloud & AI Service or Platform; you are solely responsible for the consequences caused by your acts (such as self-installation of software and operations you have performed).
 
-**3.1.7 您对自己存放在京东云云平台上的数据内容负责，京东云提示您谨慎判断数据内容的合法性并对此予以监督，如因上传、储存的内容违反法律法规、部门规章或国家政策，由此造成的全部结果及责任由您自行承担，并且京东云系统记录有可能作为您违反法律法规的证据。**
+**3.1.6 You are responsible for the data stored by yourself on the cloud platform of JD Cloud & AI as well as the integrity and confidentiality of the passwords for entering and managing the products and services on the cloud platform of JD Cloud & AI. All losses and consequences caused by the loss or leakage of the above data, passwords, etc. due to your improper maintenance or improper confidentiality shall all be borne by you.**
 
-3.1.8 您应向京东云提交执行本服务条款的联系人和管理用户网络及云平台上各类产品与服务的人员名单和联系方式并提供必要的协助。如以上人员发生变动，您应自行将变动后的信息进行在线更新并及时通知京东云。因您提供的人员的信息不真实、不准确、不完整，以及因以上人员的行为或不作为而产生的结果，均由您负责。
+**3.1.7 You are responsible for the data content that you store on cloud platform of JD Cloud & AI; JD Cloud & AI notifies you to exercise caution in judging the legitimacy of data content, and conducts supervision on this; if the uploaded and stored content is in violation of laws and regulations, department rules or national policies, you will be responsible for all the consequences, and system records of JD Cloud & AI may be used as evidence of your violation of laws and regulations.**
 
-3.1.9 您须依照《互联网信息服务管理办法》、等法律法规的规定保留自己网站的访问日志记录，包括发布的信息内容及其发布时间、互联网地址（IP）、域名等，国家有关机关依法查询时应配合提供。您自行承担未按规定保留相关记录而引起的全部法律责任。
+3.1.8 You shall submit the contacts performing these Service Terms and the list of personnel managing the user network and the various products and services on the Cloud Platform and their contact information to JD Cloud & AI, and shall provide necessary assistance. If the above personnel changes, you shall update the information after the change online and notify JD Cloud & AI in time. If the information of the personnel you provide is untrue, inaccurate or incomplete, you shall be responsible for all the consequences of the acts or omissions of the aforementioned personnel.
 
-**3.1.10 您了解京东云无法保证其所提供的服务毫无瑕疵（如京东云安全产品并不能保证您的硬件或软件的绝对安全），但京东云承诺不断提升服务质量及服务水平。所以您同意：即使京东云提供的服务存在瑕疵，但上述瑕疵是当时行业技术水平所无法避免的，其将不被视为京东云违约。您同意和京东云一同合作解决上述瑕疵问题。**
+3.1.9. You must keep the access log records of your website in accordance with the Administrative Measures for Internet Information Services and other laws and regulations, including the content and time of the released information, Internet address (IP), domain, etc., and shall be cooperative to provide the above records when the relevant state organs make inquiries according to law. You are solely responsible for all legal liability arising from the failure to keep relevant records as required.
 
-**3.1.11 数据备份系您的义务和责任。京东云** **边缘网络隧道** **暂未提供数据备份功能，数据备份需用户自行处理。京东云不对用户数据备份工作或结果承担任何责任。**
+**3.1.10 You understand that JD Cloud & AI cannot guarantee that the services provided are flawless (for example, JD Cloud & AI security products cannot guarantee the absolute security of your hardware or software). However, JD Cloud & AI commits to continuously improve service quality and service level. Therefore, you agree: Even if the services provided by JD Cloud & AI have flaws, the aforementioned flaws are unavoidable at the time of the industry's technology level, and JD Cloud & AI shall not be deemed to have breached these Terms. You agree to cooperate with JD Cloud & AI to solve the aforementioned problems.**
 
-3.2 京东云的权利、义务
+**3.1.11 Data backup is your obligation and responsibility. JD Cloud & AI ** **Edge Network Tunnel** ** does not provide the data backup function, and users need to process the data backup by themselves. JD Cloud & AI does not assume any responsibility for user data backup work or consequences.**
 
-3.2.1 京东云应按照服务条款约定提供服务。
+3.2 Rights and Obligations of JD Cloud & AI
 
-3.2.2 服务期限内，京东云将为您提供如下客户服务：
+3.2.1 JD Cloud & AI shall provide services as agreed in these Service Terms.
 
-3.2.2.1 京东云为付费用户提供7×24售后故障服务，并为付费用户提供有效的联系方式并保证付费用户能够联系到故障联系人。故障联系人在明确故障后及时进行反馈；
+3.2.2 During the service term, JD Cloud & AI will provide you with the following customer service:
 
-3.2.2.2 京东云提供7×24小时的在线工单服务系统，解答客户在使用中的问题。
+3.2.2.1 JD Cloud & AI will provide a 7×24 hours after-sales fault service for the paying users, and provide effective contact information for the paying users to ensure that the paying users can contact the fault contacts. The fault contacts will send feedback in time after defining the fault;
 
-3.2.3 京东云仅负责由京东云提供的软件的运营维护，即边缘网络隧道的相关技术架构及操作系统等，除边缘网络隧道之外的其他部分由您自行负责。
+3.2.2.2. JD Cloud & AI will provide a 7×24 hours on-line ticket service system to answer customers’ questions during the use.
 
-3.2.4 京东云将消除您非人为操作所出现的故障，但因您原因和/或不可抗力以及非京东云控制范围之内的事项除外。
+3.2.3 JD Cloud & AI is only responsible for the operation and maintenance of the software provided by JD Cloud & AI, that is, the related technical architecture, operating system, etc. of Edge Network Tunnel; other parts except for Edge Network Tunnel shall be your own responsibility.
 
-3.2.5 京东云应严格遵守保密义务。
+3.2.4 JD Cloud & AI will eliminate the faults caused by non-man made operations, except for that caused by you and/or force majeure and matters out of the control scope of JD Cloud & AI.
 
-**4.用户数据的保存、销毁与下载**
+3.2.5. JD Cloud & AI shall strictly comply with the confidentiality obligation.
 
-4.1 京东云可能会使用您提交的注册账户的信息，向您发出产品、服务的推广营销信息。
+4. Saving, Destroying and Downloading of User Data
 
-4.2 您的用户数据将在下述情况下部分或全部被披露：
+4.1 JD Cloud & AI may use the account registration information submitted by you to provide you with promotion and marketing information of products and services.
 
-4.2.1 经您同意，向第三方披露；
+4.2 Your user data will be disclosed in part or in whole under the following circumstances:
 
-4.2.2 根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；
+4.2.1 Disclosed to a third party with your consent;
 
-4.2.3 如果您出现违反中国有关法律法规的情况，需要向第三方披露；
+4.2.2 Disclosed to a third party or administrative or judicial authorities in accordance with the relevant provisions of the laws, or at the request of the administrative or judicial authorities;
 
-4.2.4 为提供您所要求的软件或服务，而必须和第三方分享您数据。
+4.2.3 Disclosed to a third party in your violation of relevant Chinese laws and regulations;
 
-4.3 除法定及京东云和您另行约定外，自您因欠费被暂停服务之时起7日内，京东云将继续存储您的数据，并持续计费，但冻结您账户下的所有操作；自您因欠费被停止服务之时起7日届满（自服务被暂停之日的暂停开始时刻至第7日相同时刻为期限届满），京东云将不再保留您数据，您需自行承担其数据被销毁后引发的一切后果。
+4.2.4 Your data have to be shared with a third party to provide the software or services required by you.
 
-**5.知识产权**
+4.3 Unless statutory or otherwise agreed between JD Cloud & AI and you, within 7 days from the suspension of the service due to your arrearage, JD Cloud & AI will keep the data you’ve stored, and continue the billing, but all operations under your account are frozen; upon the expiration of 7 days from the suspension of service due to your arrearage (the expiration period is from the start moment of suspension on the suspension date of the service to the same moment on the 7th day), JD Cloud & AI will no longer keep your data, and you shall be solely responsible for all consequences arising from the destroy of such data.
 
-5.1 您应保证提交京东云的素材、对京东云服务的使用及使用京东云服务所产生的成果未侵犯任何第三方的合法权益。如有第三方基于侵犯版权、侵犯第三人之权益或违反中国法律法规或其他适用的法律等原因而向京东云提起索赔、诉讼或可能向其提起诉讼,则您应赔偿京东云因此承担的费用或损失，并使京东云完全免责。
+5. Intellectual Property Right
 
-5.2 如果第三方机构或个人对您使用京东云服务所涉及的相关素材的知识产权归属提出质疑或投诉，您有责任出具相关知识产权证明材料，并配合京东云相关投诉处理工作。
+5.1 You shall ensure that the materials submitted to JD Cloud & AI, the use of JD Cloud & AI service and the consequences of using JD Cloud & AI service do not infringe the legitimate rights and interests of any third party. If a third party files a claim, lawsuit or may file a lawsuit against JD Cloud & AI based on copyright infringement, infringement of rights and interests of the third party or violation of Chinese laws and regulations or other applicable laws, you shall compensate JD Cloud & AI for the costs or losses borne thereby, and JD Cloud & AI shall be completely exempted from any liability.
 
-5.3 您承认京东云向您提供的任何资料、技术或技术支持、软件、服务等的知识产权均属于京东云或第三方所有。除京东云或第三方明示同意外，您无权复制、传播、转让、许可或提供他人使用上述资源，否则应承担相应的责任。
+5.2 If a third party institution or individual challenges you or complains to you about the intellectual property rights of the relevant materials involved in the use of JD Cloud & AI service, you are responsible for issuing relevant intellectual property right certification materials and cooperating with JD Cloud & AI to deal with relevant complaint.
 
-**6.保密条款**
+5.3 You acknowledge that the intellectual property rights of any data, technologies or technical supports, software, services, etc. provided by JD Cloud & AI are owned by JD Cloud & AI or a third party. Except for the express consent of JD Cloud & AI or a third party, you have no right to copy, disseminate, transfer, license or provide others to use the above resources. Otherwise, you shall bear corresponding responsibilities.
 
-6.1 保密资料指由一方向另一方披露的所有技术及非技术信息(包括但不限于产品资料，产品计划，价格，财务及营销规划，业务战略，客户信息，客户数据，研发，软件硬件，API应用数据接口，技术说明，设计，特殊公式，特殊算法等)。
+6. Confidentiality Clause
 
-6.2 本服务条款任何一方同意对获悉的对方之上述保密资料予以保密，并严格限制接触上述保密信息的员工遵守本条之保密义务。除非国家机关依法强制要求或上述保密资料已经进入公有领域外，接受保密资料的一方不得对外披露。
+6.1 Confidential data refers to all technical and non-technical information (including but not limited to product information, product plans, prices, financial and marketing plans, business strategies, customer information, customer data, research and development, software and hardware, API application data interface, technical description, design, special formulas, special algorithms, etc.) disclosed by one Party to the other Party.
 
-6.3 本服务条款双方明确认可各自用户信息和业务数据等是各自的重要资产及重点保密信息。本服务条款双方同意尽最大的努力保护上述保密信息等不被披露。一旦发现有上述保密信息泄露事件，双方应合作采取一切合理措施避免或者减轻损害后果的产生。
+6.2 Either Party to these Service Terms agrees to keep the aforementioned confidential data of the other Party confidential and strictly restricts the employees who access the above confidential information to comply with the confidentiality obligation of the Article. The Party that accepts confidential information may not disclose it unless the state organs mandate it according to law or the aforementioned confidential information has entered the public domain.
 
-6.4 本条款不因本服务条款的终止而失效。
+6.3 The user information, business data, etc. respectively recognized expressly by the Parties to these Service Terms are the respective important assets and key confidential information. The Parties to these Service Terms agree to do their utmost to protect the above confidential information from disclosure. In the incident of any such confidential information disclosure incident, the Parties shall cooperate to take all reasonable measures to avoid or mitigate the consequences of the damage.
 
-**7. 服务的开通、使用和终止**
+6.4 This Term will not lose effect due to the termination of these Service Terms.
 
-7.1 您自开通之日起即可使用京东云服务。
+7. Subscribing, Use and Termination of the Service
 
-7.2 您应保持账户余额充足以确保服务的持续使用。
+7.1 You can use JD Cloud & AI service from the date of subscribing.
 
-7.3 发生下列情形，服务将被终止：
+7.2 You shall keep your account balance sufficient to ensure continuous use of the services.
 
-7.3.1 双方协商一致提前终止的；
+7.3 The service will be terminated in the following circumstances:
 
-7.3.2 您严重违反本服务条款（包括但不限于a.您未按照约定履行付款义务，及/或b.您严重违反法律规定等），京东云有权提前终止服务并且您仍应支付尚未支付的服务费用；其中，如您未按照约定履行付款义务，京东云将按如下条款暂停、终止服务：
+7.3.1 The Parties agree to terminate in advance upon consensus;
 
-**7.3.2.1 自首次欠费之时起，您仍可继续使用京东云边缘网络隧道服务24小时；如24小时届满，您仍未成功充值并足以支付所欠服务费用的，京东云将暂停提供服务、冻结您账户下边缘网络隧道的操作，但仍存储您的数据并持续计费；**
+7.3.2 In case that you have severely breached these Service Terms (including but not limited to a. You fail to fulfill your payment obligations as agreed, and/or b. you have seriously violated the provisions of laws, etc.), JD Cloud & AI has the right to terminate the service in advance, but you still need to pay the outstanding service charge. If you fail to fulfill the payment obligations as agreed, JD Cloud & AI will suspend and terminate the service in accordance with the following terms:
 
-**7.3.2.2 自京东云暂停服务之时起7日届满（自服务被暂停之日的暂停开始时刻至7日相同时刻为期限届满），您仍未成功充值并足以支付所欠服务费用的，则京东云将会终止本服务条款并停止为您继续提供服务；同时，您保存在京东云边缘网络隧道服务的全部数据将会被删除并清空且永不可恢复。**
+**7.3.2.1 You can continue using JD Cloud & AI Edge Network Tunnel service for 24 hours from the time of the first arrear; if you still have not successfully recharged enough amount to cover the service charge after the expiration of the 24 hours, JD Cloud & AI will suspend the service and freeze operation of Edge Network Tunnel under your account with your data stored and billing continued;**
 
-**7.3.3 您理解并充分认可，虽然京东云已经建立（并将根据技术的发展不断完善）必要的技术措施来防御包括计算机病毒、网络入侵和攻击破坏（包括但不限于DDOS）等危害网络安全事项或行为（以下统称该等行为），但鉴于网络安全技术的局限性、相对性以及该等行为的不可预见性，因此如因您网站遭遇该等行为而给京东云或者京东云的其他的网络或服务器（包括但不限于本地及外地和国际的网络、服务器等）带来危害，或影响京东云与国际互联网或者京东云与特定网络、服务器及京东里云内部的通畅联系，京东云可决定暂停或终止服务。如果终止服务的，将按照实际提供服务计算服务费用，并且您仍应支付您尚未支付的服务费用（如有）。**
+**7.3.2.2 If you still have not successfully recharged enough amount to cover the service charge after the expiration of the 7 days from the time of service suspension by JD Cloud & AI (the expiration period is from the starting moment of the date of service suspension to the same moment of the 7th day), then JD Cloud & AI will terminate these Service Terms and stop providing service for you; at the same time, all the data you store on JD Cloud & AI Edge Network Tunnel service will be deleted and cleared and can never be restored.**
 
-**7.3.4 京东云可提前30天在www.jdcloud.com 上通告或给您发站内通知或书面通知的方式终止本服务条款，届时京东云应将您已支付但未消费的款项退还至您的京东云账户。**
+**7.3.3 You understand and fully recognize that although JD Cloud & AI has established (and will continue to improve according to the development of technology) necessary technical measures to protect against the matters or acts harmful to network security (hereinafter referred to as such acts) including computer viruses, network intrusions, attack damages (including but not limited to DDOS), given the limitations and relativity of network security technology and the unpredictability of such acts, JD Cloud & AI may decide to suspend or terminate the services if your website encounters such acts and brings harms to JD Cloud & AI or JD Cloud & AI’s other networks or servers (including but not limited to local and foreign and international networks, and servers, etc.), or affects the smooth communication between JD Cloud & AI and international Internet or between JD Cloud & AI and specific networks and servers and the internal smooth communication within JD Cloud & AI. If the services are terminated, the service charge will be calculated based on the actual services provided, and you still shall pay the service charge you have not paid (if any).**
 
-**8.违约责任的承担及免除**
+**7.3.4 JD Cloud & AI may notify you of terminating these Service Terms by announcing on www.jdcloud.com, or sending to you intra-website or written-form notices 30 days in advance, and at that time, JD Cloud & AI shall refund the amount you have paid but not consumed to your JD Cloud & AI account.**
 
-8.1 本服务条款任何一方违约均须依法承担违约责任。
+**8. Undertaking and Exemption of Liability for Breach**
 
-8.2 您理解，鉴于计算机、互联网的特殊性，下述情况不属于京东云违约：
+8.1 Any Party to these Service Terms shall be liable for breach of the Terms in accordance with the law.
 
-8.2.1 京东云在进行服务器配置、维护时，需要短时间中断服务；
+8.2 You understand that due to the particularity of computers and the Internet, JD Cloud & AI will not be deemed as breach of the Terms in the following cases:
 
-8.2.2 由于Internet上的通路阻塞造成您网站访问速度下降。
+8.2.1 The services need to be suspended for a short time due to the server configuration and maintenance carried out by JD Cloud & AI;
 
-**8.2.3** **就京东云免费向您提供的全部或部分边缘网络隧道功能，如该等服务功能出现、存在的服务不可用、错误或漏洞等，在京东云无故意的行为失当以及重大的行为过失情况下，将不视为京东云违约，京东云将不对您使用边缘网络隧道免费功能的工作或结果承担任何责任。**
+8.2.2 Your website access speed is degraded due to path congestion on the Internet.
 
-8.3 如果因京东云原因造成您连续72小时不能正常使用服务的，您可终止接受服务，但非京东云控制之内的原因引起的除外。
+**8.2.3** **As for all or part of the functions of Edge Network Tunnel provided by JD Cloud & AI to you for free, any service unavailability, error, vulnerability, etc. emerging and existing in these functions won’t be deemed as default of JD Cloud & AI, and JD Cloud & AI won’t bear any responsibilities for your work or result of using the free-of-charge functions of Edge Network Tunnel, under the circumstance that JD Cloud & AI has no intentional misconducts and major behavioral negligence.**
 
-**8.4 在任何情况下，京东云均不对任何间接性、后果性、惩戒性、偶然性、特殊性的损害，包括您使用京东云服务而遭受的利润损失承担责任（即使您已被告知该等损失的可能性）。**
+8.3 If you are unable to normally use the service for 72 consecutive hours due to causes of JD Cloud & AI, you may terminate the service, except for reasons other than those within the control of JD Cloud & AI.
 
-**8.5 在任何情况下，京东云对本服务条款所承担的违约赔偿责任总额不超过违约服务对应之服务费总额。**
+**8.4. JD Cloud & AI shall not be liable for any indirect, consequential, disciplinary, incidental or special damages in any cases, including your loss of profits when using JD Cloud & AI service (even if you have been informed of the possibility of such losses).**
 
-**9.不可抗力**
+**8.5 JD Cloud & AI's total liability for breach of these Service Terms shall not exceed the total service charge corresponding to the breach service in any cases.**
 
-9.1 因不可抗力或者其他意外事件，使得本服务条款的履行不可能、不必要或者无意义的，遭受不可抗力、意外事件的一方不承担责任。
+**9. Force Majeure**
 
-9.2 不可抗力、意外事件是指不能预见、不能克服并不能避免且对一方或双方当事人造成重大影响的客观事件，包括但不限于自然灾害如洪水、地震、瘟疫流行等以及社会事件如战争、动乱、政府行为、电信主干线路中断、黑客、网路堵塞、电信部门技术调整和政府管制等。
+9.1 Where performance of these Service Terms becomes impossible, unnecessary or meaningless due to force majeure or other unexpected incidents, the Party suffering from the force majeure or incidents shall not be liable.
 
-**10.法律适用及争议解决**
+9.2 Force majeure and unexpected incidents are objective incidents that cannot be foreseen, overcome and avoided and have a significant impact on one Party or the Parties, including but not limited to natural disasters such as floods, earthquakes, plague epidemics, and social events such as wars, turmoil, government actions, telecommunication trunk line interruptions, hackers, network congestion, technical adjustments in the telecommunication sector, government regulations, etc.
 
-10.1 本服务条款受中华人民共和国法律管辖。
+**10. Law Application and Dispute Resolution**
 
-**10.2 在执行本服务条款过程中如发生纠纷，双方应及时协商解决。协商不成时，任何一方可直接向北京市大兴区人民法院提起诉讼。**
+10.1 These Service Terms are subject to the jurisdiction of the laws of the People's Republic of China.
 
-**11.附则**
+**10.2 In the event of disputes arising from the performance of these Service Terms, the Parties shall promptly conduct negotiation for resolution. When the negotiation fails, either Party may file a lawsuit directly with the People’s Court of Daxing District of Beijing.**
 
-11.1 京东云在[www.jdcloud.com](https://www.jdcloud.com/)相关页面上的服务说明、价格说明和您确认同意的订购页面是本服务条款不可分割的一部分。如果[www.jdcloud.com](https://www.jdcloud.com/)相关页面上的服务说明、价格说明和您确认同意的订购页面与本服务条款有不一致之处，以本服务条款为准。
+**11. Supplementary Provisions**
 
-11.2  京东云有权以提前30天在[www.jdcloud.com](https://www.jdcloud.com/)上公布或给您发站内通知或书面通知的方式将本服务条款的权利义务全部或者部分转移给京东云的关联公司。
+11.1 JD Cloud & AI's service description, price description and the Ordering Page you confirm on relevant pages at [www.jdcloud.com](https://www.jdcloud.com) are the integral parts of these Service Terms. If the service description, the price description and the Ordering Page you agree on the relevant pages at [www.jdcloud.com](https://www.jdcloud.com/) are inconsistent with these Service Terms, these Service Terms shall prevail.
 
-11.3 如果任何条款在性质上或其他方面理应地在此协议终止时继续存在，那么应视为继续存在的条款，这些条款包括但不局限于保证条款、保密条款、知识产权条款、法律适用及争议解决条款。
+11.2 JD Cloud & AI shall transfer all or part of the rights and obligations of these Service Terms to the affiliated company of JD Cloud & AI by posting it on [www.jdcloud.com](https://www.jdcloud.com/) 30 days in advance or by sending you intra-website notices or written-form notices.
+
+11.3 If any terms, in nature or otherwise, shall continue to exist at the termination of the Protocol, they shall be deemed to be continuing terms, including but not limited to warranty terms, confidentiality terms, intellectual property right terms, and law application and dispute resolution terms.

@@ -11,6 +11,8 @@ items:
             href: Getting-Started/Process/Addition-Filing.md
           - name: Add Website (with Main Body)
             href: Getting-Started/Process/Addition-Website.md
+          - name: Change of Subject
+            href: Getting-Started/Process/Subject-Change.md 
           - name: Website Change
             href: Getting-Started/Process/Change-Website.md 
           - name: Change Access

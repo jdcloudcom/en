@@ -2,13 +2,13 @@
 
 The Application Application Load Balancer can distribute large concurrent traffic to several backend instances, adjust resource utilization, eliminate influence to systems by fault of single device, improve system availability and expand system serviceability.
 
-Virtual private cloud deployment of JD Cloud:
+Virtual private cloud deployment of JD Cloud & AI:
 
 ![VPC基础架构](../../../../image/Networking/ALB/ALB-001.png)
 
 ## Application Application Load Balancer upgrade description
 
-JD Cloud Application Application Load Balancer can realize high availability of multi-mechanism guarantee service:
+JD Cloud & AI Application Application Load Balancer can realize high availability of multi-mechanism guarantee service:
 
 - High availability of Application Application Load Balancer:
 
@@ -33,7 +33,7 @@ JD Cloud Application Application Load Balancer can realize high availability of 
 
 - Automatic adjustment of backend instance count: The Application Application Load Balancer backend can be associated to the specified availability group. By setting auto scaling policy, the backend service instance count can be automatically adjusted and resources can be reasonably configured.
 
-- Anti-DDoS Basic: JD Cloud will provide the Application Load Balancer with the EIP-based Anti-DDoS Basic for free, supporting maximum 2G Anti-DDoS attack capacity and improving service security performance. For details, refer to [Anti-DDoS Basic](https://docs.jdcloud.com/anti-ddos-basic/product-overview). If you need mass-traffic attack protection, please buy the [Anti-DDoS Protection Package].(https://www.jdcloud.com/products/anti-ddos-protection-package).
+- Anti-DDoS Basic: JD Cloud & AI will provide the Application Load Balancer with the EIP-based Anti-DDoS Basic for free, supporting maximum 2G Anti-DDoS attack capacity and improving service security performance. For details, refer to [Anti-DDoS Basic](https://docs.jdcloud.com/anti-ddos-basic/product-overview). If you need mass-traffic attack protection, please buy the [Anti-DDoS Protection Package].(https://www.jdcloud.com/products/anti-ddos-protection-package).
 
 - Session persistence: The Application Application Load Balancer supports the session persistence function based on the HTTP/HTTPS protocol type.
 

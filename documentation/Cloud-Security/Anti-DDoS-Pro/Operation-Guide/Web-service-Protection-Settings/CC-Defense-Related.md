@@ -29,6 +29,8 @@ The steps are as follows:
          - "Normal": When there is no obvious exception in the website, please select the normal mode. Only part of visits is checked.
          - "Critical": In case of the slow website response, and exception in the CPU, memory, etc., use the emergency mode. This mode is of rigorous detection and may cause false judgment.
          - "Customization": Appropriate for advanced users. Enables them to customize the protection threshold. Includes HTTP request number threshold, the protection threshold of each Host, the protection threshold of each Host+URI, the protection threshold of each source IP to Host, the protection threshold of each source IP to Host+URI. The maximum HTTP request number threshold does not exceed the threshold of the purchased package.
+         
+         **Note**: The defense algorithm used in the above four CC defense modes is only applicable to sites of webpage. If the business of the accessed website is an API or App application, there is a great risk of false interception as this kind of business cannot normally response to algorithm verification generally. If a user has a CC defense demand for API business or APP business, please open ticket to customize a defense policy.
 
 3. Configure CC defense policies for single domain name.
 

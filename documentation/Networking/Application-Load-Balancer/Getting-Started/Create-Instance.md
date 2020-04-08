@@ -4,7 +4,7 @@ It can choose to purchase and configure Application Load Balancer instances of p
 
 ## Intranet Application Load Balancer
 
-- Intranet Application Load Balancer only can be used in JD Cloud Intranet, can forward client request having access permission to JD Cloud Intranet. - Steps for creating Intranet Application Load Balancer are as follows:
+- Intranet Application Load Balancer only can be used in JD Cloud & AI Intranet, can forward client request having access permission to JD Cloud & AI Intranet. - Steps for creating Intranet Application Load Balancer are as follows:
 
 	![创建内网ALB设置](../../../../image/Networking/ALB/ALB-058.png)
 
@@ -20,7 +20,7 @@ It can choose to purchase and configure Application Load Balancer instances of p
 
 ## Intranet Application Load Balancer is converted to public network Application Load Balancer
 
-- JD Cloud supports mutual conversion of Application Load Balancer type of Intranet and public network, Intranet Application Load Balancer can be converted to Application Load Balancer of public network type through associating EIP, after the public network Application Load Balancer disassociates EIP, it can be converted to Application Load Balancer of Intranet type.
+- JD Cloud & AI supports mutual conversion of Application Load Balancer type of Intranet and public network, Intranet Application Load Balancer can be converted to Application Load Balancer of public network type through associating EIP, after the public network Application Load Balancer disassociates EIP, it can be converted to Application Load Balancer of Intranet type.
 
 	![内网ALB转为公网ALB设置](../../../../image/Networking/ALB/ALB-060.png)
 

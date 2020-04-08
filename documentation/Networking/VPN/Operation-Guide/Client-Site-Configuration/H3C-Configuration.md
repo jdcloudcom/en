@@ -1,5 +1,5 @@
-jdcloud_ike_peer_test## H3C Firewall Device IPsec VPN Configuration
-After VPN Tunnel is created on [JD Cloud VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list), corresponding configuration shall be carried out on customer’s local devices for negotiation and establishment of VPN Tunnel.
+## H3C Firewall Device IPsec VPN Configuration
+After VPN Tunnel is created on [JD Cloud & AI VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list), corresponding configuration shall be carried out on customer’s local devices for negotiation and establishment of VPN Tunnel.
 
 Taking H3C MSR800 as the example, this article specifies how to configure VPN on H3C devices, which is applicable for H3C Series Firewall. For other series devices, please refer this example for configuration.
 

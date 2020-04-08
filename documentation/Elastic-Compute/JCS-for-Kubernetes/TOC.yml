@@ -117,10 +117,14 @@
             href: Best-Practices/Ingress/Deploy-Ingress-NGINX-Controller.md
          -  name: Define ingress resource by using open source nginx-ingress controller
             href: Best-Practices/Ingress/Deploy-Ingress-Resource.md
-         -  name: Realize Source IP pass-through at the client based on JD Cloud ALB
+         -  name: Realize Source IP pass-through at the client based on JD Cloud & AI ALB
             href: Best-Practices/Ingress/nginx-ingress-source-ip.md
          -  name: Create CA certificates and private keys by yourself
             href: Best-Practices/Ingress/deploy-CA-SSL.md
+     - name: Ingress New Document
+       items:
+         -  name: Kubernetes Ingress
+            href: Best-Practices/Ingress-new/Deploy-K8s-Ingress-Nginx.md
      - name: Create native container Pod
        items:
          - name: Deploy Virtual-Kubelet

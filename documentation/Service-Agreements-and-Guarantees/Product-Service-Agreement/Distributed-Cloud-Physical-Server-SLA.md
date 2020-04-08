@@ -1,103 +1,101 @@
-**1. Service Scope**
+### 1. Service Scope
 
-The Distributed Cloud Physical Server provided by JD Cloud is designed to provide users with a unique physical server with excellent performance, helping users quickly purchase physical servers online and deploy operating systems, providing public network and Intranet services, and satisfying related demands such as later expansion of physical machines and network. The Distributed Cloud Physical Server supports elastic expansion and provides settlement capabilities of use on demand and pay by demand based on the cloud computing mode.
+The Service Level Agreement (hereinafter referred to as "SLA") specifies service availability level indicator and compensation scheme for Distributed Cloud Physical Server (hereinafter referred to as "DCPS") of JD Cloud & AI. Other servers of JD Cloud & AI are not covered by the Service Level Agreement.
 
-**2. Service Level Indicator**
+### 2. Service Level Indicator
 
-**2.1 Server Availability**
+#### 2.1 Service Availability
 
-Server availability means the ratio between the time that the server hardware plays its due function in the service cycle and the total service time.
+The Distributed Cloud Physical Server provided by JD Cloud & AI is designed to provide customers with an exclusive physical server with excellent performance, helping customers quickly purchase physical servers online and deploy operating systems, providing public network and private IP Address, and supporting on-demand elastic expansion of physical server, network bandwidth resource, etc. The Distributed Cloud Physical Server supports the online settlement function for use on demand and pay by demand based on the cloud computing mode. Distributed Cloud Physical Server applies to multiple application scenarios such as games, interactive live streaming, video monitoring and on-line education. For details of all functions of the Distributed Cloud Physical Server, please refer to the detailed Help Documentation provided by JD Cloud & AI on the official website. All functional changes of the Distributed Cloud Physical Server service that may affect customers will be announced to the customers.
 
-Server availability: not less than 99.5%
+#### 2.2 Service Availability
 
-Service cycle: one year shall be one service cycle; in case of less than one year, it shall not be counted as one service cycle.
 
-Unavailable means the status where the Distributed Cloud Physical Server suffers a non-redundant hardware failure, which requires downtime for maintenance.
+Service cycle: one natural month shall be one service cycle; in case of less than one month, it shall not be counted as one service cycle.
+Service cycle minute: refer to the period in minutes, calculated as per total actual day in a service cycle ×24 (hour) ×60 (minute).
 
-The formula for computing the availability of Distributed Cloud Physical Server service is as follows: all available time for a single Distributed Cloud Physical Server per service cycle/(all available time for a single Distributed Cloud Physical Server per service cycle + all unavailable time for a single Distributed Cloud Physical Server per service cycle).
+Unavailable minutes of service cycle: refer to accumulative period in minute that Distributed Cloud Physical Server is out of service and requires shut-down maintenance due to a single Distributed Cloud Physical Server of a single user has non-redundant hardware failure in a service cycle.
 
-**2.2 Destruction Nature of Data**
+Calculation formula for service availability: (service cycle sum in minutes of all servers in a single node per user per service cycle - unavailable minute of service cycle of all servers in a single node per user per service cycle)/(sum of service cycles in minutes of all servers in a single node per user per service cycle)× 100%.
 
-When the user requires to delete data or before the device is discarded or resold or upon the due recovery, JD Cloud will take the disk formatting action to completely delete all data on the disk, which will not be able to recover. In case of retirement of devices, the disk shall be physically destroyed.
+Server availability commitment: the service availability of a single node of a single user per service cycle shall not be less than 99.5%
 
-**2.3 Migration Nature of Data**
+(Node: refer to different geological locations (region-city) of Edge Data Center of JD Cloud & AI. Different nodes are absolutely isolated, providing services which are communicated via the public network). 
+
+#### 2.3 Destruction Nature of Data
+
+When the user requires deleting data, or before the device is discarded or resold, or upon due recovery, JD Cloud & AI will carry out disk technical measures to completely delete all data on the disk, making sure that the data cannot be recovered. When the device is scrapped, the disk will be demagnetized.
+
+#### 2.4 Migration Nature of Data
 
 When users enable the Distributed Cloud Physical Server, the data can be migrated through public network or Intranet.
 
-**2.4 Privacy of Data**
+#### 2.5 Privacy of Data
 
-JD Cloud realizes tenant isolation by configuring network policy, where only Distributed Cloud Physical Server belonging to the same user can achieve Intranet mutual access while Distributed Cloud Physical Server belonging to different users cannot access mutually through the Intranet.
+Distributed Cloud Physical Server provided by JD Cloud & AI is for exclusive of the customer during its lease level; in the network level, vpc customized by the user can realize network isolation; and only the Distributed Cloud Physical Server of the same vpc can be interconnected by default.
 
-**2.5 Right to Know Data**
+#### 2.6 Right to Know Data
 
-When purchasing the Distributed Cloud Physical Server, users may choose an existing data center to purchase the Server according to demands.
+When purchasing the Distributed Cloud Physical Server, users may choose an existing data center to purchase the server according to demands.
 
-The data center known to the user is subject to local laws and relevant laws of the People's Republic of China.
+Existing data center for selection by the user is subject to local laws and relevant laws of the People's Republic of China.
 
 All data of the user will not be made available to any third party except for the supervision audit demand by the government supervision department.
 
-**2.6 Reviewability of Data**
+#### 2.7 Reviewability of Data
 
-In accordance with existing laws and regulations or the requirements from reasons such as supervision by government supervision department, safety and compliance, audit or forensic investigation, and subject to compliance with processes and procedures, JD Cloud may provide relevant information about the services used by users including the running log of key components, operational records of operation and maintenance personnel, records user operation and other information.
+In accordance with existing laws and regulations or the requirements from reasons such as supervision by government supervision department, safety and compliance, audit or forensic investigation, and subject to compliance with processes and procedures, JD Cloud & AI may provide relevant information about the services used by users including the running log of key components, operational records of operation and maintenance personnel, records user operation and other information.
 
-**2.7 Service Functions**
+#### 2.8 Service Resource Allocation Capability
 
-The Distributed Cloud Physical Server supports online purchasing and automatic installation of operating systems, and provides functions such as public network and Intranet network support and life cycle management of Distributed Cloud Physical Server. For details of all functions of the Distributed Cloud Physical Server, please refer to the detailed description documentation, technical documentation and help documentation provided by JD Cloud on the official website. All functional changes of the Distributed Cloud Physical Server service that may affect users will be announced to the users.
+The Distributed Cloud Physical Server provides a variety of configured categories for users’ choice. Users may choose the type and number of Distributed Cloud Physical Server suitable for their application scenarios according to the configuration scheme of JD Cloud & AI. The Distributed Cloud Physical Server supports online real-time upgrading of public network bandwidth.
 
-**2.8 Service Resource Allocation Capability**
+#### 2.9 Network Access Performance
 
-The Distributed Cloud Physical Server provides a variety of configured categories for users' choice. Users may choose the type and number of Distributed Cloud Physical Server suitable for their application scenarios according to the configuration scheme of JD Cloud. The Distributed Cloud Physical Server supports online real-time upgrading of public network bandwidth.
+When JD Cloud & AI’s Distributed Cloud Physical Server is subscribed, the Edge Cloud Public IP (EIP) can be selected to be added to Distributed Cloud Physical Server by the user. The public network exit bandwidth necessary for Edge Cloud Public IP can be set. By default, the ratio between the uplink bandwidth and the downlink bandwidth is 1:1 and the configuration range is from 1Mbps to maximum 10000Mbps (10000Mbps is the maximum available bandwidth which may vary with the maximum value of different nodes; please make rational selection as per actual node; and if the uplink bandwidth is insufficient, please apply for additional bandwidth).
 
-**2.9 Network Access Performance**
+#### 2.10 Service Metering Accuracy
+The Distributed Cloud Physical Server is equipped with an accurate and transparent metering and billing system. JD Cloud & AI shall make the deduction settlement as per billing type, actual service time and purchase quantity of Distributed Cloud Physical Server of the user. The specific billing and deducting standard shall be subject to the valid billing model, price and deducting method announced on JD Cloud & AI’s official website. The user’s original billing log shall be kept for at least 3 years by default for future reference.
 
-When users enable JD Cloud's Distributed Cloud Physical Server, they may select the public network exit bandwidth required for each Distributed Cloud Physical Server. The public network exit bandwidth can be configured from 1Mbps to 10240Mbps (10240Mbps is the maximum bandwidth that can be provided. The bandwidth may vary depending on various nodes, please make a reasonable choice according to actual node). JD Cloud provides single-line access so as to ensure the quality of network access for users.
+### 3. Service Compensation Terms
 
-**2.10 Service Metering Accuracy**
+#### 3.1 Compensation Scope:
 
-The Distributed Cloud Physical Server has an accurate and transparent metering and billing system. JD Cloud settles and deducts charges in real time according to the user’s actual use time and purchase quantity of the Distributed Cloud Physical Server. The specific billing standard shall be subject to the valid billing mode and price announced on JD Cloud official website. The user's original billing log shall be kept for at least 3 years by default for future reference.
+In the event of service failure of Distributed Cloud Physical Server purchased by users due to JD Cloud & AI’s device faults, design defects or misoperation, JD Cloud & AI will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
 
-**2.11 Service Compensation Terms**
+(1) Caused by the system maintenance that JD Cloud & AI has notified the user in advance, including migration, maintenance, upgrade and simulation fault drill;
 
-2.11.1 Compensation Scope
+(2) Any problems caused by the network, device failure or configuration adjustment other than JD Cloud & AI’s device;
 
-In the event of failure of normal use of Distributed Cloud Physical Server machine due to JD Cloud's faults, or failure of normal website access due to JD Cloud's fault, JD Cloud will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
+(3) Caused by hacker attacks to the customer’s application program or data information;
 
-(1) Caused by the system maintenance that JD Cloud have notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
+(4) Caused by forgetting, loss or leakage of data, passwords, etc. due to customer’s improper maintenance or improper confidentiality;
 
-(2) Unavailability situations such as packet loss and latency caused by operator fault;
+(5) Caused by customer’s own upgrading of operating system;
 
-(3) Caused by hacker attacks to the user’s application program or data information;
+(6) Caused by customer’s application program or installation activities;
 
-(4) Caused by forgetting, loss or leakage of data, passwords, etc. due to user’s improper maintenance or improper confidentiality;
-
-(5) Caused by user’s own upgrading of operating system;
-
-(6) Caused by user’s application program or installation activities;
-
-(7) Caused by user’s negligence or operations authorized by the user;
+(7) Caused by customer’s negligence or operations authorized by the customer;
 
 (8) Caused by force majeure and accidents;
 
-(9) Other unavailability caused not due to JD Cloud’s account.
+(9) Caused by service suspension or termination of Distributed Cloud Physical Server due to breach of JD Cloud & AI Service Agreement by customers, including but not limited to service suspension, release or others of Distributed Cloud Physical Server due to expired order or account in arrears;
 
-2.11.2 Compensation Scheme
+(10) Unavailability caused not due to JD Cloud & AI’s account.
+
+#### 3.2 Compensation Scheme
 
 Fault Time = Unavailable Time.
 
-For the Distributed Cloud Physical Server of monthly package, compensation shall be made by the means of coupons at the compensation amount = 100 times of fault time/set.
+For Distributed Cloud Physical Server of monthly package, compensation shall be made based on service duration at the 100 times of fault time/set.
 
-For the Distributed Cloud Physical Server paid by configuration, compensation shall be made by the means of coupons at the compensation amount = average charge per hour of 24 hours before the fault/60 * fault time * 100.
+For the Distributed Cloud Physical Server paid by configuration, compensation shall be made by the means of coupons at the compensation amount = average charge per hour of 24 hours before the fault/60 x fault time x 100.
 
 Description:
 
-JD Cloud makes compensation by giving coupons only supporting purchase of Distributed Cloud Physical Server products. The total amount of compensation shall not exceed the annual service charge in the year of the user in connection with that Distributed Cloud Physical Server instance (excluding the amount of the gift balance or the deduction fee of coupons).
+JD Cloud & AI makes compensation by giving coupons, which is only provided to support the purchase of Distributed Cloud Physical Server, and the total amount of compensation shall not exceed the monthly service charge paid by the user of the Cloud Physical Server instance (excluding the amount of the gift balance or the deduction fee of the coupon).
 
-Users may apply for compensation after the 5th working day of each year for instances not available in the previous year. The compensation application must be made within two months at the end of the relevant year in which the Distributed Cloud Physical Server instance is not available. Compensation application exceeding time limit for application will not be accepted.
+If the service time of the Distributed Cloud Physical Server paid by configuration is less than 24 hours, the charge shall be calculated in accordance with the average value of the actual service duration, and the fault time shall be calculated by minutes.
+### 4. Miscellaneous
+JD Cloud & AI has the right to from time to time make adjustments to partial service indicators of the Service Level Agreement according to changes and promptly release announcements on JD Cloud & AI’s official website [www.jdcloud.com](https://www.jdcloud.com) or send emails or written notices to notify users of the modified contents. If you disagree with any modification to the Service Level Agreement by JD Cloud & AI, you have the right to stop using the Distributed Cloud Physical Server service. If you continue to use the Distributed Cloud Physical Server service, it is deemed that you have accepted the modified Service Level Agreement.
 
-If the usage time of the Distributed Cloud Physical Server paid by configuration is less than 24 hours, the charge shall be calculated in accordance with the average value of the actual usage duration, and the fault time shall be calculated by minutes.
-
-**3. Miscellaneous**
-
-JD Cloud has the right to from time to time make adjustments to partial service indicators of the Service Level Agreement according to changes and promptly release announcements on JD Cloud official website [www.jdcloud.com](https://www.jdcloud.com/index) or send emails or written notices to notify users of the modified contents.
-
- 

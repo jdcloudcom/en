@@ -1,6 +1,4 @@
-### MINECRAFT Education Edition - Demo Edition Service Agreement
-
- 
+### <div align=center> MINECRAFT Education Edition - Demo Edition Service Agreement</div> 
 
 **These license terms are the agreement between you and JD (or one of its branches). They apply to MINECRAFT Education Edition - Demo Edition software and any JD Service or software update (Unless these services or updates are accompanied by new or additional terms, in which case these different terms may be applicative, and will not change your or JD’s rights with respect to the pre-updated software or services). If you abide by these license terms, you will have the following rights. Using our software means you accept these license terms.**
 
@@ -28,7 +26,7 @@ If you provide JD with any feedback about the software, it means you grand JD th
 
 The software may collect information about you and your use of the software, and send it to JD. JD may use this information for providing services and improve the products and services of JD. In the documentation, your right to exit is described. Certain features in the software may allow collecting data from users who access or use the applications of the software. If you use these features to enable data collection in an application, you must abide by applicable laws, including the necessary consent from the user, and privacy policies that tell the user exactly how you use, collect and share their data.
 
-You can learn more information about how to collect and use the data of JD in the Documentation and JD Cloud Privacy Policy via https://docs.jdcloud.com/cn/platform-agreement/privacy-policy. You agree to abide by all applicable terms in JD Privacy Policy.
+You can learn more information about how to collect and use the data of JD in the Documentation and JD Cloud & AI Privacy Policy via https://docs.jdcloud.com/en/platform-agreement/privacy-policy. You agree to abide by all applicable terms in JD Privacy Policy.
 
 #### **5. Responsibility of End Users**
 

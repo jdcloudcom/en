@@ -1,12 +1,12 @@
 ### 1 **Service Scope**
 
-JD Cloud IoT Core Service is an IoT product combination, by which users can select appropriate IoT products and functions to deploy in their own VPCs in order to satisfy their personalized IoT demands. At present, functions of the IoT Hub Service and independent deployment of the IoT Hub Protocol Adaptor Service are provided.
+JD Cloud & AI IoT Core Service is an IoT product combination, by which users can select appropriate IoT products and functions to deploy in their own VPCs in order to satisfy their personalized IoT demands. At present, functions of the IoT Hub Service and independent deployment of the IoT Hub Protocol Adaptor Service are provided.
 
 ### 2 **Service Level Indicator** 
 
 #### 2.1 Service Functions 
 
-For details of all functions of the IoT Core Service, please refer to the detailed description document, technical document and help documentation provided by JD Cloud on the official website. All the functional changes of the IoT Core Service that may affect users will be announced to the users. 
+For details of all functions of the IoT Core Service, please refer to the detailed description document, technical document and help documentation provided by JD Cloud & AI on the official website. All the functional changes of the IoT Core Service that may affect users will be announced to the users. 
 
 #### 2.2 **Service Availability**
 
@@ -42,29 +42,29 @@ Failed messages: Effective messages which are not circulated due to system failu
 
 #### 2.3 Service Resource Allocation Capability 
 
-The IoT Core Service provides multiple configurations. Therefore, users can expand IoT Core resources in service on line by themselves based on JD Cloud configuration schemes according to concurrent device count and the demand for count of messages received and sent per month. 
+The IoT Core Service provides multiple configurations. Therefore, users can expand IoT Core resources in service on line by themselves based on JD Cloud & AI configuration schemes according to concurrent device count and the demand for count of messages received and sent per month. 
 
 #### 2.4 Fault Recovery Capability 
 
-JD Cloud provides 7×24 hours of operation maintenance for the load balancer instance of the paying users, and provides technical support by means of telephone fault reporting, and has a series of fault incident response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc. 
+JD Cloud & AI provides 7×24 hours of operation maintenance for the load balancer instance of the paying users, and provides technical support by means of telephone fault reporting, and has a series of fault incident response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc. 
 
 #### 2.5 Network Access Performance 
 
-A user has the public network export bandwidth of 100Mbps by default while enabling the IoT Core Service. JD Cloud adopts BGP multi-line access to ensure the quality of network access for users. 
+A user has the public network export bandwidth of 100Mbps by default while enabling the IoT Core Service. JD Cloud & AI adopts BGP multi-line access to ensure the quality of network access for users. 
 
 #### 2.6 Service Metering Accuracy 
 
-IoT Core Service has an accurate and transparent metering and billing system. JD Cloud settles and deducts charges in real time according to actual usage of the users’ Virtual Machines. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud official website. The user's original billing log shall be kept for at least 3 years by default for future reference. 
+IoT Core Service has an accurate and transparent metering and billing system. JD Cloud & AI settles and deducts charges in real time according to actual usage of the users’ Virtual Machines. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud & AI official website. The user's original billing log shall be kept for at least 3 years by default for future reference. 
 
 ### 3 Service Compensation Terms 
 
 #### 3.1 **Compensation Scope**
 
-In the event of failure of normal use of IoT Core Service purchased by users due to JD Cloud’s device faults, design defects or misoperation, JD Cloud will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
+In the event of failure of normal use of IoT Core Service purchased by users due to JD Cloud & AI’s device faults, design defects or misoperation, JD Cloud & AI will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
 
-(1) Caused by the system maintenance that JD Cloud has notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
+(1) Caused by the system maintenance that JD Cloud & AI has notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
 
-(2) Any problems caused by the network, equipment failure or configuration adjustment other than JD Cloud’s device;
+(2) Any problems caused by the network, equipment failure or configuration adjustment other than JD Cloud & AI’s device;
 
 (3) Caused by hacker attacks to the user’s application program or data information;
 
@@ -78,7 +78,7 @@ In the event of failure of normal use of IoT Core Service purchased by users due
 
 (8) Caused by force majeure and accidents;
 
-(9) Unavailability caused not due to JD Cloud’s account.
+(9) Unavailability caused not due to JD Cloud & AI’s account.
 
 #### 3.2 Compensation Scheme
 
@@ -98,4 +98,4 @@ Customers may apply for compensation after the fifth (5th) working day of each m
 
 ### 4 **Others**
 
-JD Cloud has the right to from time to time make adjustments to partial service indicators of the Service Level Agreement according to changes and promptly release announcements on JD Cloud official website [www.jdcloud.com](https://www.jdcloud.com) or send emails or written notices to notify users of the modified contents.
+JD Cloud & AI has the right to from time to time make adjustments to partial service indicators of the Service Level Agreement according to changes and promptly release announcements on JD Cloud & AI official website [www.jdcloud.com](https://www.jdcloud.com) or send emails or written notices to notify users of the modified contents.

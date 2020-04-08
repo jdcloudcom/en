@@ -1,12 +1,12 @@
-**These Service Terms are the effective contract concluded by and between the owners of the JD Cloud website (referred to as "JD Cloud" website in the Agreement, website: **[www.jdcloud.com](https://www.jdcloud.com/index)**) and you on the matters related to Distributed Relational Database Service (DRDS). You agree to accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using the Distributed Relational Database Service (DRDS) of JD Cloud without clicking to confirm, indicating that you have reached an agreement with JD Cloud and agree to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
+**These Service Terms are the effective contract concluded by and between the owners of the JD Cloud & AI website (referred to as "JD Cloud & AI" website in the Agreement, website: [www.jdcloud.com](https://www.jdcloud.com/index) ) and you on the matters related to Distributed Relational Database Service (DRDS). You agree to accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using the Distributed Relational Database Service (DRDS) of JD Cloud & AI without clicking to confirm, indicating that you have reached an agreement with JD Cloud & AI and agree to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
 
-**With regards to these Service Terms, you are reminded to pay extra attention on the terms of limitation and exemption, terms of JD Cloud judging and handling your violation and breach of Terms, and the optional terms of the competent court. Limit and exemption terms may be in bold or underlined for highlighting. Please read through these Service Terms carefully before accepting these Service Terms. If you have any questions about the terms of these Service Terms, please contact the relevant business department of JD Cloud to state the inquiry, and JD Cloud will explain the term contents to you. If you do not agree with any of these Service Terms, or cannot accurately understand JD Cloud's interpretation of the Terms, please do not conduct follow-up actions.**
+**With regards to these Service Terms, you are reminded to pay extra attention on the terms of limitation and exemption, terms of JD Cloud & AI judging and handling your violation and breach of Terms, and the optional terms of the competent court. Limit and exemption terms may be in bold or underlined for highlighting. Please read through these Service Terms carefully before accepting these Service Terms. If you have any questions about the terms of these Service Terms, please contact the relevant business department of JD Cloud & AI to state the inquiry, and JD Cloud & AI will explain the term contents to you. If you do not agree with any of these Service Terms, or cannot accurately understand JD Cloud & AI's interpretation of the Terms, please do not conduct follow-up actions.**
 
 ### **1. Service Content**
 
-1.1 For the purposes of the Terms, "Service" means: JD Cloud provides you with The Distributed Relational Database Service (DRDS) and related technical and network support service as displayed on the website [www.jdcloud.com](https://www.jdcloud.com/index).
+1.1 For the purposes of the Terms, "Service" means: JD Cloud & AI provides you with The Distributed Relational Database Service (DRDS) and related technical and network support service as displayed on the website [www.jdcloud.com](https://www.jdcloud.com/index).
 
-1.2. The services provided by JD Cloud must comply with these Service Terms.
+1.2. The services provided by JD Cloud & AI must comply with these Service Terms.
 
 ### **2. Service Charge**
 
@@ -16,31 +16,31 @@
 
 2.2.1. Pay-In-Advance
 
-2.2.1.1 JD Cloud will only start to provide services for you upon your payment.
+2.2.1.1 JD Cloud & AI will only start to provide services for you upon your payment.
 
-2.2.1.2. If the Parties are willing to continue cooperation after the expiration of the services, you shall pay the renewal charge within at least 7 days before the expiration of the services, so as to continue the services. If JD Cloud has adjusted the product system, names or prices at the time of renewal, the Parties agree to perform in accordance with the new product system, names or prices that are effective at that time.
+2.2.1.2. If the Parties are willing to continue cooperation after the expiration of the services, you shall pay the renewal charge within at least 7 days before the expiration of the services, so as to continue the services. If JD Cloud & AI has adjusted the product system, names or prices at the time of renewal, the Parties agree to perform in accordance with the new product system, names or prices that are effective at that time.
 
 2.2.2 Pay-As-You-Go
 
 You pay after use. Please view the page announcement on [www.jdcloud.com](https://www.jdcloud.com/index) for the specific deduction rules, which is subject to the current effective billing mode and standard on the page.
 
-2.3 JD Cloud reserves the right not to provide you with services and/or technical supports or to terminate the services and/or technical supports until you have paid off all the costs as agreed. In the meanwhile, JD Cloud reserves the right to pursue legal liability for arrears in Pay-As-You-Go service.
+2.3 JD Cloud & AI reserves the right not to provide you with services and/or technical supports or to terminate the services and/or technical supports until you have paid off all the costs as agreed. In the meanwhile, JD Cloud & AI reserves the right to pursue legal liability for arrears in Pay-As-You-Go service.
 
-2.4 You fully understand that all the free service items or activities in the JD Cloud price system are one-off special offers from JD Cloud in addition to the normal service price. The contents of the offer do not include the modification, update and maintenance costs of the free service items, and the free service items cannot be converted into money to offset the service charge.
+2.4 You fully understand that all the free service items or activities in the JD Cloud & AI price system are one-off special offers from JD Cloud & AI in addition to the normal service price. The contents of the offer do not include the modification, update and maintenance costs of the free service items, and the free service items cannot be converted into money to offset the service charge.
 
-2.5 You understand and agree that JD Cloud has the right to unilaterally adjust the charge standard and charging method at any time according to the actual situation without obtaining your prior consent; JD Cloud will make the best efforts within the reasonable scope to notify you in advance of the aforementioned adjustments and changes by the official website announcement, the intra-website notices or the contact information you provided; and the services purchased and paid in full amount before the adjustment date will not be affected.
+2.5 You understand and agree that JD Cloud & AI has the right to unilaterally adjust the charge standard and charging method at any time according to the actual situation without obtaining your prior consent; JD Cloud & AI will make the best efforts within the reasonable scope to notify you in advance of the aforementioned adjustments and changes by the official website announcement, the intra-website notices or the contact information you provided; and the services purchased and paid in full amount before the adjustment date will not be affected.
 
 ### **3. Rights and Obligations**
 
 3.1 Your Rights and Obligations
 
-3.1.1 You agree to abide by these Service Terms and the relevant management specification and procedures on the service display Page. You understand that the above contents of the agreement and specification may change from time to time. In the event of any changes to the contents of these Service Terms, JD Cloud shall notify you of the modified contents by announcement on the suitable coverage on [www.jdcloud.com](https://www.jdcloud.com/index) in advance. If you disagree with JD Cloud's modification to the related terms in these Service Terms, you have the right to stop using JD Cloud's services. In such case, JD Cloud shall settle the service charge with you (if any), and you shall move the business data out. If you continue to use JD Cloud services, you are deemed to have accepted the modifications made by JD Cloud to the related terms in these Service Terms.
+3.1.1 You agree to abide by these Service Terms and the relevant management specification and procedures on the service display Page. You understand that the above contents of the agreement and specification may change from time to time. In the event of any changes to the contents of these Service Terms, JD Cloud & AI shall notify you of the modified contents by announcement on the suitable coverage on [www.jdcloud.com](https://www.jdcloud.com/index) in advance. If you disagree with JD Cloud & AI's modification to the related terms in these Service Terms, you have the right to stop using JD Cloud & AI's services. In such case, JD Cloud & AI shall settle the service charge with you (if any), and you shall move the business data out. If you continue to use JD Cloud & AI services, you are deemed to have accepted the modifications made by JD Cloud & AI to the related terms in these Service Terms.
 
-3.1.2 You shall pay the corresponding service charge according to the page notifications of JD Cloud and the agreement in these Service Terms.
+3.1.2 You shall pay the corresponding service charge according to the page notifications of JD Cloud & AI and the agreement in these Service Terms.
 
 3.1.3 You undertake that:
 
-3.1.3.1 If your business activities using the services provided by JD Cloud require the license or approval of the relevant state departments, you shall obtain relevant license or approval. It includes but not limited to the following:
+3.1.3.1 If your business activities using the services provided by JD Cloud & AI require the license or approval of the relevant state departments, you shall obtain relevant license or approval. It includes but not limited to the following:
 
 If your websites adopt the Cloud Database service to store data, you must guarantee that all websites you operate are licensed or approved by the relevant national authorities;
 
@@ -58,15 +58,15 @@ If you are engaged in Internet information services such as news, publishing, ed
 
 You understand and acknowledge that the above list does not exhaust all types of licenses or approvals required by the relevant state departments for your business or non-business activities. You shall obtain relevant licenses or approvals, and shall comply with the requirements of relevant laws and regulations issued by the state and local from time to time.
 
-3.1.3.2. Except for the express license of JD Cloud, the software provided by JD Cloud may not be modified, translated, adapted, leased, sub-licensed, or disseminated or transferred on the information network, nor reversely engineered, decompiled or found the source code of the software provided by JD Cloud in other ways by attempt;
+3.1.3.2. Except for the express license of JD Cloud & AI, the software provided by JD Cloud & AI may not be modified, translated, adapted, leased, sub-licensed, or disseminated or transferred on the information network, nor reversely engineered, decompiled or found the source code of the software provided by JD Cloud & AI in other ways by attempt;
 
-3.1.3.3 If JD Cloud's services involve the use license of third-party software, you agree to abide by the relevant license protocol;
+3.1.3.3 If JD Cloud & AI's services involve the use license of third-party software, you agree to abide by the relevant license protocol;
 
-3.1.3.4 Do not disseminate Email advertisements or SPAM: Do not use the services provided by JD Cloud to disseminate a large number of unwelcome or unsolicited Emails, electronic advertisements or Emails containing reactionary, pornographic and other harmful information;
+3.1.3.4 Do not disseminate Email advertisements or SPAM: Do not use the services provided by JD Cloud & AI to disseminate a large number of unwelcome or unsolicited Emails, electronic advertisements or Emails containing reactionary, pornographic and other harmful information;
 
-3.1.3.5 The Cloud Database provided by JD Cloud shall not be leased as disk space;
+3.1.3.5 The Cloud Database provided by JD Cloud & AI shall not be leased as disk space;
 
-3.1.3.6. Do not use the resources and services provided by JD Cloud to upload, download, store, and release the following information or contents, and do not provide any convenience for others to publish such information (including but not limited to setting URL, and BANNER links, etc.)::
+3.1.3.6. Do not use the resources and services provided by JD Cloud & AI to upload, download, store, and release the following information or contents, and do not provide any convenience for others to publish such information (including but not limited to setting URL, and BANNER links, etc.)::
 
 3.1.3.6.1 Political propaganda and/or news in violation of state regulations;
 
@@ -84,45 +84,45 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 3.1.3.6.8 Other contents that violate laws and regulations, departmental regulations or national policies.
 
-3.1.3.7 Do not occupy or cause programs or processes to occupy a large amount of the server memory, CPU or network bandwidth resources on the platform (hereinafter referred to as the "Cloud Platform") consisting of cloud computing resources of JD Cloud (such as cloud server, network bandwidth, bucket, etc.), cause serious and unreasonable load on the networks, servers (including but not limited to local and foreign and international networks, servers, etc.), products/applications, etc. of the users of JD Cloud Platform or other users of JD Cloud, affect the normal and smooth communications between JD Cloud and the Internet or JD Cloud between specific networks, servers and JD Cloud internal, or cause the system breakdown or system halt of the servers that the products and services of JD Cloud Platform or other user websites of JD Cloud are on, or failure of access of users to the products/applications based on the Cloud Platform, etc.;
+3.1.3.7 Do not occupy or cause programs or processes to occupy a large amount of the server memory, CPU or network bandwidth resources on the platform (hereinafter referred to as the "Cloud Platform") consisting of cloud computing resources of JD Cloud & AI (such as cloud server, network bandwidth, bucket, etc.), cause serious and unreasonable load on the networks, servers (including but not limited to local and foreign and international networks, servers, etc.), products/applications, etc. of the users of JD Cloud & AI Platform or other users of JD Cloud & AI, affect the normal and smooth communications between JD Cloud & AI and the Internet or JD Cloud & AI between specific networks, servers and JD Cloud & AI internal, or cause the system breakdown or system halt of the servers that the products and services of JD Cloud & AI Platform or other user websites of JD Cloud & AI are on, or failure of access of users to the products/applications based on the Cloud Platform, etc.;
 
 3.1.3.8 Do not conduct any acts that damage or attempt to damage network security (including but not limited to phishing, hacking, internet fraud, website or space containing or suspected of disseminating: viruses, webshell, malicious code, and other acts suspected of attacking other websites and servers through virtual servers such as scanning, sniffing, ARP spoofing, DOS, etc.);
 
-3.1.3.9 Do not make any changes or attempts to change the system configuration provided by JD Cloud or damage the security of the system;
+3.1.3.9 Do not make any changes or attempts to change the system configuration provided by JD Cloud & AI or damage the security of the system;
 
-3.1.3.10. Do not engage in other acts that violate the laws, regulations or JD Cloud Service Terms;
+3.1.3.10. Do not engage in other acts that violate the laws, regulations or JD Cloud & AI Service Terms;
 
-3.1.3.11 If you are found to have violated the agreement of the above terms by JD Cloud, you have the right to take corresponding measures according to the situation, including but not limited to immediately terminating the services, suspending the services or deleting the corresponding information. If you are challenged or complained by a third party institution or individual, JD Cloud will notify that you are responsible for making the explanation and issuing the certification materials within the specified time. If you fail to provide the evidence to the contrary or feedback within the specified time, JD Cloud will take measures including but not limited to immediately terminating the services, suspending the services, or deleting the corresponding information. In the event of failure to contact you due to the wrong contact information you provided or your failure of updating the contact information in time, you are deemed to have failed to provide feedback.
+3.1.3.11 If you are found to have violated the agreement of the above terms by JD Cloud & AI, you have the right to take corresponding measures according to the situation, including but not limited to immediately terminating the services, suspending the services or deleting the corresponding information. If you are challenged or complained by a third party institution or individual, JD Cloud & AI will notify that you are responsible for making the explanation and issuing the certification materials within the specified time. If you fail to provide the evidence to the contrary or feedback within the specified time, JD Cloud & AI will take measures including but not limited to immediately terminating the services, suspending the services, or deleting the corresponding information. In the event of failure to contact you due to the wrong contact information you provided or your failure of updating the contact information in time, you are deemed to have failed to provide feedback.
 
-3.1.4 You shall not install or use pirated software on JD Cloud service or platform; you are solely responsible for the consequences of your acts (such as software installed by yourself and actions you perform).
+3.1.4 You shall not install or use pirated software on JD Cloud & AI service or platform; you are solely responsible for the consequences of your acts (such as software installed by yourself and actions you perform).
 
-3.1.5 You are responsible for the data stored by yourself on JD Cloud Platform as well as the integrity and confidentiality of the passwords of entering and managing the products and services on the JD Cloud Platform. All losses and consequences caused by the loss or leakage of the above data, passwords, etc. due to your improper maintenance or improper confidentiality shall all be borne by you.
+3.1.5 You are responsible for the data stored by yourself on JD Cloud & AI Platform as well as the integrity and confidentiality of the passwords of entering and managing the products and services on the JD Cloud & AI Platform. All losses and consequences caused by the loss or leakage of the above data, passwords, etc. due to your improper maintenance or improper confidentiality shall all be borne by you.
 
-3.1.6 You shall submit the contacts performing these Service Terms and the list of personnel managing the user network and the various products and services on the Cloud Platform and their contact information to JD Cloud, and shall provide necessary assistance. If the above personnel changes, you shall update the information after the change online and notify JD Cloud in time. If the information of the personnel you provide is untrue, inaccurate or incomplete, you shall be responsible for all the consequences of the acts or omissions of the aforementioned personnel.
+3.1.6 You shall submit the contacts performing these Service Terms and the list of personnel managing the user network and the various products and services on the Cloud Platform and their contact information to JD Cloud & AI, and shall provide necessary assistance. If the above personnel changes, you shall update the information after the change online and notify JD Cloud & AI in time. If the information of the personnel you provide is untrue, inaccurate or incomplete, you shall be responsible for all the consequences of the acts or omissions of the aforementioned personnel.
 
-3.1.7 You understand that JD Cloud cannot guarantee that the services provided are flawless (for example, JD Cloud security products cannot guarantee the absolute security of your hardware or software). However, JD Cloud commits to continuously improve service quality and service level. Therefore, you agree: Even if the services provided by JD Cloud have flaws, the aforementioned flaws are unavoidable at the time of the industry's technology level, and JD Cloud shall not be deemed to have breached these Terms. You agree to cooperate with JD Cloud to solve the aforementioned problems.
+3.1.7 You understand that JD Cloud & AI cannot guarantee that the services provided are flawless (for example, JD Cloud & AI security products cannot guarantee the absolute security of your hardware or software). However, JD Cloud & AI commits to continuously improve service quality and service level. Therefore, you agree: Even if the services provided by JD Cloud & AI have flaws, the aforementioned flaws are unavoidable at the time of the industry's technology level, and JD Cloud & AI shall not be deemed to have breached these Terms. You agree to cooperate with JD Cloud & AI to solve the aforementioned problems.
 
-3.1.8 Data backup is your obligation and responsibility. Although JD Cloud Database may be configured with the tools for daily data backup, it doesn't mean that data backup is within JD Cloud's obligations. JD Cloud does not guarantee to back up user data completely and assumes no responsibility for backup work or consequences thereof of user data.
+3.1.8 Data backup is your obligation and responsibility. Although JD Cloud & AI Database may be configured with the tools for daily data backup, it doesn't mean that data backup is within JD Cloud & AI's obligations. JD Cloud & AI does not guarantee to back up user data completely and assumes no responsibility for backup work or consequences thereof of user data.
 
-3.2 Rights and Obligations of JD Cloud
+3.2 Rights and Obligations of JD Cloud & AI
 
-3.2.1 JD Cloud shall provide services as agreed in these Service Terms.
+3.2.1 JD Cloud & AI shall provide services as agreed in these Service Terms.
 
-3.2.2 During the service period, JD Cloud will provide you with the following customer services:
+3.2.2 During the service period, JD Cloud & AI will provide you with the following customer services:
 
-3.2.2.1 JD Cloud will provide a 7×24 after-sales fault service for the paying users, and provide effective contact information for the paying users to ensure that the paying users can contact the fault contacts. The fault contacts will send feedback in time after define the fault;
+3.2.2.1 JD Cloud & AI will provide a 7×24 after-sales fault service for the paying users, and provide effective contact information for the paying users to ensure that the paying users can contact the fault contacts. The fault contacts will send feedback in time after define the fault;
 
-3.2.2.2 JD Cloud will provide a 7×24 hours online ticket service system to answer customer questions during the use.
+3.2.2.2 JD Cloud & AI will provide a 7×24 hours online ticket service system to answer customer questions during the use.
 
-3.2.3 In case that the service involves Cloud Database, JD Cloud is only responsible for the underlying part under the database system and the operation and maintenance of the software provided by JD Cloud, namely the related technical architecture and operating system of the Cloud Database. You shall be solely responsible for the application part above the database.
+3.2.3 In case that the service involves Cloud Database, JD Cloud & AI is only responsible for the underlying part under the database system and the operation and maintenance of the software provided by JD Cloud & AI, namely the related technical architecture and operating system of the Cloud Database. You shall be solely responsible for the application part above the database.
 
-3.2.4 JD Cloud will eliminate the faults caused by non-man made actions, except for due to your account and/or force majeure and matters out of the control scope of JD Cloud.
+3.2.4 JD Cloud & AI will eliminate the faults caused by non-man made actions, except for due to your account and/or force majeure and matters out of the control scope of JD Cloud & AI.
 
-3.2.5 JD Cloud shall strictly comply with the confidentiality obligation.
+3.2.5 JD Cloud & AI shall strictly comply with the confidentiality obligation.
 
 ### **4. Saving, Destroying and Downloading of User Data**
 
-4.1 For the purpose of serving you, JD Cloud may provide services to you by using your data, including but not limited to sending products and service information to you.
+4.1 For the purpose of serving you, JD Cloud & AI may provide services to you by using your data, including but not limited to sending products and service information to you.
 
 4.2 Your user data will be disclosed in part or in whole under the following circumstances:
 
@@ -134,15 +134,15 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 4.2.4 Your data have to be shared with a third party to provide the software or services required by you.
 
-4.3 Unless otherwise agreed by law and between JD Cloud and you, JD Cloud shall continue to store your data within 7 natural days from the expiration of these Service Terms or the early termination thereof due to any reason, but will no longer keep your data thereafter. You shall bear all the consequences by yourself arising from the destruction of your data.
+4.3 Unless otherwise agreed by law and between JD Cloud & AI and you, JD Cloud & AI shall continue to store your data within 7 natural days from the expiration of these Service Terms or the early termination thereof due to any reason, but will no longer keep your data thereafter. You shall bear all the consequences by yourself arising from the destruction of your data.
 
 ### **5. Intellectual Property Right**
 
-5.1 You shall ensure that the materials submitted to JD Cloud, the use of JD Cloud services and the consequences of using JD Cloud services do not infringe the legitimate rights and interests of any third party. If a third party files a claim, lawsuit or may file a lawsuit against JD Cloud based on copyright infringement, infringement of rights and interests of a third party or violation of Chinese laws and regulations or other applicable laws, you shall compensate JD Cloud for the costs or losses borne thereby, and JD Cloud shall be completely exempted from any liability.
+5.1 You shall ensure that the materials submitted to JD Cloud & AI, the use of JD Cloud & AI services and the consequences of using JD Cloud & AI services do not infringe the legitimate rights and interests of any third party. If a third party files a claim, lawsuit or may file a lawsuit against JD Cloud & AI based on copyright infringement, infringement of rights and interests of a third party or violation of Chinese laws and regulations or other applicable laws, you shall compensate JD Cloud & AI for the costs or losses borne thereby, and JD Cloud & AI shall be completely exempted from any liability.
 
-5.2 If a third party institution or individual challenges you or complains to you about the intellectual property rights of the relevant materials involved in the use of JD Cloud services, you are responsible for issuing relevant intellectual property right certification materials and cooperating with JD Cloud's relevant complaint handling work.
+5.2 If a third party institution or individual challenges you or complains to you about the intellectual property rights of the relevant materials involved in the use of JD Cloud & AI services, you are responsible for issuing relevant intellectual property right certification materials and cooperating with JD Cloud & AI's relevant complaint handling work.
 
-5.3 You acknowledge that the intellectual property rights of any materials, technologies or technical supports, software, services, etc. provided by JD Cloud are owned by JD Cloud or a third party. Except for the express consent of JD Cloud or a third party, you have no right to copy, disseminate, transfer, license or provide others to use the above resources; otherwise you shall bear corresponding responsibilities.
+5.3 You acknowledge that the intellectual property rights of any materials, technologies or technical supports, software, services, etc. provided by JD Cloud & AI are owned by JD Cloud & AI or a third party. Except for the express consent of JD Cloud & AI or a third party, you have no right to copy, disseminate, transfer, license or provide others to use the above resources; otherwise you shall bear corresponding responsibilities.
 
 ### **6. Confidentiality Clause**
 
@@ -162,31 +162,31 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 7.2.1 The Parties agree to terminate in advance upon consensus;
 
-7.2.2 In case that you are in serious breach of these Service Terms (including but not limited to: a. You have not performed your payment obligation as agreed in the Protocol; and/or b. You have seriously violated the provisions of laws, etc.), JD Cloud has the right to terminate the services in advance not to refund the cost that you have already paid;
+7.2.2 In case that you are in serious breach of these Service Terms (including but not limited to: a. You have not performed your payment obligation as agreed in the Protocol; and/or b. You have seriously violated the provisions of laws, etc.), JD Cloud & AI has the right to terminate the services in advance not to refund the cost that you have already paid;
 
-7.2.3 If you select Pay-As-You-Go service, you shall keep your account balance sufficient to ensure continuous use of the service. If you fail to fulfill your payment obligations as agreed, JD Cloud will suspend and terminate the service as the following clauses:
+7.2.3 If you select Pay-As-You-Go service, you shall keep your account balance sufficient to ensure continuous use of the service. If you fail to fulfill your payment obligations as agreed, JD Cloud & AI will suspend and terminate the service as the following clauses:
 
-7.2.3.1 You can continue using JD Cloud Database service for 24 hours from the time of the first arrear; if you still have not successfully recharged enough amount to cover the service charge after the expiration of the 24 hours, JD Cloud will suspend the service and freeze operation of the Database under your account with your data stored and billing continued;
+7.2.3.1 You can continue using JD Cloud & AI Database service for 24 hours from the time of the first arrear; if you still have not successfully recharged enough amount to cover the service charge after the expiration of the 24 hours, JD Cloud & AI will suspend the service and freeze operation of the Database under your account with your data stored and billing continued;
 
-7.2.3.2 If you still have not successfully recharged enough amount to pay the service charge after the expiration of the 7 days from the time of service suspension by JD Cloud (from the suspension start moment of the date service being suspended to the same moment of the 7th day is the expiration of the period), then JD Cloud will terminate the Service Terms and stop providing service for you. At the same time, all the data you store on JD Cloud will be deleted and cleared and can never be restored.
+7.2.3.2 If you still have not successfully recharged enough amount to pay the service charge after the expiration of the 7 days from the time of service suspension by JD Cloud & AI (from the suspension start moment of the date service being suspended to the same moment of the 7th day is the expiration of the period), then JD Cloud & AI will terminate the Service Terms and stop providing service for you. At the same time, all the data you store on JD Cloud & AI will be deleted and cleared and can never be restored.
 
-7.2.4 You understand and fully recognize that although JD Cloud has established (and will continue to improve according to the development of technology) necessary technical measures to protect against the matters or acts harmful to network security (hereinafter referred to as such acts) including computer viruses, network intrusions, attack damages (including but not limited to DDOS), given the limitations and relativity of network security technology and the unpredictability of such acts, JD Cloud may decide to suspend or terminate the services if your website encounter such acts and bring harms to JD Cloud or JD Cloud’s other networks or servers (including but not limited to local and foreign and international networks, and servers, etc.), or affect the smooth communications between JD Cloud and the Internet or between JD Cloud specific and networks and servers and internal smooth communication within JD Cloud. If the service is terminated, the service charge will be calculated based on the actual time during which the service is provided, and you still shall pay the service charge you have not paid (if any).
+7.2.4 You understand and fully recognize that although JD Cloud & AI has established (and will continue to improve according to the development of technology) necessary technical measures to protect against the matters or acts harmful to network security (hereinafter referred to as such acts) including computer viruses, network intrusions, attack damages (including but not limited to DDOS), given the limitations and relativity of network security technology and the unpredictability of such acts, JD Cloud & AI may decide to suspend or terminate the services if your website encounter such acts and bring harms to JD Cloud & AI or JD Cloud & AI’s other networks or servers (including but not limited to local and foreign and international networks, and servers, etc.), or affect the smooth communications between JD Cloud & AI and the Internet or between JD Cloud & AI specific and networks and servers and internal smooth communication within JD Cloud & AI. If the service is terminated, the service charge will be calculated based on the actual time during which the service is provided, and you still shall pay the service charge you have not paid (if any).
 
-7.2.5 JD Cloud may terminate these Service Terms by advance announcement on [www.jdcloud.com](https://www.jdcloud.com/index), website notice or written notification. At that time, JD Cloud shall refund the amount you have paid but not consumed to your JD Cloud account.
+7.2.5 JD Cloud & AI may terminate these Service Terms by advance announcement on [www.jdcloud.com](https://www.jdcloud.com/index), website notice or written notification. At that time, JD Cloud & AI shall refund the amount you have paid but not consumed to your JD Cloud & AI account.
 
 ### **8. Liability for Breach of the Agreement**
 
 8.1 Any Party to these Service Terms shall be liable for breach of Terms in accordance with the law.
 
-8.2 You understand that due to the particularity of computers and the internet, JD Cloud's breach of Terms does not include the following cases:
+8.2 You understand that due to the particularity of computers and the internet, JD Cloud & AI's breach of Terms does not include the following cases:
 
-8.2.1 When JD Cloud performs server configuration and maintenance, the services need to be suspended for a short time;
+8.2.1 When JD Cloud & AI performs server configuration and maintenance, the services need to be suspended for a short time;
 
 8.2.2 Your website access speed is degraded due to path congestion on the Internet.
 
-8.4 JD Cloud shall not be liable for any indirect, consequential, disciplinary, incidental or special damages in any cases, including loss of profits suffered by you using JD Cloud services (even if you have been informed of the possibility of such losses).
+8.4 JD Cloud & AI shall not be liable for any indirect, consequential, disciplinary, incidental or special damages in any cases, including loss of profits suffered by you using JD Cloud & AI services (even if you have been informed of the possibility of such losses).
 
-8.5 JD Cloud's total liability for breach of these Service Terms shall not exceed the total service charge corresponding to the breach service in any cases.
+8.5 JD Cloud & AI's total liability for breach of these Service Terms shall not exceed the total service charge corresponding to the breach service in any cases.
 
 ### **9. Force Majeure**
 
@@ -202,8 +202,8 @@ You understand and acknowledge that the above list does not exhaust all types of
 
 ### **11. Supplementary Articles**
 
-11.1 JD Cloud's service description, price description and the ordering Page you confirm on [www.jdcloud.com](https://www.jdcloud.com/index) are an integral part of these Service Terms. If the service description, price description and the order form you agree on the relevant pages at [www.jdcloud.com](https://www.jdcloud.com/index) are inconsistent with these Service Terms, these Service Terms shall prevail.
+11.1 JD Cloud & AI's service description, price description and the ordering Page you confirm on [www.jdcloud.com](https://www.jdcloud.com/index) are an integral part of these Service Terms. If the service description, price description and the order form you agree on the relevant pages at [www.jdcloud.com](https://www.jdcloud.com/index) are inconsistent with these Service Terms, these Service Terms shall prevail.
 
-11.2 JD Cloud is entitled to transfer part of all of the rights and obligations under these Service Terms to JD associated companies by announcement on [www.jdcloud.com](https://www.jdcloud.com/index), website notice or written notification.
+11.2 JD Cloud & AI is entitled to transfer part of all of the rights and obligations under these Service Terms to JD associated companies by announcement on [www.jdcloud.com](https://www.jdcloud.com/index), website notice or written notification.
 
 11.3. If any terms, in nature or otherwise, shall continue to exist after the termination of the Agreement, they shall be deemed to be continuing terms, including but not limited to warranty, confidentiality, intellectual property right, governing law and dispute resolution.

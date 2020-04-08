@@ -92,8 +92,8 @@ spec:
             secretKeyRef:
               name: c-tokens-fresher-secret
               key: sk
-        imagePullPolicy: Always
-        image: jdcloudiaas/jcrtoken:cronjob # 1.16 Cluster should be changed to jdcloudiaas/jcrtoken:cronjob-14.6
+        imagePullPolicy: IfNotPresent
+        image: jdcloud-cn-north-1.jcr.service.jdcloud.com/jdcloudiaas/jcrtoken:cronjob-14.6
 ---
 apiVersion: v1
 kind: ServiceAccount
@@ -144,9 +144,11 @@ spec:
                 secretKeyRef:
                   name: c-tokens-fresher-secret
                   key: sk
-            imagePullPolicy: Always
-            image: jdcloudiaas/jcrtoken:cronjob  # 1.16 Cluster should be changed to jdcloudiaas/jcrtoken:cronjob-14.6
+            imagePullPolicy: IfNotPresent
+            image: jdcloud-cn-north-1.jcr.service.jdcloud.com/jdcloudiaas/jcrtoken:cronjob-14.6
 ```  
+Note: If the clusters are in different regions, e.g. East China or South China, please replace the image addresses accordingly to jdcloud-cn-east-2.jcr.service.jdcloud.com/jdcloudiaas/jcrtoken:cronjob-14.6 or jdcloud-cn-south-1.jcr.service.jdcloud.com/jdcloudiaas/jcrtoken:cronjob-14.6
+
 4. Execute the following commands to run:
 ```
 kubectl create -f secret.yaml

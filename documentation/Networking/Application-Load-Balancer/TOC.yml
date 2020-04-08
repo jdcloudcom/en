@@ -31,6 +31,8 @@
         href: Pricing/Purchase-Process.md 
       - name: Renew-Process
         href: Pricing/Renew-Process.md
+      - name: Load Balancer Billing FAQ
+        href: Pricing/Price-FAQ.md
   - name: Getting Started
     items:
       - name: Create Application Load Balancer Instance

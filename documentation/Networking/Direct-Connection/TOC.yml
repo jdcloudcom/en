@@ -51,14 +51,46 @@
          href: Getting-Started/Multiple-VPC-Interconnection.md
   - name: Operation Guide
     items:
-      - name: Border Gateway
-        href: Operation-Guide/Border-Gateway.md
-      - name: VPC Attachment
-        href: Operation-Guide/VPC-Attachment.md
-      - name: Direct Connection
-        href: Operation-Guide/Direct-Connect.md
-      - name: Hosted Connect
-        href: Operation-Guide/Hosted-Connect.md
+       - name: Border Gateway Management
+         items:
+          - name: Border Gateway Configuration
+            href: Operation-Guide/Border-Gateway-Management/Border-Gateway-Configuration.md
+          - name: VPC Attachment Configuration
+            href: Operation-Guide/Border-Gateway-Management/VPC-Attachment-Configuration.md
+       - name: Direct Connection Management
+         items:
+          - name: Physical Connection Configuration
+            href: Operation-Guide/Direct-Connection-Management/Physical-Connection-Configuration.md
+          - name: Physical Connection Monitoring
+            href: Operation-Guide/Direct-Connection-Management/Physical-Connection-Monitoring.md
+          - name: Private Virtual Interface Configuration
+            href: Operation-Guide/Direct-Connection-Management/Private-Virtual-Interface-Configuration.md
+          - name: Private Virtual Interface Monitoring
+            href: Operation-Guide/Direct-Connection-Management/Private-Virtual-Interface-Monitoring.md
+       - name: Hosted Connect Management
+         items:
+          - name: Hosted Connection Configuration
+            href: Operation-Guide/Hosted-Connection-Management/Hosted-Connection-Configuration.md
+          - name: Hosted Connection Monitoring
+            href: Operation-Guide/Hosted-Connection-Management/Hosted-Connection-Monitoring.md
+          - name: Hosted Private Virtual Interface Configuration
+            href: Operation-Guide/Hosted-Connection-Management/Hosted-Private-Virtual-Interface-Configuration.md
+          - name: Hosted Private Virtual Interface Monitoring
+            href: Operation-Guide/Hosted-Connection-Management/Hosted-Private-Virtual-Interface-Monitoring.md
+       - name: Client Management
+         items:
+          - name: Cisco Client Configuration
+            href: Operation-Guide/Client-Site-Configuration/Cisco-Configuration.md
+          - name: Huawei Client Configuration
+            href: Operation-Guide/Client-Site-Configuration/Huawei-Configuration.md
+          - name: H3C Client Configuration
+            href: Operation-Guide/Client-Site-Configuration/H3C-Configuration.md
+       - name: Route Management
+         items:
+          - name: Border Gateway Route Configuration
+            href: Operation-Guide/Route-Management/Border-Gateway-Route-Configuration.md
+          - name: VPC Route Configuration
+            href: Operation-Guide/Route-Management/VPC-Route-Configuration.md
   - name: Best Practices
     items:
     status: 0
@@ -74,11 +106,13 @@
     href:
     status: 0
   - name: User Agreement
+    status: 0
     items:
     - name: Terms of Service
       href:
       status: 0
   - name: Related Resources
+    status: 0
     items:
     - name: Document History
       href:

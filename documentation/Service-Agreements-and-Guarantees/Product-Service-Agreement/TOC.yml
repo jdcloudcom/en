@@ -94,6 +94,8 @@ items:
     href: Cloud-Physics-Server-Service-Level-Protocol-SLA.md
   - name: Service Agreement on Physical Cloud Public IP
     href: Elastic-IP-For-Physical-Cloud-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) of Physical Cloud Public IP
+    href: Elastic-IP-For-Physical-Cloud-Level-Agreement-SLA.md   
   - name: Service Terms of Physical Cloud Load Balancer Service
     href: Physical-Cloud-Load-Balancer-Service-Clause.md 
   - name: Service Level Agreement (SLA) of Physical Cloud Load Balancer Service
@@ -104,6 +106,8 @@ items:
     href: Distributed-Cloud-Physical-Server-SLA.md
   - name: Service Terms on Edge Cloud Public IP
     href: Elastic-IP-For-Edge-Cloud-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) of Edge Cloud Public IP
+    href: Elastic-IP-For-Edge-Cloud-Level-Agreement-SLA.md
   - name: Edge Network Tunnel (ENT) Service Agreement
     href: Edge-Network-Tunnel-Terms-Of-Service.md
   - name: Service Terms of Equal Edge Service (JEES)
@@ -176,17 +180,17 @@ items:
     href: Text-Message-Level-Agreement-SLA.md
   - name: Service Terms for Log Service
     href: Log-Service-Terms-Of-Service.md
-  - name: JD Cloud HSM Service Terms
+  - name: JD Cloud & AI HSM Service Terms
     href: JDCloudHSM-Terms-Of-Service.md
-  - name: JD Cloud HSM Service Level Agreement (SLA)
+  - name: JD Cloud & AI HSM Service Level Agreement (SLA)
     href: JDCloudHSM-Level-Agreements-SLA.md
   - name: Data Transmission (DTS) Service Agreement
     href: Data-Transmission-Service-Terms-Of-Service.md 
   - name: Intelligent Design Product Service Agreement
     href: Intelligent-Design-Terms-Of-Service.md
-  - name: JD Cloud Gift Voucher Service Agreement
+  - name: JD Cloud & AI Gift Voucher Service Agreement
     href: Voucher-Terms-Of-Service.md
-  - name: JD Cloud Recommendation Rebate Agreement
+  - name: JD Cloud & AI Recommendation Rebate Agreement
     href: Recommended-Rebate-User-Agreement.md
   - name: Power of Attorney
     href: Power-Of-Attorney.md
@@ -198,9 +202,9 @@ items:
     href: Cloud-Cabinet-Service-Level-Agreements-SLA.md
   - name: IDC User Internet Access Responsibility Statement
     href: IDC-User-Internet-Access-Responsibility-Statement.md
-  - name: Service Terms of JD Cloud Distributed Service Framework (JDSF)
+  - name: Service Terms of JD Cloud & AI Distributed Service Framework (JDSF)
     href: JDCloud-Distributed-Service-Framework-Terms-Of-Service.md
-  - name: Service Level Agreement (SLA) of JD Cloud Distributed Service Framework (JDSF)
+  - name: Service Level Agreement (SLA) of JD Cloud & AI Distributed Service Framework (JDSF)
     href: JDCloud-Distributed-Service-Framework-Level-Agreements-SLA.md  
   - name: Service Terms of Cloud Service Mesh
     href: Mesh-Service-Terms-Of-Service.md
@@ -208,3 +212,4 @@ items:
     href: Intelligent-Edge-Security-Terms-Of-Service.md   
   - name: Bastion Service Terms
     href: Bastion-Terms-Of-Service.md  
+    

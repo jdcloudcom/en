@@ -1,10 +1,13 @@
 ## VPC Attachment
 VPC Attachment is used to establish one-to-one connection between Border Gateway and VPC, and after VPC attachment is created, VPC’s segment can be transmitted to border gateway route table by configuration of route transmission, oppositely, the route in border gateway effective route table can be transmitted to VPC route table.
 
+```
+  The function of VPC attachment is only released in Guangzhou and Shanghai currently.
+```
 
 ### Operation Steps
 ##### 1. Create VPC Attachment
-a) Log in [JD Cloud VPC Attachment Console](https://cns-console.jdcloud.com/host/vpcAttachment/list), or enter **Attachment/Channel** Tab on Border Gateway Details to create VPC Attachment;  </br>
+a) Log in [JD Cloud & AI VPC Attachment Console](https://cns-console.jdcloud.com/host/vpcAttachment/list), or enter **Attachment/Channel** Tab on Border Gateway Details to create VPC Attachment;  </br>
 b) Select region and click **Create**;</br>
 c) Enter VPC Attachment’s name, select Border Gateway and VPC, assign VPC segment to be transmitted to Border Gateway Route Table, and create VPC Attachment. Three modes are supported to transmit VPC segment: VPC all segments, assigned subnet segments and do not transmit segment;</br>
 * VPC All Segments means that all selected subnet segments of VPC (including subnet segments existing currently and to be added in VPC, and segments automatically transmitting the subnet when it being created) are transmitted to Border Gateway Route Table.
@@ -22,13 +25,13 @@ For more content of VPC Route Table configuring route transmission, refer to [VP
 
 ##### 2. Modify VPC Attachment
 You can modify name, assigned VPC and transmitted subnet segment of VPC Attachment.</br>
-a) Log in [JD Cloud VPC Attachment Console](https://cns-console.jdcloud.com/host/vpcAttachment/list);  </br>
+a) Log in [JD Cloud & AI VPC Attachment Console](https://cns-console.jdcloud.com/host/vpcAttachment/list);  </br>
 b) Select corresponding VPC Attachment, click **Edit** on the operation bar and enter VPC Attachment Editing Page.</br>
 c) Modifications for VPC Attachment’s name, assigned VPC and transmitted subnet segments with restrictions on configuration items being the same as VPC Attachment creation are supported and modification for Border Gateway of VPC Attachment is not supported.</br>
 ![](../../../../../image/Networking/VPN/Operation-Guide/update-vpcattachment.png)
 
 ##### 3. Delete VPC Attachment
 If you do not need VPC Attachment anymore, you can delete it.</br>
-a) Log in [JD Cloud VPC Attachment Console](https://cns-console.jdcloud.com/host/vpcAttachment/list);  </br>
+a) Log in [JD Cloud & AI VPC Attachment Console](https://cns-console.jdcloud.com/host/vpcAttachment/list);  </br>
 b) Select corresponding VPC Attachment, and click **Delete** on the operation bar. After VPC Attachment is deleted, transmission relationship of VPC Route Table, VPC and transmission route corresponding to Border Gateway will be deleted automatically.</br>
 ![](../../../../../image/Networking/VPN/Operation-Guide/delete-vpcattachment.png)

@@ -59,24 +59,7 @@
           - name: Message Transmission Retry Policy
             href: Operation-Guide/Message-Management/Reties-Policies.md     
       - name: Monitoring Alarm
-        items:
-          - name: View Monitoring Information
-            href: Operation-Guide/Monitoring/Monitoring.md
-            status: 0
-          - name: Set Alarm Rules
-            href: Operation-Guide/Monitoring/Alarm-Rules.md
-            status: 0
-      - name: Authorization Management
-        items:
-          - name: Permission Control Overview
-            href: Operation-Guide/Authorization-Management/Authorization-Overview.md
-            status: 0
-          - name: Authorization to IAM Sub-users by Primary Account
-            href: Operation-Guide/Authorization-Management/Main-Sub-Authorization.md
-            status: 0
-          - name: Cross-primary Account Authorization
-            href: Operation-Guide/Authorization-Management/Main-Main-Authorization.md
-            status: 0
+        href: Operation-Guide/monitor.md
   - name: SDK Reference
     items:
       - name: SDK Overview

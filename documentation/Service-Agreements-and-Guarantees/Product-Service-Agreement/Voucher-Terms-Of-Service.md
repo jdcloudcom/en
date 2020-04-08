@@ -1,93 +1,91 @@
-在您购买及使用京东云提货券前，请您务必仔细阅读本协议的全部内容，充分理解相关定义和解释，并在确认接受本协议的内容后再进行后续操作。
+Before purchasing and using JD Cloud & AI gift voucher, you must carefully read all contents of the Agreement, fully understand relevant definitions and interpretations, and proceed with subsequent operations after confirming that you accept all contents of the Agreement.
 
-**本协议将通过加粗或加下划线的形式提示您特别关注、限制条款、免责条款，以及管辖法院的选择条款等。**
+**You are reminded to pay extra attention to the restrictions, exceptions and terms on selecting a competent court in bold and underline in the Agreement.**
 
-如果对本协议的条款有疑问的，请向京东云咨询。
+If you have any question to the terms of the Agreement, please consult JD Cloud & AI.
 
-**您继续后续操作的行为，将被视为您已完全接受协议的全部约定，本协议对京东云和您均具有法律约束力。**
+**Your further operation will be deemed to that you have fully accepted all terms hereof, and the Agreement will be binding to JD Cloud & AI and you.**
 
-**1** **总则**
+**1**  ** General Provisions**
 
-1.1 本协议是京东云计算有限公司（"京东云"）与用户（"您"）之间，就用户购买京东云提货券（"提货券"）及后续使用事宜，所订立的有效合约。
+1.1 The Agreement is an effective contract concluded by and between JD Cloud & AI Computing Co., Ltd. ("JD Cloud & AI") and the user ("you") for your purchase of JD Cloud & AI gift voucher("gift voucher") and subsequent use matters.
 
-1.2 当您通过京东云官网的相关提货券购买页面或提货券活动页面，勾选并确认本协议，或接受引用本页面链接及提示遵守内容时，或您通过线下签署书面协议、实际使用服务、或京东云认可且符合法律法规惯例的其他任一方式确认本协议后，即表示您与京东云已就本协议的内容达成一致意见。
+1.2 You are deemed to have agreed upon the contents of the Agreement with JD Cloud & AI once you select and confirm the Agreement on relevant gift voucher purchase pages or gift voucher activity pages on JD Cloud & AI official website, or accept the compliance contents quoted by this page link and notification, or sign the written offline agreement, actually use the service or confirm the Agreement by any way recognized by JD Cloud & AI and in conformity to the laws, regulations and practices.
 
-**1.3** **京东云官网上关于提货券购买流程、使用说明等的页面内容是本协议的有效组成部分，如遇前述内容与本协议内容不一致之处，以本协议的约定为准。** 
+**1.3** **The contents on the page of gift voucher purchase process and use instructions on JD Cloud & AI official website shall be valid parts of the Agreement. If there is any inconsistency between the aforesaid contents and the Agreement, the terms of the Agreement shall prevail.** 
 
-**1.4** **用户如通过京东云官网促销或优惠活动进行提货券购买的，除应遵守本协议外，还应遵守相应的活动规则。**
+**1.4** **Users performing gift voucher purchase through promotions or special offers on JD Cloud & AI official website shall abide by the related activity regulations in addition to the Agreement.**
 
-1.5 本协议的内容仅约定了用户与京东云达成就提货券本身的购买及使用的相关权利义务关系。
+1.5 The contents of the Agreement only bind upon the relationship of rights and obligations in connection with the purchase and use of gift voucher entered into by and between the user and JD Cloud & AI.
 
-**2** **定义及解释**
+**2** **Definition and Explanation**
 
-**2.1提货券：** 是指京东云承诺提货券持有人可以在一定时间期限内开通使用/续费某一京东云产品（例如：某个指定规格云产品/服务）的权利（简称为"提货权"）的电子凭证。
+**2.1 Gift Voucher: ** refers to an electronic voucher of a right (hereinafter referred to as the "delivery right") via which JD Cloud & AI promises that the gift voucher holder can subscribe/renew a product of JD Cloud & AI within a certain time period (for example: a cloud product/service of specific specification).
 
-2.2 **京东云官网**：是指包含域名为[www.jdcloud.com](http://www.jdcloud.com)的网站以及京东云客户端，如APP。
+2.2 **JD Cloud & AI Official Website**: It refers to the website including the domain [www.jdcloud.com](http://www.jdcloud.com) and JD Cloud & AI client, e.g. APP.
 
-2.3 **京东云官网产品**：是指京东云官网售卖的自研及自营的产品和服务，包含但不限于京东云主站、京东云Elite平台以及京东云云市场可购买的自营产品及服务。以下简称为"产品"。
+2.3 **JD Cloud & AI Official Website Product**: It refers to the self-developed and self-support product and service sold on JD Cloud & AI official website, including but not limited to available self-support product and service on JD Cloud & AI main website, JD Cloud & AI Elite Platform and JD Cloud & AI Cloud Marketplace. (Hereinafter referred to as "Product").
 
-**2.4** **提货券持有人：** 是指通过自行购买提货券而持有提货券的京东云用户。
+**2.4** **Gift Voucher Holder:** refers to a JD Cloud & AI user holding a gift voucher by purchasing it.
 
-2.5 **用户：** 本协议中的用户是指购买、使用提货券的京东云会员的统称。
+2.5 **User: ** User herein collectively refers to a JD Cloud & AI member who purchases and uses a gift voucher.
 
-2.6 **产品协议**：是指用户在购买及使用京东云官网产品及服务时所确认的相应服务条款及产品规则等的统称。
+2.6 **Product Protocol**: It collectively refers to relevant service terms and product rules confirmed by a user during the purchase and use of JD Cloud & AI official website product and service.
 
-2.7 **活动规则**：是指京东云不定期在京东云官网推出的各类推广营销活动中，在活动页面公示的、用户接受后方可参加相应活动的要求和规定等的统称。
+2.7 **Promotion Rules**: It collectively refers to requirements and regulations that users must accept before participate in corresponding activities, which are announced on the page of promotions and marketing campaigns launched on JD Cloud & AI official website by JD Cloud & AI from time to time.
 
-**3** **提货券的购买**
+**3** **Purchase of Gift Voucher**
 
-3.1 京东云有权根据经营状况和销售政策自行决定提货券所支持的京东云官网产品范围，并可适时调整。提货券支持产品范围的调整，不影响调整前用户已经购买的提货券的正常使用。
+3.1 JD Cloud & AI shall have the right to determine and duly adjust the range of JD Cloud & AI official website products supported by gift voucher according to the state of operation and sales policy. The adjustment to the range of products will be supported by gift voucher and will not affect the normal use of gift vouchers that have been already purchased by users.
 
-3.2 用户可通过京东云官方认可渠道购买提货券，包括但不限于：京东云官网、京东云官方旗舰店，以及其他获得京东云授权的提货券售卖渠道。用户通过非京东云官方认可渠道购买的提货券，京东云不予承认。
+3.2 Users may purchase gift vouchers through channels officially recognized by JD Cloud & AI, including but not limited to: JD Cloud & AI official website, JD Cloud & AI official flagship store and other gift voucher marketing channels authorized by JD Cloud & AI. Gift vouchers purchased by users through channels not officially recognized by JD Cloud & AI will not be accepted by JD Cloud & AI.
 
-3.3 用户参与官网活动所购买的提货券，除应遵守本协议条款外，还应遵守相应活动的活动规则的要求。
+3.3 Gift vouchers purchased by users in official website campaigns shall comply with the requirements of related activity regulations in addition to the Agreement.
 
-**3.4** **用户理解并同意，京东云具有为提货券用户保留相应的产品/服务库存资源的义务，因此提货券不支持用户单方面退订要求，且提货券不可转让。提货券售出后，用户单方面要求退款的，不予支持。**
+**3.4** **Users understand and agree that JD Cloud & AI is obliged to reserve inventory resources of related products/services for gift voucher users, so users cannot request to unilaterally cancel the subscription of gift vouchers and such gift vouchers are non-transferable. Once the gift voucher is sold, users cannot unilaterally request refund.**
 
-**4** **提货券的使用**
+**4** **Use of Gift Voucher**
 
-4.1 用户购买提货券后，应在提货券有效期内，登录相应的京东云账号，通过访问控制台-费用中心-提货券管理，点击有效期内的提货券，进行产品/服务的开通。提货券一经开通使用，即转化为具体规划型号的产品/服务，提货券本身自动失效。
+4.1 After purchasing a gift voucher, users shall, within the validity period of the gift voucher, log in relevant JD Cloud & AI account and click the gift voucher within the validity period by accessing the Console - Cost Center - Gift Voucher Management to subscribe the product/service. The gift voucher will be transformed into product/service with specific planned model and automatically becomes void upon subscription.
 
-4.2 提货券金额中已经包括相应产品的服务费用，用户使用提货券开通具体产品时不再支付其他费用。
+4.2 The gift voucher amount has already included the service charges of related products and users do not need to make other payments when subscribing specific products with the gift voucher.
 
-**4.3** **用户理解并同意，提货券应在有效期内使用，过期自动作废。用户未作提货券有效期内开通产品/服务的，视为自动放弃行使提货权，所付费用不予退还。**
+**4.3** **Users understand and agree that gift vouchers shall be used within the validity period and will become invalid automatically after expiration. Users will be deemed to automatically waive the exercise of the delivery right if they fail to subscribe the product/service within the validity period of the gift voucher and the fee paid will not be refunded.**
 
-4.4 用户在使用提货券开通了具体产品及服务后，就该产品及服务的相关权利义务，应当遵守实际产品及服务的具体用户与京东云另行达成的产品协议的相关约定。
+4.4 After using the gift voucher to subscribe a specific product and service, for the purpose of relevant rights and obligations of this product and service, users shall observe the terms of the product agreement concluded by and between a user and JD Cloud & AI in connection with the actual product and service.
 
-4.5 除非特殊原因，用户使用提货券开通的产品，不支持用户在服务未到期前提出的单方面退订申请。
-
- 
-
-**5** **提货券的失效**
-
-5.1 提货券于以下任一情形出现时失效：
-
-5.1.1 提货券有效期满，用户放弃行使提货权的；
-
-5.1.2 用户使用提货券，已完成产品/服务开通的；
-
-**5.1.3** **用户在购买、使用提货券过程中存在不正当行为，或非法损害京东云利益的，京东云有权作废提货券；**
-
-**5** **.1.4** **用户存在违反法律法规、网站协议、产品协议等的行为，京东云依照相关规定作废提货券的；**
-
-5.1.5 出现法律法规规定的导致提货券失效的其他情形的。
-
-**6** **适用法律与争议解决**
-
-6.1 本协议的订立、执行和解释及争议的解决均应适用中华人民共和国法律。
-
-**6.2** 如果用户与京东云之间就提货券的购买及使用而引发争议时，双方当事人应通过友好协商方式解决。**如果协商未成，双方同意向京东云主要经营地的有管辖权的人民法院提起诉讼。**
-
-**7** **其他**
-
-7.1 用户须通过其京东云账号，与京东云之间完成本协议的签署及履行，因此[《京东云用户服务协议》](http://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud201712130944_39600.html)、[《京东云隐私权政策》](http://terms.aliyun.com/legal-agreement/terms/suit_bu1_ali_cloud/suit_bu1_ali_cloud201710161525_98396.html)等协议条款、网站政策为本协议的上位规则。双方均应遵守前述上位规则的相关约定的约束。
-
-7.2 用户使用提货券开通、使用具体产品及服务时，还应遵守相应的产品协议的条款约定。
-
-7.3 本协议如果与双方以前签署的有关条款或者京东云的有关陈述不一致或者相抵触的，以本协议为准。
+4.5 Users shall not unilaterally apply for cancellation of subscription before the expiration of the service for any product subscribed by a user with a gift voucher, except for special reasons.
 
  
 
-**您在此再次保证，已经完全阅读并理解了提货券协议的条款并自愿进行后续操作，接受上述条款的约束。**
+**5** **Invalidation of Gift Voucher**
+
+5.1 Gift voucher will become invalid under any of the following circumstances:
+
+5.1.1 The user waives the exercise of the delivery right when the validity period of the gift voucher expires;
+
+5.1.2 The user has completed subscription of product/service with the gift voucher;
+
+**5.1.3** **JD Cloud & AI has the right to cancel the gift voucher in the event that the user engages in any misconduct or illegally damages JD Cloud & AI's interests during purchase and use of the gift voucher;**
+
+**5** **.1.4** **JD Cloud & AI will cancel the gift voucher in accordance with relevant regulations in the event that the user breaches the laws and regulations, website protocols and product agreements;**
+
+5.1.5 Other circumstances causing invalidity of the gift voucher required by the laws and regulations.
+
+**6** **Applicable Laws and Dispute Resolution**
+
+6.1 The conclusion, enforcement, interpretation and dispute resolution of the Agreement shall be governed by the laws of the People's Republic of China.
+
+**6.2** Any dispute arising from the purchase and use of gift voucher between the user and JD Cloud & AI shall be resolved by the Parties through friendly consultations. **If such consultations fail, the Parties agree to file a lawsuit to the people's court with jurisdiction where the place of business of JD Cloud & AI locates.**
+
+**7** **Others**
+
+7.1 Users must execute and perform the Agreement with JD Cloud & AI through their JD Cloud & AI account. Therefore, the agreement terms and website policies such as [JD Cloud & AI User Service Agreement](https://docs.jdcloud.com/en/platform-agreement/registration-agreement) and [JD Cloud & AI Privacy Right Policy](https://docs.jdcloud.com/en/platform-agreement/privacy-policy) shall be the high-level rules of the Agreement. The Parties shall be subject to relevant agreements of the aforesaid higher-level rules.
+
+7.2 Users shall also abide by related terms of the product agreement when using a gift voucher to subscribe and use specific products and services.
+
+7.3 Where there is any inconsistency or conflict between the Agreement and the relevant terms executed by the Parties before or statements of JD Cloud & AI, the Agreement shall prevail. 
+
+**You hereby guarantee again that you have fully read and understood the terms of the gift voucher agreement, and are willing to proceed with further operations and be subject to the above terms.**
 
  

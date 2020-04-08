@@ -64,19 +64,12 @@ The billing cycle of Object Storage Service is based on day, which settles the b
   <td>Temporarily Free</td>
  </tr>
  <tr>
-  <td rowspan="2">Number of Requests</td>
-  <td>GET Request</td>
-  <td>Temporarily Free</td>
-  <td>Temporarily Free</td>
-  <td>Temporarily Free</td>
-  <td>Temporarily Free</td>
- </tr>
- <tr>
-  <td>PUT Request</td>
-  <td>Temporarily Free</td>
-  <td>Temporarily Free</td>
-  <td>Temporarily Free</td>
-  <td>Temporarily Free</td>
+  <td>Number of Requests</td>
+  <td>All Request Types</td>
+  <td>RMB 0.01/10,000 times</td>
+  <td>RMB 0.1/10,000 times</td>
+  <td>RMB 0.1/10,000 times</td>
+  <td>RMB 0.1/10,000 times</td>
  </tr>
  <tr>
   <td>Data Retrieval Cost</td>

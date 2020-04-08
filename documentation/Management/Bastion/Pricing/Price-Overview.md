@@ -46,7 +46,7 @@ For price, refer to the following table. The specific price is subject to the ch
       <td>1000</td>
       <td>3480</td>
       <td>35496</td>
-      <td>High-availability Version</td>
+      <td></td>
    </tr>
    <tr>
       <td>500 Assets</td>
@@ -71,8 +71,8 @@ For price, refer to the following table. The specific price is subject to the ch
    <tr>
       <td>5,000 Assets</td>
       <td>5,000 Concurrencies</td>
-      <td>4</td>
       <td>8</td>
+      <td>16</td>
       <td>2000</td>
       <td>9280</td>
       <td>94656</td>

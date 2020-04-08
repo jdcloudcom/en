@@ -1,11 +1,12 @@
 # FAQ  
 1. Which protocols are supported by site monitoring and which scenarios are applicable?  
-A: Now, site monitoring supports the protocols including HTTP(S), TCP, PING, UDP, SMTP and FTP7.  
+A: Now, site monitoring supports the protocols including HTTP(S), TCP, PING, DNS, UDP, SMTP, POP3 and FTP.  
 - HTTP(S): Web site monitoring service quality  
 - TCP: TCP ports of monitoring servers  
-- PING: If monitoring service can be pinged  
+- PING: If monitoring service can be pinged
+- DNS: Applicable for domain name resolution service of monitoring site
 - UDP: UDP ports of monitoring servers  
-- SMTP: Suitable for providing the site monitoring of email service  
+- SMTP/POP3: Suitable for providing the site monitoring of email service  
 - FTP: Suitable for providing the site monitoring of file service  
 
 2. What are the common reasons for exception of site monitoring data?
@@ -40,8 +41,11 @@ Phenomena: During ping detection, no response is given by the server.
 Possible reason: If such problem is found from a specific detection point, it is possible that a specific operator itself in a specific region has the network connectivity problem. If such problem is found from all detection points, it is possible that the server itself breaks down or losses response.
 Solutions: You are recommended to check server status or open tickets for confirmation or consultation.  
 
-3. For availability monitoring, why the detection result always fails, but Agent of Virtual Machines is normal?  
+3. For site monitoring, why is its alarm rule in the "Insufficient Data" status?  
+Answer: If the site task supports modifying the detection node, then the detection task will conduct detection according to the newly configured nodes while other nodes will neither work nor produce monitoring data. If the alarm rule configures a cancelled detection node, please synchronize the modification, or the data insufficiency will appear.
+
+4. For availability monitoring, why the detection result always fails, but Agent of Virtual Machines is normal?  
 A: Please make sure the network of selected Virtual Machines is connected to that of the target detection address. For example, if the detection address is the one accessible for then public network, then the Virtual Machines require the public network address for normal access; if RDS is selected to be detected, please make sure that the selected Virtual Machines and the detected RDS are under the same VPC; and meanwhile, the network ACL of the subnet and the safety rules and policies of these Virtual Machines will release the access.  
 
-4. Why the alarm rule of availability monitoring is in the "Insufficient Data" status?  
+5. Why the alarm rule of availability monitoring is in the "Insufficient Data" status?  
 A: Please ensure the availability monitoring task is not disabled and remain its running status. In addition, please remain the plug-ins of Virtual Machines which are selected as the detection source in the normal status, keep the Virtual Machines in normal running state and make sure that Agent has been successfully installed.

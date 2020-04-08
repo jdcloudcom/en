@@ -1,6 +1,6 @@
 # Features
 ## Distributed Network Load Balancer Instance
-Distributed Network Load Balancer Instance is the logic entity of Load Balancer produced by JD Cloud which is used for providing distributed, four-layer, stateless Load Balancer services. Users can associate instance or disassociate EIP according to the scenario needs to freely switch the Load Balancer of private network or public network. Instances providing Load Balancer services by associating EIP can hide intranet structure and enhance system security.
+Distributed Network Load Balancer Instance is the logic entity of Load Balancer produced by JD Cloud & AI which is used for providing distributed, four-layer, stateless Load Balancer services. Users can associate instance or disassociate EIP according to the scenario needs to freely switch the Load Balancer of private network or public network. Instances providing Load Balancer services by associating EIP can hide intranet structure and enhance system security.
 ## Sound Monitor
 Protocol types (currently only support TCP protocol) and port numbers are taken as the listening rules. Only client service requests matching the protocol listening rules can be distributed to the backend server via the Distributed Network Load Balancer. Users can define several listeners in the same Distributed Network Load Balancer. Different listeners can select different protocol types and different port numbers or the same protocol type and different port numbers.
 ## Backend Service

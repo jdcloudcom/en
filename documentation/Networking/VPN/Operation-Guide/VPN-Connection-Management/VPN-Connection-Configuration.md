@@ -5,7 +5,7 @@ For more content related to VPN Tunnel, refer to [VPN Tunnel Operation](../../Op
 
 ### Operation Steps
 ##### 1. Create VPN Connection
-a) Log in [JD Cloud VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  </br>
+a) Log in [JD Cloud & AI VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  </br>
 b) Select region and click **Create**;</br>
 c) Enter the name, description, border gateway, customer gateway and routing method of VPN Connection, and create a VPN Connection;</br>
 
@@ -22,7 +22,7 @@ Currently, VPN Connection only supports the addresses inside and outside the Tun
 
 ##### 2. Modify VPN Connection
 You can modify the name, description, and routing method of VPN Connection.</br>
-a) Log in [JD Cloud VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  </br>
+a) Log in [JD Cloud & AI VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  </br>
 b) Select the corresponding VPN Connection and log in the detail page of VPN Connection;</br>
 c) Modification of the name, description and routing method of VPN Connection is supported, and the restriction of each configuration item is the same as the creation of VPN Connection;</br>
 ```
@@ -34,6 +34,6 @@ c) Modification of the name, description and routing method of VPN Connection is
 
 ##### 3. Delete VPN Connection
 If you do not need VPN Connection anymore, you can delete it.</br>
-a) Log in [JD Cloud VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  </br>
+a) Log in [JD Cloud & AI VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  </br>
 b) Select the corresponding VPN Connections and click **Delete** on the operation bar. The VPN Connection without VPN Tunnel created can be deleted;</br>
 ![](../../../../../image/Networking/VPN/Operation-Guide/delete-vpnconnection.png)

@@ -1,5 +1,5 @@
-# Migrate from local PostgreSQL to JCS for PostgreSQL
-We mainly discuss about how to migrate local self-created PostgreSQL to JCS for PostgreSQL of JD Cloud. Instead of performing daily operation and maintenance, monitoring, backup and other operations by yourself in the case of using self-created local PostgreSQL, you can only concern use by using JCS for PostgreSQL of JD Cloud.
+# Migrate from Virtual Machines PostgreSQL to JCS for PostgreSQL
+We mainly discuss about how to migrate from Virtual Machines self-created PostgreSQL to JCS for PostgreSQL of JD Cloud & AI. Instead of performing daily operation and maintenance, monitoring, backup and other operations by yourself in the case of using self-created PostgreSQL, you can only concern about the use by using JCS for PostgreSQL of JD Cloud & AI.
 
 ## Note
 * New PostgreSQL instances and the Virtual Machines shall be in the same ***VPC***.

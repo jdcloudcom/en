@@ -4,8 +4,8 @@
 
 ## Private Network Load Balancer
 
-- Private network load balancer only can be used in JD Cloud Intranet, and can forward client request having access permission to JD Cloud Intranet. Steps for creating private network load balancer are as follows:
-  Select**Not Purchase** EIP when creating load balancer, complete relevant resource configuration, and then a private network load balancer instance is created by default.
+- Private network load balancer only can be used in JD Cloud & AI Intranet, and can forward client request having access permission to JD Cloud & AI Intranet. Steps for creating private network load balancer are as follows:
+  Select **Not Purchase** EIP when creating load balancer, complete relevant resource configuration, and then a private network load balancer instance is created by default.
   
   ![私网DNLB](../../../../image/Networking/Distributed-Network-Load-Balancer/DNLB-010.png)
 ## Public Network Load Balancer
@@ -17,7 +17,7 @@
 
 ## Mutual Conversion between Private Network Load Balancer and Public Network Load Balancer
 
-- JD Cloud supports mutual conversion of load balancer type of private network and public network, private network load balancer can be converted to public network load balancer through associating EIP, while the public network load balancer can be converted to private network load balancer through disassociating EIP.
+- JD Cloud & AI supports mutual conversion of load balancer type of private network and public network, private network load balancer can be converted to public network load balancer through associating EIP, while the public network load balancer can be converted to private network load balancer through disassociating EIP.
 
 Convert public network load balancer to private network load balancer:
   ![DNLB私网转换为公网](../../../../image/Networking/Distributed-Network-Load-Balancer/DNLB-012.png)

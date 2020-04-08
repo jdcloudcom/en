@@ -1,6 +1,6 @@
 **1. Service Scope**
 
-JCS for Elasticsearch is an open-source distributed searching and data analysis engine based on Elasticsearch, which works on scenarios such as data analysis, searching and APP monitoring. Through JD Cloud console, the JCS for Elasticsearch cluster can be quickly created and configured, to implement the fully-hosted service of real-time data search, collection and analysis.
+JCS for Elasticsearch is an open-source distributed searching and data analysis engine based on Elasticsearch, which works on scenarios such as data analysis, searching and APP monitoring. Through JD Cloud & AI console, the JCS for Elasticsearch cluster can be quickly created and configured, to implement the fully-hosted service of real-time data search, collection and analysis.
 
  
 
@@ -12,25 +12,25 @@ Data persistence is counted by service cycle, a service cycle is a natural month
 
 **2.2 Destruction Nature of Data**
 
-2.2.1 If the users actively delete the data or need to destruct the data after expiry, JD Cloud will automatically remove corresponding data in the physical disks and memory of the server, which the data cannot be recovered.
+2.2.1 If the users actively delete the data or need to destruct the data after expiry, JD Cloud & AI will automatically remove corresponding data in the physical disks and memory of the server, which the data cannot be recovered.
 
-2.2.2 Before scrapping, outsourced maintenance or resale of the equipment used for the services, JD Cloud will adopt demagnetization operation on its physical disk.
+2.2.2 Before scrapping, outsourced maintenance or resale of the equipment used for the services, JD Cloud & AI will adopt demagnetization operation on its physical disk.
 
 **2.3** **Privacy of Data**
 
-By means of encryption and security group isolation, JD Cloud ensures that the user data in the same resource pools are invisible with each other. In which, security groups can isolate different user resources through a series of data link level and network level IAM technology.
+By means of encryption and security group isolation, JD Cloud & AI ensures that the user data in the same resource pools are invisible with each other. In which, security groups can isolate different user resources through a series of data link level and network level IAM technology.
 
 **2.4 Right to Know of Data**
 
-2.4.1 The user has the right to know about the data, the geographical location of the data center where the backup data resides, and the number of data backups, among which: At present, JD Cloud data centers are distributed in North China (Beijing), East China (Suqian), East China (Shanghai), South China (Guangzhou). Users must select the corresponding data center according to the geographical location when they open cloud service, and their data will be stored in the data center specified by themselves.
+2.4.1 The user has the right to know about the data, the geographical location of the data center where the backup data resides, and the number of data backups, among which: At present, JD Cloud & AI data centers are distributed in North China (Beijing), East China (Suqian), East China (Shanghai), South China (Guangzhou). Users must select the corresponding data center according to the geographical location when they open cloud service, and their data will be stored in the data center specified by themselves.
 
-2.4.2 JD Cloud data centers will comply with the relevant local laws and regulations, users have the right to know and they can contact customer service personnel of JD Cloud to acquire the detailed information.
+2.4.2 JD Cloud & AI data centers will comply with the relevant local laws and regulations, users have the right to know and they can contact customer service personnel of JD Cloud & AI to acquire the detailed information.
 
-2.4.3 Except for the requirements of local laws and regulations or the supervision and auditing of regulatory authorities, all user data, applications and behavior log will not be provided to the third party. Apart from being used for statistics analysis of product operating status of JD Cloud, user behavior logs will not display user personal information data to the external.
+2.4.3 Except for the requirements of local laws and regulations or the supervision and auditing of regulatory authorities, all user data, applications and behavior log will not be provided to the third party. Apart from being used for statistics analysis of product operating status of JD Cloud & AI, user behavior logs will not display user personal information data to the external.
 
 **2.5 Reviewability of Data**
 
-In accordance with existing laws and regulations or the requirements from reasons such as supervision by government supervision department, safety and compliance, audit or forensic investigation, and subject to compliance with processes and procedures, JD Cloud may provide relevant information about the services used by users including the running log of key components, operational records of operation and maintenance personnel, records user operation and other information.
+In accordance with existing laws and regulations or the requirements from reasons such as supervision by government supervision department, safety and compliance, audit or forensic investigation, and subject to compliance with processes and procedures, JD Cloud & AI may provide relevant information about the services used by users including the running log of key components, operational records of operation and maintenance personnel, records user operation and other information.
 
 **2.6 Service Availability**
 
@@ -56,19 +56,19 @@ JCS for Elasticsearch services provide multiple configurations and have the capa
 
 **2.8** **Fault Recovery Capability**
 
-JD Cloud provides 7×24 hours of operation maintenance for the cloud services of the paying users, and provides technical support by means of telephone fault reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc.
+JD Cloud & AI provides 7×24 hours of operation maintenance for the cloud services of the paying users, and provides technical support by means of telephone fault reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc.
 
 **2.9** **Service Metering Accuracy**
 
-JCS for Elasticsearch has an accurate and transparent metering and billing system. JD Cloud settles and deducts charges in real time according to the user’s actual usage for JCS for Elasticsearch. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud official website. The user's original billing log shall be kept for at least 1 year by default for future reference.
+JCS for Elasticsearch has an accurate and transparent metering and billing system. JD Cloud & AI settles and deducts charges in real time according to the user’s actual usage for JCS for Elasticsearch. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud & AI official website. The user's original billing log shall be kept for at least 1 year by default for future reference.
 
 **2.10** **Service Compensation Terms**
 
 2.10.1 Compensation Scope:
 
-In the event of failure of normal use of JCS for Elasticsearch services due to JD Cloud fault, or failure of normal website access due to JD Cloud fault, JD Cloud will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
+In the event of failure of normal use of JCS for Elasticsearch services due to JD Cloud & AI fault, or failure of normal website access due to JD Cloud & AI fault, JD Cloud & AI will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
 
-(1) Caused by the system maintenance that JD Cloud has notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
+(1) Caused by the system maintenance that JD Cloud & AI has notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
 
 (2) Unavailability situations such as packet loss and latency caused by operator fault;
 
@@ -84,7 +84,7 @@ In the event of failure of normal use of JCS for Elasticsearch services due to J
 
 (8) Caused by force majeure and accidents;
 
-(9) Other unavailability caused not due to JD Cloud’s account.
+(9) Other unavailability caused not due to JD Cloud & AI’s account.
 
 2.10.2 Compensation Scheme
 
@@ -106,4 +106,4 @@ The total compensation amount shall not exceed the total amount of current servi
 
 **3. Miscellaneous**
 
-JD Cloud has the right to make adjustments to partial service indicators of the Service Level Agreement according to changes at the time moment, and promptly release announcements on JD Cloud official website of [www.jdcloud.com](https://www.jdcloud.com/index), or send e-mails or written notices to notify users of the modified contents.
+JD Cloud & AI has the right to make adjustments to partial service indicators of the Service Level Agreement according to changes at the time moment, and promptly release announcements on JD Cloud & AI official website of [www.jdcloud.com](https://www.jdcloud.com/index), or send e-mails or written notices to notify users of the modified contents.

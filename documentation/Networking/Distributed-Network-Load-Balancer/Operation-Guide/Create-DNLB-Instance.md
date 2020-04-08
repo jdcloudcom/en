@@ -1,5 +1,5 @@
 # Create a distributed network load balancer instance
-Distributed Network Load Balancer Instance is a logic entity running Load Balancer Services, there isn’t any specific entity, and it is used for providing distributed, four-layer, stateless Load Balancer services. Currently Load Balancer Services are divided into public network load balancer service and private network load balancer service. A Distributed Network Load Balancer Instance that is not associated to an elastic IP can only provide the Load Balancer Service for the internal access business of the JD Cloud, that is, the private network Load Balancer Service. A Distributed Network Load Balancer Instance that is associated to an elastic IP can only provide the Load Balancer Service for the external access service of the JD Cloud, that is, the public network Load Balancer Service. You can configure the required type of Load Balancer Service based on the business scenario.
+Distributed Network Load Balancer Instance is a logic entity running Load Balancer Services, there isn’t any specific entity, and it is used for providing distributed, four-layer, stateless Load Balancer services. Currently Load Balancer Services are divided into public network load balancer service and private network load balancer service. A Distributed Network Load Balancer Instance that is not associated to an elastic IP can only provide the Load Balancer Service for the internal access business of the JD Cloud & AI, that is, the private network Load Balancer Service. A Distributed Network Load Balancer Instance that is associated to an elastic IP can only provide the Load Balancer Service for the external access service of the JD Cloud & AI, that is, the public network Load Balancer Service. You can configure the required type of Load Balancer Service based on the business scenario.
 
 ## Note
  * Before creating a distributed network load balancer instance, ensure that the distributed network load balancer instance, public IP and subnet do not meet the quota limit.
@@ -7,7 +7,7 @@ Distributed Network Load Balancer Instance is a logic entity running Load Balanc
  *  When you create a DNLB, the deletion protection feature is disabled by default. If you need to enable the deletion protection to prevent the DNLB from being deleted, please go to the DNLB details page and turn on the deletion protection switch.
 
 ## Operation Steps
- 1. Select ** Networking**>> **Network Load Balancer** at the navigation bar on the left side of the JD Cloud Console to go to the Application Load Balancer List Page.
+ 1. Select ** Networking**>> **Network Load Balancer** at the navigation bar on the left side of the Console to go to the Application Load Balancer List Page.
 
  2. Select ** Distributed Network Type** tag to go to the Distributed Network Load Balancer List page.
 

@@ -14,18 +14,20 @@ cn-south-1               | `wget -c http://devops.oss-internal.cn-south-1.jcloud
 2. Press Enter key to execute installation operation. Wait for 1 to 3 minutes until the monitoring plug-in is installed, confirm the jcmagent process with the command ps –ef | grep jcmagent and make sure the monitoring plug-in is successfully installed.  
 
 ## **Create the monitoring task**   
-3. Log in to JD Cloud Detection Console and click **Management->Cloud Detection->Availability Monitoring** to enter the availability monitoring task list page. Click **Create Task** in the upper left corner.  
-4. Complete configuration information
+1. Log in to JD Cloud & AI Detection Console and click **Management->Cloud Detection->Availability Monitoring** to enter the availability monitoring task list page. Click **Create Task** in the upper left corner.  
+
+2. Complete configuration information
 - Complete the availability monitoring task name, such as: test_22  
 - Select the detection source, and select the Virtual Machines in which the monitoring plug-in has been installed, and the plug-in is in "normal" status.  
 - Select RDS as the detection target, use the detection protocol TELNET and select the database to be detected.  
-5. Click **Confirm** to complete creation. The monitoring task will continuously detect intranet DNS address of data according to the detection source selected.  
+3. Click **Confirm** to complete creation. The monitoring task will continuously detect intranet DNS address of data according to the detection source selected.  
 
 ## **View monitoring graph**  
-6. After the above-mentioned task is successfully added, wait for 5 to 10 minutes, and click **Monitoring Graph** in the availability monitoring task list to view the response time and availability to the detection target of the task in the selected detection source.  
+After the above-mentioned task is successfully added, wait for 5 to 10 minutes, and click **Monitoring Graph** in the availability monitoring task list to view the response time and availability to the detection target of the task in the selected detection source.  
 
 ## **Set alarm**    
-7. Return to the availability monitoring task list, click **Alarm Rule** to enter the **Alarm Rule** page, and click **Add Alarm Rule** to open the set alarm rule page.  
-8. Select monitoring items, such as availability rate, statistical period (e.g. 5 minutes), statistical method (e.g. average value), calculation method (e.g. less than), threshold (e.g. 80%) and duration period (e.g. 2 cycles). Click **Next** to set the notification method, select the contact to be notified and click **Next** to finish alarm configuration.  
+1. Return to the availability monitoring task list, click **Alarm Rule** to enter the **Alarm Rule** page, and click **Add Alarm Rule** to open the set alarm rule page.  
+
+2. Select monitoring items, such as availability rate, statistical period (e.g. 5 minutes), statistical method (e.g. average value), calculation method (e.g. less than), threshold (e.g. 80%) and duration period (e.g. 2 cycles). Click **Next** to set the notification method, select the contact to be notified and click **Next** to finish alarm configuration.  
 Note: Alarm service will continuously monitor access availability rate of RDS intranet domain. Once the alarm threshold is reached, a notice will be immediately given.
 

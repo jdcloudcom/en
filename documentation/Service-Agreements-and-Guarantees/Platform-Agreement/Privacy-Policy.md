@@ -147,7 +147,7 @@ We may obtain your authorized shared account information from a third party, and
 
 5.2 Transfer
 
-5.1.1 We will not transfer your personal information with any company, organization or individual, except in the following circumstances: 
+We will not transfer your personal information with any company, organization or individual, except in the following circumstances: 
 
 1. Obtain your express consent or authorization in advance; 
 
@@ -165,7 +165,7 @@ We will only publicly disclose your personal information under the following cir
 
 **2. In accordance with requirements of laws and regulations, mandatory administrative or judicial requirements, if it is necessary to provide under such circumstance, we may publicly disclose your personal information according to the type of personal information and the manner of disclosure as required. Under the premise of compliance with laws and regulations, when we receive the above information disclosure request, we will require a corresponding legal document to be issued, such as Summon or Survey Letter. We firmly believe that any information required to be provided by us shall be maintain transparency to the maximum extent permitted by law. We will prudently review all requests to ensure they have legal basis and are limited to such data with legal rights as obtained by the law-enforcing department for specific investigation purposes. On the condition that it is permitted by laws and regulations, such files as disclosed us shall be protected by encryption key.**
 
-**6. How we protect and save your personal information**
+**VI. How we protect and save your personal information**
 
 6.1 Technologies and measures provided by us to protect your personal information  We take the security of your personal information very seriously and take every reasonable and practical measure to protect your personal information:
 
@@ -195,7 +195,7 @@ To deal with potential risks of disclosure, damage or loss of personal informati
 
 6.2.3 Where we terminate services or operations, we will inform you at least thirty days in advance and delete or anonymize your personal information after termination of services or operations.
 
-**7. How you manage your personal information**
+**VII. How you manage your personal information**
 
 JD Cloud & AI takes your concern about your personal information very seriously and makes every effort to protect your rights of access, correction, deletion and withdrawal of consent to your personal information so that you can have full capability to protect your privacy and security. Your rights include: 
 
@@ -229,7 +229,7 @@ You shall understand that since the completion of each business function require
 
 (4) To protect your privacy, we will not push promotion or commodity information related to religious faith, sex, disease and relevant sensitive materials to you by any way and means.
 
-**8. Protection of personal information of minors**
+**VIII. Protection of personal information of minors**
 
 8.1 We take the protection of personal information of minors very seriously. If you are a minor below the age of 18, you shall obtain the prior written consent from your parent or statutory guardian before using our products and/or services. We will protect personal information of minors in compliance with applicable laws and regulations of the state. 
 
@@ -316,4 +316,3 @@ You are reminded with good faith that **the cancellation of your account will br
 6. **The cancellation of the JD Cloud & AI account shall not exempt or relieve any behavior of the account and relevant responsibilities before cancellation of such account.**
 
 [JD Cloud & AI Privacy Policy-PDF Download](https://github.com/jdcloudcom/cn/blob/edit/image/Service-Agreements-and-Guarantees/Platform-Agreement/JDcloud-Privacy-Policy-x.pdf)
-

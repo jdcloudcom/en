@@ -1,6 +1,8 @@
 # Quick Access Device
 
-When a user subscribes the service for the time, the user can quickly access the device page. (You can click the **Rapid Device Connection** menu on the left menu bar later to rapidly access the device page again)
+When a user subscribes the service for the time, the user can quickly access the device page. (You can click the **Overview** menu on the left menu bar later to rapidly access the device page again)
+
+![快速接入设备路径](../../../../image/IoT/IoT-DeviceSDK/easylink05.png)
 
 ![快速接入设备首页](../../../../image/IoT/IoT-DeviceSDK/easylink0.png)
 

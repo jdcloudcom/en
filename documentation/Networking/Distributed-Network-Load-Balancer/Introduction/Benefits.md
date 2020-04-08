@@ -22,9 +22,9 @@ DNLB can completely pass through the Source IP Address of the user, which is con
 ## Flexible Switching Between Intranet and Internet Services
 Users can simply associate and disassociate the Elastic IP for DNLB to implement DNLB and support flexible switching between Intranet and Internet services.
 ## Security Guarantee
-JD Cloud provides the DDoS protection based on Public IP and the subnet level protection based on ACL to secure the business.
+JD Cloud & AI provides the DDoS protection based on Public IP and the subnet level protection based on ACL to secure the business.
 ## Simple and Easy to Use
-You can complete the creation of DNLB instances and related functional components in several minutes, quickly input them in business applications and shorten the workload wait time through JD Cloud Console and simple API calling.
+You can complete the creation of DNLB instances and related functional components in several minutes, quickly input them in business applications and shorten the workload wait time through JD Cloud & AI Console and simple API calling.
 ## Related References
 
 - [Product Overview](../Introduction/Product-Overview.md)

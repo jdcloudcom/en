@@ -5,7 +5,7 @@ An instance is the smallest unit for the computing services provided by JD Cloud
 The following is the information on the instance type family currently sold on JD Cloud & AI. The instance type families and instance types of the saleable instances in different regions are not identical, please refer to the information shown on the instance creation page. The specific Instance Type specifications can be classified according to different application scenarios:
 
 * General: General Shared Type(instance-type-family#user-content-1), General Standard Type(instance-type-family#user-content-2)
-* Compute-Optimized Standard type: Compute Optimized Standard Type(instance-type-family#user-content-3)
+* Compute-Optimized Standard type: [Compute Optimized Shared Type](instance-type-family#user-content-9), [Compute Optimized Standard Type](instance-type-family#user-content-3)
 * Memory-Optimized type: Memory Optimized Standard Type(instance-type-family#user-content-4)
 * High-frequency compute type: High-frequency compute optimization type: High-frequency calculation optimization type(instance-type-family#user-content-5)
 * Storage Optimization type: [Storage Optimization IO type](instance-type-family#user-content-7), [Storage Optimization Big Data type](instance-type-family#user-content-8),
@@ -16,11 +16,15 @@ The General currently provides General Shared and General Standard types, provid
 
 ### General Shared
 <div id="user-content-1"></div>
+General shared instances use the unassociated CPU scheduling mode. Each vCPU will be allocated to any idle hyper-threading core and vCPUs of different instances can compete for physical CPU resources. General shared instances have an advantage of high cost performance but do not provide performance SLA guarantee.
+
 
 **Specification Type Features:**
 
-* vCPU to Memory Ratio is 1:1 or 1:2
-* Processor: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
+* The ratio of vCPU to memory is 1:1, 1:2 or 1:4, providing multiple processor memory ratios.
+* Processor: 
+	* Generation II: 2.4 GHz Intel Xeon Gold 6148 (Skylake) Processor
+	* Generation I: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * The following Cloud Disk Service types are supported:
 	* General Type SSD Cloud Disk
 	* Performance Type SSD Cloud Disk
@@ -31,6 +35,19 @@ The General currently provides General Shared and General Standard types, provid
 	* Test Environment
 
 **Instance Type**
+
+Generation II
+
+Instance Type|vCPU (Core)|Memory (GB)
+:---|:---|:---
+|g.s2.micro|1|1
+|g.s2.small|1|2
+|g.s2.medium|1|4
+|g.s2.large|2|8
+|g.s2.xlarge|4|16
+|g.s2.2xlarge|8|32
+
+Generation I
 
 Instance Type|vCPU (core)|Memory (GB)
 :---|:---|:---
@@ -89,7 +106,7 @@ Instance Type|vCPU (core)|Memory (GB)|Network Interface Multi-Queue
 |g.n2.18xlarge|72|288|4
 |g.n2.metal|80|384|60
 
-**For more details on Bare Metal Virtual Machines g.n2.metal, please refer to [Overview of Bare Metal Virtual Machines](../Operation-Guide/Instance/Bare-Metal/Bare-Metal-Overview.md)
+**For more details on Bare Metal Virtual Machines g.n2.metal, please refer to [Overview of Bare Metal Virtual Machines](../Operation-Guide/Instance/Bare-Metal/Bare-Metal-Overview.md)**
 
 First generation
 
@@ -106,11 +123,34 @@ g.n1.8xlarge|32|128|4 |	 |
 The mark * indicates that the VM is not supported by this instance type, and you are not allowed to adjust the current Virtual Machines to this specification, but it does not affect the use of your existing Virtual Machines.
 
 ## Compute Optimized Type
-Compute Optimized Type currently offer Compute-Optimized Standard that provide you with high-performance computing resources that can be met. Each vCPU corresponds to a hyper-threaded core of an Intel Xeon processor.
+Currently, the compute optimized type is composed of compute optimized shared type and compute optimized standard type, in which the latter can satisfy the demand that each vCPU corresponds to one hyper-threading core of an Intel Xeon processor, providing you with high-performance computing resources.
+### Compute Optimized Shared Type
+<div id="user-content-9"></div>
+Compute optimized shared instances use the unassociated CPU scheduling mode. Each vCPU will be allocated to any idle hyper-threading core and vCPUs of different instances can compete for physical CPU resources. Compute optimized shared instances have an advantage of high cost performance but do not provide performance SLA guarantee.
 
-<div id="user-content-3"></div>
+**Characteristic of Specification and Type:**
+
+* vCPU to Memory Ratio is approximately 1:2
+* Processor: 2.4 GHz Intel Xeon Gold 6148 (Skylake) Processor
+* The following Cloud Disk Service types are supported:
+	* General SSD Cloud Disk
+	* Performance SSD Cloud Disk
+	* Capacity HDD Cloud Disk
+* Applicable Scenarios:
+	* Small-scale Machine Learning, Data Analysis
+	* Small-scale Crawler
+	* Small-scale Batch Computing
+
+**Instance Type**
+
+Instance Type|vCPU (Core)|Memory (GB)
+:---|:---|:---
+|c.s2.large|2|4
+|c.s2.xlarge|4|8
+|c.s2.2xlarge|8|16
 
 ### Compute-Optimized Standard
+<div id="user-content-3"></div>
 
 **Specification Type Features:**
 

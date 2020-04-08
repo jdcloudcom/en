@@ -1,7 +1,7 @@
 # Use site monitoring
 **Create the monitoring task**  
 
-1. Log in the Cloud Detection Console of JD Cloud and click **Management -> Cloud Detection -> Site Monitoring** to log in the monitoring task list page. Click **Create Task** in the upper left corner.  
+1. Log in the Cloud Detection Console of JD Cloud & AI and click **Management -> Cloud Detection -> Site Monitoring** to log in the monitoring task list page. Click **Create Task** in the upper left corner.  
 2. Fill in the basic information  
 - Name of monitoring task.
 - Detection protocols: Support HTTP(S), Ping, TCP, UDP, SMTP and FTP and select HTTP(S);
@@ -15,9 +15,9 @@
 
 **View the monitoring graph**  
 
-5. After the above-mentioned task is successfully added, wait for 5 to 10 minutes, and click **Monitoring Graph** in the monitoring task list to view detection points of this task, overall availability rate and response time.
+After the above-mentioned task is successfully added, wait for 5 to 10 minutes, and click **Monitoring Graph** in the monitoring task list to view detection points of this task, overall availability rate and response time.
 
 **Set monitoring alarm**  
 
-6. Return to the monitoring task list, click **Alarm Rule** to enter the **Alarm Rule** page, and click **Add Alarm Rule** to open the alarm rule setting page.  
-7. Select regions, monitoring items, statistical periods, statistic methods, calculation methods, thresholds and durations; click **Next** to set the notification method, select the contact person to be notified, and click **Next** to complete alarm configuration.
+1. Return to the monitoring task list, click **Alarm Rule** to enter the **Alarm Rule** page, and click **Add Alarm Rule** to open the alarm rule setting page.  
+2. Set rule name, for triggering conditions, select overall or city-operator for detection node, configure monitoring items, statistical cycle, statistical method, calculation method, threshold and duration, in notification policy, select contact or contact group, click **OK** to complete the alarm configuration.

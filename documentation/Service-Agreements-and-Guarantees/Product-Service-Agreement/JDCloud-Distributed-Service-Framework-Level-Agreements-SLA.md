@@ -1,6 +1,6 @@
 #### 1. **Service Scope**
 
-JD Cloud Distributed Service Framework (JDSF) is a PaaS platform serving for JD Distributed Service applications, which, around the entire life cycle of JD Distributed Service, provides full support for management, observation/monitoring, etc. of JD Distributed Service, facilitating implementation by users of JD Distributed Service applications such as Spring Cloud, Dubbo, etc. Meanwhile, service management plug-in is provided to Spring Cloud to support functions such as service authentication, route policies, service traffic limit and log configuration.
+JD Cloud & AI Distributed Service Framework (JDSF) is a PaaS platform serving for JD Distributed Service applications, which, around the entire life cycle of JD Distributed Service, provides full support for management, observation/monitoring, etc. of JD Distributed Service, facilitating implementation by users of JD Distributed Service applications such as Spring Cloud, Dubbo, etc. Meanwhile, service management plug-in is provided to Spring Cloud to support functions such as service authentication, route policies, service traffic limit and log configuration.
 
  
 
@@ -14,29 +14,29 @@ Data persistence is counted by service cycle, a service cycle is a natural month
 
 ##### 2.2. **Destructibility of Data**
 
-1) If the users actively delete the data or need to destruct the data after expiry of service term, JD Cloud will automatically clear the corresponding data in the disks and memory of the physical server, and the data cannot be recovered.
+1) If the users actively delete the data or need to destruct the data after expiry of service term, JD Cloud & AI will automatically clear the corresponding data in the disks and memory of the physical server, and the data cannot be recovered.
 
-2) Before scrapping, outsourced maintenance or resale of the device used for the cloud services, JD Cloud will adopt demagnetization operation on its physical disk.
+2) Before scrapping, outsourced maintenance or resale of the device used for the cloud services, JD Cloud & AI will adopt demagnetization operation on its physical disk.
 
 ##### 2.3. **Privacy of Data**
 
-By means of encryption and security group isolation, JD Cloud ensures that the user data in the same resource pools are invisible with each other. In which, security groups can isolate different user resources through a series of data link level and network level IAM technology. 
+By means of encryption and security group isolation, JD Cloud & AI ensures that the user data in the same resource pools are invisible with each other. In which, security groups can isolate different user resources through a series of data link level and network level IAM technology. 
 
 ##### 2.4. **Right to Know of Data** 
 
 Users have the right to know the geographical location of data center with their data and backup data, as well as the number of data backup, of which::
 
-1) At present, JD Cloud Data Centers are distributed in North China (Beijing) and East China (Shanghai) respectively. Users must select the corresponding data center according to the geographical location when they enable the cloud service, and their data will be stored in the data center specified by themselves;
+1) At present, JD Cloud & AI Data Centers are distributed in North China (Beijing) and East China (Shanghai) respectively. Users must select the corresponding data center according to the geographical location when they enable the cloud service, and their data will be stored in the data center specified by themselves;
 
-2) JD Cloud service provides automatic data backup function; the backup data are stored in the same data center as the source data by default. Users need not to designate the number and storage location for their data’s automatic backup.
+2) JD Cloud & AI service provides automatic data backup function; the backup data are stored in the same data center as the source data by default. Users need not to designate the number and storage location for their data’s automatic backup.
 
-3) JD Cloud data centers will comply with the relevant local laws and regulations; users have the right to know and they can contact customer service personnel of JD Cloud to acquire the detailed information.
+3) JD Cloud & AI data centers will comply with the relevant local laws and regulations; users have the right to know and they can contact customer service personnel of JD Cloud & AI to acquire the detailed information.
 
-4) Except for the requirements of local laws and regulations or the supervision and auditing of regulatory authorities, all user data, applications and behavior log will not be provided to the third party. Apart from being used for statistics & analysis of product operating status of JD Cloud, user behavior logs will not display user personal information data to the external.
+4) Except for the requirements of local laws and regulations or the supervision and auditing of regulatory authorities, all user data, applications and behavior log will not be provided to the third party. Apart from being used for statistics & analysis of product operating status of JD Cloud & AI, user behavior logs will not display user personal information data to the external.
 
 ##### 2.5. **Reviewability of Data**
 
-In accordance with existing laws and regulations or the requirements from reasons such as supervision by government supervision department, safety and compliance, audit or forensic investigation, and subject to compliance with processes and procedures, JD Cloud may provide relevant information about the services used by users including the running log of key components, operational records of operation and maintenance personnel, records user operation and other information.
+In accordance with existing laws and regulations or the requirements from reasons such as supervision by government supervision department, safety and compliance, audit or forensic investigation, and subject to compliance with processes and procedures, JD Cloud & AI may provide relevant information about the services used by users including the running log of key components, operational records of operation and maintenance personnel, records user operation and other information.
 
 ##### 2.6. **Service Availability**
 
@@ -56,19 +56,19 @@ Where,
 
 ##### 2.7. **Fault Recovery Capability**
 
-JD Cloud provides 7×24 hours of operation maintenance for the cloud services of the paying users, and provides technical support by means of telephone fault reporting, and has a series of fault incident response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc. 
+JD Cloud & AI provides 7×24 hours of operation maintenance for the cloud services of the paying users, and provides technical support by means of telephone fault reporting, and has a series of fault incident response mechanisms such as fault monitoring, automatic alarm, fast positioning, fast recovery, etc. 
 
 ##### 2.8. **Network Access Performance**
 
-When a user enables the JD Cloud Virtual Machines service, the user may select the public network exit bandwidth required for each Virtual Machine; the public network exit bandwidth can be configured from 1Mbps to 200Mbps. JD Cloud provides BGP multi-line access to ensure the quality of network access for users.
+When a user enables the JD Cloud & AI Virtual Machines service, the user may select the public network exit bandwidth required for each Virtual Machine; the public network exit bandwidth can be configured from 1Mbps to 200Mbps. JD Cloud & AI provides BGP multi-line access to ensure the quality of network access for users.
 
 ##### 2.9. **Service Resource Allocation Capability**
 
-JDSF provides multiple configurations and have the capacity of elastic expansion so that users can expand the container resources they use on-line according to JD Cloud configuration scheme. 
+JDSF provides multiple configurations and have the capacity of elastic expansion so that users can expand the container resources they use on-line according to JD Cloud & AI configuration scheme. 
 
 ##### 2.10. **Service Metering Accuracy** 
 
-JD Distributed Service Framework has an accurate and transparent metering and billing system. JD Cloud settles and deducts charges in real time according to the user’s actual usage of JD Distributed Service Framework. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud official website. The user's original billing log shall be kept for at least 3 years by default for future reference.
+JD Distributed Service Framework has an accurate and transparent metering and billing system. JD Cloud & AI settles and deducts charges in real time according to the user’s actual usage of JD Distributed Service Framework. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud & AI official website. The user's original billing log shall be kept for at least 3 years by default for future reference.
 
 ##### 2.11. **Migration Nature of Data**
 
@@ -78,11 +78,11 @@ JD Distributed Service Framework has an accurate and transparent metering and bi
 
 ##### 2.13.1 **Compensation Scope**
 
-In the event of failure of normal use of Virtual Machines due to JD Cloud fault, or failure of normal website access due to JD Cloud fault, JD Cloud will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
+In the event of failure of normal use of Virtual Machines due to JD Cloud & AI fault, or failure of normal website access due to JD Cloud & AI fault, JD Cloud & AI will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
 
 (1) Caused by the JDSF specification selected by the user being lower than then actual usage specification (such as the number of instances, TPS, etc.);
 
-(2) Caused by the system maintenance that JD Cloud has notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
+(2) Caused by the system maintenance that JD Cloud & AI has notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
 
 (3) Unavailability situations such as packet loss and latency caused by operator fault;
 
@@ -98,13 +98,12 @@ In the event of failure of normal use of Virtual Machines due to JD Cloud fault,
 
 (9) Caused by force majeure and accidents;
 
-(10) Other unavailability caused not due to JD Cloud’s account.
-
+(10) Other unavailability caused not due to JD Cloud & AI’s account.
  
 
 ##### 2.13.2 **Compensation Scheme**
 
-1) The fault compensation will be made in the form of coupons which cannot be converted to cash. You shall abide by the rules for the use of coupons (including the duration of use, etc., which shall be subject to the relevant rules of coupon released by the Official Website of JD Cloud website).
+1) The fault compensation will be made in the form of coupons which cannot be converted to cash. You shall abide by the rules for the use of coupons (including the duration of use, etc., which shall be subject to the relevant rules of coupon released by the Official Website of JD Cloud & AI website).
 
 2) The total amount of compensation shall not exceed **the corresponding monthly service charge you paid for this service within the corresponding substandard service month ** (The monthly service charge here excludes charges deducted by coupon, value voucher, service charge reduction and exemption, etc.)
 
@@ -120,6 +119,6 @@ Customers may apply for compensation after the fifth (5th) working day of each m
 
 #### **3. Others**
 
-JD Cloud has the right to from time to time make adjustments to partial service indicators of the Service Level Agreement according to changes and promptly release announcements on JD Cloud official website [www.jdcloud.com](https://www.jdcloud.com) or send emails or written notices to notify users of the modified contents.
+JD Cloud & AI has the right to from time to time make adjustments to partial service indicators of the Service Level Agreement according to changes and promptly release announcements on JD Cloud & AI official website [www.jdcloud.com](https://www.jdcloud.com) or send emails or written notices to notify users of the modified contents.
 
  

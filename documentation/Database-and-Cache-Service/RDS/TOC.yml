@@ -287,6 +287,8 @@
             href: Operation-Guide/Audit/SQL-Server-Audit/Dowload-Audit.md
           - name: View Audit Results
             href: Operation-Guide/Audit/SQL-Server-Audit/View-Audit-Result.md    
+        - name: PostgreSQL Audit Service
+          href: Operation-Guide/Audit/PostgreSQL-Audit-Service.md
  
       - name: Performance Statistics & Analysis
         items:
@@ -354,9 +356,15 @@
         - name: Error Logs 
           href: Operation-Guide/Log/ErrorLog.md  
       - name: Access Mode Setting
-        href: Operation-Guide/Set-Access-Mode.md     
+        href: Operation-Guide/Set-Access-Mode.md   
+        
       - name: PostgreSQL Plug-ins 
-        href: Operation-Guide/PostgreSQL-Extension.md   
+        items:
+        - name: PostgreSQL Support Extension
+          href: Operation-Guide/PostgreSQL-Extension/PostgreSQL-Extension.md         
+        - name: Use s3_fdw Plug-in to Transfer Data to OSS
+          href: Operation-Guide/PostgreSQL-Extension/S3_fdw.md
+        
             
   - name: Best Practices
     items:

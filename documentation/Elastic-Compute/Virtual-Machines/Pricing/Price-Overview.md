@@ -27,9 +27,69 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td>cn-east-1</td>    
    </tr>
    <tr>
-      <td rowspan="29">General</td>
-      <td rowspan="2">Share</td>
-      <td>g.s1.micro</td>
+      <td rowspan="35">General</td>
+      <td rowspan="8">Share</td>
+      <td>g.s2.micro</td>
+      <td>1</td>
+      <td>1</td>
+      <td>33.28</td>
+      <td>--</td>
+      <td>0.12</td>
+      <td>--</td>
+      <td></td>
+   </tr>
+    <tr>
+      <td>g.s2.small</td>
+      <td>1</td>
+      <td>2</td>
+      <td>60.5</td>
+      <td>--</td>
+      <td>0.21</td>
+      <td>--</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.s2.medium</td>
+      <td>1</td>
+      <td>4</td>
+      <td>90.75</td>
+      <td>--</td>
+      <td>0.32</td>
+      <td>--</td>
+      <td></td>
+   </tr>
+    <tr>
+      <td>g.s2.large</td>
+      <td>2</td>
+      <td>8</td>
+      <td>181.69</td>
+      <td>--</td>
+      <td>0.63</td>
+      <td>--</td>
+      <td></td>
+   </tr>
+    <tr>
+      <td>g.s2.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>363</td>
+      <td>--</td>
+      <td>1.26</td>
+      <td>--</td>
+      <td></td>
+   </tr>   
+    <tr>
+      <td>g.s2.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>726.75</td>
+      <td>--</td>
+      <td>2.52</td>
+      <td>--</td>
+      <td></td>
+   </tr>    
+    <tr>     
+     <td>g.s1.micro</td>
       <td>1</td>
       <td>1</td>
       <td>56</td>
@@ -320,8 +380,38 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td></td>
    </tr>
    <tr>
-      <td rowspan="27">Compute Optimized</td>
-      <td rowspan="27">Standard</td>
+      <td rowspan="30">Compute Optimized</td>
+      <td rowspan="3">Shared</td>
+      <td>c.s2.large</td>
+      <td>2</td>
+      <td>4</td>
+      <td>125.3</td>
+      <td>--</td>
+      <td>0.41</td>
+      <td>--</td>
+      <td></td>
+   </tr>
+    <tr>
+      <td>c.s2.xlarge</td>
+      <td>4</td>
+      <td>8</td>
+      <td>250.6</td>
+      <td>--</td>
+      <td>0.82</td>
+      <td>--</td>
+      <td></td>
+   </tr>
+    <tr>
+      <td>c.s2.2xlarge</td>
+      <td>8</td>
+      <td>16</td>
+      <td>501.2</td>
+      <td>--</td>
+      <td>1.65</td>
+      <td>--</td>
+      <td></td>
+   </tr>
+      <td rowspan="3">Standard</td>
       <td>c.n3.large</td>
       <td>2</td>
       <td>4</td>

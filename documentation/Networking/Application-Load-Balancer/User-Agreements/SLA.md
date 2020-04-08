@@ -1,12 +1,12 @@
 ## 1. Service Scope ##
 
-The load balancer provided by JD Cloud is a load balancing service that distributes traffic to multiple cloud servers. Load balancer extends the external service capability of the application system through traffic distribution, improving application system availability by eliminating single points of fault.
+The load balancer provided by JD Cloud & AI is a load balancing service that distributes traffic to multiple cloud servers. Load balancer extends the external service capability of the application system through traffic distribution, improving application system availability by eliminating single points of fault.
 
 ## 2. Service Level Indicator ##
 
 **2.1 Service Functions**
 
-Load balancer has advanced functions such as self-service management, automatic fault recovery and anti-network attacks. It is suitable for community websites, enterprise official websites, portals, E-commerce websites, SAAS applications and gaming applications. For details on all the specific functions of the load balancing service, please refer to the detailed description document, technical document and helping document provided by JD Cloud on the official website. All the functional changes of load balancer that may affect users will be announced to the users.
+Load balancer has advanced functions such as self-service management, automatic fault recovery and anti-network attacks. It is suitable for community websites, enterprise official websites, portals, E-commerce websites, SAAS applications and gaming applications. For details on all the specific functions of the load balancing service, please refer to the detailed description document, technical document and helping document provided by JD Cloud & AI on the official website. All the functional changes of load balancer that may affect users will be announced to the users.
 
 **2.2 Service Availability**
 
@@ -28,7 +28,7 @@ Calculation formula of service unavailable time: (unit: minute)
 
 Service unavailable time = (1-instance service unavailability) X service cycle day X 24 (hour) X 60 (minute)
 
-Service availability commitment to Load Balancer of JD Cloud: The service availability of a single instance service per availability zone is no less than 99.5% and the service availability of a single instance in multiple availability zones is no less than 99.95%.
+Service availability commitment to Load Balancer of JD Cloud & AI: The service availability of a single instance service per availability zone is no less than 99.5% and the service availability of a single instance in multiple availability zones is no less than 99.95%.
 
 
 **2.3 Service Resource Allocation Capability**
@@ -37,25 +37,25 @@ The Load Balancer provides elastic system expansion capability, which can be man
 
 **2.4 Fault Recovery Capability**
 
-JD Cloud provides 7×24 hours of operation maintenance for the cloud services of the paying users, provides technical support by means of on-line ticket and telephone fault reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, fast positioning and fast recovery.
+JD Cloud & AI provides 7×24 hours of operation maintenance for the cloud services of the paying users, provides technical support by means of on-line ticket and telephone fault reporting, and has a series of fault emergency response mechanisms such as fault monitoring, automatic alarm, fast positioning and fast recovery.
 
 **2.5 Network Access Performance**
 
-The public network bandwidth cap and billing method of Load Balancer purchased by the user are subject to EIP associated with the Load Balancer. JD Cloud provides self-built BGP multi-line access (including Telecom, Unicom, Mobile, etc.), ensuring users’ network access quality.
+The public network bandwidth cap and billing method of Load Balancer purchased by the user are subject to EIP associated with the Load Balancer. JD Cloud & AI provides self-built BGP multi-line access (including Telecom, Unicom, Mobile, etc.), ensuring users’ network access quality.
 
 **2.6 Service Metering Accuracy**
 
-The load balancer service has an accurate and transparent metering and billing system. JD Cloud settles and deducts charges in real time according to the user’s actual usage of the load balancer instance. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud official website. The user's original billing log shall be kept for at least 1 year by default for future reference.
+The load balancer service has an accurate and transparent metering and billing system. JD Cloud & AI settles and deducts charges in real time according to the user’s actual usage of the load balancer instance. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud & AI official website. The user's original billing log shall be kept for at least 1 year by default for future reference.
 
 **3 Service Compensation Terms**
 
 **3.1 Compensation Scope**
 
-In the event of failure of normal use of Load Balancer service purchased by users due to JD Cloud’s device faults, design defects or misoperation, JD Cloud will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
+In the event of failure of normal use of Load Balancer service purchased by users due to JD Cloud & AI’s device faults, design defects or misoperation, JD Cloud & AI will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
 
-(1) Caused by the system maintenance that JD Cloud have notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
+(1) Caused by the system maintenance that JD Cloud & AI have notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
 
-(2) Any problems caused by the network, equipment failure or configuration adjustment other than JD Cloud’s device;
+(2) Any problems caused by the network, equipment failure or configuration adjustment other than JD Cloud & AI’s device;
 
 (3) Service unavailable due to user’s configuration error (such as wrong configuration of Security Group, ACL, Certificate, etc.);
 
@@ -73,13 +73,13 @@ In the event of failure of normal use of Load Balancer service purchased by user
 
 (10) Caused by force majeure and accidents;
 
-(11) Server suspended or terminated due to breach of JD Cloud Service Agreement by customers, including but not limited to service suspension, release or others of Load Balancer instance due to arrear;
+(11) Server suspended or terminated due to breach of JD Cloud & AI Service Agreement by customers, including but not limited to service suspension, release or others of Load Balancer instance due to arrear;
 
-(12) Other unavailability caused not due to JD Cloud’s account.
+(12) Other unavailability caused not due to JD Cloud & AI’s account.
 
 **3.2 Compensation Scheme**
 
-JD Cloud will make the compensation equal to 100 times of the unavailable time per instance of Load Balancer to users, with the compensation amount = average cost per minute in 24 hours before the instance fails × service unavailable time × 100 times.
+JD Cloud & AI will make the compensation equal to 100 times of the unavailable time per instance of Load Balancer to users, with the compensation amount = average cost per minute in 24 hours before the instance fails × service unavailable time × 100 times.
 
 Description:
 
@@ -93,10 +93,10 @@ Description:
 
 **3.3 Compensation Application Deadline**
 
-(1) If the service cycle of a month fails to reach the service availability standard, you can propose a compensation application via the ticket system of your corresponding account after the fifth (5th) working day of the month following the end of corresponding failure service cycle. JD Cloud will correspondingly verify your compensation application and calculate service availability of the service cycle. If there is a dispute between the Parties, the Parties agree to finally solve such dispute subject to the background records of JD Cloud.
+(1) If the service cycle of a month fails to reach the service availability standard, you can propose a compensation application via the ticket system of your corresponding account after the fifth (5th) working day of the month following the end of corresponding failure service cycle. JD Cloud & AI will correspondingly verify your compensation application and calculate service availability of the service cycle. If there is a dispute between the Parties, the Parties agree to finally solve such dispute subject to the background records of JD Cloud & AI.
 
-(2) The compensation application proposing time shall be no later than sixty (60) natural days after the end of corresponding failure service cycle. If you failed to propose the compensation application within sixty (60) days after the end of corresponding failure service cycle or propose after sixty (60) days after corresponding failure service cycle or failed to propose the application as agreed in the Agreement, it is deemed that you have automatically given up your right of claim and other rights against JD Cloud. JD Cloud has the right to reject your compensation application and make no compensation or indemnity.
+(2) The compensation application proposing time shall be no later than sixty (60) natural days after the end of corresponding failure service cycle. If you failed to propose the compensation application within sixty (60) days after the end of corresponding failure service cycle or propose after sixty (60) days after corresponding failure service cycle or failed to propose the application as agreed in the Agreement, it is deemed that you have automatically given up your right of claim and other rights against JD Cloud & AI. JD Cloud & AI has the right to reject your compensation application and make no compensation or indemnity.
 
 **4. Miscellaneous**
 
-JD Cloud has the right to make adjustments to partial service indicators of the Service Level Agreement according to changes at the time moment, and promptly release announcements on JD Cloud official website of www.jdcloud.com, or send e-mails or written notices to notify users of the modified contents. If you disagree with any modification to the Service Level Agreement by JD Cloud, you have the right to stop using the Load Balancer service. If you continue to use the Load Balancer service, it is deemed that you have accepted the modified Service Level Agreement.
+JD Cloud & AI has the right to make adjustments to partial service indicators of the Service Level Agreement according to changes at the time moment, and promptly release announcements on JD Cloud & AI official website of www.jdcloud.com, or send e-mails or written notices to notify users of the modified contents. If you disagree with any modification to the Service Level Agreement by JD Cloud & AI, you have the right to stop using the Load Balancer service. If you continue to use the Load Balancer service, it is deemed that you have accepted the modified Service Level Agreement.

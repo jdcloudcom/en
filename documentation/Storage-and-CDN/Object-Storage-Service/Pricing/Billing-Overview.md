@@ -2,7 +2,7 @@
 
 ## Billing Item Overview
 
-Object Storage Service adopts the quantity-based pay-as-you-go billing mode, which pushes the bill on a daily basis according to the actual consumption of user and collects charge for the previous day as per the bill per day. Currently, the base charging items for JD Cloud Object Storage Service include: storage capacity, access traffic, request times, data retrieval and Cloud data processing.
+Object Storage Service adopts the quantity-based pay-as-you-go billing mode, which pushes the bill on a daily basis according to the actual consumption of user and collects charge for the previous day as per the bill per day. Currently, the base charging items for JD Cloud & AI Object Storage Service include: storage capacity, access traffic, request times, data retrieval and Cloud data processing.
 
 Storage capacity: means data usage of bucket, standard storage type files are billed according to the actual storage capacity, infrequent access storage and archival storage type files has requirements on minimum storage unit and minimum storage days;
 
@@ -10,7 +10,7 @@ Data retrieval amount: For archival storage type, the billing is based on the si
 
 Access traffic: refers to the accumulative value of network traffic consumed, including downlink traffic of Internet, downlink traffic of Intranet, uplink traffic of Internet, uplink traffic of Intranet, CDN back-to-origin downlink traffic and data synchronization traffic;
 
-Request time: request time for calling Object Storage Service API. User console actions also are implemented by calling API, so when using console to operate on Object Storage Service, number of requests will be generated as well.
+Number of Requests: Number of requests for calling JD Cloud & AI OSS API. The Console operation, data synchronization operation and life cycle management are also implemented by calling APIs, so the number of requests will be generated as well during the use;
 
 Cloud data processing: refers to the data processing fees from using cloud data processing, including the file output duration of audio and video transcoding service and number of snapshots of video snapshot service.
 
