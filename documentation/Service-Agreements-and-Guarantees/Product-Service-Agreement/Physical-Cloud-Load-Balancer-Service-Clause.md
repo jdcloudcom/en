@@ -22,7 +22,8 @@
 
 2.2.2. Pay-As-You-Go
 
-You pay as you go after use. Please view the page announcement on www.jdcloud.com for the specific deduction rules, which is subject to the current effective billing mode and standard of Pay-As-You-Go service on the page.
+2.1. The service charge will be listed and shown on your order page. You shall pay corresponding service charge according to the current effective price system on the website of [www.jdcloud.com](https://www.jdcloud.com/).
+You pay as you go after use. Please view the page announcement on main page for the specific deduction rules, which is subject to the current effective billing mode and standard of Pay-As-You-Go service on the page.
 
 2.3. You shall keep your account balance sufficient to ensure continuous use of the services; JD Cloud & AI reserves the right not to provide you with services and/or technical supports or to terminate the services and/or technical supports until you have paid off all the charges as agreed.
 

@@ -53,8 +53,10 @@ items:
           href: Operation-Guide/LogCollection/CloudResource.md
         - name: Business Application Log Collection
           href: Operation-Guide/LogCollection/CustomLog.md
-        - name: Agent Installation Tutorial
-          href: Operation-Guide/LogCollection/AgentInstall.md
+        - name: Deliver business application log to ES
+          href: Operation-Guide/LogCollection/logtoES.md
+        - name: Deliver business application log to Kafka
+          href: Operation-Guide/LogCollection/logtoKafka.md
     - name: Log Management
       items:
         - name: Log Collection Management

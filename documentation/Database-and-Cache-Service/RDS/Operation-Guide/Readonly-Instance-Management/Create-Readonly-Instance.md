@@ -17,6 +17,7 @@ JCS for MySQL/Percona/MariaDB/PostgreSQL service read-only instance is a single-
     * Availability Zone: Different regions, the number of available regions varies based on the console. Please refer to [Region and Availability Zone] for the detailed description of regions (https://www.jdcloud.com/help/detail/1844/isCatalog/1)
     * Types: It is recommended to read the read-only instance with a type not smaller than the primary instance, in terms of the selection of new read-only instance type.
     * Storage Space: Please ensure that the new read-only instance storage space not less than the main instance, otherwise it may cause data inconsistency.
+    * Read-only Proxy: Select the read-only proxy associated to the read-only instance. If you do not select, the read-only instance created will not be associated with the read-only proxy.
     * Network: The region cannot be modified, and the network is in the same region as the main instance.
     * Purchases: The number of read-only instances of the same configuration.
     

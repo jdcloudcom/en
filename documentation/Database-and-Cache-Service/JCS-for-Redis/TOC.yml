@@ -63,6 +63,8 @@
         href: Operation-Guide/Parameter-Modification.md
       - name: Slow Log Search
         href: Operation-Guide/SlowLog.md
+      - name: Cache Analysis
+        href: Operation-Guide/Cache-Analysis.md
       - name: White List Setting
         href: Operation-Guide/Whitelist.md
       - name: Monitoring Alarm
@@ -88,9 +90,9 @@
       - name: Python Connect JCS for Redis Instance
         href: Best-Practices/Python-Connect-to-Redis-Instance.md
       - name: Public Network Connect JCS for Redis Instance
-        href: Best-Practices/Public-Network-Connect-to-Redis-Instance.md
+        href: Best-Practices/Public-Network-Connect-to-Redis-Instance.md    
   - name: FAQ
-    href: FAQ/FAQ.md
+    href: FAQ/FAQ.md     
   - name: User Agreements
     items:
        - name: Document Release History

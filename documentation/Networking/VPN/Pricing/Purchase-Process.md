@@ -5,16 +5,16 @@ In order to ensure the smooth creation of VPN resources, please carefully read t
 ## Preconditions
 ### Account Preparation
 
-Before starting creating the VPN, you need to complete the registration of the JD Cloud Account, Real-name Verification and the payment preparation for the purchase of resources.
+Before starting creating the VPN, you need to complete the registration of the JD Cloud & AI Account, Real-name Verification and the payment preparation for the purchase of resources.
 
 ### Account Registration
 
-If you have already had a JD Cloud account, you can skip the step and carry out subsequent settings.
-If you have not registered a JD Cloud account, you can conduct registration at JD Cloud official website, please see [Registration of JD Cloud](https://user.jdcloud.com/register).
+If you have already had a JD Cloud & AI account, you can skip the step and carry out subsequent settings.
+If you have not registered a JD Cloud & AI account, you can conduct registration at JD Cloud & AI official website, please see [Registration of JD Cloud & AI](https://user.jdcloud.com/register).
 
 ### Account Verification
 
-Real-name Verification is a prerequisite for the purchase and use of resources in JD Cloud. You may choose personal real-name verification or enterprise real-name verification for the account. For details, please see [Real-name Verification](https://docs.jdcloud.com/en/real-name-verification/introduction).
+Real-name Verification is a prerequisite for the purchase and use of resources in JD Cloud & AI. You may choose personal real-name verification or enterprise real-name verification for the account. For details, please see [Real-name Verification](https://docs.jdcloud.com/en/real-name-verification/introduction).
 
 ### Payment Preparation
 
@@ -23,5 +23,6 @@ If you purchase a VPN billed with pay by configuration/pay by consumption, since
 If you want to know more about billing rules, you can refer to [VPN Billing Rules](Billing-Overview.md).
 
 ## Operation Steps
-1. Log in the official website of JD Cloud [https://www.jdcloud.com/](https://www.jdcloud.com/); </br>
+1. Log in the official website of JD Cloud & AI [https://www.jdcloud.com/](https://www.jdcloud.com/); <br />
+
 2. Login to the Console, refer to [Create VPN Connection](../Operation-Guide/VPN-Connection-Management/VPN-Connection-Configuration.md);

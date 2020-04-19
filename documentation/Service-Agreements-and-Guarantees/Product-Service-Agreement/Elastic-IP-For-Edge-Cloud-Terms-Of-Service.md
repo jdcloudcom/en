@@ -137,5 +137,4 @@
 **9.2. JD Cloud & AI is entitled to transfer part or all of the rights and obligations under these Service Terms to JD's associated companies by making an announcement on [www.jdcloud.com](https://www.jdcloud.com/) or giving you an on-site notice or written notice to you 30 days in advance.**
 
 9.3. If any terms, in nature or otherwise, shall continue to exist after the termination of the Agreement, they shall be deemed to be continuing terms, including but not limited to warranty, confidentiality, intellectual property right, governing law and dispute resolution.
-
  

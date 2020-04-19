@@ -3,7 +3,7 @@ Chain code in form is a Go program conforming to Hyperledger API specifications.
 
 Enter "Upload Chain Code" window via "Network Detail" interface ->"Chain Code Management" interface ->"Uploaded Chain Code" region ->**Upload** button. The example parameter of uploading chain code is shown as the Figure for Examples of Uploading Chain Code Parameter Setting. For parameter description, see the Table for Uploading Chain Code Parameter Description.
 
-![图片](../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image006.jpg)
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image006.jpg)
 
 Figure - Figure for Examples of Uploading Chain Code Parameter Setting
 

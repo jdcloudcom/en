@@ -1,6 +1,6 @@
 ## Preconditions for Using Website Threat Inspector
 
-JD Cloud’s Website Threat Inspector implements security scanning by simulating hacker intrusion (harmless attack) through the public network.
+JD Cloud & AI’s Website Threat Inspector implements security scanning by simulating hacker intrusion (harmless attack) through the public network.
 
 If you've used the Web Application Firewall (WAF) or other security protection products and services, we suggest you should add the following IP addresses and part of the ports to the white list in order to guarantee the normal functioning of the scanning.
 

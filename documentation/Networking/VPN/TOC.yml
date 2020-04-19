@@ -25,12 +25,12 @@
         href: Introduction/Restrictions.md
       - name: Application Scenarios
         items:
-          - name: Hybrid Cloud Environment Interconnection
-            href: Introduction/Application-Scenarios/Connection-Into-IDC&Office.md
-          - name: Co-construction of Hybrid Cloud by VPN as Direct Back-up
-            href: Introduction/Application-Scenarios/Connection-With-DirectConnect.md
-          - name: Multi-cloud Environment Interconnection
-            href: Introduction/Application-Scenarios/Multi-Cloud-Interconnect.md
+          - name: IDC or Offices connected with the Public Cloud
+            href: Introduction/Application-Scenarios/Connection-Into-IDC-Or-Office.md
+          - name: Backup ISP Lines taking VPN as their Direct Connection
+            href: Introduction/Application-Scenarios/Standby-For-DirectConnect.md
+          - name: Multiple Public Cloud Environment Interconnections
+            href: Introduction/Application-Scenarios/Multi-Cloud-InterConnect.md
   - name: Pricing
     items:
       - name: Billing Overview
@@ -71,6 +71,10 @@
             href: Operation-Guide/Client-Site-Configuration/Cisco-Configuration.md
           - name: Huawei Client Configuration
             href: Operation-Guide/Client-Site-Configuration/Huawei-Configuration.md
+          - name: H3C Client Configuration
+            href: Operation-Guide/Client-Site-Configuration/H3C-Configuration.md
+          - name: Juniper Client Configuration
+            href: Operation-Guide/Client-Site-Configuration/Juniper-Configuration.md
           - name: strongSwan Client Configuration
             href: Operation-Guide/Client-Site-Configuration/StrongSwan-Configuration.md
        - name: Route Management

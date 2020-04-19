@@ -11,7 +11,7 @@ Partner: Partner of JD Direct Connection Service, the partner has completed the 
 ### Product Function
 
 - Multiple access points: At least 2~3 Direct connect points are provided in each Region, which is convenient for near access and saves the cost of long-distance Direct connect. At the same time, it can be connected to a wealth of partners through JD Cloud & AI Direct Connection, providing partners with more access points and more flexible access modes.
-- Multi-port bandwidth: The Direct Connection supports 1000Base-T, 1000Base-LX, and 10GBase-LR physical ports by default. It supports RJ45 electrical ports and LC mode optical ports in Ethernet format. The single physical connection supports up to 10Gbps bandwidth. ECMP extended bandwidth caps can be reached through multiple physical connections to meet your multiple bandwidth needs.
+- Multi-port Bandwidth: The Direct Connection supports multiple physical ports such as 1000Base-T, 1000Base-LX, 10GBase-LR and 100GBase-LR4 by default. It supports RJ45 electrical ports and LC mode optical ports in Ethernet format. The single physical connection supports up to 100Gbps bandwidth. ECMP extended bandwidth caps can be reached through multiple physical connections to meet your multiple bandwidth needs.
 - Network High availability: Allows multiple physical links to be created between your IDC and JD Cloud & AI Direct connect points to realize load balance of traffic and ensure high availability of Direct Connection Service.
 - Multi-user and Multi-service Isolation: You can share the physical links that have been connected to the public cloud to other users for the full use of the physical link. At the same time, the physical link can run a variety of different business, currently supporting the Direct connect of the same account.
 - High security: The physical link is exclusive to the users who access it. Without risk of data leakage, it enjoys high security and meets the needs of customers with high security requirements such as games enterprises, financial enterprises, and government enterprises. If higher security is required, it can be guaranteed by application-level security.
@@ -34,7 +34,7 @@ Q-in-Q is used between the Operator's IXP/Partner's PE router and JD Cloud & AI 
 
 ### Private Virtual Interface
 
-A Private Virtual Interface is a logical link used to connect a border gateway to a physical connection.
+A Private Virtual Interface is a logical link used to connect the Public Cloud and the Enterprise IDC.
 
 When creating a Private Virtual Interface, you need to specify the following necessary information:
 
@@ -43,22 +43,24 @@ When creating a Private Virtual Interface, you need to specify the following nec
 - Vlan for business isolation, ranging from 2 to 4,000;
 
 
-
 #### JD Cloud & AI Direct Connect Points Coverage
 
 ![](../../../../../image/Networking/Direct-Connect-Service/Feature/IXP-Location.png)
 
 
-##### List of JD Cloud & AI Direct Connect Points (Last Updated on 01.09.2020)
+##### List of JD Cloud & AI Direct Connect Points (Last Updated on 04.01.2020)
 The list only provides the information of the Direct Connect Points of JD Cloud & AI, which is suitable for self-service application. For the information of the Direct Connect Points of the partner, please contact the specific partner.
 
 | Regionl | Access Point Name | Detailed Address | Access Supporting Operators |
 |:---:|:---:|:---:|:---:|
-| cn-north-1 | Beijing-Haidian | Building C, Advanced Technology & Materials Co., Ltd. Yongfeng Industrial Base in the Yongfeng High Technology and New Technology Industrial Base, Xibeiwang Town, Haidian District, Beijing | China Mobile, China Unicom, China Telecom and Other Operators in China |
-|  | Beijing-Yizhuang | No.32, 9th Kechuang Street, Yizhuang Economic Development Zone, Beijing           | China Mobile, China Unicom, China Telecom and Other Operators in China |
-| cn-east-2  | Shanghai-Jing’an | Building C, No.1268, Wanrong Road, Jing’an District, Shanghai | China Mobile, China Unicom, China Telecom and Other Operators in China |
-|  | Shanghai-Jing’an |  Building C, No.1268, Wanrong Road, Jing’an District, Shanghai | China Mobile, China Unicom, China Telecom and Other Operators in China |
-|  | Shanghai-Xuhui | Room 102, Building D, Leyetiandi, No.418, Tianlin Road, Xuhui District, Shanghai      | China Mobile, China Unicom, China Telecom and Other Operators in China |
-| cn-east-1  | Suqian-Suyu | West Side of the Intersection of Fazhan Avenue and Qingtong Road, Hubin New District, Suqian City, Jiangsu Province    | China Mobile, China Unicom, China Telecom and Other Operators in China |
-| cn-south-1 | Guangzhou-Huangpu1 | No.20, Guanda Road, Huangpu District Science City, Guangzhou, Guangdong Province | China Mobile, China Unicom, China Telecom and Other Operators in China |
-|  |Guangzhou-Huangpu2 | No.20, Guanda Road, Huangpu District Science City, Guangzhou, Guangdong Province | China Mobile, China Unicom, China Telecom and Other Operators in China |
+| cn-north-1 | Beijing-Haidian |Advanced Technology & Materials Co., Ltd. Yongfeng Industrial Base in the Yongfeng High Technology and New Technology Industrial Base, Xibeiwang Town, Haidian District, Beijing | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|  | Beijing-Yizhuang | 9th Kechuang Street, Yizhuang Economic Development Zone, Beijing | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|  | Beijing-Shunyi | Xiying Road, Zhaofeng Industries Base, Zhaoquanying Town, Shunyi District, Beijing | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|  | Beijing-Fengtai | Jiujingzhuang Road, Fengtai District, Beijing | China Mobile, China Unicom, China Telecom and Other Operators in China |
+| cn-east-2  | Shanghai-Jing’an | North Wenchuan Road Luojing Town, Baoshan District, Shanghai | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|  | Shanghai-Minhang | Xinyuan Road, Zhuanqiao Town, Minhang District, Shanghai | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|  | Shanghai-Jing’an | Wanrong Road, Jing’an District, Shanghai | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|  | Shanghai-Xuhui | Tianlin Road, Xuhui District, Shanghai | China Mobile, China Unicom, China Telecom and Other Operators in China |
+| cn-east-1  | Suqian-Suyu | Longquan Road, Hubin New District, Suqian City, Jiangsu Province    | China Mobile, China Unicom, China Telecom and Other Operators in China |
+| cn-south-1 | Guangzhou-Huangpu1 | Guanda Road, Huangpu District Science City, Guangzhou, Guangdong Province | China Mobile, China Unicom, China Telecom and Other Operators in China |
+|  |Guangzhou-Huangpu2 | Kefeng Road, Huangpu District Science City, Guangzhou, Guangdong Province | China Mobile, China Unicom, China Telecom and Other Operators in China |

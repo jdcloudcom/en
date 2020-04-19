@@ -2,7 +2,7 @@
 
 ### Overview
 
-VPN products are self-developed by JD Cloud on the basis of standard IPsec Protocol and Site-To-Site mode. Customers can open up intranet between their offices, data centers and other places and public cloud VPN so as to achieve exchange visits among intranets in different environments. Two negotiation stages are supported by VPN, namely, IKE and IPsec, where v1 and v2 are supported by IKE and Route-Based is supported by IPsec, and actually interconnected segments are controlled by Route Table.
+VPN products are self-developed by JD Cloud & AI on the basis of standard IPsec Protocol and Site-To-Site mode. Customers can open up intranet between their offices, data centers and other places and public cloud VPN so as to achieve exchange visits among intranets in different environments. Two negotiation stages are supported by VPN, namely, IKE and IPsec, where v1 and v2 are supported by IKE and Route-Based is supported by IPsec, and actually interconnected segments are controlled by Route Table.
 
 
 Details of logical architecture are as follows:

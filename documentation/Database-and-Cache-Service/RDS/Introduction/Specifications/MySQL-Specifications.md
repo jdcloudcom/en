@@ -82,6 +82,21 @@
 |16-core 64GB|16000|42000|2000|
 |16-core 64GB|16000|63000|3000|
 
+## SSD Cloud Disk 
+|Instance Type|Maximum Connections|
+|---|---|
+|1-core 1GB|300|
+|1-core 2GB|600|
+|1-core 4GB|1200|
+|2-core 8GB|2000|
+|4-core 16GB|4000|
+|8-core 32GB|8000|
+|16-core 64GB|16000|
+
+Bucket (GB): 100-3000; Step Length: 10GB.
+
+Calculation formula for IOPS: IOPS= min{1300 + 30 x bucket, 32000}.
+
 # MySQL Read-only instance
 ## Local Disk SSD
 |Instance Type|Maximum Connections|Maximum IOPS|Bucket (GB)|
@@ -165,3 +180,18 @@
 |16-core 64GB|16000|33600|1600|
 |16-core 64GB|16000|42000|2000|
 |16-core 64GB|16000|63000|3000|
+
+## SSD Cloud Disk 
+|Instance Type|Maximum Connections|
+|---|---|
+|1-core 1GB|300|
+|1-core 2GB|600|
+|1-core 4GB|1200|
+|2-core 8GB|2000|
+|4-core 16GB|4000|
+|8-core 32GB|8000|
+|16-core 64GB|16000|
+
+Bucket (GB): 100-3000; Step Length: 10GB.
+
+Calculation formula for IOPS: IOPS= min{1300 + 30 x bucket, 32000}.

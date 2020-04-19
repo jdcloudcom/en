@@ -16,19 +16,25 @@ Anti-DDoS Pro provides rich security reports to help you understand the protecti
 ![](../../../../image/Advanced%20Anti-DDoS/report%2002.png)
 
 ## Report Type
-Anti-DDoS Pro reports are classified into three categories: DDoS attack protection, forwarding traffic and CC defense. By default, the report on display is the one of that day. You may change it to display reports of 7 days and 30 days. You can view the reports of up to 30 days, with the minimum report size being 5 minutes. The report issue is the display of attack log.</BR>
+Reports of Anti-DDoS Pro can be divided into four categories: DDoS Attack Protection, business traffic, CC defense and connections. Reports for the current day are displayed by default, or for the last 7 or 30 days if selected. Reports within maximum 30 days can be viewed, and the minimum report granularity is 5min. Attack logs are shown below the reports.</BR>
 
 1. Report of DDoS Attack Protection</BR>
 Includes the comparison of the traffic before and after protection. Click the legend to view only the traffic before or after protection. Move the mouse to the figure to show the traffic data of that line.
 ![](../../../../image/Advanced%20Anti-DDoS/report%2003.png)
 
-2. Forwarding Traffic Report</BR>
-The traffic of back-to-origin station and forwarded from the Anti-DDoS Pro can be viewed in the forwarding traffic report.
-![](../../../../image/Advanced%20Anti-DDoS/report%2004.png)
+2. Business Traffic Reports</BR>
+The traffic comprises IN and OUT traffic. IN traffic refers to the traffic forwarded to the origin server after cleaning, and OUT traffic refers to the response traffic of the origin server.
+![](../../../../image/Advanced%20Anti-DDoS/report%2007.png)
 
 3. CC Defense Report</BR>
 Anti-DDoS Pro defends CC attack and a CC defense report will be produced. CC report supports switching between different domains.</BR>
 Because CC defense only takes effect on the Web Service, of all CC defense reports, only the Web Service forwarding rules can produce CC defense traffic.
 ![](../../../../image/Advanced%20Anti-DDoS/report%2005.png)
+
+4. Connection Count Reports</BR>
+The connection count includes concurrent connection count and new connection count.</BR>
+Concurrent connection count: It refers to the count of all created connections existing at a certain time point, including active and inactive connections. Active connections refer to all ESTABLISHED TCP connections, and inactive connections refer to all TCP connections other than ESTABLISHED TCP connections.</BR>
+New connection count: It refers to the count of connections created by the system in 1 second.</BR>
+![](../../../../image/Advanced%20Anti-DDoS/report%2008.png)
 
 

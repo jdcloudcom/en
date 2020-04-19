@@ -45,6 +45,7 @@ Click **Create Policy**, select "Policy Editor", and on the policy creation page
 
 **Note:<br>
   ① Replace "3241xxxx0385" in the template with your account ID (view account ID in [Account Basic Information](https://uc.jdcloud.com/account/basic-info)); <br> ② Replace "image-export-bucket" in the template with the name of bucket you expect to store the image file. If Buckets need authorization for access in multiple areas, you can directly add as per this format.**
+  
 ```
 {
   "Version": "3",

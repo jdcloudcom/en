@@ -122,6 +122,26 @@ The billing cycle of Object Storage Service is based on day, which settles the b
   <td>RMB 0.0220/Minute</td>
  </tr>
  <tr>
+  <td rowspan="5">Video H.265</td>
+  <td>4K (3840×2160) and below</td>
+  <td>RMB 1.20/minute</td>
+ </tr>
+ <tr>
+  <td>2K (2560×1440) and below</td>
+  <td>RMB 0.60/minute</td>
+ </tr>
+ <tr>
+  <td>FHD (1920×1080) and below</td>
+  <td>RMB 0.30/minute</td>
+ </tr>
+ <tr>
+  <td>HD (1280×720) and below</td>
+  <td>RMB 0.15/minute</td>
+ <tr>
+  <td>SD (640×480) and below</td>
+  <td>RMB 0.10/minute</td>
+ </tr>
+ <tr>
   <td colspan="3">Video Snapshot</td>
   <td>RMB 0.1/1,000 PCS</td>
  </tr>

@@ -5,9 +5,9 @@ For more content related to VPN Tunnel, refer to [VPN Tunnel Operation](../../Op
 
 ### Operation Steps
 ##### 1. Create VPN Connection
-a) Log in [JD Cloud & AI VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  </br>
-b) Select region and click **Create**;</br>
-c) Enter the name, description, border gateway, customer gateway and routing method of VPN Connection, and create a VPN Connection;</br>
+a) Log in [VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  <br />
+b) Select region and click **Create**;<br />
+c) Enter the name, description, border gateway, customer gateway and routing method of VPN Connection, and create a VPN Connection;<br />
 
 ```
 Currently, VPN Connection only supports the addresses inside and outside the Tunnel which are all the IPv4 Address Family, and the IPv6 Address Family will be supported in the future.
@@ -21,10 +21,10 @@ Currently, VPN Connection only supports the addresses inside and outside the Tun
 ![](../../../../../image/Networking/VPN/Operation-Guide/create-vpnconnection.png)
 
 ##### 2. Modify VPN Connection
-You can modify the name, description, and routing method of VPN Connection.</br>
-a) Log in [JD Cloud & AI VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  </br>
-b) Select the corresponding VPN Connection and log in the detail page of VPN Connection;</br>
-c) Modification of the name, description and routing method of VPN Connection is supported, and the restriction of each configuration item is the same as the creation of VPN Connection;</br>
+You can modify the name, description, and routing method of VPN Connection.<br />
+a) Log in [VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  <br />
+b) Select the corresponding VPN Connection and log in the detail page of VPN Connection;<br />
+c) Modification of the name, description and routing method of VPN Connection is supported, and the restriction of each configuration item is the same as the creation of VPN Connection;<br />
 ```
   When the routing method is modified from enabled BGP to, BGP sessions of all tunnels will be disconnected immediately with cautious operations only.
 
@@ -33,7 +33,7 @@ c) Modification of the name, description and routing method of VPN Connection is
 ![](../../../../../image/Networking/VPN/Operation-Guide/update-vpnconnection.png)
 
 ##### 3. Delete VPN Connection
-If you do not need VPN Connection anymore, you can delete it.</br>
-a) Log in [JD Cloud & AI VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  </br>
-b) Select the corresponding VPN Connections and click **Delete** on the operation bar. The VPN Connection without VPN Tunnel created can be deleted;</br>
+If you do not need VPN Connection anymore, you can delete it.<br />
+a) Log in [VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list);  <br />
+b) Select the corresponding VPN Connections and click **Delete** on the operation bar. The VPN Connection without VPN Tunnel created can be deleted;<br />
 ![](../../../../../image/Networking/VPN/Operation-Guide/delete-vpnconnection.png)

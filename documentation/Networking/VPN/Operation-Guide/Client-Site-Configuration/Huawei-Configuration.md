@@ -1,5 +1,5 @@
 ## Huawei Firewall Device IPsec VPN Configuration:
-After VPN Tunnel is created on [JD Cloud VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list), corresponding configuration shall be carried out on customer’s local devices for negotiation and establishment of VPN Tunnel.
+After VPN Tunnel is created on [VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list), corresponding configuration shall be carried out on customer’s local devices for negotiation and establishment of VPN Tunnel.
 
 Taking Huawei USG6530 as the example, this article tells how to configure VPN on Huawei devices, which is applicable for HUAWEI USG6500 Series Firewall. For other series devices, please make configuration by referring to the example.
 
@@ -39,7 +39,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 1. Log in command line configuration interface on firewall devices;
 
 2. Configure IKE policy
-```shell
+```
   # config dpd
   ike dpd type periodic
   ike dpd idle-time 10
@@ -57,7 +57,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 3. Configure identity verification and pre-shared key;
-```shell
+```
   # config authentication and psk
   ike peer jdcloud_ike_peer_test
     undo version 1
@@ -68,7 +68,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 4. Configure IPsec policy and tunnel;
-```shell
+```
   ipsec sha2 compatible enable
 
   # config ipsec security protocol
@@ -90,7 +90,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 5. Configure tunnel:
-```shell
+```
   # use ipsec with physical interface
   interface GigabitEthernet1/0/0
     description jdcloud_test
@@ -105,13 +105,13 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 6. Configure ACL to allow needed segment communication;
-```shell
+```
   acl number 3002
     rule 5 permit ip source 10.0.0.0 0.0.255.255 destination 192.168.0.0 0.0.0.255
 ```
 
 7. Configure routes (with static route as the example);
-```shell
+```
   ip route-static 192.168.0.0 255.255.255.0 116.xxx.xxx.10
 ```
 

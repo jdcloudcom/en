@@ -79,3 +79,20 @@ bewteen  | The left and right borders of query range are in () separated by comm
 2. Keywords can only contain English characters, numbers and '_', can only begin with characters, and cannot be reserved characters
 3. Value can only be character string and numeric
 4. For the same keyword, there can be only one "=","!=",">=",">","<","<=","between" condition. For example, A = 1 and A = 2 is a syntax error.
+
+## III. Retrieval syntax and rules of meta content in Business Application Log
+
+Business Application Log supports retrieval of tag field and uses # to identify retrieval of tag field
+
+1. Basic query example, select the tag content of {"key1":"value1"}, and also include the key-value pair {"key2":"value2"}
+
+`#key1=value1 #key2=value2`
+
+2. Search meta via tag, mix normal search, search key1=value1 and key2=value2; meanwhile, the log content contains error
+
+`#key1=value1 #key2=value2 error`
+
+3. tag search only supports accurate retrieval, with case sensitive
+
+
+

@@ -1,5 +1,5 @@
 # Use Restrictions
-#### JD Cloud’s requirements on client VPN devices
+#### JD Cloud & AI’s requirements on client VPN devices
 * The client VPN devices shall support standard IPsec Protocol, tunnel mode and ESP;
 * They shall support parameters related to negotiation in the two stages including IKE and IPsec;
 * They shall support logical interfaces used to associate the tunnel to devices based on Route-Based VPN.
@@ -16,18 +16,18 @@
 * Do not support path MTU discovery;
 
 #### Compatible with Client
-List of clients passing the test:
-  * Hardware Device:
-    - Cisco IOS 15.0(or later) software；
-    - HUAWEI USG6500 Series Firewall;
-  * Open Source VPN Solutions: strongSwan and others;
-  * VPN products from other public cloud manufacturers;
 
+###### List of clients passing the test:
+* Hardware Device:
+  - Cisco IOS 15.0(or later) software；
+  - HUAWEI USG6500 Series Firewall;
+  - H3C MSR800；
+  - Juniper SRX12.1X47-D20.7 Virtual Firewall:
+* Open Source VPN Solutions: strongSwan and others;
+* VPN products from other public cloud manufacturers;
 
-"List of clients failing the connectivity test:"
-  * Sangfor Hardware Device or Gateway Image. Because JD Cloud VPN is a IPsec based on route and Sangfor devices only support policy-based IPsec, some problems occurred during stage 2 of tunnel negotiation, causing failure to the test on connectivity. To deal with the problem, communication with colleagues in Sangfor relevant departments has been carried out and the parties will update their own software versions in a short term so as to support VPN connectivity between them.
-
-
+###### List of clients failing the connectivity test:
+* Sangfor Hardware Device or Gateway Image: As JD Cloud & AI VPN is configured with IPsec channel based on routing, while Sangfor mainstream devices only support policy-based IPsec channels. There are some problems occurred during stage 2 of tunnel negotiation, resulting in the failure of the negotiation and successful establishment of the tunnel, and therefore, the test on connectivity failed. To deal with the problem, communication with colleagues in Sangfor relevant departments has been carried out and the parties will update their own software versions in a short term so as to realize VPN connectivity between them.
 
 #### Related Resources Quota for VPN
 
@@ -35,7 +35,7 @@ List of clients passing the test:
 |:---:|:---:|:---:|:---:|
 | VPN Connection | Number of VPN Connections creatable supported by each Border Gateway in the same region | 10 | Tickets |
 | | Number of cloud public network addresses under the same VPN Connection | 2 | The number cannot be increased |
-| | Number of VPN Tunnels creatable for the same VPN Connection | Up to (number of cloud public network address connected by VPN * number of Customer Gateway’s public network address piece) VPN Tunnels can be created | The number cannot be increased   |
+| | Number of VPN Tunnels creatable for the same VPN Connection | Up to (number of cloud public network address connected by VPN * number of Customer Gateway’s public network address) piece VPN Tunnels can be created | The number cannot be increased   |
 | | Number of VPN Tunnels creatable between the same pair of cloud public network address and customer gateway public network addresses | 1 | The number cannot be increased |
 | Border Gateway | Number of Border Gateways in the same region | 5 | Tickets |
 | | Number of VPC Attachments creatable for each Border Gateway | 50 | Tickets |

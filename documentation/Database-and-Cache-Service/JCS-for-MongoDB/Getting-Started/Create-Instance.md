@@ -42,7 +42,7 @@ This article describes how to create a MongoDB instance via console.
        ![image-20200120161354197](../../../../image/mongodb/mongo-049.png)
 
        - Database version: Versions 3.2, 3.4, 3.6 and 4.0 are optional.
-       - Storage type: Local Disk SSD, Local Disk NVMe and SSD Cloud Disk are optional.
+       - Storage type: Local Disk SSD and SSD Cloud Disk are optional.
        - Specifications: The CPU and memory occupied by the instance, different specifications correspond to different maximum number of connections and IOPS (that is, the maximum value that can be achieved by reading and writing respectively, and the maximum number of mixed reading and writing can reach 2 times of the index).
        - Storage Space: The disk space occupied by the instance.
 

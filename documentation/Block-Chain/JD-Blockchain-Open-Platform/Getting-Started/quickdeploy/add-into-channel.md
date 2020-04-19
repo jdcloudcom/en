@@ -3,7 +3,7 @@ A Hyperledger network includes multiple channels, with each channel for one ledg
 
 Enter "Added into Channel" window via **Network Details** -> **Added into Channel** buttons and then add channel example parameters; if you need to set the Added into Channel parameters as shown in the figure for examples, please refer to the Table for Added into Channel Parameter Description for the parameter description.
 
-![图片](../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image004.jpg)
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image004.jpg)
 
 Figure - Figure for Examples of Added into Channel Parameter Setting
 

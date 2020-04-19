@@ -1,5 +1,5 @@
 ## strongSwan IPsec VPN Configuration:
-After VPN Tunnel is created on [JD Cloud VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list), corresponding configuration shall be carried out on customer’s local devices for negotiation and establishment of VPN Tunnel.
+After VPN Tunnel is created on [VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list), corresponding configuration shall be carried out on customer’s local devices for negotiation and establishment of VPN Tunnel.
 
 Taking strongSwan 5.3.5 as the example, this article tells how to configure strongSwan VPN on Ubuntu 16.04 x86_64 machine, which is applicable for open source software client.
 
@@ -37,13 +37,13 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 
 #### Main Configuration Steps
 1. Ubuntu installs strongSwan:
-```shell
+```
   apt-get install -y strongswan
   ipsec version
 ```
 
 2. Configure IKE and IPsec policy and edit /etc/ipsec.conf file:
-```shell
+```
   # ipsec.conf - strongSwan IPsec configuration file
   # basic configuration
   config setup
@@ -77,30 +77,30 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 3. Configure pre-shared key and edit /etc/ipsec.secrets file:
-```shell
+```
   220.xxx.xxx.150 116.xxx.xxx.10 : PSK "secret"
 ```
 
 4. Configure tunnel and use virtual tunnel interface (VTI):
-```shell
+```
   sudo ip link add jdcloud_tunnel1 type vti local 10.0.0.x remote 116.xxx.xxx.10 key 100
   sudo ip addr add 169.254.1.1/30 remote 169.254.1.2/30 dev jdcloud_tunnel1
   sudo ip link set jdcloud_tunnel1 up mtu 1450
 ```
 
 5. Configure iptables to allow needed segment communication;
-```shell
+```
   sudo iptables -t mangle -A FORWARD -o jdcloud_tunnel1 -p tcp --tcp-flags SYN,RST SYN -j TCPMSS --clamp-mss-to-pmtu
   sudo iptables -t mangle -A INPUT -p esp -s 116.xxx.xxx.10 -d 220.xxx.xxx.150 -j MARK --set-xmark 100   # If client VPN gateway is behind NAT device, intranet address of client VPN gateway shall be filled in at -d.
 ```
 
 6. Set strongSwan to use route table defaulted by system and edit /etc/strongswan.d/charon.conf file:
-```shell
+```
   install_routes=no    # Yes is defaulted, comments shall be deleted and replaced by no, preventing creation of new route tables
 ```
 
 7. Enable system IP forwarding, edit /etc/sysctl.conf file and execute "sudo sysctl -p":
-```shell
+```
   net.ipv4.ip_forward = 1
 ```
 
@@ -113,12 +113,12 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 9. Configure routes (with static route as the example);
-```shell
+```
   ip route add 192.168.0.0/16 dev jdcloud_tunnel1 metric 100
 ```
 
 10. Enable strongSwan:
-```shell
+```
   ipsec start
 ```
 

@@ -1,1 +1,5 @@
-Endpoint Security is a virtual machine security management product produced by JD Cloud. The endpoint security risks can be perceived in real time by deploying lightweight Agent on the Virtual Machines, so that the malicious attack behaviors can be effectively prevented. The operation and maintenance administrator login JD Cloud console to learn the security status of virtual machines in real time. Different levels of security enhancement and optimization are applied to the machines according to the business requirements to reduce the intrusion risks to the machines and effectively guarantee the security and continuity of Virtual Machine business. 
+# Endpoint Security Product Definition 
+
+Endpoint Security is the cloud workload protection platform provided by JD Cloud to cloud enterprises or personal tenants, helping tenants build a server security protection system via basic data collection of machine level, risk discovery, intrusion detection, diagnosis, reducing invasion, and providing Cybersecurity Classified Protection Compliance Service.
+
+

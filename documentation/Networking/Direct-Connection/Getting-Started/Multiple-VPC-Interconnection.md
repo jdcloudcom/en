@@ -1,8 +1,11 @@
 ## Multi-VPC Interconnection
 
-When less than three VPCs are required to be interconnected in the same region, try to use "VPC Peering" function support, which has low time delay and simple configuration; when there are large amounts of VPCs required to be interconnected, you can create Border Gateway APIs connected to different VPCs based on Border Gateway to simplify the deployment configuration.
+When less than three VPCs are required to be interconnected in the same region, try to use "VPC Peering", which has low time delay and simple configuration; when there are large amounts of VPCs required to be interconnected, you can create Border Gateway APIs connected to different VPCs based on Border Gateway to simplify the deployment configuration.
 
-``Before interconnecting the multiple VPCs, you shall arrange all segments in VPCs to be interconnected and try to guarantee that the segments in VPCs will not overlap. If the segment overlap is unavoidable, you need to reasonably configure the range of route transmission of VPC and Border Gateway to guarantee there has no overlap of segment in the same route table. ``
+```
+  Currently, only VPCs in the same account in the same region are supported for communication via the Border Gateway.
+  Before interconnecting the multiple VPCs, you shall arrange all segments in VPCs to be interconnected and try to guarantee that the segments in VPCs will not overlap. If the segment overlap is unavoidable, you need to reasonably configure the range of route transmission of VPC and Border Gateway to guarantee there has no overlap of segment in the same route table. 
+```
 
 
 

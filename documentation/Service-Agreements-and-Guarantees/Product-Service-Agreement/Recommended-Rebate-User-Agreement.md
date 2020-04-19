@@ -1,4 +1,4 @@
-### JD Cloud & AI Recommendation Rebate Agreement
+## <div align=center>JD Cloud & AI Recommendation Rebate Agreement</div>
 
 Welcome to take part in the JD Cloud & AI Recommendation Rebate Activity.
 

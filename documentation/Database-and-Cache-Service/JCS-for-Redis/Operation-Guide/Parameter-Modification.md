@@ -2,7 +2,7 @@
 
 Parameter modification opens nine parameters for user modification. Parameter modification operation steps are:
 
-1. Log in Redis management console and select the target instance;
+1. Log in [Redis Console](https://redis-console.jdcloud.com/redis) and select the target instance;
 
 2. Click instance name to go to the instance resource information page;
 

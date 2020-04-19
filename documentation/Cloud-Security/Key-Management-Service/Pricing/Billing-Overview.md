@@ -2,7 +2,7 @@
 
 **Billing Overview**
 
-The KMS Key Management Service is free of charge during Beta. For specific charging time and charging standard, please refer to details of announcement.
+The KMS Key Management Service is free of charge provisionally. For specific charging time and standards, please refer to details of notice or announcement.
 
 
 

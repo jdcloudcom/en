@@ -6,48 +6,46 @@ items:
     - name: Product Overview
       href: Introduction/Product-Overview.md
     - name: Features
-      href: Introduction/Features.md
+      href: Introduction/Product-Features.md
+    - name: Product Architecture
+      href: Introduction/Product-Infrastructure.md
+    - name: Application Scenarios
+      href: Introduction/Application-Scenarios.md
   - name: Pricing
     items:
     - name: Billing Overview
       href: Pricing/Billing-Overview.md
-  - name: Getting Started
-    items:
-    - name: Quick Guidance
-      href: Getting-Started/Getting-Started.md
+    - name: Purchase Process
+      href: Pricing/Purchase-Process.md
   - name: Operation Guide
     items:
     - name: Threat Overview
       href: Operation-Guide/Security-Status.md
-    - name: Security Configuration
-      href: Operation-Guide/Security-Configuration.md
-    - name: Security Vulnerability
-      href: Operation-Guide/Security-Vulnerability.md    
-    - name: Security Incidents
-      href: Operation-Guide/Security-Incidents.md
+    - name: Asset Management
+      href: Operation-Guide/Asset-Management.md
+    - name: Machine Vulnerabilities
+      href: Operation-Guide/Host-Vulnerability.md    
+    - name: Account Risks
+      href: Operation-Guide/Account-Risk.md
+    - name: Abnormal Login
+      href: Operation-Guide/Abnormal-Logon.md
+    - name: Brute Force
+      href: Operation-Guide/Brute-Force.md
+    - name: Compliance Baseline
+      href: Operation-Guide/Compliance-Baseline.md      
+    - name: Virus Webshell
+      href: Operation-Guide/Virus-Detection.md
+    - name: Webshell
+      href: Operation-Guide/Webshell-Detection.md
     - name: System Back Door
       href: Operation-Guide/Rookit-Detection.md      
-    - name: Suspicious Operation
-      href: Operation-Guide/Suspicious-Operation.md
-    - name: Compliance Baseline
-      href: Operation-Guide/Compliance-Baseline.md         
-    - name: Virus Webshell
-      href: Operation-Guide/Virus-Detection.md     
-    - name: Asset Management
-      href: Operation-Guide/Asset-Management.md   
-  - name: Best Practices
-    items:
-    - name: Latest Practice of Endpoint Security
-      href: Best-Practices/Endpoint-Security.md
-  - name: Tutorial
-    items:
-    status: 0       
+    - name: Suspicious Operations
+      href: Operation-Guide/Suspicious-Operation.md     
+    - name: Sensitive File Tampering
+      href: Operation-Guide/File-Monitoring.md     
+    - name: Security Reports
+      href: Operation-Guide/Security-Report.md    
+    - name: System Setting
+      href: Operation-Guide/System-Setting.md        
   - name: FAQ
     href: FAQ/FAQ.md
-  - name: Troubleshooting
-    href: Troubleshooting/Uninstall-Endpoint-Security.md
-  - name: API Reference
-    href: 
-    status: 0
-  - name: Document History
-    href: Related-Resources/Document-History.md

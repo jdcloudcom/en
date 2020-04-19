@@ -9,14 +9,14 @@ The following is the information on the instance type family currently sold on J
 * Memory-Optimized type: Memory Optimized Standard Type(instance-type-family#user-content-4)
 * High-frequency compute type: High-frequency compute optimization type: High-frequency calculation optimization type(instance-type-family#user-content-5)
 * Storage Optimization type: [Storage Optimization IO type](instance-type-family#user-content-7), [Storage Optimization Big Data type](instance-type-family#user-content-8),
-* GPU Type: [GPU Standard Type](instance-type-family#user-content-6)
+* GPU Type: [GPU Standard Type](instance-type-family#user-content-6), [GPU Virtualization Type](instance-type-family#user-content-10)
 
 ## General
 The General currently provides General Shared and General Standard types, providing you with balanced computing and memory resources to meet the needs of most business scenarios. Each of the vCPUs in the common standard type corresponds to an Intel Xeon processor hyper-threaded core with a vCPU to memory ratio of 1:4.
 
 ### General Shared
 <div id="user-content-1"></div>
-General shared instances use the unassociated CPU scheduling mode. Each vCPU will be allocated to any idle hyper-threading core and vCPUs of different instances can compete for physical CPU resources. General shared instances have an advantage of high cost performance but do not provide performance SLA guarantee.
+General shared instances use the unassociated CPU scheduling mode. Each vCPU will be allocated to any idle hyper-threading core and vCPUs of different instances can compete for physical CPU resources. General shared instances have an advantage of high cost performance, but their performance may undergo influences at different degree due to competition for resources.
 
 
 **Specification Type Features:**
@@ -62,7 +62,7 @@ Instance Type|vCPU (core)|Memory (GB)
 * vCPU to memory ratio is 1:4 (except for g.n1.xlarge_m specification)
 * Processor:
 	* Generation III: Intel Xeon with 2.6 GHz dominant frequency Gold 6267 (Cascade Lake) Processor  
-	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
+	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor or 2.6 GHz Intel Xeon Gold 6267 (Cascade Lake) processor  
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * The following Cloud Disk Service types are supported:
 	* General Type SSD Cloud Disk
@@ -126,7 +126,7 @@ The mark * indicates that the VM is not supported by this instance type, and you
 Currently, the compute optimized type is composed of compute optimized shared type and compute optimized standard type, in which the latter can satisfy the demand that each vCPU corresponds to one hyper-threading core of an Intel Xeon processor, providing you with high-performance computing resources.
 ### Compute Optimized Shared Type
 <div id="user-content-9"></div>
-Compute optimized shared instances use the unassociated CPU scheduling mode. Each vCPU will be allocated to any idle hyper-threading core and vCPUs of different instances can compete for physical CPU resources. Compute optimized shared instances have an advantage of high cost performance but do not provide performance SLA guarantee.
+Compute optimized shared instances use the unassociated CPU scheduling mode. Each vCPU will be allocated to any idle hyper-threading core and vCPUs of different instances can compete for physical CPU resources. Compute optimized shared instances have an advantage of high cost performance but their performance may undergo influences at different degree due to competition for resources.
 
 **Characteristic of Specification and Type:**
 
@@ -157,7 +157,7 @@ Instance Type|vCPU (Core)|Memory (GB)
 * vCPU to Memory Ratio is 1:2 (except for c.n1.xlarge_m, c.n1.2xlarge_s, c.n1.2xlarge_m and c.n1.4xlarge_m specifications)
 * Processor:
 	* Generation III: Intel Xeon with 2.6 GHz dominant frequency Gold 6267 (Cascade Lake) Processor
-	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
+	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor or 2.6 GHz Intel Xeon Gold 6267 (Cascade Lake) processor  
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * The following Cloud Disk Service types are supported:
 	* General Type SSD Cloud Disk
@@ -227,7 +227,7 @@ Memory-Optimized Standard currently offer a Memory-Optimized Standard Type for a
 * vCPU to Memory Ratio is 1:8
 * Processor:
 	* Generation III: Intel Xeon with 2.6 GHz dominant frequency Gold 6267 (Cascade Lake) Processor 
-	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor
+	* Second generation: 2.4 GHz Intel Xeon Gold 6148 (Skylake) processor or 2.6 GHz Intel Xeon Gold 6267 (Cascade Lake) processor  
 	* First generation: 2.1 GHz Intel Xeon E5-2683 v4 (Broadwell) processor
 * The following Cloud Disk Service types are supported:
 	* General Type SSD Cloud Disk
@@ -422,7 +422,7 @@ Instance Type|vCPU (core)|Memory (GB)|Local Data Disk (temporary storage, GB)|Mu
 
 ## GPU Type
 
-GPU Type currently provides GPU Standard Type, providing you with a heterogeneous computing resource with high performance. Each vCPU is corresponded to hyper-threading core of an Intel Xeon processor.
+GPU Type currently provides GPU Standard Type and GPU Virtualization Type. The specification of GPU Virtualization Type is currently under inviting test in partial availability zones in North China, and if you need to purchase, please open ticket.
 
 <div id="user-content-6"></div>
 
@@ -463,12 +463,53 @@ Instance Type|vCPU(core)|Memory(GB)|GPU|Local Data Disk (Temporary Storage, GB)|
 |p.n1v100.5xlarge|20|110|2 x Nvidia Tesla V100|2 x 5587 HDD|4
 |p.n1v100.10xlarge|40|220|4 x Nvidia Tesla V100|4 x 5587 HDD|4
 
+<div id="user-content-10"></div>
+
+### GPU Virtualization Type
+
+**Characteristics of Specification and Type:**
+
+* Heterogeneous Computing
+* GPU Type and Specification:
+	* 1* 1/6 Nvidia Tesla P40 (Video Memory 4GB)
+	* 1* 1/4 Nvidia Tesla P40 (Video Memory 6GB)
+	* 1* 1/2 Nvidia Tesla P40 (Video Memory 12GB)
+* Processor:
+	* Intel Xeon E5-2683 v4 (Broadwell) processor with 2.1 GHz dominant frequency
+	* Intel Xeon E5-2650 v4 (Broadwell) processor with 2.2 GHz dominant frequency
+	* Intel Xeon E5-2680 v4 (Broadwell) processor with 2.4 GHz dominant frequency
+* Virtualization Type:
+	* Mode C
+	* Mode Q
+* Applicable Scenarios:
+	* Scientific Computing and Machine Learning (Mode C)
+	* Graphics Rendering and Game (Mode Q) 
+
+**Instance Type**
+
+Generation I - Mode C
+
+Instance Type|vCPU (core)|Memory (GB) |GPU|Video Memory (GB) |Multi-queue Network Interface
+:---|:---|:---|:---|:---|:---|
+|p.c1p40g.large|2|8|1 x 1/6 Nvidia Tesla P40|4|2
+|p.c1p40m.large|2|14|1 x 1/4 Nvidia Tesla P40|6|2
+|p.c1p40g.xlarge|4|14|1 x 1/4 Nvidia Tesla P40|6|4
+|p.c1p40g.3large|6|28|1 x 1/2 Nvidia Tesla P40|12|4
+
+Generation I - Mode Q
+
+Instance Type|vCPU (core)|Memory (GB) |GPU|Video Memory (GB) |Multi-queue Network Interface
+:---|:---|:---|:---|:---|:---|
+|p.q1p40g.large|2|8|1 x 1/6 Nvidia Tesla P40|4|2
+|p.q1p40m.large|2|14|1 x 1/4 Nvidia Tesla P40|6|2
+|p.q1p40g.xlarge|4|14|1 x 1/4 Nvidia Tesla P40|6|4
+|p.q1p40g.3large|6|28|1 x 1/2 Nvidia Tesla P40|12|4
+
 
 Please note:
 
-* High Frequency Compute Type only can be provided in cn-north-1, cn-east-2 and cn-south-1;
-* GPU Type only can be provided in Single Availability Zone Open Beta Test in cn-north-1;
-* The First generation of general, compute optimized, and memory optimized Virtual Machines in cn-north-1 and cn-east-2 regions may also run on 2.3 GHz Intel Xeon E5-2698 v3 (Haswell) processor;
+* GPU Virtualization Type is currently under inviting test in partial availability zones in cn-north-1 and cn-east-2;
+* Generation I General Type, Compute Optimized Type and Memory Optimized Type Virtual Machines may also be run on Intel Xeon E5-2698 v3 (Haswell) processor with 2.3 GHz dominant frequency;
 * After purchasing an instance, you can modify the configuration of the instance according to the change of business scale. For details, please refer to [Resize](../Operation-Guide/Instance/Resize-Instance.md).
 
 ## Related Reference

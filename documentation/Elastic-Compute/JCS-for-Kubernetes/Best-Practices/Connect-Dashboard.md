@@ -77,20 +77,30 @@ kubectl get services -n kube-system
 ## II. dashboard Identity Authentication  
 User identity authentication is required for viewing the resource information of cluster in dashboad;  
 **Take the token of the admin service account as an example, with the specific methods of operation as follows:**  
-1. View all secrets in kube-system namespace:  
+1. Create a new token (steps optional) 
+
+`
+kubectl create serviceaccount admin-user -n kube-system   
+`
+    
+`
+kubectl create clusterrolebinding admin-user --serviceaccount=kube-system:admin-user --clusterrole=cluster-admin   
+` 
+  
+2. View all secrets in kube-system namespace:  
 `
 kubectl get secret -n kube-system
 `  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/admintoken列表.png)  
-2. Check the secret details of the admin service account. The cluster is admin-user-token-b6djq, and the b6djq part should be replaced according to its own cluster:  
+3. Check the secret details of the admin service account. The cluster is admin-user-token-b6djq, and the b6djq part should be replaced according to its own cluster:  
 `
 kubectl describe secret admin-user-token-b6djq -n kube-system
 `  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/查看admintoken.png)  
-3. Copy the corresponding token information in the Data entry into the dashboard window token input box, and click OK;  
+4. Copy the corresponding token information in the Data entry into the dashboard window token input box, and click OK;  
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/JCS-for-Kubernetes/输入令牌.png)   
 
-4. You can also add token information to the config file user item, and then you can choose Kubeconfig for identity authentication.  
+You can also add token information to the config file user item, and then you can choose Kubeconfig for identity authentication.  
 
 
   [1]: https://docs.jdcloud.com/en/jcs-for-kubernetes/connect-to-cluster

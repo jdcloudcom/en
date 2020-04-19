@@ -104,7 +104,18 @@
           herf: Operation-Guide/Readonly-Instance-Management/Create-Readonly-Instance.md
         - name: Reboot Read-only Instance
           herf: Operation-Guide/Readonly-Instance-Management/Restart-Readonly-Instance.md
-  
+
+      - name: Manage read-write separation proxy
+        items:
+        - name: Create read-write separation proxy
+          herf: Operation-Guide/ReadWriteProxy/Create-ReadWriteProxy.md
+        - name: Delete read-write separation proxy
+          herf: Operation-Guide/ReadWriteProxy/Delete-ReadWriteProxy.md
+        - name: Reset read-write separation proxy
+          herf: Operation-Guide/ReadWriteProxy/Reset-ReadWriteProxy.md
+        - name: Read-write separation proxy Internet access
+          herf: Operation-Guide/ReadWriteProxy/Internet-Access.md
+
       - name: Account Management
         items:
           - name: Create Account

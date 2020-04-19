@@ -1,5 +1,5 @@
 ## VPC Attachment Firewall Device IPsec VPN Configuration:
-After VPN Tunnel is created on [JD Cloud VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list), corresponding configuration shall be carried out on customer’s local devices for negotiation and establishment of VPN Tunnel.
+After VPN Tunnel is created on [VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list), corresponding configuration shall be carried out on customer’s local devices for negotiation and establishment of VPN Tunnel.
 
 Taking Cisco C3900 as the example, this article tells how to configure VPN on Cisco devices, which is applicable for Cisco IOS 15.0+ software. For devices of other versions, please make configuration by referring to this example.
 
@@ -39,7 +39,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 1. Log in command line configuration interface on firewall devices;
 
 2. Configure IKE policy
-```shell
+```
   ! config ike algorithm
   crypto ikev2 proposal proposal_jdcloud
     encryption aes-cbc-128
@@ -55,7 +55,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 3. Configure identity verification and pre-shared key;
-```shell
+```
   ! config authentication and psk
   crypto ikev2 profile ike_profile_jdcloud
     match identity remote address 116.xxx.xxx.10 255.255.255.255
@@ -68,7 +68,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 4. Configure IPsec policy:
-```shell
+```
   ! config ipsec security protocol
   crypto ipsec transform-set transform-jdcloud esp-aes esp-sha256-hmac
     mode tunnel
@@ -83,7 +83,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 5. Configure tunnel:
-```shell
+```
   ! config logic interface
   interface Tunnel1
     ip address 169.254.1.1 255.255.255.252
@@ -105,12 +105,12 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 6. Configure ACL to allow needed segment communication;
-```shell
+```
   access-list 100 permit ip 10.0.0.0 0.0.255.255 192.168.0.0 0.0.0.255
 ```
 
 7. Configure routes (with static route as the example);
-```shell
+```
   ip route 192.168.0.0 255.255.255.0 116.xxx.xxx.10
 ```
 

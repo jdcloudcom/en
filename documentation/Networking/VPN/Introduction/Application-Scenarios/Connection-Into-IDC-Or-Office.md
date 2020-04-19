@@ -1,6 +1,6 @@
-## Hybrid Cloud Environment Interconnection
+## Enterprise IDC or Offices connected with the Public Cloud
 
-Scenario: Customers hope to deploy partial resources (e.g. application and database) on cloud and partial core resources in enterprise IDC, and they can connect Intranet environment between JD Cloud and enterprise IDC/office by virtue of IPsec VPN Connection.
+Scenario: Customers hope to deploy partial resources (e.g. application and database) on cloud and partial core resources in enterprise IDC, and they can connect Intranet environment between JD Cloud & AI and enterprise IDC/office by virtue of IPsec VPN Connection.
 
 ```
   Intranet segments in multiple interconnected networking environments shall not conflict with each other and at least one static public IP shall be configured on VPN Gateway in local data center.

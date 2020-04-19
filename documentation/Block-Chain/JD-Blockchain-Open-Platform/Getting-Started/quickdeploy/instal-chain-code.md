@@ -3,7 +3,7 @@ You can access the chain code to operate the ledger through Peer endorsement ser
 
 Enter "Install" window via "Network Detail" interface ->"Chain Code Management" interface ->"Uploaded Chain Code" region ->**Install** button. The example parameter of installing chain code is shown as the Figure for Examples of Installing Chain Code Parameter Setting. For parameter description, see the Table for Installing Chain Code Parameter Description.
 
-![图片](../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image008.jpg)
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image008.jpg)
 
 Figure - Figure for Examples of Installing Chain Code Parameter Setting
 

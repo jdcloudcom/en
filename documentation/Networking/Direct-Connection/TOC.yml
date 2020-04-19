@@ -44,9 +44,9 @@
   - name: Getting Started
     items:
        - name: Direct Connect in the Same Region
-         href: Getting-Started/Connect-To-The-Same-Account-Or-Region-Direct-Connetct.md
+         href: Getting-Started/Connection-Into-On-Premise.md
        - name: Hosted Connect in the Same Region
-         href: Getting-Started/Connect-To-The-Same-Account-Or-Region-Hosted-Connetct.md
+         href: Getting-Started/Connect-To-HostedZone.md
        - name: Multiple VPCs’ interconnection in the same region
          href: Getting-Started/Multiple-VPC-Interconnection.md
   - name: Operation Guide

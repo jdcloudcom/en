@@ -202,8 +202,11 @@ JD Cloud & AI provide instances with the following monitoring indicators which c
 <div id="user-content-1"></div>
 
 ## Monitoring Plug-in Installation Description
+
 The collection and report of VM Monitoring data rely on 'MonitorPlugin' Plug-in in the public image system component 'JCS-Agent'. The public image which was upgraded from May to July 2019 has installed by default the upgrade tool 'ifrit' to implement the automatic upgrade of JCS-Agent.<br>
+
 If your current instance didn't install JCS-Agent or installed a lower version that has no automatic upgrade ability, you can directly install ifrit provided that you can ensure the early-stage system components cloud-init and QGA were uninstalled. Within 10 minutes after the installation, JCS-Agent will be automatically installed / updated to the latest version.<br>
+
 * For the uninstallation method of cloud-init and QGA and the installation method of Ifrit, refer to: [Public Image System Component-JCS-Agent](https://docs.jdcloud.com/en/virtual-machines/default-agent-in-public-image#user-content-1)
 * JCS-Agent Version View Method:
   * Linux：

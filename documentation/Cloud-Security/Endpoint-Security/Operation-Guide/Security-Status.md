@@ -1,14 +1,19 @@
-# View Overview
+# Threat Overview
 
-Login JD Cloud official website [https://www.jdcloud.com/](https://www.jdcloud.com/), enter Console - Cloud Security - Endpoint Security to view
+#### Portal of Features
 
-![03-guide-status.png](https://github.com/jdcloudcom/cn/blob/endpion/image/Endpoint-Security/03-guide-status.png)
+Log in to the Console->[Endpoint Security]->[Threat Overview] 
 
-​        The security status of all Virtual Machines can be viewed. Click High Risk Vulnerability to view the vulnerability statistics for each host in the latest eight hours. Description and fix method or fix recommendation for each vulnerability are provided.
+![](../../../../image/Endpoint-Security/overview1.png)
 
-​	Attack Incident means to extract all attack incidents that the Virtual Machine now encounters, such as weak password, brute force and webshell, and provide warning.
 
-​	Risk host means a host without installing Endpoint Security software.
+#### Name Interpretation
 
-​        Systematic notification means to remind brute force or weak password.
+Compromised Host: Virtual Machines with virus webshell, webshell, system back door incidents
 
+Count of servers: Count of online Virtual Machines purchased by tenants on JD Cloud, excluding Virtual Machines in the disabled status
+
+
+#### Function Description
+
+Provide Endpoint Security status quantitative indexes for tenants via Virtual Machines risk discovery and invasion threat detection; provide 7/30-day development trend for security incidents, Top10 risk assets according to aggregate statistics on security incidents, and Top10 threat forms according to aggregate statistics on alarm types, machine vulnerabilities and compliance baseline

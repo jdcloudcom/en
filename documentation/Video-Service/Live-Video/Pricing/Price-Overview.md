@@ -21,7 +21,11 @@
     <td>0.75</td>
 </tr>
 </table>
-The peak bandwidth consumed is billed per day. A bandwidth is counted per 5 minutes and 288 points are counted per day in total. For each billing, the maximum bandwidth (peak bandwidth) of the user in this billing period is billed as per the daily tier. If additional storage and calculation cost is produced by using transcode, snapshot and record functions, charges will be collected as per corresponding product price.  
+
+**Description:**    
+1. The peak bandwidth consumed is billed per day. A bandwidth is counted per 5 minutes and 288 points are counted per day in total. For each billing, the maximum bandwidth (peak bandwidth) of the user in this billing period is billed as per the daily tier. If additional storage and calculation cost is produced by using transcode, snapshot and record functions, charges will be collected as per corresponding product price.  
+2. By default, only the downlink play fees shall be charged. In case of any imbalance between the uplink and the downlink (uplink pushing streaming: downlink play >1:30), fees for uplink pushing streaming shall be charged, and the uplink billing price is the same as the downlink unit price.      
+3. If your monthly consumption amount is more than RMB 100,000, you can use the monthly 95 bandwidth peak billing method provided by CDN.
 
 ## Traffic  
 <table>
@@ -34,7 +38,10 @@ The peak bandwidth consumed is billed per day. A bandwidth is counted per 5 minu
     <td>0.15</td>
 </tr>
 </table>
-Live traffic will be deducted as per actual traffic consumed per day. For video play acceleration cost, the customer can select charging method as per bandwidth or traffic.   
+
+**Description:**   
+1. Live traffic will be deducted as per actual traffic consumed per day.
+2. By default, only the downlink play fees shall be charged. In case of any imbalance between the uplink and the downlink (uplink pushing streaming: downlink play >1:30), fees for uplink pushing streaming shall be charged, and the uplink billing price is the same as the downlink unit price.        
 
 ## Live Transcode-Jingxiang Super Definition 
 <table>
@@ -96,7 +103,9 @@ Live traffic will be deducted as per actual traffic consumed per day. For video 
     <td>FREE </td>
 </tr>      
 </table>  
-Billing is based on encoding method, resolution of transcode request and duration of transcode output file, taking every day as billing period.  
+
+**Description:**    
+1. Billing is based on encoding method, resolution of transcode request and duration of transcode output file, taking every day as billing period.  
 
 ## Live Snapshot
 <table>
@@ -109,5 +118,7 @@ Billing is based on encoding method, resolution of transcode request and duratio
     <td>0.1</td>
 </tr>
 </table>  
-Charges will be collected as per snapshot number actually produced by the customer with the snapshot function and will be settled by days.   
+
+**Description:**    
+1. Charges will be collected as per snapshot number actually produced by the customer with the snapshot function and will be settled by days.   
 

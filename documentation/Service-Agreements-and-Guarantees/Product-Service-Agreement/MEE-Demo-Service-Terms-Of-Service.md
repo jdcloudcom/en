@@ -81,5 +81,4 @@ The Agreement and any other terms provided by JD for supplement, update or third
 #### **14. Restriction or Exclusion of Damages**
 
 **You make a commitment that you shall not claim compensation for any damages, including indirect losses, profit losses and special, indirect or collateral damages, from JD for using the software.**
-
  

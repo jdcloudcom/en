@@ -22,6 +22,8 @@ items:
     href: Object-Storage-Service-Clause.md
   - name: Object Storage Service Level Agreement (SLA)
     href: Object-Storage-Service-Level-Agreement-SLA.md 
+  - name: Service Terms of OSS Violation Detection
+    href: OSS-Violate-Detection-Terms-Of-Service.md  
   - name: JCS for Redis Service Agreement
     href: Caching-Redis-Service-Clause.md
   - name: JCS for Redis Service Level Agreement (SLA)
@@ -70,12 +72,20 @@ items:
     href: Flexible-Telescopic-Service-Clause.md
   - name: Live Video Service Terms
     href: Video-Live-Service-Clause.md
+  - name: VOD Service Agreement
+    href: Video-on-demand-service-protocol.md
   - name: SSL Digital Certificate Service Agreement
     href: SSL-Digital-Certificate-Service-Clause.md
   - name: Cloud Resolution Service Agreement
     href: Cloud-Parsing-Service-Clause.md
   - name: Trial TiDB Service Terms
     href: Distributed-Database-TiDB-Trial-Service-Clause.md
+  - name: Trial Service Agreement of Distributed Relational Database Service (DRDS)
+    href: Distributed-Relational-Database-DRDS-Trial-Service-Clause.md
+  - name: Service Agreement of Distributed Relational Database (DRDS)
+    href: Distributed-Relational-Database-DRDS-Service-Clause.md
+  - name: Service Level Agreement (SLA) of Distributed Relational Database (DRDS)
+    href: Distributed-Relational-Database-DRDS-Service-Level-Agreement-SLA.md
   - name: Application Security Gateway Service Agreement
     href: Application-Of-Secure-Gateway-Service-Clause.md
   - name: Application Security Gateway Service Level Agreement (SLA)
@@ -108,24 +118,24 @@ items:
     href: Elastic-IP-For-Edge-Cloud-Terms-Of-Service.md
   - name: Service Level Agreement (SLA) of Edge Cloud Public IP
     href: Elastic-IP-For-Edge-Cloud-Level-Agreement-SLA.md
+  - name: Bandwidth Service Agreement of Shared Bandwidth
+    href: Edge-Shared-Bandwidth-Terms-Of-Service.md    
   - name: Edge Network Tunnel (ENT) Service Agreement
     href: Edge-Network-Tunnel-Terms-Of-Service.md
   - name: Service Terms of Equal Edge Service (JEES)
     href: JD-Cloud-Equal-EdgeService-Terms-Of-Service.md  
   - name: Service Terms of Notification Service (JNS)
-    href: JD-Cloud-Notification-Service-Terms-Of-Service.md      
+    href: JD-Cloud-Notification-Service-Terms-Of-Service.md
+  - name: : Service Level Agreement (SLA) of Notification Service (JNS)
+    href: JD-Cloud-Notification-Service-Level-Agreement-SLA.md   
   - name: Message Queue Service Agreement
     href: Message-Queue-JCQ-Service-Terms.md
   - name: Message Queue Service Level Agreement (SLA)
     href: Message-Queuing-JCQ-Service-Level-Protocol-SLA.md
   - name: Service Terms of Message Queue Kafka
     href: Jcs-For-Kafka-Terms-Of-Service.md
-  - name: Distributed Relational Database DRDS Trial Service Agreement
-    href: Distributed-Relational-Database-DRDS-Trial-Service-Clause.md
-  - name: Distributed Relational Database DRDS Service Agreement
-    href: Distributed-Relational-Database-DRDS-Service-Clause.md
-  - name: Distributed Relational Database DRDS Service Level Agreement (SLA)
-    href: Distributed-Relational-Database-DRDS-Service-Level-Agreement-SLA.md
+  - name: Service Level Agreement (SLA) of Message Queue Kafka
+    href: jcs-for-kafka-Level-Agreement-SLA.md    
   - name: Service Terms of Anti-DDoS Protection Package
     href: DDoS-Protection-Package-Terms-Of-Service.md
   - name: Service Grade Protocol of Anti-DDoS Protection Package (SLA)
@@ -140,8 +150,6 @@ items:
     href: Cloud-Desktop-Service-Protocol.md   
   - name: Service Level Agreement (SLA) of JD WorkSpaces
     href: Cloud-Desktop-Service-Protocol-SLA.md
-  - name: VOD Agreement 
-    href: Video-on-demand-service-protocol.md
   - name: Service Terms of Queue Service
     href: Queue-Service-Terms-Of-Service.md   
   - name: Service Level Agreement (SLA) of Queue Service
@@ -196,6 +204,8 @@ items:
     href: Power-Of-Attorney.md
   - name: MINECRAFT Education Edition - Demo Edition Service Agreement
     href: MEE-Demo-Service-Terms-Of-Service.md
+  - name: Software License and Service Agreement of Minecraft: Education Edition
+    href: MEE-China-Related-Agreement.md  
   - name: Cloud Cabinet Co-location Service Terms
     href: Cloud-Cabinet-Service-Terms-Of-Service.md
   - name: Cloud Cabinet Co-location Service Level Agreement (SLA)
@@ -211,5 +221,5 @@ items:
   - name: Service Terms of Intelligent Edge Security
     href: Intelligent-Edge-Security-Terms-Of-Service.md   
   - name: Bastion Service Terms
-    href: Bastion-Terms-Of-Service.md  
+    href: Bastion-Terms-Of-Service.md
     

@@ -5,7 +5,7 @@ VPN Connection: VPN Connection is an assembly of VPN tunnels established between
 
 VPN Tunnel is an IPsec Site-To-Site encryption channel established between a cloud public network address and a client public network address, which is used to ensure secure communication among businesses in different networking environments. The establishment of VPN Tunnel includes two-stage negotiation including IKE and IPsec, supporting high-security encryption and authentication algorithm.
 
-"Maximum elevated bandwidth processing capability of each VPN Tunnel is 1.5Gbps ``
+"Maximum bandwidth processing capability of each VPN Tunnel is 1.5Gbps ``
 
 
 ### Cloud Public Network Address

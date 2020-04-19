@@ -6,7 +6,7 @@ A1: It supports full versions of JD Cloud public image, which the system will au
 
 **Q2: Is Endpoint Security free?**
 
-A2: Endpoint Security is provided by JD Cloud for the JD Cloud users freely and it needs not to be purchased separately.
+A2: The basic version of Endpoint Security is provided for free, and the enterprise version is a charged version.
 
 **Q3: Does Endpoint Security need to be deployed and installed?**
 

@@ -11,12 +11,18 @@ items:
             href: Getting-Started/Process/Addition-Filing.md
           - name: Add Website (with Main Body)
             href: Getting-Started/Process/Addition-Website.md
+          - name: New Website (without entity)
+            href: Getting-Started/Process/Addition-Website-Without-Subject.md
           - name: Change of Subject
             href: Getting-Started/Process/Subject-Change.md 
           - name: Website Change
             href: Getting-Started/Process/Change-Website.md 
           - name: Change Access
-            href: Getting-Started/Process/Change-Access.md     
+            href: Getting-Started/Process/Change-Access.md  
+          - name: New Access (with entity)
+            href: Getting-Started/Process/New-Access-Subject.md
+          - name: New Access (without entity)
+            href: Getting-Started/Process/New-Access-Without-Subject.md
       - name: Rules of Regulatory Authority
         items:
           - name: Anhui

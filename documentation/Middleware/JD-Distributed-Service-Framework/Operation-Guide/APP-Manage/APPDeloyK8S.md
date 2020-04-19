@@ -2,7 +2,16 @@
 
 By adopting the fully-hosted management node, JCS for Kubernetes provides simple, easy-to-use, high-reliable and powerful container management service to users. However, on the JD Distributed Service Framework, users can conveniently deploy Kubernetes Container application via Kubernetes deployment. How to realize Kubernetes container application deployment, deletion, application expansion and contraction, configuration of Load Balancer, etc. via JDSF Console are specified as follows.
 
- 
+The followings are covered in this chapter:
+
+- [Deploy Application](#Deploy Application)
+- [Delete Application](#Delete Application)
+- [Scaling](#Scaling)
+- [Configure Load Balancer](#Configure Load Balancer)
+- [Configure Application Log](#Configure Application Log)
+- [Configure Application Monitoring](#Configure Application Monitoring)
+
+
 
 ## Operation Scenario
 
@@ -14,9 +23,11 @@ If a JD Cloud & AI user has created JCS for Kubernetes on JD Cloud & AI, then th
 
 2. Resources required are enabled, such as: JDSF, etc.
 
-3 Information needed to be deployed have been uploaded to the image.
+3. The image required to be deployed has been uploaded to JD Cloud & AI Container Registry.
 
-4. **Note:** 
+4. If the application monitoring function is required to be used, the cluster monitoring switch in JCS for Kubernetes shall be enabled in advance.
+
+5. **Note:** 
 
 -  It requires authorization during pulling image when using the Kubernetes deployment. Therefore, please enable authorization in advance in Kubernetes. For details of authorization, please refer to [Integrated Container Registry](../../../../Elastic-Compute/JCS-for-Kubernetes/Best-Practices/Deploy-Container-Registry.md).
 
@@ -26,9 +37,9 @@ If a JD Cloud & AI user has created JCS for Kubernetes on JD Cloud & AI, then th
 
 ## Operation Steps
 
-### Deployment Application
+### <a id="Deployment Application">Deployment Application</a>
 
-### Step 1: Create a namespace and a Kubernetes cluster resource pool in JDSF
+#### Step 1: Create a namespace and a Kubernetes cluster resource pool in JDSF
 
 1. Create a namespace in JDSF. For the process, refer to: [Namespace](../Namespace.md).
 
@@ -74,7 +85,7 @@ After deployment, operation such as rollback and re-deployment can be made.
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/k8s-bsxq.png)
 
 
-###  Delete Application
+### <a id="Delete Application">Delete Application</a>
 
 1. Log in the JD Distributed Service Framework Console. Click **Application Management** on the left side navigation bar and log in the application list page.
 
@@ -83,7 +94,9 @@ After deployment, operation such as rollback and re-deployment can be made.
 3. Before deleting the data, a user needs to well complete data backup work on his/her own.
 
 
-###  Scaling
+
+
+### <a id="Scaling">Scaling</a> 
 
 For expansion in Kubernetes resource pool, you can make configuration in JD Distributed Service Framework.
 
@@ -118,8 +131,8 @@ For example, when configuration is made as shown above, the number of applicatio
 
 
 
+### <a id="Configure Load Balancer">Configure Load Balancer</a>
 
-###  Configure Load Balancer
 
 1. Log in the JD Distributed Service Framework Console. Click **Application Management** on the left side navigation bar and log in the application list page.
 
@@ -132,3 +145,73 @@ For example, when configuration is made as shown above, the number of applicatio
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/k8s-zyc-yyxq-fzjh.png)
 
 Please refer to [Nginx-ingress controller Deployment](../../../../Elastic-Compute/JCS-for-Kubernetes/Best-Practices/Ingress/Deploy-Ingress-NGINX-Controller.md)
+
+
+
+### <a id="Configure Application Log">Configure Application Log</a>
+
+The Application Log shall be configured on "Configuration and Deployment" page.
+
+1. Log in the JD Distributed Service Framework Console. Click **Application Management** on the left side navigation bar and log in to the application list page. Click **Initiate Deployment** in the operation.
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/yylb.png)
+
+2. Find configuration of "Application Log" in the advanced configuration. Enable the configuration switch and fill out log information.
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/fqbs-yyrz-yyjk.png)
+
+| Information Item	| Description	| 
+| :- | :- | 
+|  Log Set	|  Application Log will be collected through the cloud log, so please prepare log set in advance. For the creation of log set, please refer to: [Log Set Management](../../../../Management/Log-Service/Operation-Guide/LogSet/LogSetManagement.md)	| 
+|Log Path | The path is used for log collection, and please fill out the absolute path.| 
+| AK/SK | The available Access Key/Access Key Secret under the current user name is required to be filled out. For such information, please refer to: [Accesskey Management](../../../../User-Service/Account-Management/AccessKey-Management.md)|  
+
+ 
+3. After being deployed, application running information in different resource pools can be viewed in application running information in application detail.
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/fqbs-yyxq.png)
+
+4. Click **Log** in the operation to redirect to the log information page. The collected log information can be viewed through retrieval.
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/fqbs-yyrz-rzfw.png)
+
+
+### <a id="Configure Application Monitoring">Configure Application Monitoring</a>
+
+Thw Application Monitoring shall be configured on "Configuration and Deployment" page.
+
+1. Enable cluster monitoring in Kubernetes.
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/fqbs-yyjk-k8s.png)
+
+2. Log in the JD Distributed Service Framework Console. Click **Application Management** on the left side navigation bar and log in to the application list page. Click **Initiate Deployment** in the operation.
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/yylb.png)
+
+3. Find configuration of "Application Monitoring" in the advanced configuration. Enable the configuration switch and fill out the log information.
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/fqbs-yyrz-yyjk.png)
+| Information Item	| Description	| 
+| :- | :- | 
+| Collectio Port | Collection Port | 
+| Collection Path | Prometheus will carry out collection through this path and report the collected results to Monitoring. | 
+
+4. After being deployed, the application running information in different resource pools can be viewed in application running information in application detail.
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/fqbs-yyxq.png)
+
+5. Click **Monitoring** in the operation to redirect to the monitoring information page. Monitoring graph can be viewed by customizing metrics method.
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/fqbs-yyjk-zdyjk.png)
+
+For usage of Custom Metric Monitoring, please refer to: [Usage Description for Custom Metric Monitoring](../../../../Management/Monitoring/Operation-Guide/custom-monitoring/custom-monitoring-overview.md) 
+
+
+[i.e.] View Application Monitoring in Custom Metric Monitoring
+
+In the case that the statistics of monitoring metrics random number custom_metrics_random_num_gauge has been customized and the application has been successfully deployed. The method to view the metrics in "Custom Metric Monitoring" shall be:
+
+STEP1: Select **JCS for Kubernetes (System)** in "Namespace" option,
+
+STEP2: Select monitoring metric "custom_metrics_random_num_gauge"
+
+STEP3: Select aggregation method and dimension. Then you can view monitoring graph.
+
+![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/fqbs-yyjk-zdyjk-2.png)
+

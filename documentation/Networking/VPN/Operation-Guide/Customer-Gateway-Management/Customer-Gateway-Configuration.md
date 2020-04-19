@@ -4,9 +4,9 @@ Customer Gateway (CGW) is the logical representation of client device on cloud i
 
 ### Operation Steps
 ##### Step 1. Create customer gateway
-a) Log in [JD Cloud Customer Gateway Console](https://cns-console.jdcloud.com/host/customerGateway/list);  </br>
-b) Select region and click **Create**;</br>
-c) Enter name, BGP ASN, public network number, public network address, description to create customer gateway:</br>
+a) Log in [Customer Gateway Console](https://cns-console.jdcloud.com/host/customerGateway/list);  <br />
+b) Select region and click **Create**;<br />
+c) Enter name, BGP ASN, public network number, public network address, description to create customer gateway:<br />
 * BGP ASN is used to establish BGP session between VPN cloud and client under the operation of BGP Routing Protocol for EBGP running between cloud and client.
 * Customer Gateway supports configuring multiple public network addresses, but based on the consideration of business high availability, the client shall use at least two public network addresses to establish VPN tunnel with the cloud.
 
@@ -18,17 +18,17 @@ c) Enter name, BGP ASN, public network number, public network address, descripti
 ![](../../../../../image/Networking/VPN/Operation-Guide/create-cgw.png)
 
 ##### 2. Modify Customer Gateway
-You can modify the name, description, and public network address of Customer Gateway.</br>
-a) Log in [JD Cloud Customer Gateway Console](https://cns-console.jdcloud.com/host/customerGateway/list);  </br>
-b) Select corresponding Customer Gateway and log in the details of Customer Gateway;</br>
-c) Modification of the name, description and public network address of customer gateway is supported, the restriction on each configuration item is the same as the creation of Customer Gateway, and the public network address can be modified if no VPN Tunnel has been created for the Customer Gateway;</br>
+You can modify the name, description, and public network address of Customer Gateway.<br />
+a) Log in [Customer Gateway Console](https://cns-console.jdcloud.com/host/customerGateway/list);  <br />
+b) Select corresponding Customer Gateway and log in the details of Customer Gateway;<br />
+c) Modification of the name, description and public network address of customer gateway is supported, the restriction on each configuration item is the same as the creation of Customer Gateway, and the public network address can be modified if no VPN Tunnel has been created for the Customer Gateway;<br />
 ![](../../../../../image/Networking/VPN/Operation-Guide/update-cgw.png)
 
 ##### 3. Delete Customer Gateway
-If you do not need Customer Gateway anymore, you can delete it.</br>
-a) Log in [JD Cloud Customer Gateway Console](https://cns-console.jdcloud.com/host/customerGateway/list);  </br>
-b) Select corresponding Customer Gateway and click **Delete** on the operation bar. The Customer Gateway without creation of VPN Connection can be deleted;</br>
+If you do not need Customer Gateway anymore, you can delete it.<br />
+a) Log in [Customer Gateway Console](https://cns-console.jdcloud.com/host/customerGateway/list);  <br />
+b) Select corresponding Customer Gateway and click **Delete** on the operation bar. The Customer Gateway without creation of VPN Connection can be deleted;<br />
 ![](../../../../../image/Networking/VPN/Operation-Guide/delete-cgw.png)
 
 
-For more contents, refer to [VPN Connection Configuration](../Operation-Guide/VPN-Connection-Management/VPN-Connection-Configuration.md).
+For more contents, refer to [VPN Connection Configuration](../../Operation-Guide/VPN-Connection-Management/VPN-Connection-Configuration.md).

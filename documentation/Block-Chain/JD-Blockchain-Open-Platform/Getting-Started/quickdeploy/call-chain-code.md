@@ -94,23 +94,23 @@ Table - Table for Hyperledger Connection Parameters
 
 Table - Table for Hyperledger Connection Parameter Sources
 
-![图片](../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image010.jpg)
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image010.jpg)
 
 Figure - Figure for Examples of Hyperledger Network List
  
-![图片](../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image012.jpg)
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image012.jpg)
 
 Figure - Figure for Examples of Hyperledger Consensus Information
 
-![图片](../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image014.jpg)
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image014.jpg)
  
 Figure - Figure for Examples of Hyperledger Channel Information
 
-![图片](../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image016.jpg)
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image016.jpg)
  
 Figure - Figure for Examples of Downloading MSP Certificate
 
-![图片](../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image017.png)
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image017.png)
  
 Figure - Figure for Examples of MSP Certificate Download Contents
 
@@ -125,7 +125,7 @@ It is necessary to prepare the development environment as below when using Java 
 ## API Description
 The main API-class relationship related to chain code calling in Java Fabric SDK is shown in the following figure.
  
-![图片](../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image019.png) 
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image019.png) 
 
 HFClient provides client environment. Objects communicating with Hyperledger are initiated through this class of instances. It should be noted that parameter initialization has a relationship of dependencies in HFClient. See example code for specific details.
 

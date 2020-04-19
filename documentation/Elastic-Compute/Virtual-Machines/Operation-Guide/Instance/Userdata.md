@@ -12,6 +12,7 @@ Instance customized data means that when an instance is created, the user can pa
 ## Format Requirement
 The instance customized data needs to be imported after the Base64 encoding, and the data before encoding cannot exceed 16 KB (not greater than 21848 Byte after encoding). If the instance is created through the Console, the data may not be encoded by Base64; select the corresponding tooltip and the system will complete the encoding. If it is created through the API, you must complete the encoding yourself.<br>
 Instance customized data currently supports multiple script types. Linux system supports bash and python. Before encoding, you must use `#!/bin/bash` and `#!/usr/bin/env python` as the first line of the content; Windows system supports Bat and PowerShell, before the encoding you must use `<cmd>`, `</cmd>` and `<powershell>`, `</powershell>` as the first and last line of the content. The following are examples of declarations for different types of scripts:
+
 ```
 #!/bin/bash 
 echo 'launch-1a' >> /root/text1.txt
@@ -28,11 +29,13 @@ f1.writelines([str(tempstr)])
 f1.close()
 ```
 
+
 ```
 <cmd>
 echo %random%>cmd-text1.txt
 </cmd>
 ```
+
 ```
 <powershell>
 "hello" | Out-File text1.txt -Encoding utf8

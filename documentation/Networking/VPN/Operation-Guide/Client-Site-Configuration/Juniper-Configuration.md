@@ -1,5 +1,5 @@
 ## Juniper Firewall Device IPsec VPN Configuration
-After VPN Tunnel is created on [JD Cloud VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list), corresponding configuration shall be carried out on customer’s local devices for negotiation and establishment of VPN Tunnel.
+After VPN Tunnel is created on [VPN Connection Console](https://cns-console.jdcloud.com/host/vpnConnection/list), corresponding configuration shall be carried out on customer’s local devices for negotiation and establishment of VPN Tunnel.
 
 Taking Juniper SRX12.1X47-D20.7 virtual firewall as the example, this article specifies how to configure VPN on Juniper devices, which is applicable for SRX software of Juniper 12.1X47. For devices of other versions, please refer this example for configuration.
 ```
@@ -42,13 +42,13 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 1. Log in command line configuration interface on firewall devices;
 
 2. Basic information of configuration network, security domain and address book:
-```shell
+```
   set security zones security-zone trust address-book address addr_10_0_0_0_16 10.0.0.0/16
   set security zones security-zone untrust address-book address addr_192_168_0_0_24 192.168.0.0/24
 ```
 
 2. Configure IKE policy
-```shell
+```
   set security ike proposal jdcloud-ike-proposal-test authentication-method pre-shared-keys
   set security ike proposal jdcloud-ike-proposal-test authentication-algorithm sha1
   set security ike proposal jdcloud-ike-proposal-test encryption-algorithm aes-128-cbc
@@ -61,7 +61,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 3. Configure gateway, outflow API and protocol version:
-```shell
+```
   set security ike gateway jdcloud-ikegw-test ike-policy jdcloud-ike-policy-test
   set security ike gateway jdcloud-ikegw-test external-interface ge-0/0/0.0
   set security ike gateway jdcloud-ikegw-test address 116.xxx.xxx.10
@@ -70,7 +70,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 4. Configure IPsec policy:
-```shell
+```
   set security ipsec proposal jdcloud-ipsec-proposal-test protocol esp
   set security ipsec proposal jdcloud-ipsec-proposal-test authentication-algorithm hmac-sha1-96
   set security ipsec proposal jdcloud-ipsec-proposal-test encryption-algorithm aes-128-cbc
@@ -87,12 +87,12 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 5. Configure tunnel
-```shell
+```
   set interfaces st0.1 family inet address 169.254.1.1/30
   set interfaces st0.1 family inet mtu 1436
   set security zones security-zone trust interfaces st0.1
 
-  #Configure inbound IKE traffic
+  # Configure inbound IKE traffic
   set security zones security-zone untrust host-inbound-traffic system-services ike
 
   # Configure inbound routing protocol
@@ -100,7 +100,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 6. Configure ACL to allow needed segment communication;
-```shell
+```
   # Configure Outbound Policy
   set security policies from-zone trust to-zone untrust policy jdcloud-security-policy-outbound match source-address addr_10_0_0_0_16
   set security policies from-zone trust to-zone untrust policy jdcloud-security-policy-outbound match destination-address addr_192_168_0_0_24
@@ -115,7 +115,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 ```
 
 7. Configure routes (with static route as the example);
-```shell
+```
   ip route 192.168.0.0 255.255.255.0 116.xxx.xxx.10
   set routing-options static route 192.168.0.0/24 qualified-next-hop 10.10.10.1
 ```

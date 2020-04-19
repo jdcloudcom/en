@@ -13,7 +13,7 @@ Physical Connection will be charged by different access method. For physical ISP
 | Billing Item | Description |
 |:---:| --- |
 | Optical Fiber Placing Fee | You shall pay the optical fiber placing fee to the operator for the optical fiber from the user’s enterprise IDC to the Direct Connect point provided by JD Cloud & AI, or go to [JD Cloud Marketplace](https://market.jdcloud.com/) and pay the same to the partner which has finish pre-connection of Direct Connect with JD Cloud & AI |
-| In-building Cable Rental Cost | Generally, Direct Connect point not owned by JD Cloud & AI belongs to neutral IDC Data Center. There may be the optical fiber in-building cost or in-building cable rental cost, determined by your supplier according to actual labor hour |
+| In-building Cable Rental Cost | Except that Suqian Access Data Center built by JD Cloud itself charges no in-building cable rental cost, other access date centers are neutral data centers rented by third parties. There may be the optical fiber in-building cost or in-building cable rental cost, which shall be determined by your supplier according to actual labor hour |
 
 JD Cloud & AI’s charging item for exclusive port method is as follows:
 
@@ -36,8 +36,7 @@ The Private Virtual Interface is free of charge.
 For Hosted Connect, JD Public Cloud will select the cooperation operators for you to access the Public Cloud via the exclusive port.
 
 ##### Hosted Connection
-
-JD Cloud & AI’s charging item for exclusive port method is as follows:
+JD Cloud’s charging items are as follows:
 
 | Billing Item | Description | Billing Method | Cost |
 |:---:|:---:|:---:|:---:|

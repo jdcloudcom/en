@@ -96,6 +96,8 @@ Description:
 JD Cloud & AI makes compensation by giving coupons, which is only provided to support the purchase of Distributed Cloud Physical Server, and the total amount of compensation shall not exceed the monthly service charge paid by the user of the Cloud Physical Server instance (excluding the amount of the gift balance or the deduction fee of the coupon).
 
 If the service time of the Distributed Cloud Physical Server paid by configuration is less than 24 hours, the charge shall be calculated in accordance with the average value of the actual service duration, and the fault time shall be calculated by minutes.
+
 ### 4. Miscellaneous
+
 JD Cloud & AI has the right to from time to time make adjustments to partial service indicators of the Service Level Agreement according to changes and promptly release announcements on JD Cloud & AI’s official website [www.jdcloud.com](https://www.jdcloud.com) or send emails or written notices to notify users of the modified contents. If you disagree with any modification to the Service Level Agreement by JD Cloud & AI, you have the right to stop using the Distributed Cloud Physical Server service. If you continue to use the Distributed Cloud Physical Server service, it is deemed that you have accepted the modified Service Level Agreement.
 

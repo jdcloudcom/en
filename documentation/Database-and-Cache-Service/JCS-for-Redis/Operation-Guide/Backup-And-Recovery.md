@@ -4,7 +4,7 @@
 
 Each instance provides backup once a day in seven days a week. Users may customize the backup period and time with a minimum of once a week. The steps for setting backup policy are as below:
 
-①. Log in Redis management console and select the target instance;
+①. Log in [Redis Console](https://redis-console.jdcloud.com/redis), and select a target instance;
 
 ②. Click instance name to go to the instance resource information page;
 

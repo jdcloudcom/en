@@ -5,4 +5,3 @@
 | --- | --- | 
 | Storage Capacity | RMB 0.006405/GB/Day (RMB 0.192/GB/Month) | 
 
-90% Off Promotion.

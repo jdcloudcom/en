@@ -3,7 +3,7 @@
 The Hyperledger network consists of Peer and Orderer service nodes of mutual identity recognition belonging to different organizations. The one-click deployment of Hyperledger network can be implemented through BaaS platform. You can deploy the Hyperledger network through setting the network deployment parameters and then clicking **Deploy** on the page of "One-click Deployment" of Hyperledger.
 
 Enter "One-click Deployment" page via "Block Chain.Hyperledger" menu ->"Hyperledger" interface ->**One-click Deployment** button. The example configuration of network deployment is shown as the Figure for Examples of Network Deployment Attribute Configuration. For parameter description, see the Table for Network Deployment Configuration Attribute Description:
-![图片](../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image001.png)
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/image001.png)
 Figure - Figure for Examples of Network Deployment Attribute Configuration
 
 

@@ -15,4 +15,4 @@
 
  1. Install the [JD Cloud CLI](https://docs.jdcloud.com/en/cli/introduction).
  2. Get tokens via the following commands
-    `jdc cr get-authorization-token --region-id **** --registry-name ****`
+    `jdc containerregistry get-authorization-token --region-id **** --registry-name ****`

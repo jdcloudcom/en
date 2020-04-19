@@ -41,81 +41,81 @@ Please refer to the announcement on [www.jdcloud.com](https://www.jdcloud.com) a
    a) If you set up multiple websites, you must ensure that all websites started have been licensed or approved by the relevant national authorities;
 
    b) If your website provides non-operating Internet information services, you must fill the non-operating website on the record, and ensure that all the filling information submitted is true and effective, and notify JD Cloud & AI to upgrade the relevant information.
-
+    
    c) If your website provides operating Internet information services, you shall also obtain a license for the operating website at your local communications administration;
-
+    
    d) If you provide electronic bulletin services such as BBS, you shall also file on the record or obtain corresponding approval according to relevant laws and regulations;
-
+    
    e) If you operate an Internet game website, you shall obtain an Internet culture business license according to laws;
-
+      
    f)​ If you provide electronic bulletin services such as BBS, you shall also file on the record or obtain corresponding approval according to relevant laws and regulations;
-
+    
    g) If you are engaged in Internet information services such as news, publishing, education, medical care, medicines and medical devices, the review and approval of the competent authorities shall be obtained when required by laws, administrative regulations and relevant national regulations, before applying for a business license or performing the filing procedures.
-
+    
 ​   You understand and acknowledge that the above list does not cover all types of licenses or approvals required from the relevant national authorities for your operating or non-operating activities. You shall obtain the relevant license or approval, and shall comply with the requirements of relevant laws and regulations issued by the state and local governments from time to time.
-
+    
 ​   3.1.3.2. Except for the expressive permission of JD Cloud & AI, the software provided by JD Cloud & AI shall not be modified, translated, adapted, leased, transferred, or transmitted on the information networks, and the source code of software provided by JD Cloud & AI shall not be discovered through reverse engineering, decompiling or other ways;
-
+    
 ​   3.1.3.3. If the services of JD Cloud & AI involve the license of third-party software, you agree to abide by the relevant license agreement;
-
+    
 ​   3.1.3.4. Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud & AI to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
-
+    
 ​   3.1.3.5. Do not use the resources and services provided by JD Cloud & AI to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
-
+    
    3.1.3.5.1 Political propaganda and/or news information in violation of state regulations;
-
+    
    3.1.3.5.2 Information relating to state secrets and/or security;
-
+    
    3.1.3.5.3 Information on feudal superstitions and/or obscene, pornographic or indecent information or information abetting offences;
-
+    
    3.1.3.5.4 Lottery, gambling games, "private services", "plug-in" and other illegal Internet publishing activities;
-
+    
    3.1.3.5.5 Information that violates national ethnic and religious policies;
-
+    
    3.1.3.5.6 Information that impedes the secure operation of the Internet;
-
+    
    3.1.3.5.7 Information that infringes upon the lawful rights and interests of others and/or other information or content that is detrimental to social order, social security, and public morals;
-
+    
    3.1.3.5.8 Other content that violates laws and regulations, departmental rules or national policies.
-
+    
    3.1.3.6 Do not occupy, or lead programs or processes, etc. to occupy a large amount of server memory, CPU or network bandwidth resources in the platform (hereinafter referred to as "cloud platform") composed of JD Cloud & AI computing resources (such as cloud server, network bandwidth and storage space), or bring severe and unreasonable loads to the JD Cloud & AI platform or JD Cloud & AI's other users' networks, servers (including but not limited to local and nonlocal and international networks, servers, etc.), products/applications, etc., or affect the normal and smooth communication among JD Cloud & AI and the Internet, or JD Cloud & AI and specific networks, servers, interior of JD Cloud & AI as well, or result in server's downtime, crash of products and services of JD Cloud & AI or other users, or no access to products/applications on the cloud platform for the users and other problems;
-
+    
 ​   3.1.3.7 Do not conduct any behavior or attempt to undermine the network security (including but not limited to phishing, hacking, phishing, website or space containing or suspected of spreading: viruses, Trojans and malicious codes as well as suspected behaviors of attacking other websites and servers via virtual servers, such as scanning, sniffing, ARP spoofing and DOS);
-
+    
    3.1.3.8 Do not change or attempt to change the system configuration provided by JD Cloud & AI or damage the system security;
-
+    
 ​   3.1.3.9 Do not use the services provided by JD Cloud & AI to engage in acts that damage the legitimate rights and interests of JD Cloud & AI, JD Cloud & AI's affiliates or the companies or websites within JD Group. The aforementioned acts that damage the legitimate rights and interests of JD Group and the website include but are not limited to violations against any service agreement/terms, management rules, trading rules and other regulatory contents announced by JD Group, destroying or attempting to undermine the fair trading environment or normal trading order of JD Group;
-
+    
 ​   3.1.3.10 Do not engage in other activities in violation of laws, regulations or the Service Terms of JD Cloud & AI;
-
+    
 ​   3.1.3.11 In case that JD Cloud & AI discovers you have violated the above provisions, we have the right to take corresponding measures based on the actual conditions, including but not limited to immediately terminating and suspending the service or deleting corresponding information. If a third-party organization or an individual raises a question or complaint against you, JD Cloud & AI will inform you that you are responsible for making explanations and issuing the supporting evidences within the specified time. If you fail to provide contrary evidence or provide feedback within the time limit, JD Cloud & AI will take measures including but not limited to stopping or suspending services immediately or deleting relevant information. If you do not update your contact information or the contact information is incorrect that leads to failure of contacting you, you will be deemed you fail to provide feedback within the time limit.
-
+    
 ​   3.1.4 You shall not install or use any pirated software on the JD Cloud & AI service platform, otherwise you are solely responsible for the results of your actions (such as software installation and operation by yourself).
-
+    
 ​   3.1.5 You are responsible for the integrity and confidentiality of the passwords and codes for entering and managing various products and services on the JD Cloud & AI platform. All losses and consequences caused by the loss or leakage of data, key, passwords, etc. due to your improper maintenance or improper confidentiality measures shall be borne by yourself.
-
+   
 ​   3.1.6 You shall submit to JD Cloud & AI the contacts who implement the Service Terms and the list of personnel managing products and services on the user network and cloud platform and their and contact information, and shall provide necessary assistance. If the above personnel change, you should update the information online and notify JD Cloud & AI in time. You are responsible for the untrue, inaccurate or incomplete identity information provided by you as well as the consequences caused by the matters above.
-
+    
 ​   3.1.7 You must keep the access log records of your website in accordance with the Regulations on Internet Information Service Management and other laws and regulations, including the published information content and its release time, IP, domain names, etc. When inquired by the relevant governmental organs, you shall provide relevant information in accordance with the laws. You are solely responsible for all legal liabilities arising from the failure of keeping relevant records as required.
-
+    
 ​   3.1.8 You understand that JD Cloud & AI's Live Video service is configured with security protection function, and you also understand that JD Cloud & AI cannot guarantee that the services it provides are flawless (for example, security function of JD Cloud & AI cannot guarantee the absolute security of your hardware or software), but it promises to improve the service quality and service levels continuously. Therefore, you agree even if the services provided by JD Cloud & AI have defects, the above-mentioned defects are unavoidable due to the technical level in the industry at the time, and it will not be regarded as JD Cloud & AI's default. You agree to cooperate with JD Cloud & AI to solve the above problems.
-
+    
 ​   3.1.9 You understand and acknowledge that you shall use traffic (even if you pay for traffic) within the peak bandwidth specified by JD Cloud & AI in Live Video service by traffic billing mode. If the peak bandwidth of your traffic exceeds the peak bandwidth specified by JD Cloud & AI, JD Cloud & AI reserves the right to limit your peak bandwidth or suspend the service based on its own judgment. If you agree to pay certain fees through negotiation, JD Cloud & AI may cancel the above restrictions or suspension after charging corresponding fees from you.
-
+    
 ​   3.1.10 Data backup is your obligation and responsibility. JD Cloud & AI will not back up users' data, nor assume any responsibility for user data backup work or results.
 
   3.2. Rights and Obligations of JD Cloud & AI
 
    3.2.1 JD Cloud & AI shall provide services in accordance with the Service Terms.
-
+    
    3.2.2 During the service period, JD Cloud & AI will provide you with the following customer services:
-
+    
    3.2.2.1 JD Cloud & AI provides 7×24 after-sales fault service and effective contact information for paying users as well as ensures that they can contact the fault handling personnel. The fault contacts will provide timely feedback after the fault has been identified.
-
+    
    3.2.3 JD Cloud & AI is responsible only for the operation maintenance at the bottom part of operating system and of the software provided by JD Cloud & AI, that is, the related technical architecture and operating system of the Live Video service. You will be responsible for the upper part of the operating system (such as the applications you install on your system). Besides, if you upgrade your operating system yourself, it may cause adverse effects such as downtime. Please consider the risks and operation with caution.
-
+    
    3.2.4 JD Cloud & AI will clear the faults caused by non-human factors, except for your reasons and/or force majeure as well as matters excluded in the control scope of JD Cloud & AI.
-
+    
    3.2.5 JD Cloud & AI shall strictly abide by the obligation of confidentiality.
 
 ### 4. Saving, Destruction and Download of User's Data
@@ -125,11 +125,11 @@ Please refer to the announcement on [www.jdcloud.com](https://www.jdcloud.com) a
   4.2. Your user data will be disclosed partially or entirely under the following circumstances:
 
    4.2.1 Disclosure to third parties with your consent;
-
+    
    4.2.2 Disclosure to third parties or administrative or judicial authorities in accordance with the relevant provisions of the law, or at the request of the administrative or judicial authorities;
-
+    
    4.2.3 If you have a violation of relevant Chinese laws and regulations, you shall disclose it to a third party;
-
+    
    4.2.4 In order to provide the software or services you require, your data must be shared with a third party.
 
 ### 5. Intellectual Property
@@ -197,3 +197,4 @@ Please refer to the announcement on [www.jdcloud.com](https://www.jdcloud.com) a
   11.2 JD Cloud & AI is entitled to, by announcing at [www.jdcloud.com](https://www.jdcloud.com) or notifying you through website or in writing, transfer all or part of the rights and obligations under the Service Terms to JD Cloud & AI's affiliates.
 
   11.3 If any provision, in nature or otherwise, continues to exist at the time of termination of this Agreement, it shall be deemed to be a clause that shall continue to exist, including but not limited to guarantee terms, confidentiality terms, intellectual property terms, and governing law and dispute resolution terms.
+  

@@ -30,7 +30,11 @@ Opening Requirements: To ensure your normal use, the sum of your account balance
 
 In the pay-as-you-go mode, the bill for the previous hour will be generated according to the instance type and actual usage time and charge is then cleared.
 
-**Note, billing will be continued when Virtual Machines are in stop status.**
+## No fees for stopped instances feature
+
+The operation of No Fees for Stopped Instances feature can be enabled for Cloud Disk System Disk instances with billing method of pay by configuration.
+
+No fees for stopped instances feature will release your computing resources (such as vCPU, GPU, memory and local data disk) on the premise of retaining instances, stop charging for such resources, but release of resources may cause failure to enable instances and you can try again the enabling in such situation. For short-time disabling operation due to rebuilding and resizing, you are not suggested to enable the function of No Fees for Stopped Instances feature.
 
 ### Instructions for Service Stop Due to Arrears
 * If the available balance of your account (including cash balance, available coupons) cannot settle the issued bill of the instance, the system will determine the instance in arrears and your instance billing state will become in arrears;
@@ -54,7 +58,7 @@ Attach cloud disk|Support|Support
 Expand cloud disk|Support. For details, please refer to cloud disk expansion|Support. For details, please refer to cloud disk expansion.        
 Convert billing method|Support conversion of billing by instances configuration to monthly package billing|Not Supported  
 Create all types of instances|Support|Support   
-Free use of monitoring and Load Balancer|Support|Support
+Free use of monitoring and Load Balancer|Support|Support 
 
 ## Billing Method Conversion
 * An instance billed by configuration can be changed into an instance billed under monthly package through [Renew][Renew-Process.md]
@@ -71,6 +75,7 @@ Free use of monitoring and Load Balancer|Support|Support
 
 [Delete Instance](../Operation-Guide/Instance/Stop-Instance.md)
 
+[Enable/Disable No Fees for Stopped Instances feature](../Operation-Guide/Instance/uncharged_for_stopped_vm.md)
 
 
 

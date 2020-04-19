@@ -1,14 +1,15 @@
-# Website Threat Scan System 
+# What's Website Threat Inspector
 
-Integrating four core functions, i.e. automatic asset association discovery, Web vulnerability scan, port vulnerability scan and weak password detection, it can discover the network security risk of websites or servers, provide multi-dimensional security detection service to cloud business, meet compliance requirements and detect every website security vulnerability.
+## Definition
 
-## Benefits
+Website Threat Inspector is a threat scan application product launched by JD Cloud & AI to cope with vulnerability risk exposed in various assets in enterprise digital transformation and other security problems.
 
-In-depth vulnerability scan: Support: OWASP Top10 vulnerability detection types, PoC plug-in detection and asset fingerprint scan correlation capacity  
+The product can scan and detect threats of various assets for users, with four core functions integrated, i.e. **automatic asset association discovery, Web vulnerability scan, port vulnerability scan and weak password detection**, and three business scenarios covered, i.e. **cloud user VPC intranet asset**, **provision of Internet service IP/domain asset** and **user IDC Data Center intranet asset**, in addition to two billing modes, **pay-per-use** and **monthly package**. It can discover the network security risk in websites in a more extensive manner, provide multidimensional threat detection service for cloud business, meet compliance requirements and detect all security vulnerabilities in an all-round, diversified and stereoscopic way to protect your asset security.
 
-Detailed report: Provide detailed vulnerability scan reports, covering: Existing Web security vulnerability in system, application system security vulnerability, existing weak password of system, etc., and their fix recommendations, and guide and help users to fix up vulnerabilities  
+## Working Principle
 
-Efficient and accurate: The web2.0 intelligent crawling technology is adopted and the internal verification mechanism is being continuously optimized for increasing detection accuracy  
+Website Threat Inspector applies advanced web2.0 inspired crawling technology for overall and deep page crawl, uses vulnerability detection plug-in capable of penetration test to simulate scenarios of user browsing to deeply analysis every browsing details, which can help comprehensively find the potential hidden safety hazards in your assets.
 
-Distributed scan architecture: Based on the cloud original distributed scan architecture, the modules in the system can be decoupled as far as possible by full use of the technical benefits of the cloud platform, reducing the degree of dependence between them, and making the whole system highly stable and expandable.
+It has hundreds of self-developed vulnerability scan plug-ins that build in many nondestructive scan rules, and has an ability to dynamically adjust scan policy, allowing flexible adjustment to scan policy according to the diversified customer scenarios in terms of scan speed, scan depth and scan priority, which can effectively prevent user's asset businesses from being affecting during the scan.
 
+Further, the product has built in multiple asset verification rules to ensure high-precision detection results, and provides detailed vulnerability reports and solutions that can help you effectively understand, verify, track and repair vulnerabilities so as to minimize the risk of exposing relevant business assets in vulnerability.

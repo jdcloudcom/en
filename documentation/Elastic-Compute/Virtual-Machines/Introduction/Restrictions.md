@@ -9,10 +9,12 @@
 * External hardware devices (such as U disk, external hard disk, bank U shield, etc.) connection are not supported for now.
 * NAT Instance only supports Centos 7.2 system currently.
 * If the system disk is the local disk, intergenerational deployment is not allowed, e.g., adjustment from Generation I Instance Type to Generation II Instance Type is not allowed. For details, please refer to [Adjustment Configuration](http://docs.jdcloud.com/en/virtual-machines/resize-instance).
+* Bare Metal Instance Type Machine does not support adjustment of deployment, namely, it does not support the adjustment from other types to Bare Metal Type or from Bare Metal Type to other types.
 * The Generation I Virtual Machines and the Bare Metal Virtual Machines do not support encrypting cloud disk.
 * Generation I Virtual Machines (except GPU type) do not support Availability Group.
 * The Generation III Virtual Machines and storage optimization big data types s.d2 and s.d1 do not support using the local disk as a system disk.
 * The Generation III Virtual Machines do not support Windows Server 2008 image.
+* GPU Virtualization Type of Mode C only supports Linux operating system.
 * For Windows Server system instances, it supports 64-core vCPU to the maximum. And it is recommended to purchase a minimum configuration of 1Core 2GB to ensure efficient operation of the business.
 * Single instance with a single private IP can only be associated to one elastic IP.
 * The multicast protocol is not supported at this time. It is recommended to use the unicast peer-to-peer method instead.

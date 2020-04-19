@@ -2,8 +2,10 @@
 
 For price, refer to the following table, with specific price subject to the charge made by the Console.
 
+"VPN Connection outbound traffic fee will be formally charged from March 20, 2020. "
+
 ## VPN Connection Pay by Consumption:
-| Region | VPN Connection Occupancy Expenses (RMB/Hour) | Outflow Traffic Fee (RMB/GB) |
+| Region | VPN Connection Occupancy Expenses (RMB/Hour) | Outbound Traffic Fee (RMB/GB) |
 |:---:| ---:| ---:|
 | cn-east-2 | 0.1 | 0.8 |
 | cn-south-1 | 0.1 | 0.8 |

@@ -10,6 +10,8 @@ JCS for MySQL service instance automatic backup will have a default trigger time
 2. Select the instance that requires automatic backup strategy setting, click the name of the target instance, and enter the instance detailed page.
 3. Select the tag of ***Backup Management*** and click ***Backup Strategy*** to enter the details page of the instance backup strategy, click ***Modify Strategy***. Then a backup strategy modification box will be popped up, and the parameters are as follows:
     * Automatic backup time: Select the time period of automatic backup, and the system will automatically start the backup operation at any time in this time period. Since the backup time increases as the amount of data in the instance increases, there is no guarantee that the backup operation can be completed within a specified period of time.
+    * Duration that Binlog can be kept locally: Enter a duration that you want to keep binlog locally, which supports a period of 24-168 hours. The Binlog exceeding the specific duration will be automatically cleaned;
+    * Upper limit of Binlog local space occupancy: Enter an upper limit of binlog local space occupancy, which supports a range of 1-50. After being set, the space percent locally occupied by binlog will not exceed the specified value;
     * Click ***OK*** to complete the modification of backup strategy.
     * Click ***Cancel*** to cancel the modification of backup strategy.
 

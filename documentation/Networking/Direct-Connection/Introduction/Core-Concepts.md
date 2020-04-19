@@ -3,10 +3,11 @@
 | Terminology | Definition |
 |:---:|:---:|
 | BGW | Border Gateway, traffic endpoint of business within VPC for the external access|
-| DLR | Dedicated Line Router, three-layer route device required for Direct Connection Service and used for physical link connection |
+| DLR | For the Dedicated Line Router, a three-layer route device required by Direct Connection Service is used to run the routing protocol with clients. |
 | VNET | Virtual Network, Virtual Network |
 |Circuit | Logical description of the physical link between the IP provider, customer and JD Cloud & AI |
 | IXP | Internet Exchange Point, Internet Exchange Point |
+| CXP | Cloud Exchange Point |
 | BGP | Border Gateway Protocol, Border Gateway Protocol |
 | Partner | Partner of JD Cloud & AI Direct Connection Service that provide Direct Connection Service for JD Cloud & AI customers |
 | S-tag | A vlan tag used to uniquely identify a customer's data stream on the physical port when QinQ is configured, QinQ's service VLAn tag |
@@ -14,7 +15,7 @@
 
  ## Dynamic Route Design Description
 
-As a route gateway among multiple isolation networks (VPCs) of JD Cloud & AI or connected to user IDC from JD Cloud & AI, the Border Gateway provides static and BGP dynamic route capabilities, and supports the two-way transmission capability of route between VPC and Border Gateway and the dynamically announcing route capability via eBGP of Border Gateway and Gateway inside IDC to simplify the deployment of user business, so as to complete end-to-end route automatic update from VPC to IDC.
+As a route gateway among multiple isolation networks (VPCs) of JD Cloud & AI or connected to user IDC from JD Cloud & AI, the Border Gateway provides static and BGP dynamic route capabilities, and supports the two-way transmission capability of route between VPC and Border Gateway and the dynamically announcing route capability via EBGP of Border Gateway and Gateway inside IDC to simplify the deployment of user business, so as to complete end-to-end route automatic update from VPC to IDC.
 
 ### Route Transmission
 
@@ -27,21 +28,21 @@ Border Gateway->Route Transmission on the Direction of VPC: When the VPC route t
 VPC->Route Transmission on the Direction of Border Gateway: When creating VPC Attachment based on BGW, if "VPC All Segment" or "Specify Subnet Segment is selected in transmission of VPC segment, which is the routing automatic transmission method. The Border Gateway route table will automatically add or delete route table items that reach the relevant subnet based on the configured subnet scope, the route prefix is the subnet segment, and the Next Hop is the VPC Attachment connecting the specified VPC and the Border Gateway.
 
 - The Border Gateway connects to user IDC gateway through the route learned via BGP protocol and the route type is also defined as transmission route in Border Gateway route table. Including:
-Route learned by Border Gateway from user IDC gateway via eBGP hosted by Private Virtual Interface;
-Route learned by Border Gateway from user IDC gateway via eBGP hosted by Hosted Private Virtual Interface;
-Route learned by Border Gateway from user IDC gateway via eBGP hosted by VPN Channel.
+Route learned by Border Gateway from user IDC gateway via EBGP hosted by Private Virtual Interface;
+Route learned by Border Gateway from JD Cloud Cabinet Service gateway via EBGP hosted by Hosted Private Virtual Interface;
+Route learned by Border Gateway from user IDC gateway via EBGP hosted by VPN Channel.
 
 - Valid route of Border Gateway announced by Border Gateway to user IDC gateway via BGP protocol. Including:
 
-Valid route announced by Border Gateway to the connected user IDC gateway via eBGP hosted by Private Virtual Interface;
-Valid route announced by Border Gateway to the connected user IDC gateway via eBGP hosted by Hosted Private Virtual Interface;
-Valid route announced by Border Gateway to the connected user IDC gateway via eBGP hosted by VPN Channel.
+Valid route announced by Border Gateway to the connected user IDC gateway via EBGP hosted by Private Virtual Interface;
+Valid route announced by Border Gateway to the connected JD Cloud Cabinet Service gateway via EBGP hosted by Hosted Private Virtual Interface;
+Valid route announced by Border Gateway to the connected user IDC gateway via EBGP hosted by VPN Channel.
 
 ### Route Priority
 
 #### VPC Route Table Priority
 
-VPC route table supports two route types: Transmission (dynamic)) route and static route.
+VPC Route Table supports two types of route: Transmission route and static route.
 
 JD Cloud & AI VPC route table priority range is 1~256, the smaller the value, the higher the route priority. The static route priority of JD Cloud & AI VPC route table is 100 by default and the transmission route priority is 120 by default.
 
@@ -55,7 +56,7 @@ JD Cloud & AI VPC route table priority range is 1~256, the smaller the value, th
 
 #### Border Gateway Route Table Priority
 
-Border Gateway route table supports two routing methods: Transmission (dynamic)) route and static route.
+Border Gateway Route Table supports two types of route: Transmission route (including the route learned by BGP) and static route.
 
 The valid route table of Border Gateway will select the valid routes according to type of next hop of route, route type, route Metric and other different levels:
 * Step 1: Select the route of the highest type of next hop priority. If the unique route entry can be confirmed, return to this route. At present, the VPC Attachment priority value is 100, the Private Virtual Interface/Hosted Private Virtual Interface priority value is 120 and the VPN channel priority value is 140. The smaller the priority value, the higher the route priority. If there are many routes of the same priority, continue comparing the next factor;
@@ -67,6 +68,6 @@ The valid route table of Border Gateway will select the valid routes according t
 
 When the Border Gateway forwards the business data, match item by item according to the route rules in the valid route table of Border Gateway, then forward the packet to the corresponding API or channel according to the next hop information of route rules. Its basic route matching and forwarding rules are:
 
-Route matching with the longest prefix (the prefix with the longest mask length) takes the priority;
+Route matching with the longest prefix takes the priority;
 
 The equivalent route will hash based on quintuple (TCP/UDP), triple (ICMP) or source/destination IP (other protocol types) of each data packet head so as to forward by selecting different routes of next hop.

@@ -1,21 +1,5 @@
 ## Asset Management
 
-### Application for Enterprise Version
-
-As the Compliance Baseline function is covered by Enterprise Version, tenants need to apply for trial of Enterprise Version to enable this function.
-
-Log in to the Official Website -> Product -> Endpoint Security and click **Trial Application of Enterprise Version**.
-[Application Link](https://www.jdcloud.com/en/public/testApply/baseline),
-
-![申请试用1](../../../../image/Endpoint-Security/申请试用-1.png)
-
-![申请试用2](../../../../image/Endpoint-Security/申请试用-2.png)
-
-Wait for background approval. After the approval is obtained, the compliance baseline and asset management will be displayed in the Endpoint Security product menu under this account.
-
-
-### Asset Management
-
 #### Entrance of Features
 
 Log in [Endpoint Security] -> [Asset Management]

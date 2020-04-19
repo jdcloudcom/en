@@ -189,8 +189,9 @@
 
 **11. Supplementary Provisions**
 
-11.1 JD Cloud & AI's service description, price description and the Ordering Page you confirm on relevant pages at [www.jdcloud.com](https://www.jdcloud.com) are the integral parts of these Service Terms. If the service description, the price description and the Ordering Page you agree on the relevant pages at [www.jdcloud.com](https://www.jdcloud.com/) are inconsistent with these Service Terms, these Service Terms shall prevail.
+11.1 JD Cloud & AI's service description, price description and the Ordering Page you confirm on relevant pages at [www.jdcloud.com](https://www.jdcloud.com/) are the integral parts of these Service Terms. If the service description, the price description and the Ordering Page you agree on the relevant pages at [www.jdcloud.com](https://www.jdcloud.com/) are inconsistent with these Service Terms, these Service Terms shall prevail.
 
 11.2 JD Cloud & AI shall transfer all or part of the rights and obligations of these Service Terms to the affiliated company of JD Cloud & AI by posting it on [www.jdcloud.com](https://www.jdcloud.com/) 30 days in advance or by sending you intra-website notices or written-form notices.
 
 11.3 If any terms, in nature or otherwise, shall continue to exist at the termination of the Protocol, they shall be deemed to be continuing terms, including but not limited to warranty terms, confidentiality terms, intellectual property right terms, and law application and dispute resolution terms.
+

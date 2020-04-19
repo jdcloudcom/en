@@ -8,7 +8,7 @@ Sub-products of hosted connect: hosted connection and hosted private virtual int
 
 ### Product Function
 
-- Multi-port bandwidth: The Direct Connection supports 1000Base-T, 1000Base-LX, and 10GBase-LR physical ports by default. It supports RJ45 electrical ports and LC mode optical ports in Ethernet format. The single physical connection supports up to 10Gbps bandwidth. ECMP extended bandwidth caps can be reached through multiple physical connections to meet your multiple bandwidth needs.
+- Multi-port bandwidth: The Direct Connection supports multiple physical ports such as 1000Base-LX, 10GBase-LR, and 100GBase-LR4. It supports LC mode optical ports in Ethernet format. The single physical connection supports up to 100Gbps bandwidth. ECMP extended bandwidth caps can be reached through multiple physical connections to meet your multiple bandwidth needs.
 - Network High availability: Allows multiple physical links to be created between your IDC and JD Cloud & AI Direct connect points to realize load balance of traffic and ensure high availability of Direct Connection Service.
 - Multi-user and Multi-service Isolation: You can share the physical links that have been connected to the public cloud to other users for the full use of the physical link. At the same time, the physical link can run a variety of different business, currently supporting the Direct connect of the same account.
 - High security: The physical link is exclusive to the users who access it. Without risk of data leakage, it enjoys high security and meets the needs of customers with high security requirements such as games enterprises, financial enterprises, and government enterprises. If higher security is required, it can be guaranteed by application-level security.
@@ -19,7 +19,7 @@ Hosted Connection is a physical link used to connect the JD Cloud & AI machine r
 
 ### Hosted Private Virtual Interface
 
-A hosted private virtual interface is a logical link used to connect border gateways and Hosted Connection.
+A Hosted Private Virtual Interface is a logical link used to connect border gateways and Hosted Connection.
 
 When creating a hosted private virtual interface, you need to specify the following necessary information:
 

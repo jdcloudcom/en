@@ -84,6 +84,18 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 64GB|2000|8288|18.84|
 |16-core 64GB|3000|8488|21.54|
 
+## SSD Cloud Disk 
+|Instance Type|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
+|---|---|---|
+|1-core 1GB|92|0.21|
+|1-core 2GB|184|0.42|
+|1-core 4GB|368|0.84|
+|2-core 8GB|736|1.68|
+|4-core 16GB|1472|3.36|
+|8-core 32GB|2944|6.72|
+|16-core 64GB|5888|13.44|
+|SSD Cloud Disk|1.6|0.00224|
+
 # MySQL Read-only instance
 For price, refer to the following table, with specific price subject to the charge made by the Console.
 ## Local Disk SSD
@@ -168,3 +180,15 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 64GB|1600|9.23|
 |16-core 64GB|2000|9.78|
 |16-core 64GB|3000|11.15|
+
+## SSD Cloud Disk 
+|Instance Type|Pay by Configuration (RMB/Hour)|
+|---|---|
+|1-core 1GB|0.11|
+|1-core 2GB|0.22|
+|1-core 4GB|0.44|
+|2-core 8GB|0.88|
+|4-core 16GB|1.76|
+|8-core 32GB|3.52|
+|16-core 64GB|7.04|
+|SSD Cloud Disk|1.6|0.00112|

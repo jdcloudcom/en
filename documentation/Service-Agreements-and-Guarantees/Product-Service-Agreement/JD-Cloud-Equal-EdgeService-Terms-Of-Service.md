@@ -202,3 +202,4 @@
 11.2. JD Cloud & AI is entitled to transfer part or all of the rights and obligations under these Service Terms to JD associated companies by making an announcement on [www.jdcloud.com](https://www.jdcloud.com) or giving an on-website or written notice to you.
 
 11.3. If any terms, in nature or otherwise, shall continue to exist at the termination of the Agreement, they shall be deemed to be continuing terms, including but not limited to warranty terms, confidentiality terms, intellectual property right terms, and law application and dispute resolution terms.
+

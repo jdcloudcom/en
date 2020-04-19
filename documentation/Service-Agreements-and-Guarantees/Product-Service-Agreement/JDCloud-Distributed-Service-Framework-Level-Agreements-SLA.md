@@ -120,5 +120,4 @@ Customers may apply for compensation after the fifth (5th) working day of each m
 #### **3. Others**
 
 JD Cloud & AI has the right to from time to time make adjustments to partial service indicators of the Service Level Agreement according to changes and promptly release announcements on JD Cloud & AI official website [www.jdcloud.com](https://www.jdcloud.com) or send emails or written notices to notify users of the modified contents.
-
  

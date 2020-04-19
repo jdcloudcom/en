@@ -23,7 +23,7 @@ JD Cloud & AI resources to be connected to Direct Connection: All resources in J
 | Multiple Access Modes are Available | Supports Layer 2 and Layer 3 access of the network. It is specified while choosing the Direct Connection partner. When you select Layer 2 access, you will run a routing protocol with the public cloud; when you select Layer 3 access, you will run a routing protocol with the partner. Layer 2 access is recommended. | Only supports point-to-point public network transmission.                                     |
 
 #### Direct Connect Type Supported by JD Cloud & AI
-* Physical port type is: 1000MBase-LX(1310nm) or 10GBase-LR(1310nm). JD Cloud & AI does not support devices of the hosted customers (including optical-to-electrical transducer);
+* Physical port type is: 1000MBase-T, 1000MBase-LX(1310nm), 10GBase-LR(1310nm) and 100GBase-LR4(1310nm);
 
 #### Conditions Required to Use the Direct Connection Service
 * Completed enterprise real-name verification in JD Cloud & AI

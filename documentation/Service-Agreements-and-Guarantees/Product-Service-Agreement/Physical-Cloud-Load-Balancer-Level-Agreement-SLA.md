@@ -74,3 +74,4 @@ Compensation for Physical Cloud Load Balancer is only provided for the Physical 
 ### 4. Others
 
 JD Cloud & AI has the right to from time to time make adjustments to partial service indicators of the Service Level Agreement according to changes and promptly release announcements on JD Cloud & AI’s official website [www.jdcloud.com](https://www.jdcloud.com) or send emails or written notices to notify users of the modified contents. If you disagree with the modification to the Service Level Agreement made by JD Cloud & AI, you have the right to stop using the Physical Cloud Load Balancer service. If you continue to use the Physical Cloud Load Balancer service, you will be deemed to have accepted the modified Service Level Agreement.
+

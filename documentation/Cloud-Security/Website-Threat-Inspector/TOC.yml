@@ -9,6 +9,26 @@ items:
         href: Introduction/Basic-Infrastructure.md
       - name: Features
         href: Introduction/Features.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+  - name: Pricing
+    items:
+      - name: Pricing
+        href: Pricing/Product-Price.md
+      - name: Service Status Change Description
+        href: Pricing/Service-Expiration.md
+  - name: Quick Start
+    items:
+      - name: Product Use Preconditions
+        href: Getting-Started/Precondition.md
+      - name: Add Public Network Asset to Be Scanned
+        href: Getting-Started/InternetAssets.md
+      - name: Add Cloud VPC Asset to Be Scanned
+        href: Getting-Started/VPC-Assets.md
+      - name: Add External IDC Asset to Be Scanned
+        href: Getting-Started/IDC-Assets.md   
   - name: User Guide
     items:
       - name: Threat Overview

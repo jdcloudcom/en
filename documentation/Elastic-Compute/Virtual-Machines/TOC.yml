@@ -87,6 +87,8 @@ items:
             href: Operation-Guide/Instance/Search-Instance.md
           - name: Restart Inatance in Expiration/Arrears
             href: Operation-Guide/Instance/Restart-Overdue-or-Arrear-Instance.md
+          - name: Enable/Disable the No Fees for Stopped Instances feature
+            href: Operation-Guide/Instance/uncharged_for_stopped_vm.md    
           - name: Export Instance Information
             href: Operation-Guide/Instance/Export-Instance.md
           - name: Convert Billing Type
@@ -95,6 +97,8 @@ items:
             href: Operation-Guide/Instance/Delete-Instance.md
           - name: GPU VM
             href: Operation-Guide/Instance/GPU-VM.md
+          - name: vGPU Virtual Machine
+            href: Operation-Guide/Instance/vGPU-VM.md            
           - name: Bare Metal Virtual Machines
             items: 
               - name: Overview of Bare Metal Virtual Machines

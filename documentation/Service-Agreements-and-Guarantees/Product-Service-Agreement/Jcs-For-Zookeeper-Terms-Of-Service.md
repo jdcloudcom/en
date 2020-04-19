@@ -1,10 +1,10 @@
-**These Service Terms are the effective contracts concluded by and between the owners of the JD Cloud & AI website (referred to as "JD Cloud & AI" in the Agreement, website: [www.jdcloud.com](https://www.jdcloud.com)) and you on the matters related to the Zookeeper service. You accept these Service Terms by sealing, clicking the web page to confirm on the web page or other means, including but not limited to actually using the JD Cloud & AI Zookeeper ** **service without clicking to confirm, indicating that you have reached an agreement with JD Cloud & AI and agreed to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
+**These Service Terms are the effective contracts concluded by and between the owners of the JD Cloud & AI website (referred to as "JD Cloud & AI" in the Agreement, website: [www.jdcloud.com](https://www.jdcloud.com)) and you on the matters related to the Distributed Coordination Service Zookeeper Version service. You accept these Service Terms by sealing, clicking the web page to confirm on the web page or other means, including but not limited to actually using the JD Cloud & AI’s Distributed Coordination Service Zookeeper Version service without clicking to confirm, indicating that you have reached an agreement with JD Cloud & AI and agreed to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
 
 **With regards to these Service Terms, you are notified to pay extra attention on the terms of restriction and exemption, terms of JD Cloud & AI judging and handling your violation and breach of Terms, and the optional terms of the competent court. Restriction and exemption terms may be bold or underlined to raise your attention. Please read through these Service Terms carefully before accepting these Service Terms. If you have any questions about these Service Terms, please contact the related business department of JD Cloud & AI to state the inquiry, and JD Cloud & AI will interpret the terms to you. If you do not agree with any of these Service Terms, or cannot accurately understand JD Cloud & AI's interpretation of the Terms, please do not conduct follow-up operations.**
 
 #### 1. **Service Content**
 
-1.1. For the purpose of these terms, the "service" means: JD Cloud & AI provides you with the Zookeeper service as well as related technologies and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
+1.1. For the purpose of these terms, the "service" means: JD Cloud & AI provides you with the Distributed Coordination Service Zookeeper Version service as well as related technologies and network support service displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
 
 1.2. The service provided by JD Cloud & AI must comply with the agreement in these Service Terms.
 
@@ -120,7 +120,7 @@ You pay after use. Please view the page announcement on [www.jdcloud.com](https:
 
 3.2.2.2 JD Cloud & AI will provide a 7×24 hours online ticket service system to answer customer questions during the use.
 
-3.2.3 In case the service involves the Zookeeper, JD Cloud & AI is only responsible for the underlayer part under the operating system and the operation maintenance of the software provided by JD Cloud & AI, namely technical architectures, operating systems and others related to services of Zookeeper. The part above the operating system (such as the application program you install on your system) is your own responsibility. In addition, if you upgrade the operating system on your own, system breakdown and other adverse effects may be caused; please take care of the risks and be careful to operate.
+3.2.3 In case the service involves the **Distributed Coordination Service Zookeeper Version**, JD Cloud & AI is only responsible for the underlayer part under the operating system and the operation maintenance of the software provided by JD Cloud & AI, namely technical architectures, operating systems and others related to service of **Distributed Coordination Service Zookeeper Version**. The part above the operating system (such as the application program you install on your system) is your own responsibility. In addition, if you upgrade the operating system on your own, system breakdown and other adverse effects may be caused; please take care of the risks and be careful to operate.
 
 3.2.4 JD Cloud & AI will eliminate the faults caused by non-man made operations, except for due to your account and/or force majeure and matters out of the control scope of JD Cloud & AI.
 
@@ -164,7 +164,7 @@ You pay after use. Please view the page announcement on [www.jdcloud.com](https:
 
 #### 7. **Enabling, Use and Termination of the Service**
 
-7.1. The Service Term is calculated from the date when you successfully create any Zookeeper service (the service shown and provided for you on jdcloud.com). The specific term of service will be calculated as per your actual usage.
+7.1. The Service Term is calculated from the date when you successfully create any service of Distributed Coordination Service Zookeeper Version (the service shown and provided for you on jdcloud.com). The specific term of service will be calculated as per your actual usage.
 
 7.2. You shall keep your account balance sufficient to ensure continuous use of the services.
 
