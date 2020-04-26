@@ -1,4 +1,4 @@
-# Monitoring Indicator Description
+# Description of VM Monitoring Indicators
 JD Cloud provide instances with the following monitoring indicators which can be divided into three categories according to the collected and reported preconditions:
 * They are collected by the host machine where the instance is located, rather than monitoring plug-in in Virtual Machines. There are 4 indicators of this type, whose Chinese or English display names have suffix ‘(Host)’, including:
   * Disk Read Throughput (Host): vm.disk.bytes.read
@@ -16,8 +16,8 @@ The servicecode of product line monitoring data: vm. The indicator details are a
 ### Instance
 metric | Chinese Name | English Name | Unit | Description
 ---|--- |--- |---|---
-vm.cpu.util | CPU使用率 | CPU Usage | % | 
-vm.memory.usage | 内存使用率| Memory Usage | % | 
+cpu.util | CPU使用率 | CPU Usage | % | 
+memory.usage | 内存使用率| Memory Usage | % | 
 vm.memory.used.bytes | 内存使用量 | Memory Used |  Bytes | 
 vm.avg.load1 | 平均负载1min | CPU Average Load 1min | - | 
 vm.avg.load5 | 平均负载5min | CPU Average Load 5min |  - | 

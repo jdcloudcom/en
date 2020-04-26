@@ -46,7 +46,9 @@ items:
     items:
       - name: Administrator Manual
         items:
-          - name: Log in Bastion Instance
+          - name: Bastion Instance
+            href: Operation-Guide/Administrator/Instance-Info.md
+          - name: Log in Bastion System
             href: Operation-Guide/Administrator/Login-Bastion.md
           - name: User
             items:
@@ -78,7 +80,18 @@ items:
                   href: Operation-Guide/Administrator/Audit/Session-Audit.md
                 - name: Audit Trail
                   href: Operation-Guide/Administrator/Audit/Operational-Audit.md
-
+          - name: System Setting
+            href: Operation-Guide/Administrator/System-settings.md
+          - name: Monitoring
+            items:
+                - name: Monitoring Overview
+                  href: Operation-Guide/Administrator/Monitoring/Overview.md
+                - name: Obtain Monitoring Data
+                  href: Operation-Guide/Administrator/Monitoring/Retrieve-Data.md
+                - name: Set Alarm
+                  href: Operation-Guide/Administrator/Monitoring/Set-Alarm.md
+            
+                  
                     
       - name: Operation and Maintenance Manual
         items:

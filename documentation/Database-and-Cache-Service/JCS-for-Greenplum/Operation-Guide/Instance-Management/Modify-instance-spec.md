@@ -1,6 +1,6 @@
 # Change Instance Configuration
 
-Easy-expandability: The instance supports to upgrade the Configuration specification and expand the node number that can be adjusted based on the business conditions as required to meet the business growth requirements.
+In case that current configuration of JDW instances cannot meet business requirements, you can change such configuration in accordance with your needs. JDW instances support upgrade of node specifications and extension of node counts.
 
 ## Note
 
@@ -9,7 +9,7 @@ Easy-expandability: The instance supports to upgrade the Configuration specifica
 
 ## Operation Steps
 
-1. Log in the [Greenplum Console](https://jdw-console.jdcloud.com/list).
+1. Log in the [JDW Console](https://jdw-console.jdcloud.com/list).
 
 2. Click **Change Configuration** on the Instance List page or Instance Details page to open the "Change Configuration" popup.
 

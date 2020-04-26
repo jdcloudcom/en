@@ -1,11 +1,9 @@
-**<div align=center>Edge Shared Bandwidth Service Agreement</div>**
-
-**These Service Terms are the effective contract made by the owner of JD Cloud & AI website (referred to as "JD Cloud & AI" in the Agreement, website: [www.jdcloud.com](https://www.jdclou.com)) and you on relevant matters about the Edge Shared Bandwidth Service. You select to accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using JD Cloud & AI’s Edge Shared Bandwidth Service without clicking to confirm, indicating that you have reached an agreement with JD Cloud & AI and agreed to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with these Service Terms confirmed on the web page or selected to be accepted otherwise, the text sealed by the Parties shall prevail.**
+**These Service Terms are the effective contract made by the owner of JD Cloud & AI website (referred to as "JD Cloud & AI" in the Agreement, website: [www.jdcloud.com](https://www.jdcloud.com)) and you on relevant matters about the Edge Shared Bandwidth Service. You select to accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using JD Cloud & AI’s Edge Shared Bandwidth Service without clicking to confirm, indicating that you have reached an agreement with JD Cloud & AI and agreed to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with these Service Terms confirmed on the web page or selected to be accepted otherwise, the text sealed by the Parties shall prevail.**
 **With regards to these Service Terms, you are notified to pay extra attention on the terms of limitation and exemption, terms of JD Cloud & AI judging and handling your violation and breach of these Terms, and the optional terms of the competent court. Restriction and exemption terms may be highlighted in bold or underlined to raise your attention. Please read through these Service Terms carefully before accepting these Service Terms. If you have any questions about these Service Terms, please contact the relevant business department of JD Cloud & AI to state the inquiry, and JD Cloud & AI will interpret the terms to you. If you do not agree with any of these Service Terms, or cannot accurately understand JD Cloud & AI's interpretation of these Terms, please do not conduct follow-up operations.**
 
 ### 1. Service Content
 
-1.1 For the purpose of these Terms, the "Service" means: Edge Shared Bandwidth Service provided by JD Cloud & AI to you as well as related technologies and network support service as displayed on the website [www.jdcloud.com](https://www.jdclou.com).
+1.1 For the purpose of these Terms, the "Service" means: Edge Shared Bandwidth Service provided by JD Cloud & AI to you as well as related technologies and network support service as displayed on the website [www.jdcloud.com](https://www.jdcloud.com).
 
 1.2 The services provided by JD Cloud & AI must comply with these Service Terms.
 
@@ -13,7 +11,7 @@
 
 2.1 The service charge will be listed and shown on your subscription page; you can choose the specific type of service and pay at the listed price.
 
-2.2. Payment Method: Please view the page announcement on [www.jdcloud.com](https://www.jdclou.com) for the specific deduction rules, which is subject to the effective billing mode and standard on the page at that time.
+2.2. Payment Method: Please view the page announcement on [www.jdcloud.com](https://www.jdcloud.com) for the specific deduction rules, which is subject to the effective billing mode and standard on the page at that time.
 
 2.3 JD Cloud & AI reserves the right not to provide you with services and/or technical supports or to terminate the services and/or technical supports until you have paid off all the costs as agreed. In the meanwhile, JD Cloud & AI reserves the right to pursue legal liability for arrears in the pay-as-you-go service.
 
@@ -21,7 +19,7 @@
 
 3.1 Your Rights and Obligations
 
-3.1.1 You agree to abide by these Service Terms and the relevant management specifications and processes on the service display page. You understand that the above agreements and specifications may change from time to time. In the event of any change to any content of these Service Terms, JD Cloud & AI shall notify you of the modified contents by announcement on the suitable coverage on [www.jdcloud.com](https://www.jdclou.com) 30 days in advance. If you disagree with JD Cloud & AI’s modification to related terms in these Service Terms, you have the right to stop using JD Cloud & AI’s service. In such case, JD Cloud & AI shall settle the service charge with you (if any), and you shall move the business data out. If you continue to use JD Cloud & AI services, you are deemed to have accepted the modifications made by JD Cloud & AI to the related terms of these Service Terms.
+3.1.1 You agree to abide by these Service Terms and the relevant management specifications and processes on the service display page. You understand that the above agreements and specifications may change from time to time. In the event of any change to any content of these Service Terms, JD Cloud & AI shall notify you of the modified contents by announcement on the suitable coverage on [www.jdcloud.com](https://www.jdcloud.com) 30 days in advance. If you disagree with JD Cloud & AI’s modification to related terms in these Service Terms, you have the right to stop using JD Cloud & AI’s service. In such case, JD Cloud & AI shall settle the service charge with you (if any), and you shall move the business data out. If you continue to use JD Cloud & AI services, you are deemed to have accepted the modifications made by JD Cloud & AI to the related terms of these Service Terms.
 
 3.1.2 You should pay the corresponding service charge according to the page notifications of JD Cloud & AI and the agreement in these Service Terms.
 
@@ -101,7 +99,7 @@
 
 5.3.3 You understand and fully acknowledge that although JD Cloud & AI has established (and will continue to improve according to the development of technology) necessary technical measures to protect against the matters or acts harmful to network security including computer viruses, network intrusions, attack damages (including but not limited to DDOS, NTP attack) (collectively referred to as such acts), given the limitations and relativity of network security technology and the unpredictability of such acts, JD Cloud & AI may decide to suspend or terminate the service if you encounter such acts and bring harms to JD Cloud & AI or JD Cloud & AI’s other networks or servers (including but not limited to local and foreign and international networks, servers), or affect the smooth communications between JD Cloud & AI and the Internet or between JD Cloud & AI and specific networks and servers and internal smooth communication within JD Cloud & AI. If the service is terminated, the service charge will be calculated based on the actual services provided, and you still shall pay the service charge you have not paid (if any).
 
-5.3.4 JD Cloud & AI may terminate these Service Terms by sending out a public notice or giving you an on-website or written notice at [www.jdcloud.com](https://www.jdclou.com) 30 days in advance. At that time, JD Cloud & AI shall refund the amount you have paid but not consumed (if any) to your JD Cloud & AI account.
+5.3.4 JD Cloud & AI may terminate these Service Terms by sending out a public notice or giving you an on-website or written notice at [www.jdcloud.com](https://www.jdcloud.com) 30 days in advance. At that time, JD Cloud & AI shall refund the amount you have paid but not consumed (if any) to your JD Cloud & AI account.
 
 #### 6. Liability for Breach
 
@@ -133,8 +131,9 @@
 
 ### 9. Supplementary Provisions
 
-9.1 JD Cloud & AI's service description, price description and the ordering page you confirm on relevant pages at [www.jdcloud.com](https://www.jdclou.com) are the integral parts of these Service Terms. If the service description, price description and the order page confirmed and agreed by you on [www.jdcloud.com](https://www.jdclou.com) are inconsistent with these Service Terms, these Service Terms shall prevail.
+9.1 JD Cloud & AI's service description, price description and the ordering page you confirm on relevant pages at [www.jdcloud.com](https://www.jdcloud.com) are the integral parts of these Service Terms. If the service description, price description and the order page confirmed and agreed by you on [www.jdcloud.com](https://www.jdcloud.com) are inconsistent with these Service Terms, these Service Terms shall prevail.
 
-9.2 JD Cloud & AI is entitled to transfer part or all of the rights and obligations under these Service Terms to JD Cloud & AI's affiliated companies by making an announcement on [www.jdcloud.com](https://www.jdclou.com) or giving an on-website or written notice to you 30 days in advance.
+9.2 JD Cloud & AI is entitled to transfer part or all of the rights and obligations under these Service Terms to JD Cloud & AI's affiliated companies by making an announcement on [www.jdcloud.com](https://www.jdcloud.com) or giving an on-website or written notice to you 30 days in advance.
 
 9.3. If any terms, in nature or otherwise, shall survive at the termination of the Agreement, they shall be deemed to be surviving terms, including but not limited to warranty, confidentiality, intellectual property right, and applicable law and dispute resolution.
+

@@ -2,11 +2,11 @@
 
 1.Q: What's the Quota of single-user Distributed Cloud Physical Server?
 
-&nbsp;&nbsp;&nbsp;A: The purchase quota in a single node of the user is 20 sets by default and at most 5 sets can be ordered in a single order. If you need to enable more instances, you may apply for expansion by open ticket, JD Cloud will improve configuration upgrade quota after evaluation based on your actual demands.
+&nbsp;&nbsp;&nbsp;A: The purchase quota in a single node of the user is 20 sets by default and at most 5 sets can be ordered in a single order. If you need to enable more instances, you may [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) to increase quota, and JD Cloud & AI will increase quota for you after evaluation based on your actual demand.
 
 2.Q: Is there any public/private IP?
 
-&nbsp;&nbsp;&nbsp;A: Each Distributed Cloud Physical Server provides one public IP and one private IP. Users may select the intranet CIDR segment beginning with 10/192/172. The IP address is automatically allocated by system and can be filled in manually by the user. The user can also choose not to associate the public IP and then purchase and associate the public IP after the server is created successfully.
+&nbsp;&nbsp;&nbsp;A: Each Distributed Cloud Physical Server provides one primary public IP address and one primary private IP address. Users may select the intranet CIDR segment beginning with 10/192/172. The IP address is automatically allocated by system and can be filled in manually by the user. The user can also choose not to associate the public IP and then purchase and associate the public IP after the server is created successfully.
 
 3.Q: Are the intranets of different nodes connected?
 
@@ -18,15 +18,15 @@
 
 5.Q: What should I do if I forget the OS password of the Distributed Cloud Physical Server?
 
-&nbsp;&nbsp;&nbsp;A: Currently, to reset password, a user is required to open ticket manually and handle it offline.
+&nbsp;&nbsp;&nbsp;A: Currently, you need to log in the Console to reset password. Select a target instance and click **Reset Password**, after that, "Start Up" the instance to reset the password.
 
 6.Q: How does the Distributed Cloud Physical Server guarantee high availability?
 
-&nbsp;&nbsp;&nbsp;A: JD Cloud ensures high availability of the Distributed Cloud Physical Server on the network architecture. The high availability architecture of business layer shall be designed by the user.
+&nbsp;&nbsp;&nbsp;A: JD Cloud & AI ensures high availability of the Distributed Cloud Physical Server on the network architecture. The high availability architecture of business layer shall be designed by the user.
 
 7.Q: Does the Distributed Cloud Physical Server support Linux kernel upgrade?
 
-&nbsp;&nbsp;&nbsp;A: JD Cloud has no limit to upgrading Linux kernel of the Distributed Cloud Physical Server, but users are not suggested to carry out kernel upgrade. As JD Cloud is only responsible for the revision provided officially, if any use problem arises after upgrade, the user shall be responsible for the consequences.
+&nbsp;&nbsp;&nbsp;A: JD Cloud & AI has no limit to upgrading Linux kernel of the Distributed Cloud Physical Server, but users are not suggested to carry out kernel upgrade. As JD Cloud & AI is only responsible for the revision provided officially, if any use problem arises after upgrade, the user shall be responsible for the consequences.
 
 8.Q: Who should I turn to for consultation and processing if my Distributed Cloud Physical Server has any problem?
 
@@ -53,6 +53,6 @@
 
 13.Q: Can third party software be installed to the Distributed Cloud Physical Server?
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A: The Distributed Cloud Physical Server of JD Cloud does not limit customer’s installation of third party software by default, but users are required to maintain the security of the leased physical servers. Where the server is attacked due to user, the user may be warned by JD Cloud’s Security Department or even the network will be cut off.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A: The Distributed Cloud Physical Server of JD Cloud & AI does not limit customer’s installation of third party software by default, but users are required to maintain the security of the leased physical servers. Where the server is attacked due to user, the user may be warned by JD Cloud & AI’s Security Department or even the network will be cut off.
 
 

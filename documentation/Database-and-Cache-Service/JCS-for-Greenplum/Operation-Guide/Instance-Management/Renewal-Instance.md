@@ -8,15 +8,15 @@ As for the instance subject to pay-by-configuration billing, after the renewal i
 
 ## Operation Steps
 
-1. Log in the [Greenplum Console](https://jdw-console.jdcloud.com/list).
+1. Log in the [JDW Console](https://jdw-console.jdcloud.com/list).
 
 2. On the Instance List page, select the instance of which the payment is to be renewed, and click **Renew ** in the operation item on the right.
 
-   ![1564651113054](../../../../../image/JCS-for-Greenplum/jdw-003.png)
+   ![3](../../../image/RDS/repay1-jdw.png)
 
 3. On the "Renewal" page, select the length of time you want to renew.
 
-   ![1564651185278](../../../../../image/JCS-for-Greenplum/jdw-004.png)
+   ![4](../../../image/RDS/repay-2.png)
 
 4. After confirming there are no mistakes, click ** to Pay ** to complete the payment process.
 

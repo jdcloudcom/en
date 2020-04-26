@@ -68,7 +68,7 @@ Click **Create Policy**, select "Policy Editor", and on the policy creation page
         "oss:ListMultipartUploadParts"
       ],
       "Resource": [
-        "jrn:oss:*:324167480385:test-export/*"
+        "jrn:oss:*:3241xxxx0385:image-export-bucket/*"
       ]
     }
   ]
@@ -92,17 +92,17 @@ After the export task is submitted successfully, remember the 'exportTaskId' ret
 * Meaning of CLI instruction:
 
 ```
-jdc vm export-image --region-id cn-east-2 --image-id img-xxxxxxx --role-name image-export --oss-url https://test-export.s3.cn-east-2.jdcloud-oss.com --oss-prefix jdcloud
+jdc vm export-image --region-id cn-east-2 --image-id img-xxxxxxx --role-name image-export --oss-url https://test-export.s3-internal.cn-east-2.jdcloud-oss.com --oss-prefix jdcloud
 ```
 
 #### APIs Parameter Description:
-In parameters, ossUrl must be a full domain (including ‘https://’) of OSS Bucket, both Intranet/Internet domain, e.g. bucket as shown in the following figure, ossUrl may be 'https://test-export.s3.cn-east-2.jdcloud-oss.com' or 'https://test-export.s3-internal.cn-east-2.jdcloud-oss.com'.
+In terms of parameters, a full **Intranet Domain** (including ‘https://’) of OSS Bucket shall be entered in ossUrl as shown in the following figure; please enter 'https://test-export.s3-internal.cn-east-2.jdcloud-oss.com' in ossUrl.
 ![](../../../../../image/vm/image-export-image9.png)  
 
 | Parameter                  | Type      |Compulsory or Not     | Description |
 | :------------------- |  :------------------- | :------------------- |:------------------- |
 | roleName   | string    |Yes   |Service role name created for exporting images
-| ossUrl   | string    |Yes   |OSS Bucket Domain used to store image files in the same region as image, please complete URL that has added 'https://'
+| ossUrl   | string    |Yes   |OSS Bucket internal network Domain used to store image files in the same region as image, please complete URL that has added 'https://'
 | ossPrefix   |  string    |No  |Customized prefix of image file to be exported, if '123' is filled in, the exported image Object name is '123_exportImage_*img-xxxxxx*'. Support uppercase and lowercase English and numbers, which cannot exceed 32 characters.
 | clientToken	 | string    | No   | Idempotence guarantee for users exporting images. If the uploaded parameter value is the same as a clientToken, it will be considered as the same request and will return the same request result. The length cannot be more than 64 characters
 

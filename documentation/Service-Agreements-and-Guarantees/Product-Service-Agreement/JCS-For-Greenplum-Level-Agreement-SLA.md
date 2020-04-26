@@ -1,6 +1,6 @@
 ### 1 Service Scope
 
-JD Cloud & AI JCS for Greenplum Services (hereinafter referred to as "Services") provide the user with the online data repository services, and provide the settlement functions based on the cloud computing mode, such as use on demand and pay on demand.
+JD Cloud & AI Data Warehouse JDW Services (hereinafter referred to as "Services") provide the user with the online data warehouse services, and provide the settlement functions based on the cloud computing mode, such as use on demand and pay on demand.
 
 ### 2 Service Level Indicator
 
@@ -8,7 +8,7 @@ JD Cloud & AI JCS for Greenplum Services (hereinafter referred to as "Services")
 
 · Data persistence: Not below 99.9999%.
 
-· Data persistence is counted by service cycle, a service cycle is a natural month, if it is less than a month, then it is not counted as a service cycle. Namely, the no data loss probability per 1,000 JCS for Greenplum instances is 99.9999% per month. This means that at most 1 JCS for Greenplum instance may have the data loss per month.
+· Data persistence is counted by service cycle, a service cycle is a natural month, if it is less than a month, then it is not counted as a service cycle. Namely, the no data loss probability per 1,000 Data Warehouse JDW instances is 99.9999% per month. This means that at most 1 Data Warehouse JDW instance may have the data loss per month.
 
 #### 2.2 Destruction Nature of Data
 
@@ -18,7 +18,7 @@ JD Cloud & AI JCS for Greenplum Services (hereinafter referred to as "Services")
 
 #### 2.3 Migration Nature of Data
 
-JCS for Greenplum is delivered online to the user, and the user can import data through the corresponding database client software, so as to meet the migration requirements of user data.
+Data Warehouse JDW is delivered online to the user, and the user can import data through the corresponding database client software, so as to meet the migration requirements of user data.
 
 #### 2.4 Privacy of Data
 
@@ -40,19 +40,19 @@ In accordance with existing laws and regulations or the requirements from reason
 
 #### 2.7 Service Functions
 
-The JCS for Greenplum is the online MPP massively parallel processing data repository service, which can be subscribed via Web or API. For details of all functions of JCS for Greenplum, please refer to specific instruction documentation, technical documentation and help documentation provided by JD Cloud & AI on the official website. All the functional changes of JCS for Greenplum that may affect users will be announced to the users.
+The Data Warehouse JDW is the online MPP massively parallel processing data warehouse service, which can be subscribed via Web or API. For details of all functions of Data Warehouse JDW, please refer to specific instruction documentation, technical documentation and help documentation provided by JD Cloud & AI on the official website. All the functional changes of Data Warehouse JDW that may affect users will be announced to the users.
 
 #### 2.8 Service Availability
 
 · Service availability: Not below 99.90%.
 
-· The formula for computing the availability of JCS for Greenplum is as follows: all available time for a single database instance per service cycle/ (all available time for a single database instance per service cycle + all unavailable time for a single database instance per service cycle).
+· The formula for computing the availability of Data Warehouse JDW is as follows: all available time for a single database instance per service cycle/ (all available time for a single database instance per service cycle + all unavailable time for a single database instance per service cycle).
 
 Where,
 
-(1) Availability of JCS for Greenplum is counted by service cycle to the extent that a service cycle is a natural month and if it is less than a month, then it is not counted as a service cycle. The business unit of statistics is single database instance, and the time unit is minute.
+(1) Availability of Data Warehouse JDW is counted by service cycle to the extent that a service cycle is a natural month and if it is less than a month, then it is not counted as a service cycle. The business unit of statistics is single database instance, and the time unit is minute.
 
-(2) Unavailable time: Only services provided by JCS for Greenplum are unavailable for continuous 5 minutes or above can be regarded as unavailable time. If the unavailable time is less than 5 minutes, it does not account for unavailable time. The unavailable time of JCS for Greenplum Services shall exclude daily system maintenance time and unavailable time due to user reasons, the third party reasons or force majeure.
+(2) Unavailable time: Only services provided by Data Warehouse JDW are unavailable for continuous 5 minutes or above can be regarded as unavailable time. If the unavailable time is less than 5 minutes, it does not account for unavailable time. The unavailable time of Data Warehouse JDW Services shall exclude daily system maintenance time and unavailable time due to user reasons, the third party reasons or force majeure.
 
 #### 2.9 Fault Recovery Capability
 
@@ -60,13 +60,13 @@ JD Cloud & AI offers 7×24 hours of operation maintenance for the cloud services
 
 #### 2.10 Service Metering Accuracy
 
-JCS for Greenplum Services have an accurate and transparent metering and billing system. JD Cloud & AI settles and deducts charges in real time according to the user’s actual usage of JCS for Greenplum. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud & AI official website. The user's original billing log shall be kept for at least 1 year by default for future reference.
+Data Warehouse JDW Services have an accurate and transparent metering and billing system. JD Cloud & AI settles and deducts charges in real time according to the user’s actual usage of JCS for Greenplum. The specific billing standard shall be subject to the effective billing model and price announced on the JD Cloud & AI official website. The user's original billing log shall be kept for at least 1 year by default for future reference.
 
 #### 2.11 Service Compensation Terms
 
 2.11.1 Compensation Scope:
 
-In the event of failure of normal use of JCS for Greenplum due to JD Cloud & AI’s fault, or failure of normal website access due to JD Cloud & AI's fault, JD Cloud & AI will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
+In the event of failure of normal use of Data Warehouse JDW due to JD Cloud & AI’s fault, or failure of normal website access due to JD Cloud & AI's fault, JD Cloud & AI will compensate for the unavailable time, excluding the service unavailable time caused by the following reasons:
 
 (1) Caused by the system maintenance that JD Cloud & AI has notified the users in advance, including migration, maintenance, upgrade and simulation fault drill;
 
@@ -88,17 +88,17 @@ In the event of failure of normal use of JCS for Greenplum due to JD Cloud & AI�
 
 2.11.2 Compensation • Scheme Fault Time = Unavailable Time.
 
-• For the monthly package of Greenplum instance, compensation shall be made by the means of compensating service duration at the 100 times of fault time/set.
+• For the monthly package of Data Warehouse JDW instance, compensation shall be made by the means of compensating service duration at the 100 times of fault time/set.
 
-• For the Greenplum instance paid by configuration, compensation shall be made by the means of coupons at the compensation amount = average charge per hour of 24 hours before the fault/60 x fault time x 100.
+• For the Data Warehouse JDW instance paid by configuration, compensation shall be made by the means of coupons at the compensation amount = average charge per hour of 24 hours before the fault/60 x fault time x 100.
 
 Description:
 
-• If the usage time of Greenplum instance in Pay By Configuration Consumption is less than 24 hours, the charge shall be calculated in accordance with the average value of the actual usage duration;
+• If the usage time of Data Warehouse JDW instance in Pay By Configuration Consumption is less than 24 hours, the charge shall be calculated in accordance with the average value of the actual usage duration;
 
 • Fault time shall be calculated by minutes;
 
-• The total compensation amount shall not exceed the total amount of current service charge already paid for a single set of JCS for Greenplum;
+• The total compensation amount shall not exceed the total amount of current service charge already paid for a single set of Data Warehouse JDW;
 
 ### 3 Miscellaneous
 

@@ -52,9 +52,9 @@ items:
     href: JCS-For-InfluxDB-Terms-Of-Service.md
   - name: JCS for InfluxDB Service Level Agreement (SLA)
     href: JCS-For-InfluxDB-Level-Agreement-SLA.md
-  - name: JCS for Greenplum Service Terms
-    href: JCS-For-Greenplum-Terms-Of-Service.md  
-  - name: JCS for Greenplum Service Level Agreement (SLA)
+  - name: Data Warehouse JDW Service Terms
+    href: JCS-For-Greenplum-Terms-Of-Service.md
+  - name: Data Warehouse JDW Service Level Agreement (SLA)
     href: JCS-For-Greenplum-Level-Agreement-SLA.md
   - name: Virtual Machines Security Service Agreement
     href: Cloud-Host-Security-Service-Clause.md
@@ -126,7 +126,7 @@ items:
     href: JD-Cloud-Equal-EdgeService-Terms-Of-Service.md  
   - name: Service Terms of Notification Service (JNS)
     href: JD-Cloud-Notification-Service-Terms-Of-Service.md
-  - name: : Service Level Agreement (SLA) of Notification Service (JNS)
+  - name: Service Level Agreement (SLA) of Notification Service (JNS)
     href: JD-Cloud-Notification-Service-Level-Agreement-SLA.md   
   - name: Message Queue Service Agreement
     href: Message-Queue-JCQ-Service-Terms.md
@@ -135,7 +135,11 @@ items:
   - name: Service Terms of Message Queue Kafka
     href: Jcs-For-Kafka-Terms-Of-Service.md
   - name: Service Level Agreement (SLA) of Message Queue Kafka
-    href: jcs-for-kafka-Level-Agreement-SLA.md    
+    href: jcs-for-kafka-Level-Agreement-SLA.md
+  - name: Service Terms of Distributed Coordination Service Zookeeper Version
+    href: Jcs-For-Zookeeper-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) of Distributed Coordination Service Zookeeper Version
+    href: Jcs-for-Zookeeper-Level-Agreements-SLA.md 
   - name: Service Terms of Anti-DDoS Protection Package
     href: DDoS-Protection-Package-Terms-Of-Service.md
   - name: Service Grade Protocol of Anti-DDoS Protection Package (SLA)
@@ -204,7 +208,7 @@ items:
     href: Power-Of-Attorney.md
   - name: MINECRAFT Education Edition - Demo Edition Service Agreement
     href: MEE-Demo-Service-Terms-Of-Service.md
-  - name: Software License and Service Agreement of Minecraft: Education Edition
+  - name: Software License and Service Agreement of Minecraft-Education Edition
     href: MEE-China-Related-Agreement.md  
   - name: Cloud Cabinet Co-location Service Terms
     href: Cloud-Cabinet-Service-Terms-Of-Service.md
@@ -222,4 +226,51 @@ items:
     href: Intelligent-Edge-Security-Terms-Of-Service.md   
   - name: Bastion Service Terms
     href: Bastion-Terms-Of-Service.md
+  - name: Bastion Service Level Agreement (SLA)
+    href: Bastion-Level-Agreements-SLA.md 
+  - name: Content Security Service Terms
+    href: Content-Moderation-Terms-Of-Service.md
+  - name: Service Terms of JDWhale DCS Product Launch
+    href: JDWhale-DCS-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) of JDWhale DCS Product Launch
+    href: JDWhale-DCS-Level-Agreement-SLA.md
+  - name: Fine-grained Portrait Segmentation Service Terms
+    href: Fine-grained-Portrait-Segmentation-Terms-Of-Service.md
+  - name: Service Terms of Pedestrian Re-identification
+    href: Pedestrian-Recognition-Terms-Of-Service.md
+  - name: Masked Face Recognition Service Terms
+    href: Face-mask-Recognition-Terms-Of-Service.md
+  - name: Waste Sorting Service Terms
+    href: Garbage-Classification-Terms-Of-Service.md
+  - name: General Image Search Service Terms
+    href: Image-Search-Engine-Terms-Of-Service.md
+  - name: Anti-epidemic Supplies Recognition Service Terms
+    href: Identification-Of-Epidemic-Materials-Terms-Of-Service.md
+  - name: General Commodity Recognition Service Terms
+    href: General-Commodity-Identification-Terms-Of-Service.md
+  - name: Service Terms of Commodity Image Search
+    href: Product-Image-Search-Engine-Terms-Of-Service.md
+  - name: Service Terms of Short URL
+    href: Short-URL-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) of Short URL
+    href: Short-URL-Level-Agreements-SLA.md 
+  - name: Automatic Composing Service Terms
+    href: Automatic-Composing-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) of Automatic Composing
+    href: Automatic-Composing-Level-Agreements-SLA.md
+  - name: Image Matting Service Terms
+    href: Image-Matting-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) of Image Matting
+    href: Image-Matting-Level-Agreements-SLA.md
+  - name: Service Terms of Image Style Classification
+    href: Image-Style-Classification-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) of Image Style Classification
+    href: Image-Style-Classification-Level-Agreements-SLA.md
+  - name: Photo Filters Matching Service Terms
+    href: Photo-Filters-Matching-Terms-Of-Service.md
+  - name: Service Level Agreement (SLA) of Photo Filters Matching
+    href: Photo-Filters-Matching-Level-Agreements-SLA.md
+    
+    
+    
     

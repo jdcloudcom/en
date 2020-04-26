@@ -18,3 +18,9 @@ Disabling a command cannot be executed in a transaction
 
 3. Open scan Command
 
+Users can use scan command
+
+4. Redis 4.0 Cluster Version can customize multipart
+
+Users can set count and capacity of multipart
+

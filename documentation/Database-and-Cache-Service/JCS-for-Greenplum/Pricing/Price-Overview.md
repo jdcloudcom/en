@@ -1,6 +1,6 @@
 # Price Overview
 
-At present, the JCS for Greenplum Instance supports two billing types: monthly package and pay by configuration. The instance cost consists of two parts, i.e., node specifications and node counts.
+At present, the Data Warehouse JDW Instance supports two billing types: monthly package and pay by configuration. The instance cost consists of two parts, i.e., node specifications and node counts.
 
 ## Node Specification Cost
 
@@ -11,7 +11,7 @@ At present, the JCS for Greenplum Instance supports two billing types: monthly p
 
 ## Node Number
 
-One Greenplum instance can contain 2 to 8 Segment nodes.
+One JDW instance can contain 2 to 16 Segment nodes.
 
 ## Instance Price
 

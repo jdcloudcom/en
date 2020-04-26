@@ -35,28 +35,28 @@
     items:
       - name: Getting Started Overview
         href: Getting-Started/Getting-Started.md
-      - name: Create Distributed Cloud Physical Server
-        href: Getting-Started/Create-Distributed-Cloud-Physical-Server.md
-      - name: Configure Distributed Cloud Physical Server
+      - name: Confirm Configuration Item
         href: Getting-Started/Allocate-Distributed-Cloud-Physical-Server.md
-      - name: View Distributed Cloud Physical Server
-        href: Getting-Started/Check-Distributed-Cloud-Physical-Server.md
-      - name: Delete Distributed Cloud Physical Server
-        href: Getting-Started/Delete-Distributed-Cloud-Physical-Server.md
   - name: Operation Guide
     items:
-      - name: Instructions for Use
-        href: Operation-Guide/Terms-and-Conditions.md
       - name: Instance
         items:
+          - name: Create Instance
+            href: Operation-Guide/Instance/Create-Instance.md
+          - name: View Instance
+            href: Operation-Guide/Instance/Check-Instance.md
+          - name: Delete Instance
+            href: Operation-Guide/Instance/Delete-Instance.md
           - name: Reset Password
             href: Operation-Guide/Instance/Reset-Password.md
-          - name: Customized Data
-            href: Operation-Guide/Instance/User-Data.md
-          - name: Alias IP Ranges
+          - name: Reinstall System
+            href: Operation-Guide/Instance/Reinstall.md
+          - name: Associate Elastic IP
+            href: Operation-Guide/Instance/Associate-The-EIP.md
+          - name: Disassociate Elastic IP
+            href: Operation-Guide/Instance/Disassociate-The-EIP.md
+          - name: Add Alias IP Range
             href: Operation-Guide/Instance/Alisas-IP.md
-          - name: Tag
-            href: Operation-Guide/Instance/Tag.md
       - name: Network
         items:
           - name: VPC
@@ -65,58 +65,46 @@
             href: Operation-Guide/Networking/Subnet.md
           - name: Elastic IP
             href: Operation-Guide/Networking/Elastic-IP-For-Edge-Cloud.md
-      - name: Firewall Configuration Instruction
+          - name: Alias IP Range
+            href: Operation-Guide/Networking/Alisas-IP.md
+          - name: Shared Bandwidth
+            href: Operation-Guide/Networking/Edge-Shared-Bandwidth.md
+      - name: Firewall
         items:
           - name: Function Description
-            href: Operation-Guide/Network-And-Security/Description-Network-And-Security.md
-          - name: Operation Steps
             href: Operation-Guide/Network-And-Security/Steps-Network-And-Security.md
       - name: Image Use Instructions
         items:
           - name: Function Description
             href: Operation-Guide/Image/Description-Image.md
-          - name: Operation Steps
-            href: Operation-Guide/Image/Steps-Image.md
       - name: Set RAID Levels
         items:
           - name: Function Description
-            href: Operation-Guide/Set-RAID-Level/Description-Set-RAID-Level.md      
-          - name: Operation Steps
             href: Operation-Guide/Set-RAID-Level/Steps-Set-RAID-Level.md
       - name: Remotely Log In
         items:
           - name: Function Description
-            href: Operation-Guide/Remote-Login/Description-Remote-Login.md
-          - name: Operation Steps
             href: Operation-Guide/Remote-Login/Steps-Remote-Login.md
       - name: Life Cycle Management
         items:
           - name: Function Description
             href: Operation-Guide/Distributed-Cloud-Physical-Server-Life-Cycle-Management/Description-Distributed-Cloud-Physical-Server-Life-Cycle-Management.md
-          - name: Operation Steps
-            href: Operation-Guide/Distributed-Cloud-Physical-Server-Life-Cycle-Management/Steps-Distributed-Cloud-Physical-Server-Life-Cycle-Management.md
-      - name: Reinstall Operating System
-        items:
-          - name: Function Description
-            href: Operation-Guide/Reinstall/Description-Reinstall.md
-          - name: Operation Steps
-            href: Operation-Guide/Reinstall/Steps-Reinstall.md
-      - name: Modify Public Network Bandwidth
-        items:
-          - name: Function Description
-            href: Operation-Guide/Adjust-Public-Network-Bandwidth/Description-Adjust-Public-Network-Bandwidth.md
-          - name: Operation Steps
-            href: Operation-Guide/Adjust-Public-Network-Bandwidth/Steps-Adjust-Public-Network-Bandwidth.md
       - name: SSH Key Pair
         items:
-          - name: Overview
-            href: Operation-Guide/SSH-Key-Pair/Description-SSH-Key-Pair.md
-          - name: Operation Steps
+          - name: Function Description
             href: Operation-Guide/SSH-Key-Pair/Step-SSH-Key-Pair.md
       - name: Audit Trail
         items:
-          - name: Overview
+          - name: Function Description
             href: Operation-Guide/Audit-Trail/Audit-Trail-Overview.md
+      - name: Tag
+        items:
+          - name: Function Description
+            href: Operation-Guide/Tag/Tag-Overview.md
+      - name: User Data
+        items:
+          - name: Function Description
+            href: Operation-Guide/User-Data/User-Data-Overview.md
   - name: Best Practices
     items:
     - name: Network Security Scheme for NAT Gateway

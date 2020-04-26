@@ -1,42 +1,41 @@
 The log service usage process is as follows:  
-![使用流程](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/sylc.png)
+- Create log configuration, including log sets, log subjects and log source setting
+- Make use of log retrieval, log dump, log monitoring and other functions
 
-**Create Log Collection**
+**Setting of log set and log subject**
 
 1.	Log in JD Cloud console.
 
-2. 	Click the navigation bar on the left side, select **Management Service->Log Service** to enter the log collection management page.
+2.	 Click the navigation bar, select **Cloud Service** -> **Monitoring, Operation and Maintenance** -> **Log Service** and enter the Log Overview Page.
 
-![日志集列表](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/rzjlb.png)
-3. 	Click **Create Log Collection** above the list to open the Create Log Collection page.
+![进入日志服务概览](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/GettingStarted/logservice.png)
 
-![创建日志集](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/cjrzj.png)
-4. 	Set the log collection name, description, and save time. After clicking **OK**, the notification "Log collection creation succeeded, go to add the log subject immediately?" will pop up
+3.	 Click the button **Create Log Configuration** above the list and enter the Process Creation Page.
 
-![日志主题-创建引导](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/zt-cjyd.png)
-5. 	After clicking **OK**, jump to the log collection details to create a log subject.  
+![创建日志配置](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/GettingStarted/crtlogconfig.png)
 
-![日志集详情](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/rzjxq-1.png)
+4.	 Enter the name of a created log set or select the existing log set name. Fill in the log set description and the saving time. Click **Next** to set the log subject.
 
-**Add Log Subject**
-1. 	On the log collection details page, click **Add Log Subject** to open the adding log subject page.
+![日志集设置](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/GettingStarted/logset.png)
 
-![添加日志主题](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/rzjxq-1.png)
-2. 	On the log subject page, add the log subject name. Click **OK**, the notification "Log subject creation succeeded, go to add the collection configuration immediately?" will pop up  
-![采集配置-创建引导](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/cjpz-cjyd.png)
-3. 	After clicking **OK**, jump to the collection configuration page.  
+5.	 If the log set is a new one created by the user, only the log subject can be created; if the existing log set is selected by the user, the log subject is created or selected from the existing ones according to demands and the log subject description can be filled in. Click **Next** to set the log source.
 
-![采集配置页](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/cjpz-1.png)
+![日志主题设置](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/GettingStarted/logtopic.png)
 
-**Add Collection Configuration**
-1. 	On the collection configuration page, click **Add Collection Configuration** to enter the adding collection configuration page.  
+**Setting of Log Source**
+1.	 Select log sources to be collected, cloud products or business application logs. 
 
-![添加采集配置](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/tjcjpz.png)
-2. 	Select the product to which the log belongs, the type of log to be collected, collect the instance information, and click **Save**.
+2. 	For cloud product logs, please select product of log and type of log to be collected and collect instances.
 
-![采集配置详情-全部](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/cjpz-qb.png)
-3. 	Go back to the log subject list page, select the log subject added above, click **Preview** to view the latest log data under the log subject. If you need to query the log data, you can go to the log retrieval module for query.  
-![预览](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/yl.png)
+![云产品日志源设置](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/GettingStarted/logsource.png)
+
+3.	 For business application logs, the collection status shall be selected, the log file path and collection instance information shall be filled in, and senior configuration shall be set according to demands.
+
+![业务应用日志源设置](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/GettingStarted/logsource-custom.png)
+
+4.	 Click **Save** to enter the completion page. The page will automatically redirect to the log retrieval page 5 seconds later. Or, you can click **Log Dump** or **Log Monitoring** to create a dump task and a monitoring task.
+
+![完成页面](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/GettingStarted/completed.png)
 
 **Retrieval Log**
 1. 	Select the log subject to be viewed in the log subject list, click **Retrieve**, or switch to **Log Retrieval** module in the left menu to select the log collection and log subject to be queried.  

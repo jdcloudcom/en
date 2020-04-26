@@ -158,19 +158,19 @@ Click **Installation** to complete the ifrit installation.
 
 ## Jcloudhids
 ### Component Introduction
-Jcloudhids is the core component of Endpoint Security provided by JD Cloud & AI, is the core of security monitoring and prevention features realized by "Endpoint Security" products, which can provide security features such as Anti-brute Force, Abnormal Login Detection, High-risk Vulnerability Detection. Please refer to: https://www.jdcloud.com/en/products/endpoint-security for Endpoint Security products
+Jcloudhids is a core component of the early-stage Endpoint Security provided by JD Cloud & AI, which can provide security functions such as Anti-brute Force, Abnormal Login Detection and High-risk Vulnerability Detection.
 
-Jcloudhids is installed in Public Image by default. Cloud Marketplacet Image Installation depends on the production status of the service provider. If the feature of image overlaps or conflicts with the feature of Jcloudhidsns, installation of Jcloudhids for the image is not mandatory. Please consult the Cloud Marketplace for details.
+Jcloudhids is installed in Public Image by default currently. Cloud Marketplacet Image Installation depends on the production status of the service provider. If the feature of image overlaps or conflicts with the feature of Jcloudhidsns, installation of Jcloudhids for the image is not mandatory. Please consult the Cloud Marketplace for details.
 
-### Installation Mode
-Please refer to: https://docs.jdcloud.com/en/endpoint-security/getting-started
+Since the component is about to be taken offline, the subsequent security protection function will be provided by the Jdog-Monitor Component stated below, therefore, relevant methods for installation will not be provided here. In the case that you need to install by yourself, please directly refer to the following introduction to Jdog-Monitor Component.
+
 
 
 <div id="user-content-4"></div>
 
 ## Jdog-Monitor
 ### Component Introduction
-Jdog-Monitor is the upgrade plug-in provided by JD Cloud & AI for the core security components to realize maintenance and upgrade for security related components.
+Jdog-Monitor is a core security component self-developed by JD Cloud & AI and is the core of security monitoring and prevention function realized by "Endpoint Security" products, which can security functions such as Anti-brute Force, Abnormal Login Detection, High-risk Vulnerability Detection.
 
 ### Installation Mode
 **Linux：**<br>

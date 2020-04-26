@@ -1,6 +1,6 @@
 # Delete instance
 
-If you no longer need to use a Greenplum instance, you can delete it.
+If you no longer need to use a JDW instance, you can delete it.
 
 ## Note
 
@@ -10,11 +10,11 @@ If you no longer need to use a Greenplum instance, you can delete it.
 
 ## Operation Steps
 
-1. Log in the [Greenplum Console](https://jdw-console.jdcloud.com/list).
+1. Log in the [JDW Console](https://jdw-console.jdcloud.com/list).
 
 2. On the Instance List page, select the instance to be deleted and click **Delete** in the operation item on the right.
 
-   ![1564651371277](../../../../../image/JCS-for-Greenplum/jdw-005.png)
+   ![2](../../../image/RDS/delete-jdw.JPG)
 
 3. In the confirmation popup, click **OK** and wait for the instance deletion to complete.
 

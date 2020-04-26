@@ -1,12 +1,12 @@
 # Connection Instance
 
-JCS for Greenplum provides service based on Greenplum 5.19, is fully compatible with PostgreSQL 8.3 message protocols, and can directly use tools that support PostgreSQL 8.3 message protocols, such as libpq, JDBC, ODBC, psycopg2, pgadmin III, etc.
+Data Warehouse JDW provides service based on the open-source Data Warehouse Greenplum, is fully compatible with PostgreSQL message protocols, and can directly use tools such as libpq, JDBC, ODBC, psycopg2 and pgadmin III that support PostgreSQL message protocols.
 
-The Greenplum official website includes the installation packages of JDBC, ODBC and libpq, which can be easily installed and used by users. For details, see the [Greenplum official document](http://gpdb.docs.pivotal.io/4380/client_tool_guides/drivers/unix/unix_connect.html).
+JDW supports installation packages of JDBC, ODBC and libpq downloaded from Greenplum official website, which is easy for users to install and use. For details, see [Greenplum Official Document](http://gpdb.docs.pivotal.io/4380/client_tool_guides/drivers/unix/unix_connect.html).
 
-psql is a popular Greenplum tool that provides a rich set of commands, of which the binary file is in the BIN directory after Greenplum is installed.
+psql is a common JDW connection tool that provides a rich set of commands with its binary files locating in BIN directory after installation of JDW.
 
-Here's how to connect Greenplum using psql:
+Here’s how to connect Data Warehouse JDW by using psql:
 
 1. How to connect strings
 
@@ -29,6 +29,6 @@ Here's how to connect Greenplum using psql:
 
 Description:
 
-- For more information on how to use the psql of Greenplum, see the document "\[psql](http://gpdb.docs.pivotal.io/4340/client_tool_guides/client/unix/psql.html)".
+- For more information on how to use the psql of JDW, see the document "[psql](http://gpdb.docs.pivotal.io/4340/client_tool_guides/client/unix/psql.html)".
 - The data repository JDW also supports the psql command of PostgreSQL. See [PostgreSQL 8.3.23 Documentation — psql](https://www.postgresql.org/docs/8.3/static/app-psql.html) for details.
 

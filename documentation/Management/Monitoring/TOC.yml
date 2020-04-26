@@ -115,24 +115,36 @@ items:
       href: Metrics/lb.md
     - name: Cloud Database RDS
       href: Metrics/rds.md
+    - name: Cloud Database MongoDB
+      href: Metrics/mongodb.md
     - name: DRDS
       href: Metrics/drds.md
     - name: JCS for Memcached
       href: Metrics/Memcached.md
     - name: JCS for InfluxDB
       href: Metrics/tsds.md
-    - name: JCS for Greenplum
+    - name: Data Warehouse JDW
       href: Metrics/jdw.md
     - name: Data Transmission DTS
       href: Metrics/dts.md
     - name: Object Storage Service
       href: Metrics/oss.md
+    - name: Cloud File Service
+      href: Metrics/zfs.md
     - name: CDN
       href: Metrics/CDN.md
     - name: Message Queue
       href: Metrics/jcq.md
+    - name: Message Queue RabbitMQ Version
+      href: Metrics/RabbitMQ.md
+    - name: Zookeeper
+      href: Metrics/zk.md
     - name: JCS for Elasticsearch
-      href: Metrics/es.md  
+      href: Metrics/es.md
+    - name: Distributed Transaction
+      href: Metrics/jdts.md
+    - name: Bastion
+      href: Metrics/bastion.md 
 - name: Tutorial
   items:
   status: 0

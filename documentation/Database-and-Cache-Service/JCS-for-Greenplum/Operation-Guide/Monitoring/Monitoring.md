@@ -1,10 +1,10 @@
 # View Monitoring Information
 
-The Greenplum Console provides rich performance monitoring data and you can view the running status of an instance at any time.
+The JDW Console provides rich performance monitoring data and you can view the running status of an instance at any time.
 
 ## Operation Steps
 
-1. Log in the [Greenplum Console](https://jdw-console.jdcloud.com/list).
+1. Log in the [JDW Console](https://jdw-console.jdcloud.com/list).
 
 2. On the "Instance List" page, select the target instance and click ** Instance Name** to go to the "Instance Details" page.
 

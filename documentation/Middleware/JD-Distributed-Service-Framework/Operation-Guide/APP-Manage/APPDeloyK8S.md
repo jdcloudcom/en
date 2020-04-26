@@ -3,14 +3,12 @@
 By adopting the fully-hosted management node, JCS for Kubernetes provides simple, easy-to-use, high-reliable and powerful container management service to users. However, on the JD Distributed Service Framework, users can conveniently deploy Kubernetes Container application via Kubernetes deployment. How to realize Kubernetes container application deployment, deletion, application expansion and contraction, configuration of Load Balancer, etc. via JDSF Console are specified as follows.
 
 The followings are covered in this chapter:
-
-- [Deploy Application](#Deploy Application)
-- [Delete Application](#Delete Application)
-- [Scaling](#Scaling)
-- [Configure Load Balancer](#Configure Load Balancer)
-- [Configure Application Log](#Configure Application Log)
-- [Configure Application Monitoring](#Configure Application Monitoring)
-
+- Deploy Application
+- Delete Application
+- Scaling
+- Configure Load Balancer
+- Configure Application Log
+- Configure Application Monitoring
 
 
 ## Operation Scenario
@@ -37,7 +35,9 @@ If a JD Cloud & AI user has created JCS for Kubernetes on JD Cloud & AI, then th
 
 ## Operation Steps
 
-### <a id="Deployment Application">Deployment Application</a>
+
+### Deploy Application
+
 
 #### Step 1: Create a namespace and a Kubernetes cluster resource pool in JDSF
 
@@ -85,7 +85,9 @@ After deployment, operation such as rollback and re-deployment can be made.
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/k8s-bsxq.png)
 
 
-### <a id="Delete Application">Delete Application</a>
+
+
+### Delete Application
 
 1. Log in the JD Distributed Service Framework Console. Click **Application Management** on the left side navigation bar and log in the application list page.
 
@@ -96,7 +98,7 @@ After deployment, operation such as rollback and re-deployment can be made.
 
 
 
-### <a id="Scaling">Scaling</a> 
+### Scaling 
 
 For expansion in Kubernetes resource pool, you can make configuration in JD Distributed Service Framework.
 
@@ -131,7 +133,8 @@ For example, when configuration is made as shown above, the number of applicatio
 
 
 
-### <a id="Configure Load Balancer">Configure Load Balancer</a>
+
+### Configure Load Balancer
 
 
 1. Log in the JD Distributed Service Framework Console. Click **Application Management** on the left side navigation bar and log in the application list page.
@@ -148,7 +151,7 @@ Please refer to [Nginx-ingress controller Deployment](../../../../Elastic-Comput
 
 
 
-### <a id="Configure Application Log">Configure Application Log</a>
+### Configure Application Log
 
 The Application Log shall be configured on "Configuration and Deployment" page.
 
@@ -174,7 +177,9 @@ The Application Log shall be configured on "Configuration and Deployment" page.
 ![](../../../../../image/Internet-Middleware/JD-Distributed-Service-Framework/fqbs-yyrz-rzfw.png)
 
 
-### <a id="Configure Application Monitoring">Configure Application Monitoring</a>
+
+
+### Configure Application Monitoring
 
 Thw Application Monitoring shall be configured on "Configuration and Deployment" page.
 

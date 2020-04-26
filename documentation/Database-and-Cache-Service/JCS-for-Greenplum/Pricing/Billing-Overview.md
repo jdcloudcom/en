@@ -2,11 +2,11 @@
 
 ## Charging Items
 
-Greenplum instances are charged by a combination of node specifications and node counts.
+JDW instances are charged by a combination of node specifications and node counts.
 
 ## Region and Availability Zone
 
-At present, the Greenplum instance price is the same in all the availability zones of all regions.
+At present, the JDW instance price is the same in all the availability zones of all regions.
 
 ## Amount Overdue/Expiry Description
 

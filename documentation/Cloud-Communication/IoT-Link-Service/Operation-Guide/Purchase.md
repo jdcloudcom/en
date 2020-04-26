@@ -1,7 +1,7 @@
 
 # Purchase of IoT Card
 
-Enter into the IoT card service platform, click the **IoT Card Purchase** button on the "Overview" page to move to the IoT card purchase page,
+Enter the IoT Card Service Platform, click **IoT Card Purchase** on the left menu bar and enter the IoT Card Purchase Page.
 
 ![物联网卡购买](../../../../image/Query-Card-Service/0.png)
 

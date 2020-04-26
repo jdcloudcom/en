@@ -1,8 +1,8 @@
-# Migrate MySQL data to Greenplum
+# Migrate MySQL data to JDW
 
 
 
-py-mysql2pgsql is an open-source data migration tool, supporting migration tables in MySQL to Greenplum. It can be connected to the source end MySQL database and the target database at the same time, search from MySQL database, get data to be exported and import the same to the target end with the command COPY.
+py-mysql2pgsql is an open-source data migration tool, supporting migration tables in MySQL to JDW. It can be connected to the source end MySQL database and the target database at the same time, search from MySQL database, get data to be exported and import the same to the target end with the command COPY.
 
 ## Installation Description
 

@@ -105,6 +105,17 @@
         - name: Reboot Read-only Instance
           herf: Operation-Guide/Readonly-Instance-Management/Restart-Readonly-Instance.md
 
+      - name: Manage read-only proxy
+        items:
+        - name: Create read-only proxy
+          herf: Operation-Guide/Readonly-Group/Create-ReadonlyGroup.md
+        - name: Delete read-only proxy
+          herf: Operation-Guide/Readonly-Group/Delete-ReadonlyGroup.md
+        - name: Access read-only proxy through Internet
+          herf: Operation-Guide/Readonly-Group/Internet-Access-RO.md
+        - name: Modify read-only proxy
+          herf: Operation-Guide/Readonly-Group/Modify-ReadonlyGroup.md          
+
       - name: Manage read-write separation proxy
         items:
         - name: Create read-write separation proxy
@@ -114,7 +125,7 @@
         - name: Reset read-write separation proxy
           herf: Operation-Guide/ReadWriteProxy/Reset-ReadWriteProxy.md
         - name: Read-write separation proxy Internet access
-          herf: Operation-Guide/ReadWriteProxy/Internet-Access.md
+          herf: Operation-Guide/ReadWriteProxy/Internet-Access-RW.md
 
       - name: Account Management
         items:
@@ -130,6 +141,8 @@
               herf: Operation-Guide/Account/Create-Account/SQLServer-Create-Account.md
             - name: PostgreSQL Create Account
               herf: Operation-Guide/Account/Create-Account/PostgreSQL-Create-Account.md
+          - name: Operation and maintenance account
+            herf: Operation-Guide/Account/Ops-Account.md
           - name: Modify Privilege
             herf: Operation-Guide/Account/Modify-Privilege.md
           - name: Reset Password

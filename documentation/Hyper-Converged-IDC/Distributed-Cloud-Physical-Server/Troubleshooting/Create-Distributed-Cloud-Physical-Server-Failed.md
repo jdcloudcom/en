@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-The user cannot create an instance successfully when he logs in the Console page and clicks **Create Instance**.
+The user cannot create an instance successfully when logging in the Console page of Distributed Cloud Physical Server and clicking **Create Instance**.
 
 ## Possible Reason
 ### Processing Steps

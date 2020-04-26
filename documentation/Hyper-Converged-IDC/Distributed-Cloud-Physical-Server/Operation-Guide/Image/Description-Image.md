@@ -1,11 +1,11 @@
-# Image Use Instructions
+## Image
 
-## Function Description
+### Function Description
 
-Image is the running environment template of Distributed Cloud Physical Server. There is only the "standard image" mode at the moment.
+Image is a template of instance running environment, including an operating system and pre-installed software and related configurations. The "Standard Image" mode is supported.
 
-### Standard Image
-Currently the standard image of Distributed Cloud Physical Server supports:
+#### Standard Image
+The supported standard images currently include:
 
 |Operating System|Kernel Version|
 |:--:|:--|
@@ -19,3 +19,11 @@ Currently the standard image of Distributed Cloud Physical Server supports:
 
 
 [Description] The Distributed Cloud Physical Server only provides official standard image and does not support kernel version upgrade. If the user upgrades the kernel version on its own, unavailability to log in to the system or data loss may be caused. The user shall assess the risks on his/her own and be cautious to operate.
+
+### Operation Steps
+
+1. Click **Buy Now** on the product page in JD Cloud & AI's official website, and redirect to the Distributed Cloud Physical Server Console page. (Under the condition of real-name verified)
+
+2. Select the node and operator and click **Create** to redirect to the creation page.
+
+3. Select image based on demands on the creation page. The type of "Standard Image" is supported at this stage. The "Standard Image" supports CentOS7.1, 7.2, 7.5 and 6.6, Ubuntu 18.04, 16.04 and 14.04;

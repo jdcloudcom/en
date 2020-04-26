@@ -31,12 +31,13 @@ Check items for different database types are listed below. Please check relevant
 | Check Item               | Description                                       |
 | -------------------- | ------------------------------------------ |
 | Source Database Connectivity Check | Source Database Connectivity Check                             |
-| Source Database Connectivity Check | Source Database Connectivity Check                             |
+| Check Source Database Permission         | Check if the source database account meet the migration requirements               |
 | Source Database DB Existence Check | Check if DB to be migrated is existed in the source database                   |
 | Source Database Table Existence Check | Check if DB to be migrated is existed in the source database                   |
 | Source Database Table Primary Key Check | Check if the primary key is existed in the source database that cannot be migrated without the primary key  |
 | Source Database Recovery Mode Monitoring | Check if Recovery mode of source database is FULL             |
 | Target Database Connectivity Check | Check if the target database can be connected                       |
+| Check Target Database Permission       | Check if the target database account meet the migration requirements             |
 | Target Database DB Existence Check | Check if DB having the same name with the data is existed in the target database     |
 | Database Version Check | Check if the version of source database version and target database can meet migration requirements |
 
@@ -54,4 +55,3 @@ Check items for different database types are listed below. Please check relevant
 | Target Database Permission Check | Check if the target database account can meet migration requirements                 |
 | Target Database Collection Existence Check | Check if Collection having the same name with the data is existed in the target database |
 | Target Database Version Check | Check if the target database version can meet migration requirements                 |
-

@@ -32,9 +32,11 @@ In the pay-as-you-go mode, the bill for the previous hour will be generated acco
 
 ## No fees for stopped instances feature
 
-The operation of No Fees for Stopped Instances feature can be enabled for Cloud Disk System Disk instances with billing method of pay by configuration.
+The operation of No Fees for Stopped Instances can be enabled for instances with automatic selection of host machine as the instance scheduling method, pay by configuration as the billing method, and cloud disk service as the system disk.
 
 No fees for stopped instances feature will release your computing resources (such as vCPU, GPU, memory and local data disk) on the premise of retaining instances, stop charging for such resources, but release of resources may cause failure to enable instances and you can try again the enabling in such situation. For short-time disabling operation due to rebuilding and resizing, you are not suggested to enable the function of No Fees for Stopped Instances feature.
+
+At present, such function is the one under closed beta and if you want to enable No Fees for Stopped Instances, please apply for that through opening ticket or contacting customer service.
 
 ### Instructions for Service Stop Due to Arrears
 * If the available balance of your account (including cash balance, available coupons) cannot settle the issued bill of the instance, the system will determine the instance in arrears and your instance billing state will become in arrears;
@@ -75,7 +77,7 @@ Free use of monitoring and Load Balancer|Support|Support
 
 [Delete Instance](../Operation-Guide/Instance/Stop-Instance.md)
 
-[Enable/Disable No Fees for Stopped Instances feature](../Operation-Guide/Instance/uncharged_for_stopped_vm.md)
+[Instance No Fees for Stopped Instances feature](../Operation-Guide/Instance/uncharged_for_stopped_vm.md)
 
 
 

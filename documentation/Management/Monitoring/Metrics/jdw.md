@@ -1,4 +1,4 @@
-## JCS for Greenplum
+## Data Warehouse JDW
 
 The servicecode of the product is jdw and viewing monitoring data of the Master node and the Segment node is supported.
 

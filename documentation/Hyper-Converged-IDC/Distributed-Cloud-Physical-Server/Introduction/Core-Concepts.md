@@ -8,19 +8,18 @@ Scenario applicable to Distributed Cloud Physical Server, consisting of differen
 
 Private and public instance service addresses, i.e. **private IP and public IP addresses**.
 
-Operation interface based on Web, i.e. **JD Cloud Console**.
+Operation interface based on Web, i.e. **JD Cloud & AI Console**.
 
 ## Concept Details
 
 ### Instance
-Distributed physical computing resources on cloud, namely one Cloud Physical Server running in the edge node, also instance. Instance is a JD Cloud Distributed Cloud Physical Server purchased by a user. JD Cloud provides instances with different storage space, computing capability and storage redundancy to meet different requirements of user for instances under different business scenarios. When a user purchases one instance, he or she may obtain its complete control right, including startup, shutdown, reboot, etc.
+Distributed physical computing resources on cloud, namely one Cloud Physical Server running in the edge node, also instance. Instance is a JD Cloud & AI Distributed Cloud Physical Server purchased by a user. JD Cloud & AI provides instances with different storage space, computing capability and storage redundancy to meet different requirements of user for instances under different business scenarios. When a user purchases one instance, he or she may obtain its complete control right, including startup, shutdown, reboot, etc.
 
 ### Node and Operator
-We use Node and Operator to describe the location where the Distributed Cloud Physical Server is located, and you may purchase the Distributed Cloud Physical Server at a specific edge node and operator.
+Node means different geological locations (region-city) of edge data center of JD Cloud & AI. Different nodes are absolutely isolated, providing services which are communicated via the public network.<br/>
+Operator means Telecom, Unicom and Telecom.
 
-Node refers to edge node, namely region-city. Operator refers to Telecom, Unicom and Telecom.
-
-Operator edge nodes opened for sale by the Distributed Cloud Physical Server are as below.
+Nodes opened for sale by the Distributed Cloud Physical Server are as below.
 
 <table>
     <tr>

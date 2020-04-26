@@ -1,9 +1,10 @@
-# Price Overview
+## Price Overview
 
-The price of Distributed Cloud Physical Server instances mainly includes the Distributed Cloud Physical Server price and Elastic IP price (if Elastic IP has been purchased).
-The currently released node is East China-Taizhou.
+Prices in Price Overview are unified official prices, excluding user discount. To ensure the accuracy of price, we recommend that you log in the Console Resource Creation Page to view specific prices, which will be subject to the selected node and ISP line when you purchase.<br/>
 
-## Distributed Cloud Physical Server Price
+Distributed Cloud Physical Server supports billing types of monthly package and pay by configuration.<br/>
+
+### Distributed Cloud Physical Server Price
 
 
 <table>
@@ -43,9 +44,9 @@ The currently released node is East China-Taizhou.
     </tr>
 </table>
 
+Elastic IP supports billing types of monthly package and pay by configuration.
 
-
-## Elastic IP Price
+### Elastic IP Price
 
 **Billing by Fixed Bandwidth**
 
@@ -54,7 +55,7 @@ The currently released node is East China-Taizhou.
        <td rowspan="2"><B>ISP Line</B></td>
        <td rowspan="2"><B>Node</B></td>
        <td rowspan="2"><B>Charging Items</B></td>
-       <td rowspan="2"><B>Bandwidth</B></td>
+       <td rowspan="2"><B>Bandwidth Value</B></td>
        <td ><B>Monthly Package Price</B></td>
        <td ><B>Pay By Configuration Price</B></td>
    </tr>
@@ -68,75 +69,109 @@ The currently released node is East China-Taizhou.
       <td rowspan="12">East China-Taizhou<br/>
       <td rowspan="6">Bandwidth</td>
       <td>1Mbps</td>
-      <td>19</td>
-      <td>0.04</td>
+      <td>24</td>
+      <td>0.081</td>
       
    </tr>
    <tr>
       <td>2Mbps</td>
-      <td>38</td>
-      <td>0.08</td>
+      <td>49</td>
+      <td>0.162</td>
       
    </tr>
    <tr>
      <td>3Mbps</td>
-     <td>57</td>
-     <td>0.12</td>
+     <td>73</td>
+     <td>0.243</td>
 	
    </tr>
    <tr>
      <td>4Mbps</td>
-     <td>76</td>
-     <td>0.16</td>
+     <td>97</td>
+     <td>0.324</td>
      
    </tr>
    <tr>
      <td>5Mbps</td>
-     <td>95</td>
-     <td>0.2</td>
+     <td>121</td>
+     <td>0.405</td>
      
    </tr>
    <tr>
      <td>6Mbps and above, n is the bandwidth value</td>
-     <td>n*19</td>
-     <td>n*0.04</td>
+     <td>n*24.3</td>
+     <td>n*0.081</td>
   </tr>
   <tr>
-        <td rowspan="6">Additional Uplink Bandwidth</td>
-        <td>1Mbps</td>
-        <td>4</td>
-	 <td>0.01</td>
-    </tr>
-    <tr>
-        <td>2Mbps</td>
-        <td>8</td>
-	<td>0.02</td>
-    </tr>
-    <tr>
-        <td>3Mbps</td>
-        <td>12</td>  
-	 <td>0.03</td>
-    </tr>
-    <tr>
-        <td>4Mbps</td>
-        <td>16</td>
-	 <td>0.04</td>
-    </tr>
-    <tr>
-        <td>5Mbps</td>
-        <td>20</td>
-	 <td>0.05</td>
-    </tr>
-    <tr>
-        <td>6Mbps and above, n is the bandwidth value</td>
-        <td>n*4</td>
-	 <td>n*0.01</td>
+        <td rowspan="1">Additional Uplink Bandwidth</td>
+        <td>n is the bandwidth value (n>=0), cost per Mbps</td>
+        <td>n*7.5</td>
+	 <td>n*0.025</td>
     </tr>
 </table>
 
+Shared Bandwidth supports billing types of monthly package and pay by configuration.
 
+### Shared Bandwidth Price
 
-Note:
+**Billing by Fixed Bandwidth**
 
-The Elastic IP prices are different depending on the nodes and ISP Line type. The specific price is subject to the node and ISP Line selected at the time of purchase.
-
+<table>
+   <tr>
+       <td rowspan="2"><B>ISP Line</B></td>
+       <td rowspan="2"><B>Node</B></td>
+       <td rowspan="2"><B>Billing Items</B></td>
+       <td rowspan="2"><B>Bandwidth Value</B></td>
+       <td ><B>Monthly Package Price</B></td>
+       <td ><B>Pay By Configuration Price</B></td>
+   </tr>
+   <tr>
+       <td><B>RMB/Month</B></td>
+       <td><B>RMB/Hour</B></td>
+     
+   </tr>
+   <tr>
+      <td rowspan="12">Telecom</td>
+      <td rowspan="12">East China-Taizhou<br/>
+      <td rowspan="6">Bandwidth</td>
+      <td>1Mbps</td>
+      <td>24</td>
+      <td>0.081</td>
+      
+   </tr>
+   <tr>
+      <td>2Mbps</td>
+      <td>49</td>
+      <td>0.162</td>
+      
+   </tr>
+   <tr>
+     <td>3Mbps</td>
+     <td>73</td>
+     <td>0.243</td>
+	
+   </tr>
+   <tr>
+     <td>4Mbps</td>
+     <td>97</td>
+     <td>0.324</td>
+     
+   </tr>
+   <tr>
+     <td>5Mbps</td>
+     <td>121</td>
+     <td>0.405</td>
+     
+   </tr>
+   <tr>
+     <td>6Mbps and above, n is the bandwidth value (n>=6), cost per Mbps</td>
+     <td>n*24.3</td>
+     <td>n*0.081</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Additional Uplink Bandwidth</td>
+        <td>n is the bandwidth value (n>=0), cost per Mbps</td>
+        <td>n*7.5</td>
+	 <td>n*0.025</td>
+    </tr>
+</table>

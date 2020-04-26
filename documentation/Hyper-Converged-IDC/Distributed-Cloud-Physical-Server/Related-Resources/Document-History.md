@@ -12,3 +12,5 @@ This document introduces the important update history of the Distributed Cloud P
 |2019.10.30|V1.4|Creation and association of alias IP ranges are supported;|
 |2019.12.23|V1.5|Support Audit Trail function;|
 |2019.12.27|V1.6|support tag function of instances;|
+|2020.04.08|V1.6.1|Launch by Converting Beta to GA;|
+|2020.04.17|V1.7|Support double network interface, double VPC, Shared Bandwidth functions of instances;|

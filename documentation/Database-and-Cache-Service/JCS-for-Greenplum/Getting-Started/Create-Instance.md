@@ -1,6 +1,6 @@
 # Create instance
 
-You can quickly create Greenplum instances through the JCS for Greenplum Console. This article introduces how to create JDW instances through the Console.
+You can quickly create JDW instances through the Data Warehouse JDW Console. This article introduces how to create JDW instances through the Console.
 
 ## Preconditions
 
@@ -23,7 +23,7 @@ You can quickly create Greenplum instances through the JCS for Greenplum Console
 
    - Region
 
-     JD Cloud’s Data Centers are distributed in many worldwide locations which are referred as the regions. JCS for Greenplum currently supports cn-north-1, and will support more regions in the future.
+     JD Cloud’s Data Centers are distributed in many worldwide locations which are referred as the regions. Data Warehouse JDW currently supports cn-north-1 and will support more regions in the future.
 
      Description:
 
@@ -33,33 +33,33 @@ You can quickly create Greenplum instances through the JCS for Greenplum Console
 
    - Specification
 
-     Support selection of node specifications and node counts. The node is the data node of the Greenplum instance, that is, the Segment node.
+     Support selection of node specifications and node counts. The node is the data node of the JDW instance, that is, the Segment node.
 
      - As for the node specification, support jdw.dc1.large (2vcpu /16G Mem /160G SSD), jdw.dc1.large (2vcpu /16G Mem /160G SSD) two specifications.
-     - As for node counts, support 2-8 nodes.
+     - As for node counts, support 2-16 nodes.
 
    - Network
 
-     JCS for Greenplum supports VPC deployment, and please firstly go to create VPC and subnets, if you haven’t completed network planning yet.
+     Data Warehouse JDW supports VPC deployment, and please firstly go to create VPC and subnets, if you haven’t completed network planning yet.
 
-     The Greenplum instance cannot be changed after VPC is selected. Please make sure that your Greenplum instance is in the same VPC as Virtual Machines, for avoiding that your Virtual Machines cannot connect to Greenplum instances.
+     The JDW instance cannot be changed after VPC is selected. Please make sure that your JDW instance is in the same VPC as Virtual Machines, for avoiding that your Virtual Machines cannot connect to JDW instances.
 
    - Accounts
 
      It is optional whether to create accounts while creating instances. It is allowed to create accounts immediately or after instance creation is completed.
 
-     The account is of high permission type, each Greenplum instance only supports creation of one account at the Console. You can create other accounts through this account.
+     The account is of high permission type, each JDW instance only supports creation of one account at the Console. You can create other accounts through this account.
 
    - Purchase
 
-     If the monthly package is selected as the billing type, the purchase duration shall be determined. JCS for Greenplum supports a choice of 1 month to 3 years. Generally, the longer the purchase time, the cheaper the unit price, and the specific discount information can be viewed at the time duration of instance page creation.
+     If the monthly package is selected as the billing type, the purchase duration shall be determined. Data Warehouse JDW supports a choice of 1 month to 3 years. Generally, the longer the purchase time, the cheaper the unit price, and the specific discount information can be viewed at the time duration of instance page creation.
 
 5. Click **Buy Now** to enter the "Order Confirmation" page.
 
-6. Confirm the instance information on the "Order Confirmation" page and read the JCS for Greenplum Service Terms.
+6. Confirm the instance information on the "Order Confirmation" page and read the Data Warehouse JDW Service Terms.
 
    - Please click **Instant Account Setup** in case the billing type is pay by configuration.
    - If the billing type is monthly package, please click **Pay Now** to enter the "Order Payment" page to complete the payment process.
 
-7. After the payment process is completed, the page will automatically redirect to "Greenplum Instance List" page to wait for completion of the instance creation. You can view the newly created Greenplum instance on the "Instance List" page.
+7. After the payment process is completed, the page will automatically redirect to "JDW Instance List" page to wait for completion of the instance creation. You can view the newly created JDW instance on the "Instance List" page.
 

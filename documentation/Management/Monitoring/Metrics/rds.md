@@ -72,7 +72,7 @@ database.DBMonitor.Innodb.table_locks_waited|等待表锁次数|Table locks wait
 database.DBMonitor.Innodb.innodb_row_lock_waits|InnoDB等待行锁次数|InnoDB row lock waits|Times/second|
 database.DBMonitor.Innodb.innodb_row_lock_time_avg|InnoDB平均获取行锁时间|InnoDB row lock time avg|ms|
 database.DBMonitor.slowlog_count|慢查询|Slow query|Times|
-database.DBMonitor.Seconds_Behind_Master|只读延迟|Readonly latency|s| Read-only instances have no such indicator
+database.DBMonitor.Seconds_Behind_Master|只读延迟|Readonly latency|s| Master and backup instances have no such indicator
 database.docker.disk1.used|硬盘使用率|Disk Usage|%|
 database.docker.disk1.total.kb|硬盘总大小|Disk Size|KB|
 

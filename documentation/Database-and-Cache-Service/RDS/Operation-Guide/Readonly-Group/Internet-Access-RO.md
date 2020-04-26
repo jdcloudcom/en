@@ -13,10 +13,10 @@ Configure the Internet access for the read-only proxy
 2. Select the target instance of which the read-only proxy Internet access needs to be enabled, click target instance name, and enter the Details of the instance.
 3. Select the ***Read-only Proxy*** tag, and open up the read-only proxy management page.
 4. Upon clicking the **Enable the Read-write Proxy Internet Access** button, a secondary confirmation popup will pop up.
-![外网访问1](../../../../../image/RDS/Internet-Access-ReadWriteProxy-default.png)
+![外网访问1](../../../../../image/RDS/Internet-Access-ReadOnlyProxy-default.png)
 
 5. Click the **OK** button in the secondary confirmation popup.
-![外网访问2](../../../../../image/RDS/Internet-Access-ReadWriteProxy-open.png)
+![外网访问2](../../../../../image/RDS/Internet-Access-ReadOnlyProxy-open.png)
 
 6. After the Internet Access is enabled, the system will automatically allocate an Internet domain address.
 

@@ -139,7 +139,7 @@ fluid :  true // Video size is of self-adaption according to the container
 ```
 
 #### 4.3 Implementation Case
-The setting and switching functions of multiple resolutions are used. The on-line example is as follows. You can right click [View Web Source Code] in the PC browser to view the web code implementation: <a href="https://j.jdcloud.com/video/player/1.0.0/index.html">Resolution Implementation</a>
+The setting and switching functions of multiple resolutions are used. The on-line example is as follows. You can right click [View Web Source Code] in the PC browser to view the web code implementation: <a href="https://j.jdcloud.com/video/player/index.html">Resolution Implementation</a>
 
 Under normal circumstances, you will see the effect as follows:
 ![播放器多分辨率.png](https://github.com/jdcloudcom/cn/blob/cn-Player-Service-SDK/image/Player-Service-SDK/web%E6%92%AD%E6%94%BE%E5%99%A82.png)

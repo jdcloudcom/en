@@ -93,7 +93,7 @@
 |8-core 32GB|8000|
 |16-core 64GB|16000|
 
-Bucket (GB): 100-3000; Step Length: 10GB.
+Bucket (GB): 70-4000; Step Length: 10GB.
 
 Calculation formula for IOPS: IOPS= min{1300 + 30 x bucket, 32000}.
 
@@ -192,6 +192,6 @@ Calculation formula for IOPS: IOPS= min{1300 + 30 x bucket, 32000}.
 |8-core 32GB|8000|
 |16-core 64GB|16000|
 
-Bucket (GB): 100-3000; Step Length: 10GB.
+Bucket (GB): 70-4000; Step Length: 10GB.
 
 Calculation formula for IOPS: IOPS= min{1300 + 30 x bucket, 32000}.

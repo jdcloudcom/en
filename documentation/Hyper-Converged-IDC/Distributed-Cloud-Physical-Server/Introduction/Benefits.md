@@ -1,6 +1,6 @@
 # Benefits
 
-Compared with self-built ones, using Distributed Cloud Physical Server may be more convenient and efficient for building your business, and JD Cloud provides intranet, public network, operation and maintenance, monitoring and other abilities. You just need to confirm the configuration and count of the Distributed Cloud Physical Server to easily and rapidly deploy the business.
+Compared with self-built ones, using Distributed Cloud Physical Server may be more convenient and efficient for building your business, and JD Cloud & AI provides intranet, public network, operation and maintenance, monitoring and other abilities. You just need to confirm the configuration and count of the Distributed Cloud Physical Server to easily and rapidly deploy the business.
 
 
 |**Benefits**|**Distributed Cloud Physical Server**|**Hosted Method Self-built Node**|

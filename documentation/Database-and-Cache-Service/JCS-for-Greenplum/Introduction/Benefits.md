@@ -2,7 +2,7 @@
 
 ## Quick Deployment
 
-After required node specification and quantity through the Console is selected, Greenplum instance can be created within the several minutes to be put into the business application rapidly with shortened business waiting time.
+After required node specification and quantity through the Console is selected, JDW instance can be created within the several minutes to be put into the business application rapidly with shortened business waiting time.
 
 ## High Service Availability
 

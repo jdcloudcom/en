@@ -23,5 +23,5 @@ You can search the traffic pools purchased by different conditions and carry out
 
 Click the link **Details** on the "Operation" bar of the traffic pool list, and then you can view details of IoT cards in traffic pools, enable and disable traffic of IoT cards in traffic pools as well as stop and restart service of the card.
 
-![物联网卡](../../../../image/Query-Card-Service/4-2.png)
+![物联网卡](../../../../image/Query-Card-Service/4-1.png)
 

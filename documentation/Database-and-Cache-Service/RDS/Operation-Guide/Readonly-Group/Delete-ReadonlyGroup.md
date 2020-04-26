@@ -10,4 +10,4 @@ When the business no longer needs the read-only instance and read-only proxy, yo
 3. Select the ***Read-only Instance Management*** tag, open the read-only management page, select the read-only proxy to be deleted, click the ***Delete** button to delete the read-only proxy.
 4. Click the **OK** button in the **Delete** popup, and submit the request to delete the read-only proxy.
     
-    ![image2018-3-2 13_58_33.png](https://img1.jcloudcs.com/cms/e13a1926-043c-49e1-a94c-c27f1491f3bc20180302140739.png)
+   ![删除只读代理](../../../../../image/RDS/Readonlygroup-Delete.png)

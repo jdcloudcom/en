@@ -115,3 +115,11 @@ Multiple RDS service instance indexes can be viewed on the console. Through the 
 |Current Connection Number|Active and Total Connection Numbers of Instance|60 Seconds/Time|30 Days|
 |Data Request|Scan and return row numbers of instance|60 seconds/time|30 days|
 |Table Level Lock|Information about table lock of instance|60 seconds/time|30 days|
+|Total count of reading and writing (adding, deleting, modifying and checking) requests per minute | Total count of reading and writing, reading and writing requests sent by instance per minute | 60 seconds/request | 30 days|
+|Dilation Point | The time point at which instances reclaim useless cache | 60 seconds/request | 30 days|
+|Average execution time of SQL request | Average execution time of all AQL request (excluding SQL in transaction) and average value of the TOP 10 SQL with the longest and shortest execution time | 60 seconds/request | 30 days|
+|Latency synchronization between the primary database and the standby database | Synchronized delay between the primary repository and standby repository of instances | 60 seconds/request | 30 days|
+|Read-only latency synchronization | Synchronized delay between the main instances and the standby instances | 60 seconds/request | 30 days|
+
+
+

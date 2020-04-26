@@ -18,6 +18,12 @@ The instance must be in the "Running" status. If the instance is in the "Stopped
 4. Single Operation: Click **Operate** - **Stop**, or click the instance name to enter the details page and click **Operate** - **Stop**;
 <br>Batch operation: Click **Stop** below the list
 ![](../../../../../image/vm/stopinstance.png)
-5. In the "Stop Instance" pop-up window, confirm the information and click **OK** to submit the start.
+5. In the "Stop Instance" pop-up window, confirm the information and click **OK** to submit the start. For instances meeting conditions of [No Fees for Stopped Instances](uncharged_for_stopped_vm.md) (closed beta), you shall confirm once again whether the No Fees for Stopped Instances feature of the current instance is enabled during confirmation of information.
+
 
 When instance enters the "Stopping" status, instance shall not be able to perform other operations. When the stop is complete, the instance will enter the "Stopped" status.
+
+
+## Related References
+
+[No Fees for Stopped Instances](uncharged_for_stopped_vm.md)

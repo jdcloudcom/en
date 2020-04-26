@@ -87,7 +87,7 @@ items:
             href: Operation-Guide/Instance/Search-Instance.md
           - name: Restart Inatance in Expiration/Arrears
             href: Operation-Guide/Instance/Restart-Overdue-or-Arrear-Instance.md
-          - name: Enable/Disable the No Fees for Stopped Instances feature
+          - name: No Fees for Stopped Instances
             href: Operation-Guide/Instance/uncharged_for_stopped_vm.md    
           - name: Export Instance Information
             href: Operation-Guide/Instance/Export-Instance.md

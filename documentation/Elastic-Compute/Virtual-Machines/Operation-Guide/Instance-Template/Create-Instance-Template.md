@@ -88,6 +88,15 @@
 
 The instance template service is free, the information you have configured is displayed on the right side of the create page, and the estimated cost based on the instance template and your configuration is also displayed: Including monthly cost in the case of monthly package and hourly cost in the case of billing by configuration. It includes the cost of the cloud disk and the EIP with billing by fixed bandwidth, the EIP cost should be listed separately if you choose billing by traffic.
 
+11. Configuration of Advanced Option:
+
+
+	In the Advanced Option, the No Fees for Stopped Instances feature (closed beta) can be set for the instances created based on the enabling template. In the case that the instances in your template meet applicable conditions for the No Fees for Stopped Instances feature, JD Cloud & AI will preferentially set enabling/disabling of the function in accordance with the default status of No Fees for Stopped Instances feature and you can modify the status here as per your actual business situation. For the instances enabling the No Fees for Stopped Instances feature, their vCPU, GPU, memory and local data disk resource will be released and JD Cloud & AI will stop the billing of such instances. When you re-enable such instances, you may fail to enable them due to insufficient inventory of resource database.
+	
+	In the case that you have enabled the No Fees for Stopped Instances feature in instance template and created instances with Monthly Package as the billing method based on such template, the No Fees for Stopped Instances feature of such instances will automatically become not applicable. This is because you have made one-off payment to fees for using resources for a month, several months or several years during which your resources will not be released and you can use the resources all the way.
+	
+	For detailed introduction, applicable conditions and other information of the No Fees for Stopped Instances feature, please refer to [No Fees for Stopped Instances](../Instance/uncharged_for_stopped_vm.md).
+
 ## Related Reference
 
 [Public IP Price](http://docs.jdcloud.com/en/elastic-ip/price-overview)
@@ -95,3 +104,5 @@ The instance template service is free, the information you have configured is di
 [Instance Type](http://docs.jdcloud.com/en/virtual-machines/instance-type-family)
 
 [Key Pair](../Key-Pair/KeyPair-Overview.md)
+
+[No Fees for Stopped Instances](../Instance/uncharged_for_stopped_vm.md)

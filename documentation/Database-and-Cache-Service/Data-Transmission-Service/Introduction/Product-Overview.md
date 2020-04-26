@@ -19,4 +19,5 @@ Data transmission DTS is the database migration service provided by JD Cloud & A
 
 **Supported Region**
 
-Now, only two regions are supported, i.e., "cn-north-1" and "cn-east-2". Later, more regions will be covered.
+Now, only three regions are supported, i.e., "cn-north-1", "cn-south-1" and "cn-east-2". Later, more regions will be covered.
+

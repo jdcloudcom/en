@@ -8,6 +8,8 @@ Login System Configuration > Security Configuration page
 
 ![](/image/Bastion/security.png) 
 
+   Access Key ID: Provide Access Key ID and Access Key Secret to users, otherwise, the functions "Session Audit" and "Audit Trail" cannot be normally used. Access Key ID and Access Key Secret are your keys to access JD Cloud API, with which you can operate all resources under your name. For the security of your properties and services, please properly keep and change the keys regularly. For more details, please see [Accesskey Management](../../../../User-Service/Account-Management/AccessKey-Management.md).
+   
    Login timeout: Edit login time-out period and then click **OK** to complete change.
    
    Password failure times: Edit the password failure times and click **OK** to finish change.
@@ -37,6 +39,8 @@ Under automatic deletion mode, setting of automatically deleting data of XX days
 
 ## Log Backup
 
+Via the log backup function, you can conveniently download audit logs of any time periods.
+
 **Operation Steps**
 
 1. Login System > Log Backup tab
@@ -46,6 +50,8 @@ Under automatic deletion mode, setting of automatically deleting data of XX days
 ![](/image/Bastion/backup.png) 
 
    Select a time range and contents to be outputted (operation logs and session logs) to output backup files.
-   
+ 
+3. Backup log files support download and edition of remarks.
 
+![](/image/Bastion/backup2.png) 
 

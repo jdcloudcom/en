@@ -1,4 +1,10 @@
-## Operation Steps
+## Remote Login
+
+### Function Description
+
+You may use remote connection software to implement the remote management and control of Distributed Cloud Physical Server.
+
+### Operation Steps
 
 **1. Obtain login passwords**
 

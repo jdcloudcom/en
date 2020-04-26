@@ -4,7 +4,7 @@
 
 ### Quick Deployment
 
-Through the Greenplum Console, Greenplum instances can be created in several minutes.
+Through the JDW Console, JDW instances can be created in several minutes.
 
 ### Flexible Configuration
 
@@ -24,7 +24,7 @@ The data storage is based on SSD RAID10 to realize data redundancy to protect da
 
 ### VPC (Virtual Private Cloud)
 
-The Greenplum instance is deployed in a user customized VPC, and network isolation protection is performed directly at the TCP layer to ensure data security.
+The JDW instance is deployed in a user customized VPC, and network isolation protection is performed directly at the TCP layer to ensure data security.
 
 ### IP White List
 
@@ -34,7 +34,7 @@ The Greenplum instance is deployed in a user customized VPC, and network isolati
 
 ### Visual Monitoring
 
-The Greenplum Console provides rich monitoring information, including CPUs, memories, buckets, IOPS, network bucket, etc. You can view the running status of instances at any time.
+The JDW Console provides rich monitoring information, including CPUs, memories, buckets, IOPS, network bucket, etc. You can view the running status of instances at any time.
 
 ### Automatic Alarm
 

@@ -1,6 +1,6 @@
 # Billing Rules
 
-JCS for Greenplum supports two billing types:
+Data Warehouse JDW supports two billing types:
 
 - Monthly Package Billing
 - Pay By Configuration
@@ -11,7 +11,7 @@ The monthly package is pay-in-advance type, with a one-time fee of one month, se
 
 ### Examples
 
-If you purchase the Greenplum instance for 6 months at 10:00:00 on August 2, 2017, with the unit price of RMB 108, you need to pay RMB 648=6*56 and you can use this resource till 23:59:59 on February 2, 2018.
+If you purchase the JDW instance for 6 months at 10:00:00 on August 2, 2017, with the unit price of RMB 108, you need to pay RMB 648=6*56 and you can use this resource till 23:59:59 on February 2, 2018.
 
 ## Pay by Configuration
 

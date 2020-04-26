@@ -4,11 +4,11 @@ If you forget your password, or if you need to reset your password, or if you di
 
 ## Operation Instructions
 
-The password modification provided by the Greenplum Console is to modify the high permission account password.
+The password modification provided by the JDW Console is to modify the high permission account password.
 
 ## Operation Steps
 
-1. Log in the [Greenplum Console](http://jdw-console.jdcloud.com/list).
+1. Log in the [JDW Console](http://jdw-console.jdcloud.com/list).
 
 2. On the "Instance List" page, select the target instance and click ** Instance Name** to go to the Instance Details page.
 

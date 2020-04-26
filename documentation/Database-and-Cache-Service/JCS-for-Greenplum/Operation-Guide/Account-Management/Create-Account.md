@@ -1,6 +1,6 @@
 # Create Account
 
-Each Greenplum instance can create a high permission account through the Console, through which other accounts can be created.
+Each JDW instance can create a high permission account through the Console, through which other accounts can be created.
 
 ## Preconditions
 
@@ -8,13 +8,13 @@ Each Greenplum instance can create a high permission account through the Console
 
 ## Operation Steps
 
-1. Log in the [Greenplum Console](http://jdw-console.jdcloud.com/list).
+1. Log in the [JDW Console](http://jdw-console.jdcloud.com/list).
 
 2. On the "Instance List" page, select the target instance and click ** Instance Name** to go to the Instance Details page.
 
 3. Click **Account Management** on the Instance Details page to enter the "Account Management" page.
 
-   ![1564651799808](../../../../../image/JCS-for-Greenplum/jdw-006.png)
+   ![6](../../../image/RDS/create-jdw.png)
 
 4. Click **Create Account**, **Open the Account Create Popup**.
 

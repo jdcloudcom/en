@@ -46,7 +46,7 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 128GB|1500|11424|26.06|
 |16-core 128GB|2000|11824|26.96|
 
-### Local Disk NVMe 
+## Local Disk NVMe 
 |Instance Type|Bucket (GB)|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
 |---|---|---|---|
 |1-core 1GB|20|107|0.24|
@@ -84,7 +84,21 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 64GB|2000|7712|17.56|
 |16-core 64GB|3000|8912|20.26|
 
-## MariaDB Read-only Instance
+## SSD Cloud Disk 
+|Instance Type|Monthly Package (RMB/Month)|Pay by Configuration (RMB/Hour)|
+|---|---|---|
+|1-core 1GB|83|0.19|
+|1-core 2GB|166|0.38|
+|1-core 4GB|332|0.76|
+|2-core 8GB|664|1.52|
+|4-core 16GB|1328|3.04|
+|8-core 32GB|2656|6.08|
+|16-core 64GB|5312|12.16|
+|SSD Cloud Disk|1.6|0.00224|
+
+# MariaDB Read-only Instance
+
+## Local SSD
 |Instance Type|Bucket (GB)|Pay by Configuration (RMB/Hour)|
 |---|---|---|
 |1-core 1GB|20|0.13|
@@ -166,3 +180,15 @@ For price, refer to the following table, with specific price subject to the char
 |16-core 64GB|1600|7.95|
 |16-core 64GB|2000|8.50|
 |16-core 64GB|3000|9.87|
+
+## SSD Cloud Disk 
+|Instance Type|Pay by Configuration (RMB/Hour)|
+|---|---|
+|1-core 1GB|0.09|
+|1-core 2GB|0.18|
+|1-core 4GB|0.36|
+|2-core 8GB|0.72|
+|4-core 16GB|1.44|
+|8-core 32GB|2.88|
+|16-core 64GB|5.76|
+|SSD Cloud Disk|0.00112|

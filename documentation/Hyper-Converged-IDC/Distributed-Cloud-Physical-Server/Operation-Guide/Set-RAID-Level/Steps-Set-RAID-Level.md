@@ -1,9 +1,20 @@
-## Operation Steps
+## Set RAID Level
+
+### Function Description
+
+RAID means "Redundant Arrays of Independent Disks".
+
+The basic idea is that a large number of independent disks are combined into a disk group with huge capacity, and the addition effect of the data provided by the individual disks improves the performance of the entire disk system. Compared to a single hard disk, RAID has faster transfer rates, significantly increase the data throughput of the storage system, and provide fault tolerance function through data verification simultaneously. Generally speaking, the goal of RAID is to improve read/write performance and fault tolerance capability.
+
+In addition, RAID just likes a separate hard disk or logical storage unit for the server.
+
+
+### Operation Steps
 
 You are allowed to set the RAID level when purchasing and reinstalling Distributed Cloud Physical Server. You can select the suitable RAID level based on your business scenario.
 
 
-#### Set the RAID level when purchasing
+##### Set the RAID level when purchasing
 Please select different RAID levels in the interface. The common RAID levels list is as follows.
 
 Common RAID Levels
@@ -41,5 +52,5 @@ Common RAID Levels
 </tr>
 </table>
  
-#### Recreate RAID level
+##### Recreate RAID level
 The RAID level can still be selected in the reinstallation. Note: Setting RAID level during the system reinstallation will format the disks, please back up the data in advance.

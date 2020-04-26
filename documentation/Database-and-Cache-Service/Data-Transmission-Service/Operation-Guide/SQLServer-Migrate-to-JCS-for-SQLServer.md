@@ -30,6 +30,10 @@ Account permission:
 
 - With sysadmin role
 
+Requirements for data:
+
+- Do not use incremental migration in the case that the following field types are contained in the data: varchar(max), nvarchar(max), varbinary(max), image, text, ntext, xml, (Full migration can be applied to all these types, but update data cannot be acquired at incremental migration).
+
 ### Source Database Configuration Requirement
 
 Database Type:

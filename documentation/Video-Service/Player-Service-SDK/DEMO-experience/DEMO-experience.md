@@ -1,6 +1,6 @@
 # Demo Experience
 
-1. For Web/h5 Player SDK<a href="https://j.jdcloud.com/video/player/1.0.0/index.html">Click to experience</a><br/> 
+1. For Web/h5 Player SDK<a href="https://j.jdcloud.com/video/player/index.html">Click to experience</a><br/> 
 
 2. For Mobile Player SDK, scan the following QR code to experience the functions and effects. iOS supports 8.0 and above systems and Android supports 5.0 and above (API level 21)  
 Description: Due to the restrictions of WeChat and QQ, please use the scanning or other scanning software of the mobile phone to scan for installation.<br />

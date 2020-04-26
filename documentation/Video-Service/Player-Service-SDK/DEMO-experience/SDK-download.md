@@ -19,6 +19,6 @@ JD Cloud Player SDK provides the followings in different styles according to dif
 </tr>
 <tr>
     <td>Web/H5</td>
-    <td><a href="https://j.jdcloud.com/video/player/1.0.0/index.html">Click to experience</a><br/> </td>
+    <td><a href="https://j.jdcloud.com/video/player/index.html">Click to experience</a><br/> </td>
 </tr>                
 </table>

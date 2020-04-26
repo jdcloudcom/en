@@ -1,60 +1,73 @@
-## Configure Distributed Cloud Physical Server
+## Confirm Configuration Item
 
-- Configure Node and Operator
+- Billing Mode
 
-![配置地域与可用区](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/DCPS-003.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Two billing modes, **Monthly Package** and **Pay By Configuration** are provided. Please refer to [Billing Rules](../Pricing/Billing-Rules.md).
 
-- Configure Machine Specifications:
-Refer to [Specifications](../Introduction/Specifications.md).
+- Node and Operator
 
-- Select Image
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; At present, the edge node **East China-Taizhou (Telecom 1)** is provided. More nodes are still under preparation. Selecting the nearest node may reduce access latency and improve download speed.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.g. the image type of "standard image" is supported currently.
+- Specification
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in which, the "standard image" supports CentOS6.6, 7.1, 7.2 and 7.5, Ubuntu14.04, 16.04 and 18.04. For details, please refer to [Image Use Instructions](../Operation-Guide/Image/Description-Image.md).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Two instance types, **Computing and Storage** are provided. You may select the configuration most suitable for your business scenario. Please refer to [Specifications](../Introduction/Specifications.md).
 
-![镜像选择](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/DCPS-028.png)
+- Image
 
-- Configure Storage:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The **Standard Image** is supported currently. The image types include CentOS6.6, 7.1, 7.2 and 7.5, Ubuntu14.04, 16.04 and 18.04. Please refer to [Image Use Description](../Operation-Guide/Image/Description-Image.md).
 
-Select RAID mode of system disk and data disk.
+- Storage
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Description: RAID modes of system disk or data disk of some categories are fixed, please select based on actual situation. For details, refer to [Specifications](../Introduction/Specifications.md).)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The RAID mode of **System Disk** and **Data Disk** is selected. The RAID modes of system disk or data disk of some categories are fixed, please select it based on actual situation. Please refer to [Specifications](../Introduction/Specifications.md).
 
-![配置存储](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/DCPS-029.png)
+- Network Interface Count and Name
 
-- Configure Network
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Two modes, **Single Network Interface** and **Double Network Interface** are supported, in which **Single Network Interface** displays **Primary Network Interface (bond0)** accordingly and **Double Network Interface** displays **Primary Network Interface (eth0)** and Secondary Network Interface (eth1)** accordingly.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Intranet** : Users can only select intranet CIDR address segment when configuring the network for the first network. The Distributed Cloud Physical Server created later will use the first configured intranet CIDR address segment.
+- Network Interface and Bandwidth Setting
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Firewall** : After the operating system is installed, the system will open only Port 22 at IN direction to Internet. After the operating system is installed successfully, user may log in the operating system and change iptable setting. For details, please refer to [Operation Guide for Firewall Settings](../Operation-Guide/Network-And-Security/Steps-Network-And-Security.md).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Primary Network Interface** Information:</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VPC and Subnet: Users need to first plan and create a VPC and subnet.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Private IP: A private IP address of primary network interface is designated for users. The private IP address can be either designated from any available IP addresses of the selected subnet or automatically allocated by the system. The private IP is unchangeable when assigned to the Distributed Cloud Physical Server.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alias IP Range: If your multiple services are running on the same Distributed Cloud Physical Server and you want to assign a different IP address for each service, you can do so using the function of alias IP range. At most 50 can be added to a single-instance primary network interface. Please refer to [Alias IP Range](../Operation-Guide/Networking/Alisas-IP.md). </br>       
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Public Network Bandwidth** :
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Public Network Bandwidth: If an instance needs to access the public network, users can check the association with elastic IP (which is automatically allocated by the system and cannot be modified by users) when creating an instance or purchase it after instance creation. The elastic IP can be associated and disassociated with the instance, (which is an elastic IP of primary network interface after creation)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Billing by Bandwidth Mode: Pay by fixed bandwidth is supported. Users can select the billing mode of "by fixed bandwidth" and the billing type of elastic IP should be consistent with that of instances.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISP Line: Currently, the edge node supports single line and the launched node supports Telecom.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bandwidth cap: Users can choose a public network bandwidth rate of bandwidth ranging from 1Mbps to 10000Mbps. Please reasonably select the maximum bandwidth that may vary depending on different nodes based on the actual node.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Additional Uplink Bandwidth: Users can choose a public network bandwidth rate of additional uplink bandwidth ranging from 0Mbps to 10000Mbp. Please reasonably select the maximum bandwidth that may vary depending on different nodes based on the actual node.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EIP billing by fixed bandwidth will charge and limit speed according to the "Bandwidth" and "Additional Uplink Bandwidth" set by you. You can adjust the bandwidth cap at any time according to business demand.
 
-Elastic IP can be associated with Distributed Cloud Physical Server.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Secondary Network Interface** Information:</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VPC and Subnet: Users need to first plan and create a VPC and subnet.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Private IP: A private IP address of secondary network interface is designated for users. The private IP address can be either designated from any available IP addresses of the selected subnet or automatically allocated by the system. The private IP is unchangeable when assigned to the Distributed Cloud Physical Server.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alias IP Range: If your multiple services are running on the same Distributed Cloud Physical Server and you want to assign a different IP address for each service, you can do so using the function of alias IP range. At most 50 can be added to a single-instance secondary network interface. Please refer to [Alias IP Range](../Operation-Guide/Instance/Alisas-IP.md). </br>       
 
-Users may purchase or not purchase the Elastic IP when creating the Distributed Cloud Physical Server. When the Elastic IP is selected in the purchase, it will be automatically allocated by the system, and the user cannot modify this Elastic IP.
-
-The user can choose the public network bandwidth rate ranging from 1M to the highest 10240Mbps (10240Mbps is the maximum bandwidth that can be provided. The bandwidth may vary depending on various nodes, please make a reasonable choice according to actual node), and can perform the "Modify Bandwidth" operation after creation.
-For specific operation steps, please refer to the section of [Modify Public Network Bandwidth](../Operation-Guide/Adjust-Public-Network-Bandwidth/Description-Adjust-Public-Network-Bandwidth.md).
-
-- Configure Server Basic Information:
-Configure server name, description and operating system password
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Instance Name** : The instance name is the alias of the Distributed Cloud Physical Server and the user can achieve customized setting. Upon the setting, the screening can be implemented by using the alias from the list of the Distributed Cloud Physical Server. Where several Distributed Cloud Physical Servers are purchased at one time, numbers in increasing order will be put after the set name of each Distributed Cloud Physical Server by default to indicate the Distributed Cloud Physical Servers.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Machine Name** : The machine name is the computer name within the operating system of the Distributed Cloud Physical Server and the user can achieve customized setting. Upon the production of the Distributed Cloud Physical Server, you can view the name by logging into the Distributed Cloud Physical Server. Where several Distributed Cloud Physical Servers are purchased at one time, numbers in increasing order will be put after the set name of each Distributed Cloud Physical Server by default to indicate the Distributed Cloud Physical Servers.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The machine name is optional. If you do not enter the machine name, it will use "host- Private IPv4 address Section 3-intranet-Private IPv4 address Section 4" by default as the machine name.
-
-![配置服务器](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/DCPS-030.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Public Network Bandwidth: If an instance needs to access the public network, users can check the association with elastic IP (which is automatically allocated by the system and cannot be modified by users) when creating an instance or purchase it after instance creation. The elastic IP can be associated and disassociated with the instance, (which is an elastic IP of secondary network interface after creation)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Billing by Bandwidth Mode: Pay by fixed bandwidth is supported. Users can select the billing mode of "by fixed bandwidth" and the billing type of elastic IP should be consistent with that of instances.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISP Line: Currently, the edge node supports single line and the launched node supports Telecom.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bandwidth cap: Users can choose a public network bandwidth rate of bandwidth ranging from 1Mbps to 10000Mbps. Please reasonably select the maximum bandwidth that may vary depending on different nodes based on the actual node.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Additional Uplink Bandwidth: Users can choose a public network bandwidth rate of additional uplink bandwidth ranging from 0Mbps to 10000Mbp. Please reasonably select the maximum bandwidth that may vary depending on different nodes based on the actual node.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EIP billing by fixed bandwidth will charge and limit speed according to the "Bandwidth" and "Additional Uplink Bandwidth" set by you. You can adjust the bandwidth cap at any time according to business demand.
 
 
-- Configure Purchase Duration:
-The purchase duration is 1-9 months, 1, 2 and 3 years.
+- Security Setting
 
-![配置购买时长](https://github.com/jdcloudcom/cn/blob/cn-distributed-cloud-physical-service/documentation/Hyper-Converged-IDC/Distributed-Cloud-Physical-Server/Image/DCPS-031.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **Firewall**: After the operating system is installed, the system will open only Port 22 at IN direction to Internet. After the operating system is installed successfully, users may log in the operating system and change iptable setting. Please refer to [Firewall Setting Operation Guide](../Operation-Guide/Network-And-Security/Steps-Network-And-Security.md).</br>
 
-- Click **Buy Now** to redirect to the Order Confirmation page
+- Basic Information
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After successful payment in accordance with the unified order billing process of JD Cloud, redirect to the Console List page.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Instance Name: Instance name is a Distributed Cloud Physical Server name that can be customized by users and used for search in the Distributed Cloud Physical Server list after setting. If several Distributed Cloud Physical Servers are purchased at one time, numbers in ascending order will be put after the set name by default to indicate each server.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Description: Users can select to add description for instances.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Machine Name: Machine name is a computer name in the operating system of Distributed Cloud Physical Server, which can be customized by users. The Distributed Cloud Physical Server instance can be viewed by logging in the server after produced. If several Distributed Cloud Physical Servers are purchased at one time, numbers in ascending order will be put after the set name by default to indicate each server. (The machine name is optional. If you do not enter the machine name, it will use "host - Private IPv4 Address Section 3 - Private IPv4 Address Section 4" by default as the machine name.)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; User Name: It is automatically set according to the selected operating system and the default name is **root** in Linux system.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Login Method: The password is both used for remote login and console login.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Custom Password: It is "Set Password Now", which can be modified after an instance is created;</br>
+                                                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Automatically Generated Password for Login: Set a password later and the system will send a default password by SMS and email; </br>
+                                                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Key Pair Login: For Linux system, you can select SSH Key Pair for login. If you apply key pair for login, you must create or import a key pair first. Please refer to [SSH Key Pair](../Operation-Guide/SSH-Key-Pair/Step-SSH-Key-Pair.md). </br>                                                                      
+- Advanced Configuration    
+**User Data**: It is used for configuring instances during start and is executed only when the instance system is started for the first time. Please refer to [User Data](../Operation-Guide/User-Data/User-Data-Overview.md).
+
+- Purchase    
+After all configurations, you need to confirm the instance purchase. The quantity is limited by IPs remaining in your Distributed Cloud Physical Server, Elastic IP and the selected subnet in this node. If lack of quota, you can [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) to increase quota.
+

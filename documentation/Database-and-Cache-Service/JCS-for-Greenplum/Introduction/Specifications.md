@@ -1,6 +1,6 @@
 # Specifications
 
-JCS for Greenplum allows users to select the specification and count of Segment nodes. The supported specifications are as follows:
+Data Warehouse JDW allows users to select the specification and count of Segment nodes. The supported specifications are as follows:
 
 ## Segment Node Specification
 
@@ -14,5 +14,5 @@ JCS for Greenplum allows users to select the specification and count of Segment 
 - Each Segment node can contain several Primary Segments and Mirror Segments.
 - The bucket of the specification is the bucket available to the user, that is, the bucket occupied by Primary Segment.
 - The total bucket of the Segment node is twice of that displayed by the specification and is used to store the data of Primary Segment and Mirror Segment.
-- The Console can select 2-8 Segment nodes. If more nodes are needed, the ticket can be opened to enable it.
+- The Console can select 2-16 Segment nodes. If more nodes are needed, the ticket can be opened to enable it.
 
