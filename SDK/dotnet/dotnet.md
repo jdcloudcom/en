@@ -8,7 +8,7 @@
 
 * This project is developed with visual studio 2017. If code editing and debugging is required, it is recommended to be opened with updated version of visual studio 2017.
 
-* This project is compiled with the latest dotnet standard multi-target framework approach and versions of .NET 3.5, .NET 4.0, .NET 4.5, and .net standard 2.0. Prior to compiling, it is necessary to install the development sdk of Net Framework 3.5, 4.0 or 4.5 and sdk in the version of dotnet core 2.0. or above.; In case of Windows 10 operating system, .NET Framework 3.5 should be checked on the control panel for 'Enable and Close Windows Function' for application before installing visual studio 2017 and.net framework 4.7. For installation method of .dotnet core, please refer to [Microsoft Official Website File](https://www.microsoft.com/net/learn/get-started/windows). Other target frameworks should be checked when installing visual studio or downloaded from Microsoft official website.
+* This project is compiled with the latest dotnet standard multi-target framework approach and versions of .NET 3.5, .NET 4.0, .NET 4.5, and .net standard 2.0. Prior to compiling, it is necessary to install the development sdk of Net Framework 3.5, 4.0 or 4.5 and sdk in the version of dotnet core 2.0. or above.; In case of Windows 10 operating system, .NET Framework 3.5 should be checked on the control panel for 'Enable and Close Windows Function' for application before installing visual studio 2017 and.net framework 4.7. For installation method of .dotnet core, please refer to [Microsoft Official Website File](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/intro). Other target frameworks should be checked when installing visual studio or downloaded from Microsoft official website.
 
 * This project supports compiling sdk in the version of dotnet standard 2.0 under linux, with the compiled script as `linux-bulid.sh`under the project, which needs to be copied to the sdk directory to run. Please view the script to modify the output directory.
 
@@ -37,7 +37,7 @@ or use .NET CLI for installation
 dotnet add package JDCloudSDK.Vm --version 1.2.0.1
 ```  
 
-You can also download the SDK source code and directly add to the project or compile it into DLL and quote it to the project.  
+You can also download the [SDK source code](https://github.com/jdcloud-api/jdcloud-sdk-net) and directly add to the project or compile it into DLL and quote it to the project.  
 
 For any questions in using SDK, welcome to communicate with us at the [SDK Feedback Page of problems](https://github.com/jdcloud-api/jdcloud-sdk-net/issues).
 

@@ -20,7 +20,7 @@ If you use Apache Maven to manage a Java project, you only need to add a corresp
 </dependency>
 ```
  
-You can also download the SDK source code yourself.
+You can also download the [SDK source code](https://github.com/jdcloud-api/jdcloud-sdk-java) yourself.
  
 With any of the problems in the SDK use, you are welcomed to communicate at the [SDK Usage Problem Feedback Page](https://github.com/jdcloud-api/jdcloud-sdk-java/issues).
 

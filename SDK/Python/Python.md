@@ -13,7 +13,7 @@ To facilitate the understanding of some concepts and parameters in the SDK, it's
 It is recommended to install the JD Cloud Python SDK using pip as follows:
 
 	pip install -U jdcloud_sdk
-You can also download the sdk source code yourself.
+You can also download the [SDK source code](https://github.com/jdcloud-api/jdcloud-sdk-python) yourself.
 
 Using the source code to install as follows:
 
