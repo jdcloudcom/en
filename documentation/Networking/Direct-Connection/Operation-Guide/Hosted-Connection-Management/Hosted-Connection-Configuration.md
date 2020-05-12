@@ -4,10 +4,10 @@ Hosted Connection accesses public cloud via physical link Direct Connection so t
 ### Operation Steps
 ##### 1. Create Hosted Connection
 Customers who have completed enterprise real-name verification can use a Hosted Connection.
-a) Log in [JD Cloud & AI Hosted Connection Console](https://cns-console.jdcloud.com/host/hConnection/list);  </br>
-b) Select region and click **Create**;</br>
-c) Enter the name, hosted region, contacts, contact information and description of a Hosted Connection, and create it;</br>
-e) Generally speaking, 1 to 2 working days are required for auditing a newly created Hosted Connection;</br>
+a) Log in [JD Cloud & AI Hosted Connection Console](https://cns-console.jdcloud.com/host/hConnection/list);  <br />
+b) Select region and click **Create**;<br />
+c) Enter the name, hosted region, contacts, contact information and description of a Hosted Connection, and create it;<br />
+e) Generally speaking, 1 to 2 working days are required for auditing a newly created Hosted Connection;<br />
 
 ```
   Status instruction for each Hosted Connection:
@@ -24,14 +24,21 @@ e) Generally speaking, 1 to 2 working days are required for auditing a newly cre
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/create-hosted-connection.png)
 
 ##### 2. Modify Hosted Connection
-You can modify the name and description of Hosted Connection.</br>
-a) Log in [JD Cloud & AI Hosted Connection Console](https://cns-console.jdcloud.com/host/hConnection/list);  </br>
-b) Select corresponding Hosted Connection and log in the details of Hosted Connection;</br>
-c) Modification of the name and description of Hosted Connection is supported, and the restriction of each configuration item is the same as the creation of Hosted Connection;</br>
+You can modify the name and description of Hosted Connection.<br />
+a) Log in [JD Cloud & AI Hosted Connection Console](https://cns-console.jdcloud.com/host/hConnection/list);  <br />
+b) Select corresponding Hosted Connection and log in the details of Hosted Connection;<br />
+c) Modification of the name and description of Hosted Connection is supported, and the restriction of each configuration item is the same as the creation of Hosted Connection;<br />
+
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/update-hosted-connection.png)
 
-##### 3. Delete Hosted Connection
-If you do not need Hosted Connection anymore, you can delete it.</br>
-a) Log in [JD Cloud & AI Hosted Connection Console](https://cns-console.jdcloud.com/host/hConnection/list);  </br>
-b) Select the corresponding Hosted Connection and click **Delete** on the operation bar. The Hosted Connection without Private Virtual Interface created can be deleted;</br>
+##### 3. Resize Hosted Connection
+If you need to resize the physical port specification due to business changes, please consult with JD Cloud off line for the specific change time and prepare the required single-mode optical module of new specification. The data center personnel will change the port after the hosted connection cuts off the traffic. After the port is changed and the traffic is confirmed to be recovered (the speed limit of the physical port then is the original specification), please resize the port configuration in the Console in order for billing as per the new port specification. The speed limit will be automatically resized as the new rate after the payment is made.<br />
+a) Log in [JD Cloud Hosted Connection Console](https://cns-console.jdcloud.com/host/hConnection/list);  <br />
+b) Select the corresponding hosted connection and click **Resize** on the operation bar. Please upgrade or downgrade the configuration as per your actual needs;<br />
+
+##### 4. Delete Hosted Connection
+If you do not need Hosted Connection anymore, you can delete it.<br />
+a) Log in [JD Cloud & AI Hosted Connection Console](https://cns-console.jdcloud.com/host/hConnection/list);  <br />
+b) Select the corresponding Hosted Connection and click **Delete** on the operation bar. The Hosted Connection without Private Virtual Interface created can be deleted;<br />
+
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/delete-hosted-connection.png)

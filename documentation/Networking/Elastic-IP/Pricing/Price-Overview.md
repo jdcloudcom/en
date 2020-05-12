@@ -1,8 +1,12 @@
 # Price List
 
+The Elastic IP is composed of Standard Elastic IP and Edge Elastic IP, which support different billing types and different rates.
+
+## Billing of Standard Elastic IP
+
 The Elastic IP supports three types of billing, including Monthly Package, Pay by Configuration, and Pay by Consumption.
 
-Billing by Fixed Bandwidth
+### Billing by Fixed Bandwidth
 
 IP provider	| Region	|Bandwidth	| Pay by Configuration (¥/hour)	 |Monthly Package (¥/month) |
 :---|:--- |---: |---: |---: |
@@ -33,9 +37,15 @@ BGP	| cn-east-1 | over 5Mbps, per Mbps cost | 0.11 | 60	|
  
 
 
-## Billing by Consumption
+### Billing by Consumption
 
 IP provider	| Region	| IP retention cost (¥/day)	 | traffic cost (¥/GB) |
 :---|:--- |---: |---: |
 Single IP provider	| cn-south-1/cn-east-1 | 0.48| 0.65	|
 BGP	| cn-north-1/cn-south-1/cn-east-1/cn-east-2 | 0.48 | 0.80	|
+
+## Billing of Edge Elastic IP
+
+The Edge Elastic IP supports two types of billing, i.e. monthly package and pay by configuration.
+
+For detailed rates, please refer to the Console.

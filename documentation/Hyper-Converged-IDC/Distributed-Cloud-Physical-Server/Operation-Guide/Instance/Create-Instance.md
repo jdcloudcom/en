@@ -14,16 +14,16 @@
 
 7. Select storage: The RAID mode of system disk and data disk is selected.<br/>
 
-8. Network interface count and name: The required network interface count and name are selected. Single network interface displays primary network interface (bond0) accordingly; double network interface displays primary network interface (eth0) and secondary network interface (eth1) accordingly.<br/>
+8. Network interface count and name: The required network interface count and name are selected, including single and double network interface modes. Single network interface corresponds to primary network interface (bond0); double network interface corresponds to primary network interface (eth0) and secondary network interface (eth1).<br/>
 
-9. Select network interface and bandwidth setting: In case of a single network interface instance, it is information of primary network interface (bond0); in case of a double network interface instance, it is information of primary network interface (eth0) and secondary network interface (eth1). Take a double network interface for example:<br/>
+9. Select network interface and bandwidth setting: <br/>
 
    **Primary Network Interface (eth0)**<br/>
    - VPC and Subnet: You are required to create a VPC and subnet first.<br/>
    - Private IP: If there is no particular requirement for private IP address, the private IP address can be automatically assigned by the system within subnet available segment; if the IP is required to be designated, please enter one within the notified range and the system will verify if the IP is available. Please note that if a customized private IP address is selected, instances cannot be created in batch.
    - Alias IP Range: Alias IP range is selected based on business demands and the default primary network interface configuration is 50.
    - Public IP: Associating with elastic IP is checked by default. Users may choose not to associate it currently and do it manually after instance creation.
-   - Billing by Bandwidth Mode: Pay by fixed bandwidth is supported. Users can select the billing mode of "by fixed bandwidth" and the billing type of elastic IP should be consistent with that of instances.
+   - Mode of billing by bandwidth: It supports 3 billing methods, namely by fixed bandwidth - Monthly Package, by fixed bandwidth - Pay By Configuration and Add to Shared Bandwidth. (Note: Instances billed by configuration do not support association purchase with EIPs paid by fixed bandwidth-Monthly Package).
    - ISP Line: Telecom is supported currently.
    - Bandwidth cap: 1Mbps~10000Mbps. 
    - Additional Uplink Bandwidth Cap: 0Mbps~10000Mbps. 
@@ -40,6 +40,10 @@
    - User Name: It is automatically set according to the selected operating system and the default name is root in Linux system.<br/>
    - Login Method: The password is both used for remote login and console login. When setting a password, users can select either "Custom Password" or "Automatically Generated Password for Login" (the system will send a default password by SMS and email) or SSH Login Instance. For Linux system, you can select SSH Key Pair for login and conduct safer instance login verification by associating the created SSH Key Pair.</br>
     
-12. Confirm instance count and duration: The quantity is limited by IPs remaining in your instance, Elastic IP quota and the selected subnet in this node. If lack of quota, you can [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) to increase quota.</br>
+12. Automatic renewal:<br/>
+   - The automatic renewal function can be enabled for monthly package resources. If automatic renewal is checked, the automatic renewal attribute and period can be modified after resources are created. In case of monthly package, the period to be automatically renewed is 1 month; for yearly package, the period to be automatically renewed is 1 year, and the automatic renewal discount will be provided for yearly automatic renewal.
 
-13. Click **Buy Now** to redirect to the Order Confirmation page. After successful payment in accordance with the unified order billing process of JD Cloud & AI, redirect to the Console List Page.
+13. Confirm instance count and duration:<br/>
+   - The quantity is limited by the count of IPs remaining in your instance, Elastic IP quota and the selected subnet in this node. If the quota is insufficient, you can [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) to increase quota.</br>
+
+14. Click **Buy Now** to redirect to the Order Confirmation page. After successful payment in accordance with the unified order billing process of JD Cloud & AI, redirect to the Console List Page.

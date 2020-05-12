@@ -1,6 +1,6 @@
 # Application Methods for JD Cloud & AI License Cancellation
 
-If you finish filing by JD Cloud & AI, you can apply for cancellation of filing in the following ways
+If the license is completed with JD Cloud & AI, and you cannot submit a cancellation application via the system, you can apply for license cancellation with the following method
 
 Step 1: Download [JD Cloud & AI Application Form for Filing Cancellation.doc](https://img1.jcloudcs.com/cms/628e41dc-0181-4ee4-9548-6330383a1a1120180416144125.doc) and fill according to the following requirements
 

@@ -11,7 +11,7 @@ This Tutorial is designed to guide users on how to associate multiple ENIs on th
 - Apply for 1 elastic IP
 
 ## Procedures
-- Step 1: Log in to the console of JD Cloud, and enter the list page of ENI, and click Create to create an ENI.
+- Step 1: Log in to the console of JD Cloud & AI, and enter the list page of ENI, and click Create to create an ENI.
 
 - Step 2: Create one ENI in the external subnet and the management subnet respectively
 

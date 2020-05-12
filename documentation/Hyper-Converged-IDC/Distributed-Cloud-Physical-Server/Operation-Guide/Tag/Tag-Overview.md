@@ -1,7 +1,5 @@
 ## Tag
 
-### Function Description
-
 The tag function can help users identify instances for the convenience of managing resources. Each tag comprises a "key" and a "value", e.g.: "User Department: Basic R&D Department", the "User Department" is the "key" of the tag, and the "Basic R&D Department" is the value of the "key". Each resource is allowed to be associated with 10 tags with different keys.
 
 ### Use Restrictions

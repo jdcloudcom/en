@@ -6,7 +6,7 @@ When less than three VPCs are required to be interconnected in the same region, 
 
 
 
-### **If you use the Border Gateway to connect multiple VPCs on JD Cloud, then you need to complete the following steps:**
+### **If you use the Border Gateway to connect multiple VPCs on JD Cloud & AI, then you need to complete the following steps:**
 
 Step 1: Create Border Gateway
 
@@ -23,7 +23,7 @@ Step 4: Configure Route Table on Border Gateway
 
 #### **Step 1: Create Border Gateway**
 
-1. Log in JD Cloud console.
+1. Log in JD Cloud & AI console.
 
 2. Click the navigation bar on the left side, select "Direct Connection Service -> Border Gateway".
 
@@ -33,7 +33,7 @@ Step 4: Configure Route Table on Border Gateway
 
 **Step 2: Create VPC Attachment of Border Gateway**
 
-1. Log in JD Cloud console.
+1. Log in JD Cloud & AI console.
 
 2. Click the navigation bar on the left side, select **Direct Connection -> Border Gateway -> VPC Attachment ->Create**.
 
@@ -45,7 +45,7 @@ Primary configuration items are as follows:
 
 - - API name: Name of API connected Border Gateway and VPC;
 
-  - Border Gateway: Select Border Gateway to be interconnected. Border Gateway can communicated with VPC internally and serve as the BGP running endpoint at the JD Cloud end and the customer IDC end;
+  - Border Gateway: Select Border Gateway to be interconnected. Border Gateway can communicated with VPC internally and serve as the BGP running endpoint at the JD Cloud & AI end and the customer IDC end;
   
   - VPC: Select VPC to be interconnected;
   
@@ -66,9 +66,9 @@ Primary configuration items are as follows:
 
 #### **Step 3: Configure Route Table in VPC**
 
-1. Log in JD Cloud console.
+1. Log in JD Cloud & AI console.
 
-2. Click the navigation bar on the left side, select **Virtual Private Cloud**, enter the Route Table related to JD Cloud VPC Private Subnet required to communicate with other VPCs in the same region.
+2. Click the navigation bar on the left side, select **Virtual Private Cloud**, enter the Route Table related to JD Cloud & AI VPC Private Subnet required to communicate with other VPCs in the same region.
 
 3. There are two methods to configure the Route Table: Static route method refers to the automatic route transmission method.
 
@@ -78,7 +78,7 @@ Primary configuration items are as follows:
 
   Automatic route transmission method:
   
-  If you intend to simplify network configuration process, the automatic route transmission method can be adopted with the JD Cloud platform’s capacity of automatic route transmission from Border Gateway to VPC Route Table. Click **Add** in the "Route Transmission" page in the Route Table and fill in route transmission information. One VPC can establish route transmission relationships with several Border Gateways at the same time.
+  If you intend to simplify network configuration process, the automatic route transmission method can be adopted with the JD Cloud & AI platform’s capacity of automatic route transmission from Border Gateway to VPC Route Table. Click **Add** in the "Route Transmission" page in the Route Table and fill in route transmission information. One VPC can establish route transmission relationships with several Border Gateways at the same time.
   
 - - Border Gateway: Select a source Border Gateway transmitted routes to VPC
 
@@ -88,7 +88,7 @@ Primary configuration items are as follows:
 
 #### **Step 4: Configure Route Table on Border Gateway**
 
-1. Log in JD Cloud console.
+1. Log in JD Cloud & AI console.
 
 2. Click the navigation bar on the left side, and select "Direct Connection Service -> Border Gateway", enter the details for the border gateway hosting the direct connection network intercommunication.
 

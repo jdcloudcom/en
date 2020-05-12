@@ -1,18 +1,18 @@
-# 产品优势
+# Benefits
 
-## 简单易用
+## Simple and easy to use
 
-使用数据传输 DTS 执行数据迁移，无需安装任何应用程序，只需在京东云控制台创建迁移任务，即可开始数据迁移。
+ Where the data migration is executed with data transmission DTS, data migration can be started by creating a migration task in just a few steps. 
 
-## 最短停机时间
+## Reduce service suspension time
 
-数据传输 DTS 支持不停服数据迁移，迁移过程中持续获取源数据库的增量数据并更新到目标数据库，数据迁移期间不影响源数据库对外提供服务，从而最大程度地减少上云过程对业务的影响。
+Data transmission DTS supports data migration without service suspension. In the migration process, incremental data of source database will be continuously obtained and updated to the target database. During data migration period, service of source database to the external will not be affected, reducing business influence by JD Cloud Onboarding process to the largest extent.
 
-## 支持多种数据库
+## Support a variety of databases
 
-数据传输 DTS 支持MySQL、Percona、MariaDB、SQL Server、MongoDB等多种关系型和非关系数据库的同构迁移，支持范围将持续扩展。
+Data transmission DTS supports isomorphic migration of various relational databases, such as MySQL, Percona, MariaDB, SQL Server, PostgreSQL and MongoDB, as well as non-relational databases, with supported range to be expanded continuously.
 
-## 服务高可用
+## High service availability
 
-数据传输 DTS 服务默认为高可用模式，迁移服务节点出现故障时，可自动容灾切换，确保迁移任务正常执行。
+By default, the data transmission DTS service is in the high availability mode. When the migration service node fails, the automatic disaster recovery can be switched, making sure that the migration task is normally executed.
 

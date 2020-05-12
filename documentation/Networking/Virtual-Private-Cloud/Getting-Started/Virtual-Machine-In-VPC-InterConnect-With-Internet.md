@@ -2,7 +2,7 @@
 
 ### **Overview**
 
-Through this teaching, you can complete the deployment of a VM that can communicate with the public network in JD Cloud and obtain the following resources:
+Through this teaching, you can complete the deployment of a VM that can communicate with the public network in JD Cloud & AI and obtain the following resources:
 
 - 1 VPC
 - 1 Subnet

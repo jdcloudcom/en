@@ -47,6 +47,8 @@
     items:
        - name: Create a VM instance In a VPC
          href: Getting-Started/Create-Virtual-Machine-Instance-In-VPC.md
+       - name: Create VM Instance in Edge Subnet
+         href: Getting-Started/Create-Virtual-Machine-Instance-In-Edge-Zone.md
        - name: Standard WEB+APP+DB Architecture Service Deployment
          href: Getting-Started/Standard-WEB-APP-DB-Architectural-Service-Deployment.md
        - name: Intercommunication between VM and public network in VPC
@@ -115,4 +117,5 @@
     - name: Document History
       href:
       status: 0
+
 

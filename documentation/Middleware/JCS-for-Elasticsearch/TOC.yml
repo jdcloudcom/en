@@ -53,7 +53,7 @@
           href: Getting-Started/clusteranaly.md
         - name: Delete Data
           href: Getting-Started/deleteindex.md
-      - name: Configuration Cluster
+      - name: Manage Cluster
         items:
         - name: View Cluster
           href: Getting-Started/View-ES.md
@@ -61,6 +61,8 @@
           href: Getting-Started/Change-ES.md
         - name: Delete Cluster
           href: Getting-Started/Delete-ES.md
+        - name: Restart Cluster
+          href: Getting-Started/reboot.md
   - name: Operation Guide
     items:
       - name: Dedicated Primary Node

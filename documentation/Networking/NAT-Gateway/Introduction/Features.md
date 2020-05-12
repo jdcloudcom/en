@@ -1,7 +1,7 @@
 # Features
 
 
-JD Cloud NAT Gateway provides functions of SNAT, ALG and traffic monitoring
+JD Cloud & AI NAT Gateway provides functions of SNAT, ALG and traffic monitoring
 
 
 
@@ -13,7 +13,7 @@ SNAT function provides a proxy service that accesses the Internet for VM instanc
 
 ## Application Layer Gateway (ALG)
 
-Convert IP and port in the application layer protocol payload to support normal communication across NAT Gateways between protocols. JD Cloud NAT Gateway supports ICMP protocol
+Convert IP and port in the application layer protocol payload to support normal communication across NAT Gateways between protocols. JD Cloud & AI NAT Gateway supports ICMP protocol
 
 
 

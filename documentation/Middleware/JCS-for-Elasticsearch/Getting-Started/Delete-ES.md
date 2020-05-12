@@ -1,3 +1,8 @@
 ## Delete Cluster
-When the user has completed the data search business and does not need to continue to use a cluster, he can delete it in the "Operation" column of the cluster list; click **Delete** and confirm to delete the corresponding cluster. Since the data cannot be recovered after the cluster is deleted, please operate cautiously.
-![Query 1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/DES1.png)
+When the user has completed the data search business and does not need to continue to use a cluster, this cluster can be deleted. Since the data cannot be recovered after the cluster is deleted, please operate cautiously.
+
+### Operation Steps
+1. Log in [JCS for Elasticsearch Console]](https://es-console.jdcloud.com/clusters).</br>
+2. Click **Operation-Deletion** on the list page and execute deletion after confirming the popup.</br>
+
+ ![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/删除ES_2020.png)

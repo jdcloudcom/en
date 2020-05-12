@@ -1,28 +1,28 @@
-# 产品功能
+# Features
 
-## 支持多种数据库同构迁移
+## Support isomorphic migration of various databases
 
-### 数据库类型
+### Database type
 
-支持多种关系型数据库和非关系型数据库的同构数据迁移，目前支持MySQL、Percona、MariaDB、SQLserver、MongoDB等数据库。
+Isomorphic data migration of multiple relational databases and non-relational databases is supported, with databases such as MySQL, Percona, MariaDB, SQLserver, PostgreSQL and MongoDB supported now.
 
-### 源库与目标库
+### Source database and target database
 
-源库支持绑定公网IP或通过专线的自建数据库，目标库支持云数据库。
+The source database supports association with EIP or the self-built database connected with Direct Connection/Intranet. The target database supports cloud database.
 
-### 迁移数据粒度
+### Data migration granularity
 
-支持选择库表迁移，可按需选择迁移数据，支持选择整个实例迁移或指定库、表迁移。
+Migration of selected database table is supported, with the migration data selected according to demands. Migration of the entire selected instance, specific database or table is supported.
 
-## 支持热迁移，减少停机时间
+## Support hot migration and reduce shutdown time
 
-### 迁移类型
+### Migration type
 
-支持选择结构迁移、全量迁移和增量迁移，可以结合业务场景选择使用。
+Structure migration, full migration and incremental migration are supported, all of which can be selected in combination with the business scenario.
 
-### 热迁移
+### Hot migration
 
-支持增量迁移，源数据库在迁移期间发生的所有数据更改都会持续复制到目标数据库，只需在切换数据库时短时间停服。
+Incremental migration is supported. All data changes incurred of the source database during the migration will be continuously duplicated to the target database, with service suspended for a short time when the database is switched.
 
 
 

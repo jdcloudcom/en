@@ -14,7 +14,8 @@ Business traffic separation and network isolation is one of the most typical app
 ![Traffic flow separation scenario](../../../../image/Networking/Elastic-Network-Interface/eni-002.png)
 
 ## Solutions for High Reliability Application
-JD Cloud provides an ENI according to the region level, capable of setting up high-availability solutions and providing powerful support for the user in availability zone. Based on keepalived tools, the user can realize disturbance switching of IP or network interface. Under specific context, the user’s ENI is under strong correlation with the security device strategy and the security certificate. In case of a fault, it needs to use the ENI for migration. Under common scenarios, the user can use IP migration to realize disturbance switching. The scenario architecture is listed below:
+JD Cloud & AI provides an ENI according to the region level, capable of setting up high-availability solutions and providing powerful support for the user in availability zone. Based on keepalived tools, the user can realize disturbance switching of IP or network interface. Under specific context, the user’s ENI is under strong correlation with the security device strategy and the security certificate. In case of a fault, it needs to use the ENI for migration. Under common scenarios, the user can use IP migration to realize disturbance switching. The scenario architecture is listed below:
 
 ![High reliability application solution](../../../../image/Networking/Elastic-Network-Interface/eni-003.png)
+
 

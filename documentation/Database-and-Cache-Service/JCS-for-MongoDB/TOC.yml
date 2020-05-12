@@ -55,6 +55,8 @@
             href: Operation-Guide/Instance-Management/Renewal-Instructions.md      
           - name: Delete Instance
             href: Operation-Guide/Instance-Management/Delete-Instance.md
+          - name: Internet Access
+            href: Operation-Guide/Instance-Management/Internet-access.md
       - name: Account Management
         items:
           - name: Create Account

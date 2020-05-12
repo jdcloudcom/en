@@ -1,4 +1,4 @@
-**<div align=center>Software License and Service Agreement</div>**
+**<div align=center>Minecraft: Education Edition- Software License and Service Agreement</div>**
 
 **Preface**
 
@@ -14,7 +14,7 @@
 
 　　III. If a user is under 18, he/she shall read the Agreement accompanied by his/her guardian, and shall use JD service provided by JD only when he/she gets the guardian’s consent to the service provided by JD, the acts of paying JD (if any) and all terms of the Agreement.
 
-　　V. The conclusion, performance, interpretation and dispute resolution of the Agreement shall be governed by the laws of China and the Agreement shall take precedence over any other conflict law. The Agreement is executed in Daxing District, Beijing. Where there is any dispute about content of the Agreement or its performance (including but not limited to disputes of the Agreement or other property interests), JD expects to solve the dispute with you through friendly negotiation. Where the negotiation fails, the Parties agree to file the lawsuit to the People’s Court of Daxing District of Beijing for jurisdiction and resolution.
+　　IV. The conclusion, performance, interpretation and dispute resolution of the Agreement shall be governed by the laws of China and the Agreement shall take precedence over any other conflict law. The Agreement is executed in Daxing District, Beijing. Where there is any dispute about content of the Agreement or its performance (including but not limited to disputes of the Agreement or other property interests), JD expects to solve the dispute with you through friendly negotiation. Where the negotiation fails, the Parties agree to file the lawsuit to the People’s Court of Daxing District of Beijing for jurisdiction and resolution.
 
 **Article 1 Parties to the Agreement**
 
@@ -40,7 +40,7 @@
 
 6. Developer: Refer to the person, legal person or other organization which accesses contents under its corresponding rights to the starter of the software Minecraft: Education Edition and provide the same to the user, after effective registration and application.
 
-8. JD Cloud & AI online education platform: Refer to an online platform developed and designed by JD, providing the user with the software Minecraft: Education Edition, course resources, relevant messages, videos, coaching tools and other software-related service of the software Minecraft: Education Edition by JD via a page end.
+7. JD Cloud & AI online education platform: Refer to an online platform developed and designed by JD, providing the user with the software Minecraft: Education Edition, course resources, relevant messages, videos, coaching tools and other software-related service of the software Minecraft: Education Edition by JD via a page end.
 
 **Article 3 Account**
 

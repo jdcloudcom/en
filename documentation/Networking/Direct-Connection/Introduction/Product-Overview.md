@@ -19,15 +19,5 @@ JD Cloud & AI resources to be connected to Direct Connection: All resources in J
 |:---:|:---:|:---:|
 | Good Network Quality | Access to JD Cloud & AI network through a dedicated physical link, enjoy Intranet-level communication, low network latency and low packet loss rate. | Communicating with shared public network resources cannot guarantee low network delay or packet loss rate.   |
 | Safe and Reliable | The physical link is exclusive to the users who access it. Without risk of data leakage, it enjoys high security and meets the needs of customers with high security requirements such as games enterprises, financial enterprises, and government enterprises. | Public network-based encrypted communication, which can meet the security requirements of network transmission for general customers. |
-| High Transmission Bandwidth | A single physical link supports a maximum of 10 Gbps of bandwidth, which can satisfy customers with data bulk business. It supports multiple dedicated lines for ECMP, and superimposes the bandwidth limit on the basis of ensuring service availability. | Network bandwidth is limited by the bandwidth of public IP.                               |
-| Multiple Access Modes are Available | Supports Layer 2 and Layer 3 access of the network. It is specified while choosing the Direct Connection partner. When you select Layer 2 access, you will run a routing protocol with the public cloud; when you select Layer 3 access, you will run a routing protocol with the partner. Layer 2 access is recommended. | Only supports point-to-point public network transmission.                                     |
-
-#### Direct Connect Type Supported by JD Cloud & AI
-* Physical port type is: 1000MBase-T, 1000MBase-LX(1310nm), 10GBase-LR(1310nm) and 100GBase-LR4(1310nm);
-
-#### Conditions Required to Use the Direct Connection Service
-* Completed enterprise real-name verification in JD Cloud & AI
-* The client’s initiator of the Direct Connect needs to be a Layer 3 switch or router device.
-* Support BGP Protocol, it is suggested to use BPG-4
-* Support VLAN or 802.1q Protocol
-* Support Three-layer Sub-interface Configuration (Optional)
+| High Transmission Bandwidth | A single physical link supports a maximum of 10 Gbps of bandwidth, which can satisfy customers with data bulk business. It supports multiple dedicated lines for ECMP, and superimposes the bandwidth limit on the basis of ensuring service availability. | Network bandwidth is limited by the bandwidth of public IP|
+| Multiple Access Modes are Available | Supports Layer 2 and Layer 3 access of the network. It is specified while choosing the Direct Connection partner. When you select Layer 2 access, you will run a routing protocol with the public cloud; when you select Layer 3 access, you will run a routing protocol with the partner. Layer 2 access is recommended. | Only supports point-to-point public network transmission|

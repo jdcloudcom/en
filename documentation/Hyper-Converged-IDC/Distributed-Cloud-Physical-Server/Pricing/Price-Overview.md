@@ -2,11 +2,9 @@
 
 Prices in Price Overview are unified official prices, excluding user discount. To ensure the accuracy of price, we recommend that you log in the Console Resource Creation Page to view specific prices, which will be subject to the selected node and ISP line when you purchase.<br/>
 
-Distributed Cloud Physical Server supports billing types of monthly package and pay by configuration.<br/>
-
 ### Distributed Cloud Physical Server Price
 
-
+Distributed Cloud Physical Server supports billing types of monthly package and pay by configuration.<br/>
 <table>
     <tr>
         <td colspan="2"><B>Instance Type</B></td> 
@@ -16,39 +14,25 @@ Distributed Cloud Physical Server supports billing types of monthly package and 
 	<td ><B>Pay By Configuration Price (RMB/hour)</B></td>
     </tr>
     <tr>   
-        <td rowspan="3">Computing Type</td>
-		<td >Edge Compute Standard</td>
-		<td >edcps.c.normal1</td>
-	        <td  rowspan="4">East China-Taizhou</td>
-		<td >4400</td>
-	        <td >15</td>
-    </tr>
-	<tr>   
-		<td >Edge Compute Standard</td>
-		<td >edcps.c.normal2</td>
-		<td >5800</td>
-		<td >20</td>
-    </tr>
-	<tr>   
-		<td >Edge Compute Performance Ⅱ (Generation II)</td>
-		<td >edcps.c2.perf1</td>
-		<td >6000</td>
-		<td >21</td>
-    </tr>
-	<tr>   
-		<td >Storage Type</td>
-		<td >Edge Storage Standard (Generation II)</td>
-		<td >edcps.s2.normal</td>
-		<td >5300</td>
-		<td >18</td>
+        <td>Computing Type</td>
+        <td >Edge Compute Performance Ⅱ (Generation II)</td>
+	<td >edcps.c2.perf1</td>
+	<td  rowspan="2">East China-Taizhou</td>
+	<td >6000</td>
+	<td >21</td>
+       </tr>
+    <tr>   
+	<td >Storage Type</td>
+	<td >Edge Storage Standard (Generation II)</td>
+	<td >edcps.s2.normal</td>
+	<td >5300</td>
+	<td >18</td>
     </tr>
 </table>
 
-Elastic IP supports billing types of monthly package and pay by configuration.
-
 ### Elastic IP Price
 
-**Billing by Fixed Bandwidth**
+Elastic IP supports billing types of monthly package and pay by configuration.<br/>
 
 <table>
    <tr>
@@ -110,11 +94,9 @@ Elastic IP supports billing types of monthly package and pay by configuration.
     </tr>
 </table>
 
-Shared Bandwidth supports billing types of monthly package and pay by configuration.
-
 ### Shared Bandwidth Price
 
-**Billing by Fixed Bandwidth**
+Shared Bandwidth supports billing types of monthly package and pay by configuration.<br/>
 
 <table>
    <tr>

@@ -1329,7 +1329,7 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td>553.49</td>
       <td>2.56</td>
       <td>1.92</td>
-      <td> </td>   
+      <td>1*1/6 P40 </td>   
     </tr>
    <tr>
       <td>p.c1p40m.large</td>
@@ -1339,7 +1339,7 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td>788.45</td>
       <td>3.65</td>
       <td>2.74</td>
-      <td> </td>   
+      <td> 1*1/4 P40</td>   
     </tr>
    <tr>
       <td>p.c1p40g.xlarge</td>
@@ -1349,7 +1349,7 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td>919.55</td>
       <td>4.26</td>
       <td>3.19</td>
-      <td> </td>   
+      <td>1*1/4 P40 </td>   
     </tr>    
    <tr>
       <td>p.c1p40g.3large</td>
@@ -1359,7 +1359,7 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td>1654.37</td>
       <td>7.66</td>
       <td>5.74</td>
-      <td> </td>   
+      <td>1*1/2 P40 </td>   
     </tr>      
    <tr>
       <td>p.q1p40g.large</td>
@@ -1369,7 +1369,7 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td>672.63</td>
       <td>3.11</td>
       <td>2.34</td>
-      <td> </td>   
+      <td>1*1/6 P40 </td>   
     </tr>
    <tr>
       <td>p.q1p40m.large</td>
@@ -1379,7 +1379,7 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td>907.59</td>
       <td>4.20</td>
       <td>3.15</td>
-      <td> </td>   
+      <td> 1*1/4 P40</td>   
     </tr>
    <tr>
       <td>p.q1p40g.xlarge</td>
@@ -1389,7 +1389,7 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td>1038.69</td>
       <td>4.81</td>
       <td>3.61</td>
-      <td> </td>   
+      <td> 1*1/4 P40</td>   
     </tr>    
    <tr>
       <td>p.q1p40g.3large</td>
@@ -1399,7 +1399,7 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td>1773.50</td>
       <td>8.21</td>
       <td>6.16</td>
-      <td> </td>   
+      <td>1*1/2 P40 </td>   
     </tr>  
 </table>
 

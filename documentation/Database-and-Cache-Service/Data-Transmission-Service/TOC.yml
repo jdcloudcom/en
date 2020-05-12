@@ -41,6 +41,8 @@
         href: Operation-Guide/MySQL-Migrate-to-JCS-for-MySQL.md
       - name: Migrate Self-built SQL Server to JCS for SQL Server
         href: Operation-Guide/SQLServer-Migrate-to-JCS-for-SQLServer.md
+      - name: Migrate self-built PostgreSQL to JCS for PostgreSQL
+        href: Operation-Guide/PostgreSQL-Migrate-to-JCS-for-PostgreSQL.md
       - name: Migrate Self-built MongoDB to Cloud Database MongoDB
         href: Operation-Guide/MongoDB-Migrate-to-JCS-for-MongoDB.md 
   - name: FAQ

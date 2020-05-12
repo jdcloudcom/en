@@ -17,6 +17,7 @@ Currently, different images have different support for network interface multi-q
 
 * If source image of instance supports multiple queues of network interface, private image created based on this instance also supports multi-queue of network interface;
 * If source image instance does not support multiple queues of network interface, private image created based on this instance also does not support multi-queue of network interface.
+* If network interface multi-queue is required to [Import Image](../Image/Import-Private-Image.md), please [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) for application.
 
 #### Shared Image:
 

@@ -8,10 +8,10 @@ Hosted Private Virtual Interface is the logical channel on Hosted Connection to 
 ### Operation Steps
 ##### 1. Create Hosted Private Virtual Interface
 Customers that have a Hosted Connection in the status of "available" can use a Hosted Private Virtual Interface.
-a) Log in [JD Cloud & AI Hosted Private Virtual Interface Console](https://cns-console.jdcloud.com/host/hVif/list);  </br>
-b) Select region and click **Create**;</br>
-c) Enter the name of Hosted Private Virtual Interface, select a Hosted Connection and Border Gateway, allocate vlanId, routing method, BGP ASN of client device, BGP key pair, BGP interconnection address and description, and create a Hosted Private Virtual Interface;</br>
-d) After a Hosted Private Virtual Interface is created and a period of configuration distribution, the Hosted Private Virtual Interface shall enter into the status of "available". The configuration distribution process involves the cloud configuration distribution, as well as vlan connection with the client, BGP Session establishment, BGP route learning, etc. Please complete the relevant configuration in the client device in advance;</br>
+a) Log in [JD Cloud & AI Hosted Private Virtual Interface Console](https://cns-console.jdcloud.com/host/hVif/list);  <br />
+b) Select region and click **Create**;<br />
+c) Enter the name of Hosted Private Virtual Interface, select a Hosted Connection and Border Gateway, allocate vlanId, routing method, BGP ASN of client device, BGP key pair, BGP interconnection address and description, and create a Hosted Private Virtual Interface;<br />
+d) After a Hosted Private Virtual Interface is created and a period of configuration distribution, the Hosted Private Virtual Interface shall enter into the status of "available". The configuration distribution process involves the cloud configuration distribution, as well as vlan connection with the client, BGP Session establishment, BGP route learning, etc. Please complete the relevant configuration in the client device in advance;<br />
 
 ```
   Only available Hosted Connection supports Hosted Private Virtual Interface creation.
@@ -35,14 +35,16 @@ d) After a Hosted Private Virtual Interface is created and a period of configura
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/create-hosted-private-vif.png)
 
 ##### 2. Modify Hosted Private Virtual Interface
-You can modify the name and description of Hosted Private Virtual Interface.</br>
-a) Log in [JD Cloud & AI Hosted Private Virtual Interface Console](https://cns-console.jdcloud.com/host/hVif/list);  </br>
-b) Select corresponding Hosted Private Virtual Interface and log in the details of Hosted Private Virtual Interface;</br>
-c) Modification of the name and description of Hosted Private Virtual Interface is supported, and the restriction of each configuration item is the same as the creation of Hosted Private Virtual Interface;</br>
+You can modify the name and description of Hosted Private Virtual Interface.<br />
+a) Log in [JD Cloud & AI Hosted Private Virtual Interface Console](https://cns-console.jdcloud.com/host/hVif/list);  <br />
+b) Select corresponding Hosted Private Virtual Interface and log in the details of Hosted Private Virtual Interface;<br />
+c) Modification of the name and description of Hosted Private Virtual Interface is supported, and the restriction of each configuration item is the same as the creation of Hosted Private Virtual Interface;<br />
+
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/update-hosted-private-vif.png)
 
 ##### 3. Delete Hosted Private Virtual Interface
-If you do not need a Hosted Private Virtual Interface anymore, you can delete it.</br>
-a) Log in [JD Cloud & AI Hosted Private Virtual Interface Console](https://cns-console.jdcloud.com/host/hVif/list);  </br>
-b) Select corresponding Hosted Private Virtual Interface, and click **Delete** on the operation bar;</br>
+If you do not need a Hosted Private Virtual Interface anymore, you can delete it.<br />
+a) Log in [JD Cloud & AI Hosted Private Virtual Interface Console](https://cns-console.jdcloud.com/host/hVif/list);  <br />
+b) Select corresponding Hosted Private Virtual Interface, and click **Delete** on the operation bar;<br />
+
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/delete-hosted-private-vif.png)

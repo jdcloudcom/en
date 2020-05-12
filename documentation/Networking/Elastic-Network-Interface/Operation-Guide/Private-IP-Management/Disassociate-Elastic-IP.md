@@ -1,9 +1,9 @@
 # Disassociate EIP
 
-The ENI of JD Cloud (including primary network interface and secondary network interface) can be disassociated from the connected Elastic IP.
+The ENI of JD Cloud & AI (including primary network interface and secondary network interface) can be disassociated from the connected Elastic IP.
 
 ## Procedures
-Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud & AI and enter the Console Navigation Page.
 
 Step 2: Select network - virtual private cloud - ENI at the navigation bar on the left side of the console to enter the ENI list page.
 
@@ -19,3 +19,4 @@ Step 5: Locate the private IP that needs to be disassociated from the public net
 Step 6: Click Disassociate EIP to enter the Disassociate EIP popup.
 
 Step 7: Click OK to complete the disassociation of Elastic IP. Return to the Private IP management page to view the disassociation of Elastic IP.
+

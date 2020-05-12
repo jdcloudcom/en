@@ -2,6 +2,8 @@
 
 It is recommended to read the basic concepts related to Elastic IP before use of the Elastic IP products. The functions, such as creation of Elastic IP, resource association and disassociation, and bandwidth modification, are described in detail here.
 
+The following function is applicable to both types of the Elastic IP, namely the Standard Elastic IP and Edge Elastic IP.
+
 | Function | Description |
 | :- | :- |
 | Create Elastic IP | The users can purchase Elastic IP by clicking **create** on the Elastic IP List Page, or purchase it when the users purchase the Virtual Machine or Load Balancer.

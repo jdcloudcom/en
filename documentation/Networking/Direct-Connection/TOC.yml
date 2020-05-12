@@ -93,7 +93,10 @@
             href: Operation-Guide/Route-Management/VPC-Route-Configuration.md
   - name: Best Practices
     items:
-    status: 0
+       - name: High-availability Direct Connection
+         href: Best-Practices/Direct-Connect-High-Available.md
+       - name: Direct VPN Hybrid Cloud Solution
+         href: Best-Practices/Connection-With-VPN.md
   - name: Troubleshooting
     items:
     status: 0

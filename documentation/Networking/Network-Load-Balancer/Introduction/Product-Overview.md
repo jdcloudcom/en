@@ -1,6 +1,6 @@
 # Product Overview
 
-  Network load balancer is a self-developed product by JD Cloud, and focuses on four layers business services. It supports high performance, low latency, session persistence, etc. for over 100 million concurrent connections and millions of new connections per second.
+  Network load balancer is a self-developed product by JD Cloud & AI, and focuses on four layers business services. It supports high performance, low latency, session persistence, etc. for over 100 million concurrent connections and millions of new connections per second.
 
   Network load balancer (NLB) has the following features:
 

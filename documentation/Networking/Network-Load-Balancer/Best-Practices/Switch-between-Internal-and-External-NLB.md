@@ -4,7 +4,7 @@
 
 ## Intranet Load Balancer
 
-- Intranet load balancer only can be used in JD Cloud Intranet, can forward client request having access permission to JD Cloud Intranet. - Steps for creating Intranet load balancer are as follows:
+- Intranet load balancer only can be used in JD Cloud & AI Intranet, can forward client request having access permission to JD Cloud & AI Intranet. - Steps for creating Intranet load balancer are as follows:
 
   ![NLB前端监听设置](../../../../image/Networking/NLB/NLB-058.png)
 
@@ -20,7 +20,7 @@
 
 ## Intranet load balancer is converted to public network load balancer
 
-- JD Cloud supports mutual conversion of load balancer type of Intranet and public network, Intranet load balancer can be converted to load balancer of public network type through associating EIP, after the public network load balancer disassociates EIP, it can be converted to load balancer of Intranet type.
+- JD Cloud & AI supports mutual conversion of load balancer type of Intranet and public network, Intranet load balancer can be converted to load balancer of public network type through associating EIP, after the public network load balancer disassociates EIP, it can be converted to load balancer of Intranet type.
 
   ![NLB前端监听设置](../../../../image/Networking/NLB/NLB-060.png)
 

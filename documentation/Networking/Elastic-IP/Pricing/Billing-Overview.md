@@ -1,22 +1,31 @@
 # Billing Overview
 ## Charging Item
 
-Elastic IP can be billed with three modes.
+The Elastic IP is divided into Standard Elastic IP and Edge Elastic IP, which support different billing types.
+
+The Standard Elastic IP consists of three billing types.
 
 - Monthly package: Pay in advance by bandwidth configuration
 - Pay by configuration: Bill per hour according to the bandwidth configuration
 - Pay by consumption: Bill daily based on the actual traffic of the Elastic IP, while the retention cost is charged every day
 
+The Edge Elastic IP consists of two billing types.
+
+- Monthly Package: Pay in advance by bandwidth configuration
+- Pay By Configuration: Bill per hour by bandwidth configuration
+
 ## Region and Availability Zone
 
-The Elastic IP is currently classified into two IP provider types: BGP and non-BGP. The Elastic IP of the same IP provider type has the same price in each region.
+The Standard Elastic IP is currently classified into two ISP line types: BGP and non-BGP. The Elastic IP of the same ISP line type has the same price in each region.
+
+The Edge Elastic IP supports service types including BGP, telecom, unicom, and chinamobile. The price of the Edge Elastic IP may vary according to different edge computing nodes and different service types
 
 ## Amount Overdue/Expiry Description
 
 ### Monthly Package Billing
 - When the expiration time of the users' monthly package paid online resources is earlier than or the same as the current time, the users' paid online resources status will become expired. The paid online resources service will be stopped and cannot be used after the expiration;
 
-- Emails and SMSs will be sent to the users by JD Cloud before expiration of the users' monthly package paid online resources, reminding the users that the users' resources are close to expire. Please check it and renew in time;
+- Emails and SMSs will be sent to the users by JD Cloud & AI before expiration of the users' monthly package paid online resources, reminding the users that the users' resources are close to expire. Please check it and renew in time;
 
 - Upon expiration of the users' paid online resources, the service of resources will be stopped, and the users will be sent email and SMS. Please be sure to check it and recharge in time to prevent unnecessary losses;
 

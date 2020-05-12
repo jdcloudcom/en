@@ -2,7 +2,7 @@
 
 #### **Step 1 Create/Delete Network ACL**
 
-Open JD cloud console, click on the left navigation bar VPC  - Network ACL, and then enter the network ACL page.
+Open JD Cloud & AI console, click on the left navigation bar VPC  - Network ACL, and then enter the network ACL page.
 
 1. Click **Create** Popup a window for creating network ACL;
 

@@ -37,11 +37,13 @@ ID|The unique identifier of each Rule, with the maximum length of no more than 6
 Status|Control the availability of Rule. If it is Disable, the Rule shall be ignored; if it is Enable, the defined Rule shall be applied. <br>Type: String<br>Parent Tag: Rule<br>Valid Value: Enabled, Disabled|Yes
 Filter|Define the filter conditions of Objects influenced by life cycle management policies, supports filtering through Prefix. If \<Filter\>\</Filter\> is defined, it shall be considered that all the Objects under the Bucket become valid. <br>Type: Container<br>Parent Tag: Rule<br>Subtag: Prefix|Yes
 Prefix|By specifying the Prefix of Object, which Objects are influenced by life cycle management policies is determined; if \<Prefix\>\</Prefix\> is defined, it shall be considered as a filter condition for matching without prefix. In the Filter of a Rule, only one Prefix is allowed to exist. No more than 1,022 bytes is allowed under utf-8 code. <br>Type: String<br>Parent Tag: Filter|No
-Days|Specify the number of days after the Objects meeting the filter conditions are uploaded to Bucket for storage type conversion. If the Date exists under the Expiration tag, Days shall not be specified. <br>Type: Positive Integer<br>Parent Tag: Expiration|If no Date is specified, you must
-Date|Specify a date for storage type conversion after the Objects meeting the filter conditions are uploaded to the Bucket. If the Days exist under the Expiration tag, Date shall not be specified. The date format must conform to ISO 8601 format specifications, midnight UTC. <br>Type: String<br>Parent Tag: Expiration|If no Days is specified, you must
+Days|Specify the number of days after the Objects meeting the filter conditions are uploaded to Bucket for storage type conversion. If the Date exists under the Expiration tag, Days shall not be specified. <br>Type: Positive Integer<br>Parent Tag: Expiration,Transition|If no Date is specified, you must
+Date|Specify a date for storage type conversion after the Objects meeting the filter conditions are uploaded to the Bucket. If the Days exist under the Expiration tag, Date shall not be specified. The date format must conform to ISO 8601 format specifications, midnight UTC. <br>Type: String<br>Parent Tag: Expiration,Transition|If no Days is specified, you must
 Expiration|Specify the time for deleting the expired Objects. <br>Type: Container<br>Subtag: Days and Date<br>Parent Tag: Rule|NO
 AbortIncompleteMultipartUpload|Assign the time when Abort Multipart Upload operation is executed to uncompleted multipart upload. <br>Type: Container<br>Subtag: DaysAfterInitiation<br>Parent tag: Rule|No
 DaysAfterInitiation|Assign the time period (day since initial multipart upload) terminating multipart upload by OSS, with maximum period of 2147483647<br>Type: Positive Integer<br>Parent tag: AbortIncompleteMultipartUpload|No
+Transition|Specify the time to change the storage type for the Object. <br>Type: Container<br>Subtag: Days, Date, StorageClass<br>Parent Tag: Rule|No
+StorageClass|Specify the storage type to be converted<br>Type: string<br>Valid Value: STANDARD_IA, GLACIER|No
 
 ## Response
 ### Response Header
@@ -69,6 +71,17 @@ Content-MD5: MD5
     <Expiration>
       <Days>365</Days>
     </Expiration>
+  </Rule>
+  <Rule>
+    <ID>id2</ID>
+    <Filter>
+       <Prefix>documents/</Prefix>
+    </Filter>
+    <Status>Enabled</Status>
+    <Transition>
+      <Days>30</Days>
+      <StorageClass>GLACIER</StorageClass>
+    </Transition>
   </Rule>
 </LifecycleConfiguration>
 ```

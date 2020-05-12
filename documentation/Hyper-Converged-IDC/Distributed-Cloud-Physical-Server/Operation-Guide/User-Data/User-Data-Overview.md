@@ -1,7 +1,5 @@
 ## User Data
 
-### Function Description
-
 When creating an instance of Distributed Cloud Physical Server, you can configure the instance by specifying user data. When the Distributed Cloud Physical Server is started for the first time, the user can transmit the executable script to the instance in the specified data format, and implement the text. If you purchase multiple Distributed Cloud Physical Server instances at a time, user data will execute the text when all instances are first started.
 
 ### Format Requirements

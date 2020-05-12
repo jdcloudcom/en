@@ -49,3 +49,4 @@ uploadDict  | Load Local Dictionary Files and Upload to es | Write | Some Select
 deleteDict  | Delete a Single Dictionary File | Write | Some Selectable Resources of JCS for Elasticsearch Under Primary Account |
 createSnapshot  | Create a Single snapshot | Write | Some Selectable Resources of JCS for Elasticsearch Under Primary Account |
 modifyAutoSnapshot | auto snapshot Setting | Write | Some Selectable Resources of JCS for Elasticsearch Under Primary Account |
+describeKibana | Access Kibana | Write | Some Selectable Resources of JCS for Elasticsearch Under Primary Account |

@@ -1,31 +1,22 @@
-# Description on Trial Program
+# Activity Description
 
-Free trial is being developed for anti-DDoS protection package, through which free trial for 5G protection bandwidth is provided to the invited users maximally for 1 month.
+618 Shopping Festival Promotion is ongoing for Anti-DDoS Protection Package.
 
 ## Description on Activity
-1. Activity packages: exclusive IP, basic protection 5G.
+1. Activity packages: 50% off for all packages.
 
-2. Activity duration: one month from the day you star trail.
+2. Activity duration: During 618 Shopping Festival Promotion.
 
-3. Special instruction: The activity is only directed to the users who try the anti-DDoS protection package at the first time. Trial package does not support renewing and upgrading. Upon trial, please purchase the normal package for use.
 
 
 ## How to try
 
-1. Apply for trail
+Please enter [Anti-DDoS Protection Package Console](https://antiddos-console.jdcloud.com/gz/ddos/protection-package-list); the menu of the protection package is in the directory of Anti-DDoS Basic. Please directly click **Subscribe Now**.
 
-Please apply for trail directly on the product page, and get the trail qualification after 3 working days for qualification approval.
+![开通试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/开通试用.png)
 
-![image-20181022151452212](../../../../image/Anti-DDoS-Protection-Package/产品页申请试用.png)
+Please fill in the instance name and select the associated IP information in the popup and directly click **Buy Now**.
 
-2. Open trial
+![试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/试用.png)
 
-You need to click **Try Now** in the console after obtaining the trial qualification.
-
-![开通试用](../../../../image/Anti-DDoS-Protection-Package/开通试用.png)
-
-Fill in the name of trial instance and the IP information selected to associate in the popup to start free trail for 1 month.
-
-![试用](../../../../image/Anti-DDoS-Protection-Package/试用.png)
-
-JD Cloud reserves all the right for the final explanation of trail activity.
+JD Cloud reserves all the right for the final explanation of the activity.

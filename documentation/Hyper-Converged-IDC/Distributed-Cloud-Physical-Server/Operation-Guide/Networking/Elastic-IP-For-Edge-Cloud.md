@@ -69,36 +69,38 @@ For details, please refer to Elastic IP [Price Overview](../../Pricing/Price-Ove
 
 ### Create Elastic IP
 
-- Turn on the Console, click **Distributed Cloud Physical Server** -> **Elastic IP** in turn in the left navigation bar, log in the Elastic IP List Page and click **Apply** to pop up the Create Configuration window;<br/>
+- Turn on the Console, click **Elastic IP** in the left navigation bar, log in the Elastic IP List Page and click **Apply** to pop up the Create Configuration window;<br/>
 
-- Select the node, operator, billing by bandwidth mode, ISP line type, bandwidth, additional bandwidth cap, duration and count according to demands and click **OK** to create 1 elastic IP.<br/>
+- Select the node, operator, billing by bandwidth mode (3 billing methods, i.e. Monthly Package, Pay By Configuration and Add to Shared Bandwidth, are supported), ISP line type, bandwidth, additional bandwidth cap, duration and count according to demands and click **OK** to create 1 elastic IP.<br/>
+
+- The automatic renewal function can be enabled for monthly package resources. If automatic renewal is checked, the automatic renewal attribute and period can be modified after resources are created. In case of monthly package, the period to be automatically renewed is 1 month; for yearly package, the period to be automatically renewed is 1 year, and the automatic renewal discount will be provided for yearly automatic renewal.<br/>
 
 ### View Elastic IP
 
-- Turn on the Console, click **Distributed Cloud Physical Server** - **Elastic IP** in turn in the left navigation bar, log in the Elastic IP List Page and view Elastic IP information;<br/>
+- Turn on the Console, click **Elastic IP** in the left navigation bar, log in the Elastic IP List Page and view Elastic IP information;<br/>
 
 - or click **IP Address** of elastic IP to redirect to the details and view detailed information of elastic IP.<br/>
 
 
 ### Associate Resource
 
-- Turn on the Console, click **Elastic IP List Page** in the left navigation bar, select a target EIP, click **Associate Resource** in operation or log in the details and then click **Associate Resource** in operation to pop up the information below;<br/>
+- Turn on the Console, click **Elastic IP** in the left navigation bar to open list page, select a target EIP, click **Associate Resource** in operation or log in the details and then click **Associate Resource** in operation to pop up the information below;<br/>
 
 - Select the resource type, network interface count, target network interface name according to demands and click **OK** to complete the association.
 
 ### Disassociate Resource
 
-- Turn on the Console, click **Elastic IP List Page** in the left navigation bar, select a target EIP, click **Disassociate Resource** in operation or log in the details and then click **Disassociate Resource** in operation to complete the disassociation.<br/>
+- Turn on the Console, click **Elastic IP** in the left navigation bar to open list page, select a target EIP, click **Disassociate Resource** in operation or log in the details and then click **Disassociate Resource** in operation to complete the disassociation.<br/>
 
 ### Modify Bandwidth
 
-- Turn on the Console, click **Elastic IP List Page** in the left navigation bar, select a target EIP, click **Modify Bandwidth** in operation or log in the details and then click **Modify Bandwidth** in operation to pop up the information below:<br/>
+- Turn on the Console, click **Elastic IP** in the left navigation bar to open list page, select a target EIP, click **Modify Bandwidth** in operation or log in the details and then click **Modify Bandwidth** in operation to pop up the information below:<br/>
 
 - Select the bandwidth and additional uplink bandwidth size to be adjusted in the popup to complete the operations.<br/>
 
 ### Add to Shared Bandwidth
 
-- Turn on the Console, click **Elastic IP List Page** in the left navigation bar, select a target EIP, click **Add to Shared Bandwidth** in operation or log in the details and then click **Add to Shared Bandwidth** in operation, and select the Shared Bandwidth to be added to complete the operations.<br/>
+- Turn on the Console, click **Elastic IP** in the left navigation bar to open list page, select a target EIP, click **Add to Shared Bandwidth** in operation or log in the details and then click **Add to Shared Bandwidth** in operation, and select the Shared Bandwidth to be added to complete the operations.<br/>
 
 - After an elastic IP is added to Shared Bandwidth, please note:<br/>
   1. The original bandwidth/additional uplink bandwidth value will become invalid and become as the same as the Shared Bandwidth;<br/>
@@ -107,7 +109,7 @@ For details, please refer to Elastic IP [Price Overview](../../Pricing/Price-Ove
 
 ### Remove Out of Shared Bandwidth
 
-- Turn on the Console, click **Elastic IP List Page** in the left navigation bar, select a target EIP, click **Move Out of Shared Bandwidth** in operation or log in the details and then click **Move Out of Shared Bandwidth** in operation to complete the operations.<br/>
+- Turn on the Console, click **Elastic IP** in the left navigation bar to open list page, select a target EIP, click **Move Out of Shared Bandwidth** in operation or log in the details and then click **Move Out of Shared Bandwidth** in operation to complete the operations.<br/>
 
 - After an elastic IP is moved out of Shared Bandwidth, please note:<br/>
   1. The bandwidth and additional uplink bandwidth cap before addition to Shared Bandwidth will be restored;<br/>
@@ -115,10 +117,12 @@ For details, please refer to Elastic IP [Price Overview](../../Pricing/Price-Ove
 
 ### Renew
 
-- Turn on the Console, click **Elastic IP List Page** in the left navigation bar, select a target EIP, click **Renew** in operation or log in the details and then click **Renew** in operation, and select the duration to be renewed, click **OK** to redirect to **Payment Confirmation Page** and then click **Pay Now** to complete the operations. Note:<br/>
-  1. Elastic IP paid by configuration does not support renewal.
+- Turn on the Console, click **Elastic IP** in the left navigation bar to open list page, select a target EIP, click **Renew** in operation or log in the details and then click **Renew** in operation, and select the duration to be renewed, click **OK** to redirect to **Payment Confirmation Page** and then click **Pay Now** to complete the operations. Note:<br/>
+
+- Note: Elastic IP paid by configuration does not support renewal.
 
 ### Delete
 
-- Turn on the Console, click **Elastic IP List Page** in the left navigation bar, select a target EIP, click **Delete** in operation or log in the details and then click **Delete** in operation, and click **OK** to complete the operations. Note:<br/>
-  1. Elastic IP paid by monthly package does not support deletion.
+- Turn on the Console, click **Elastic IP** in the left navigation bar to open list page, select a target EIP, click **Delete** in operation or log in the details and then click **Delete** in operation, and click **OK** to complete the operations. Note:<br/>
+
+- Note: Elastic IP paid by monthly package does not support deletion.

@@ -2,7 +2,7 @@
 
 ### Features
 
-If multiple VMs in one VPC require to access to the Internet at the same time and the EIP resources are insufficient, you can solve this problem by creating a NAT gateway instance. JD Cloud supports self-built NAT instance gateway to realize SNAT.
+If multiple VMs in one VPC require to access to the Internet at the same time and the EIP resources are insufficient, you can solve this problem by creating a NAT gateway instance. JD Cloud & AI supports self-built NAT instance gateway to realize SNAT.
 
 Use Restrictions: The self-built NAT gateway instance shares quotas with the VM.
 
@@ -10,10 +10,10 @@ Use Restrictions: The self-built NAT gateway instance shares quotas with the VM.
 
 ### **Overview**
 
-A NAT gateway instance is a gateway instance that translates Private IP addresses and EIP addresses in a VPC. It is a way for cloud resources without EIP access the Internet (but it does not support request from Internet to the VPC). The typical application scenarios of the JD Cloud VPC NAT gateway instance are as follows:
+A NAT gateway instance is a gateway instance that translates Private IP addresses and EIP addresses in a VPC. It is a way for cloud resources without EIP access the Internet (but it does not support request from Internet to the VPC). The typical application scenarios of the JD Cloud & AI VPC NAT gateway instance are as follows:
 
-- Large bandwidth, high availability public network access. For the public network access application scenarios where users require to large bandwidth, large EIP quantities, and large deployment services, JD Cloud NAT gateway instance can meet the demands.
-- Secure public network access. The NAT gateway instance of JD Cloud VPC provides security IP translation. If the user wants to hide the EIP of the machine in the VPC to avoid exposing its network deployment and wants to access the public network, then the JD Cloud NAT instance gateway can meet such demands.
+- Large bandwidth, high availability public network access. For the public network access application scenarios where users require to large bandwidth, large EIP quantities, and large deployment services, JD Cloud & AI NAT gateway instance can meet the demands.
+- Secure public network access. The NAT gateway instance of JD Cloud & AI VPC provides security IP translation. If the user wants to hide the EIP of the machine in the VPC to avoid exposing its network deployment and wants to access the public network, then the JD Cloud & AI NAT instance gateway can meet such demands.
 
 
 

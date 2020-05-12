@@ -23,6 +23,12 @@ items:
             href: Getting-Started/Process/New-Access-Subject.md
           - name: New Access (without entity)
             href: Getting-Started/Process/New-Access-Without-Subject.md
+          - name: Subject Cancellation
+            href: Getting-Started/Process/Subject-Cancellation.md
+          - name: Website Cancellation
+            href: Getting-Started/Process/Website-Cancellation.md
+          - name: Cancel Access
+            href: Getting-Started/Process/Cancel-Access.md    
       - name: Rules of Regulatory Authority
         items:
           - name: Anhui
@@ -93,8 +99,6 @@ items:
         href: FAQ/Public-Security-Bureau-Filing-Common-Problems.md
       - name: Operational ICP Filing
         href: FAQ/Operational-ICP-Filing.md
-      - name: Note on Access Cancellation
-        href: FAQ/Cancel-Access.md
       - name: Access Filing Description
         href: FAQ/Access-Filing-Notes.md
       - name: Hyperlink Setting of ICP License No.

@@ -1,9 +1,9 @@
 # Create ENI
 
-The secondary ENI can be created independently for JD Cloud. The life cycle of the primary network interface of the VM is the same as that of the VM and can only be created with the VM.
+The secondary ENI can be created independently for JD Cloud & AI. The life cycle of the primary network interface of the VM is the same as that of the VM and can only be created with the VM.
 
 ## Procedures
-Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud & AI and enter the Console Navigation Page.
 
 Step 2: Select network - virtual private cloud - ENI at the navigation bar on the left side of the console to enter the ENI list page.
 
@@ -20,4 +20,5 @@ Step 5: Assign a specific number of private IP addresses to the ENI in the popup
 	Each ENI can be provided with 1 primary IP address and 20 standby IP addresses, and the primary IP address cannot be changed or releases once the ENI is created.
 
 Step 6: After completing the above steps, click OK to return to the ENI list page to view the creation of the ENI.
+
 

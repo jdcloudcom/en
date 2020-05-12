@@ -1,16 +1,16 @@
-# On-line Card Purchase
-Online purchasing is provided for NB/2G/3G/4G IoT cards of three major operators (China Unicom, China Mobile and China Telecom).
+# Self-help Purchase
+IoT Connection Service Platform provides the on-line self-help purchase service for users to provide connection service in different network formats of NB-IOT/2G/3G/4G of three operators (China Unicom, China Mobile and China Telecom).
 # On-line Operation
 ## Overview
-Provide the overview information of IoT cards.
+IoT Connection Service Platform also provides the on-line monitoring service for users and presents it to users in the graphic form.
 ## IoT Card Management
-### IoT Card
-IoT card management is provided and the management of the entire life cycle of IoT cards is supported. Operations such as activation and deactivation, traffic enabling and disabling, as well as renewal are achievable to cards.
+### Connection Service
+IoT Connection Service Platform provides connection service management for users to support the full life cycle management of IoT Connection Service and to implement activations, enabling, disabling, renewal and other operations on the connection service.
 ### Traffic Pool
-Management for traffic pool is provided, including start and shutdown for cards in the traffic pool, traffic start, shutdown and renewal, etc.
+IoT Connection Service Platform provides management on traffic pool for users to implement activations, enabling, disabling, renewal and other operations on connection service in the traffic pool.
 ## Order Management
-Order information management is provided.
+IoT Connection Service Platform provides order information management for users.
 ### New Purchased Orders
-Data of new purchased order can be screened by search conditions and operations such as payment, confirming receipt, searching details and deletion can be made to such orders.
+IoT Connection Service Platform provides new purchase order management for users, to help user screen the data of new purchase orders by search conditions and make operations such as payment, receipt confirmation, details searching and deletion on the orders.
 ### Renewal Order
-Data of renewal order can be screened as per search conditions and orders can be paid and deleted.
+IoT Connection Service Platform provides renewal purchase order management for users, to help user screen the data of renewal purchase orders by search conditions and make operations such as payment and deletion on the orders.

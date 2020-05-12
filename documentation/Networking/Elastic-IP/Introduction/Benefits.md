@@ -2,7 +2,11 @@
 
 ## Complete Elasticity
 
-Currently all JD Cloud’s Public IP addresses are Elastic IP addresses. An Elastic IP address, either from independent application or from a package order with instances, can be associated to or disassociated from a cloud resource at any time.
+Currently all JD Cloud & AI’s Public IP addresses are Elastic IP addresses. An Elastic IP address, either from independent application or from a package order with instances, can be associated to or disassociated from a cloud resource at any time.
+
+## Support Multiple Public IP Types
+
+The Elastic IP supports the Standard Elastic IP and Edge Elastic IP, which respectively provide public network access capability for resources in central availability zone and edge zone in each region and can be applicable to different business scenarios.
 
 ## Multiple Resource Type Support
 

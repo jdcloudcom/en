@@ -1,9 +1,9 @@
 # Add Security Group
 
-The ENI of JD Cloud (including primary network interface and secondary network interface) can be connected with the at least 1 security group, and at most 5.
+The ENI of JD Cloud & AI (including primary network interface and secondary network interface) can be connected with the at least 1 security group, and at most 5.
 
 ## Procedures
-Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud & AI and enter the Console Navigation Page.
 
 Step 2: Select network - virtual private cloud - ENI at the navigation bar on the left side of the console to enter the ENI list page.
 
@@ -20,3 +20,4 @@ Step 7: Click OK to complete the adding of security group. Return to the securit
 ## Related References
 
 - [Use Restrictions](../../Introduction/Restrictions.md)
+

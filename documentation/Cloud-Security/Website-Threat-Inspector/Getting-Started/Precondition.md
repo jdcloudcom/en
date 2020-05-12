@@ -6,27 +6,10 @@ If you've used the Web Application Firewall (WAF) or other security protection p
 
 The IP of the Website Threat Inspector is:
 
-> > Scan IP list:
-> >
-> > 116.196.94.49
-> >
-> > 116.196.93.238
-> >
-> > 116.196.81.45
-> >
-> > 116.196.114.220
-> >
-> > 116.196.116.197
-> >
-> > 116.196.91.57
-> >
-> > 116.196.91.40
-> >
-> > 116.196.113.56
+> Scan IP list:
+> 
+>  116.196.91.40
+> 
+>  116.196.113.56
 >
-> > Assist in verification service:
-> >
-> > IP：116.196.122.44
-> >
-> > Port: 8081, 8082
 

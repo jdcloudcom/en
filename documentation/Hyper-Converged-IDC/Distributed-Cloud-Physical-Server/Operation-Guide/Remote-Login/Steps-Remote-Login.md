@@ -1,7 +1,5 @@
 ## Remote Login
 
-### Function Description
-
 You may use remote connection software to implement the remote management and control of Distributed Cloud Physical Server.
 
 ### Operation Steps

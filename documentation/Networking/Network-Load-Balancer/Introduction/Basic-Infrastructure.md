@@ -1,14 +1,14 @@
 # Basic architecture
 
-Network load balancer is a self-developed product by JD Cloud, and focuses on four layers business services. It supports high performance, low latency, session persistence, etc. for over 100 million concurrent connections and millions of new connections per second. NLB supports auto scaling, and can eliminate the cumber of user’s business planning and manual expansion; NLB supports deployment across multiple availability zones and works closely with availability group AG to meet high availability deployment needs;
+Network load balancer is a self-developed product by JD Cloud & AI, and focuses on four layers business services. It supports high performance, low latency, session persistence, etc. for over 100 million concurrent connections and millions of new connections per second. NLB supports auto scaling, and can eliminate the cumber of user’s business planning and manual expansion; NLB supports deployment across multiple availability zones and works closely with availability group AG to meet high availability deployment needs;
 
 The network load balancer can distribute large concurrent traffic to several backend instances, adjust resource utilization, eliminate influence to systems by fault of single device, improve system availability and expand system serviceability.
 
-![京东云私有网络业务架构](../../../../image/Networking/NLB/NLB-VPC-Arch.png)
+![京东智联云私有网络业务架构](../../../../image/Networking/NLB/NLB-VPC-Arch.png)
 
 ## Provide high-availability service with multiple guarantees
 
-## JD Cloud load balancer can realize high availability of multi-mechanism guarantee service:
+JD Cloud & AI load balancer can realize high availability of multi-mechanism guarantee service:
 
 
 
@@ -66,7 +66,7 @@ A set of VM or container resources receiving access request is managed by the vi
 
 - Availability Group
 
-Availability Group is the Virtual Machine logic set provided by JD Cloud, which may support auto scaling across racks, across AZ according to the machine template designated by the user so as to distribute Virtual Machines in dispersion to the physical resources separately isolated. When hardware or power failure occurs, only the Virtual Machines in Availability Group can be affected, the business is still in available status.
+Availability Group is the Virtual Machine logic set provided by JD Cloud & AI, which may support auto scaling across racks, across AZ according to the machine template designated by the user so as to distribute Virtual Machines in dispersion to the physical resources separately isolated. When hardware or power failure occurs, only the Virtual Machines in Availability Group can be affected, the business is still in available status.
 
 ## High reusability architecture description
 

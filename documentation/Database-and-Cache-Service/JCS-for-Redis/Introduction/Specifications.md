@@ -12,19 +12,19 @@ Specification|Specification Code|Description
 8G Standard Version|redis.m1.large.basic |Standard Instance, Optional
 16G Standard Version|redis.m1.xlarge.basic|	Standard Instance, Optional
 32G Standard Version|redis.m1.2xlarge.basic|	Standard Instance, Optional
-64G Standard Version|redis.m1.4xlarge.basic	|Standard Instance, Optional
+
 
 ### Redis 4.0
 
 Specification|Specification Code|Description
 :---|:--|:---
-1G Standard Version|redis.m.micro.basic|Standard Instance, Optional
-2G Standard Version|redis.m.small.basic	|Standard Instance, Optional
-4G Standard Version|redis.m.medium.basic|	Standard Instance, Optional
-8G Standard Version|redis.m.large.basic	|Standard Instance, Optional
-16G Standard Version|redis.m.xlarge.basic|	Standard Instance, Optional
-32G Standard Version|redis.m.2xlarge.basic|	Standard Instance, Optional
-64G Standard Version|redis.m.4xlarge.basic	|Standard Instance, Optional
+1G Standard Version|redis.s.micro.basic|Standard Instance, Optional
+2G Standard Version|redis.s.small.basic	|Standard Instance, Optional
+4G Standard Version|redis.s.medium.basic|	Standard Instance, Optional
+8G Standard Version|redis.s.large.basic	|Standard Instance, Optional
+16G Standard Version|redis.s.xlarge.basic|	Standard Instance, Optional
+32G Standard Version|redis.s.2xlarge.basic|	Standard Instance, Optional
+
 
 ## Cluster version
 

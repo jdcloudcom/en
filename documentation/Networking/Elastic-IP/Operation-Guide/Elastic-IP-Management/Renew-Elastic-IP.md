@@ -1,10 +1,10 @@
 # Renew Elastic IP
 
-Renew Elastic IP of JD Cloud monthly package billing and billing by configuration.
+Renew Elastic IP of JD Cloud & AI monthly package billing and billing by configuration.
 
 ## Procedures
 
-Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud & AI and enter the Console Navigation Page.
 
 Step 2: Select **Cost - Renew Management** at the navigation bar on the top side of the console and go to the renewal management list page.
 

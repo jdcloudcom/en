@@ -1,6 +1,6 @@
 # Certificate Management
 
-JD Cloud Load Balancer supports HTTPS/TLS one-way verification. When configuring HTTPS/TLS listening, you must upload the server certificate to Load Balancer, which is responsible for the decryption of data, and the backend server is no longer required to configure the certificate.
+JD Cloud & AI Load Balancer supports HTTPS/TLS one-way verification. When configuring HTTPS/TLS listening, you must upload the server certificate to Load Balancer, which is responsible for the decryption of data, and the backend server is no longer required to configure the certificate.
 When the certificate is issued via Root CA institution and there is only one certificate in the certificate files, you just need to upload the certificate; when the certificate is issued via intermediate CA institution, and there is a certificate chain in certificate files, you need to upload both the server certificate and intermediate certificate on the certificate chain to the Load Balancer.
  
 The format requirements for certificate contents are as follows:

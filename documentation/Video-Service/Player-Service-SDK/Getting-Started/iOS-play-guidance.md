@@ -15,7 +15,7 @@ The current version is V1.0.0
 This section lists one example of basic functions of rapidly-integrated JD Cloud Player SDK.  
 For details, please refer to corresponding files of the demo project.  
 **Download Project**   
-For iOS Player SDK, please<a href="https://zhanghao274.s3.cn-north-1.jdcloud-oss.com/iOS-sdk-v1.0.0-2019-11-19.zip">click to download</a>  
+For iOS Player SDK, please <a href="https://zhanghao274.s3.cn-north-1.jdcloud-oss.com/SDK/live/jdcloud_live_ios_demo.zip">click to download</a>  
 **Project Directory Structure**   
 The project directory of Player SDK is as follows: including the header file Headers.  
 ![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/ios%E6%92%AD%E6%94%BE1.png)  

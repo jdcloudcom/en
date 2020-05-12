@@ -1,6 +1,6 @@
 # Tag Overview
 
-The tags provide a resource classification mode that supports multiple classification specifications (such as owner and purpose), which makes it convenient for users to quickly locate specific resources based on tags when they have a large number of similar resources. A tag consists of a pair of Key-Values, all defined by the user. E.g., the user can identify the resources based on their owners. Moreover, we recommend users to adopt the same batch of tags for resources with different types such as Virtual Machines and Cloud Database to facilitate users to manage resources on JD Cloud.
+The tags provide a resource classification mode that supports multiple classification specifications (such as owner and purpose), which makes it convenient for users to quickly locate specific resources based on tags when they have a large number of similar resources. A tag consists of a pair of Key-Values, all defined by the user. E.g., the user can identify the resources based on their owners. Moreover, we recommend users to adopt the same batch of tags for resources with different types such as Virtual Machines and Cloud Database to facilitate users to manage resources on JD Cloud & AI.
 
 ## Supported Functions
 

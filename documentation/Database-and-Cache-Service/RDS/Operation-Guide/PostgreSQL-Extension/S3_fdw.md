@@ -4,7 +4,7 @@ JD Cloud & AI RDS-PostgreSQL supports loading the data in OSS to PostgreSQL data
 
 Currently, s3_fdw supports reading and writing files in csv format.
 ## Preconditions
-JD Cloud & AI PostgreSQL instances support versions 9.6, 10.6 and 11.2.
+JD Cloud & AI PostgreSQL instances support versions 9.6, 10.6, 11.2 and 12.2.
 ## s3_fdw Parameter Description
 Like other fdw APIs, s3_fdw encapsulates the data in the external data OSS. Users can read the data stored in OSS through s3_fdw as if they use a datasheet. s3_fdw provides unique parameters for connecting and parsing file data in OSS.
 

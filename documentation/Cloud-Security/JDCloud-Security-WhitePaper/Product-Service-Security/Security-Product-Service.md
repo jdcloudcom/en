@@ -3,7 +3,7 @@
 
 ### 8.1.1 Anti-DDoS Basic
 
-JD Cloud provides users with free Anti-DDoS Basic protection capability of maximum 2Gb by default. After the user applies for public IP successfully, the protection automatically enable the basic service for the user, which can flexibly set cleaning triggering value and adjust protection policies according to the actual business requirements. When the attack traffic exceeds the cleaning triggering value, public IP will trigger black hole status. Withstand SYN Flood, ICMP Flood and other mass-traffic attacks.
+JD Cloud provides free Anti-DDoS Basic protection capability of maximum 2Gb to users by default. After the user applies for EIP successfully, the basic protection is automatically enabled for the user, and you can flexibly set the cleaning trigger value and adjust protection policies according to the actual business requirements. When the attack traffic reaches the cleaning trigger value, the cleaning mechanism will be enabled. When the attack traffic exceeds the black hole threshold, EIP will trigger the black hole status. Withstand SYN Flood, ICMP Flood and other high volume attacks.
 
 ### 8.1.2 Anti-DDoS Pro
 

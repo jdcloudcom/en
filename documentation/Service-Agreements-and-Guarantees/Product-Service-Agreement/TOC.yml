@@ -160,6 +160,8 @@ items:
     href: Queue-Service-Terms-Of-Service-SLA.md
   - name: JD Blockchain Open Platform (BaaS) Service Terms
     href: JD-Blockchain-Open-Platform.md
+  - name: JD Blockchain Open Platform Service Level Agreement
+    href: JD-Blockchain-Open-Platform-Level-Agreements-SLA.md 
   - name: IoT Hub Protocol Adaptor Service Terms
     href: IoT-Protocol-Adaptor-Terms-Of-Service.md   
   - name: IoT Hub Protocol Adaptor Service Level Agreement (SLA)
@@ -172,9 +174,9 @@ items:
     href: IoT-Hub-Terms-Of-Service.md
   - name: Service Level Agreement of IoT Hub Service (SLA)  
     href: IoT-Hub-Level-Agreements-SLA.md
-  - name: Service Terms of IoT Card Service
+  - name: IoT Connection Service Terms
     href: IoT-Link-Service-Terms-Of-Service.md
-  - name: IoT Card Service Level Agreement (SLA)
+  - name: IoT Connection Service Level Agreement (SLA)
     href: IoT-Link-Service-Level-Agreements-SLA.md
   - name: IoT Edge Service Terms
     href: IoT-Edge-Terms-Of-Service.md    
@@ -206,9 +208,9 @@ items:
     href: Recommended-Rebate-User-Agreement.md
   - name: Power of Attorney
     href: Power-Of-Attorney.md
-  - name: MINECRAFT Education Edition - Demo Edition Service Agreement
+  - name: Minecraft: Education Edition - Demo Edition Service Agreement
     href: MEE-Demo-Service-Terms-Of-Service.md
-  - name: Software License and Service Agreement of Minecraft-Education Edition
+  - name: Minecraft: Education Edition - Software License and Service Agreement
     href: MEE-China-Related-Agreement.md  
   - name: Cloud Cabinet Co-location Service Terms
     href: Cloud-Cabinet-Service-Terms-Of-Service.md

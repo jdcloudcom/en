@@ -3,7 +3,7 @@ When newly applied Public IP needs to associate tag, or edit associated tag, it 
 
 ## Operation Steps
 
-1. Access [Public IP Console](https://cns-console.jdcloud.com/host/pip/list) to enter Public IP List page. Or access [JD Cloud Console](https://console.jdcloud.com) and click **VPC** - **Elastic IP** at the navigation bar on the left to enter Public IP List page.
+1. Access [Public IP Console](https://cns-console.jdcloud.com/host/pip/list) to enter Public IP List page. Or access [JD Cloud & AI Console](https://console.jdcloud.com) and click **VPC** - **Elastic IP** at the navigation bar on the left to enter Public IP List page.
 2. Select regions.
 3. Select the public IP with tags to be edited in the Public IP List.
 4. Operations for single host: Click **Operation** - **More** - **Edit Tag**, or click **Public IP Name** to enter Details page and click **Operation** - **Edit Tag**.

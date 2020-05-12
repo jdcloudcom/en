@@ -1,13 +1,19 @@
 # Use Restrictions
 
-#### Restrictions of VPC and Subnet
+#### Relevant Restrictions on VPC
 
 - VPCs have geographical attributes and do not support cross-regional deployment, such as across the regions of cn-east-2 and cn-north-1.
-- CIDR’s network block cannot be modified after the subnet is created.
 - VPCs do not support multicast or broadcast.
 - VPC can contain multiple subnets. The network blocks of each subnet are the subset of the VPC’s CIDR. CIDR network blocks of multiple subnets cannot overlap.
 - The first address of the subnet CIDR is the network address; the last address is the broadcast address; the second and third IP addresses have been reserved by JD Cloud for network management. For example, the CIDR of the subnet is 10.1.0.0. /24. Wherein, 10.1.0.0 is the network address, 10.1.0.255 is the broadcast address AND 10.1.0.1 & 10.1.0.2 are reserved by JD Cloud, therefore the users cannot use them. Hence, the quantity of the available IPs of this subnet is 252.
-- When the VM is added to a VPC, the system will randomly assign an available Private IP to the instance by default in specified subnet. Users can also specify the unallocated intranet IP in the selected subnet to assign.
+
+
+
+#### Relevant Restrictions on Subnet
+
+- After the subnet is created, the CIDR network cannot be modified.
+- The first address of CIDR is the network address; the last address is the broadcast address; the second and third IP addresses are reserved by JD Cloud & AI for network management. For example, the CIDR is 10.1.0.0/24, in which 10.1.0.0 is the network address, 10.1.0.255 is the broadcast address, and 10.1.0.1 and 10.1.0.2 are reserved by JD Cloud & AI and cannot be used by users. Therefore, the available IP count of this subnet is 252.
+- The intranet among resources of Edge Subnet and Standard Subnet is not connected and the intranet among resources of different edge zones is not connected.
 
 
 
@@ -27,6 +33,14 @@
 - VPC CIDR on both ends of the peering connection cannot overlap. If overlap is created, errors will be reported.
 - Peering connection can interrupted  by both ends at any time. The traffic between the two VPCs will be interrupted immediately after the interruption.
 - There is no bandwidth upper limit for peering connection in the same region.
+
+
+
+#### Relevant Restrictions on Independent Edge Zone
+
+- Products supported in independent edge zone: Edge Subnet, Edge Elastic IP, ACL, Security Group, Route Table, Local Storage Virtual Machines, Virtual Machine and SSH Key Pair; products not supported include NAT Gateway, LB, BGW, VPN and Native Container.
+- Route Table can only associate with multiple Standard Subnets or associate with Edge Subnets with the same independent edge zone.
+- The intranet among resources of Edge Subnet and Standard Subnet that associate with independent edge zone is not connected and the intranet among resources of different independent edge zones is not connected.
 
 
 

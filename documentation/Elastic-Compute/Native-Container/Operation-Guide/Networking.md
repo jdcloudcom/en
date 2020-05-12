@@ -20,6 +20,9 @@ Supports multiple billing types: The Elastic IP supports three types of billing,
 Flexible bandwidth adjustment: The Elastic IP supports bandwidth adjustment. Users can change the bandwidth at any time according to the change of service traffic demand, and the modification takes effect immediately.
 
 
+**IPv6 Address**
+
+IPv6 address is the IPv6 address an application for public network access to which can be independently filed. Check Automatic Allocate IPv6 when creating a native container, and an IPv6 address will be automatically obtained after a native container is created.
 
 **Networking Access**
 

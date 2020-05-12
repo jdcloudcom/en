@@ -2,13 +2,15 @@
 
 An Elastic IP address is a Public IP address that can be created independently. It supports dynamic association with and disassociation from cloud resources, including virtual machine instances, native containers, load balancers, and NFV instances. The major function of Elastic IP address is to improve the fault-tolerance ability for instances. In case of master instance failure, the user can manually switch the Elastic IP address to a standby instance, thus minimizing the recovery time from failure.
 
-Currently JD Cloud leverages the cutting-edge technology of active-active vRouter which provides high availability ability for users. Users can benefit from features of link redundancy and high availability in scenarios of massive concurrent connections, extra-large traffic loads, and burst traffic compared to classic active-standby mode. Based on this technology, JD Cloud’s EIP address’s maximum bandwidth can reach up to 150% of the bandwidth users actually purchase, which provides business continuity guarantee.
+Currently JD Cloud & AI leverages the cutting-edge technology of active-active vRouter which provides high availability ability for users. Users can benefit from features of link redundancy and high availability in scenarios of massive concurrent connections, extra-large traffic loads, and burst traffic compared to classic active-standby mode. Based on this technology, JD Cloud & AI’s EIP address’s maximum bandwidth can reach up to 150% of the bandwidth users actually purchase, which provides business continuity guarantee.
 
 Normally, an Elastic IP address’s maximum bandwidth equals 150% of the bandwidth users actually purchase according to the traffic-sharing model of active-active vRouter. In rare specific situations, like downloading files through **only one single** FTP connection with an Elastic IP, the IP address’s maximum bandwidth might reduce to 75% of user’s actual bandwidth.
 
 The Elastic IP mainly has the following features:
 
-* Complete elasticity: the Public IPs provided by JD Cloud are all Elastic IPs. An Elastic IP address, either from independent creation or from a package order with instances, can be associated to or disassociated from a cloud resource at any time.
+* Complete elasticity: the Public IPs provided by JD Cloud & AI are all Elastic IPs. An Elastic IP address, either from independent creation or from a package order with instances, can be associated to or disassociated from a cloud resource at any time.
+
+* Support Multiple Elastic IP Types: The Elastic IP supports the Standard Elastic IP and Edge Elastic IP, which respectively provide public network access capability for resources in central availability zone and edge zone in each region and can be applicable to different business scenarios. An Elastic IP without a specified IP type is a Standard Elastic IP by default.
 
 * Supporting the association of multiple resources: Elastic IP supports associating with Virtual Machine, container, Load Balancer, and NFV instance, providing access to public network for cloud resources.
 
@@ -34,4 +36,4 @@ The Elastic IP mainly has the following features:
 	- [Export Elastic IP List](../Operation-Guide/Export-Elastic-IP-List/Export-Elastic-IP-List.md)
 
 ## Billing
-The Elastic IP supports three types of billing, i.e. monthly package, pay by configuration, and pay by consumption. For details, refer to: [Billing Instructions](../Pricing/Billing-Overview.md)
+Elastic IPs support different billing capacities according to different types of Public IPs: The Standard Elastic IP supports three types of billing, i.e. monthly package, pay by configuration, and pay by consumption. The Edge Elastic IP supports two types of billing, i.e. monthly package, and pay by configuration. For details, please refer to: [Billing Instructions](../Pricing/Billing-Overview.md).

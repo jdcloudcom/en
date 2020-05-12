@@ -2,7 +2,9 @@
 
 ### Basic Concept
 
-Route table is the set of a series of route rules and it is used to control the outward direction of the traffic from the subnets in VPC. JD Cloud has two types of route tables: Default route table and customized route table. The route table automatically created when VPC is created is a default route table. The route table actively created by users is a customized route table. Each subnet must be associated with a route table and can only be associated with one route table. Each route table can be associated with multiple subnets.
+Route table is the set of a series of route rules and it is used to control the outward direction of the traffic from the subnets in VPC. JD Cloud & AI has two types of route tables: Default route table and customized route table. The route table automatically created when VPC is created is a default route table. The route table actively created by users is a customized route table. Each subnet must be associated with a route table and can only be associated with one route table. Each route table can be associated with multiple subnets.
+
+Route Table can only associate with subnets with the same attribute, or associate with Standard Subnets, or Edge Subnets with the same edge zone, and cannot associate with subnets with different attributes.
 
 Route table is composed of a series of route policies. Route policy is composed of route’s destination, the type of next hop and the address of next hop. The options supported by next-hop’s type are: Internet and VM. Among which, Internet is used for the access of EIP. The instance which perform Internet communication through EIP must be configured with this route. VM can be used as the internet gateway.Please visit Internet for details.
 
@@ -36,6 +38,13 @@ The route policy with customized route table can be edited, added and deleted. T
 
 Each route table can be associated with multiple subnets in the same VPC. Each subnet can only be associated with one route table. You can modify the associated route table on the side of subnet or modify the associated subnet on the side of route table.
 
+```
+Use Restrictions:
+1) Route Table can only associate with subnets with the same attribute;
+2) Subnets will have the same attribute under two circumstances: a. Standard Subnet at the same region, b. Edge Subnet associating with the same edge zone at the same region;
+3) Route Table that has associated with a Standard Subnet cannot associate with an Edge Subnet; Route Table that has associated with an Edge Subnet cannot associate with a Standard Subnet or an Edge Subnet in different edge zones.
+```
+
 
 
 ### Route Policy
@@ -55,14 +64,14 @@ Route policy is used to control the route path of the data packet in subnet. It 
   Dynamic transmission with two-way routing can be realized between VPC Route Table and Border Gateway Route Table:
 
   Border Gateway->Route transmission to VPC direction: When the VPC Route Table configures route transmission, select the source Border Gateway of route transmission and fill in the scope of route transmission. After the transmission relation is created, the system will automatically add the route rules that conform to the transmission range in the valid route table of the Border Gateway to the VPC route table, and the Next Hop points to the relevant Border Gateway;
-  
+
   VPC->Route transmission to a Border Gateway: When creating VPC Attachment based on BGW, if "VPC All Segment" or "Specify Subnet Segment is selected in transmission of VPC segment, it is the automatic route transmission method. The Border Gateway route table will automatically add or delete route table items that reach the relevant subnet based on the configured subnet scope, the route prefix is the subnet segment, and the Next Hop is the VPC Attachment connecting the specified VPC and the Border Gateway.
 
 ### **Route Policy Priority**
 
   VPC route table supports two route types: Dynamic transmission route and static route. The static route can be edited, and the dynamic transmission route can be viewed but cannot be edited.
-  
-  JD Cloud VPC route table priority range is 1~256, the smaller the value, the higher the route priority. The static route priority of JD Cloud VPC route table is 100 by default and the transmission route priority is 120 by default.
+
+  JD Cloud & AI VPC route table priority range is 1~256, the smaller the value, the higher the route priority. The static route priority of JD Cloud & AI VPC route table is 100 by default and the transmission route priority is 120 by default.
 
   - When there are multiple route policies in the route table, the route priority from high to low is as follows, respectively:
 

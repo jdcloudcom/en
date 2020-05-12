@@ -10,7 +10,7 @@ This Tutorial will guide user to deploy multiple public network services on the 
 - Apply for the required Elastic IP.
 
 ## Procedures
-- Step 1: Log in to the console of JD Cloud, and enter the instance list page of VM, then click the VM name to enter the VM details.
+- Step 1: Log in to the console of JD Cloud & AI, and enter the instance list page of VM, then click the VM name to enter the VM details.
 
 - Step 2: Enter the VM details, and click the tag page of ENI to switch to the management page of ENI.
 

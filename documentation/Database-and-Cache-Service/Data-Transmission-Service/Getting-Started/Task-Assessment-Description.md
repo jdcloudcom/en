@@ -43,6 +43,22 @@ Check items for different database types are listed below. Please check relevant
 
 
 
+## PostgreSQL
+
+| Check Item             | Description                                       |
+| ------------------ | ------------------------------------------ |
+| Source Database Connectivity Check     | Check if the source database can be connected                         |
+| Source Database Permission Check       | Check if the source database account meets the migration requirements               |
+| Database hba Check      | Check if the source database hba meets the requirements                    |
+| Source Database extension Check  | Check source database extension                          |
+| Source Database max_sender Check | Source database max_sender check, no less than 5              |
+| Source Database max_slot Check   | Source database max_slot check, no less than 5                |
+| Source Database wal_level Check  | Check source database wal_level                          |
+| Target Database Connectivity Check   | Check if the target database can be connected                       |
+| Check Target Database Permission     | Check if the target database account meets the migration requirements             |
+| Database Version Check     | Check if the versions of source database and target database meet migration requirements |
+
+
 ## MongoDB
 
 | Check Item                     | Description                                           |

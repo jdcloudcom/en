@@ -155,22 +155,52 @@ items:
             href: Operation-Guide/Image-Service-Guide/Delimiter-Guidance.md
           - name: Error Response
             href: Operation-Guide/Image-Service-Guide/Response-To-Errors.md
-      - name: Video Processing Guide
+      - name: Media Processing Service (Old)
         items:
-          - name: Overview
-            href: Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md
-          - name: Quick Use Video Service
-            href: Operation-Guide/Video-Service-Guide/Getting-Started-2.md
-          - name: User Signature Verification
-            href: Operation-Guide/Video-Service-Guide/User-Signature-Authentication.md
-          - name: Create Video Transcoding
-            href: Operation-Guide/Video-Service-Guide/Create-Video-Transcoding.md
-          - name: Get Video Task List
-            href: Operation-Guide/Video-Service-Guide/Get-Video-Task.md
-          - name: Query Video Task
-            href: Operation-Guide/Video-Service-Guide/Query-Video-Task.md
-          - name: Delete Video Task
-            href: Operation-Guide/Video-Service-Guide/Delete-Video-Task.md
+          - name: Media Processing Introduction
+            items:
+               - name: Product Overview
+                 href: Old-Media-Processing-Service/Introduction/Product-Overview.md
+               - name: Features Overview
+                 href: Old-Media-Processing-Service/Introduction/Features.md  
+          - name: Quick Start
+            items:
+               - name: Use Restrictions
+                 href: Old-Media-Processing-Service/Getting-Started/Restrictions.md
+               - name: Subscribe Service
+                 href: Old-Media-Processing-Service/Getting-Started/Sign-Up-Service.md   
+               - name: Create Video Transcoding Workflow
+                 href: Old-Media-Processing-Service/Getting-Started/Create-Video-Transcoding-1.md
+               - name: Create Video Snapshot Workflow
+                 href: Old-Media-Processing-Service/Getting-Started/Create-Video-Snapshot.md 
+          - name: Operation Guide
+            items:
+               - name: Video Transcoding
+                 items:
+                   - name: Transcoding Basic Rules
+                     href: Old-Media-Processing-Service/Operation-Guide/Video-Transcoding/Transcoding-Rules.md
+                   - name: Create Video Transcoding Workflow
+                     href: Old-Media-Processing-Service/Operation-Guide/Video-Transcoding/Create-Video-Transcoding-2.md 	  
+               - name: Video Snapshot
+                 href: Old-Media-Processing-Service/Operation-Guide/Video-Snapshot.md
+               - name: Callback Settings
+                 href: Old-Media-Processing-Service/Operation-Guide/Callback.md      
+          - name: Media Processing Service APIs
+            items:
+               - name: Video Processing Signature Verification
+                 href: Old-Media-Processing-Service/API-Reference/Video-Transcoding-API/User-Signature-Authentication.md  
+               - name: Create Video Transcoding
+                 href: Old-Media-Processing-Service/API-Reference/Video-Transcoding-API/Create-Video-Transcoding-3.md 
+               - name: Get Video Task List
+                 href: Old-Media-Processing-Service/API-Reference/Video-Transcoding-API/Get-Video-Task.md 
+               - name: Search Video Task
+                 href: Old-Media-Processing-Service/API-Reference/Video-Transcoding-API/Query-Video-Task.md
+               - name: Delete Video Task
+                 href: Old-Media-Processing-Service/API-Reference/Video-Transcoding-API/Delete-Video-Task.md   
+          - name: SDK Reference
+            items:
+               - name: Video Snapshot
+                 href: Old-Media-Processing-Service/SDK-Reference/Thumbnail.md
  - name: API Documentation
    items:
       - name: Strong Consistency

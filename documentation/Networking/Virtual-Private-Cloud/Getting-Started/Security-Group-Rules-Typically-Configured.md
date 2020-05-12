@@ -57,7 +57,7 @@ If you want to use FTP software to upload or download files to VMs, after instal
 
 ### Allows VM to access MySQL/Redis/SQL Server databases
 
-If you want to create a VM that can access the JD Cloud database service, you may configure the following outbound rule:
+If you want to create a VM that can access the JD Cloud & AI database service, you may configure the following outbound rule:
 
 | Rule Direction | Type | Protocol | Destination Port | Source IP | Strategy |
 | -------- | --------- | ---- | -------- | --------- | ---- |

@@ -3,7 +3,7 @@
 This Tutorial provides simplified steps to create a Load Balancer instance. For detailed steps, please refer to the Pages related to the Load Balancer in the Help Center.
 
 ## Procedures
-Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud & AI and enter the Console Navigation Page.
 
 Step 2: Select Cloud - Load Balancer - Instance at the navigation bar on the left side of the console to enter the Load Balancer List Page.
 
@@ -12,7 +12,7 @@ Step 3: Confirm the region where to create the Load Balancer, select the corresp
 Step 4: On the Create Load Balancer Page, select the Instance Type and Configuration of the Load Balancer the users are to create.
 
 	Description
-	Currently, Load Balancer supports Pay by Configuration.
+	At present, the Load Balancer supports billing type of pay by consumption.
 
 Step 5: Designate the number of Load Balancer to be created, and the upper number limit is subject to the quota of Load Balancer.
 

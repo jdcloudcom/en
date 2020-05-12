@@ -11,7 +11,7 @@ Data transmission DTS supports structure migration, full migration and increment
 Connection method:
 
 - Self-built Database of Public IP
-- Self-built Database Connected via Direct Connection
+- Self-built Database Connected via Direct Connection/Intranet
 
 Database version:
 
@@ -29,10 +29,6 @@ Database configuration:
 Account permission:
 
 - With sysadmin role
-
-Requirements for data:
-
-- Do not use incremental migration in the case that the following field types are contained in the data: varchar(max), nvarchar(max), varbinary(max), image, text, ntext, xml, (Full migration can be applied to all these types, but update data cannot be acquired at incremental migration).
 
 ### Source Database Configuration Requirement
 
@@ -60,9 +56,9 @@ Data requirement:
 
    - Source database information:
 
-     - The "self-built database of Public IP" or the "self-built database connected via Direct Connection" can be selected as the database type.
+     - The "self-built database of Public IP" or the "self-built database connected via Direct Connection/Intranet" can be selected as the database type.
      - Please select database type as SQL Server.
-     - Please fill in database domain or IP as the database address and fill in Private IP as the database address in case of Direct Connection.
+     - Please fill in database domain or IP as the database address and fill in Private IP as the database address in case of Direct Connection/Intranet.
      - Port, database port.
      - For account and password, please confirm in advance that if the account has corresponding permissions.
 
@@ -88,7 +84,7 @@ Data requirement:
 
      - When the "self-built database of Public IP" is selected as the source database type, definition of database tables to be migrated via two methods are supported, i.e., **Visual Selection** and **JSON**.
 
-     - When the "self-built database connected via the Direct Connection" is selected as the source database type, definition of the database tables to be migrated via **JSON** is supported only.
+     - When the "self-built database connected via the Direct Connection/Intranet" is selected as the source database type, definition of the database tables to be migrated via **JSON** is supported only.
 
      - Description
 

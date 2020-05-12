@@ -1,10 +1,10 @@
 # Search Elastic IP Resource
 
-Viewing the detailed information of Elastic IP resource is available on JD Cloud.
+Viewing the detailed information of Elastic IP resource is available on JD Cloud & AI.
 
 ## Procedures
 
-Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud & AI and enter the Console Navigation Page.
 
 Step 2: Select Cloud - **Virtual Private Cloud- Elastic IP** at the navigation bar on the left side of the console to enter the Elastic IP List Page.
 

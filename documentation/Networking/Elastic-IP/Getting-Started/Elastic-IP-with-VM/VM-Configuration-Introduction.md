@@ -4,7 +4,7 @@ This Tutorial will guide the users to create a Virtual Machine in the Virtual Pr
 
 ## Before Creation
 
-- Make sure the users have registered the users' JD Cloud account and finished real-name verification.
+- Make sure the users have registered the users' JD Cloud & AI account and finished real-name verification.
 
 - Make sure the users have created an Elastic IP which has not associated with any resources.
 

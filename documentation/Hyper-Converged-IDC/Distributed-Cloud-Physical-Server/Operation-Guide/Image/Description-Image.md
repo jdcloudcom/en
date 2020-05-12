@@ -1,7 +1,5 @@
 ## Image
 
-### Function Description
-
 Image is a template of instance running environment, including an operating system and pre-installed software and related configurations. The "Standard Image" mode is supported.
 
 #### Standard Image

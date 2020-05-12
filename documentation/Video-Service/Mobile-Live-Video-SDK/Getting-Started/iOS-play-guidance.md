@@ -15,7 +15,7 @@ The current version is V1.0.0
 This section lists one example of basic functions of rapidly-integrated JD Cloud Player SDK.  
 For details, please refer to corresponding files of the demo project.  
 **Download Project**   
-Please download the iOS pushing streaming SDK & the Player SDK by clicking <a href="https://sdk-publish.oss.cn-north-1.jcloudcs.com/sdk/jdcloud_streamer_ios.zip"></a>  
+Please download the iOS pushing streaming SDK & the Player SDK by clicking <a href="https://zhanghao274.s3.cn-north-1.jdcloud-oss.com/SDK/live/jdcloud_live_ios_demo.zip">here</a>  
 **Project Directory Structure**   
 The project directory of pushing streaming SDK is as follows: including Headers of header files.  
 ![](https://github.com/jdcloudcom/cn/blob/cn-Live-Video/image/live-video/ios%E6%92%AD%E6%94%BE1.png)  

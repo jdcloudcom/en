@@ -3,7 +3,7 @@
 This Tutorial provides simplified steps for creating a container instance. For detailed steps, please refer to the pages related to container in the Help Center.
 
 ## Procedures
-Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud & AI and enter the Console Navigation Page.
 
 Step 2: Select Elastic Compute - Native Container- - Container Instance at the navigation bar on the left side of the console to enter the Elastic Container Instance List Page.
 

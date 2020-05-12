@@ -1,10 +1,16 @@
 # Billing Rules
 
-The Elastic IP supports three types of billing types:
+The Elastic IP is divided into Standard Elastic IP and Edge Elastic IP, which support different billing types.
+
+The Standard Elastic IP supports three billing types:
  * Monthly package billing
  * Billing by configuration
  * Billing by consumption
 
+The Edge Elastic IP supports two billing types:
+ * Monthly Package
+ * Pay By Configuration
+ 
 ## Monthly Package
 
 ### Introduction

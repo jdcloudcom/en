@@ -5,6 +5,7 @@
 JD Virtual Private Cloud (VPC) is the logically isolated cyberspace which you customize on the JD public Cloud. It is similar with the traditional network which you built in data center. This private cyberspace is completely controlled by the user and supports the customized division of the network segment and route policy, etc. Users can create and manage multiple cloud products in VPC, such as VMs, load balancers, etc., and configure resources within the network to connect to the Internet. In addition, you can connect your IDC intranet and JD VPC by VPN, to realize hybrid cloud deployment of applications and enable the applications to migrate to the cloud smoothly.
 
 
+
 ### The Overall Structure of VPC
 
 ![私有网络整体结构](/image/Networking/Virtual-Private-Cloud/VPC_Infrastrucure.png)

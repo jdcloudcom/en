@@ -1,9 +1,9 @@
 # Assign Private IP
 
-ENI of JD Cloud (including primary network interface and secondary network interface) can be assigned with up to 20 private IPs.
+ENI of JD Cloud & AI (including primary network interface and secondary network interface) can be assigned with up to 20 private IPs.
 
 ## Procedures
-Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud & AI and enter the Console Navigation Page.
 
 Step 2: Select network - virtual private cloud - ENI at the navigation bar on the left side of the console to enter the ENI list page.
 
@@ -26,3 +26,4 @@ Step 7: Click OK to complete the assignment of private IP. Return to the private
 ## Related References
 
 - [Use Restrictions](../../Introduction/Restrictions.md)
+

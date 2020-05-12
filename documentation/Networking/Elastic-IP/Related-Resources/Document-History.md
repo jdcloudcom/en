@@ -4,3 +4,4 @@ This document will introduce the important update history of the Elastic IP prod
 
 |Release Date|features|Description|
 |-|-|-|
+|2020/04|Support Edge Elastic IP|Support creation, association, disassociation and deletion of Edge Elastic IPs for resource instances of edge nodes|

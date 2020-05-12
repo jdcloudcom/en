@@ -4,7 +4,7 @@
 
 JD Virtual Private Cloud (hereinafter referred to as VPC) is the logically isolated cyberspace which you customize on the JD public Cloud. It is similar with the traditional network which you built in data center. This private cyberspace is completely controlled by the user and supports the customized division of the network segment and route policy, etc. Users can create and manage multiple cloud products in VPC, such as VMs, load balancers, etc., and configure resources within the network to connect to the Internet. In addition, you can get through your IDC intranet and JD VPC by VPN tunnel, to realize hybrid cloud deployment of applications and enable the applications to migrate to the cloud smoothly.
 
-JD Cloud VPC provides you with the following functions:
+JD Cloud & AI VPC provides you with the following functions:
 
 - Creating VPC and customizing the division of network segmentation, IP addresses and route policies, etc. can be realized through console and API
 - Flexible access to the Internet can be realized through the manners of EIP and NAT Instance, etc.
@@ -17,7 +17,7 @@ When creating the VPC, users can specify the range of IP address for VPC in the 
 
 ### IP Address of the VPC
 
-You can realize the overall IP division of the VPC and subnet by specifying the CIDR (classless inter-domain routing). In JD Cloud VPC, IP addresses which can be used by the users are divided into two categories:
+You can realize the overall IP division of the VPC and subnet by specifying the CIDR (classless inter-domain routing). In JD Cloud & AI VPC, IP addresses which can be used by the users are divided into two categories:
 
 - IP address of intranet, which is the IP address automatically assigned to the resources in VPC. The range shall be the address field of the VPC specified by RFC1918. Private IP address belongs to overlap IP. It can be used for the intercommunication between the resources in VPC and it cannot perform Internet communication directly.
 - IP address of EIP, which can be independently applied by the user. It supports the dynamic associating and dissassociating with the resources. IP address of EIP is the only EIP address in the world and can be used for the communication between resources and the Internet.

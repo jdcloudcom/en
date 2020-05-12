@@ -16,10 +16,6 @@
 
 7. Click **OK** to enter the **Console** to view the created VPC;
 
-![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/VPC-Configuration/Step1.png)
-
-![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/VPC-Configuration/Step2.png)
-
 
 
 #### **Step 2, Modify the VPC Name/Description**
@@ -33,8 +29,6 @@
 #### **Step 3, View the subnet, route table, networking ACL in the VPC**
 
 Open the console, select Networking > VPC, click the VPC name to enter the VPC details page, and switch the tab of subnet, route table, and networking ACL to view the information of the subnets, route tables, and networking ACL that have been created in the VPC.
-
-![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/VPC-Configuration/Step3.png)
 
 
 

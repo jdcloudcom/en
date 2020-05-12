@@ -5,7 +5,7 @@ This Tutorial takes the CentOS 6.8 operating system as an example to explain how
 **Note: The contents in square brackets are filled out by the user.**
 
 ## Operation Steps
-Step 1: Locate to the Target Virtual Machines in JD Cloud Console.
+Step 1: Locate to the Target Virtual Machines in JD Cloud & AI Console.
 
 Step 2: Remotely log on the target virtual machine via SSH.
 
@@ -36,6 +36,7 @@ Step 7: Execute commands below to add default route in eth1_table Route Table.
 It is assumed that the IP address of eth1 is 10.0.2.3/24, and the gateway address is 10.0.2.1/24, the above command is:
 
 	# ip route add table eth1_table 0.0.0.0/0 via 10.0.2.1 dev eth1 src 10.0.2.3
+
 
 
 

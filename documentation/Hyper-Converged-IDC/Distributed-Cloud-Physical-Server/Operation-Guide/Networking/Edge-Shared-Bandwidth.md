@@ -2,12 +2,12 @@
 
 ### Product Overview
 
-Edge Shared Bandwidth enables multiple edge cloud elastic IP to commonly use one same bandwidth ("Edge Shared Bandwidth" also known as "Shared Bandwidth"). With one Edge Shared Bandwidth, all edge cloud public IPs under the same node and the same operator can reuse the bandwidth in the Shared Bandwidth when a customer has a large number of businesses on cloud. The product offers billing methods of monthly package and pay by configuration. Using Shared Bandwidth can save costs for using network bandwidth of enterprises.
+Edge Shared Bandwidth enables multiple edge cloud elastic IP to commonly use one same bandwidth ("Edge Shared Bandwidth" also known as "Shared Bandwidth"). With one Edge Shared Bandwidth, all edge cloud public IPs under the same node and the same operator can reuse the bandwidth in the Shared Bandwidth when a customer has a large number of businesses on cloud.  Using Shared Bandwidth can save costs for using network bandwidth of enterprises. It offers billing methods of monthly package and pay by configuration.
 
 
 ### Use Restrictions
 
-Please note the following use restrictions during use of the Edge Shared Bandwidth.
+Please note the following use restrictions during use of the Edge Shared Bandwidth:
 
 1. At present, a maximum of 10 edge cloud public IPs for each node are supported in each JD Cloud & AI account. If more quotas are required, please [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) to increase quota.<br/>
 
@@ -23,7 +23,7 @@ Edge Shared Bandwidth supports two billing methods, i.e., monthly package and pa
 
 **Monthly Package**
 
-The monthly package is pay-in-advance type, with a one-time fee of one month, several months or many years. It is suitable for the scenario of pre-estimation of elastic IP bandwidth demand, and the cost is cheaper than billing of pay by configuration.
+The monthly package is pay-in-advance type, with the cost to be paid at one time for one month, several months or many years. It is suitable for the scenario that the Edge Shared Bandwidth demand is estimated, and the cost is cheaper than billing of pay by configuration.
 
 Detailed Description:
 Costs for months or years are paid in advance, and current purchased time period supports 1 month~9 months, 1 year, 2 years, and 3 years; costs are deducted at one time when you create the resources; for example: You have purchased the Telecom Edge Shared Bandwidth with 1M bandwidth and 0M additional uplink bandwidth for 1 month at 10:00:00 on August 2, 2017 at the monthly unit price of RMB 24, you need to pay RMB 24=24* 1 and you could use this resource till 23:59:59 on September 2, 2017.
@@ -68,35 +68,36 @@ For details, please refer to Edge Shared Bandwidth [Price Overview](../../Pricin
 
 ### Create Shared Bandwidth
 
-- Turn on the Console, click **Distributed Cloud Physical Server** - **Shared Bandwidth** in turn in the left navigation bar, log in the Shared Bandwidth List Page and click **Delete** to pop up the Create Configuration window;<br/>
+- Turn on the Console, click **Shared Bandwidth** in the left navigation bar, enter the Shared Bandwidth List Page and click **Create** to pop up the Create Configuration window;<br/>
 
 - Select the node, operator, bandwidth billing mode, ISP line type, bandwidth, additional uplink bandwidth cap, duration and count according to demands and click **OK** to create 1 Shared Bandwidth.<br/>
 
 ### View Shared Bandwidth
 
-- Turn on the Console, click **Distributed Cloud Physical Server** - **Shared Bandwidth** in turn in the left navigation bar, log in the Shared Bandwidth List Page to view the Shared Bandwidth information;<br/>
+- Turn on the Console, click **Shared Bandwidth** in the left navigation bar, enter the Shared Bandwidth List Page to view the shared bandwidth information;<br/>
 
 - or click **Name** of the Shared Bandwidth to redirect to the details to view the detailed information of Shared Bandwidth.<br/>
 
 
 ### Add IP
 
-- Turn on the Console, click **Distributed Cloud Physical Server** - **Shared Bandwidth** in the left navigation bar, select a target Shared Bandwidth, click **Add IP** in operation and pop up information below;<br/>
+- Turn on the Console, click **Shared Bandwidth** in the left navigation bar, select a target shared bandwidth, click **Add IP** in the operations and pop up information below;<br/>
 
 - Select the EIP to be added according to demands and click **OK** to complete the association.
 
 
 ### Modify Bandwidth
 
-- Turn on the Console, click **Distributed Cloud Physical Server** - **Shared Bandwidth** in the left navigation bar, select a target Shared Bandwidth, click **Modify Bandwidth** in operation, and select the bandwidth and additional uplink bandwidth size to be adjusted in the popup to complete the operations.<br/>
+- Turn on the Console, click **Shared Bandwidth** in the left navigation bar, select a target shared bandwidth, click **Modify Bandwidth** in the operations, and select the bandwidth and additional uplink bandwidth size to be adjusted in the popup to complete the operations.<br/>
 
 ### Renew
 
-- Turn on the Console, click **Distributed Cloud Physical Server** - **Shared Renew** in the left navigation bar, select a target Shared Bandwidth, click **Renew** in operation or log in the details and then click **Renew** in operation; select the duration to be renewed in the popup, click **Renew** to redirect to the "Payment Confirmation Page" and then click **Pay Now** to complete the operations.<br/>
-Shared bandwidth paid by configuration does not support renewal.
+- Turn on the Console, click **Shared Bandwidth** in the left navigation bar, select a target shared bandwidth, click **Renew** in the operations or enter the details and then click **Renew** in the operations; select the duration to be renewed in the popup, click **Renew** to redirect to the "Payment Confirmation Page" and then click **Pay Now** to complete the operations.<br/>
+
+Note: Shared bandwidth paid by configuration does not support renewal.
 
 ### Delete
 
-- Turn on the Console, click **Distributed Cloud Physical Server** - **Shared Renew** in the left navigation bar, select a target Shared Bandwidth, click **Delete** in operation or log in the details and then click **Delete** in operation, and click **OK** to complete the operations.<br/>
+- Turn on the Console, click **Shared Bandwidth** in the left navigation bar, select a target Shared Bandwidth, click **Delete** in operation or log in the details and then click **Delete** in operation, and click **OK** to complete the operations.<br/>
 
-- Shared bandwidth paid by monthly package does not support deletion.
+- Note: Shared bandwidth paid by monthly package does not support deletion.

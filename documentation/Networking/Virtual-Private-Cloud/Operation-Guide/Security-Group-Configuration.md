@@ -2,7 +2,7 @@
 
 #### **Step 1, Create a Security Group**
 
-1. Open JD Cloud Console, select Elastic Compute >> VM >> Security Group Page (or Elastic Compute >> Container Service >> Security Group, where this Help takes VM as an example), click **Create** to popup the Create  window;
+1. Open JD Cloud & AI Console, select Elastic Compute >> VM >> Security Group Page (or Elastic Compute >> Container Service >> Security Group, where this Help takes VM as an example), click **Create** to popup the Create  window;
 
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step1.png)
 
@@ -19,7 +19,7 @@
 
 #### **Step 2, Associate VM/Container Instance**
 
-1. Open JD Cloud Console and select Elastic Compute >> VM >> Security Group Page (or Elastic Compute >> Container Service >> Security Group, and this Help takes VM as an example), enter the console security group list page, Select the **Associate VM** button to popup the Associate VM  window; or click the security group name to enter the security group details page, select the **VM** TAB page, click the **Add** button to popup the Associate VM  window;
+1. Open JD Cloud & AI Console and select Elastic Compute >> VM >> Security Group Page (or Elastic Compute >> Container Service >> Security Group, and this Help takes VM as an example), enter the console security group list page, Select the **Associate VM** button to popup the Associate VM  window; or click the security group name to enter the security group details page, select the **VM** TAB page, click the **Add** button to popup the Associate VM  window;
 
  ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step3.png)
 
@@ -33,7 +33,7 @@
 
 #### **Step 3, Disassociate VM/Container Instance**
 
-1. Open JD Cloud Console and select Elastic Compute >> VM >> Security Group Page (or Elastic Compute >> Container Service >> Security Group, where this Help takes VM as an example), click the security group name in the list to enter the details page, and select the **VM** tab page to display the list of VMs associated with the security group;
+1. Open JD Cloud & AI Console and select Elastic Compute >> VM >> Security Group Page (or Elastic Compute >> Container Service >> Security Group, where this Help takes VM as an example), click the security group name in the list to enter the details page, and select the **VM** tab page to display the list of VMs associated with the security group;
 
 2. In the VM list, click the **Remove** button under the operation column to disassociate the corresponding VMs from the current security group.
 
@@ -45,7 +45,7 @@
 
 The outbound rules are used to filter the network traffic of the VM to access the Internet or other VMs, with the settings as follows:
 
-1. Open JD Cloud Console and select Elastic Compute >> VM >> Security Group Page (or Elastic Compute >> Container Service >> Security Group, where this Help takes VM as an example), find the security Group that needs to configure outbound rules, click **Modify Outbound Rules** in the **More** operation or click the security group name to enter its details page;
+1. Open JD Cloud & AI Console and select Elastic Compute >> VM >> Security Group Page (or Elastic Compute >> Container Service >> Security Group, where this Help takes VM as an example), find the security Group that needs to configure outbound rules, click **Modify Outbound Rules** in the **More** operation or click the security group name to enter its details page;
 
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step6.png)
 
@@ -77,7 +77,7 @@ The outbound rules are used to filter the network traffic of the VM to access th
 
 The ingress rule is used to filter the network traffic from the  internet or other VMs to access the current VM, with the settings as follows:
 
-1. Open JD Cloud Console and select Elastic Computing >> VM >> Security Group Page (or Elastic Compute >> Container Service >> Security Group, where this Help takes VM as an example), find the security group that needs to configure inbound rule, click **Modify Inbound Rules** in the **More** operation or click the security group name to enter its details page;
+1. Open JD Cloud & AI Console and select Elastic Computing >> VM >> Security Group Page (or Elastic Compute >> Container Service >> Security Group, where this Help takes VM as an example), find the security group that needs to configure inbound rule, click **Modify Inbound Rules** in the **More** operation or click the security group name to enter its details page;
 
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Security-Group-Configuration/Step9.png) 
 
@@ -107,8 +107,8 @@ The ingress rule is used to filter the network traffic from the  internet or oth
 
 Only security groups that are not associated with a VM/container can be deleted.
 
-Method 1:  Open JD Cloud Console and select Elastic Compute>>VM>>Security Group or Elastic Compute>>Container Service>>Security Group page. Click the **Delete** button in the security group operation to delete the corresponding security group;
+Method 1:  Open JD Cloud & AI Console and select Elastic Compute>>VM>>Security Group or Elastic Compute>>Container Service>>Security Group page. Click the **Delete** button in the security group operation to delete the corresponding security group;
 
-Method 2: Open JD Cloud Console and select Elastic Compute>>VM>>Security Group or Elastic Compute>>Container Service>>Security Group page, click the security group name on the page to enter the security group details page, and click the **Delete** button at the top right of the details page to delete the corresponding security group.
+Method 2: Open JD Cloud & AI Console and select Elastic Compute>>VM>>Security Group or Elastic Compute>>Container Service>>Security Group page, click the security group name on the page to enter the security group details page, and click the **Delete** button at the top right of the details page to delete the corresponding security group.
 
  

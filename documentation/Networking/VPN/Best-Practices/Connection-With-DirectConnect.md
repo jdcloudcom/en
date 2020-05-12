@@ -29,13 +29,13 @@ c) Select the border gateway created in Step 1, select the VPC that passes the r
 For more contents, refer to [VPC Attachment Management](../Operation-Guide/Border-Gateway-Management/VPC-Attachment-Configuration.md).
 
 ###### Step 3. Create direct connection
-Refer to [Create Direct Connection of the Same Account in the Same Region](https://docs.jdcloud.com/en/direct-connection/connect-to-the-same-account-or-region-direct-connetct).
+Refer to [Direct Connection Connects to Public Cloud](https://docs.jdcloud.com/en/direct-connection/connect-to-the-same-account-or-region-direct-connetct).
 
 ###### Step 4. Create VPN connection, tunnel, client device and BGP
-Refer to [Enterprise IDC Connects to Public Cloud](../Getting-Started/Connection-Into-On-Premise.md).
+Refer to [VPN Connection Connects to Public Cloud](../Getting-Started/Connection-Into-On-Premise.md).
 
 ###### Step 5. Configure routing
-On the client router device, for the route released to VPC in the cloud by virtue of BGP routing protocol, the Next Hop should be respectively pointed to interfaces of direct connection and VPN connection, specifying that BGP AS_PATH of direct connection should be shorter than BGP AS_PATH of VPN route in order to use direct connection route to carry traffic or use VPN route to carry traffic when the direct connection route is invalid.
+On the client router device, for the route released to VPC in the cloud by virtue of BGP routing protocol, the Next Hop should be respectively pointed to APIs of Direct Connection and VPN Connection, specifying that the private virtual interface should use a more elaborate route segment and the VPN Connection should use an aggregated route segment or that BGP AS_PATH of direct route should be shorter than BGP AS_PATH of VPN route in order to use direct route to carry traffic or use VPN route to carry traffic when the direct route is invalid.
 
 ###### Step 6. Test connectivity and verify route switch
 a) Log in [Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list), in the region where the service is created, create one Virtual Machines in the VPC to be interconnected to the IDC intranet segment of the enterprise, and confirm that the route properly connected to the IDC intranet segment of the enterprise exists in the route table of the Subnet of this Virtual Machines;  <br />

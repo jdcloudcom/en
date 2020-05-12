@@ -16,7 +16,7 @@ This paper introduces the purchase entries of Anti-DDoS Pro instance.
 
 # # Entry 2: [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist)
 
-1. Login [JD Cloud Official Website](http://www.jdcloud.com/en/).
+1. Login [JD Cloud Official Website](https://www.jdcloud.com/en/).
 2. Select the "Console" as shown in the figure below.
 ![Console](../../../../image/Advanced%20Anti-DDoS/console-buy.png)
 

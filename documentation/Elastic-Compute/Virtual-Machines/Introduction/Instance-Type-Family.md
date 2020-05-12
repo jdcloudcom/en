@@ -38,21 +38,21 @@ General shared instances use the unassociated CPU scheduling mode. Each vCPU wil
 
 Generation II
 
-Instance Type|vCPU (Core)|Memory (GB)
-:---|:---|:---
-|g.s2.micro|1|1
-|g.s2.small|1|2
-|g.s2.medium|1|4
-|g.s2.large|2|8
-|g.s2.xlarge|4|16
-|g.s2.2xlarge|8|32
+Instance Type|vCPU (Core)|Memory (GB)|Network Interface Multi-queue
+:---|:---|:---|:---
+|g.s2.micro|1|1|1
+|g.s2.small|1|2|1
+|g.s2.medium|1|4|1
+|g.s2.large|2|8|2
+|g.s2.xlarge|4|16|4
+|g.s2.2xlarge|8|32|4
 
 Generation I
 
-Instance Type|vCPU (core)|Memory (GB)
-:---|:---|:---
-|g.s1.micro|1|1
-|g.s1.small|1|2
+Instance Type|vCPU (core)|Memory (GB)|Network Interface Multi-queue
+:---|:---|:---|:---
+|g.s1.micro|1|1|1
+|g.s1.small|1|2|1
 
 ### General Standard Type
 <div id="user-content-2"></div>
@@ -143,11 +143,11 @@ Compute optimized shared instances use the unassociated CPU scheduling mode. Eac
 
 **Instance Type**
 
-Instance Type|vCPU (Core)|Memory (GB)
-:---|:---|:---
-|c.s2.large|2|4
-|c.s2.xlarge|4|8
-|c.s2.2xlarge|8|16
+Instance Type|vCPU (Core)|Memory (GB)|Network Interface Multi-queue
+:---|:---|:---|:---
+|c.s2.large|2|4|2
+|c.s2.xlarge|4|8|4
+|c.s2.2xlarge|8|16|4
 
 ### Compute-Optimized Standard
 <div id="user-content-3"></div>

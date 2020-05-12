@@ -2,7 +2,7 @@
 
 ## Action Steps
 
-1. Login [Object Storage Service Console](http://jfs-console.jdcloud.com/overview). It will be moved in Media Processing Service Console in the future.
+1. Login [Object Storage Service Console](https://oss-console.jdcloud.com/storageFile).
 
 2. In [Object Storage Service]>>[Audio and Video Processing], choose Region in need, and click **New Audio/Video Workflow**.
 

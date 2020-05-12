@@ -4,11 +4,11 @@ Physical Connection accesses public cloud via physical link Direct Connection so
 ### Operation Steps
 ##### 1. Create a Physical Connection
 Customers who have completed enterprise real-name verification can use a Physical Connection.
-a) Log in [JD Cloud & AI Physical Connection Console](https://cns-console.jdcloud.com/host/physicalConnection/list);  </br>
-b) Select region and click **Create**;</br>
-c) Enter the name, access region, access method, the customer’s IDC Address, partners/access point, contacts, contact information and description to create a Physical Connection;</br>
-d) Two access modes of self-service access and partner access are supported. When the self-service access mode is selected, the access point shall be selected; when the partner access mode is selected, the available partners or service duration shall be selected, or the partners should be contacted for more information (Partners have entered JD Cloud Marketplace, and their detailed information is available in JD Cloud Market);</br>
-e) Generally speaking, 1 to 2 working days are required for auditing a newly created Physical Connection;</br>
+a) Log in [JD Cloud & AI Physical Connection Console](https://cns-console.jdcloud.com/host/physicalConnection/list);  <br />
+b) Select region and click **Create**;<br />
+c) Enter the name, access region, access method, the customer’s IDC Address, partners/access point, contacts, contact information and description to create a Physical Connection;<br />
+d) Two access modes of self-service access and partner access are supported. When the self-service access mode is selected, the access point shall be selected; when the partner access mode is selected, the available partners or service duration shall be selected, or the partners should be contacted for more information (Partners have entered JD Cloud Marketplace, and their detailed information is available in JD Cloud Market);<br />
+e) Generally speaking, 1 to 2 working days are required for auditing a newly created Physical Connection;<br />
 
 ```
   Two access modes of self-service access and partner access are supported. Self-service access represents customers can access public cloud via exclusive port; partner access represents JD Cloud & AI has been pre-connected to some private line service providers, so customers can choose to connect with such private line service providers and access public cloud by sharing the device port the partner pre-connects with JD Cloud & AI with other customers.
@@ -35,14 +35,21 @@ e) Generally speaking, 1 to 2 working days are required for auditing a newly cre
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/create-physical-connection.png)
 
 ##### 2. Modify Physical Connection
-You can modify the name and description of Physical Connection.</br>
-a) Log in [JD Cloud & AI Physical Connection Console](https://cns-console.jdcloud.com/host/physicalConnection/list);  </br>
-b) Select corresponding Physical Connection and log in the details of Physical Connection;</br>
-c) Modification of the name and description of Physical Connection is supported, and the restriction of each configuration item is the same as the creation of Physical Connection;</br>
+You can modify the name and description of Physical Connection.<br />
+a) Log in [JD Cloud & AI Physical Connection Console](https://cns-console.jdcloud.com/host/physicalConnection/list);  <br />
+b) Select corresponding Physical Connection and log in the details of Physical Connection;<br />
+c) Modification of the name and description of Physical Connection is supported, and the restriction of each configuration item is the same as the creation of Physical Connection;<br />
+
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/update-physical-connection.png)
 
-##### 3. Delete Physical Connection
-If you do not need Physical Connection anymore, you can delete it.</br>
-a) Log in [JD Cloud & AI Physical Connection Console](https://cns-console.jdcloud.com/host/physicalConnection/list);  </br>
-b) Select the corresponding Physical Connection and click **Delete** on the operation bar. The Physical Connection without Private Virtual Interface created can be deleted;</br>
+##### 3. Resize Physical Connection
+If you need to resize the physical port specification due to business changes, please consult with JD Cloud off line for the specific change time and prepare the required single-mode optical module of new specification. The data center personnel will change the port after the physical connection cuts off the traffic. After the port is changed and the traffic is confirmed to be recovered (the speed limit of the physical port then is the original specification), please resize the port configuration in the Console in order for billing as per the new port specification. The speed limit will be automatically resized as the new rate after the payment is made.<br />
+a) Log in [JD Cloud & AI Physical Connection Console](https://cns-console.jdcloud.com/host/physicalConnection/list);  <br />
+b) Select the corresponding physical connection and click **Resize** on the operation bar. Please upgrade or downgrade the configuration as per your actual needs;<br />
+
+##### 4. Delete Physical Connection
+If you do not need physical connection anymore, you can delete it.<br />
+a) Log in [JD Cloud Physical Connection Console](https://cns-console.jdcloud.com/host/physicalConnection/list);  <br />
+b) Select the corresponding physical connection and click **Delete** on the operation bar. The physical connection without private virtual interface created can be deleted;<br />
+
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/delete-physical-connection.png)

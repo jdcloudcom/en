@@ -1,8 +1,13 @@
-# Restrictions
-## Instance Purchase and Use Restrictions:
-- User needs to complete real-name verification before purchasing instances. Support the real-name verification of the individual user and the enterprise user.
-- Only users passing the real-name verification can create and operate the Distributed Cloud Physical Server at Console.
--	Each user can create instances of at most 5 Distributed Cloud Physical Servers per single order and the user can purchase at most 20 sets in a single node by default. If you need to enable more instances, you may apply for expansion by open ticket, JD Cloud & AI will improve configuration upgrade quota after evaluation based on your actual demands. The actual situation is adjusted based on operation activities and subject to the activity descriptions.
--	Users can only create one intranet CIDR address segment under the same operator, and each instance can be associated and only be associated with one elastic IP or not associated with any elastic IP.
--	If a user intends to purchase Elastic IP at the time of purchasing instances, the system will allocate one Elastic IP when the Distributed Cloud Physical Server is created, and associate this Elastic IP with the Distributed Cloud Physical Server.
--	Hard disk, as an integral part of the distributed cloud physical machine, does not support separate purchase.
+# Use Restrictions
+
+## Account Restrictions
+- Real-name verification is required for the JD Cloud & AI account used to create a Distributed Cloud Physical Server. For details, please refer to [Real-name Verification](https://docs.jdcloud.com/en/real-name-verification/introduction)。
+- The instance cost shall be paid in advance when a monthly package instance is created, and the sum of your account balance and available coupon shall not be less than the consumption threshold when a pay-by-configuration instance is created.
+
+## Use Restrictions
+-	Each user can create instances of at most 5 instances per single order and the user can purchase at most 20 sets in a single node by default. If you need to enable more instances, you may apply for expansion by open ticket, JD Cloud & AI will increase the quota after assessment based on your actual demands. The actual situation is adjusted based on operation activities and subject to the activity descriptions.
+-	If the user chooses to purchase an instance and meanwhile associate and purchase an EIP, the system will assign an EIP when the instance is created and the EIP will be associated with the instance.
+-	Hard disk, as an integral part of the distributed cloud physical server, does not support separate purchase.
+- One private IP in one instance can only be associated to one EIP.
+
+

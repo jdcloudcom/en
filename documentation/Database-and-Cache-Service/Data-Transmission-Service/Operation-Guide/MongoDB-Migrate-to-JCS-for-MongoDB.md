@@ -11,7 +11,6 @@ Data transmission DTS supports structure migration, full migration and increment
 Connection method:
 
 - Self-built Database of Public IP in Source Database
-- Self-built Database Connected via Direct Connection
 
 Database version:
 
@@ -52,7 +51,7 @@ Data requirement:
 
      - Please select the database type as "self-built database of Public IP".
      - Please select database type as MongoDB.
-     - Please fill in database domain or IP as the database address and fill in Private IP as the database address in case of Direct Connection.
+     - Please fill in database domain or IP as the database address.
      - Port, database port.
      - For account and password, please confirm in advance that if the account has corresponding permissions.
 
@@ -72,8 +71,6 @@ Data requirement:
      - Support migration by databases and data tables.
 
      - When the "self-built database of Public IP" is selected as the source database type, definition of database tables to be migrated via two methods are supported, i.e., **Visual Selection** and **JSON**.
-
-     - When the "self-built database connected via the Direct Connection" is selected as the source database type, definition of the database tables to be migrated via **JSON** is supported only.
 
      - Description
 

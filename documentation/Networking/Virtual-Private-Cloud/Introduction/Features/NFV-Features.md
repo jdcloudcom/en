@@ -8,7 +8,7 @@ NFV is a VM that runs software. The software can perform network functions. User
 
 ### **NAT Gateway**
 
-Features: If multiple VMs in the same VPC have the requirement to access Internet at the same time and EIP resources are insufficient, you can solve this problem by creating a NAT gateway. JD Cloud supports self-built NAT gateways to implement SNAT functions.
+Features: If multiple VMs in the same VPC have the requirement to access Internet at the same time and EIP resources are insufficient, you can solve this problem by creating a NAT gateway. JD Cloud & AI supports self-built NAT gateways to implement SNAT functions.
 
 Use Restrictions: The self-built NAT gateway shares quotas with VM.
 
@@ -18,8 +18,8 @@ Use Restrictions: The self-built NAT gateway shares quotas with VM.
 
 NAT gateway is a gateway that converts Private IP address and EIP address in VPC. It is a way for cloud resources without EIP address to access Internet in VPC (but not supporting Internet to initiatively access VPC). The typical application scenarios of NAT gateway of JD VPC are as follows:
 
-- Large bandwidth, high availability public network access. For scenarios of public network access application where users require huge bandwidth, large EIP usage and many deployment services, JD Cloud NAT Gateway can meet the requirements.
-- Secure public network access. NAT gateway of JD VPC provides security conversion of IP. If a user wants to hide the EIP within VPC to avoid exposing its network deployment, and wants to access the public network, JD Cloud NAT Gateway can meet such requirements.
+- Large bandwidth, high availability public network access. For scenarios of public network access application where users require huge bandwidth, large EIP usage and many deployment services, JD Cloud & AI NAT Gateway can meet the requirements.
+- Secure public network access. NAT gateway of JD VPC provides security conversion of IP. If a user wants to hide the EIP within VPC to avoid exposing its network deployment, and wants to access the public network, JD Cloud & AI NAT Gateway can meet such requirements.
 
 
 
@@ -41,7 +41,7 @@ VM is bound to elastic EIP address, and the subnet route accesses the Internet t
 
 ### **VPN Gateway**
 
-Features: The VPN gateway provides Internet-based data encryption transmission service, which can realize network interconnection of different VPCs, open enterprise IDC and JD cloud intranet to realize hybrid cloud deployment; use VPN with image to create VPN gateway.
+Features: The VPN gateway provides Internet-based data encryption transmission service, which can realize network interconnection of different VPCs, open enterprise IDC and JD Cloud & AI intranet to realize hybrid cloud deployment; use VPN with image to create VPN gateway.
 
 Use Restrictions: The VPN gateway created by image shares quotas with the VM.
 
@@ -51,7 +51,7 @@ Use Restrictions: The VPN gateway created by image shares quotas with the VM.
 
 - Provide encrypted data transmission channel
 
-JD Cloud VPN uses IPSEC, IKE, and pre-shared key to encrypt data and provides a secure and reliable communication tunnel based on the public network.
+JD Cloud & AI VPN uses IPSEC, IKE, and pre-shared key to encrypt data and provides a secure and reliable communication tunnel based on the public network.
 
 - Flexible networking mode to support multi-tunnel shared gateway
 
@@ -81,8 +81,8 @@ According to the actual business needs, you can choose the appropriate VPN image
 
 #### Application Scenario
 
-Currently, it provides VPN communication service based on IPSEC protocol, supports site to site mode, and can flexibly open enterprise IDC and JD Cloud intranet. The following is a typical application scenario:
+Currently, it provides VPN communication service based on IPSEC protocol, supports site to site mode, and can flexibly open enterprise IDC and JD Cloud & AI intranet. The following is a typical application scenario:
 
-Demand: Some resources are deployed in the enterprise IDC, and resources such as application services are deployed in the JD Cloud intranet, and data communication is performed through the VPN tunnel to implement hybrid cloud deployment.
+Demand: Some resources are deployed in the enterprise IDC, and resources such as application services are deployed in the JD Cloud & AI intranet, and data communication is performed through the VPN tunnel to implement hybrid cloud deployment.
 
 ![](/image/Networking/Virtual-Private-Cloud/NFV.png)

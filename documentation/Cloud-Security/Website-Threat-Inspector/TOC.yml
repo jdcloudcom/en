@@ -39,3 +39,15 @@ items:
         href: Operation-Guide/Task-Management.md
       - name: Risk Management
         href: Operation-Guide/Risk-Management.md
+  - name: FAQ
+    items:
+      - name: Asset Verification Questions
+        href: FAQ/AssetsCertification.md
+      - name: Cookie Verification Questions
+        href: FAQ/CookieCertification.md
+      - name: Business Impact Questions
+        href: FAQ/ApplicationEffect.md
+      - name: Probe Deployment Questions
+        href: FAQ/AgentDown.md
+      - name: Questions on Addition of Verification Files to web Directory
+        href: FAQ/AddWebDirectory.md

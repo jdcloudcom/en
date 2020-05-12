@@ -15,8 +15,8 @@ For creation of VPC Attachment and setting of VPC transmission segment, refer to
 
 ##### (Selectable) 2. Border Gateway route table adds route to VPC
 If VPC Attachment is created with no VPC segment being assigned for transmission, routes to VPC can be manually added.
-a) Log in [JD Cloud & AI Border Gateway Console](https://cns-console.jdcloud.com/host/borderGateway/list);  </br>
-b) Click corresponding border gateway and enter border gateway details;</br>
+a) Log in [JD Cloud & AI Border Gateway Console](https://cns-console.jdcloud.com/host/borderGateway/list);  <br/>
+b) Click corresponding border gateway and enter border gateway details;<br/>
 c) The "Route Table" Tab will display effective, static and dynamic route tables on current Border Gateway, click **Edit** on "Static Route Table" and select **Add One**. Target End is targeted VPC Intranet segment (for example: 192.168.0.0/24). Type of Next Hop is VPC Attachment and Next Hop is VPC Attachment created with VPC. Remarks can be added to the route. For more content of Border Gateway Route Going Into Effect, refer to [Border Gateway Route Management](https://docs.jdcloud.com/en/direct-connection/border-gateway-features);
 
 ```
@@ -26,8 +26,8 @@ c) The "Route Table" Tab will display effective, static and dynamic route tables
 ```
 
 ##### 3. Border Gateway route table adds route to client
-a) Log in [JD Cloud & AI Border Gateway Console](https://cns-console.jdcloud.com/host/borderGateway/list);  </br>
-b) Click corresponding border gateway and enter border gateway details;</br>
+a) Log in [JD Cloud & AI Border Gateway Console](https://cns-console.jdcloud.com/host/borderGateway/list);  <br/>
+b) Click corresponding border gateway and enter border gateway details;<br/>
 c) In "Route Table" Tab, click **Edit** on "Static Route Table" and select **Add One**. Target End is targeted client segment (for example: 10.0.0.0/16). Type of Next Hop is Private Virtual Interface/Hosted Private Virtual Interface, and Next Hop is Private Virtual Interface/Hosted Private Virtual Interface created with the client. Remarks can be added to the route;
 
 ```

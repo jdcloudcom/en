@@ -1,10 +1,10 @@
-**These Service Terms are the effective contract concluded by and between the owners of the JD Cloud & AI website (referred to as "JD Cloud & AI" website in the Agreement: http://www.jdcloud.com/) and you on the matters related to Elastic IP. You select to accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using JD Cloud & AI Elastic IP service without clicking to confirm, indicating that you have reached an agreement with JD Cloud & AI and agree to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
+**These Service Terms are the effective contract concluded by and between the owners of the JD Cloud Computing Co., Ltd. (referred to as "JD Cloud & AI" website in the Agreement: [www.jdcloud.com](https://www.jdcloud.com/) ) and you on the matters related to Elastic IP. You select to accept these Service Terms by sealing, clicking to confirm on the web page or other means, including but not limited to actually using JD Cloud & AI Elastic IP service without clicking to confirm, indicating that you have reached an agreement with JD Cloud & AI and agree to accept all agreed contents of these Service Terms. If the text sealed by the Parties is inconsistent with the Service Terms confirmed on the web page or clicked to be accepted otherwise, the text sealed by the Parties shall prevail.**
 
 **For the Service Terms, you are reminded to pay special attention to the restriction and exemption terms, determination and handling terms of JD Cloud & AI on your violations and breach of contract, and the selection terms of jurisdictional courts. Restriction and exemption terms may be indicated in bold or by underline for your attention. You should carefully read the entire contents of the Service Terms before accepting the Service Terms. If you have any questions about the Service Terms, please contact the relevant business department of JD Cloud & AI and JD Cloud & AI will explain the terms to you. If you do not agree on any of the contents of the Service Terms, or cannot accurately understand the interpretation of these terms made by JD Cloud & AI, please do not continue the operation.**
 
 ### 1. Service Content
 
-1.1 For the purpose of these terms, the "service" means: JD Cloud & AI provides you with the Elastic IP service as well as related technologies and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com).
+1.1 For the purpose of these terms, the "service" means: JD Cloud & AI provides you with the Elastic IP service as well as related technologies and network support services displayed on the website [www.jdcloud.com](https://www.jdcloud.com/).
 
 ​1.2. The service provided by JD Cloud & AI must comply with the provisions of the Service Terms.
 
@@ -12,55 +12,55 @@
 
 2.1 The service fee will be listed on your order page. You can choose the specific service type and pay at the price listed.
 
-2.2 Billing: Please refer to the announcement on [www.jdcloud.com](https://www.jdcloud.com) for the specific deduction rules and the existing valid billing model and standards published on the page shall prevail.
+2.2 Billing: Please refer to the announcement on [www.jdcloud.com](https://www.jdcloud.com/) for the specific deduction rules and the existing valid billing model and standards published on the page shall prevail.
 
 2.3 JD Cloud & AI reserves the right not to provide you with service and/or technical support or to terminate the service and/or technical support until you have paid the full fee as agreed. And JD Cloud & AI also reserves the right to pursue legal responsibilities for the arrears in pay-as-you-go services.
 
 ### 3. Rights and Obligations
 
-3.1 Your Rights and Obligations
+**3.1 Your Rights and Obligations**
 
-3.1.1 You agree to abide by the Service Terms and the relevant management regulations and procedures provided on the service display page. You understand that the above agreements and regulations may change from time to time. If any content of the Service Terms is changed, JD Cloud & AI shall prompt you the modification by making announcement on the appropriate page 30 days in advance at www.jdcloud.com. If you disagree with the changes in provisions of the Service Terms made by JD Cloud & AI, you have the right to stop using the services of JD Cloud & AI. In this case, JD Cloud & AI shall settle the service fee (if any) with you, and you shall move out the business data. If you continue to use services of JD Cloud & AI, you are deemed to have accepted the modifications made by JD Cloud & AI to Service Terms.
+**3.1.1 You agree to abide by the Service Terms and the relevant management regulations and procedures provided on the service display page. You understand that the above agreements and regulations may change from time to time. If any content of the Service Terms is changed, JD Cloud & AI shall prompt you the modification by making announcement on the appropriate page 30 days in advance at [www.jdcloud.com](https://www.jdcloud.com/). If you disagree with the changes in provisions of the Service Terms made by JD Cloud & AI, you have the right to stop using the services of JD Cloud & AI. In this case, JD Cloud & AI shall settle the service fee (if any) with you, and you shall move out the business data. If you continue to use services of JD Cloud & AI, you are deemed to have accepted the modifications made by JD Cloud & AI to Service Terms.**
 
-3.1.2 You shall pay the corresponding service fee according to the instructions of JD Cloud & AI on the page and the provisions of the Service Terms.
+**3.1.2 You shall pay the corresponding service fee according to the instructions of JD Cloud & AI on the page and the provisions of the Service Terms.**
 
-3.1.3 You undertake that, during your use of the Elastic IP service:
+**3.1.3 You undertake that, during your use of the Elastic IP service:**
 
-3.1.3.1 You shall not conduct any behavior or attempt to undermine the network security (including but not limited to phishing, hacking, phishing, website or space containing or suspected of spreading: viruses, Trojans and malicious codes as well as suspected behaviors of attacking other websites and servers via virtual servers, such as scanning, sniffing, ARP spoofing and DDOS);
+**3.1.3.1 You shall not conduct any behavior or attempt to undermine the network security (including but not limited to phishing, hacking, phishing, website or space containing or suspected of spreading: viruses, Trojans and malicious codes as well as suspected behaviors of attacking other websites and servers via virtual servers, such as scanning, sniffing, ARP spoofing and DDOS);**
 
-3.1.3.2 You shall not change or attempt to change the system configuration provided by JD Cloud & AI or damage the system security and network security;
+**3.1.3.2 You shall not change or attempt to change the system configuration provided by JD Cloud & AI or damage the system security and network security;**
 
-3.1.3.3. The software or service provided by JD Cloud & AI may not be modified, translated, adapted, leased, sub-licensed, or disseminated or transferred on the information network, nor reversely engineered, decompiled or found the source code of the software provided by JD Cloud & AI in other ways by attempt;
+**3.1.3.3. The software or service provided by JD Cloud & AI may not be modified, translated, adapted, leased, sub-licensed, or disseminated or transferred on the information network, nor reversely engineered, decompiled or found the source code of the software provided by JD Cloud & AI in other ways by attempt;**
 
-3.1.3.4 You shall not copy, distribute, transfer, license or provide others to use the EIP service provided by JD Cloud & AI without the prior written consent of JD Cloud & AI;
+**3.1.3.4 You shall not copy, distribute, transfer, license or provide others to use the EIP service provided by JD Cloud & AI without the prior written consent of JD Cloud & AI;**
 
-3.1.3.5 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud & AI to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;
+**3.1.3.5 Do not intersperse Email Ads or SPAMs: Do not use the services provided by JD Cloud & AI to intersperse a large number of undesired or uncalled emails, electronic advertising or emails containing reactionary information, pornographic information or other harmful information;**
 
-3.1.3.6 Do not use the resources and services provided by JD Cloud & AI to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):
+**3.1.3.6 Do not use the resources and services provided by JD Cloud & AI to upload, download, store, and release the following information or contents and do not provide any convenience for others to release such information (including but not limited to setting URL, BANNER links, etc.):**
 
-3.1.3.6.1 Political propaganda and/or news information in violation of national regulations;
+**3.1.3.6.1 Political propaganda and/or news information in violation of national regulations;**
 
-3.1.3.6.2 Information relating to state secrets and/or security;
+**3.1.3.6.2 Information relating to state secrets and/or security;**
 
-3.1.3.6.3 Information on feudal superstitions and/or obscene, pornographic, indecent information or information abetting offences;
+**3.1.3.6.3 Information on feudal superstitions and/or obscene, pornographic, indecent information or information abetting offences;**
 
-3.1.3.6.4 Lottery, gambling games, "private services", "plug-in" and other illegal Internet publishing activities;
+**3.1.3.6.4 Lottery, gambling games, "private services", "plug-in" and other illegal Internet publishing activities;**
 
-3.1.3.6.5 Information that violates national ethnic and religious policies;
+**3.1.3.6.5 Information that violates national ethnic and religious policies;**
 
-3.1.3.6.6 Information that impedes the operation safety of the Internet;
+**3.1.3.6.6 Information that impedes the operation safety of the Internet;**
 
-3.1.3.6.7 Information that infringes upon the lawful rights and interests of others and/or other information or content that is detrimental to social order, social security, and public morals;
+**3.1.3.6.7 Information that infringes upon the lawful rights and interests of others and/or other information or content that is detrimental to social order, social security, and public morals;**
 
-3.1.3.6.8 Other content that violates laws and regulations, departmental regulations or national policies.
+**3.1.3.6.8 Other content that violates laws and regulations, departmental regulations or national policies.**
 
-3.1.3.7 You shall not occupy, or lead programs or processes, etc. to occupy a large amount of server memory, CPU or network bandwidth resources in the platform (hereinafter referred to as "cloud platform") composed of JD Cloud & AI computing resources (such as Virtual Machines, network bandwidth and storage space), or bring severe and unreasonable loads to the JD Cloud & AI platform or JD Cloud & AI's other users' networks, servers (including but not limited to local and nonlocal and international networks, servers, etc.), products/applications, etc., or affect the normal and smooth communication among JD Cloud & AI and the Internet, or JD Cloud & AI and specific networks, servers, interior of JD Cloud & AI as well, or result in server's downtime, crash of products and services of JD Cloud & AI or other users, or no access to products/applications on the cloud platform for the users and other problems;
+**3.1.3.7 You shall not occupy, or lead programs or processes, etc. to occupy a large amount of server memory, CPU or network bandwidth resources in the platform (hereinafter referred to as "cloud platform") composed of JD Cloud & AI computing resources (such as Virtual Machines, network bandwidth and storage space), or bring severe and unreasonable loads to the JD Cloud & AI platform or JD Cloud & AI's other users' networks, servers (including but not limited to local and nonlocal and international networks, servers, etc.), products/applications, etc., or affect the normal and smooth communication among JD Cloud & AI and the Internet, or JD Cloud & AI and specific networks, servers, interior of JD Cloud & AI as well, or result in server's downtime, crash of products and services of JD Cloud & AI or other users, or no access to products/applications on the cloud platform for the users and other problems;**
 
-3.1.3.8 You shall not use the Elastic IP service in any manner or for any purpose that would violate national, local laws and regulations, industry practices and social public ethics, and affect or damage or may affect or damage the interests of JD Cloud & AI and JD Group.
+**3.1.3.8 You shall not use the Elastic IP service in any manner or for any purpose that would violate national, local laws and regulations, industry practices and social public ethics, and affect or damage or may affect or damage the interests of JD Cloud & AI and JD Group.**
 
-3.1.3.9 You shall not engage in other activities in violation of laws, regulations or the Service Terms of JD Cloud & AI.
+**3.1.3.9 You shall not engage in other activities in violation of laws, regulations or the Service Terms of JD Cloud & AI.**
 
-3.1.3.10 In case that JD Cloud & AI discovers you have violated the above provisions, we have the right to take corresponding measures based on the actual conditions, including but not limited to immediately terminating and suspending the service or deleting corresponding information. If a third-party organization or an individual raises a question or complaint against you, JD Cloud & AI will inform you that you are responsible for making explanations and issuing the supporting evidences within the specified time. If you fail to provide contrary evidence or provide feedback within the time limit, JD Cloud & AI will take measures including but not limited to stopping or suspending services immediately or deleting relevant information. If you do not update your contact information or the contact information is incorrect that leads to failure of contacting you, you will be deemed you fail to provide feedback within the time limit.
+**3.1.3.10 In case that JD Cloud & AI discovers you have violated the above provisions, we have the right to take corresponding measures based on the actual conditions, including but not limited to immediately terminating and suspending the service or deleting corresponding information. If a third-party organization or an individual raises a question or complaint against you, JD Cloud & AI will inform you that you are responsible for making explanations and issuing the supporting evidences within the specified time. If you fail to provide contrary evidence or provide feedback within the time limit, JD Cloud & AI will take measures including but not limited to stopping or suspending services immediately or deleting relevant information. If you do not update your contact information or the contact information is incorrect that leads to failure of contacting you, you will be deemed you fail to provide feedback within the time limit.**
 
 3.2 Rights and Obligations of JD Cloud & AI
 
@@ -100,7 +100,7 @@
 
 5.3.3 You understand and fully accept that although JD Cloud & AI has established necessary technical measures to protect against matters or behaviors (collectively referred to as such behaviors) endangering the network security including computer viruses, network intrusion and attack damage (including but not limited to DDOS) (and will continue to improve based on the development of technology), in consideration of the limitations and relativity of network security techniques and the unpredictability of such behaviors, if you encounter such behaviors and this causes harm to JD Cloud & AI or other networks or servers (including but not limited to local, non-local and international networks, servers, etc.) of JD Cloud & AI, or affects the smooth contact between JD Cloud & AI and international Internet or JD Cloud & AI and specific network/server or internal smooth contact of JD Cloud & AI, JD Cloud & AI may decide to suspend or terminate the service If the service is terminated, the service fee will be calculated based on the actual service provided, and you will still be responsible for the service fee (if any) that you have not paid.
 
-5.3.4 JD Cloud & AI may terminate the Service Terms 30 days in advance by announcing at [www.jdcloud.com](https://www.jdcloud.com) or notifying you through website or sending you a written notice. At that time, JD Cloud & AI shall refund the amount you have paid but not spent to your JD Cloud & AI account (if any).
+5.3.4 JD Cloud & AI may terminate the Service Terms 30 days in advance by announcing at [www.jdcloud.com](https://www.jdcloud.com/) or notifying you through website or sending you a written notice. At that time, JD Cloud & AI shall refund the amount you have paid but not spent to your JD Cloud & AI account (if any).
 
 ### 6. Liability for Breach
 

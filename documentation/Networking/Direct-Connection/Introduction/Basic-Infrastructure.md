@@ -8,15 +8,13 @@ Overall architecture diagram of Direct Connection is as follows:
 
 #### Components of Direct Connection
 
-Direct Connection
+Direct Connection:
+  - Physical Connection: the physical links for the connection between JD Cloud & AI machine room and customer IDC machine room.
+  - Private Virtual Interface: Logistic links used to connect the Enterprise IDC and the Public Cloud.
 
-- Physical Connection: the physical links for the connection between JD Cloud & AI machine room and customer IDC machine room.
-- Private Virtual Interface: Logistic links used to connect the Enterprise IDC and the Public Cloud.
-
-Hosted Connect
-
-- Hosted Connection: a physical link for the connection between JD Cloud & AI machine room of customer JD Cloud & AI hosted area.
-- Hosted Private Virtual Interface: Logistic links used to connect the Cabinet Service and the Public Cloud.
+Hosted Connect:
+  - Hosted Connection: a physical link for the connection between JD Cloud & AI machine room of customer JD Cloud & AI hosted area.
+  - Hosted Private Virtual Interface: Logistic links used to connect the Cabinet Service and the Public Cloud.
 
 Border Gateway (BGW): The gateway hosting the communications between VPCs, as well as VPC and external environment, currently carries functions including Direct Connect, Hosted Connect and VPN Connection.
 

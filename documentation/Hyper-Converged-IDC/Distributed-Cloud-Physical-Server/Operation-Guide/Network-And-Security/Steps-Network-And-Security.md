@@ -1,6 +1,4 @@
-# Firewall
-
-## Function Description
+## Firewall
 
 Firewall with status may be configured via iptables for Linux server and the connection status created for sending and receiving information packages can be specified and remembered. It is a set of command package to set, maintain and inspect IP package filtration rules of Linux kernel.
 
@@ -10,7 +8,7 @@ chain--band chain, e.g. filter has three chains, i.e. INPUT, OUTPUT and FORWARD.
 
 **Note: Please disable SSH login port 22 with care, as disabling port 22 will lead to inaccessibility from the external to the Distributed Cloud Physical Server.**
 
-## Operation Steps
+### Operation Steps
 
 The following is an example of creating a filter table firewall:
 

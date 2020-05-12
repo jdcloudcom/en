@@ -8,10 +8,10 @@ Private Virtual Interface is the logical channel on Physical Connection to divid
 ### Operation Steps
 ##### 1. Create Private Virtual Interface
 Customers that have a Physical Connection in the status of "available" can use a Private Virtual Interface.
-a) Log in [JD Cloud & AI Private Virtual Interface Console](https://cns-console.jdcloud.com/host/dedicatedVif/list);  </br>
-b) Select region and click **Create**;</br>
-c) Enter the name of Private Virtual Interface, select a Physical Connection and Border Gateway, allocate vlanId, routing method, BGP ASN of client device, BGP key pair, BGP interconnection address and description, and create a Private Virtual Interface;</br>
-d) After a Private Virtual Interface is created, and a period of configuration distribution, the Private Virtual Interface shall enter into the status of "available". The configuration distribution process involves the cloud configuration distribution, as well as vlan connection with the client, BGP Session establishment, BGP route learning, etc. Please complete the relevant configuration in the client device in advance;</br>
+a) Log in [JD Cloud & AI Private Virtual Interface Console](https://cns-console.jdcloud.com/host/dedicatedVif/list);  <br />
+b) Select region and click **Create**;<br />
+c) Enter the name of Private Virtual Interface, select a Physical Connection and Border Gateway, allocate vlanId, routing method, BGP ASN of client device, BGP key pair, BGP interconnection address and description, and create a Private Virtual Interface;<br />
+d) After a Private Virtual Interface is created, and a period of configuration distribution, the Private Virtual Interface shall enter into the status of "available". The configuration distribution process involves the cloud configuration distribution, as well as vlan connection with the client, BGP Session establishment, BGP route learning, etc. Please complete the relevant configuration in the client device in advance;<br />
 
 ```
   Only available Physical Connection supports Private Virtual Interface creation.
@@ -35,14 +35,16 @@ d) After a Private Virtual Interface is created, and a period of configuration d
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/create-private-vif.png)
 
 ##### 2. Modify Private Virtual Interface
-You can modify the name and description of Private Virtual Interface.</br>
-a) Log in [JD Cloud & AI Private Virtual Interface Console](https://cns-console.jdcloud.com/host/dedicatedVif/list);  </br>
-b) Select corresponding Private Virtual Interface and log in the details of Private Virtual Interface;</br>
-c) Modification of the name and description of Private Virtual Interface is supported, and the restriction of each configuration item is the same as the creation of Private Virtual Interface;</br>
+You can modify the name and description of Private Virtual Interface.<br />
+a) Log in [JD Cloud & AI Private Virtual Interface Console](https://cns-console.jdcloud.com/host/dedicatedVif/list);  <br />
+b) Select corresponding Private Virtual Interface and log in the details of Private Virtual Interface;<br />
+c) Modification of the name and description of Private Virtual Interface is supported, and the restriction of each configuration item is the same as the creation of Private Virtual Interface;<br />
+
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/update-private-vif.png)
 
 ##### 3. Delete Private Virtual Interface
-If you do not need Private Virtual Interface anymore, you can delete it.</br>
-a) Log in [JD Cloud & AI Private Virtual Interface Console](https://cns-console.jdcloud.com/host/dedicatedVif/list);  </br>
-b) Select corresponding Private Virtual Interface, and click **Delete** on the operation bar;</br>
+If you do not need Private Virtual Interface anymore, you can delete it.<br />
+a) Log in [JD Cloud & AI Private Virtual Interface Console](https://cns-console.jdcloud.com/host/dedicatedVif/list);  <br />
+b) Select corresponding Private Virtual Interface, and click **Delete** on the operation bar;<br />
+
 ![](../../../../../image/Networking/Direct-Connect-Service/Operation-Guide/delete-private-vif.png)

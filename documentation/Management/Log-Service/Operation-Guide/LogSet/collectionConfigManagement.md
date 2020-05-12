@@ -17,13 +17,13 @@
 
 ### Modify Collection Instance
 **Modified to Select Partial Instances**  
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;When the log subject is configured to collect all instances, it is supported to be modified to select partial instances.
+When the log subject is configured to collect all instances, it is supported to be modified to select partial instances.
 1. 	Click **Modify** on the collection configuration page to enter the collection instance modification page. 
 2. 	Switch to **Add Partial Instances**, select the instance you want to add, and click **OK**.
 
 ![](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/LogSetManagement/editColletcionConfig.png)
 
 **Partial Instance Management**  
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;If it is currently configured to collect partial instances, it is supported to remove the added instances and add new instances.
+If it is currently configured to collect partial instances, it is supported to remove the added instances and add new instances.
 1. 	On the Instance List page, select the instance you want to remove, click **Remove**, or select multiple instances, and click the batch **Remove**.
 2. 	Click **Add Collection Instance** to enter the adding partial instances page. Support adding new collection instances, as well as modifying to collect "All Instances".

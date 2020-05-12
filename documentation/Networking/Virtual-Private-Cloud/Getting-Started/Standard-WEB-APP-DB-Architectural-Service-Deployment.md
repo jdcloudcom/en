@@ -2,7 +2,7 @@
 
 ### **Overview**
 
-Through this teaching, you can complete the basic network model deployment in JD Cloud. This basic network model contains three subnets, a Web layer for external access, an APP layer for business logic, and a database layer. The resources are as follows:
+Through this teaching, you can complete the basic network model deployment in JD Cloud & AI. This basic network model contains three subnets, a Web layer for external access, an APP layer for business logic, and a database layer. The resources are as follows:
 
 - 1 VPC
 - 3 Subnets

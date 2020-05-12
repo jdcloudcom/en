@@ -59,6 +59,8 @@
       items:
         - name: Configuration of Protection Rules
           herf: Operation-Guide/Net-Service-Protection-Setting/Protection-Rule.md        
+    - name: Setting of Protection Scheduling Rules
+      herf: Operation-Guide/Dispatch-Rule-Settings.md        
     - name: Attack Alarm Settings
       herf: Operation-Guide/Attack-Alarm-Notification-Settings.md
     - name: Black List and White List Settings

@@ -59,10 +59,6 @@ items:
           href: Operation-Guide/LogCollection/logtoKafka.md
     - name: Log Management
       items:
-        - name: Log Collection Management
-          href: Operation-Guide/LogSet/LogSetManagement.md
-        - name: Log Subject Management
-          href: Operation-Guide/LogSet/LogTopicManagement.md
         - name: Log Configuration Management
           href: Operation-Guide/LogSet/collectionConfigManagement.md
     - name: Log Retrieval

@@ -1,10 +1,10 @@
 # Attach ENI
 
-JD Cloud supports attaching an independently created secondary ENI to any VM with the same virtual private cloud attribute.
+JD Cloud & AI supports attaching an independently created secondary ENI to any VM with the same virtual private cloud attribute.
 
 ## Procedures
 
-Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud & AI and enter the Console Navigation Page.
 
 Step 2: Select network - virtual private cloud - ENI at the navigation bar on the left side of the console to enter the ENI list page.
 
@@ -27,3 +27,4 @@ Step 7: Return to the ENI list page. Since it takes 3 to 5 seconds to associate 
 ## Related References
 
 - [Use Restrictions](../../Introduction/Restrictions.md)
+

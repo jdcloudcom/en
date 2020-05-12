@@ -1,5 +1,7 @@
-## Multi-VPC Interconnection
+## Multi-VPC Interconnection on Cloud
+This Tutorial will guide you how to implement multiple-VPC interconnection at the same region by virtue of Border Gateway.
 
+### Business Scenarios
 When less than three VPCs are required to be interconnected in the same region, try to use "VPC Peering", which has low time delay and simple configuration; when there are large amounts of VPCs required to be interconnected, you can create Border Gateway APIs connected to different VPCs based on Border Gateway to simplify the deployment configuration.
 
 ```
@@ -7,95 +9,38 @@ When less than three VPCs are required to be interconnected in the same region, 
   Before interconnecting the multiple VPCs, you shall arrange all segments in VPCs to be interconnected and try to guarantee that the segments in VPCs will not overlap. If the segment overlap is unavoidable, you need to reasonably configure the range of route transmission of VPC and Border Gateway to guarantee there has no overlap of segment in the same route table. 
 ```
 
+![](../../../../image/Networking/Direct-Connect-Service/Getting-Started/multiple-vpc-interconnection.png)
 
+### Preconditions
+Before using the direct connection, please first read the relevant information [Use Restrictions](../Introduction/Restrictions.md).
 
-### If you use the Border Gateway to connect multiple VPCs on JD Cloud & AI, then you need to complete the following steps:
+### Configuration Steps
+![](../../../../image/Networking/Direct-Connect-Service/Getting-Started/multiple-vpc-interconnection-step.png)
 
-Step 1: Create Border Gateway</br>
-Step 2: Create Border Gateway APIs</br>
-Step 3: Configure Route Table in VPC</br>
-Step 4: Configure Route Table on Border Gateway</br>
+### Detailed Steps
 
-### Detailed procedures are as follows:
-#### Step 1: Create Border Gateway
+###### Step 1. Create Border Gateway
+a) Log in [JD Cloud Border Gateway Console](https://cns-console.jdcloud.com/host/borderGateway/list);  <br />
+b) Select the region using the direct connection, and click **Create Border Gateway**;<br />
+c) The border gateway supports running BGP routing protocol. The BGP ASN of current JD Cloud border gateway is fixed to 65000, which will be open to modify in the future;<br />
 
-1. Log in JD Cloud & AI console.
+For more contents, refer to [Border Gateway Management](../Operation-Guide/Border-Gateway-Management/Border-Gateway-Configuration.md).
 
-2. Click the navigation bar on the left side, select **Hybrid Cloud Connection -> Border Gateway ->Border Gateway**, enter the Border Gateway list page and click **Create**.
+###### Step 2. Create VPC Attachment
+a) Log in [JD Cloud VPC Attachment Console](https://cns-console.jdcloud.com/host/vpcAttachment/list);  <br />
+b) Select the region using the direct connection, and click **Create VPC Attachment**;<br />
+c) Select the border gateway created in Step 1, select the VPC that passes the route traffic of this border gateway, and select the VPC segment to be transmitted to this border gateway route table. After the VPC attachment is created, the segment selected will be automatically added to the transmission route table of this border gateway, and the Next Hop will point to the VPC attachment created in this step;<br />
 
-3. When a new Border Gateway is created, the new Border Gateway will not connect to any VPC or channel and you need to configure the creation of Border Gateway APIs or private virtual interfaces and other connection channels.
+For more contents, refer to [VPC Attachment Management](../Operation-Guide/Border-Gateway-Management/VPC-Attachment-Configuration.md).
 
-#### Step 2: Create VPC Attachment of Border Gateway
-```
-  The function of VPC Attachment is only released in regions of cn-east-2 and cn-south-1 and release time in other regions are to be determined.
-  For any region supporting no VPC Attachment, the Border Gateway will set up association relationship with all VPCs under the region by default. In such case, corresponding static route can be configured in the Border Gateway Route Table and VPC Route Table.
-```
+###### Step 3. Configure Routing
+After the creation of VPC Attachment between VPC and Border Gateway, VPC route table can be set to transmit routes from Border Gateway route table to VPC route table.
+a) Log in [JD Cloud VPC Route Table Console](https://cns-console.jdcloud.com/host/routeTable/list);  <br />
+b) Click **VPC Route Table** to enter VPC Route Table Details Page;<br />
+c) The "Route Transmission" Tab will display route clauses learned from border gateway and route transmission can be added. Click **Add**, select the border gateway with VPC attachment created with VPCs where the route table resides, and select segment range of border gateway route to be transmitted to the route table. When selected, target-end routes within the range in valid route tables on border gateway will be transmitted to the route table automatically.
 
-1. Log in JD Cloud & AI console.
+For more contents, refer to [Border Gateway Route Configuration (../Operation-Guide/Route-Management/Border-Gateway-Route-Configuration.md) and [VPC Route Configuration](../Operation-Guide/Route-Management/VPC-Route-Configuration.md).
 
-2. Click the navigation bar on the left side, select **Hybrid Cloud Connection -> Border Gateway -> VPC Attachment**, enter the VPC Attachment list page and click **Create**.
-
-3. Configure VPC Attachment, so as to establish connection and interconnection between Border Gateway and the selected VPC. For details, please see the Console Page.
-
-Now, VPC Attachment supports interconnection between VPC and Border Gateway in the same region. One VPC Attachment can be created for the same VPC and the same Border Gateway. The same VPC can create different VPC Attachments with multiple different Border Gateways, another Border Gateway supports creation of different VPC Attachments with multiple different VPCs.
-
-Primary configuration items are as follows:
-
-  - API name: Name of API connected Border Gateway and VPC;
-
-  - Border Gateway: Select Border Gateway to be interconnected. Border Gateway can communicated with VPC internally and serve as the BGP running endpoint at the JD Cloud & AI end and the customer IDC end;
-
-  - VPC: Select VPC to be interconnected;
-
-  - Transmitted VPC segment:
-
-    ``All VPC Segments``, full-automatic introduction method of Border Gateway routes, meaning that the system will automatically add Route Table entries accessing all VPC segments to Route Table of Border Gateway. All segments include segments of all current subnets of VPC, and the Route Table entries of the Border Gateway are automatically updated based on subsequent changes to the VPC subnet, for example, when adding a new subnet later, the system will automatically add routes reaching the new subnet to the Border Gateway Route Table, and when deleting the subnet, Route Table entries corresponding to the Border Gateway will be automatically deleted synchronously
-
-    ``Specified Subnet Segment``, semi-automatic introduction method of Border Gateway routes, meaning that the system will automatically add routes of specified segments in accessed VPC to Route Table of Border Gateway. Under the method, the route of the Border Gateway will not automatically adapt to adjustments outside the subnet specified within the VPC, for example, adding or deleting the subnet outside the range will not cause the route change of Border Gateway; however, if the subnet within the specified range changes, when deleting the subnet within the range, relevant route of this subnet will be synchronously deleted.
-
-    ``No Transmission Segment``, full-automatic configuration method of Border Gateway route, meaning that the system will not automatically add any VPC access routes to Route Table of Border Gateway, and a user needs to manually configure static routes in BGW Route Table.
-
-4. Click **OK**. In the VPC Attachment list, the status of the channel is configuring.
-
-5. After the Border Gateway API is configured, the channel status is changed to available. In such case, the connection can be used for data transmission.
-
-``Special description: When there is an overlap between the subnet segment in Border Gateway VPC connected and other channel connection segments, you can select "Specify Subnet Segment" when creating VPC Attachment and select the subnet segments having no overlaps with each other to avoid the overlapped VPC subnet segment from transmitting to the Border Gateway Route Table so as to satisfy the needs of some VPCs for overlapped application scenarios``
-
-
-#### Step 3: Configure Route Table in VPC
-
-1. Log in JD Cloud & AI console.
-
-2. Click the navigation bar on the left side, select **Virtual Private Cloud -> Route Table**, enter the Route Table related to JD Cloud & AI VPC Private Subnet required to communicate with other VPCs in the same region.
-
-3. There are two methods to configure the Route Table: Static route method refers to the automatic route transmission method.
-
-  Static route method:
-
-  If it is planned to adopt the customized route thoroughly, please adopt the static route configuration method. Click **Edit** on the "Route Policies" page in the route table to add route rules, in which the target end is the VPC segment you expect to be accessed, the type of next hop selects Border Gateway and the next hop selects the VPC Attachment of Border Gateway to be connected.
-
-  Automatic route transmission method:
-
-  If you intend to simplify network configuration process, the automatic route transmission method can be adopted with the JD Cloud & AI platform’s capacity of automatic route transmission from Border Gateway to VPC Route Table. Click **Add** in the "Route Transmission" page in the Route Table and fill in route transmission information. One VPC can establish route transmission relationships with several Border Gateways at the same time.
-
-- - Border Gateway: Select a source Border Gateway transmitted routes to VPC
-
-  - Route transmission range: Refer to the address range of routes which have the prefix CIDR and are transmitted from the Border Gateway to VPC. Support input of multiple CIDR ranges, with different CIDRs separated with English commas. After the transmission route is configured, this segment in the selected Border Gateway and route of its subnet segment will be transmitted to this Route Table. Support configuration of transmission 0.0.0.0/0 routes. In such case, it will transmit all routes in the selected Border Gateway.
-
-      When the configuration takes effect, the system will select route rules of route prefix in the transmission range from valid Route Table of Border Gateway (including static and dynamic route) and automatically add such rules to VPC Route Table. The type of next hop is Border Gateway, the next hop directs to the specified Border Gateway name in the "Route Transmission" configuration and the route type is transmission. The transmission type route cannot be edited.
-
-#### Step 4: Configure Route Table on Border Gateway
-
-1. Log in JD Cloud & AI console.
-
-2. Click the navigation bar on the left side, select **Hybrid Cloud Connection -> Border Gateway -> Border Gateway**, enter the Border Gateway Details hosting network interconnection of Direct Connect.
-
-3. Configure route table, there are two ways routing to the route table item of every VPC: Static route method refers to the automatic route transmission method.
-
-Static route method:
-
-When creating the VPC Attachment connecting Border Gateway and VPC, if "Not to Transmit Segment" is selected in the transmission of VPC segment, you need to manually configure the route reaching multiple VPCs, that is to configure all of the static route to VPC requiring interconnection item by item. To configure the static route to VPC, select "Route Table->Static Route Table" and click **Edit**. The route rule target end is the segment in VPC. Select VPC Attachment in the type of next hop. In the next hop, select the information of specific VPC Attachment to be communicated.
-
-Automatic route transmission method:
-
-When creating the VPC Attachment connecting Border Gateway and VPC, if "VPC All Segment" or "Specify Subnet Segment are selected in transmission of VPC segment, that is the route automatic transmission method. The Border Gateway route table will automatically add or delete the route table items reaching relevant subnet in the dynamic route table according to the configured scope of subnet. The target segment is VPC subnet segment, the type of next hop selects VPC Attachment, the next hop is the VPC Attachment connected to the specified VPC and Border Gateway and the route type is transmission. The dynamic route will compare the priority of routes of the static route table and the route of high priority will be automatically added to the valid route table. Users can directly view the dynamic transmission route in route table without configuration, but users cannot modify and delete the dynamic transmission route.
+###### Step 4. Test Connectivity
+a) Log in [JD Cloud Virtual Machines Console](https://cns-console.jdcloud.com/host/compute/list), in the region where the multiple-VPC interconnection is created, create respectively one set of Virtual Machines in the VPC to be interconnected to the intranet, and confirm that the route properly connected to other VPC intranet segment exists in the route table of the Subnet of this Virtual Machines;  <br />
+b) Use the Virtual Machines created in a to ping the intranet address of one instance in other VPC to verify whether the intranet communication is normal;<br />

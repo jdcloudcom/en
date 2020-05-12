@@ -61,7 +61,7 @@ The calculation of route priority is divided into several different dimensions, 
 | VPN Connection (VPN Connection) | 140 |
 
 ```
-Description: The smaller the Type of Next Hop priority value, the higher the route priority.
+  Description: The smaller the priority value, the higher the route priority.
 ```
 
 ##### Priority Description of Route Type (Administrative Distance, Administrative Distance of Route Protocol)
@@ -70,10 +70,11 @@ Description: The smaller the Type of Next Hop priority value, the higher the rou
 |:---:|:---:|
 | Static | 100 |
 | Internal Transmission (VPC Attachment Transmission) | 120 |
-| EBGP | 150 |
-| IBGP | 200 |
+| BGP | 150 |
 
-```Description: The smaller the route protocol priority value, the higher the route priority. ```
+```
+  Description: The smaller the priority value, the higher the route priority.
+```
 
 ##### Route Metric Priority Description
 
@@ -86,7 +87,7 @@ Description: The smaller the Type of Next Hop priority value, the higher the rou
 
 Before the Border Gateway supports the VPC Attachment function, once the Border Gateway is created, all VPCs in the same region will be connected automatically;
 
-As the VPC Attachment function of the Border Gateway is released, newly created Border Gateways will not connect to any VPC by default, so users are required to create "VPC Attachments" to interconnect specified VPC with Border Gateways; for Border Gateways already created, routes, which have already connected to VPC, in the Border Gateway route table is still valid and available and can be modified and deleted, but no other routes to VPC can be created unless VPC Attachment connected to VPC is created.
+As the VPC attachment function of the border gateway is released, newly created border gateways won’t connect to any VPC under the same region by default, so users need to create "VPC Attachments" to interconnect specified VPC with border gateways. For border gateways already created, routes that have already connected to VPC in the border gateway route table are still valid and available and can be modified and deleted. But the next hop cannot be directly created as VPC route. Customers shall first create a VPC attachment interconnected to this VPC and designate the next hop as VPC attachment route.
 
 2) Adjustment to routing method
 
@@ -95,5 +96,5 @@ Before the Border Gateway supports the VPC Attachment function, the Border Gatew
 As the VPC Attachment function of the Border Gateway is released, the Border Gateway route table and VPC route table can also support dynamic transmission route.
 
 Valid routing of border gateway can be automatically spread to the associated VPC route table created, and the routing arriving VPC subnet segment can be automatically spread to the border gateway route table; the border gateway and the IDC gateway can mutually inform valid routings to each other via eBGP. The specific processes are as follows:
-
-The Border Gateway will be added to the dynamic route table of Border Gateway by way of transmitting routes when accessing routes via the BGP route learned by private virtual interface and hosted private virtual interface and via the VPC subnet segment specified at the time of creating a VPC Attachment, and add the route of high priority after comparing the route priority to an valid route table; the VPC route table, which is transmitted by creating routes, can dynamically transmit the target address in the valid route table of Border Gateway to the extent of route rules in the scope of transmission address to the VPC route table; the Border Gateway will announce the valid route via eBGP to the BGP Peer of IDC gateway.
+* The Border Gateway will be added to the dynamic route table of Border Gateway by way of transmitting routes when accessing routes via the BGP route learned by private virtual interface and hosted private virtual interface and via the VPC subnet segment specified at the time of creating a VPC Attachment, and add the route of high priority after comparing the route priority to an valid route table; the VPC route table, which is transmitted by creating routes, can dynamically transmit the target address in the valid route table of Border Gateway to the extent of route rules in the scope of transmission address to the VPC route table; the Border Gateway will announce the valid route via eBGP to the BGP Peer of IDC gateway.
+* The VPC route table, which is transmitted by creating routes, can dynamically transmit the target address in the valid route table of border gateway to the extent of route rules in the scope of transmission address to the VPC route table; the border gateway will announce the valid route via eBGP to the BGP Peer of IDC gateway.

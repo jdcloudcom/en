@@ -5,7 +5,7 @@ This Tutorial takes the CentOS 6.8 operating system as an example to explain how
 **Note: The contents in brackets are filled out by the user. **
 
 ## Procedures
-Step 1: Associate ENI to the target VM in JD Cloud console.
+Step 1: Associate ENI to the target VM in JD Cloud & AI console.
 
 Step 2: Remotely log on the target VM via SSH.
 
@@ -24,5 +24,6 @@ Step 5: Execute the following command to configure the primary IP of ENI.
 Step 6: Execute the following command to configure the secondary IP of ENI.
 
 	# ifconfig [device name]:[secondary ip sequence number] [secondary ip] netmask [netmask] broadcast [broadcast ip]
+
 
 

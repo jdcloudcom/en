@@ -56,7 +56,7 @@
           - name: Disassociate Elastic IP
             href: Operation-Guide/Instance/Disassociate-The-EIP.md
           - name: Add Alias IP Range
-            href: Operation-Guide/Instance/Alisas-IP.md
+            href: Operation-Guide/Instance/Alias-IP.md
       - name: Network
         items:
           - name: VPC
@@ -66,44 +66,44 @@
           - name: Elastic IP
             href: Operation-Guide/Networking/Elastic-IP-For-Edge-Cloud.md
           - name: Alias IP Range
-            href: Operation-Guide/Networking/Alisas-IP.md
+            href: Operation-Guide/Networking/Alias-IP.md
           - name: Shared Bandwidth
             href: Operation-Guide/Networking/Edge-Shared-Bandwidth.md
       - name: Firewall
         items:
-          - name: Function Description
+          - name: Overview
             href: Operation-Guide/Network-And-Security/Steps-Network-And-Security.md
       - name: Image Use Instructions
         items:
-          - name: Function Description
+          - name: Overview
             href: Operation-Guide/Image/Description-Image.md
       - name: Set RAID Levels
         items:
-          - name: Function Description
+          - name: Overview
             href: Operation-Guide/Set-RAID-Level/Steps-Set-RAID-Level.md
       - name: Remotely Log In
         items:
-          - name: Function Description
+          - name: Overview
             href: Operation-Guide/Remote-Login/Steps-Remote-Login.md
       - name: Life Cycle Management
         items:
-          - name: Function Description
-            href: Operation-Guide/Distributed-Cloud-Physical-Server-Life-Cycle-Management/Description-Distributed-Cloud-Physical-Server-Life-Cycle-Management.md
+          - name: Overview
+            href: Operation-Guide/Life-Cycle-Management/Management.md
       - name: SSH Key Pair
         items:
-          - name: Function Description
+          - name: Overview
             href: Operation-Guide/SSH-Key-Pair/Step-SSH-Key-Pair.md
       - name: Audit Trail
         items:
-          - name: Function Description
+          - name: Overview
             href: Operation-Guide/Audit-Trail/Audit-Trail-Overview.md
       - name: Tag
         items:
-          - name: Function Description
+          - name: Overview
             href: Operation-Guide/Tag/Tag-Overview.md
       - name: User Data
         items:
-          - name: Function Description
+          - name: Overview
             href: Operation-Guide/User-Data/User-Data-Overview.md
   - name: Best Practices
     items:

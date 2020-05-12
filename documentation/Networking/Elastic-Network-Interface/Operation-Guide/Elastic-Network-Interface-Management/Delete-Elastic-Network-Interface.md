@@ -1,9 +1,9 @@
 Delete ENI
 
-JD Cloud supports deleting secondary ENI. The life cycle of the primary network interface of the VM is the same as that of the VM and can only be deleted with the VM.
+JD Cloud & AI supports deleting secondary ENI. The life cycle of the primary network interface of the VM is the same as that of the VM and can only be deleted with the VM.
 
 ## Procedures
-Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud & AI and enter the Console Navigation Page.
 
 Step 2: Select network - virtual private cloud - ENI at the navigation bar on the left side of the console to enter the ENI list page.
 
@@ -21,5 +21,6 @@ Step 6: After completing the above steps, click OK to complete the deletion for 
 ## Related References
 
 - [Disassociate ENI](./Disassociate-Elastic-Network-Interface.md)
+
 
 

@@ -2,13 +2,13 @@
 
 - **Q: VPC quota of single user?**
 
-  A: JD Cloud allows users to create no more than 10 VPCs in the same Region. Users can create or delete VPCs within this limited number according to actual usage;</br>
+  A: JD Cloud & AI allows users to create no more than 10 VPCs in the same Region. Users can create or delete VPCs within this limited number according to actual usage;</br>
 - **Q: Can CIDR be repeated between subnets? What’s the requirements?**</br>
   A: The CIDR of the subnet in a same VPC is not allowed to repeat. If the value entered by the user conflicts with the existing CIDR, there will be a corresponding notification. The range scope of the CIDR subnet mask is limited to 16~28.</br>
 - **Q: What is the subnet quota of single user?**</br>
-  A: JD Cloud allows users to create no more than 10 subnets in the a VPC. Users can create or delete subnets within a limited number based on actual use. </br>
+  A: JD Cloud & AI allows users to create no more than 10 subnets in the a VPC. Users can create or delete subnets within a limited number based on actual use. </br>
 - **Q:  What is the EIP quota of single user?**</br>
-  A: JD Cloud allows users to apply for no more than 10 EIP in the same area. Users can apply for or delete EIP within the limited number according to actual use. </br>
+  A: JD Cloud & AI allows users to apply for no more than 10 EIP in the same area. Users can apply for or delete EIP within the limited number according to actual use. </br>
 - **Q: What is the EIP bandwidth range?**</br>
   A: The EIP bandwidth ranges from 1~200Mbps. </br>
 - **Q: After associating an EIP to a resource, why the resource still cannot access the public network?**</br>

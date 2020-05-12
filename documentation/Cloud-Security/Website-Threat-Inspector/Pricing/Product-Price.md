@@ -2,6 +2,8 @@
 
 Website Threat Inspector comprises of **Basic Version** and **Paid Version**. The paid version is composed of **Monthly Package (Enterprise Version)** and **Pay By Quantity**.
 
+For detailed price discounts for the paid version, please visit: https://threatscanner-console.jdcloud.com/jsecscanner/create?version=basic
+
 You may an appropriate service version according to your domain asset quantity.
 
 ## Definition of Product Version

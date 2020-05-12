@@ -4,15 +4,15 @@
 
 ### Account Preparation
 
-Before starting creating the instance, you need to complete the registration of the JD Cloud Account, Real-name Verification and the payment preparation for the purchase of resources.
+Before starting creating the instance, you need to complete the registration of the JD Cloud & AI Account, Real-name Verification and the payment preparation for the purchase of resources.
 
 ### Account Registration
 
-If you have already had a JD Cloud account, you can skip the step and carry out subsequent settings. If you have not registered a JD Cloud account, you can conduct registration at JD Cloud official website, please see Registration of JD Cloud.
+If you have already had a JD Cloud & AI account, you can skip the step and carry out subsequent settings. If you have not registered a JD Cloud & AI account, you can conduct registration at JD Cloud & AI official website, please see Registration of JD Cloud & AI.
 
 ### Account Verification
 
-Real-name Verification is a prerequisite for the purchase and use of resources in JD Cloud. You may choose personal real-name verification or enterprise real-name verification for the account. See real-name verification for details.
+Real-name Verification is a prerequisite for the purchase and use of resources in JD Cloud & AI. You may choose personal real-name verification or enterprise real-name verification for the account. See real-name verification for details.
 
 ### Payment Preparation
 

@@ -27,8 +27,7 @@ The document specifies the general configuration processes for creating migratio
    Source database information:
 
    - For the instance type family, the "self-built database of Public IP" and the "self-built database connected via Direct Connection" can be selected.
-
-   - For database type, i.e., source database type, MySQL, Percona, MariaDB, SQL Server and MongoDB are supported.
+   - For database type, i.e., source database type, MySQL, Percona, MariaDB, SQL Server, PostgreSQL and MongoDB are supported.
    - Domain or IP can be filled in as the database address.
    - Port, database port.
    - Database Account
@@ -45,7 +44,7 @@ The document specifies the general configuration processes for creating migratio
 
 4. After completion, click **Next** and go to the next page to fill in information such as migration type, data check and migration object.
 
-   ![1568966127085](../../../../image/Data-Transmission-Service/dts-002.png)
+   ![image-20200421182534224](../../../../image/Data-Transmission-Service/dts-024.png)
 
    Migration type: The structure migration, full migration and incremental migration are available for selection.
 
@@ -54,7 +53,12 @@ The document specifies the general configuration processes for creating migratio
    Migration object:
 
    - When the "self-built database of Public IP" is selected as the source database type, definition of database tables to be migrated via two methods are supported, i.e., **Visual Selection** and **JSON**.
-   - When the "self-built database connected via the Direct Connection" is selected as the source database type, definition of the database tables to be migrated via **JSON** is supported only.
+
+     Visual selection supports editing filter table rules after the database is selected and supports defining migrated tables or excluding tables not to be migrated, and the table name supports "*" wildcard.
+
+     ![image-20200421185942156](../../../../image/Data-Transmission-Service/dts-025.png)
+
+   - When the "self-built database connected via the Direct Connection" is selected as the source database type, definition of the database tables to be migrated via **JSON** is supported only, and please see the format at: [Define the Migration Object in JSON](Define-The-Migration-Object-in-JSON.md).
 
 5. Agree to "Authorize DTS Service Management Source Database", click **Next** and select the migration instance type.
 

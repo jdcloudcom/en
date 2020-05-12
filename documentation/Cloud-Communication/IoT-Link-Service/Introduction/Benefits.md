@@ -1,8 +1,8 @@
 # Benefits
 ## Large Coverage
-To support different users in different business scenarios, the traffic packages we provide fully cover the products of different levels of three major operators (China Unicom, China Mobile and China Telecom).
+To meet users’ support to different IoT application scenarios, the IoT Connection Service we provide to users fully covers mobile communication access to the dedicated IoT networks of three operators (Unicom, Mobile and Telecom).
 ## Quick Access
-To save the interface connection and joint debugging of users and operators in different provinces nationwide, JD Cloud IoT card service directly helps users access, and improves the launch speed of products and activities of the users.
+To save the interface connection and joint debugging of users and operators in different provinces nationwide, IoT Connection Service is deeply and directly connected to the service platforms of the three operators to help users quickly access the wireless connection service and to accelerate the launch of the user’s products and activities.
 ## Mass Connection
 The strong technical capability supports mass connection of industrial and individual users.
 ## High Stability

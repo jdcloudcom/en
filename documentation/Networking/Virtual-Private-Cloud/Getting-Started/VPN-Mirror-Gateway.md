@@ -2,13 +2,13 @@
 
 ### **Product Summary** 
 
-The VPN gateway provides Internet-based data encryption transmission service, which can realize network connection between different VPCs, connecting enterprise IDC and JD cloud VPC, to realize hybrid cloud deployment. JD cloud users can create VPN gateway by using image with VPN function.
+The VPN gateway provides Internet-based data encryption transmission service, which can realize network connection between different VPCs, connecting enterprise IDC and JD Cloud & AI VPC, to realize hybrid cloud deployment. JD Cloud & AI users can create VPN gateway by using image with VPN function.
 
 ### **Product Features** 
 
 - Provide encrypted data transmission channel
 
-JD Cloud VPN uses IPSEC, IKE, and pre-shared key to encrypt data and provides a secure and reliable communication tunnel based on the public network. 
+JD Cloud & AI VPN uses IPSEC, IKE, and pre-shared key to encrypt data and provides a secure and reliable communication tunnel based on the public network. 
 
 - Flexible networking mode to support multi-tunnel shared gateway
 
@@ -36,9 +36,9 @@ Using the IPSEC protocol to implement encrypted connection on the public network
 
 ### **Application Scenario**
 
-The VPN communication service is based on IPSEC protocol, supports site to site mode, connects enterprise IDC and JD Cloud VPC. The following is a typical application scenario:
+The VPN communication service is based on IPSEC protocol, supports site to site mode, connects enterprise IDC and JD Cloud & AI VPC. The following is a typical application scenario:
 
-Demand: Some resources are deployed in the enterprise IDC, and resources such as application services are deployed in the JD Cloud VPC, and data communication is performed through the VPN tunnel to implement hybrid cloud deployment.
+Demand: Some resources are deployed in the enterprise IDC, and resources such as application services are deployed in the JD Cloud & AI VPC, and data communication is performed through the VPN tunnel to implement hybrid cloud deployment.
 
 ![](/image/Networking/Virtual-Private-Cloud/Getting-Started/VPN-Mirror-Gateway/step1.jpg)
 
@@ -48,7 +48,7 @@ Demand: Some resources are deployed in the enterprise IDC, and resources such as
 
 - Create a VPN Image Gateway 
 
-1. Open the JD Cloud console, enter the VM list page, click Create; 
+1. Open the JD Cloud & AI console, enter the VM list page, click Create; 
 
 2. On the VM creation page, select region; for the image type, select **image market**; 
 

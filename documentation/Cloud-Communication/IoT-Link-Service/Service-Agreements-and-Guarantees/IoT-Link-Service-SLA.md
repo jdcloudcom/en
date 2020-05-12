@@ -1,0 +1,1 @@
+**[IoT Connection Service Level Agreement](https://docs.jdcloud.com/en/product-service-agreement/iot-link-service-level-agreements-sla) (Service Level Agreement, hereinafter referred to as "SLA") specifies availability level indicator and compensation scheme for IoT Connection Service provided by JD Cloud & AI to customers, and takes effect since September 25, 2019.**

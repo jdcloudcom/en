@@ -11,7 +11,7 @@ Upon successfully creating clusters, click the cluster name to enter the cluster
 
 5. Click **Set Alarm Rules** in the upper right corner, and it will jump to the Monitoring page after clicking for alarm rules settings.</br>
 
-![Query 1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/MES2.png)
+![查询1](https://github.com/jdcloudcom/cn/blob/Elasticsearch/image/Internet-Middleware/JCS%20for%20Elasticsearch/监控ES.png)
  
 Monitoring indicators include: Cluster health status, cluster query QPS, cluster write QPS, node CPU use rate, node disk use rate and node HeapMemory use rate.</br>
 
@@ -23,6 +23,31 @@ Monitoring indicators include: Cluster health status, cluster query QPS, cluster
 | CPU Node Use Rate (%) | If the CPU use rate is too high, it will decrease the cluster node processing capacity or even cause system breakdown |
 | Node Disk Use Rate (%) 	| Too high disk use rate will cause the failure of data being written normally |
 | Node HeapMemory Use Rate (%) |Will affect query performance when the value is too high | 
+| Cluster Data Nodes | Node Count of Current Cluster Data | 
+| Cluster Indexes | Index Count of Current Cluster | 
+| Cluster Disk Used |Disk Used by Current Cluster | 
+| Cluster Nodes | Total Node of Current Cluster. During configuration changes, the count may be double. | 
+| Cluster Documents |Total Document of Current Cluster | 
+| Cluster Shards |Total Shard of Current Cluster | 
+| Cluster Shards |Total Shard in Current Cluster Migration | 
+| Cluster Shards |Total Primary Shard of Current Cluster | 
+| Shards in Cluster Initialization |Total Shard in Current Cluster Initialization | 
+| Unassigned Shards of Cluster |Total Unassigned Shard in Current Cluster | 
+| Node Search Latency (ms) | Node Search Request Time Consumption | 
+| Node Index Latency (ms) | Node Index Request Time Consumption | 
+| Index Thread Pool Active Threads (Piece) |Index Thread Pool Active Threads in Unit Statistical Period (1min) | 
+| Index Thread Pool Thread Queue Sizes (Piece) |If the queue size is always very large, please consider expanding your cluster | 
+| Index Thread Pool Reject Tasks (Piece) |Index Thread Pool Reject Tasks in Unit Statistical Period (1min) | 
+| Search Thread Pool Active Threads (Piece) |Search Thread Pool Active Threads in Unit Statistical Period (1min) | 
+| Search Thread Pool Thread Queue Sizes (Piece) |If the queue size is always very large, please consider expanding your cluster | 
+| Search Thread Pool Reject Tasks (Piece) |Search Thread Pool Reject Tasks in Unit Statistical Period (1min) | 
+| Write Thread Pool Active Threads (Piece) |Write Thread Pool Active Threads in Unit Statistical Period (1min) | 
+| Write Thread Pool Thread Queue Sizes (Piece) |If the queue size is always very large, please consider expanding your cluster | 
+| Write Thread Pool Reject Tasks (Piece) |Write Thread Pool Reject Tasks in Unit Statistical Period (1min) | 
+
+
+
+
 
 The health status is a very important monitoring item of the JCS for Elasticsearch cluster, which is used to indicate whether the cluster is working normally generally. The types of health statuses are as follows:</br>
 

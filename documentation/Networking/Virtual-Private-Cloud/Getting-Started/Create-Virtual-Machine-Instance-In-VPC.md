@@ -3,7 +3,7 @@
 
 ## **Overview**
 
-With this teaching you can complete a simple network deployment on JD Cloud and get the following resources:
+With this teaching you can complete a simple network deployment on JD Cloud & AI and get the following resources:
 
 - 1 VPC
 - 1 Subnet

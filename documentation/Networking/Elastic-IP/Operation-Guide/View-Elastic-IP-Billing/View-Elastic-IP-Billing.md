@@ -1,10 +1,10 @@
 # View the Elastic IP Billing
 
-Viewing the Elastic IP billing is supported by JD Cloud.
+Viewing the Elastic IP billing is supported by JD Cloud & AI.
 
 ## Procedures
 
-Step 1: Log in to the console of JD Cloud and enter the Console Navigation Page.
+Step 1: Log in to the console of JD Cloud & AI and enter the Console Navigation Page.
 
 Step 2: Select **Cost - Purchases Record** at the navigation bar on the top side of the console and go to the purchases record list page.
 
