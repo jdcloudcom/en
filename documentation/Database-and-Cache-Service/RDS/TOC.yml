@@ -86,7 +86,9 @@
           - name: Domain Switch
             href: Operation-Guide/Instance/Exchanged-DNS.md          
           - name: Migrate the availability zone
-            href: Operation-Guide/Instance/Migrate-AZ.md                
+            href: Operation-Guide/Instance/Migrate-AZ.md 
+          - name: Configure Active Directory
+            href: Operation-Guide/Instance/Modify-AD.md           
           - name: Reboot Instance
             items:
             - name: Reboot JCS for MySQL

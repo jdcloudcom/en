@@ -16,6 +16,7 @@ For more content related to VPC Route Table setting route transmission, refer to
 ```
   If no VPC Attachment has been created between VPC and Border Gateway where the VPC Route Table resides, you shall create VPC Attachment at first.
 ```
+
 ![](../../../../../image/Networking/VPN/Operation-Guide/vpcroutetable-addroutepropagation.png)
 
 ##### (Selectable) 3. VPC Route Table adds static route to Border Gateway
@@ -23,4 +24,5 @@ a) Log in [VPC Route Table Console](https://cns-console.jdcloud.com/host/routeTa
 b) Click corresponding VPC Route Table to enter VPC Route Table Details Page;<br />
 c) The "Route Policies" Tab will display static route and transmission route in current VPC Route Table. Click **Edit** and select **Add One**. Target end is client segment(Such as: 10.0.0.0/16), type of Next Hop is Border Gateway and Next Hop is the Border Gateway created with VPC attachment among VPCs where the route table resides. Comments can be added to the route.
 ``You are recommended to automatically add route by use of route transmission method. ``
+
 ![](../../../../../image/Networking/VPN/Operation-Guide/vpcroutetable-addroute.png)

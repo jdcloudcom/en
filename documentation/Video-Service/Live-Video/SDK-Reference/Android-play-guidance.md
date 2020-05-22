@@ -21,7 +21,7 @@ If the Version armeabi-v7a is integrated only, the ARMv5 ARMv6 device cannot be 
 This section lists one example of basic functions of rapidly-integrated JD Cloud Player SDK.
 
 * **Get SDK**  
-Please download the Android pushing streaming SDK and the Player SDK by clicking <a href="https://sdk-publish.oss.cn-north-1.jcloudcs.com/sdk/jdcloud_streamer_android.zip"></a><br/>  
+Please download the Android pushing streaming SDK and the Player SDK by clicking <a href="https://zhanghao274.s3.cn-north-1.jdcloud-oss.com/SDK/live/jdcloud_live_android_demo.zip">Here</a><br/>  
 
 * **Project Directory Structure**  
 demo: Example Project and Use Presentation of Main Interface Functions of the SDK    

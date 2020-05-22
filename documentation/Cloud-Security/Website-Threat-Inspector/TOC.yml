@@ -29,6 +29,8 @@ items:
         href: Getting-Started/VPC-Assets.md
       - name: Add External IDC Asset to Be Scanned
         href: Getting-Started/IDC-Assets.md   
+      - name: Add Docker Image Asset to Be Scanned
+        href: Getting-Started/ContainerImage.md
   - name: User Guide
     items:
       - name: Threat Overview

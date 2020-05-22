@@ -83,6 +83,8 @@ items:
           href: Operation-Guide/custom-monitoring/manage_alarmrules_cm.md
         - name: View Historical Alarms
           href: Operation-Guide/custom-monitoring/view-alarm-history-CustomMetric.md
+    - name: One-click Alarm
+      href: Operation-Guide/Alarm-Management/One-Click-Alarming.md
 - name: Best Practice
   items:
     - name: Batch Resource Monitoring 

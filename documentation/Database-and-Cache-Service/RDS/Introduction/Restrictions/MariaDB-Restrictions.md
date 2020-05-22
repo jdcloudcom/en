@@ -34,10 +34,6 @@
 
 ## Function Limit
 
-### Contraction Operations
-
-* It does not support contraction of instance.
-
 ### Instance Recovery
 
 * Do not support to recover instances have been deleted.

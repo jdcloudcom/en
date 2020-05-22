@@ -28,7 +28,12 @@ c) The "Route Table" Tab will display effective, static and dynamic route tables
 ##### 3. Border Gateway route table adds route to client
 a) Log in [Border Gateway Console](https://cns-console.jdcloud.com/host/borderGateway/list);  <br />
 b) Click corresponding border gateway and enter border gateway Details Page;<br />
-c) In "Route Table" Tab, click **Edit** on "Static Route Table" and select **Add One**. Target End is targeted client segment(Such as: 10.0.0.0/16), Type of Next Hop is VPN Connection and Next Hop is VPN Connection created with Customer Gateway. Comments can be added to the route.
+c) If BGP routing is enabled for VPN connection setting and BGP session can be normally set between the Border Gateway and the Customer Gateway, the Border Gateway can automatically add the client routing to the Route Table without addition configuration of static route after the routing is released by the client;<br />
+
+![](../../../../../image/Networking/VPN/Operation-Guide/vpn-route-bgp.png)
+
+d) Configuration of static routing can be selected; in "Route Table" Tab, click **Edit** on "Static Route Table" and select **Add One**; the Target End is the targeted client segment (for example: 10.0.0.0/16); Type of Next Hop is VPN Connection, and the Next Hop is the VPN Connection created between Customer Gateways; remarks can be added to this routing;<br />
+
 
 ```
   Because there are multiple VPN tunnels contained in VPN Connection, it is defaulted that traffic flows through all VPN tunnels with tunnel status as "UP". You shall disconnect or disable the tunnel if you want to prevent traffic from flowing through certain VPN tunnel.

@@ -34,7 +34,7 @@ c) Select the border gateway created in Step 1, select the VPC that passes the r
 For more contents, refer to [VPC Attachment Management](../Operation-Guide/Border-Gateway-Management/VPC-Attachment-Configuration.md).
 
 ###### Step 3. Configure Routing
-After the creation of VPC Attachment between VPC and Border Gateway, VPC route table can be set to transmit routes from Border Gateway route table to VPC route table.
+After the creation of VPC Attachment between VPC and Border Gateway, VPC route table can be set to transmit routes from Border Gateway route table to VPC route table.<br />
 a) Log in [JD Cloud VPC Route Table Console](https://cns-console.jdcloud.com/host/routeTable/list);  <br />
 b) Click **VPC Route Table** to enter VPC Route Table Details Page;<br />
 c) The "Route Transmission" Tab will display route clauses learned from border gateway and route transmission can be added. Click **Add**, select the border gateway with VPC attachment created with VPCs where the route table resides, and select segment range of border gateway route to be transmitted to the route table. When selected, target-end routes within the range in valid route tables on border gateway will be transmitted to the route table automatically.

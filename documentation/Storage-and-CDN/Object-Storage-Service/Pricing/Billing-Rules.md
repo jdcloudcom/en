@@ -25,7 +25,7 @@ Standard storage type gives you free tier across all regions, please see [Free T
 
 OSS service charge is composed of storage cost, traffic cost, request cost, data retrieval cost, Cloud processing cost:
 
-![计费组成](../../../../image/Object-Storage-Service/OSS-156.png)
+![计费组成](../../../../image/Object-Storage-Service/OSS-175.png)
 
 **Description**
 All charging items of OSS are charged separately. For example: You store data of 100GB in OSS bucket, which will incur storage costs every day; if your data is accessed through Internet every day, you will also incur Internet outflow traffic costs.
@@ -34,7 +34,7 @@ All charging items of OSS are charged separately. For example: You store data of
 ###  Storage Cost
 <div id="user-content-3"></div>
 
-OSS service provides multiple storage types: standard storage type, archival storage type, reduced redundancy storage type. See [Storage Type Introduction](../Introduction/StorageClass-Overview.md) for details.
+OSS service provides multiple storage types: standard storage type, infrequent access storage type, archival storage type, reduced redundancy storage type. See [Storage Type Introduction](../Introduction/StorageClass-Overview.md) for details.
 
 Storage cost is charged according to the actual storage capacity. Storage charges incurred by different storage types are described below:
 

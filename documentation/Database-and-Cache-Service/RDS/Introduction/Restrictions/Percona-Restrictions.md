@@ -31,8 +31,6 @@
 |16-core 128GB|24000|
 
 ## Functional Limits
-### Capacity Reduction Operation
-* The capacity reduction of the instance currently is not supported.
 
 ### Instance Restore
 * Deleted instances cannot be recovered.

@@ -63,6 +63,12 @@
               href: Operation-Guide/Database/Expand-Database/View-Expansion-Task.md
             - name: Check and Clear
               href: Operation-Guide/Database/Expand-Database/Drop-Migrated-Databases.md 
+      - name: Read-write Separation
+        items:
+          - name: Read-write Separation Introduction
+            href: Operation-Guide/Read-Write-Separation/Introduction.md
+          - name: Configure Read-write Separation
+            href: Operation-Guide/Read-Write-Separation/Configure-RO-Separation.md           
       - name: Security Management
         items:
           - name: Set IP White List

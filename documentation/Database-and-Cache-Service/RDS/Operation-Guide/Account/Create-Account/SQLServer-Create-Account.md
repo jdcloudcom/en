@@ -1,5 +1,9 @@
 # SQL Server Create Account
-SQL Server supports creating ordinary account and high-permission account. The difference between the two accounts is as follows:
+SQL Server supports two account types
+- Ordinary account
+- High-permission account
+
+The difference between the two accounts is as follows:
 |Account Type|Permission|Number of Accounts|
 |-|-|-|
 |Ordinary Account|There are only two account permissions, "read-write" and "read only"|One instance can have multiple ordinary accounts|
@@ -8,6 +12,7 @@ SQL Server supports creating ordinary account and high-permission account. The d
 Description:
 1. After a high-permission account is created, the account list on the Console will only show the high-permission account and will no more show the ordinary accounts;
 2. After a high-permission account is created, to avoid management conflicts, users cannot create a database on the Console, and can only use SQL to create the database through the high-permission account;
+3. Accounts with high permission cannot be deleted
 
 ## 1. Operation Entrance
 Enter the instance list page, click the instance name, enter the instance page, select ***Account Management*** page, and click ***Create Account***. <br/>

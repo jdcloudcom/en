@@ -1,4 +1,4 @@
-# windows Attach Cloud File Service (Beta)
+# windows Attach Cloud File Service
 
 
 
@@ -64,7 +64,7 @@ Open windows PowerShell and execute:
 
     `mount -o mtype=hard \\10.0.0.4\cfs d:` 
 
-   Wherein 10.0.0.4\ CFS is an attached target, please adjust according to your actual attached target address; d: is a target drive, which can be adjusted according to the drive you need to attach; the recovery behavior is hard when -o mtype=hard is specified as an exception, that is, when the CFS service exception occurs, nfs-client will continue to retry until the connection is reconnected.
+   Wherein 10.0.0.4\cfs is an attached target, please adjust according to your actual attached target address; d: is a target drive, which can be adjusted according to the drive you need to attach; the recovery behavior is hard when -o mtype=hard is specified as an exception, that is, when the CFS service exception occurs, nfs-client will continue to retry until the connection is reconnected.
 
    After successfully attaching, as shown in the figure below, you can also see the attached CFS service in "Resource Manager".
 
@@ -72,4 +72,10 @@ Open windows PowerShell and execute:
 
    ![mounted2](../../../../image/Cloud-File-Service/mounted2.png)
 
+
+# Configure automatic attaching
+
+Right click **This PC** in the windows resource manager and select **Map Network Driver**. If "Re-connect during login" is checked during attaching, automatically attached configuration can be completed.
+
+![automount](../../../../image/Cloud-File-Service/automount.png)
    

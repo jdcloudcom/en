@@ -4,16 +4,36 @@ The disk will be recognized as a device of the instance by the system after it i
 
 To manage the disks attached to the instance more conveniently, JD Cloud & AI provides the display of the device name in multiple operations involving the disk at the console, but since different operating system kernels correspond to different storage device drivers, the disk will be recognized by the system in different device names after it is attached to the instance. Linux system and Windows system have different ways of naming for devices, but they have an indexing rule of the same order (see the table below). Therefore, during the operations at the console, the device names are uniformly displayed in the form of a Linux system and the display form of a Windows system can be calculated according to the mapping rules.
 
-|Console display|Linux System Display|Windows System Display|
-|:---|:---|:---|:---|
-**Device Name of System Disk**|/dev/vda|/dev/vda|Disk 0|
-**Device Name of Data Disk**|/dev/vdb - /dev/vdm|/dev/vdb - /dev/vdm|Disk 1-12|
+<table>
+   <thead>
+   <tr>
+      <th> </td>
+      <th>Console display</td>
+      <th>Linux System Display</td>
+      <th>Windows System Display</td>
+   </tr>
+   </thead>
+   <tbody>  
+   <tr>
+      <td>Device Name of System Disk</td>
+      <td>/dev/vda</td>
+      <td>/dev/vda</td>         
+      <td>Disk 0</td>
+   </tr>
+   <tr>
+      <td>Device Name of Data Disk</td>
+      <td>/dev/vdb - /dev/vdw</td>
+      <td>/dev/vdb - /dev/vdw</td>         
+      <td>Disk 1-22</td>
+   </tr>
+   </tbody>	
+</table>   
 
 Meanwhile, during the instance management, there are many operations that will affect the assignment and display of disk device names. To ensure that the instance created by using the whole machine image (the private image contains the snapshot information of data disk attached to the instance) has the same data disk attaching condition as the original instance, we strongly recommend that you ensure the continuity of device names in the system after the disk is attached. The following is a detailed explanation for the disk device name assignment of Linux system and drive letter assignment of Windows system under several different operation scenarios of data disk configuration when an instance is created.
 
 ## Background Knowledge
 
-The device name that you see on the console is the name assigned by the system to ensure the attaching order. It is mainly used for the control of relative order when the disk is attached. In the case where there is no device name interruption in the system, it can be guaranteed that the device names displayed at the console are consistent with the real device names inside the instance. If the device names in the system are interrupted due to the detaching operation, there may be cases where the display at the console is inconsistent with that in the system.
+The device name that you see on the console is the name assigned by the system to ensure the attaching order. It is mainly used for the control of relative order when the disk is attached. If the device names in the system are uninterrupted, this can ensure the device names shown at the console are consistent with those real names inside the instances. If the device names in the system are interrupted due to the detaching operation, there may be cases where the display at the console is inconsistent with that in the system.
 
 In Linux systems, since all attachments need to be configured separately, the device name is the primary concern in disk operations. Each time when the Linux system is started, it will identify the device and assign the device name continuously according to the order in which the disk is attached. In case of a vacancy among device names in the system caused by disk detachment, the system will follow the relative order of original disks and cover the vacancy by forwarding to reassign a device name for it after the instance is restarted, which will cause the original attaching information to be invalid. If the original attaching configuration needs to remain unchanged, the attaching operation needs to be performed again in the system.
 
@@ -23,7 +43,7 @@ In Windows systems, the device name (disks 0- 8) is only used as the index befor
 
 * When an instance is created, for data disks created based on the preset data disk information in the private image, the specific name will be displayed at the device name, such as "/dev/vdb". These disks are collectively referred to as the **Default Disk** in the following description; for the remaining new data disks, whether they are empty disks or manually selected disks created based on snapshots, the "Automatically assigned device name" will be displayed at the device name. Those disks are collectively referred to as **New Disk** in the following description.
 * In Windows system, if the disk is completely attached (or the source disk for snapshots used to create the disk is completely attached), including initialized, partitioned, and assigned drives, this type of disk is referred to as **Disk with Records** in the following description. Otherwise, it is called **Disk without Records**.
-* Device Name "/dev/vdx" (x:ai) is hereinafter abbreviated as "vdx".
+* Device Name "/dev/vdx" (x:a-w) is hereinafter abbreviated as "vdx".
 
 ## Rules Details
 

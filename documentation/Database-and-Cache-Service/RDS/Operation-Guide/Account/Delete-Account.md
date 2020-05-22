@@ -1,4 +1,7 @@
 # Delete Account
+Ordinary accounts can be deleted.
+
+Description: SQL Server accounts with high permission are not allowed to be deleted
 
 ## 1. Operation Entrance
 Enter the instance detailed page, select **[Account Management]** page, and click ***Delete***.

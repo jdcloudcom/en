@@ -5,9 +5,10 @@ The free quota will be deducted at first for daily billing and the portion in ex
 
 ## Adopting the standard storage type of OSS will enjoy free quota as below:
 
-|cn-north-1|cn-south-1|cn-east-1|cn-east-2|
----|:--:|---:|---:
-10GB|10GB|10GB|10GB
+|Region|cn-north-1|cn-south-1|cn-east-1|cn-east-2|
+| - | - | - | - | - |
+|Standard Storage Capacity|10GB|10GB|10GB|10GB
+|Standard Storage Requests|500,000 Times/Months|500,000 Times/Months|500,000 Times/Months|500,000 Times/Months|
 	
 **Note:**
 
@@ -19,4 +20,4 @@ The free quota will be deducted at first for daily billing and the portion in ex
 
 4. The settlement method of free quota deduction first and then Pay by Consumption according to standards is applicable to the user adopting the standard storage type. The free quota is not applicable to other storage types.
 
-5. The free quota will come into force since March 19, 2019. Subsequent changes (if any) will be informed in time via announcements, intra-website messages and emails.
+5. The free quota of standard storage capacity is implemented since March 19, 2019 and the free quota of standard storage requests is implemented since May 13, 2020. Subsequent changes (if any) will be informed in time via announcements, intra-website messages and emails.

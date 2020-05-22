@@ -1,0 +1,21 @@
+name: Identity Pass beta
+href:
+items:
+  - name: Introduction
+    items:
+      - name: Identity Pass beta Overview
+        href: Introduction/Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+      - name: Features
+        href: Introduction/Features.md
+  - name: Getting Started
+    items:
+      - name: Enable and Use Identity Pass beta
+        href: Getting-Start/Initiate-Tenant-Account.md
+      - name: Manage User
+        href: Getting-Start/Manage-Users.md
+      - name: Add Application and Authorization
+        href: Getting-Start/Add-Applications.md

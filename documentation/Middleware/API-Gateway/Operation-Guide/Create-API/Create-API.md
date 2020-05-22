@@ -13,12 +13,14 @@ To create an API, completing the definition of the following information is requ
 ## Operation Steps:
 
 1. Find the group which requires to create the API in the page of API group list.
- ![API Group Management](../../../../../image/Internet-Middleware/API-Gateway/apigroup-1.png)
+ ![API分组管理](../../../../../image/Internet-Middleware/API-Gateway/API-1.png)
  Click the operations on this group row **Manage API**, enter the page of "API list"
- ![API list ](../../../../../image/Internet-Middleware/API-Gateway/apigroup-apilist.png)
+ ![API列表](../../../../../image/Internet-Middleware/API-Gateway/API-2.png)
 
 2. In the page of "API list", click **New API** to enter the page of API creation.
-![Create new API](../../../../../image/Internet-Middleware/API-Gateway/apigroup-addapi.png)
+![新建API](../../../../../image/Internet-Middleware/API-Gateway/API-3.png)
+![新建API](../../../../../image/Internet-Middleware/API-Gateway/API-4.png)
+![新建API](../../../../../image/Internet-Middleware/API-Gateway/API-5.png)
    
 3. After filling the API information, click the "Save", then the new creation is completed.
 

@@ -31,3 +31,8 @@ A: Please refer to the [Data Migration](https://docs.jdcloud.com/en/jcs-for-redi
 **Q: In the use of jedis, how to deal with character strings, such as \xac\xed\x00\x05t\x00, which are excessive in the key stored in redis?**
 
 A: It is a problem of jedis serialization. Please modify the serialization method of redisTemplate. If it cannot be resolved, please contact the customer service.
+
+
+**Q: After an application is initialized with Redis SDK, why no connection number is shown in the monitoring?**
+
+A: After an application is initialized in start when a connection pool is used by quoting Redis SDK, if there is no actual read-write operation and the server does not establish a connection, the connection number may be 0, which is normal.

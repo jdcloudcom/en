@@ -31,8 +31,6 @@
 |16-core 128GB|24000|
 
 ## Functional Limits
-### Capacity Reduction Operation
-* The capacity reduction of the instance currently is not supported.
 
 ### Database Version Upgrade
 * Database version cannot be upgraded currently. For example, JCS for MySQL 5.6 is upgraded to JCS for MySQL 5.7.

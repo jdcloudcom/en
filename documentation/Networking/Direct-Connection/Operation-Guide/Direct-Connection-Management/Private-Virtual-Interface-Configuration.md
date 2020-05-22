@@ -7,7 +7,7 @@ Private Virtual Interface is the logical channel on Physical Connection to divid
 
 ### Operation Steps
 ##### 1. Create Private Virtual Interface
-Customers that have a Physical Connection in the status of "available" can use a Private Virtual Interface.
+Customers that have a Physical Connection in the status of "available" can use a Private Virtual Interface.<br />
 a) Log in [JD Cloud & AI Private Virtual Interface Console](https://cns-console.jdcloud.com/host/dedicatedVif/list);  <br />
 b) Select region and click **Create**;<br />
 c) Enter the name of Private Virtual Interface, select a Physical Connection and Border Gateway, allocate vlanId, routing method, BGP ASN of client device, BGP key pair, BGP interconnection address and description, and create a Private Virtual Interface;<br />

@@ -69,3 +69,23 @@ mount -t nfs -o tls 10.0.0.30:/cfs nfs
 - timeo=600: Waiting response time for NFS request retry, which is set to 600 deciseconds (60 seconds) by default. Too small timeo parameter value may cause performance degradation.
 - retrans=2: The number of NFS client retry requests, which is set to 2 by default.
 - noresvport: The NFS client uses the new Transmission Control Protocol (TCP) source port each time the network connection is re-established. It helps ensure that the CFS file system has uninterrupted availability after a network recovery event.
+
+
+
+# Configure automatic attaching
+
+1. By editing /etc/fstab files, automatic attaching of CFS file systems in the Linux system can be realized. Execute
+  `vi /etc/fstab`
+
+2. Press the key "i" and enter the edition mode. Add the following characters at the last row of the document:
+
+   `10.0.0.66:/cfs /mnt nfs nfsvers=3,noresvport,_netdev 0 0`
+
+  Where,
+   `10.0.0.66:/cfs` is the target attaching address of file storage; please replace it with the target attaching address of file storage to be attached;
+  `/mnt` refers to the position expected to be attached and can be replaced depending on demands;
+  `nfsvers=3` refers to that the protocol version nfs v3 is designated for attaching. It is suggested to attach this version now, so as to avoid some known issues of NFS client. If you need the version nfs v4, please replace with: `nfsvers=4.0`
+  `noresvport` helps ensure that the CFS file system has uninterrupted availability after a network recovery event.
+  `_netdev` makes sure that the nfs mount operation is conducted after the network is ready and reduces failure risks of automatic attaching.
+  
+3. Press the "ESC" key, enter "wq" (save and equit) and press the "Enter" key. Then the fstab configuration file is updated and automatic attaching configuration is completed. In such case, current file storage can be unmounted and `mount -a` is executed for checking whether the configuration succeeds. 

@@ -5,49 +5,41 @@ items:
    items:
       - name: Product Overview
         href: Introduction/Product-Overview.md
+      - name: Core Concepts
+        href: Introduction/Core-Concepts.md
+      - name: Benefits
+        href: Introduction/Benefits.md  
       - name: Features
         href: Introduction/Features.md  
- - name: Getting Started
-   items:
       - name: Restrictions
-        href: Getting-Started/Restrictions.md
-      - name: Sign up Service
-        href: Getting-Started/Sign-Up-Service.md   
-      - name: Create Video Transcoding
-        href: Getting-Started/Create-Video-Transcoding-1.md
-      - name: Create Video Snapshot Workflow
-        href: Getting-Started/Create-Video-Snapshot.md 
+        href: Introduction/Restrictions.md  
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md  
+ - name: Pricing
+   items:
+    - name: Billing Overview
+      href: Pricing/Billing-Overview.md
+    - name: Billing Rules
+      href: Pricing/Billing-Rules.md
+    - name: Price Overview
+      href: Pricing/Price-Overview.md
+    - name: Arrear Description
+      href: Pricing/Arrears-Description.md 
+ - name: Getting Started
+   href: Getting-Started/Started.md
  - name: Operation Guide
    items:
-      - name: Video Transcoding
-        items:
-           - name: Transcoding Rules
-             href: Operation-Guide/Video-Transcoding/Transcoding-Rules.md
-           - name: Create Video Transcoding
-             href: Operation-Guide/Video-Transcoding/Create-Video-Transcoding-2.md
-      - name: Video Snapshot
-        href: Operation-Guide/Video-Snapshot.md
-      - name: Callback Settings
-        href: Operation-Guide/Callback.md      
- - name: API Reference
-   items:
-      - name: User Signature Verification
-        href: API-Reference/Video-Transcoding-API/User-Signature-Authentication.md  
-      - name: Create Video Transcoding
-        href: API-Reference/Video-Transcoding-API/Create-Video-Transcoding-3.md 
-      - name: Get Video Task List
-        href: API-Reference/Video-Transcoding-API/Get-Video-Task.md 
-      - name: Query Video Task
-        href: API-Reference/Video-Transcoding-API/Query-Video-Task.md
-      - name: Delete Video Task
-        href: API-Reference/Video-Transcoding-API/Delete-Video-Task.md   
-  - name: SDK Reference
-    items:
-      - name: Video Thumbnail
-        href: SDK-Reference/Thumbnail.md
- - name: Best Practices
-   status: 0
+    - name: Task management
+      href: Operation-Guide/Task-List.md
+    - name: Global Configuration
+      href: Operation-Guide/Configuration.md     
  - name: FAQ
-   status: 0
- - name: Glossary         
-   status: 0
+   href: FAQ/FAQ.md
+ - name: Relevant Agreement
+   items:
+    - name: Service Agreement
+      href: User-Agreements/Product-Terms-of-Service.md
+ - name: Related Resources
+   items:
+    - name: Document History Records
+      href: Related-Resources/Document-History.md

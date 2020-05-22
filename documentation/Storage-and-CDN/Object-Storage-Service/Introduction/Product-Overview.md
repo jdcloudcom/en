@@ -27,8 +27,6 @@ Reduced Redundancy Storage: reduced redundancy storage provides users with Objec
 
 [Picture Processing](../Operation-Guide/Image-Service-Guide/Introduction-1.md)
 
-[Video Processing](../Operation-Guide/Video-Service-Guide/Video-Service-Guide-Overview.md)
-
 [Compatible S3 APIs](../API-Reference-S3-Compatible/Introduction-2.md)
 
 [JAVA SDK](https://docs.jdcloud.com/en/object-storage-service/installation-s3)

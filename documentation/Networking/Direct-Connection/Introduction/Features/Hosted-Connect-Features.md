@@ -15,7 +15,7 @@ Sub-products of hosted connect: hosted connection and hosted private virtual int
 
 ### Hosted Connection
 
-Hosted Connection is a physical link used to connect JD Cloud Data Center and JD Cloud Cabinet Service. The link is completed by JD Cloud. It is applicable to customers who have already used JD Cloud Cabinet Service.
+Hosted Connection is a physical link used to connect JD Cloud Data Center and JD Cloud Cabinet Service. The link is completed by operators under the coordination of JD Cloud. It is applicable to customers who have already used JD Cloud Cabinet Service.
 
 JD Cloud Hosted Connect supports access of exclusive port to establish a three-layer interconnection within intranet between the customer network and JD Public Cloud.
 

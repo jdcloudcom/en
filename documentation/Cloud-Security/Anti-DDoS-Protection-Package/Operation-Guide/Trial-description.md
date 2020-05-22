@@ -13,10 +13,10 @@
 
 Please enter [Anti-DDoS Protection Package Console](https://antiddos-console.jdcloud.com/gz/ddos/protection-package-list); the menu of the protection package is in the directory of Anti-DDoS Basic. Please directly click **Subscribe Now**.
 
-![开通试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/开通试用.png)
+![开通试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/立刻开通.PNG)
 
 Please fill in the instance name and select the associated IP information in the popup and directly click **Buy Now**.
 
-![试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/试用.png)
+![试用](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Anti-DDoS-Protection-Package/立即购买.PNG)
 
 JD Cloud reserves all the right for the final explanation of the activity.

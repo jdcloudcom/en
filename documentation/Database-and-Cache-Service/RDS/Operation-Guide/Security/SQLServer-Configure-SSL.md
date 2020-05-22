@@ -1,4 +1,4 @@
-# SQL Server SSL Configuration Method
+# SQL Server SSL Configuration
 
 Connection of JCS for SQL Server supports SSL encryption. SSL is a safety protocol which provides security and data integrity to network communication. With SSL, communication data security and integrity can be improved, but performance will be affected to some extent.
 

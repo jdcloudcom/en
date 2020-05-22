@@ -57,7 +57,7 @@ items:
         - name: Create API
           href: Operation-Guide/Create-API/Create-API.md
         - name: API Advanced Configuration
-          href: Operation-Guide/Create-API/Adv-API.md
+          href: Operation-Guide/Create-API/Advanced-Configuration-API.md
     - name: Backend Service
       items:
         - name: HTTP/HTTPS Backend Service
@@ -113,4 +113,5 @@ items:
   items:
   - name: Document History
     href: Related-Resources/Document-History.md 
-    
+  - name: Public Error Code Reference during Calling
+    href: Related-Resources/Error-Code.md   

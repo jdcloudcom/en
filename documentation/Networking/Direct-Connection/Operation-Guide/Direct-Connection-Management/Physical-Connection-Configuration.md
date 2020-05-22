@@ -3,7 +3,7 @@ Physical Connection accesses public cloud via physical link Direct Connection so
 
 ### Operation Steps
 ##### 1. Create a Physical Connection
-Customers who have completed enterprise real-name verification can use a Physical Connection.
+Customers who have completed enterprise real-name verification can use a Physical Connection.<br />
 a) Log in [JD Cloud & AI Physical Connection Console](https://cns-console.jdcloud.com/host/physicalConnection/list);  <br />
 b) Select region and click **Create**;<br />
 c) Enter the name, access region, access method, the customer’s IDC Address, partners/access point, contacts, contact information and description to create a Physical Connection;<br />

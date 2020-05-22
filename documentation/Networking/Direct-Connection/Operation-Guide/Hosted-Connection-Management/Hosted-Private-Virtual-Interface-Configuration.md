@@ -7,7 +7,7 @@ Hosted Private Virtual Interface is the logical channel on Hosted Connection to 
 
 ### Operation Steps
 ##### 1. Create Hosted Private Virtual Interface
-Customers that have a Hosted Connection in the status of "available" can use a Hosted Private Virtual Interface.
+Customers that have a Hosted Connection in the status of "available" can use a Hosted Private Virtual Interface.<br />
 a) Log in [JD Cloud & AI Hosted Private Virtual Interface Console](https://cns-console.jdcloud.com/host/hVif/list);  <br />
 b) Select region and click **Create**;<br />
 c) Enter the name of Hosted Private Virtual Interface, select a Hosted Connection and Border Gateway, allocate vlanId, routing method, BGP ASN of client device, BGP key pair, BGP interconnection address and description, and create a Hosted Private Virtual Interface;<br />

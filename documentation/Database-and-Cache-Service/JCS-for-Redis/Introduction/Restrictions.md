@@ -6,13 +6,13 @@
 
 Specification|Maximum Number of Connections|Upper Limit of Intranet Bandwidth (MB/s)|CPU Processing Capacity
 :---|:--|:--|:---
-1G Primary-secondary Version|10000|48|Single Core
-2G Primary-secondary Version|10000	|48	|Single Core
-4G Primary-secondary Version|10000	|48	|Single Core
-8G Primary-secondary Version|10000|48|Single Core
-16G Primary-secondary Version|10000	|48	|Single Core
-32G Primary-secondary Version|10000	|48	|Single Core
-64G Primary-secondary Version|10000	|48	|Single Core
+1G Standard Version|10000|48|Single Core
+2G Standard Version|10000	|48	|Single Core
+4G Standard Version|10000	|48	|Single Core
+8G Standard Version|10000|48|Single Core
+16G Standard Version|10000	|48	|Single Core
+32G Standard Version|10000	|48	|Single Core
+64G Standard Version|10000	|48	|Single Core
 
 - Cluster version
 

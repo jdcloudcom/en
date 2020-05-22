@@ -33,21 +33,16 @@ Currently, the backend service type supports the following methods:
 ##  Operation Steps:
 ###  Step 1: Enter the management page of API
 First, select the API group, click Manage API menu, and enter the API list page.
- ![API列表](../../../../../image/Internet-Middleware/API-Gateway/apigroup-apilist.png)
+ ![API列表](../../../../../image/Internet-Middleware/API-Gateway/advanced-configuration-1.png)
 Description:
 If the current API group is a version in the deployment, it cannot be operated directly. If the operation is required, please go offline at first or add a new version for amendment.
 
 ###  Step 2: Enter the advanced configuration page for operation
 ####  Type 1: Default: use the backend configured on the API group
-When this type of configuration is selected, the API will use the address content configured when the group is released when the API is actually called.
+When this type of configuration is selected, the default backend address content of configured group will be used when API is actually called.
 
- ![API列表](../../../../../image/Internet-Middleware/API-Gateway/apigroup-apilist-gjpz-mr.png)
+ ![API列表](../../../../../image/Internet-Middleware/API-Gateway/advanced-configuration-2.png)
  
- 
-When this configuration is selected, the backend address used by the API when it is actually called will be the unified address configured when API group is released. I.e., the backend service address configured in the following figure.
-
-![发布](../../../../../image/Internet-Middleware/API-Gateway/apigroup-fb.png)
-
 
 
 ####   Type 2: Customized independent backend.
@@ -55,20 +50,20 @@ When this configuration is selected, it is to cancel the selection of "Unified C
 
 ##### 1、HTTP/HTTPS
 
- ![API列表](../../../../../image/Internet-Middleware/API-Gateway/apigroup-apilist-gjpz-http.png)
+ ![API列表](../../../../../image/Internet-Middleware/API-Gateway/advanced-configuration-4.png)
  
  If this type is used as the backend, the real backend service address of API needs to be filled in.
  
 
 ##### 2、Mock
 
- ![API列表](../../../../../image/Internet-Middleware/API-Gateway/apigroup-apilist-gjpz-mock.png)
+ ![API列表](../../../../../image/Internet-Middleware/API-Gateway/advanced-configuration-5.png)
  
 If Mock is used as the backend, the actual request will not call the real backend service.
 
 ##### 3、Function
 
- ![API列表](../../../../../image/Internet-Middleware/API-Gateway/apigroup-apilist-gjpz-fun.png)
+ ![API列表](../../../../../image/Internet-Middleware/API-Gateway/advanced-configuration-6.png)
  
 If this type is used as the backend, you need to create a function in the function first, then find and select the function in the drop-down box.
 ######  Special description: Currently, it supports to configure the function type backend for a single API only, while the configuration function type backend for API group is not supported.

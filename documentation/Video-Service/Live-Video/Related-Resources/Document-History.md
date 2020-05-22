@@ -4,6 +4,7 @@ This document describes the history of significant updates to live video of prod
 
 |Release Date|Feature|Description|
 |-|-|-|
+|May 2020|Live Streaming Tool|SDK Version Update |
 |May 2019|Console|Launch of New Edition Live Console |
 |January 2019|Open API|Live Launch of Open API |
 |August,2018|Callback of Snapshot|Provide snapshot callback function|

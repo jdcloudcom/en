@@ -14,3 +14,4 @@ This document introduces the important update history of the Distributed Cloud P
 |2019.12.27|V1.6|support tag function of instances;|
 |2020.04.08|V1.6.1|Launch by Converting Beta to GA;|
 |2020.04.17|V1.7|Support double network interface, double VPC, Shared Bandwidth functions of instances;|
+|2020.05.06|V1.7|Support directly adding Elastic IP into the shared bandwidth for purchase; </br>support synchronously enabling automatic renewal feature on monthly package resource purchase page;|

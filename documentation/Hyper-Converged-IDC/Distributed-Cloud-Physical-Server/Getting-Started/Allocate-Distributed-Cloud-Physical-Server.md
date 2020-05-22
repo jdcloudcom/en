@@ -52,7 +52,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Private IP: A private IP address of secondary network interface is designated for users. The private IP address can be either designated from any available IP addresses of the selected subnet or automatically allocated by the system. The private IP is unchangeable when assigned to the Distributed Cloud Physical Server.<br/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alias IP Range: If your multiple services are running on the same Distributed Cloud Physical Server and you want to assign a different IP address for each service, you can do so using the function of alias IP range. At most 50 can be added to a single-instance secondary network interface. Please refer to [Alias IP Range](../Operation-Guide/Instance/Alisas-IP.md). <br/>       
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alias IP Range: If your multiple services are running on the same Distributed Cloud Physical Server and you want to assign a different IP address for each service, you can do so using the function of alias IP range. At most 50 can be added to a single-instance secondary network interface. Please refer to [Alias IP Range](../Operation-Guide/Networking/Alisas-IP.md). <br/>       
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Public Network Bandwidth: If an instance needs to access the public network, users can check the association with elastic IP (which is automatically allocated by the system and cannot be modified by users) when creating an instance or purchase it after instance creation. The elastic IP can be associated and disassociated with the instance, (which is an elastic IP of secondary network interface after creation)<br/>
 

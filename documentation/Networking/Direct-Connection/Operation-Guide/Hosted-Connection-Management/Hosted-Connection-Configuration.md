@@ -3,7 +3,7 @@ Hosted Connection accesses public cloud via physical link Direct Connection so t
 
 ### Operation Steps
 ##### 1. Create Hosted Connection
-Customers who have completed enterprise real-name verification can use a Hosted Connection.
+Customers who have completed enterprise real-name verification can use a Hosted Connection.<br />
 a) Log in [JD Cloud & AI Hosted Connection Console](https://cns-console.jdcloud.com/host/hConnection/list);  <br />
 b) Select region and click **Create**;<br />
 c) Enter the name, hosted region, contacts, contact information and description of a Hosted Connection, and create it;<br />

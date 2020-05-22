@@ -11,7 +11,7 @@ Click **Enter the Bucket**, select **Space Setting**, **Add Customized Permissio
 ![权限设置1](../../../../../../image/RDS/Grant-File-Privilege-1.png)
 
 3. Set permission
-- Select **Customized User**, add user ID: **785455908940**
+- Select **Customized User**, add user ID: **785455908940**. <font color=red> Note: The ID, 785455908940, is a background system ID, which cannot be modified </font>
 - Check **"GetObject"** and **"ListBucket"** for Operations
 - Keep others unchanged
 - Click **OK** to save settings

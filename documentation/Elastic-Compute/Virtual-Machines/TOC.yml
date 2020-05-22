@@ -151,6 +151,18 @@ items:
             href: Operation-Guide/Image/Cancel-Share-Image.md
           - name: Delete Private Image
             href: Operation-Guide/Image/Delete-Private-Image.md
+      - name: Instance Voucher
+        items:
+          - name: Instance Voucher Overview
+            href: Operation-Guide/Instance-Voucher/Instancevoucher-Overview.md
+          - name: Price and Billing Rules
+            href: Operation-Guide/Instance-Voucher/Price-and-Billing-Rules-of-Instancevoucher.md
+          - name: Purchase Instance Voucher
+            href: Operation-Guide/Instance-Voucher/Purchase-Instancevoucher.md
+          - name: Manage Instance Voucher
+            href: Operation-Guide/Instance-Voucher/Manage-Instancevoucher.md
+          - name: View Deduction Detailed Statement
+            href: Operation-Guide/Instance-Voucher/Check-Usage-of-Instancevoucher.md            
       - name: Storage
         items:
           - name: Storage Overview
