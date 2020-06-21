@@ -1,0 +1,90 @@
+Automatic Image Policy
+Automatic Image Policy Help Documentation
+Please select search type
+Policy Id
+Policy Name
+Please enter the Policy ID for precise search
+Please enter the Policy name for fuzzy search
+Associate the number of instance
+Policy Details
+Policy Status
+Backup Interval
+Backup Start Time
+Last Backup Time
+Next Backup Time
+Image Associated Disk
+Policy Creation Time
+Policy Modification Time
+Number of Associated Instance
+Policy Log
+No Image Policy Data
+Modify Policy
+Associated Resource
+Disabling Policy
+Enabling Policy
+Cross-regional Policy Reproduction
+Delete Policy
+Enable
+Disable
+From XXX on, back up the Policy every XXX
+Associated Instance
+XX instances have been associated with the current policy. After the Policy is deleted, such instances cannot create automatic images according to this policy.
+In the case that the current policy is creating images, the deletion of this policy will not affect the result of image creation.
+Confirm to delete the Policy
+Modify the Automatic Image Policy
+Create the Automatic Image Policy
+Automatic image is not enabled for the local system disk instance, so the Automatic Image Policy cannot be associated.
+Snapshot is unnavigable in the local disk, so the generated image excludes the local disk in the instance.
+The generated automatic image will occupy your image quota and snapshot quota. When either quota is exceeded, the automatic image will not be created.
+Backup Start Time
+The image will be created 30min after the specified start time
+The backup interval should be no less than 12 hours and no longer than 365 days
+All Disks in the Instance
+Specified Disk
+If the specified disk exceeds the disk mounted by the instance, the generated image will not contain the excess disk.
+After the Policy is created, the enabled policy will create image regularly, and the disabled policy cannot create image.
+Policy Log
+New Log Creation Service
+Log Set
+Please select log set for the log to be delivered
+Log Subject
+Please select the subject of log to be delivered
+Last Executive Time
+Next Executive Time
+Every
+Day
+Week
+Hour
+Second
+Minute
+Hour
+Cross-regional Policy Reproduction
+The name of the default copy of the Policy is the same as that of the source policy, and description will be automatically added to identify the policy source
+Address o Source Policy
+Source Policy Information
+Policy
+Dissociation
+Batch Dissociation
+XXX instances have been selected. Confirm to dissociate the source policy: Association of XXX
+
+Each instance can only be associated with an automatic image policy at one time. Operating on an instance that has been associated with a policy will disassociate it from the original policy.
+Local disk system disk cannot be associated with a policy.
+Please enter the search criteria
+Instance ID
+Instance Name
+Current Associated Policy
+XX instance(s) selected
+
+Automatic image is unavailable for the local system disk instance
+Dissociate
+New Policy
+Please select the Automatic Image Policy
+Current Automatic Image Policy has been deleted. Please change the image policy
+Automatic Image
+Each instance can only be associated with an automatic image policy at one time. Operating on an instance that has been associated with a policy will disassociate it from the original policy.
+Automatic image is unavailable for the local disk system disk instance, so the instance cannot be associated with the Automatic Image Policy.
+Selected Instance
+Remove
+Associated Policy
+Set Automatic Image
+The device name displayed on the console may be inconsistent with the actual device name in the instance. Please confirm that the device name you specified in the Automatic Image Policy contains the device to be backed up.
