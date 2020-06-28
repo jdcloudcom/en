@@ -19,4 +19,3 @@ Step 5: Locate the private IP that needs to be disassociated from the public net
 Step 6: Click Disassociate EIP to enter the Disassociate EIP popup.
 
 Step 7: Click OK to complete the disassociation of Elastic IP. Return to the Private IP management page to view the disassociation of Elastic IP.
-

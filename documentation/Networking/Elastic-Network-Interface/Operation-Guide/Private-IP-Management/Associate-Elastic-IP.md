@@ -25,4 +25,3 @@ Step 8: Click OK to complete the association of elastic IP and return to the pri
 ## Related References
 
 - [Use Restrictions](../../Introduction/Restrictions.md)
-

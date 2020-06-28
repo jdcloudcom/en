@@ -91,5 +91,7 @@
       href: Operation-Guide/Cloud-Disk-Snapshot/Recover-CloudDisk.md
     - name: Delete Snapshot
       href: Operation-Guide/Cloud-Disk-Snapshot/Deletion-Snapshot.md
+    - name: Customized Snapshot Policy
+      href: Operation-Guide/Cloud-Disk-Snapshot/SnapshotPolicy.md
   - name: FAQ
     href: FAQ/FAQ.md

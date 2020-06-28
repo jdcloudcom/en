@@ -17,9 +17,6 @@ items:
     - name: Specifications
       href: 
       status: 0
-    - name: Restrictions
-      href: 
-      status: 0
     - name: Application Scenarios
       href: Introduction/Application-Scenarios.md
 - name: Pricing

@@ -380,7 +380,7 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td></td>
    </tr>
    <tr>
-      <td rowspan="30">Compute Optimized</td>
+      <td rowspan="35">Compute Optimized</td>
       <td rowspan="3">Shared</td>
       <td>c.s2.large</td>
       <td>2</td>
@@ -410,8 +410,59 @@ The price of JD Cloud & AI's VM instance mainly includes: instance price (vCPU a
       <td>1.65</td>
       <td>--</td>
       <td></td>
+  <tr>
+      <td rowspan="5">Intensive</td>
+      <td>c.c2.large</td>
+      <td>2</td>
+      <td>2</td>
+      <td>170</td>
+      <td>127.5</td>
+      <td>0.59</td>
+      <td>0.44</td>
+      <td></td>
    </tr>
-      <td rowspan="3">Standard</td>
+   <tr>
+      <td>c.c2.xlarge</td>
+      <td>4</td>
+      <td>4</td>
+      <td>340</td>
+      <td>255</td>
+      <td>1.18</td>
+      <td>0.89</td>
+      <td></td>
+   </tr>
+    <tr>
+      <td>c.c2.2xlarge</td>
+      <td>8</td>
+      <td>8</td>
+      <td>680</td>
+      <td>510</td>
+      <td>2.36</td>
+      <td>1.77</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.c2.3xlarge</td>
+      <td>12</td>
+      <td>12</td>
+      <td>1020</td>
+      <td>765</td>
+      <td>3.54</td>
+      <td>2.66</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.c2.4xlarge</td>
+      <td>16</td>
+      <td>16</td>
+      <td>1360</td>
+      <td>1020</td>
+      <td>4.72</td>
+      <td>3.54</td>
+      <td></td>
+   </tr>
+</tr>
+      <td rowspan="27">Standard</td>
       <td>c.n3.large</td>
       <td>2</td>
       <td>4</td>
@@ -1408,6 +1459,7 @@ Please note:
 * The standard * indicates that the Virtual Machines is not supported by this instance type, and you are not allowed to adjust the current Virtual Machines to this instance type, but it does not affect the use of your existing Virtual Machines;
 * High-frequency Computing type is currently only available in cn-north-1, cn-south-1 and cn-east-2.
 * Currently, GPU VirtualizationType is only under open inviting test in cn-north-1.
+* Currently, GPU Virtualization Type is only under open inviting test in cn-north-1.
 
 ## Related Reference
 [Virtual Machines Price Calculator](https://www.jdcloud.com/calculator/calHost)

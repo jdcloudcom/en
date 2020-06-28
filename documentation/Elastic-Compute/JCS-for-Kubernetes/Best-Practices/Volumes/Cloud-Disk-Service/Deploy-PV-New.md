@@ -95,7 +95,7 @@ spec:
   volumes:
     - name: test-csi
       persistentVolumeClaim:
-        claimName: static-csi-pvc
+        claimName: pv-static-pvc
   containers:
     - name: busybox-static
       image: busybox

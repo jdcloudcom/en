@@ -29,12 +29,8 @@
 
 	Virtual Machines System Disk: Support local disk and cloud disk, where the local disk has 40GB for free, and the capacity cannot be changed. The cloud disk supports 40GB~500GB.
 
-	Virtual Machines Data Disk: If the system disk is a local disk, it supports attaching 8 data disks. If the system disk is a cloud disk, it supports attaching 7 data disks. The data disk can be Premium Hdd cloud disk and SSD cloud disk. After the cloud disk is attached to the Virtual Machines, it requires login the virtual machine operating system to mount the cloud disk.
-
-		Premium Hdd Cloud Disk as Data Disk: Support range 20G~3000G
-
-		SSD Cloud Disk as Data Disk: Support range 20G~1000G
-
+	Virtual Machines Data Disk: If the system disk is a local disk, 8 data disks can be attached. If the system disk is a cloud disk, 7 data disks can be attached. The data disk options include General SSD Cloud Disk, Performance SSD Cloud Disk and Capacity HDD Cloud Disk. After the cloud disk is attached to a VM, it needs to access the Virtual Machines operating system to attach a cloud disk.
+	
 	You can create an empty data disk of the specified type and capacity with the instance, or you can create a data disk based on an existing cloud disk snapshot (the type of data disk created based on the snapshot does not support adjustment for the time being, and the capacity adjustment range is limited within the snapshot capacity). If the private image you choose contains preset data disk configuration information, then the data disk will be automatically configured according to the device mapping information in the image after selecting a private image. If you only want to use part of the default configuration of the image, you can also delete it (do not support replacing the snapshot on the default configuration, if you want to replace the snapshot, please select the snapshot after deleting the default configuration and adding a new disk separately). For the assignment rules of data disk device name, please refer to Assign Device Name(../Storage/Assign-Device-Name.md).
 
 8. Select Network: <br> Select **VPC** and **Subnet**. After selecting the subnet, you can determine the number of Virtual Machines that can be created under this subnet. If there is no subnet, a new subnet can be created through the quick access and selected in the **Virtual Machines Network**. Please refer to the VPC and subnet for details.        

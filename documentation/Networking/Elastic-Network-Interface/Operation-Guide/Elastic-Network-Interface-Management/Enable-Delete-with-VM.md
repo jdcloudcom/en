@@ -17,4 +17,3 @@ Step 4: Click Enable Deletion On Instance Termination to enter the popup of enab
 
 Step 5: Click OK on the popup of enabling of deletion on instance termination to complete enabling deletion on instance termination. Return to the ENI list page to view the enabling.
 
-

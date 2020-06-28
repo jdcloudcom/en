@@ -512,6 +512,20 @@ items:
    items:
       - name: General Questions
         href: FAQ/General-Problem.md
+      - name: Metering and Billing
+        href: FAQ/Billing.md
+      - name: Data Security
+        href: FAQ/Data-Security.md
+      - name: Upload/Download
+        href: FAQ/Uploads-and-Downloads.md
+      - name: Bucket Management
+        href: FAQ/Bucket-Management.md
+      - name: Object Management
+        href: FAQ/Object-Management.md
+      - name: Domain Name/Network
+        href: FAQ/Domain-Names-and-Network.md
+      - name: API/SDK
+        href: FAQ/API-SDK.md
  - name: User Agreements
    items:
      - name: Service Terms

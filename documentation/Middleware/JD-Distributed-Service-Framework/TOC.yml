@@ -55,6 +55,8 @@ items:
           herf: Operation-Guide/APP-Manage/Deploy-Group.md
         - name: Agent Installation
           href: Operation-Guide/APP-Manage/Install-Agent.md
+        - name: Load Balancer
+          href: Operation-Guide/APP-Manage/LoadBalance.md
     - name: Configuration Management
       herf: Operation-Guide/APP-Manage/Config-Manage.md
     - name: Service Administration

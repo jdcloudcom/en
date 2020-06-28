@@ -31,6 +31,10 @@ JD Distributed Service gateway service can serve as the backend service for API 
 
 The JD Distributed Service gateway can serve as the VPC agent, directly exposing any service which is deployed through the ip+ port in vpc to the public network via an API gateway, without direct exposure by Public IP and public network. For specific calling method, please refer to the example: [Use APIs in Open VPC of API Gateway](../../Getting-Started/GW_VPC.md)  
 
+
+Note: To use the JD Distributed Service Framework Gateway, you need to **Enable API Gateway in Advance**.
+
+
  
 ## Relationships Between Concepts
 
@@ -96,7 +100,7 @@ Next, operation processes in combination with API Gateway are specified as below
 
 Before introduction, it is believed by default that the following preparation is well made by users:
 
--  The user has enabled API Gateway and JD Distributed Service Framework.
+-  The user **has enabled API Gateway** and JD Distributed Service Framework.
 
 -  The user has created registration center and deployed applications on JD Distributed Service Framework.
 

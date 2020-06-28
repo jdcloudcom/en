@@ -13,8 +13,8 @@ You can quickly create JDW instances through the JDW Console. This article intro
 
 2. On the "Instance List" page, click **Create** to enter the "Create Instance" page.
 
-   ![5](../../../image/RDS/createInstance-jdw.png)
-
+   
+    ![12](../../../image/instanceList.png)
    
 
 3. On the "Create Instance" page, select the billing type, with **Monthly Package** or **Pay By Configuration** optional.
@@ -33,9 +33,11 @@ You can quickly create JDW instances through the JDW Console. This article intro
 
    - Specification
 
-     Support selection of node specifications and node counts. The node is the data node of the JDW instance, that is, the Segment node.
-
-     - As for the node specification, support jdw.dc1.large (2vcpu /16G Mem /160G SSD), jdw.dc1.large (2vcpu /16G Mem /160G SSD) two specifications.
+     Support selection of database version, storage type, node specification, corresponding bucket and node count. The node is the data node of JDW instance, which is the Segment node.
+      
+     - Storage type: support local disk SSD currently.
+     - Node specification: support 4 core 16GB, 8 core 32GB, 16 core 64GB and 32 core 128GB.
+     - Bucket: different node specifications have different buckets, including 128GB, 256GB, 512GB and 1024GB.
      - As for node counts, support 2-16 nodes.
 
    - Network

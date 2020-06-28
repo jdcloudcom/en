@@ -15,4 +15,3 @@ Step 5: Locate the security group to be removed, and click Remove to enter the s
 
 Step 6: Click OK in the Remove Security Group popup to complete the removing of security group. Return to the security group management page to view the removing of security group.
 
-

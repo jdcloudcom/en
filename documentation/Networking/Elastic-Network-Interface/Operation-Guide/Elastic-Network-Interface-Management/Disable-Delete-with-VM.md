@@ -17,4 +17,3 @@ Step 4: Click Delete on Instance Termination Cancellation to enter the popup of 
 
 Step 5: Click OK in the popup of cancellation of deletion on instance termination to complete the cancellation of deletion on instance termination. Return to the ENI list page to view the cancellation.
 
-

@@ -40,7 +40,7 @@ volumeBindingMode: WaitForFirstConsumer
 2. reclaimPolicy: Persistent Volume, dynamically created by storage class, will specify the recycle policy in the field reclaimPolicy, being Delete or Retain. If reclaimPolicy is not designated when the storageClass object is created, Delete is the default value.
 
 3、parameters  
-  - type: Set the parameter value as ssd or premium-hdd, respectively corresponding to SSD Cloud Disk and Premium Hdd Cloud Disk of JD Cloud;
+  - type: Set the parameter value as hdd.std1 ssd.gp1 or ssd.io1, respectively corresponding to JD Cloud's Capacity HDD, General SSD and Performance SSD Cloud Disks;
   - fstype: Set the file system type, with the optional parameter values of xfs and ext4. If fstype is not specified, ext4 will be used as the file system type by default. For example: fstype=ext4;
   - volumeBindingMode: The optional parameters include WaitForFirstConsumer and Immediate, with the default value of Immediate.
 

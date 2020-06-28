@@ -26,4 +26,3 @@ Step 6: Execute the following command to configure the secondary IP of ENI.
 	# ifconfig [device name]:[secondary ip sequence number] [secondary ip] netmask [netmask] broadcast [broadcast ip]
 
 
-

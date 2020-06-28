@@ -17,6 +17,7 @@ Database version:
 - MongoDB 3.2 Version
 - MongoDB 3.4 Version
 - MongoDB 3.6 Version
+- MongoDB 4.0 Version
 
 Database configuration:
 

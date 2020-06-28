@@ -174,9 +174,14 @@ For details of instance voucher pricing and billing rules, refer to: [Price and 
 <div id="user-content-3"></div>
 
 ## Quota
-Instance Voucher of No Resource Reservation:<br>
-* Non-GPU Type: Single region cap 500 computing power (1 computing power = 1 core)<br>
-* GPU Type: Single region cap 100 computing power (1 computing power = 1 card)<br>
+Instance Voucher of No Resource Reservation: (No limit to voucher count)<br>
+* Non-GPU Type: (1 Computing Power = 1 Core)
+  * Virtual Machines: 500 Computing Power/Region<br>
+  * Native Container/POD: 500 Computing Power/Region<br>
+* GPU Type: (1 Computing Power = 1 Card)
+  * Virtual Machines: 100 Computing Power/Region<br>
+  * Native Container/POD: - (No GPU type is provided for Native Container/POD currently)<br>
+
 
 If you need to increase quota, please [Open Ticket](https://ticket.jdcloud.com/applyorder/submit).
 

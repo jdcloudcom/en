@@ -15,6 +15,8 @@ items:
     items:
     - name: Billing Overview
       href: Pricing/Billing-Overview.md
+    - name: Free Security Evaluation
+      href: Introduction/Security-Assessment.md
     - name: Purchase Process
       href: Pricing/Purchase-Process.md
   - name: Operation Guide
@@ -45,6 +47,8 @@ items:
       href: Operation-Guide/File-Monitoring.md     
     - name: Security Reports
       href: Operation-Guide/Security-Report.md    
+    - name: Multi-cloud Installation
+      href: Operation-Guide/MultiCloud-Install.md  
     - name: System Setting
       href: Operation-Guide/System-Setting.md        
   - name: FAQ

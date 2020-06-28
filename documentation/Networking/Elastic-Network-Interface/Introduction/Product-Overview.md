@@ -35,4 +35,3 @@ The primary features of JD Cloud & AI ENI are described as following:
 
 ## Pricing
 JD Cloud & AI ENI is a free service, and the Elastic IP associated to the ENI is charged independently. For more detailed information, click and view [Billing Instructions](../Pricing/Billing-Overview.md).
-

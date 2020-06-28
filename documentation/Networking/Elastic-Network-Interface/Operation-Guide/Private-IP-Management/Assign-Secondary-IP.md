@@ -26,4 +26,3 @@ Step 7: Click OK to complete the assignment of private IP. Return to the private
 ## Related References
 
 - [Use Restrictions](../../Introduction/Restrictions.md)
-

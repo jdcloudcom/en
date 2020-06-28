@@ -28,4 +28,3 @@ The ENI list page only displays secondary network interface operation. Please en
 |CPU: 4-8 cores	|4	|
 |CPU: more than 8 cores	|8	|
 
-

@@ -74,7 +74,7 @@ Basic Version
 
 | Specification Tier (QPS) |  Pay By Configuration (RMB/hour) | Monthly Package (RMB/month) |
 | :- | :- | :- |
-| 1-1500     | 1 | 511 |
+| 1-1500     | 1 | 515 |
 | 1501-3000   | 2 | 1022 |	
 
 

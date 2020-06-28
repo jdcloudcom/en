@@ -56,7 +56,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Public Network Bandwidth: If an instance needs to access the public network, users can check the association with elastic IP (which is automatically allocated by the system and cannot be modified by users) when creating an instance or purchase it after instance creation. The elastic IP can be associated and disassociated with the instance, (which is an elastic IP of secondary network interface after creation)<br/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mode of Billing by Bandwidth: It supports 3 billing methods, namely by fixed bandwidth - Monthly Package, by fixed bandwidth - Pay By Configuration and Add to Shared Bandwidth. (Note: Instances billed by configuration do not support association purchase with EIPs paid by fixed bandwidth-Monthly Package).</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mode of Billing by Bandwidth: It supports 3 billing methods, namely by fixed bandwidth - Monthly Package, by fixed bandwidth - Pay By Configuration and Add to Shared Bandwidth. (Note: Instances billed by configuration do not support association purchase with EIPs paid by fixed bandwidth-Monthly Package).<br/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ISP Line: Currently, the edge node supports single line and the launched node supports Telecom.<br/>
 
@@ -85,13 +85,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1. Custom Password: It is "Set Password Now", which can be modified after an instance is created;<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. Automatically Generated Password for Login: Set a password later and the system will send a default password by SMS and email; <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3. Key Pair Login: For Linux system, you can select SSH Key Pair for login. If you apply key pair for login, you must create or import a key pair first. Please refer to [SSH Key Pair](../Operation-Guide/SSH-Key-Pair/Step-SSH-Key-Pair.md). <br/>                                                                      
-- Advanced Configuration </br>   
+- Advanced Configuration <br/>   
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  **User Data**: It is used for configuring instances during start and is executed only when the instance system is started for the first time. Please refer to [User Data](../Operation-Guide/User-Data/User-Data-Overview.md).
 
-- Purchase</br>
+- Purchase<br/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  **Automatic Renewal**: The automatic renewal function can be enabled for monthly package resources. If automatic renewal is checked, the automatic renewal attribute and period can be modified after resources are created. In case of monthly package, the period to be automatically renewed is 1 month; for yearly package, the period to be automatically renewed is 1 year, and the automatic renewal discount will be provided for yearly automatic renewal.</br>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  **Automatic Renewal**: The automatic renewal function can be enabled for monthly package resources. If automatic renewal is checked, the automatic renewal attribute and period can be modified after resources are created. In case of monthly package, the period to be automatically renewed is 1 month; for yearly package, the period to be automatically renewed is 1 year, and the automatic renewal discount will be provided for yearly automatic renewal.<br/>  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  After all configurations, you need to confirm the instance purchase. The quantity is limited by IPs remaining in your Distributed Cloud Physical Server, Elastic IP and the selected subnet in this node. If lack of quota, you can [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) to increase quota.
 

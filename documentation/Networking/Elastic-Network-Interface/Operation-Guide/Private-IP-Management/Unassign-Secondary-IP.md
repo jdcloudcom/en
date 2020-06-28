@@ -17,4 +17,3 @@ Step 4: Select the private IP management tag and enter the private IP management
 Step 5: Locate the private IP that needs to be released, and click Release to enter the popup of releasing Private IP.
 
 Step 6: Click OK to complete the releasing of private IP. Return to the Private IP management page to view the releasing of Private IP.
-

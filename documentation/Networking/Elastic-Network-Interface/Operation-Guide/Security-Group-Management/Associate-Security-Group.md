@@ -20,4 +20,3 @@ Step 7: Click OK to complete the adding of security group. Return to the securit
 ## Related References
 
 - [Use Restrictions](../../Introduction/Restrictions.md)
-

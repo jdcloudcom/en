@@ -39,4 +39,3 @@ It is assumed that the IP address of eth1 is 10.0.2.3/24, and the gateway addres
 
 
 
-

@@ -35,6 +35,13 @@ Cloud Disk Service provides snapshot function to realize data backup at specifie
 
 3. Back up the Virtual Machines, and simultaneously create a snapshot for the cloud disk attached to the Virtual Machines; One or more virtual machines with the same configuration as the current Virtual Machines can be quickly reproduced based on Virtual Machines image and cloud disk snapshot, so as to realize quick bulk deployment of business.
 
+### Customized Snapshot Policy ###
+Users can use the customized snapshot policy feature to provide periodically automatic backup for cloud disk to increase guarantee of data security.
+
+A log is kept for execution results of periodical backup task. A notification reminder can be set, so that execution results will be sent to corresponding contacts by SMS and email at the end of each task.
+
+After backup, the cloud disk data will be retained in the form of snapshot. Users can customize the time of retaining snapshots. Each snapshot will be automatically deleted upon expiration.
+
 ### Elastic expansion ###
 
 Elastic expansion ensures that you may expand the capacity of Cloud Disk Service based on demands at any time

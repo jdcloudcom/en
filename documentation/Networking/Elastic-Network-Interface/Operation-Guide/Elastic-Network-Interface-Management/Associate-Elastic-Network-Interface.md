@@ -27,4 +27,3 @@ Step 7: Return to the ENI list page. Since it takes 3 to 5 seconds to associate 
 ## Related References
 
 - [Use Restrictions](../../Introduction/Restrictions.md)
-

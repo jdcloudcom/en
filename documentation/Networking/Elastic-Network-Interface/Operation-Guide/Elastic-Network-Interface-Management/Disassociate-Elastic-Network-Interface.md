@@ -16,4 +16,3 @@ Step 5: Click OK in the disassociation resource popup to complete the ENI disass
 
 Step 6: Return to the ENI list page. Since it takes 5 to 8 seconds for disassociating the ENI with the VM to take effect, refresh the ENI list page after completing the association for 5 to 8 seconds to view the association status of the ENI. Please do not repeat the disassociation during the effective period of the configuration to avoid exceptions and errors.
 
-

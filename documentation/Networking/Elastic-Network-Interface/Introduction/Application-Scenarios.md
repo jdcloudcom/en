@@ -18,4 +18,3 @@ JD Cloud & AI provides an ENI according to the region level, capable of setting 
 
 ![High reliability application solution](../../../../image/Networking/Elastic-Network-Interface/eni-003.png)
 
-

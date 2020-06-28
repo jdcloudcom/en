@@ -21,4 +21,3 @@ Step 5: Assign a specific number of private IP addresses to the ENI in the popup
 
 Step 6: After completing the above steps, click OK to return to the ENI list page to view the creation of the ENI.
 
-

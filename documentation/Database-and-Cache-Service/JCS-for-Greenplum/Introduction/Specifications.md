@@ -4,10 +4,13 @@ Data Warehouse JDW allows users to select the specification and count of Segment
 
 ## Segment Node Specification
 
-| Node Specification Code    | vCPU | Memory GB | Available Bucket GB | Total Bucket of Dual Replicas GB | Primary Segment Count | Node Count |
-| --------------- | ---- | ------ | -------------- | ------------------ | ------------------- | -------- |
-| jdw.dc1.large   | 2    | 16     | 160            | 320                | 1                   | 2-16      |
-| jdw.dc1.4xlarge | 16   | 128    | 1280           | 2560               | 4                   | 2-16      |
+| Node Specification Code    | CPU(Core) | Memory(GB) | Available Bucket (GB) | Total Bucket of Dual Replicas (GB) | Storage Type | Node Count |
+| --------------- | ---- | ------ | -------------- | ------------------ | -----    | -------- |
+| jdw.dx2.large   | 4    | 16     | 128            | 256                |Local Disk SSD | 2-16      |
+| jdw.dx2.xlarge  | 8    | 32     | 256            | 512                |Local Disk SSD | 2-16      |
+| jdw.dx2.2xlarge | 16   | 64     | 512            | 1024               |Local Disk SSD | 2-16      |
+| jdw.dx2.4xlarge | 32   | 128    | 1024           | 2048               | Local Disk SSD| 2-16      |
+
 
 **Description:**
 

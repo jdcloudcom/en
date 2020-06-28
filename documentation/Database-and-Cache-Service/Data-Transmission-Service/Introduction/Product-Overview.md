@@ -16,7 +16,7 @@ Data transmission DTS is the database migration service provided by JD Cloud & A
 - MariaDB：10.2
 - SQL Server Enterprise Version: 2008R2, 2012, 2014, 2016 and 2017
 - PostgreSQL (in Beta): 9.4, 9.6, 10.5, 10.6, 10.7, 10.8, 10.9, 11.2, 11.3 and 11.4
-- MongoDB：3.2、3.4、3.6
+- MongoDB：3.2, 3.4, 3.6, 4.0
 
 **Supported Region**
 

@@ -37,4 +37,3 @@ Step 8: Execute the following command to restart the network service so that the
 
 	# service network restart
 
-
