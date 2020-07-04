@@ -14,13 +14,23 @@ The tag function can help users identify instances for the convenience of managi
 
 ### Features
 
-##### Support Tag Filter
+#### Support Tag Filter
 
 1. Access the Distributed Cloud Physical Server Console, go to the instance list page, and click **Tag icon**. Support entering Key-Value to conduct fuzzy search;<br/>
 2. Check a Key, indicating that instances associated with this Key (there may be multiple Values) need to be filtered. Check a Key-Value, indicating that instances associated with this key-value pair (Key-Value) need to be filtered. It is logic and relationship between different keys, and logic or relationship between different values of the same key.<br/>
 3. Click **Filter** to filter instances according to what you have checked.
 
-##### Edit Tag
+#### Edit Tag
+
+##### Associate Tag for Instance to be Created
+
+1. Access the Distributed Cloud Physical Server Console and log in the Instance List page.<br/>
+2. Select the node at which your instance is to be created, click **Create**, log in the Instance Purchase page, and click **+Add** in "Tag" in "Advanced Configuration" to add a tag for your instance.<br/>
+3. Add the corresponding information in the newly added "Tag Key" and "Tag Value" input boxes for adding a tag or select a corresponding tag from existing tags by directly dropping down the tags or from tags after fuzzy matching based on your input. If label parameters are invalid, please modify correspondingly according to the prompt below the tag boxes.<br/>
+4. After completing information in "Tag" part, click **Buy Now** to create resources. After creation, you can view the association relationship between the tag and the resources via the Instance List page/Details, or click **Tag Filter** on the top of the Instance List to filter instances.<br/>
+Note: When adding Tag Key-Value, please trigger your operations by pressing Enter or selecting with mouse after you manually enter new contents to ensure that the contents can be saved and displayed in the current input box.
+
+##### Edit Tag after Instance is Created
 
 Precondition: Instance status is "Running" or "Stopped".<br/>
 1. Access the Distributed Cloud Physical Server Console, log in the Instance List Page, and click **Operation** - **More** - **Edit Tag**, or click **Instance Name** to log in the details, and then click **Operation** - **More** - **Edit Tag**.<br/>

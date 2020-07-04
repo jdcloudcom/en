@@ -1,13 +1,15 @@
 # View bandwidth traffic
 
-Open the Console, select **Hyper-Converged IDC** -> **Edge Physical Computing Service** -> **Resource Monitoring** -> **Bandwidth (Exit) Traffic** to view the list information of bandwidth (exit) traffic, as shown in the following figure:</br>
-Click **Edge Node** on the top. The edges can be switched over to view the bandwidth (exit) traffic of different nodes.
-![带宽流量监控列表](https://github.com/jdcloudcom/cn/blob/cn-edge-physical-computing-service/documentation/Hyper-Converged-IDC/Edge-Physical-Computing-Service/Image/EPCSBT001.png)
+Open the Console, select Edge Physical Computing Service->Resource Monitoring->Bandwidth (Outlet) Traffic, and view the information of the bandwidth traffic monitoring list.</br>
 
-# View the resource information of bandwidth (exit) traffic
-Click **Bandwidth (Exit) Name** to view the resource information of bandwidth (exit), as shown in the following picture:
-![带宽流量资源信息](https://github.com/jdcloudcom/cn/blob/cn-edge-physical-computing-service/documentation/Hyper-Converged-IDC/Edge-Physical-Computing-Service/Image/EPCSBT002.png)
+Click **Edge Node** on the top to switch nodes and view the bandwidth traffic at different nodes. The bandwidth (outlet) traffic list includes: bandwidth (outlet) name, total upstream real-time traffic, total downstream real-time traffic, operations, etc.
 
-# View the monitoring information of bandwidth (exit) traffic
-Click **Monitoring Graph** in the list, redirect to the monitoring details of bandwidth (exit) traffic, and view the historic traffic information of bandwidth (exit). Customized time search is supported, shown as follows:
-![带宽流量监控信息](https://github.com/jdcloudcom/cn/blob/cn-edge-physical-computing-service/documentation/Hyper-Converged-IDC/Edge-Physical-Computing-Service/Image/EPCSBT003.png)
+# View the details of bandwidth traffic
+Click **Bandwidth (Outlet) Name** to redirect to the details of the bandwidth (outlet) traffic displaying 3 parts including resource information, monitoring information and alarm rules, which can be switched and viewed through top navigation bar on the details of the bandwidth (outlet) traffic.</br>
+
+
+1. Click **Resource Information** to view the current bandwidth resource information, including basic information, interchanger information, and associated public IP.</br>
+
+2. Click **Monitoring Information/Monitoring Graph in Action Bar** to redirect to the details of bandwidth traffic monitoring displaying the current bandwidth traffic trend chart, and view the historic traffic information of the bandwidth by customized time search.</br>
+
+3. Click **Alarm Rules/Alarm Rules in Action Bar** to redirect to the details of the bandwidth traffic alarm rules, view the bandwidth alarm rule information including the rule name, interchanger IP & port number, alarm conditions, notification duration, notification object rule, status.

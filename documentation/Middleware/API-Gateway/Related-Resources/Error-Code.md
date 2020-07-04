@@ -14,8 +14,8 @@ Http Status Code|Error Code|Error Information|Semantics|Solutions
 401|ACCESS_ERROR|lack of header x-jdcloud-date|x-jdcloud-date information is missing from header|Use sdk access service provided by service provider
 401|ACCESS_ERROR|lack of header signedHeaders|signedHeaders information is missing from header|Use sdk access service provided by service provider
 401|ACCESS_ERROR|sign result is not same|Inconsistent client signature and gateway signature|Check if calling data is modified and confirm if ak and sk completed are correct
-403|HTTP_FORBIDDEN|Your IP address is not allowed|The current client ip does not allow access service|Contact the service provider for ip permission configuration
-403|HTTP_FORBIDDEN|api is disabled|api is unavailable|The api group is deleted and please contact the service provider to recover it
+403|HTTP_FORBIDDEN|Your IP address is not allowed|The current client IP does not allow access service|Contact the service provider for ip permission configuration
+403|HTTP_FORBIDDEN|api is disabled|API is unavailable|The API group is deleted and please contact the service provider to recover it
 404|NOT_FOUND|no route and no API found with those values|api and routing cannot be found|This group is not released and please confirm the domain is correctly used or contact the service provider
 413|HTTP_REQUEST_ENTITY_TOO_LARGE|Payload too large|Too large request body|Request body time-out restriction, request body size is limited to be 100m now
 414|HTTP_URI_TOO_LONG|URI too long|Too long request url|Request url is beyond the limit and the current limit is 8k

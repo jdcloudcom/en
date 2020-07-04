@@ -1,8 +1,10 @@
 # Cancel Access
 
+###### Access cancellation: Your license information is canceled from the license system of JD Cloud & AI, which will not cancel your entity license number. After the access cancellation, if you continue to use the server of JD Cloud & AI access provider, your website will be blocked. If you no longer use the server of JD Cloud & AI access provider, such problem will not occur. In addition, please assess your license information to the server access provider’s license system you are using as soon as possible. If your license information isn’t assessed to the corresponding access provider, according to the relevant laws and regulations, the relevant department may cancel your license number.
+
 ## I. Log in to the License System
 
-1. Log in the official website of JD Cloud & AI [www.jcloud.com](http://www.jcloud.com) and click **License** at the upper right
+1. Log in the official website of JD Cloud & AI [www.jdcloud.com](https://www.jdcloud.com) and click **License** at the upper right
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-2020042801/image/ICP-License-Service/Cancel-Access-cn-1.png)
 

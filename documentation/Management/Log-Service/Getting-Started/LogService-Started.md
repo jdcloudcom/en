@@ -37,14 +37,35 @@ The log service usage process is as follows:
 
 ![完成页面](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/GettingStarted/completed.png)
 
-**Retrieval Log**
-1. 	Select the log subject to be viewed in the log subject list, click **Retrieve**, or switch to **Log Retrieval** module in the left menu to select the log collection and log subject to be queried.  
+**Log Retrieval**
+1.	Select the log subject to be viewed from the log subject list and click the **Log Retrieval** sub-menu.
 
-![检索-1](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/js-1.png)
-2. 	Enter the query content in the full-text input box and click **Retrieve** to query the log information that meets the conditions.  
+2.	Enter keywords for retrieval in the full text retrieval input box and click the **Retrieval** button. Then, you can search satisfactory log information. 
 
-![检索-2](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/js-2.jpg)
-3. 	Switch to the key value index, set the log type Key, retrieval conditions and retrieval values, click the Retrieve button to query the log information that meets the conditions.  
+![全文检索](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogSearch/logsearch01.jpg)
 
-![检索-3](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/js-3.png)
+3.	Switch to the **Key Value Retrieval**, set log type Key, retrieval condition and retrieval value and click the **Retrieve** button. Then, you can search satisfactory log information.  
+
+![键值检索](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogSearch/logsearch02.jpg)
+
+**Log Dump**
+1. Select a log subject to be dumped from the log subject list, click **Log Dump** on the sub-menu, click **Add** or click **Create Dump Task** on the "Dump Task List" Page.
+
+![日志转储](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/createLogTransfer01.jpg)
+
+2. Fill in dump task configuration items according to business demands.
+
+![创建转储任务](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/createLogTransfer02.jpg)
+
+**Log Monitoring**
+1. Select a log subject to be monitored from a log subject list, click **Log Monitoring** in the menu and click **Add** or click **Create Monitoring Task** on the "Monitoring Task List" Page.
+
+![日志监控](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogMonitor/logmonitor-1.jpg)
+
+2. Fill in monitoring configuration items according to business demands.
+
+![创建监控任务](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogMonitor/logmonitor-2.jpg)
+
+
+
 

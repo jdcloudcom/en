@@ -1,8 +1,10 @@
 # Website Cancellation
 
+###### Website cancellation: It refers to the cancellation of the website license number. The cancellation of the website license number will not affect the license number of your entity and other website license numbers that have not applied for cancellation. Only the website license number you currently select shall be canceled. According to the relevant laws and regulations, the website without license number cannot be opened for access.
+
 ## I. Log in to the License System
 
-1. Log in the official website of JD Cloud & AI [www.jcloud.com](http://www.jcloud.com) and click **License** at the upper right
+1. Log in the official website of JD Cloud & AI [www.jdcloud.com](https://www.jdcloud.com) and click **License** at the upper right
 
 ![img](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-2020042801/image/ICP-License-Service/Website-Cancellation-cn-1.png)
 

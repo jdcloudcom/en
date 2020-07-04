@@ -41,6 +41,10 @@ The JD Cloud OSS compatible AWS S3 APIs and the description are as follows:
 |Get Bucket tagging|Get Bucket tagging|Compatible: [Get Bucket tagging](./Operations-On-Bucket/Get-Bucket-Tagging.md)|[Get Bucket tagging](https://docs.aws.amazon.com/zh_cn/AmazonS3/latest/API/RESTBucketGETtagging.html)|
 |Put Bucket accelerate|Set Bucket transmission acceleration configuration|Compatible: [Put Bucket accelerate](./Operations-On-Bucket/PUT-Bucket-accelerate.md)|[Put Bucket accelerate](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTaccelerate.html)|
 |Get Bucket accelerate|Obtain Bucket transmission acceleration configuration|Compatible: [Get Bucket accelerate](./Operations-On-Bucket/GET-Bucket-accelerate.md)|[Get Bucket accelerate](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketGETaccelerate.html)|
+|Delete Bucket InventoryConfiguration|Delete inventory tasks assigned in bucket|Compatible with: [Delete Bucket InventoryConfiguration](./Operations-On-Bucket/Delete-Bucket-InventoryConfiguration.md)|[Delete Bucket InventoryConfiguration](https://docs.aws.amazon.com/AmazonS3/latest/API/API_DeleteBucketInventoryConfiguration.html)|
+|Get Bucket InventoryConfiguration|Search user inventory task information in bucket|Compatible with: [Get Bucket InventoryConfiguration](./Operations-On-Bucket/Get-Bucket-InventoryConfiguration.md)|[Get Bucket InventoryConfiguration](https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetBucketInventoryConfiguration.html)|
+|List Bucket InventoryConfigurations|Request to return all inventory tasks in one bucket|Compatible with: [List Bucket InventoryConfigurations](./Operations-On-Bucket/List-Bucket-InventoryConfigurations.md)|[List Bucket InventoryConfigurations](https://docs.aws.amazon.com/AmazonS3/latest/API/API_ListBucketInventoryConfigurations.html)|
+|Put Bucket InventoryConfiguration|Create inventory task in bucket|Compatible with: [Put Bucket InventoryConfiguration](./Operations-On-Bucket/Put-Bucket-InventoryConfiguration.md)|[Put Bucket InventoryConfiguration](https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutBucketInventoryConfiguration.html)|
 
 # About Object Operation 
 

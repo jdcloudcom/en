@@ -15,13 +15,4 @@ The length of quick retrieval value | The value can support up to 50 characters 
 Advanced retrieval condition length | Supports up to 1000 characters
 Advanced retrieval field restriction | Advanced retrieval supports up to 30 retrieval fields
 "=" condition | Support to enter up to 20 values
-"! =" condition | Support to enter up to 20 values
-
-## Log Service Quota
-
-Restricted Item | Quota Restriction
----|---
-Number of log collections in a single region | 20
-Number of log subjects under a single log collection | 20  
-
-Description: If the quota is not enough, you can open ticket to apply for quota expansion.
+"!=" condition | Support to enter up to 20 values

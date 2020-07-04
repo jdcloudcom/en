@@ -5,9 +5,9 @@ An instance is the smallest unit for the computing services provided by JD Cloud
 The following is the information on the instance type family currently sold on JD Cloud & AI. The instance type families and instance types of the saleable instances in different regions are not identical, please refer to the information shown on the instance creation page. The specific Instance Type specifications can be classified according to different application scenarios:
 
 * General: General Shared Type(instance-type-family#user-content-1), General Standard Type(instance-type-family#user-content-2)
-* Compute-Optimized Standard type: [Compute Optimized Shared Type](instance-type-family#user-content-9), [Compute Optimized Standard Type](instance-type-family#user-content-3)
+* Compute-Optimized Standard type: [Compute Optimized Shared Type](instance-type-family#user-content-9), [Compute Optimized Shared Type](instance-type-family#user-content-11), [Compute Optimized Standard Type](instance-type-family#user-content-3)
 * Memory-Optimized type: Memory Optimized Standard Type(instance-type-family#user-content-4)
-* High-frequency compute type: High-frequency compute optimization type: High-frequency calculation optimization type(instance-type-family#user-content-5)
+* High-frequency compute type: [High-Frequency-Compute General](instance-type-family#user-content-5)
 * Storage Optimization type: [Storage Optimization IO type](instance-type-family#user-content-7), [Storage Optimization Big Data type](instance-type-family#user-content-8),
 * GPU Type: [GPU Standard Type](instance-type-family#user-content-6), [GPU Virtualization Type](instance-type-family#user-content-10)
 
@@ -148,6 +148,39 @@ Instance Type|vCPU (Core)|Memory (GB)|Network Interface Multi-queue
 |c.s2.large|2|4|2
 |c.s2.xlarge|4|8|4
 |c.s2.2xlarge|8|16|4
+
+### Compute Optimized Shared Type
+<div id="user-content-11"></div>
+
+**Characteristics of Specification and Type:**
+
+* vCPU to memory ratio is about 1:1
+* Processor:
+	* Generation III: Intel Xeon Gold 6267 (Cascade Lake) processor with 2.6 GHz dominant frequency
+	* Generation II: Intel Xeon Gold 6148 (Skylake) processor with 2.4 GHz dominant frequency and Intel Xeon Gold 6267 (Cascade Lake) processor with 2.6 GHz dominant frequency  
+	* Generation I: Intel Xeon E5-2683 v4 (Broadwell) processor with 2.1 GHz dominant frequency
+* Support the following types of Cloud Disk Services:
+	* General SSD Cloud Disk
+	* Performance SSD Cloud Disk
+	* Capacity HDD Cloud Disk
+* Applicable Scenarios:
+	* Batch processing work load
+	* Web frontend server
+	* Frontend for large MMO
+	* Data analysis, batch computing, video coding
+	* High performance science and engineering applications
+
+**Instance Type**
+
+Generation II
+
+Instance Type|vCPU(Core)|Memory(GB)|Multi-queue Network Interface
+:---|:---|:---|:---
+|c.c2.large|2|2|2
+|c.c2.xlarge|4|4|4
+|c.c2.2xlarge|8|8|4
+|c.c2.3xlarge|12|12|4
+|c.c2.4xlarge|16|16|4
 
 ### Compute-Optimized Standard
 <div id="user-content-3"></div>
@@ -508,6 +541,9 @@ Instance Type|vCPU (core)|Memory (GB) |GPU|Video Memory (GB) |Multi-queue Networ
 
 Please note:
 
+* Any specification marked with * means that new Virtual Machines cannot be created with this specification, and you cannot adjust your current Virtual Machines to this specification, but the use of your existing Virtual Machines with this specification will not be affected;
+* Compute optimized shared type is available only in cn-east-2 region at present;
+* High frequency compute is available only in cn-north-1, cn-south-1, and cn-east-2 regions at present;
 * GPU Virtualization Type is currently under inviting test in partial availability zones in cn-north-1 and cn-east-2;
 * Generation I General Type, Compute Optimized Type and Memory Optimized Type Virtual Machines may also be run on Intel Xeon E5-2698 v3 (Haswell) processor with 2.3 GHz dominant frequency;
 * After purchasing an instance, you can modify the configuration of the instance according to the change of business scale. For details, please refer to [Resize](../Operation-Guide/Instance/Resize-Instance.md).

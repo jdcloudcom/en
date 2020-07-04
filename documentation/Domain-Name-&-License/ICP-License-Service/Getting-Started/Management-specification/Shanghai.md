@@ -19,6 +19,8 @@
    ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
    ⑤ Authorization Letter of Legal Person (**this should be provided when website's responsible person is not the legal person** [ Authorization Letter of Shanghai.docx](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/shanghai/shanghaishouquanshu.docx))
+  
+   ⑥ Undertaking for Filing of Internet Information Service in Shanghai ([Undertaking for Filing of Internet Information Service in Shanghai (Version 2020) .docx](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/wendangxiazhai/shanghaifuwuchengnuoshu/fuwuchengnuoshu.docx))
 
 **Rules of Personal Filing in Shanghai**
 

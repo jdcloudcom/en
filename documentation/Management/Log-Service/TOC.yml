@@ -70,7 +70,7 @@ items:
         - name: Key Value Retrieval
           href: Operation-Guide/LogSearch/KVSearch.md
     - name: Log Dump
-      href: Operation-Guide/LogTransfer.md
+      href: Operation-Guide/LogTransfer/TransferConfig.md
     - name: Log Monitoring
       items:
         - name: Log Monitoring Configuration
@@ -80,9 +80,9 @@ items:
     - name: Log Collection - Application Security Gateway Log Collection
       href: Best-Practices/Practice-waf.md
     - name: Log Dump Configuration - ALB Access Log Dump
-      href: Operation-Guide/LogTransfer/EasyCase.md
+      href: Best-Practices/Besttransfer.md
     - name: Log Monitoring Configuration - Business Application Log Monitoring
-      href: Operation-Guide/LogMonitor/BestMonitor.md
+      href: Best-Practices/Bestmonitor.md
 - name: FAQ
   href: FAQ/FAQ.md
 - name: Document History Records

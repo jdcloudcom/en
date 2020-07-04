@@ -7,7 +7,7 @@ Collect logs of Application Security Gateway through the Log Service, and perfor
 #### Configuration Process
 1. Log in to the Console, and click **Cloud Service** -> **Monitoring, Operation and Maintenance** -> **Log Service** to enter the Log Overview Page. Click **Create Log Configuration**.
 
-![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/bestpractice/BPwaf.png)
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/bestpractice/bestcollect01.jpg)
 
 2. Select the existing log set log subject as required, or create a new log set log subject.
 

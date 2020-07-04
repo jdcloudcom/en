@@ -1,4 +1,6 @@
-# New Access (with entity)
+# New Access (JD with entity)
+
+###### New access (JD with entity): If an entity has been licensed on JD Cloud & AI, but its domain has been licensed through some other service provider, the license is to change or add an access provider.
 
 ## I. Log in License System
 

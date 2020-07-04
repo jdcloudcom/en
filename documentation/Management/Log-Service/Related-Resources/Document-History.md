@@ -15,3 +15,4 @@ This document describes the important update history of the Log Service Document
 |October 23, 2019|Create Log Monitoring Function|The user can set up field monitoring and add alarm rules to the collected log data|
 |March 2020|Support delivering business application logs to multiple destinations|Users can deliver business application logs to JCS for Elasticsearch or Kafka|
 |April 22, 2020|Product Optimization|Simplify the process for users to create log configuration|
+|May 25, 2020|Product Optimization|Console Revision Documentation Update|

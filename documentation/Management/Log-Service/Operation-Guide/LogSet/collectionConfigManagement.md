@@ -1,29 +1,14 @@
-## Collection Configuration Management
-### View Collection Instance
+## Log Configuration Management
+### View Log Configuration
 **Precondition Description**
-- Collection configuration has been added under the log subject
+- Log sources added under log subjects
 
 **Operation Steps**
 1.	 Log in JD Cloud console.
-2. 	Click the navigation bar on the left side, select **Management->Log Service->Log Collection Management** to enter the log collection management page.
-3. 	Select the log subject to be viewed, click the log subject name or **Collection Configuration** under the Management button to enter the collection configuration page of the log subject, and you can view the collection instance information configured by the log subject.
-4. 	If the current log subject is configured to collect all instances, the page will be displayed as follows:
+2.	Click on the left navigation bar, select **Management->Log Service->Log Set Management** to enter the overview interface.
+3.	Select the log set of the log subjects to be viewed and enter the Log Subject List Page.
+4.	Click the log subject to be viewed, select **Log Configuration Details** in the menu and view log configuration details. The Log Configuration Detail Page comprises the configuration information of log sets and log subjects as well as log source configuration information.
+5.	Basic information such as region, description, name, ID and saving time can be viewed in the log set and log subject configuration information; Basic information, collection instance and other information of log sources can be viewed in the log source configuration information.
 
-![](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/LogSetManagement/collectAll.png)
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogSetManagement/logtopicdetails.jpg)
 
-5. 	If the current log subject only collects partial instances, the page will be displayed as follows:
-
-![](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/LogSetManagement/addCollectionConfig.png)
-
-### Modify Collection Instance
-**Modified to Select Partial Instances**  
-When the log subject is configured to collect all instances, it is supported to be modified to select partial instances.
-1. 	Click **Modify** on the collection configuration page to enter the collection instance modification page. 
-2. 	Switch to **Add Partial Instances**, select the instance you want to add, and click **OK**.
-
-![](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/LogSetManagement/editColletcionConfig.png)
-
-**Partial Instance Management**  
-If it is currently configured to collect partial instances, it is supported to remove the added instances and add new instances.
-1. 	On the Instance List page, select the instance you want to remove, click **Remove**, or select multiple instances, and click the batch **Remove**.
-2. 	Click **Add Collection Instance** to enter the adding partial instances page. Support adding new collection instances, as well as modifying to collect "All Instances".

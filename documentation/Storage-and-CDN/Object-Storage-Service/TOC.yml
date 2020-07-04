@@ -89,10 +89,14 @@ items:
              href: Operation-Guide/Manage-Bucket/edgeStorage.md
            - name: Life Cycle Management
              href: Operation-Guide/Manage-Bucket/Lifecycle.md
+           - name: Access Log
+             href: Operation-Guide/Manage-Bucket/Bucket-Logging.md
            - name: Tag Management
              href: Operation-Guide/Manage-Bucket/Bucket-Tagging.md
            - name: Transmission Acceleration
              href: Operation-Guide/Manage-Bucket/Transfer-Acceleration.md
+           - name: Inventory Setting
+             href: Operation-Guide/Manage-Bucket/Inventory-Configuration.md
       - name: File Management
         items:
           - name: Create Folder
@@ -239,6 +243,8 @@ items:
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Website-2.md
                - name: Delete Bucket lifecycle
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-Lifecycle.md
+               - name: Delete Bucket InventoryConfiguration
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Delete-Bucket-InventoryConfiguration.md                 
                - name: GET Bucket acl
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/GET-Bucket-Acl-2.md
                - name: GET Bucket notification
@@ -263,10 +269,14 @@ items:
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-Tagging.md
                - name: Get Bucket accelerate
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/GET-Bucket-accelerate.md
+               - name: Get Bucket InventoryConfiguration
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Get-Bucket-InventoryConfiguration.md
                - name: Head Bucket
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Head-Bucket-2.md
                - name: List Multipart Uploads
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/List-Multipart-Uploads-2.md
+               - name: List Bucket InventoryConfigurations
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/List-Bucket-InventoryConfigurations.md
                - name: PUT Bucket notification
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/PUT-Bucket-Notification-2.md
                - name: Put Bucket
@@ -291,7 +301,8 @@ items:
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-Tagging.md 
                - name: Put Bucket accelerate
                  href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/PUT-Bucket-accelerate.md
-                 
+               - name: Put Bucket InventoryConfiguration
+                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/Put-Bucket-InventoryConfiguration.md
            - name: About Object Operation
              items:
               - name: Abort Multipart Upload
@@ -502,8 +513,6 @@ items:
         href: Best-Practices/Manage-OSS-With-s3browser.md
       - name: Set Signature Authentication For Callback Server
         href: Best-Practices/Setting-Signature-Authentication-For-Callback-Server.md
-      - name: OSS Online Service Quick Verification Tools
-        href: Best-Practices/OSS-Verification-Tool.md
       - name: Mobile Application Direct Transmission OSS
         href: Best-Practices/Transfer-For-Mobile-Apps.md
       - name: Customized domain supports HTTPS access OSS service

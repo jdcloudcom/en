@@ -1,5 +1,7 @@
 # Add filing
 
+###### New license: The entity and domain are licensed for the first time.
+
 ## Step I: Log in the filing system and verify filing type
 
 1. Log in the official website of JD Cloud & AI [www.jcloud.com](http://www.jcloud.com) and click **Filing** on the upper right

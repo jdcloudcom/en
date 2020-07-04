@@ -1,5 +1,4 @@
 # View Overview
 
-Open the Console, select **Hyper-Converged IDC**->**Edge Physical Computing Service**->**Resource Management**->**Overview**, and view the overview information, as shown in the following figure:</br>
-Click **Edge Node** on the top, the nodes can be switched over to view the resource information of different nodes, which mainly displays the device information (total number of devices, device type, etc.), Public IP information (total number and status of IPs, etc.), bandwidth (exit) information, etc.
-![概览查看连接](https://github.com/jdcloudcom/cn/blob/cn-edge-physical-computing-service/documentation/Hyper-Converged-IDC/Edge-Physical-Computing-Service/Image/EPCS002.png)
+Open the Console, select Edge Physical Computing Service->Resource Management->Overview, and view the Overview information</br>
+Click **Edge Node** on the top to switch nodes, and view the resource information at different nodes, mainly displaying the cabinet information (cabinet count, powered status, etc.), device information (device count, device type, etc.), public IP information (IP count, status, etc.) and bandwidth (outlet) information, etc.

@@ -1,6 +1,6 @@
-  name: JCS For Kubernetes
-  href: 
-  items:
+name: JCS For Kubernetes
+href: 
+items:
   - name: Introduction
     items:
       - name: Product Overview
@@ -31,6 +31,8 @@
         href: Getting-Started/Version-Notes.md
       - name: Create Clusters
         href: Getting-Started/Create-to-Cluster.md
+      - name: Create Windows Cluster
+        href: Getting-Started/Create-Win-Cluster.md
       - name: Connect Clusters
         href: Getting-Started/Connect-to-Cluster.md
   - name: Operation Guide
@@ -63,6 +65,10 @@
             href: Operation-Guide/NodeGroup/Delete-NodeGroup.md
           - name: Set Automatic Repair
             href: Operation-Guide/NodeGroup/Auto-Repair.md
+      - name: Network
+        items:
+          - name: Network Policy
+            href: Operation-Guide/Network/Network-Policy.md
       - name: Cluster Dashboard
         items:
           - name: Dashboard
@@ -89,6 +95,8 @@
             href: Best-Practices/Deploy-Applications/Deploy-Service.md
          -  name: Deploy Service (New Version)
             href: Best-Practices/Deploy-Applications/Deploy-Service-New.md
+         -  name: Deploy Windows Application
+            href: Best-Practices/Deploy-Applications/Deploy-Windows-Deployment.md
      - name: Use Cloud Disk as Volume
        items:
         -  name: Deploy StorageClass
@@ -105,8 +113,6 @@
             href: Best-Practices/Volumes/Cloud-File-Service/CFS-Volume.md
          -  name: Use JD Cloud File Service through methods of static PV
             href: Best-Practices/Volumes/Cloud-File-Service/CFS-PVC.md
-         -  name: Use JD Cloud File Service through methods of CSI plug-in and static PV
-            href: Best-Practices/Volumes/Cloud-File-Service/CFS-CSI.md
          -  name: Deploy nfs-client-provisioner
             href: Best-Practices/Volumes/Cloud-File-Service/nfs-client-provisioner.md
          -  name: Dynamically create PV by using nfs-client-provisioner

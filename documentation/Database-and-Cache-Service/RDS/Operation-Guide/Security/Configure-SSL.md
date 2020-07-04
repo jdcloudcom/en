@@ -3,8 +3,7 @@ JCS for MySQL, MariaDB, Percona connection methods can be either plain-text or e
 When the encrypted connection method is adopted, even if you access the JCS for MySQL, MariaDB and Percona through the public network, even if the data transmission is intercepted, the transmission is encrypted and cannot be recognized.
 
 ## Note
-* The old instance does not have SSL feature enabled. If you want to enable it, you need to manually enable it
-* The SSL feature of newly purchased instance is enabled by default, which is not allowed to be disabled
+* The SSL feature of newly purchased instance is disabled by default. If you want to enable it, you need to enable it manually
 
 ## Operation Steps
 1. Click to download [SSL Certificate](https://jddb-common-public.s3.cn-north-1.jdcloud-oss.com/jdcloud-rds-ca.pem)

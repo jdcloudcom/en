@@ -122,7 +122,11 @@
      - name: MySQL Data Synchronization
        href: Best-Practices/mysqltoes.md
      - name: Performance Indicators
-       href: Best-Practices/performance.md
+       items: 
+        - name: Performance Test Steps
+          href: Best-Practices/Capacity_Step.md
+        - name: Performance Indicator Test Result
+          href: Best-Practices/performance.md
      - name: Suggestions for Monitoring Alarm Configuration
        href: Best-Practices/automonitor.md
   - name: FAQ

@@ -16,7 +16,7 @@ Take Windows Server 2012 R2 standard version 64-bit for example, to expand the C
 
 ![](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/expand_multipart_002.jpg)
 
-**Cloud Disk Service of Linux system multi partition expansion**
+## Cloud Disk Service of Linux system multi partition expansion
 
 Take CentOS 7.2 64-bit for example, to expand the Cloud Disk Service attached to a Virtual Machines from 40G to 50G.
 

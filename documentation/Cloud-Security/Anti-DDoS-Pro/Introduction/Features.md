@@ -8,12 +8,14 @@ The Anti-DDoS Pro provides high-capacity attack protection, can effectively resi
 - Supports the creation of Anti-DDoS Pro instance, and can manage the created Anti-DDoS Pro instance.
 
 ### 2. Support Forwarding Settings
-- Support the creation of non-web service (IP address) and web service (domain) forwarding rules;
-- Supports the forwarding settings of TCP, UDP, HTTP and HTTPS protocols, websocket protocols, multiple-IP back-to-origin, and domain name back-to-origin.
+- Support the creation of non-web service (IP and port) and web service (domain) forwarding rules;
+- Support the forwarding settings of TCP, UDP, HTTP and HTTPS protocols, websocket protocols, multiple-IP back-to-origin, and domain name back-to-origin, and support GEO region back-to-origin.
 
 ### 3. Multiple Protection Configuration Rules
-- Supports IP black list/white list, URL white list, CC automatic protection and custom protection configurations for fine protection.
-- Supports advanced Web Service configurations such as non-standard port access, HTTP address forcible back-to-origin, HTTP visit jump, etc.
+- Support IP blacklist/whitelist, URL whitelist, CC defense, and the configuration of customized rules for fine refined protection;
+- Support non-standard port access, HTTP back-to-origin, HTTP access to redirect to advanced web service configurations such as HTTPS;
+- Support the custom return page, and apply to the abnormal status code return page as well as the custom rules banned page;
+- Support protection scheduling rules for DDoS basic protection and Anti-DDoS Pro Linkage to meet the business scenario demands with low time delay.
 
 ### 4. Flexible Protection Billing Scheme
 - Supports elastic protection. Saves costs for you by billing by the actual attack bandwidth.
@@ -22,10 +24,10 @@ The Anti-DDoS Pro provides high-capacity attack protection, can effectively resi
 - Enables quick access to Anti-DDoS Pro services in cname-based manner.
 
 ### 6. Massive Attack Protection
-- Supports Telecom+Unicom+CMCC's ISP line, 400G of maximum single ISP line capability, total defense capability of T level.
+- Support the Telecom + Unicom + Mobile lines and BGP line with a total defense capability of up to 1.5T.
 
 ### 7. Accurate Report Display
-- Provides you with a comprehensive understanding of Anti-DDoS Pro services by presenting demonstrations such as DDoS attack reports, forwarding traffic, CC reports, etc.
+- You can fully understand the service conditions of Anti-DDoS Pro by viewing reports on DDoS attack protection, business traffic, CC defense, connections, etc.
 
 ### 8. Covered common attack types, see the following table:
 

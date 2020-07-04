@@ -1,5 +1,7 @@
 # Change of Subject
 
+###### Entity change: For the information that has been successfully registered in the license system of JD Cloud & AI, both the entity information and the website information can be changed.
+
 ## I. Log in License System
 
 1. Log in the official website of JD Cloud & AI [www.jdcloud.com](http://www.jdcloud.com) and click **License** on the upper right

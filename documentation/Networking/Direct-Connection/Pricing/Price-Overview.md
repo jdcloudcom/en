@@ -11,7 +11,7 @@ Direct Connection, you can select to access the public cloud via the exclusive p
 Physical Connection will be charged by different access method. For physical ISP line construction of exclusive port method or shared port method, you shall contact you line supplier or the Direct Connection partner which has been pre-connected to JD Cloud & AI separately, and the latter shall provide end-to-end quotation to the physical link part (``i.e., from your router device to access device port provided by JD Cloud & AI``). The quotation shall comprise: optical fiber placing fee and in-building cable rent.
 
 | Billing Item | Description |
-|:---:| --- |
+|:---:|:---:|
 | Optical Fiber Placing Fee | You shall pay the optical fiber placing fee to the operator for the optical fiber from the user’s enterprise IDC to the Direct Connect point provided by JD Cloud & AI, or go to [JD Cloud Marketplace](https://market.jdcloud.com/) and pay the same to the partner which has finish pre-connection of Direct Connect with JD Cloud & AI |
 | In-building Cable Rental Cost | Except that Suqian Access Data Center built by JD Cloud itself charges no in-building cable rental cost, other access date centers are neutral data centers rented by third parties. There may be the optical fiber in-building cost or in-building cable rental cost, which shall be determined by your supplier according to actual labor hour |
 
@@ -54,3 +54,19 @@ Hosted Private Virtual Interface is free of charge.
 |  | 1000BASE-LX | 1000M Sing-mode Optical Port | 500 |  |
 |  | 10GBASE-LR | 10G Sing-mode Optical Port | 4200 |  |
 |  | 100GBASE-LR4 | 100G Sing-mode Optical Port | 33000 |  |
+
+#### Billing Example
+
+##### Exclusive Port
+
+| Region | Billing Type | Resource Configuration | Billing  Period | Cost |
+|:---:|:---:|:---:|:---:|:---:|
+| cn-north-1 | Initialisation Cost | 10G Port | Time | RMB 15,000 |
+|  | Port Rental Charge | 10G Port | Month | RMB 4,200 |
+|  | Outbound Traffic Fee | The bandwidth cap is 10Gbps and the actual traffic produced is 100GB | Day | 100\*0.08=RMB 8 |
+
+##### Shared Port
+
+| Region | Billing Type | Resource Configuration | Billing  Period | Cost |
+|:---:|:---:|:---:|:---:|:---:|
+| cn-north-1 | Outbound Traffic Fee | The bandwidth cap is 1Gbps and the actual traffic produced is 100GB | Day | 100\*0.08=RMB 8 |

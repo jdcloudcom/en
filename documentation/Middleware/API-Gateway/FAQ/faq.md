@@ -7,7 +7,7 @@ A: For normative consideration, you must comply with {}. {}. {} can only be fill
 
 **2: How to charge and refund and other issues about expenses**
 
-A: API gateway products are free during the open beta. Other related expenses are charged in accordance with the actual situation of relevant resources. Reference of Charging Method: [Billing Overview](../Pricing/Billing-Overview.md)
+A: For API Gateway, the pay-as-you-go method shall be adopted as per resource consumption. For billing method, please refer to: [Billing Rules](../Pricing/Billing-Rules.md)
 
 
 **3: How many customized domain names based on grouping can be associated at maximum**
@@ -22,9 +22,9 @@ Answer: The request body needs to select a type in the "Request Body Type" and t
 If there are no parameters, it should be dict () be default.
 
 
-**5. Can binary stream be inserted in the body?**
+**5. Can upload binary streams in body?**
 
-Answer: No. There is one java public SDK can support file uploading, but the SDK produced on Console does not support inserting binary stream in the body currently. Using public sdk will also help users produce signatures. Users are required to specify host, path and build parameters. Set is not supported***
+A: Yes, it is supported. The contentType of APPLICATION_OCTET_STREAM can be set in SDK.
 
 
 **6. When byte stream is inside the body and it cannot transform to utf-8 character string, how does the API Gateway verify the signature?**

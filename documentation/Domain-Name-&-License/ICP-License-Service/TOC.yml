@@ -9,9 +9,9 @@ items:
         items:
           - name: Add filing
             href: Getting-Started/Process/Addition-Filing.md
-          - name: Add Website (with Main Body)
+          - name: Add Website (JD with entity)
             href: Getting-Started/Process/Addition-Website.md
-          - name: New Website (without entity)
+          - name: New Website (JD without entity)
             href: Getting-Started/Process/Addition-Website-Without-Subject.md
           - name: Change of Subject
             href: Getting-Started/Process/Subject-Change.md 
@@ -19,9 +19,9 @@ items:
             href: Getting-Started/Process/Change-Website.md 
           - name: Change Access
             href: Getting-Started/Process/Change-Access.md  
-          - name: New Access (with entity)
+          - name: New Access (JD with entity)
             href: Getting-Started/Process/New-Access-Subject.md
-          - name: New Access (without entity)
+          - name: New Access (JD without entity)
             href: Getting-Started/Process/New-Access-Without-Subject.md
           - name: Subject Cancellation
             href: Getting-Started/Process/Subject-Cancellation.md
@@ -113,10 +113,10 @@ items:
     items:
       - name: Website Verification Form Information
         href: Loading/Website-verification-information.md
+      - name: Undertaking for Filing of Internet Information Service in Shanghai
+        href: Loading/Website-shanghai-internet-service-commitment.md     
       - name: Verification Form Sample
         href: Loading/Verification-sample.md
-      - name: Undertaking for Filing of Internet Information Service
-        href: Loading/Internet-Information-Service-Filing-Commitment.md
       - name: Common Materials Download
         items:
           - name: Filing Authorization for All Provinces

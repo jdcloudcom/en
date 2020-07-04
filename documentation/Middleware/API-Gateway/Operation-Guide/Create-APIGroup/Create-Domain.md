@@ -4,13 +4,13 @@ API gateway offers the domain name association based on API group. The API gatew
 
 * The independent domain name is analyzed to secondary domain name of this group by CNAME and then associate. Analyze and then associate, otherwise impossible to be associated.
 
-* One domain name can only be associated to one group.
+* One domain can be associated with multiple groups. You can distinguish different API groups according to group path prefixes.
 
-* Each group supports to associate 5 domains at most. For increase, please apply via work order.
+* Each group can support association of 5 customized domains at most. If you need to add domains, please open a ticket for application and provide domain and certificate information, via which we can help you complete the customized domain processes.
 
 * The domain name can be associated successfully only after recorded.
 
-* The customized domain names support online environment only, other environments (test, pre-publish) not.
+* The customized domain only supports on-line public network domain rather than other cases.
 
 
 

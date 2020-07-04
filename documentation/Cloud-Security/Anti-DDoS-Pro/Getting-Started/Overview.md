@@ -4,7 +4,7 @@ Anti-DDoS Pro. Follow the simple steps below to configure to use Anti-DDoS Pro s
 
 ## 1. Non-web Service
 
-Refer to the following process for access to Anti-DDoS Pro for the non-web service, in other words, the defense for IP address.
+Refer to the following process for access to Anti-DDoS Pro for the non-web service, in other words, the defense for IP and Port.
 ![Non-Web Service](../../../../image/Advanced%20Anti-DDoS/rules01.png).
 
 ## 2. Web Service

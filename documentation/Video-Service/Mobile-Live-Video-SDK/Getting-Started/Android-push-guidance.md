@@ -49,7 +49,7 @@ The ARMv5 ARMv6 device has poor computing performance. Therefore, JD Cloud does 
 This section lists one example of basic functions of rapidly-integrated JD Cloud Pushing Streaming SDK.
 
 * **Get SDK**  
-Please download the Android pushing streaming SDK and the Player SDK by clicking <a href="https://zhanghao274.s3.cn-north-1.jdcloud-oss.com/SDK/live/jdcloud_live_android_demo.zip">Download</a><br/>  
+Please download the Android pushing streaming SDK and the Player SDK by clicking <a href="https://zhanghao274.s3.cn-north-1.jdcloud-oss.com/jdcloud_live_android_demo.zip">Download</a><br/>  
 
 * **Project Directory Structure**  
 demo: Example Project and Use Presentation of Main Interface Functions of the SDK    

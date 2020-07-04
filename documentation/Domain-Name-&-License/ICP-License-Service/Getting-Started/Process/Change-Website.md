@@ -1,5 +1,7 @@
 # Website Change
 
+###### Website change: For the information that has been successfully registered in the license system of JD Cloud & AI, only the website information is allowed to be changed.
+
 ## I. Log in Filing System
 
 1. Log in the official website of JD Cloud & AI [www.jdcloud.com](http://www.jdcloud.com) and click **Filing** on the upper right

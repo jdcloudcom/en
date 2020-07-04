@@ -17,6 +17,9 @@ items:
     - name: Specifications
       href: 
       status: 0
+    - name: Restrictions
+      href: 
+      status: 0
     - name: Application Scenarios
       href: Introduction/Application-Scenarios.md
 - name: Pricing
@@ -53,7 +56,11 @@ items:
     - name: Reissue Certificate
       herf: Operation-Guide/Reissue-SSL-Sertificate.md
     - name: Cancel Certificate
-      herf: Operation-Guide/Revocate-SSL-Certificate.md
+      herf: Operation-Guide/Reissue-SSL-Sertificate.md
+    - name: Certificate Update
+      herf: Operation-Guide/Update-SSL-Certificate.md
+    - name: Certificate Renewal
+      herf: Operation-Guide/Renew-SSL-Certificate.md
     - name: Submit data-Free DV Certificate of Symantec
       herf: Operation-Guide/Symantec-DV-Complete.md  
     - name: Submit data-Paid OV/EV Certificate of GeoTrust

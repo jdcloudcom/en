@@ -10,7 +10,7 @@ Fast retrieval is recommended when the fields displayed in the logs are not fami
 2. The Key in the retrieval condition is the Key in the KV pair in the logs that establishes the key value retrieval. The cloud product indexes all KVs in the logs by default.
 3. After selecting Key, select the comparison operator according to needs, enter the value of Value, and pay attention to the value type corresponding to Key when entering the value.
 
-![](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/LogSearch/quickSearch.png)
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogSearch/logsearch02.jpg)
 
 **Customer Scenario**
 
@@ -28,7 +28,7 @@ Advanced retrieval is recommended when the fields displayed in the logs are more
 2. The key in the advanced retrieval condition must be the real key in the log field. For all the field descriptions in the cloud product system logs, please check it in the cloud product log.
 3. Click **Retrieve** to display the log data that matches the retrieval conditions.
 
-![](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/LogSearch/advanceSearch.png)
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogSearch/logsearch03.jpg)
 
 **Customer Scenario**
 

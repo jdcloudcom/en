@@ -1,5 +1,5 @@
 # Core Concepts
-To know about JD Cloud Bastion, the following core concepts are involved generally:
+To know about JD Cloud & AI Bastion, the following core concepts are involved generally:
 
 | Terminology      |   Interpretation  | 
 | :--------: | :--------:|

@@ -1,4 +1,6 @@
-# New Access (without entity)
+# New Access (JD without entity)
+
+###### New access (JD without entity): If an entity and its domain have been licensed, but have also been licensed through some other service provider, the license is to change or add an access provider.
 
 ## I. Log in License System
 

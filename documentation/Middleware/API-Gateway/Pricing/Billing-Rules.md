@@ -21,7 +21,7 @@ API Gateway is charged by recording API calling times and outflow traffic.
 
 (2) Free sections
 
-They are free during Beta. One request calling to API by the client is recorded as one call. For each user, the first 1 million calls to API per month are free. But the outflow traffic is not free.
+One request calling to API by the client is recorded as one call. For each user, the first 1 million calls to API per month are free. But the outflow traffic is not free.
 
 (3) Charged sections 
 

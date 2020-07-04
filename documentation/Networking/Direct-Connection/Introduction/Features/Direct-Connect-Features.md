@@ -24,11 +24,12 @@ JD Cloud & AI Direct Connection supports the following 2 access modes:
 - For exclusive port, customers directly connect to JD Cloud's access points by direct connection to establish a three-layer interconnection within intranet between the customer network and JD Public Cloud. For details of the direct access points of each region provided by JD Cloud, see the bottom of this page;
 - For shared port, customers will access via partners who in advance have a direct link with JD Cloud. Customers connect to the access points provided by the partners to establish a three-layer interconnection within intranet between the customer network and JD Public Cloud.
 
-Comparison of these two access methods:
+##### Comparison of these two access methods:
+
 | Access Method | Advantage | Disadvantage | How to Select |
 |:---:|:---:|:---:|:---:|
-| Exclusive Port | The device port is exclusive for one customer, who will not compete with other customers for bandwidth, guaranteeing service stability and network experience consistency| Direct connection has a longer construction period and higher cost | Customers requiring large bandwidth are recommended to select this method |
-| Shared Port | Reusing the direct connection and port interconnected between the partners and JD Cloud together with other customers and there is a risk in competing for bandwidth | Direct connection has a shorter construction period and lower cost than exclusive port and the partners can offer an overall JD Cloud Onboarding Solution and support | Customers requiring small bandwidth and having a requirement for construction period are recommended to select this method |
+| Exclusive Port | The device port is exclusive for one customer, who will not compete with other customers for bandwidth, guaranteeing service stability and network experience consistency| Direct connection has a longer construction period and higher cost. <br />Support access of maximum 100G port | Customers requiring large bandwidth are recommended to select this method |
+| Shared Port | Reusing the direct connection and port interconnected between the partners and JD Cloud together with other customers and there is a risk in competing for bandwidth. <br />Support access of maximum 5G port | Direct connection has a shorter construction period and lower cost than exclusive port and the partners can offer an overall JD Cloud Onboarding Solution and support | Customers requiring small bandwidth and having a requirement for construction period are recommended to select this method |
 
 ### Private Virtual Interface
 

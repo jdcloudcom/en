@@ -2,13 +2,15 @@
 Full-text retrieval allows users to enter keywords and search all fields of the log content without distinguishing between key and value. Full-text retrieval needs to establish a full-text index, that is, the entire log content is divided according to the delimiter to establish an index. The Log Service currently only supports the retrieval of system logs of cloud products. The cloud product system logs establish full-text index by default.
 
 ## Operation Process
-1. Select the log collection and log subject you want to retrieve, and the time range you need to query.
+1. Click the log set of the log subject to be retrieved and enter the Log Subject List.
 
-2. According to the syntax example, enter the keywords that need to be retrieved with case sensitive, and the keyword length cannot exceed 100 characters.
+2. Click the log subject to be retrieved, select **Log Retrieval** in the sub-menu and select **Full Text Retrieval** by default.
 
-3. Click **Retrieve**, the number of logs matching the retrieval criteria is displayed below, and the keywords are highlighted.
+3. Enter retrieval keywords (case sensitive) according to syntax examples, which shall not contain more than 100 characters.
 
-![](https://raw.githubusercontent.com/luolei-laurel/cn-1/patch-1/image/LogService/LogSearch/fullTextSearch.png)
+4. Click the **Retrieve** button, log entries meeting search conditions will be displayed below and keywords will be highlighted.
+
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogSearch/logsearch01.jpg)
 
 ## Customer Scenario
 

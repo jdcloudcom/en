@@ -1,4 +1,6 @@
-# Add Website (with main body)
+# Add Website (JD with entity)
+
+###### Add website (JD with entity): If an entity has been licensed through JD Cloud & AI and its existing new website is hosted on JD Cloud & AI server, an application for licensing the new website and domain shall be submitted on JD Cloud & AI.
 
 ## I. Log in Filing System
 

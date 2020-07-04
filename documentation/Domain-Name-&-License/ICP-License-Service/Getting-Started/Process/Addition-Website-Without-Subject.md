@@ -1,4 +1,6 @@
-# New Website (without entity)
+# New Website (JD without entity)
+
+###### New website (JD without entity): If an entity has been licensed through some other service provider, while its existing new website is hosted on JD Cloud & AI server, an application for licensing the new website and domain shall be submitted on JD Cloud & AI.
 
 ## I. Log in License System
 

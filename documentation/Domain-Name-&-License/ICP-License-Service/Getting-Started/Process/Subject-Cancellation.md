@@ -1,5 +1,7 @@
 # Subject Cancellation
 
+###### Entity cancellation: It refers to the cancellation of the license number of an entity. After the entity license number is canceled, the license numbers of all websites under your entity will be canceled as well. According to the relevant laws and regulations, the website without license number cannot be opened for access.
+
 ## I. Log in to the License System
 
 1. Log in the official website of JD Cloud & AI [www.jcloud.com](http://www.jcloud.com) and click **License** at the upper right

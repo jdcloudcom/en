@@ -1,17 +1,17 @@
 # Benefits
 
-- **High-quality Resource**
+- **Exclusive Resources**
 
-  The edge nodes have perfect and rich data center resources, computing storage network resources varying in types and specifications and nodes covering several provinces of the state, providing computing and storage service everywhere.
+  Possess edge node resources covering throughout the country, exclusively enjoy the computing capacity and bucket of servers, be free of non-virtualization performance loss, and provide ubiquitous computing and storage services.
   
-- **Senior Service**  
+- **Customization**  
 
-  A senior expert team provides professional pre-sale and after-sales supports to help customers implement end-to-end solutions and customize deployment schemes, supports 7*24 quick response after-sale services and offers efficient site DevOps Service based on user demands.   
+  Provide multi-standard packages for bare server configuration, and meanwhile, support server customization and the model selection of network devices. 
   
-- **Stable Network**  
+- **Cost Reduction and Benefit Increase**  
 
-  Edge nodes are located between the user and the cloud data center and do not require uploading mass data to Cloud for processing, therefore decreasing network delay, reducing network congestion, increasing network rate, meeting bandwidth demands of different business and providing stable network of Telecom, Unicom or Mobile.
+  Pay by month, collect on due, simplify the purchasing process, reduce one-off device investment for users, and help users to convert Capex to Opex and focus on business innovation.
 
-- **Visual Management**  
+- **Professional Services**  
 
-  With simple and easy-to-use platform management, customers can view the devices, bandwidths, IP resource sand one-click open tickets for distributed nodes purchased and track ticket progress on line.
+  Provide customers with professional pre-sale and post-sale support, as well as quick fault reaction capabilities and high efficient on-site operation and maintenance capabilities by virtue of the senior expert team.

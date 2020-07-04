@@ -1,24 +1,20 @@
 # Features
 
-**Resource Display**
+**Specification Selection**
 
-   The Console displays device resources purchased by customers and shows basic device information, on-shelf cabinet, etc..
-  
-   The Console also displays Public IP and bandwidth resources purchased by customers, shows IP Address information and shares bandwidth information.
+Apply online for subscribing the standard server package meeting a variety of business scenarios, and support the customization of flexible packages and the user-defined selection of parameters including CPU, memory and hard disk according to customer needs
    
-**Resource Monitoring**
+**Resource Management**
 
-  Customers can view real-time traffic of purchased bandwidth.
-  
-  The system provides traffic data search within 1 hour, 6 hours, 12 hours, 24 hours and 90 days.
+Customers can view the specifications and configuration information of devices leased, device statuses, locations where they are added, etc.
 
-**On-line Application**
+Support online subscription and subscription cancellation, alter leased devices, and manage devices.
+
+
+**Security Operation and Maintenance**
     
-   Support on-line application submission of DevOps Service by customers on line.
+Provide basic DevOps Service to help customers start up and restart the device, and provide other services.
 
-   Track ticket application process in real time and learn processing process.
+Support customers to submit service application and fault repair application online, and to follow up the operation and maintenance status in real time.
 
-**DevOps Service**
-    
-   Provide basic DevOps Service to help customers start up and restart the device, and provide other services.
 

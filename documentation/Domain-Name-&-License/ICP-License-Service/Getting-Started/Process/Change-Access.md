@@ -1,5 +1,7 @@
 # Change Access
 
+###### Change access license: Change the website and host it to the public IP address of the server of JD Cloud & AI in China Mainland.
+
 ## I. Log in Filing System
 
 1. Log in the official website of JD Cloud & AI [www.jdcloud.com](http://www.jdcloud.com) and click **Filing** on the upper right

@@ -6,11 +6,9 @@ Main contents of the section include addition, deletion, change and examination 
 
 Creating a log monitoring task requires confirmation that the corresponding collection configuration has been added under the log subject.
 
-1. Log in the corresponding log set, select the log subject of the log monitoring task required to be created, and select the monitoring configuration in the rear management, and then enter the log monitoring task list page. Click "Create Monitoring Task".
+1. Enter a corresponding log set, select the log subject of log monitoring task to be created, directly click the **Add** button behind **Log Monitoring** or click **Log Monitoring**, select **Monitoring Task List** in the draw-down box and click **Create Monitoring Task**.
 
-![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogMonitor/logmonitor01.jpg)
-
-![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogMonitor/logmonitor02.jpg)
+![](https://github.com/jdcloudcom/cn/blob/zhangwenjie-only/image/LogService/LogMonitor/logmonitor-1.jpg)
 
 2. Complete Monitoring Task Configuration Information
 
@@ -28,15 +26,17 @@ Setting of Monitored Indicator.
 
 **Log Test** Log test is for the user to conveniently and quickly view the log filtering conditions and monitoring indicators set, and ensure that the monitoring tasks set are in line with their expectations. The user can directly use the logs under the current log subject, or customize and paste log data for testing.
 
-![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogMonitor/logmonitor03.jpg)
+![](https://github.com/jdcloudcom/cn/blob/zhangwenjie-only/image/LogService/LogMonitor/logmonitor-2.jpg)
 
 ## II. View the Monitoring Graph and Set Alarm Rules
 
 ### View the monitoring graph
 
-1. Log in the corresponding log set, select the log subject to be viewed, select log monitoring in the management, select the monitoring tasks to be viewed in the monitoring task list, and click **Monitoring Graph** in the operation bar to view the monitoring statistical graph of the monitoring tasks.
+1. Click the sub-menu **Monitoring Diagram** under **Log Monitoring** and enter the Monitoring Diagram View Page.
 
-2. Log in the log service, select the monitoring graph in the left menu bar, and select the log set, log subject, and monitoring tasks to be viewed to view the monitoring graph of the log field.
+2. Select the monitoring task to be viewed and the time range for query and then you can view the Log Monitoring Diagram.
+
+![](https://github.com/jdcloudcom/cn/blob/zhangwenjie-only/image/LogService/LogMonitor/logmonitor-3.jpg)
 
 ### Set alarm rules
 

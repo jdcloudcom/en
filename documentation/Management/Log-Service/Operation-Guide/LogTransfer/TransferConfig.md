@@ -6,13 +6,11 @@
 
 To create a dump task, it is required to confirm the added collection configuration, or no dump tasks can be created.
 
-1) Log in the corresponding log set, click **Dump Configuration** in the "Management" after the log subject to be dumped, log in the Dump Configuration Page.
+1) Enter a corresponding log set, select the log subject of dump task to be created, directly click the **Add** button behind **Log Dump** or click **Log Dump**, select **Dump Task List** in the draw-down box and click **Create Dump Task**.
 
-![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/logtransfer1.png)
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/createLogTransfer01.jpg)
 
 2) Dump Information Configuration
-
-![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/logtransfer2.png)
 
 Click **Create Dump Task** to fill in the dump task name (non-null), which only consists of 32 characters at most including Chinese, numbers, uppercase and lowercase letters, English underlines "_" and line-throughs "-".
 
@@ -30,19 +28,16 @@ Click **Save**, to complete creation of Dump Task.
 
 After the dump task is created completely, a delay of about 15 minutes required before dumping.
 
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/createLogTransfer02.jpg)
 
 ### 2. Stop the dump task
 
-Log in the Dump Configuration Page, select the dump task to be stopped, click **Stop Dumping** at the back to stop dumping log data.
-
-![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/logtransfer3.png)
-
-Click **Log Dump Patent** in the menu on the left of the log service, select the log set, log subject and dump task to be dumped, click **Stop Dumping** to stop dumping log data.
-
-![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/logtransfer4.png)
+Log in the Dump History Page, select a dump task to be stopped and click **Stop Dump**. Then, log data dump can be stopped.
 
 ## II. Dump Task History
 
-Log in the page by clicking **View** after the dump task in the dump configuration or **Dump History** in the menu on the left of the log service.
+Click the sub-menu **Dump History** under **Log Dump** and enter the page. View dump history of dump tasks.
 
-During log dump management, the operations such as stopping dump tasks, modifying dump configurations, etc. can be carried out, and at the same time, the file dump status in dump tasks can be viewed. In case a dump fails, retry operation can be conducted within one hour, but is impossible after one hour.
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/transferHistory03.jpg)
+
+

@@ -11,7 +11,7 @@ JD Cloud Player SDK provides the followings in different styles according to dif
 </tr>
 <tr>
     <td>Mobile Player Android</td>
-    <td><a href="https://zhanghao274.s3.cn-north-1.jdcloud-oss.com//SDK/live/jdcloud_live_android_demo.zip">Click to download</a><br/> </td>
+    <td><a href="https://zhanghao274.s3.cn-north-1.jdcloud-oss.com/jdcloud_live_android_demo.zip">Click to download</a><br/> </td>
 </tr>
 <tr>
     <td>Mobile Player iOS</td>

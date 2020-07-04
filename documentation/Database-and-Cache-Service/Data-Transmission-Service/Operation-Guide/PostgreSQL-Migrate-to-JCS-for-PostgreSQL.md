@@ -34,11 +34,11 @@ Database configuration:
     cp logical_decoding.so /usr/lib/postgresql/9.6/lib/ 
     cp logical_decoding.control /usr/share/postgresql/9.6/extension/
     ```
-    
+
   - Set max_replication_slots greater than or equal to 5.
-    
+
   - Set max_wal_senders greater than or equal to 5.
-    
+
   - Set wal_level as logical.
 
 Account permission:
@@ -46,6 +46,7 @@ Account permission:
 - Structure migration: select
 - Full migration: select
 - Incremental migration: super
+
 ### Source database configuration requirement
 
 Database type:
@@ -54,7 +55,7 @@ Database type:
 
 Database version:
 
-- Be consistent with the source database version or above
+- Be consistent with the source database version or above, **12.x Version is not Supported Now**.
 
 Account permission:
 
@@ -78,6 +79,7 @@ Data requirement:
      - For the database type, please select PostgreSQL.
      - For the database address, please fill in database domain or IP, or fill in Private IP in case of Direct Connection/Intranet.
      - Port, namely database port.
+     - Database name, the name of the database to be migrated.
      - For account and password, please confirm in advance that if the account has corresponding permissions.
 
    - Target database information:
@@ -85,6 +87,7 @@ Data requirement:
      - For the database type, please select "JCS for PostgreSQL"
      - For region, please select the region where the target instance is located.
      - For instance ID, please select the target instance.
+     - Database name, the name of the target database for migration. **It shall be created in the target database in advance, and be the same with the database name of the source database**.
      - For account and password, please confirm in advance that if the account has corresponding permissions.
 
    - Migration type

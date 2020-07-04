@@ -25,6 +25,8 @@
    ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
    **⑤ Certificate of Domain Name (this should be provided when the cumulative quantity of subject’s filing is ≥5)**
+   
+   **⑥ Letter of Authorization (Provided if the person in charge of the website isn’t a legal person)**
 
 **Rules of Personal Filing in Shaanxi:**
 
