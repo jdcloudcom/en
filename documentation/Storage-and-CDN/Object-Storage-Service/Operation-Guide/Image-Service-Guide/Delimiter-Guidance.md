@@ -29,16 +29,16 @@ bucket.s3.cn-north-1.jdcloud-oss.com/lena.jpg?x-oss-process=imgalias/stylename
 ```
 
 Example:
-   
+
  ```
  bucket.s3.cn-north-1.jdcloud-oss.com/lena.jpg{delimiter}stylename 
  
  ```
- 
+
  **If the URL of the image is provided with a delimiter, OSS Image Service will take the content behind this delimiter as the style name. ** The delimiter will only take effect when it is configured on the Console. Support
   ` -, _, /, !` style delimiters. Access via Delimiter is an alternative use method for image processing.
 
-       
+
 **Description**
 
 *  StyleName means the name of image style.
@@ -66,9 +66,7 @@ Access the file URL`testbucket.s3.cn-north-1.jdcloud-oss.com/animal.jpg!imgStyle
 
 1.  In the left bucket list of [OSS Console](https://oss-console.jdcloud.com/space), click the name of the bucket to which you will set a delimiter.
 
-2.  Click **Image Processing** tab to find the **Image Access Setting** button.
-
-    ![](../../../../../image/Object-Storage-Service/OSS-152.png)
+2. Click **Data Processing** Tab, go to **Image Processing** functional region and find **Image Access Setting**.
 
 3.  Click **Image Access Setting** to open the setting window.
 
@@ -80,12 +78,12 @@ Access the file URL`testbucket.s3.cn-north-1.jdcloud-oss.com/animal.jpg!imgStyle
     
         After opening original image protection, please refer to [Original Image Protection-Original Image Protection Rules](https://docs.jdcloud.com/en/object-storage-service/source-image-protection) for the information you need to know.
 
-        
     -   Customized Delimiter.
         * You can select one or more delimiters;
         * You can respectively set the delimiter and original image protection.
         
         
+
 4. After setting the option required, click **OK** to complete the setting of delimiter.
 
 **You can complete the setting of customized delimiter through [OPENAPI](http://docs.jdcloud.com/en/media-processing-service/api/setstyledelimiter).**

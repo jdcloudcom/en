@@ -8,11 +8,11 @@ When a migration task is enabled, DTS will pre-check the migration task, includi
 
 1. Click **Start** on the migration task list page or Details.
 
-   ![image-20200113175505316](../../../../image/Data-Transmission-Service/dts-009.png)
+   ![image-20200113175505316](../../../../../image/Data-Transmission-Service/dts-009.png)
 
 2. After the pre-check is completed, you can view progress and check result in the pre-check popup.
 
-   ![image-20200113180223366](../../../../image/Data-Transmission-Service/dts-012.png)
+   ![image-20200113180223366](../../../../../image/Data-Transmission-Service/dts-012.png)
 
 3. After the pre-check is completed, click **Next** to execute data migration.
 

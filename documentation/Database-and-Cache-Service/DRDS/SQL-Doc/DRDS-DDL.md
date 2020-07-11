@@ -83,6 +83,33 @@ dbpartition by string_hash(name);
  dbpartition by YYYY(order_date) start('2000') period 2;
  ```
 
+## Create Broadcast Table
+Table broadcasting refers to replicate a table to each sub-database of DRDS.  After table broadcasting is created, full data of this table is available in sub-database of each RDS node. When the user carries out addition, deletion or modification operation to this table, the DRDS backend will carry out the same operation to tables of each sub-database, realizing data consistence. In this way, RDS (MySQL) pushed to the underlayer with JOIN operation can be used for avoiding cross-database JOIN. 
+
+Table broadcasting is mainly used for improving performance of cross-database join and is mainly applicable for relatively static configuration tables, dictionary tables and other tables with low data volume.
+
+Table broadcasting supports self-growth type, i.e., self-growth type of MySQL itself
+
+### Syntax
+Add the keyword "BROADCAST" (case insensitive) at the end of the SQL syntax used for creating a table.
+
+```SQL
+CREATE TABLE table_name
+(create_definition,...) BROADCAST
+```
+**Notes**
+1. Table broadcasting is mutually exclusive to table splitting. In other words, a table cannot be a broadcasting table and a split table.
+2. As distributed transactions are not supported now, if operation of any sub-database fails, data might be inconsistent. In such case, the application needs to handle the failure by itself.
+
+
+### Example
+```SQL
+CREATE TABLE tbc1 (
+id int(11) DEFAULT '0',
+value varchar(32) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 broadcast;
+```
+
 ## Delete split tables
 Syntax for table deletion must be standard SQL
 ```SQL

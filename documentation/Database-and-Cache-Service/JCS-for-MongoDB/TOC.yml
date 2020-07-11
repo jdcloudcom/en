@@ -65,6 +65,12 @@
             href: Operation-Guide/Account-Management/Reset-Password.md
       - name: Backup Management
         items:
+          - name: Internet Access
+            href: Operation-Guide/Connection-Management/Internet-access.md
+          - name: Node Domain Management
+            href: Operation-Guide/Connection-Management/Node-Domain-Management.md
+      - name: Backup Management
+        items:
           - name: Set Automatic Backup
             href: Operation-Guide/Backup/Modify-Backup-Policy.md        
           - name: Create Backup Manually

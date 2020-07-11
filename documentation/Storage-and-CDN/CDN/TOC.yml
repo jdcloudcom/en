@@ -278,6 +278,10 @@
                  href: JCloud-Openapi-For-CDN/queryLiveDomainApps.md
                - name: queryPushDomainORAppOrStream
                  href: JCloud-Openapi-For-CDN/queryPushDomainORAppOrStream.md
+               - name: queryDailyRefreshTaskCount
+                 href: JCloud-Openapi-For-CDN/queryDailyRefreshTaskCount.md        
+               - name: queryCdnUserQuota
+                 href: JCloud-Openapi-For-CDN/queryCdnUserQuota.md                   
                - name: getSslCertDetail
                  href: SSL-Certificate/getSslCertDetail.md
                - name: getSslCertList
@@ -342,6 +346,12 @@
                  href: SSL-Certificate/uploadCert.md
                - name: queryDomainConfig
                  href: JCloud-Openapi-For-CDN/queryDomainConfig.md
+               - name: setExtraCacheTime 
+                 href: JCloud-Openapi-For-CDN/setExtraCacheTime.md
+               - name: setAuthConfig 
+                 href: JCloud-Openapi-For-CDN/setAuthConfig.md
+               - name: setSourceAuthConfig 
+                 href: JCloud-Openapi-For-CDN/setSourceAuthConfig.md
           - name: Stop Deleting Domain
             items:
                - name: startDomain

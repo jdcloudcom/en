@@ -17,10 +17,17 @@ Distributed Cloud Physical Server supports billing types of monthly package and 
         <td>Computing Type</td>
         <td >Edge Compute Performance Ⅱ (Generation II)</td>
 	<td >edcps.c2.perf1</td>
-	<td  rowspan="2">East China-Taizhou</td>
+	<td  rowspan="3">East China-Taizhou</td>
 	<td >6000</td>
 	<td >21</td>
        </tr>
+    <tr>   
+	<td >Compute Type</td>
+	<td >Edge Compute Performance Ⅱ (Generation II)</td>
+	<td >edcps.c2.perf2</td>
+	<td >8600</td>
+	<td >30</td>
+    </tr>
     <tr>   
 	<td >Storage Type</td>
 	<td >Edge Storage Standard (Generation II)</td>

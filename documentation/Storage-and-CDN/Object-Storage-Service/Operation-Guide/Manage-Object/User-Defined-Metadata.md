@@ -6,11 +6,9 @@ The management metadata function can modify the HTTP response header of files to
 
 1. Log in the Console->Object Storage Service->Space Management->Enter a Bucket->A File->More->Manage Metadata
 
-![管理元数据入口](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-168.png)
-
 2. The metadata configuration dialog box is shown as follows:
 
-![管理元数据配置页面](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-169.png)
+![管理元数据配置页面](../../../../../image/Object-Storage-Service/OSS-169.png)
 
 ## Metadata List Supported
 

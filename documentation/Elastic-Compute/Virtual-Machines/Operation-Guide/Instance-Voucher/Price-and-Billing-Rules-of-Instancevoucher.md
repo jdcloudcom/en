@@ -10,11 +10,10 @@ Price of instance voucher of no resource reservation (it cannot be purchased in 
 	<thead>
    <tr>
       <th colspan="2" rowspan="2" align="center"> Type Family</td>
-      <th colspan="2" align="center">Monthly Package (RMB/Computing Power * Month)</td>
+      <th align="center">Monthly Package (RMB/Computing Power * Month)</td>
    </tr>
    <tr>
-      <th align="center">cn-north-1/cn-east-2/cn-south-1</td>         
-      <th>cn-east-1</td>
+      <th align="center">cn-north-1/cn-east-2/cn-south-1/cn-east-1</td>         
    </tr>
    </thead>
    <tbody>  
@@ -22,99 +21,81 @@ Price of instance voucher of no resource reservation (it cannot be purchased in 
       <td rowspan="3">General - Standard</td>
       <td>g.n3</td>
       <td align="right">120</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td>g.n2</td>
-      <td align="right">136.5</td>        
-      <td align="right">--</td>         
+      <td align="right">136.5</td>              
    </tr>
    <tr>
       <td>g.n1</td>
       <td align="right">147</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td rowspan="3">Compute Optimized - Standard</td>
       <td>c.n3</td>
       <td align="right">93.5</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td>c.n2</td>
       <td align="right">89.5</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td>c.n1</td>
       <td align="right">97</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td>Compute Optimized - Intensive</td>
       <td>c.c2</td>
       <td align="right">85</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td rowspan="3">Memory Optimized - Standard</td>
       <td>m.n3</td>
       <td align="right">159</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td>m.n2</td>
       <td align="right">154.85</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td>m.n1</td>
       <td align="right">249</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td rowspan="2">High Frequency Compute - General</td>
       <td>h.g2</td>
       <td align="right">166</td>         
-      <td align="right">--</td>
    </tr> 
    <tr>
       <td>h.g1</td>
       <td align="right">171.5</td>         
-      <td align="right">--</td>
    </tr>      
    <tr>
       <td rowspan="2">Storage Optimized - IO</td>
       <td>s.i3</td>
       <td align="right">174.46</td>         
-      <td align="right">--</td>
    </tr> 
    <tr>
       <td>s.i1</td>
       <td align="right">177.25</td>         
-      <td align="right">--</td>
    </tr> 
    <tr>
       <td>Storage Optimized - Big Data</td>
       <td>s.d2</td>
       <td align="right">208.63</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td rowspan="3">GPU - Standard</td>
       <td>p.n1p40</td>
       <td align="right">4483.75</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td>p.n1p40h</td>
       <td align="right">4315.75</td>         
-      <td align="right">--</td>
    </tr>
    <tr>
       <td>p.n1v100</td>
       <td align="right">6211.25</td>         
-      <td align="right">--</td>
    </tr>
 </tbody>  
 </table>     

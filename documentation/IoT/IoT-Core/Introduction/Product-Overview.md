@@ -8,9 +8,9 @@ Main functions of IoT Core platform include:
 |:- |:-|
 |Device Communication|Provide two-way communication between a device and the cloud and make sure that device reporting and instruction distributed to device are stable and reliable|
 |Device Management |Provide functions such as registration of a single or a batches of devices, device status, device data collection, data forward and device deletion|
-|Device Shadow |Provide cache mechanism of device shadow to ensure that a device can communicate reliably and normally under a unstable network|
-|Product Management |Define device set, customize products or create products by presetting templates|
-|Product Thing Model |The functional descriptions of devices on cloud, through unified Thing Model definition and standard data, include the device telemetry data attribute, device status attribute and device control instruction.|
+|Device Shadow |Thing types provide equipment shadow caching mechanism and guarantee the device communication is reliable and normal in case of unstable network|
+|Device Management |Define device set, customize products or create products by presetting templates|
+|Thing Model |Thing Model is the function description of device on cloud, which is used for standardizing data through a unified Thing Model and covers device telemetering data attribute, device status attribute and device control command.|
 |Rule Engine|By pre-processing device data received by IoT Core, data is dumped to JD Cloud's other cloud services, such as RDS, JCQ, ES, etc.|
 |Security Guarantee|Instances are deployed in users’ customized VPCs to ensure the security and privacy of customers’ applications and data|
 

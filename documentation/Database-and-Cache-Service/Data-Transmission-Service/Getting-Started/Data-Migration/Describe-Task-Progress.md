@@ -8,7 +8,7 @@ On the migration task list page, you can view the progress of the migration task
 
 1. Enter the data migration task list and view current progress of migration task.  
 
-   ![image-20200113180223366](../../../../image/Data-Transmission-Service/dts-015.png)
+   ![image-20200113180223366](../../../../../image/Data-Transmission-Service/dts-015.png)
 
    - Structure migration: Migrated table structure quantity and progress.
 

@@ -10,7 +10,7 @@ Device identity verification guarantees the security and uniqueness of device an
 
 ## Extensibility
 
-Users can resize instances according to tenant business conditions to improve resource utilization rate. In the course of configuration changes, the business running will not be affected
+Users can, as per access volume demand, adjust instance configuration via the ticket system to increase resource utilization rate. The configuration change process shall not affect business operation.
 
 ## Simple and easy to use
 

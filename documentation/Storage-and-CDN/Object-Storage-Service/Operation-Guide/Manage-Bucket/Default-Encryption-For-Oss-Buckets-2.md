@@ -16,11 +16,11 @@ You can enable default encryption using our compatible S3 API, or the AWS develo
 Please note that the following encryption behaviors will be applied when the default encryption is enabled for the bucket:
 
  *  The encryption of objects that already exist in the bucket will not be changed before the default encryption is enabled.
- 
+
  *  Currently only bucket-level encryption is supported. If you create an Object with the put object in the S3 API, then even if the request carries HTTP header of x-aws-server-side-encryption, it is still invalid setting.
- 
+
  *  Please pay extra attention to that when you need to use the compatible S3 API, upload and download operations only support the HTTPS protocol.
- 
+
 At the same time, for the Object encrypted and stored by the server side, if you request this encrypted object with the following s3 API, it will return x-aws-server-side-encryption head:
 
 PutObject
@@ -50,11 +50,9 @@ Encrypting the Object stored in the KMS hosting master Key Pair mode by the serv
 
 ##  Set the default encryption using OSS management console
 
-1. Login to the Console->Object Storage Service->Space Management->Enter a Bucket->Space Settings->Default Encryption
+1. Log in Console->Object Storage Service->Space Management->Enter into a Bucket->Basic Setting, and then go to "Default Encryption" functional region.
 
-![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-96.png)
-
-2. Click **Modification**, and set the default encryption mode of the bucket.
+2. Click **Set** to set the default encryption method for this bucket.
 
 ![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-95.png)
 
@@ -65,8 +63,8 @@ Details:
    - Setting default encryption will only be valid for newly added files. Files that have been saved in the bucket will not be affected by the change of encryption mode.
 
    - If you set to use the SSE-KMS default encryption, please ensure to sign all PUT and GET object requests with signature version 4, and
-   send them to OSS by SSL connection. If you have set the SSE-KMS default encryption, pay attention to whether there are PUT and GET requests in the client that had not failed before the change but now fail. If there is such
-   a case, it is most likely that you are not using the HTTPS protocol.
+      send them to OSS by SSL connection. If you have set the SSE-KMS default encryption, pay attention to whether there are PUT and GET requests in the client that had not failed before the change but now fail. If there is such
+      a case, it is most likely that you are not using the HTTPS protocol.
 
 3. Click **OK** to complete the settings.
 

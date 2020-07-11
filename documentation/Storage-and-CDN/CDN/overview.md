@@ -95,5 +95,10 @@ v1
 |**stopDomain**|POST|Stop accelerated domain|
 |**stopMonitor**|POST|Stop origin server monitoring|
 |**updateCacheRule**|PUT|Modify cache rule|
+|**setExtraCacheTime**|POST|Set Status Code Cache|
 |**updateDomainGroup**|POST|Update domain group|
+|**queryDailyRefreshTaskCount**|GET|Query Refresh and Prewarm Task Quota|
+|**queryCdnUserQuota**|GET|Query User Refresh and Prewarm Block Quota|
 |**uploadCert**|POST|Upload certificate|
+|**setAuthConfig**|POST|dash Authentication Parameter Setting|
+|**setSourceAuthConfig**|POST|Back-to-origin Authentication Parameter Setting|

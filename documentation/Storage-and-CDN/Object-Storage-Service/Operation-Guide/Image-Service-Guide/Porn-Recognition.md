@@ -1,4 +1,4 @@
-## Image porn identification
+# Image porn identification
 
 Conduct porn identification to images:
 
@@ -15,7 +15,7 @@ Images are as follows:
 
 http://s3.cn-north-1.jdcloud-oss.com/downloads/example.jpg
 
-![识别](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-065.jpg)
+![识别](../../../../../image/Object-Storage-Service/OSS-065.jpg)
 
 Porn identification processing:
 

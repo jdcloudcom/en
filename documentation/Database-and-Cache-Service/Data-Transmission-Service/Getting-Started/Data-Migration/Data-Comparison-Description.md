@@ -16,8 +16,8 @@ MySQL/Percona/MariaDB executes data check as per the following operation steps.
 
 2. Select a migration task, click **Check Data**, and wait until the data check is completed.
 
-   ![image-20200113180223366](../../../../image/Data-Transmission-Service/dts-022.png)
+   ![image-20200113180223366](../../../../../image/Data-Transmission-Service/dts-022.png)
 
 3. The data check result can be viewed in the task detail.
 
-   ![image-20200113180223366](../../../../image/Data-Transmission-Service/dts-023.png)
+   ![image-20200113180223366](../../../../../image/Data-Transmission-Service/dts-023.png)

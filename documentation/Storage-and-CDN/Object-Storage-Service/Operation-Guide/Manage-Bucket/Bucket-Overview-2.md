@@ -4,11 +4,7 @@ All objects in the Object Storage Service must be stored in the bucket. Bucket i
 
 The space inside the same bucket is flat, namely there is no concept of a directory of a file system, and all files directly belong to their corresponding buckets. However, you can use folders to group, classify and manage relevant files.
 
-To access and view a bucket, select Object Storage Service->Space Management after logging in to the JD Cloud console; after entering the bucket management page, click on the bucket to be accessed, and you will enter the overview page of the bucket with the following effects:
-
-![空间概览](../../../../../image/Object-Storage-Service/OSS-026.png)
-
-The description related to the contents shown on this page is as follows:
+To access and view a bucket, select Object Storage Service->Space Management, click the bucket to be accessed after logging in the Space Management page, and then log in the Overview page of this bucket. The contents showed in this page are described as follows:
 
 1. The basic information of each bucket will include the bucket name, current access permissions, creation time, intranet access domain name and Internet access domain name;
 

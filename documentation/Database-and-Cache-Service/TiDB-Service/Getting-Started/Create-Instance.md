@@ -10,30 +10,45 @@ You can quickly create the TiDB Service instances through the console
 
 3. Billing method during the period of public beta shall be pay by configuration by default. For the billing standard, please refer to the billing method.
 4. Parameter description of instance configuration is as follows:
-- **Region**: Select the region where the instance is located. The intranets of different regional resources are not interoperable and cannot be changed after creation. For detailed description of the region, please refer to "Region and Availability Zone". During the period of public beta, only the "Availability Zone A" of "cn-north-1" is supported.
-- **Database type**: The currently supported database type is TiDB+TiKV.
-- **Version**: Refer to the version of the database type. Currently, the latest version - version 2.04 - is provided. Different regions support different versions. The specific circumstances shall be subject to the console.
+- **Region**: Select the region where the instance is located. The intranets of different regional resources are not interoperable and cannot be changed after creation. For detailed description of the region, please refer to "Region and Availability Zone".
+- **Version**: Refer to the version of database type, with details subject to the Console.
+- **Configuration template**: Templates defined according to most application scenarios and suitable for TiDBs of different scales; users can make direct configuration with the template or make adjustment on the basis of the template.
 
 ![Create Instance 2](../../../../image/TiDB/Create-Instance-2.png)
 
-- Specifications of TiDB: CPU and Memory for TiDB Node
-- Quantity of TiDB Node: The quantity of node is 2 by default. Currently, modification is not supported. For the introduction of TiDB, please refer to Node Management
+- TiDB Node
+  - Function: Responsible for receiving requests, processing SQL logics, interacting obtained data with TiKV and finally returning processing results. The TiDB node is not used for storing any data. 
+  - Node number: Support 1-5 nodes, and it is suggested that at least 2 nodes shall be applied for the production environment
 
-![Create Instance 3](../../../../image/TiDB/Create-Instance-3.png)
+![创建实例3](../../../../image/TiDB/Create-Instance-3.png)
 
-- Specifications of TiKV: CPU and Memory of TiKV Node
-- TIKV storage space: This storage space contains data files and system files.
-- Quantity of TiKV data replica: The quantity of data replica is 3 by default and modification is not supported; Ensure that the service can continue to work normally under the condition that 2 data replicas are lost.
-- Quantity of TiKV Node: The quantity of node is 3 by default. Currently, modification is not supported. For the introduction of TiKV, please refer to Node Management.
+- TiKV Node
+  - Function: TiKV node is a Key-Value distributed type storage engine used for storing user data
+  - Node number: 3-16 nodes are supported during the Beta. The node number depends on the data scale. There are at least 3 nodes. Subsequently, more nodes are supported. Please refer to specific information on the Console for details.
+  - Remark: TiKV has 3 replicas, thus 3 times buckets are required for the same data volume. At present, the data volume for actual storage is 300 GB.
 
-![Create Instance 4](../../../../image/TiDB/Create-Instance-4.png)
+![创建实例4](../../../../image/TiDB/Create-Instance-4.png)
 
-- The Networking: Currently, only one manner can be provided, which is the Deployment of Basic Networking.
-- Database Account: Currently, customized database account is not supported. The root account shall be used by default.  
-- Password: After the instance is created successfully, you can use the account and password defaulted by system to log on the instance. The length and characters of the password are limited, whose specific condition shall be subject to console.
+- PD Node
+  - Function: The PD node is the management module of the whole cluster, which is mainly responsible for storing meta-information of the cluster, making scheduling and load balance for TiKV and distribution transaction IDs.
+  - Node number: It is suggested at least 3 nodes shall be adopted by the production environment. 1, 3 or 5 nodes are supported and more nodes will be supported subsequently. Please refer to specific information on the Console for details.
+  
+![创建实例7](../../../../image/TiDB/Create-Instance-7.png)
 
-![Create instance 5](../../../../image/TiDB/Create-Instance-5.png)
+- Monitor Node
+  - Function: Responsible for management of monitoring data,
+  - Node number: One cluster has only one Monitor node
+
+![创建实例5](../../../../image/TiDB/Create-Instance-5.png)
+
+- Network: Select VPC where the instance is created and a subnet. Please be noted that the subnet shall have sufficient IPs and the required IP number is TiDB node number plus 5.
+
+- Availability Zone: Select the Availability Zone where instances are to be created and only single availability zone deployment is supported now
+
+- Instance name: Enter the name of an instance to be created. For name rules, please refer to description on the Console
+
+![创建实例6](../../../../image/TiDB/Create-Instance-6.png)
 
 5. Click **Buy Now** to go to the Oder Confirmation page. 
 
-6. After reading the Usage & Service Terms of TiDB Service, follow the prompts to complete the subsequent steps. 
+6. Read and check the Service Terms of TiDB Service and complete subsequent operations according to hints. 

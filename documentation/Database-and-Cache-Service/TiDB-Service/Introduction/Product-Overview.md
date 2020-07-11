@@ -2,7 +2,7 @@
 The TiDB Service is a distributed cloud database product created by JD Cloud in cooperation with PingCAP on the basis of the domestic open source NewSQL database TiDB, supporting both scenarios of OLTP and OLAP at the same time, realizing automatic horizontal scaling and distributed transactions with strong consistancy, which is simple in deployment, provided with an online asynchronous table based on a structure that the changes thereof will not affect the business while compatible with the MySQL protocol, so that the use and migration cost is reduced to an entremely low level.
 
 ## Supported Version
-Beijing region currently supports TiDB 2.1.8 version.
+Beijing region currently supports TiDB 4.0 version.
 
 ## Main Features of TiDB Service 
 1. TiDB Service can seamlessly extend the quantity of nodes as the growth of the data and can increase computational and storage ability approximately linearly;
@@ -13,9 +13,8 @@ Beijing region currently supports TiDB 2.1.8 version.
 ## Common Operations
 - [Create Instance](../Operation-Guide/Instance/Create-Instance.md)
 - [Connect Instance](../Operation-Guide/Instance/Connect-Instance.md)
-- [Node Management](../Operation-Guide/Node-Management.md)
-- [Reset Password](../Operation-Guide/Reset-Password.md)
-- [Monitoring](../Operation-Guide/Monitor.md)
+- [Create Account](../Operation-Guide/Account/Create-Account.md)
+- [Create Backup](../Operation-Guide/Backup/Create-Backup.md)
   
 ## Billing
 Now, TiDB is in the Beta stage and is free the users whose applications are approved.

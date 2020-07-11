@@ -35,14 +35,10 @@ The maximum default limit is 5000 in the number of statements in a certain trans
 
 The database may face three bottlenecks as the business continues to grow:
 - I. The storage resources are insufficient, which means there is not enough disk space.
-- II. Computing resources are not enough. For example, CPU usage is high.
-- III. Throughput can't keep up.
+- II. Computing resources are not enough. For example, CPU usage is high;
+- III. Throughput can't keep up;
 
 At this time, you can scale the database cluster horizontally.
 - It can be solved through increasing TiKV Server node if the storage resources are not enough. After starting of new node, PD will migrate some data from other nodes automatically without manual intervention.
 - You can check the CPU consumption of the TiDB node and TiKV node and then consider adding TiDB and TiKV nodes to solve it when computing resources are not enough.
 - It would consider adding TiDB nodes and TiKV nodes at the same time if throughput can't keep up.
-
-**10. What is the performance Indicator?**
-
-In the case of big data volumes, comparing to MySQL, TiDB Service has a bigger advantage over QPS, TPS and response time. Specific indicators can be found in the official documentation: https://github.com/pingcap/docs-cn/blob/master/benchmark/sysbench.md

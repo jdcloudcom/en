@@ -5,19 +5,24 @@ There is bottleneck for a single vCPU when handles the network interruption. You
 ## Support
 
 ### Different Images Support Multi-Queue
-Currently, different images have different support for network interface multi-queue. The details are as follows:
+Different image versions provide different supports to ENI Multi-Queue. Details are as follows:
 
 #### Public Image:
 
-* CentOS 6.6/6.8/6.9/7.1/7.2/7.2 NAT Gateway/7.3/7.4/7.6 is supported, but 6.5 is not supported;
-* Ubuntu 14.04/16.04/18.04 is supported;
-* Windows Server is not support yet.
+* CentOS
+  * 7.4 and higher version: Supported, enabled by default and configured as per the maximum supported queues
+  * 6.6/6.8/6.9/7.1/7.2/7.2 NAT Gateway/7.3: Supported, but without default enabling configuration. Please install scripts according to the configuration method below to realize automatic configuration
+  * 6.5 and below version: Not supported
+* Ubuntu
+  * 18.04: Supported, enabled by default and configured as per the maximum supported queues
+  * 14.04/16.04: Supported, but without default enabling configuration. Please install scripts according to the configuration method below to realize automatic configuration
+* Windows Server
+  * Not supported now
 
 #### Private Image:
 
-* If source image of instance supports multiple queues of network interface, private image created based on this instance also supports multi-queue of network interface;
-* If source image instance does not support multiple queues of network interface, private image created based on this instance also does not support multi-queue of network interface.
-* If network interface multi-queue is required to [Import Image](../Image/Import-Private-Image.md), please [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) for application.
+* For private images made on the basis of official images, support to ENI Multi-Queue is subject to conditions of original official images and whether the host has realized automatic enabling configuration by virtual of scripts before images are made
+* For private images produced via [Import Image](../Image/Import-Private-Image.md), if it is confirmed that the version itself supports such private images and the ENI Multi-Queue is required, the function can be used only after [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) and application.
 
 #### Shared Image:
 
@@ -27,19 +32,22 @@ Shared image is actually shared with other users' private image for use, and the
 
 Is not supported yet.
 
-### Different Instance Types Support Multi-Queue
+### Support to ENI Multi-Queue number by different Instance Types
 
 For the current status of various instance types for network interface multi-queues' support, see [Instance Type](../../Introduction/Instance-Type-Family.md).
 
 ## Operation Steps
 
-For the CentOS 6 and Ubuntu systems, if you need to use multi-queue of network interface, you need to log in to instance for configuration after instance is created. The  default CentOS 7 system configuration is the maximum number of queues supported by the current instance type.
+### Temporary Configuration
+For images which supports ENI Multi-Queue but with ENI Multi-Queue disabled, the following method is applicable for configuring such multi-queue temporarily. However, the function ENI Multi-Queue will become invalid after rebooting. The method can be used for testing influence to network performance by the multi-queue. If it is confirmed that the ENI Multi-Queue must be enabled, please make permanent configuration through the method below.
 Here, CentOS 6.9 is taken as an example to introduce the configuration steps.
 
 1. [Login Instance](../../Getting-Start-Linux/Connect-to-Linux-Instance.md).
-2. Check if the network interface supports multi-queues. Run the Command:
+2. View if ENI supports multiple queues and maximum queues supported now. Run command:
 	
 	`ethtool -l eth0`
+	
+       "Pre-set maximums" and "Combined" in "Current hardware settings" respectively are queues settings supported and queues valid at present
 	
 3. Set the network interface to use multi-queue. Run the Command:
 
@@ -69,9 +77,28 @@ Here, CentOS 6.9 is taken as an example to introduce the configuration steps.
 	
 	`systemctl start irqbalance `
 	
-	
+### Permanent Configuration	
+1. Download scripts. Download address for intranet of each region is as follows:
+* cn-north-1: https://bj-jcs-agent-linux.s3-internal.cn-north-1.jdcloud-oss.com/multi-queue-jd.tgz
+* cn-south-1: https://gz-jcs-agent-linux.s3-internal.cn-south-1.jdcloud-oss.com/multi-queue-jd.tgz
+* cn-east-1: https://sq-jcs-agent-linux.s3-internal.cn-east-1.jdcloud-oss.com/multi-queue-jd.tgz
+* cn-east-2: https://sh-jcs-agent-linux.s3-internal.cn-east-2.jdcloud-oss.com/multi-queue-jd.tgz
 
+2. Decompress and install.
+```
+tar zxvf multi-queue-jd.tgz
+cd multi-queue-jd
+bash install.sh <image-type> <version-num>
+```
 
+   Please refer to contents below for system type and major version number. If the current image is CentOS 6.9, the installation instruction is `bash install.sh centos 6` correspondingly.
+
+       * image-type: centos|ubuntu 
+       * centos vserion-num: 6|7|8
+       * ubuntu version-num: 14|16|18
+
+  If the installation information contains `Starting multi-queue-jd: OK`, it means that the ENI Multi-Queue is successfully configured. After configuration, installation scripts can be deleted.
+  
 ## Related Reference
 
 [Login Instance](../../Getting-Start-Linux/Connect-to-Linux-Instance.md)

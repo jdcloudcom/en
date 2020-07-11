@@ -121,6 +121,8 @@ items:
       href: Metrics/mongodb.md
     - name: DRDS
       href: Metrics/drds.md
+    - name: JCS for Redis
+      href: Metrics/redis.md
     - name: JCS for Memcached
       href: Metrics/Memcached.md
     - name: JCS for InfluxDB

@@ -1,10 +1,10 @@
 # Basic Architecture
 
-IoT Core comprises main modules such as protocol engine, device management, device shadow, product management, product Thing Model, rule engine and security guarantee
+IoT Core comprises main modules such as device management, rule engine, file management and data overview
 
 ## Business Architecture
 Business architecture is shown as in the following figure:
-![](../../../../image/IoT/IoT-Engine/architecture-core.png)
+![业务架构](../../../../image/IoT/IoT-Core/Introduction/Architecture-Core.png)
 
 
 

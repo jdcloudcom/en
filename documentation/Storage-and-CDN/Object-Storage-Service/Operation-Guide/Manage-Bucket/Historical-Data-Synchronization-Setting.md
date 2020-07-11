@@ -16,13 +16,11 @@ Cooperative use of Historical Data Synchronization and [Incremental Data Synchro
 
 ## Use the Console to create historical data synchronization task
 
-1. Log in the Console->OSS->Space Management->Enter into a Bucket->Space Setting->Data Synchronization->Historical Data Synchronization
-
-![历史数据同步](https://github.com/jdcloudcom/cn/blob/cn-oss-1/image/Object-Storage-Service/OSS-165.png)
+1. Log in Console->Object Storage Service->Space Management->Enter into a Bucket->Advanced Configuration, and then go to "Data  Synchronization->Historical Data Synchronization" functional region.
 
 2. Click **Create Task** to open the dialog box of historical data synchronization rules configuration.
 
-![配置历史数据同步](https://github.com/jdcloudcom/cn/blob/cn-oss-1/image/Object-Storage-Service/OSS-166.png)
+![配置历史数据同步](../../../../../image/Object-Storage-Service/OSS-166.png)
 
 3. Select the region the target storage space is located and the storage space name.
 
@@ -36,10 +34,12 @@ Cooperative use of Historical Data Synchronization and [Incremental Data Synchro
 
    b. File prefixes do not support overlapping prefixes, for example, test and test/01 are not allowed.
    
+
 5. Choose Replacement or Not.  
 
 * When a file existing in the targeted space having the same name as a file in the original space, you can choose to replace it or not. 
-   
+  
+
 6. Select Storage Type.
 
 * Standard storage, infrequent access storage, archival storage and reduced redundancy storage (not recommended) are now supported.
@@ -48,11 +48,9 @@ Cooperative use of Historical Data Synchronization and [Incremental Data Synchro
 
 ## View historical data synchronization task
 
-Log in the Console->OSS->Space Management->Enter into a Bucket->Space Setting->Data Synchronization->Historical Data Synchronization
+Log in Console->Object Storage Service->Space Management->Enter into a Bucket->Advanced Configuration, and then go to "Data  Synchronization->Historical Data Synchronization" functional region.
 
 Once a task is created, the task progress and status can be viewed in the historical data synchronization list, and operations such as task cancellation can be performed.
-
-![查看历史数据同步任务](https://github.com/jdcloudcom/cn/blob/cn-oss-1/image/Object-Storage-Service/OSS-167.png)
 
 Description:
 

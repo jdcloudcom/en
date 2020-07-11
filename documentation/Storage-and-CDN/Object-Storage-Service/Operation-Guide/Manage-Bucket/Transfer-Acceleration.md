@@ -30,9 +30,7 @@ To use transmission acceleration, please [Enable the CDN Service](https://docs.j
 
 Object Storage Service supports the setting of transmission acceleration management through Console configuration. For setting steps, please refer to the following contents. To set transmission acceleration with APIs, please refer to [Put Bucket accelerate](../../API-Reference-S3-Compatible/Compatibility-API/Operations-On-Bucket/PUT-Bucket-accelerate.md).
 
-1. Log in to the Console->Object Storage Service->Space Management->Enter into a Bucket->Space Setting->Transmission Acceleration. Under the page, you can view the transmission acceleration setting of the current Bucket.
-
-![accelerate-1](../../../../../image/Object-Storage-Service/OSS-164.png)
+1. Log in to the Console->Object Storage Service->Space Management->Enter into a Bucket->Domain Management->Transmission Acceleration, users can view the transmission acceleration setting of current Bucket in this functional region.
 
 2. You can view the accelerated domain of the Bucket, after clicking **Enable**.
 

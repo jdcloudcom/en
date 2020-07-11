@@ -72,32 +72,21 @@ The owner has the above three permissions by default.
 
 ## Enable object lock function for Console
 
-Log in Console->OSS->Space Management->Create Space->Advanced Setting
+1. Log in Object Storage Service Console.
+2. In **Create Bucket**, select **Advanced Configuration** and enable the Object Lock function.
 
-![开启对象锁定](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-170.png)
+
 
 ## Modify default retention setting of bucket via Console
 
-1. Log in the Console->OSS->Space Management->Enter a bucket->Space Settings->Object Lock
-
-![空间级别对象锁定](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-171.png)
-
-2. Click **Edit** to log in the setting page.
-
-![设置空间级别对象锁定](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-172.png)
-
+1. Log in the Console->OSS->Space Management->Enter a bucket->Advanced Configuration->Object Lock
+2. Click **Set** to log in the setting page.
 3. Select the retention mode and appoint the retention period.
 
 ## Modify file object lock setting via Console
 
 1. Log in the Console->OSS->Space Management->Enter a bucket->->Object Management->A File->More->Object Lock
-
-![对象级别对象锁定](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-173.png)
-
 2. Click **Object Lock** and enter the setting page.
-
-![设置对象级别对象锁定](https://github.com/jdcloudcom/cn/blob/edit/image/Object-Storage-Service/OSS-174.png)
-
 3. Select the retention mode and appoint the expiration date.
 
 4. Select to enable or disable legal hold.

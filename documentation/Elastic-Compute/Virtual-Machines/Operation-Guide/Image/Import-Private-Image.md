@@ -13,7 +13,7 @@ Use Description about Image Importation:<br>
 
 * Images of "cloud disk system disks" can be used to create the system disk and acts as the machine of Cloud Disk, and images cannot be converted into the images of "local disk system disks". As for the difference between images of "local disk system disks" and images of "cloud disk system disks", please refer to the [image type](https://docs.jdcloud.com/en/virtual-machines/image-type).
 
-* If network interface multi-queue shall be supported for image import, please view [Network Interface Multi-queue](../Network/Configurate-ENI-Multi-Queue.md) to confirm whether it is correctly configured, and please [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) for application.
+* If the imported images need to support ENI Multi-Queue, please refer to [ENI Multi-Queue](../Network/Configurate-ENI-Multi-Queue.md) to confirm if both the image operation system and the version support so and then make correct configuration. After images are imported successfully, be sure to [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) and apply for use the function ENI Multi-Queue.
 
 ## Basic Image Requirement<br>
 ### Basic Linux System Requirement<br>

@@ -1,6 +1,6 @@
-  name: IoT Core
-  href: 
-  items:
+name: IoT Core
+href: 
+items:
   - name: Introduction
     items:
       - name: Product Overview
@@ -14,7 +14,7 @@
       - name: Features
         href: Introduction/Features.md
       - name: Restrictions
-        href: Introduction/Restrictions.md   
+        href: Introduction/Restrictions.md 
   - name: Pricing
     items:
       - name: Billing Overview
@@ -27,58 +27,51 @@
         href: Pricing/Purchase-Process.md 
   - name: Getting Started
     items:
-      - name: Create Product and Device
-        href: Getting-Started/Create-Product-and-Device.md
-      - name: Define Thing Model
-        href: Getting-Started/Product_Model.md
+      - name: Overview of Getting Started
+        href: Getting-Started/Getting-Started.md
+      - name: Create Instance
+        href: Getting-Started/Create-Instance.md
+      - name: Login IoT Platform
+        href: Getting-Started/Login-IoT-Platform.md
   - name: Operation Guide
     items:
-      - name: Create product
-        href: Operation-Guide/Create-Product.md
-      - name: Add a Single Device
-        href: Operation-Guide/Create-Device/Create-Single-Device.md
-      - name: Batch Add Devices
-        href: Operation-Guide/Create-Device/Create-Batch-Devices.md
       - name: Device Management
-        href: Operation-Guide/Create-Device/Manage-Devices.md
-      - name: Product Thing Model Introduction
-        href: Operation-Guide/Thing-Model/Thing-Model-Introduction.md       
-      - name: Add Thing Model
-        href: Operation-Guide/Thing-Model/Create-Thing-Model.md    
+        items:
+          - name: Create Thing Type
+            href: Operation-Guide/Device-Manager/Create-Thing-Type.md
+          - name: Introduction to Thing Model
+            href: Operation-Guide/Device-Manager/Introduce-Thing-Model.md
+          - name: Create Thing Model
+            href: Operation-Guide/Device-Manager/Create-Thing-Model.md
+          - name: Register Device
+            href: Operation-Guide/Device-Manager/Create-Device.md 
+          - name: Device Information
+            href: Operation-Guide/Device-Manager/Device-Info.md    
+          - name: Device Group
+            href: Operation-Guide/Device-Manager/Device-Grouping.md    
       - name: Create Rule Engine
-        href: Operation-Guide/Rule-Engine/Create-Rule.md
-  - name: Development Service
-    items:
-      - name: Firmware Upgrade
-        href: Development/OTA/OTA.md          
+        href: Operation-Guide/Rule-Engine/Create-Rule.md  
+      - name: File Management
+        href: Operation-Guide/Archive-Manager/Create-Archive.md
   - name: Device Development Guide
     items:
-      - name: Device SDK Introduction
-        href: Developer-Guide-Device/Introduction.md
-      - name: Quick Access Device
-        href: Developer-Guide-Device/DeviceEasyLink.md       
-      - name: Device Authentication
-        href: Developer-Guide-Device/AuthenticateDevices.md   
-      - name: Establish connection
-        href: Developer-Guide-Device/EstablishConnection.md
-      - name: Subscription and Release
-        href: Developer-Guide-Device/SubPub.md
-      - name: Network Connection and Heart Beat
-        href: Developer-Guide-Device/HeartBeat-Reconnection.md
-      - name: Gateway Function
-        href: Developer-Guide-Device/Gateway_Connection.md   
-      - name: Device End OTA Support
-        href: Developer-Guide-Device/Device-OTA.md  
-      - name: Secondary API
-        href: Developer-Guide-Device/API.md  
-      - name: Terminology
-        href: Developer-Guide-Device/Glossary.md 
-  - name: Related Resources
+      - name: Introduction of Device SDK
+        href: Developer-Guide-Device/Device-SDK-Introduction.md
+      - name: Glossary
+        href: Developer-Guide-Device/Terminology-Table.md
+      - name: Adaption of Hardware and Platform
+        href: Developer-Guide-Device/Platform-Abstract-Layer.md
+      - name: Brief of SDK API
+        href: Developer-Guide-Device/Device-SDK-API.md
+  - name: Best Practices
     items:
-    - name: Document History Records
-      href: Related-Resources/Document-History.md   
+      - name: Device Access
+        href: Best-Practices/Device-Access.md
+      - name: Topology Relationship Maintenance of Gateway Device 
+        href: Best-Practices/Device-Gateway-Topo.md 
   - name: FAQ
     href: FAQ/FAQ.md
-  - name: Device SDK Download
-    href: Developer-Guide-Device/Device-SDK-Download-Link.md
-
+  - name: Related Resources
+    items:
+      - name: Document History
+        href: Related-Resources/Document-History.md

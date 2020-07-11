@@ -20,11 +20,9 @@ After uploading resources such as pictures, videos, static pages and client scri
 
 ## Relevant console actions:
 
-1.Login to the Console->Object Storage Service->Space Management->Enter a Bucket->Space Settings, click **Static Website Hosting**:
+1.Login to the Console->Object Storage Service->Space Management->Enter a Bucket->Basic Setting, and then go to "Static Website Cabinet Service" functional region.
 
-![静态网站托管](../../../../../image/Object-Storage-Service/OSS-040.png)
-
-2.After clicking **Static Website Hosting**, the following are relevant configuration items. The description of all configuration items is as follows:
+2. Relevant configuration items in the functional region are described as follows:
 
 a. Customized INDEX page: Index files customized by the user, the Index page that is jumped to when the user accesses the root directory or a folder of the Bucket without assigning specific files:
 

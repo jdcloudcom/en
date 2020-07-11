@@ -97,7 +97,9 @@ items:
         items:
           - name: WEB Browser Operation and Maintenance
             href: Operation-Guide/Operation/Web.md
-          - name: SSH Protocol Operation and Maintenance
+          - name: SSH Client Operation and Maintenance
             href: Operation-Guide/Operation/SSH.md
+          - name: SFTP Client Operation and Maintenance
+            href: Operation-Guide/Operation/SFTP.md
           - name: MAC System Operation and Maintenance
             href: Operation-Guide/Operation/Mac.md

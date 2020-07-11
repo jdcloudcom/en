@@ -12,8 +12,6 @@ If API is required for restoring archival object, please see [Post-Object-Restor
 
 1. Log in the Object Storage Service Console, enter the Object management page, find the Object you need to restore, and click **Restore** under the right operation bar.
 
-![restore-1](../../../../../image/Object-Storage-Service/OSS-159.png)
-
 2. In dialog box of restoring archival object, configure the restore mode and the number of days that the replica is valid. The configuration descriptions are as follows.
 
 Restore mode: standard mode, acceleration mode, batch mode:

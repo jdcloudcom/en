@@ -1,13 +1,14 @@
 # Instance Voucher Overview (Inviting People to Product Testing)
 
-Instance voucher is another way of paying and purchasing computing instances. After buying a voucher with monthly/yearly pay-in-advance at a price approximating monthly package, you can deduct the cost as per computing instances (VM Instance, Native Container/POD Instance) paid by configuration.<br>
+Instance voucher is another way of paying and purchasing computing instances. After buying a voucher with monthly/yearly pay-in-advance at a price approximating monthly package, you can deduct the cost as per computing instances (VM Instance, Container Instance, POD Instance) paid by configuration.<br>
 
 Instance voucher decouples the payment and resources creation since its attribute determines the characteristics of the deductible instance, which is not limited to a certain or some instances. This can both allow for economic considerations in a long-term resource utilization plan and meet the demand for maintaining flexibility of resources creation and deletion.
 
 ## Instance Voucher Types
-From the point of applicable instance type, it can be divided into **VM Instance Voucher** and **Native Container/POD Instance Voucher**:
+From the point of applicable instance type, it can be divided into **VM Instance Voucher**, **Container Instance Voucher** and **POD Instance Voucher**:
 * VM Instance Voucher: Applicable to VM instance deduction paid by configuration
-* Native Container Instance Voucher: Applicable to Native Container/POD instance deduction paid by configuration
+* Container Instance Voucher: Applicable to Native Container instance deduction paid by configuration
+* POD instance voucher: Suitable for deduction of POD instances which are paid by configuration
 
 From the point of resource reservation, it can be divided into **No Resource Reservation** and **Resource Reservation** (currently, we only support purchasing no resource reservation type of instance vouchers)
 
@@ -177,10 +178,11 @@ For details of instance voucher pricing and billing rules, refer to: [Price and 
 Instance Voucher of No Resource Reservation: (No limit to voucher count)<br>
 * Non-GPU Type: (1 Computing Power = 1 Core)
   * Virtual Machines: 500 Computing Power/Region<br>
-  * Native Container/POD: 500 Computing Power/Region<br>
-* GPU Type: (1 Computing Power = 1 Card)
+  * Container: 500 Computing Power/Region<br>
+  * POD: 500 computing powers/region
+  * GPU Type: (1 Computing Power = 1 Card)
   * Virtual Machines: 100 Computing Power/Region<br>
-  * Native Container/POD: - (No GPU type is provided for Native Container/POD currently)<br>
+  * Container/POD: -- (No GPU type is provided for Native Container/POD currently)<br>
 
 
 If you need to increase quota, please [Open Ticket](https://ticket.jdcloud.com/applyorder/submit).

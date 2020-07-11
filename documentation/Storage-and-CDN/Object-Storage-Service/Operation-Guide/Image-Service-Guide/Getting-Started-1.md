@@ -4,17 +4,15 @@ You can use Object Storage Service console picture processing style to quickly u
 
 ## Create Image Style
 
-1. Enter OSS Management Console-Space Management
+1. Enter OSS Management Console-Space Management.
 
-2. Click bucket to enter the bucket overview page
+2. Click bucket to enter the bucket overview page.
 
-3. Click Image Processing on the bucket overview page to enter the image processing page
+3. Click **Data Processing** Tab in the Overview page and go to **Image Processing** functional region.
 
-![图片处理](../../../../../image/Object-Storage-Service/OSS-054.png)
+4. Click Create Style on this page, you can create the image style you need just as the figure shown below:
 
-4. Click Create Style; on this page, you can create the image style you need just as the figure shown below:
-
-![新建图片样式](../../../../../image/Object-Storage-Service/OSS-056.png)
+![新建图片样式](../../../../../image/Object-Storage-Service/OSS-056.jpg)
 
 
 Rules Description:

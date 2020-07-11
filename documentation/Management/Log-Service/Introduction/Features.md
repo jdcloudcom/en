@@ -1,8 +1,16 @@
 # Features
 
 ## Log Data Collection
-**Real Time Collection of Cloud Product Log Data**  
+**Cloud Product Log Data Collection**  
 Support real-time collection of log data of multiple cloud products. Users can select the required cloud products and corresponding log types and instances to be collected to complete the collection configuration.
+
+**Business Application Log Data Collection**  
+Business application logs refer to the logs generated from businesses or applications deployed on JD Cloud Virtual Machine by the user. The user just needs to specify the collection path and the Linux Virtual Machines to be collected. The log collection agent will be automatically installed with no manual installation by the user.
+
+## Log Delivery Destination
+The log data is delivered to the log subject by default.
+
+The user can deliver business application logs directly from agent to cloud ES, cloud Kafka or its self-built ES, self-built Kafka based on its demands for consumption.
 
 ## Log Retrieval
 **Full Text Retrieval**  

@@ -16,11 +16,11 @@ The document specifies the general configuration processes for creating migratio
 
 2. Click **Create Migration Task** on the DTS list page and enter the migration creation task page.
 
-   ![](../../../../image/Data-Transmission-Service/dts-010.png)
+   ![](../../../../../image/Data-Transmission-Service/dts-010.png)
 
 3. Complete task name, source database information and target database information on the migration task creation page.
 
-   ![](../../../../image/Data-Transmission-Service/dts-001.png)
+   ![](../../../../../image/Data-Transmission-Service/dts-001.png)
 
    Task name: The name shall contain no less than 2 characters, but no more than 32 characters and shall only support Chinese, numbers, uppercase and lowercase letters, English underline and line-through.
 
@@ -44,7 +44,7 @@ The document specifies the general configuration processes for creating migratio
 
 4. After completion, click **Next** and go to the next page to fill in information such as migration type, data check and migration object.
 
-   ![image-20200421182534224](../../../../image/Data-Transmission-Service/dts-024.png)
+   ![image-20200421182534224](../../../../../image/Data-Transmission-Service/dts-024.png)
 
    Migration type: The structure migration, full migration and incremental migration are available for selection.
 
@@ -56,13 +56,13 @@ The document specifies the general configuration processes for creating migratio
 
      Visual selection supports editing filter table rules after the database is selected and supports defining migrated tables or excluding tables not to be migrated, and the table name supports "*" wildcard.
 
-     ![image-20200421185942156](../../../../image/Data-Transmission-Service/dts-025.png)
+     ![image-20200421185942156](../../../../../image/Data-Transmission-Service/dts-025.png)
 
    - When the "self-built database connected via the Direct Connection" is selected as the source database type, definition of the database tables to be migrated via **JSON** is supported only, and please see the format at: [Define the Migration Object in JSON](Define-The-Migration-Object-in-JSON.md).
 
 5. Agree to "Authorize DTS Service Management Source Database", click **Next** and select the migration instance type.
 
-   ![image-20200113174954675](../../../../image/Data-Transmission-Service/dts-008.png)
+   ![image-20200113174954675](../../../../../image/Data-Transmission-Service/dts-008.png)
 
 6. Select the migration instance type and click **Save** to save the task and wait until the migration task is created.
 

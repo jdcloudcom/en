@@ -11,7 +11,7 @@ TiDB can be connected by entering the command line mode after installing the MyS
 
 ## Connect TiDB with MySQL connector  
 The following connectors are officially available and TiDB is compatible with all of these:
-- MySQL Connector/C： Client library of C language is the substitution of libmysqlclient
+- MySQL Connector/C: Client library of C language is the substitution of libmysqlclient
 - MySQL Connector/C++: Client library of C++ language
 - MySQL Connector/J: Client library for Java language, based on standard JDBC interface
 - MySQL Connector/Net: client library for .Net language, which is used by MySQL for Visual Studio, and supports version 2012, 2013, 2015 and 2017 of Microsoft Visual Studio

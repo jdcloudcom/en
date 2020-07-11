@@ -6,8 +6,9 @@ Note: For any object ending in "/", whether or not such object contains data, it
 
 The specific action steps for creating new folders are as follows:
 
-1. Enter Object Storage Service console and then space management; click any Bucket in the space list and click Object management; enter Object management page and click to create a new folder.
-![新建文件夹](../../../../../image/Object-Storage-Service/OSS-043.png)
+1. Enter Object Storage Service console
+2. Enter space management, click any Bucket in the space list and click Object management to enter Object management page.
+3. Click to **Create a new folder**.
+4. In the new folder dialog box that pops up, enter the folder name according to the naming rules for the notification copywriting.
+5. Click **OK** to complete the creation:
 
-2. In the new folder dialog box that pops up, enter the folder name according to the naming rules for the notification copywriting, and click OK to complete the creation:
-![完成创建](../../../../../image/Object-Storage-Service/OSS-044.png)

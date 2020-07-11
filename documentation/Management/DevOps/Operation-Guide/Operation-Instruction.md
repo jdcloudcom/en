@@ -21,7 +21,7 @@ In the Virtual Machine, you need to install the super Agent for deployment and u
 The specific methods are as follows:
 
 ```
-curl -fsSL http://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install | bash
+curl -fsSL https://deploy-code-vpc.jdcloud.com/dl-ifrit-agents/install | bash -s zero-agent,hawkeye-agent,log-agent,ark-query
 ```
 
 In the third-party machine (physical machine or virtual machine), please ensure that the machine meets two conditions (Unicom public network+normal NTP)

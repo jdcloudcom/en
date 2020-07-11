@@ -1,128 +1,98 @@
-# Rule Engine
+# Create rule engine
 
-The data dumping function of rule engine will forward data message in Topic to another Topic or other JD Cloud product for storage or processing.
+1. Log in the IoT Management Platform
+2. Select **Rule Engine** -> **Rule List** on the left navigation bar**
+3. Click **Create Rule** on the upper right corner of the page.**
 
-## Create Rules
+![新建规则](../../../../../image/IoT/IoT-Core/Rule-Engine/Create-Rule.png)
 
-1. Log in [IoT Core Console](https://iot-console.jdcloud.com/core)
-2. Select **Manage** -> **Rule Engine on the left navigation bar**
-3. Click **Create Rule Engine on the page top**
+**Basic Information** 
 
-![create-rule](../../../../../image/IoT/IoT-Engine/Create_Rule.png)
+- Rule name: Rule engine unique identifier supports Chinese, English, numbers, underline (_) and line-through (-) within 2-30 characters.
 
-## Data Forward
+- Thing Type ID: It is not required now. The system will support rule filtering on the information reported by all devices under multiple products. At that time, the corresponding product IDs shall be added here.
 
-1. Click **Rule Name** and enter the rule engine details
+- MQTT Topic: The MQTT Topic reported by the device indicates that the data reported on the Topic is to be processed.
 
-### 2.1 Process data/edit script
-
-1. Click **Compile Script** on the page and compile rule logics forwarded by the processing rule engine
-
-![scrpit](../../../../../image/IoT/IoT-Engine/Script-ProcessData.png)
-
-- The language adopted by the script is JavaScript
-- All data will be processed by the script and then forwarded
-
-![scrpit](../../../../../image/IoT/IoT-Engine/Rule-Script.png)
-
-Script examples are as follows:
+- SQL statement: The SQL statement executed when defining data filtering. All data reported will be processed by the SQL statement and then be forwarded. The table name can be named at will. It has no actual meaning.
 
 ```
-function Filter(msg, metadata, msgType) {  		
-   if(metadata.deviceName=='testDevice'){
-      return { 							
-        msg: msg,
-        metadata: metadata,
-        msgType: msgType
-      }
-    }
-}									
+Currently, the following formats are supported:
 
+1. SELECT * FROM Orders
+2. SELECT a, c AS d FROM Orders
+3. SELECT * FROM Orders WHERE b = 'red'
+4. SELECT * FROM Orders WHERE a> 0
 ```
 
-| Attribute  | Description|
-| ----- | ----- |
-|msg| Attribute defined in the user’s product and data reported by a device|
-|metadata| Static metadata<br>metadata includes:<br> metadata.deviceName refers to device name <br> metadata.identifier refers to the device Key <br> metadata.ts refers to the message reporting time  <br> metadata.version refers to the current version |
-|msgType|Message Type |
-
-After a script is compiled, please click **Test Script** to test the script
-
-The test interface is as follows:
-
-- The output result is the data outputted after script filtering is executed
-- The user can click **Test Script**
-- **Result Output** to display data filtered by the script
-
-![scrpit](../../../../../image/IoT/IoT-Engine/Script-Testing.png)
-
-## 2.2 Forward Data/Add Action
-
-- Click **Add Action** and an action popup will appear. There are three operation adding methods, respectively including forward to another Topic, forward to JCQ and forward to ES
-
-![scrpit](../../../../../image/IoT/IoT-Engine/Add-Action.png)
-
-### Note:
-
-The data reported by the device will be enhanced after being forwarded by the rule engine, and information such as device name, device identifier and device product will be added. Examples are as follows:
-
- The data format in which a device called test-device reports under the product iottest:
+- Data reported by the device: It describes the data fields and field types reported by the device.
 
 ```
-{
- "msgId": "123",
- "version": "1.0",
- "data": {
- "message": "Hello World"
- },
- "ts": 1559805611390
+{ 
+  "messageId":"1234567898765432",
+  "event":"connected",
+  "deviceId":"1.2.156.156.11.11.962",
+  "timestamp":1573696479
 }
 ```
+- User customized settings: When enhancing the data reported by the device, you can select a user customized setting to enhance information for the reported data. The reported data can be enhanced by expanded column, intercepted column and coalesced column.
 
-The format in which rule engine forwards out:
+![新建规则](../../../../../image/IoT/IoT-Core/Rule-Engine/User-Setting.png)
 
-```
-{
-  "identifier":"kKvX***kvx",
-  "message":"Hello World",
-  "productKey":"REwf***gdne",
-  "deviceName":"test-device",
-  "ts":"1577181657114"
-} 
-```
-
-### 2.2.1 Forward to another Topic
-
-- Select the required product and device and enter the customized topic name. If there is no optional product, please create a product in the product page and then add a device for the product on the device page. If there is no optional device, please add a device for the product on the device page.
-
-![scrpit](../../../../../image/IoT/IoT-Engine/Add-Action-FW-Topic.png)
-
-- Click **OK** and then you can see this MQTT operation type in the forwarding list. Meanwhile, it can be edited and deleted.
-
-### 2.2.2 Forward to JCQ
-
-For forward to JCQ, please complete information such as JCQ access point, Topic name, Topic type and region. You can find relevant information in Message Queue.
-
-Get parameter information of Message Queue:
-1. Log in **Message Queue** -> **Topic Management Page**
-2. Click the target Topic name to enter the Topic details. If Topic is not created in the Topic management page, click the **Create** button to create one.
-
-AK/SK information can be created/obtained on the AccessKey Management page.
-
-![scrpit](../../../../../image/IoT/IoT-Engine/Add-Action-FW-JCQ.png)
-Click **OK** and then you can see this JCQ action in the forwarding list. Meanwhile, it can be edited and deleted.
+Expanded column: Add expansion attributes to the forwarded data, such as: device ID, device name, product ID.
+Intercepted column: For a character type column, you can specify to intercept certain characters in the column, such as: ‘device.profile.name, 0, 4’, which means the device.profile.name columns to be intercepted starting from 0 with an interception length of 4. If you do not enter the interception length, the default interception is to the end.
+Coalesced column: It refers to the combination column (multiple columns are supported), supporting the combination of character and numeric. For instance, coalescing the character column (person.name:xiaoli) and numeric column (person.age:23), please enter 'person.name, person.age', and the final output result is: 'xiaoli23'
 
 
-### 2.2.3 Forward to ES
+**Data forward**
 
-For forward to ES, please complete information such as JD Cloud ES Intranet Access Point, JD Cloud ES Index and JD Cloud ES Type
+The data filtered by rules can be forwarded to three message storages: Kafka, MySQL, and JCQ.
 
-Get parameter information of JCS for Elasticsearch:
-1. Log in **JCS for Elasticsearch** -> **Cluster Management Page**,
-2. Click the Elasticsearch name of a target cluster to enter the basic information page of the Elasticsearch. If Elasticsearch clusters are not created in the Elasticsearch cluster management page, click the **Create** button to create them.
+- Note: Kafka and MySQL must be under the same VPC with the current IoT management platform instance.
 
-AK/SK information can be created/obtained on the AccessKey Management page.
-![scrpit](../../../../../image/IoT/IoT-Engine/Add-Action-FW-ES.png)
+1. Forward to Kafka
+To forward to kafka, you need to fill in the name, address and Topic.
 
-Click **OK** and then you can see this ES action in the forwarding list. Meanwhile, it can be edited and deleted.
+![转发到Kafka](../../../../../image/IoT/IoT-Core/Rule-Engine/Forward-To-Kafka.png)
 
+Get the parameter information of Kafka:
+- Log in **Message Queue Kafka Version** -> **Instance List**
+- Click the target Kafka name to enter the Kafka details. If Kafka is not created in the Instance List page, click the **Create** button to create one.
+- AK/SK information can be created/obtained on the AccessKey Management page.
+
+2. Forward to MySQL
+To forward to MySQL, you need to fill in the name, database address, library name, table name, column name, batch (data warehousing threshold), account number, and password.
+
+![转发到MySQL](../../../../../image/IoT/IoT-Core/Rule-Engine/Forward-To-MySQL.png)
+
+Get the parameter information of MySQL:
+- Log in **RDS** -> **Instance List**
+- Click the target MySQL name to enter the MySQL details and get the name and address, click to log in the database and get the database name, table name and column name. If MySQL is not created in the Instance List page, click the **Create** button to create one.
+- AK/SK information can be created/obtained on the AccessKey Management page.
+
+3. Forward to JCQ
+To forward to JCQ, you need to fill in the address, Topic, AccessKey/SecretKey message type, etc.
+
+![转发到JCQ](../../../../../image/IoT/IoT-Core/Rule-Engine/Forward-To-JCQ.png)
+
+Get the parameter information of Message Queue:
+- Log in **Message Queue** -> **Topic Management**
+- Click the target Topic name to enter the Topic details. If Topic is not created in the Topic Management page, click the **Create** button to create one.
+- AK/SK information can be created/obtained on the AccessKey Management page.
+
+## Edit Rules
+1. Log in the Rule Engine - Rules List page, select a rule, click the **Edit** button, and enter the Edit Rules page.
+2. If the rules are in stopped status, after entering the Edit Rules page, you can change the attributes of the rules, and click **Save** to take effect.
+3. If the rules are in running status, after entering the Edit Rules page, you cannot change the attributes of the rules.
+
+## Run/Stop Rules
+1. Log in the Rule Engine - Rules List page, click the **Run/Stop** button.
+2. After successfully running the rules, the running status starts. The operation button in the rules list changes into the Stop button. After successfully stopping the rules, the stopped status starts. The operation button in the rules list changes into the Stop button.
+
+![启停规则](../../../../../image/IoT/IoT-Core/Rule-Engine/Start-And-Stop-RuleEngine.png)
+
+## Delete Rules
+
+Log in the Rule Engine - Rules List page, click the **Delete** button. If the rules are in running status, they cannot be deleted; if the rules are in stopped status, they can be deleted; after being successfully deleted, they cannot be searched in the rules list.
+
+![删除规则](../../../../../image/IoT/IoT-Core/Rule-Engine/Delete-Rule-Engine.png)

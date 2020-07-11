@@ -6,8 +6,8 @@ JD Cloud provide instances with the following monitoring indicators which can be
   * Network Input Bandwidth  (Host): vm.network.bytes.incoming
   * Network Output Bandwidth (Host): vm.network.bytes.outgoing
 * They are collected by the public system components in Virtual Machines. All previous version components support collection and get data as long as these components are not uninstalled. There are 2 indicators of this type, including:
-  * CPU Util: vm.cpu.util
-  * Memory Util: vm.memory.usage
+  * CPU Util: cpu_util
+  * Memory Util: memory.usage
 * The remaining indicators are collected by the public system components in Virtual Machines. Only JCS-Agent components of which versions are not lower than '3.0.989' support collection.
 If you can view this type of indicators on the monitoring page, it means that the version of system components in your current environment is too low, please refer to **Monitoring Plug-in Installation Description** at the bottom of this context for installation.
 
@@ -16,7 +16,7 @@ The servicecode of product line monitoring data: vm. The indicator details are a
 ### Instance
 metric | Chinese Name | English Name | Unit | Description
 ---|--- |--- |---|---
-cpu.util | CPU使用率 | CPU Usage | % | 
+cpu_util | CPU使用率 | CPU Usage | % | 
 memory.usage | 内存使用率| Memory Usage | % | 
 vm.memory.used.bytes | 内存使用量 | Memory Used |  Bytes | 
 vm.avg.load1 | 平均负载1min | CPU Average Load 1min | - | 

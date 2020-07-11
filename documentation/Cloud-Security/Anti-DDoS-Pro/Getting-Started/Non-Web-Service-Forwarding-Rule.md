@@ -23,7 +23,7 @@ Rule configuration fields are interpreted as below:
 
 - Forwarding Protocol: TCP/UDP protocols can be selected.
 
-- Forwarding Port: Support the configuration of Anti-DDoS Pro forwarding ports, which shall be the same as the origin server ports as recommended. **Ports configured in the web service forwarding rules do not support duplicate configuration in the non-web service forwarding rules**.
+- Forwarding Port: Support the configuration of Anti-DDoS Pro forwarding ports, which shall be the same as the origin server ports as recommended. **Ports configured in the web service forwarding rules do not support duplicate configuration in the non-web service forwarding rules**. 
 
 - Forwarding Rules: Support round robin, weighted round robin and source IP hash.
 

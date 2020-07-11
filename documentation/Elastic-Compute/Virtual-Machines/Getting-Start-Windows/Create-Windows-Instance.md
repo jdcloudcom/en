@@ -27,18 +27,20 @@
 ![](../../../../image/vm/Getting-Start-Linux-Create-type.png)
 
 8. Configure Instance Storage:
-  * Virtual Machines System Disk: Support local disk and Cloud Disk, where the local disk has 40GB for free, and the capacity cannot be changed. The cloud disk supports 40GB~500GB.                   
+  * Virtual Machines System Disk: Support local disk and Cloud Disk, where the local disk has 40GB for free, and the capacity cannot be changed. The Cloud disk system disk supports 40GB~500GB.                   
   * Virtual Machines Data Disk: If the system disk is a local disk, 8 data disks can be attached. If the system disk is a cloud disk, 7 cloud disks can be attached as data disks. You may select general SSD Cloud Disk, performance-oriented SSD Cloud Disk and capacity-oriented HDD Cloud Disk. After the cloud disk is attached to a VM, it needs to access the Virtual Machines operating system to attach cloud disk.          
    
      You can create an empty disk of the specified type and capacity with the instance, or you can create a data disk based on an existing Cloud Disk Snapshot. For the assignment rules of data disk device name, please refer to [Assignment Rules](../Operation-Guide/Storage/Assign-Device-Name.md).      
      
     It supports the attachment of encrypted cloud disks to Virtual Machines (which is not supported by the first generation of instance specification). The cloud disk encryption attribute may be specified at the time of creating a null disk. If the disk is created from snapshot, the cloud disk encryption attribute is inherited from the snapshot side. After the creation of a cloud disk, its encryption attribute cannot be modified. For details, please refer to [Cloud Disk Service Encryption](../Operation-Guide/Storage/Encryption-of-Cloud-Disk.md). 
     
-    It supports Pay By Configuration, and the attribute of deletion on instance termination may be set for the non-multi-point attached cloud disk. If the attribute is checked, the disk will be deleted when the instance is deleted.   
+    It supports Pay By Configuration, and the attribute of deletion on instance termination may be set for the non-multi-point attached cloud disk. If the attribute is checked, the disk will be deleted when the instance is deleted.  
+    
+    Designating cloud disk snapshot policy by a single disk granularity is supported. You can designate the same or different snapshot policies for different cloud disks according to the backup. JD Cloud & AI will automatically and periodically back up your cloud disks according to the designated policies. For details, please refer to [Customized Snapshot Policy](https://docs.jdcloud.com/en/cloud-disk-service/snapshotpolicy).
     
 	The cost of the Cloud Disk is independent of the instance. For the specific price information, please refer to [Cloud Disk Price](http://docs.jdcloud.com/en/cloud-disk-service/billing-rules).
 
-![](../../../../image/vm/Getting-Start-Linux-Create-disk.png)
+![](../../../../image/vm/Getting-Start-Linux-Create-disk-new.png)
 
 9. Configure Instance Network:
 

@@ -26,16 +26,16 @@ The Elastic IP supports three types of billing, including Monthly Package, Pay b
 ### Billing by Consumption
 
 | IP provider	| Region	| IP retention cost (¥/day)	 | traffic cost (¥/GB) |
-|:--- |:--- | ---:| ---:|
+|:---:|:---:| ---:| ---:|
 |BGP	| cn-north-1/cn-south-1/cn-east-1/cn-east-2 | 0.48 | 0.80	|
 
 #### Billing Example
 
-| Region | Billing Type | Resource Configuration | Billing  Period | Cost |
-|:---:|:---:|:---:|:---:|:---:|
-| cn-north-1 | Fixed Bandwidth and Monthly Package | 50Mbps | Month | 125+(50-5)\*80=RMB 3,725 |
-|  | Fixed Bandwidth and Pay By Configuration | 50Mbps | Day | 0.22+(50-5)\*0.14\*24=RMB 151.42 |
-|  | Pay by Consumption | The bandwidth cap is 50Mbps and the actual traffic produced is 10GB | Day | 0.48+10\*0.80=RMB 8.48 |
+| Region | Billing Type | Charge Formula | Billing Examples |
+|:---:|:---:|:---:|:---:|
+| cn-north-1 | Pay by fixed bandwidth-monthly package | 5Mbps and below: For exact charges, please see the price list of "Pay by Fixed Bandwidth" <br /><br />  Above 5Mbps: 125+(n-5)\*80 | 50Mbps. The price is: 125+(50-5)\*80=RMB 3,725/month |
+|  | Pay by configuration of fixed bandwidth per hour | 5Mbps and below: For exact charges, please see the price list of "Pay by Fixed Bandwidth" <br /><br />  Above 5Mbps: (0.22+(n-5)\*0.14)\*hours | 50Mbps. The price is: (0.22+(50-5)\*0.14)\*24= RMB 156.48/day |
+|  | Pay by consumption | IP Retention Fee + Traffic Fee | The max. bandwidth is 50Mbps and the actual traffic produced is 10GB. 0.48+10\*0.80=RMB 8.48/day |
 
 ## Billing of Edge Elastic IP
 

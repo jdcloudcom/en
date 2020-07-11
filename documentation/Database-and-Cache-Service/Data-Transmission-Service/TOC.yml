@@ -5,6 +5,8 @@
     items:
       - name: Product Overview 
         href: Introduction/Product-Overview.md
+      - nameSupported Database
+        href: Introduction/Database-Type.md
       - name: Basic Architecture 
         href: Introduction/Basic-Infrastructure.md
       - name: Benefits 
@@ -15,26 +17,40 @@
         href: Introduction/Application-Scenarios.md    
   - name: Getting Started
     items:
-      - name: Create Migration Task 
-        href: Getting-Started/Create-Migration-Task.md
-      - name: Start Migration Task 
-        href: Getting-Started/Start-Migration-Task.md
-      - name: Modify Task Configuration 
-        href: Getting-Started/Modify-Migration-Task.md
-      - name: View Migration Task Progress 
-        href: Getting-Started/Describe-Task-Progress.md
-      - name: View Migration Task Detail 
-        href: Getting-Started/Describe-Task-Detail.md
-      - name: Execute Data Check 
-        href: Getting-Started/Data-Comparison-Description.md
-      - name: End Migration Task 
-        href: Getting-Started/Stop-Migration-Task.md
-      - name: Supported Database Type and Version 
-        href: Getting-Started/Database-Type-and-Version.md
-      - name: Pre-check Description 
-        href: Getting-Started/Task-Assessment-Description.md
-      - name: Define Migration Object with JSON Method 
-        href: Getting-Started/Define-The-Migration-Object-in-JSON.md
+      - name: Data Migration
+        items:
+          - name: Create Migration Task 
+            href: Getting-Started/Data-Migration/Create-Migration-Task.md
+          - name: Start Migration Task 
+            href: Getting-Started/Data-Migration/Start-Migration-Task.md
+          - name: Modify Task Configuration 
+            href: Getting-Started/Data-Migration/Modify-Migration-Task.md
+          - name: View Migration Task Progress 
+            href: Getting-Started/Data-Migration/Describe-Task-Progress.md
+          - name: View Migration Task Detail 
+            href: Getting-Started/Data-Migration/Describe-Task-Detail.md
+          - name: Execute Data Check 
+            href: Getting-Started/Data-Migration/Data-Comparison-Description.md
+          - name: End Migration Task 
+            href: Getting-Started/Data-Migration/Stop-Migration-Task.md
+          - name: Supported Database Type and Version 
+            href: Getting-Started/Data-Migration/Database-Type-and-Version.md
+          - name: Pre-check Description 
+            href: Getting-Started/Data-Migration/Task-Assessment-Description.md
+          - name: Define Migration Object with JSON Method 
+            href: Getting-Started/Data-Migration/Define-The-Migration-Object-in-JSON.md
+      - name: Data Subscription
+        items:
+          - name: Create Subscription Task 
+            href: Getting-Started/Data-Subscription/Create-Subscription-Task.md
+          - name: Configure Subscription Task  
+            href: Getting-Started/Data-Subscription/Config-Subscription-Task.md  
+          - name: Modify Subscription Task  
+            href: Getting-Started/Data-Subscription/Modify-Subscription-Task.md   
+          - name: Modify Subscription Target End  
+            href: Getting-Started/Data-Subscription/Modify-Subscription-Target.md
+          - name: Delete Subscription Task 
+            href: Getting-Started/Data-Subscription/Delete-Subscription-Task.md                 
   - name: Operation Guide
     items:
       - name: Migrate Self-built MySQL to Cloud Database MySQL

@@ -39,7 +39,7 @@ Content-Encoding
 Content-Disposition
 Cache-Control
 Expires
-```
+ ```
 
 * Where the file is written back to OSS via the image method, when the same file of the origin server is changed, then OSS will not update the file saved in OSS. This is because the file saved in OSS for the time being does not conform to the image write-back conditions.
 * If the file is not contained by the image origin server, i.e. http status returned by the image source to OSS is 404, then OSS will return 404 to the user. In case of the status code other than 200 (including the error situation that file getting failure due to the network reason), 424 will be returned by OSS to the user and the error code is "MirrorFailed".
@@ -53,13 +53,11 @@ Back-to-origin address does not support to configure OSS Intranet domain.
 Reference: [Set Image Back-to-origin](https://docs.jdcloud.com/en/object-storage-service/api/putbacksourceconfiguration?content=API)
 ### 2. Set the image back-to-origin by virtue of using OSS management console.
 
-(1) Login to the Console->Object Storage Service->Space Management->Enter a Bucket->Space Settings->Image back-to-origin
+(1) Login to the Console->Object Storage Service->Space Management->Enter a Bucket->Basic Setting, and then go to "Image Back-to-origin" functional region.
 
-![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-98.png)
+(2) Click a **setting rule** to enter the image back-to-origin rule list page.
 
-(2) Click a setting rule to enter the image back-to-origin rule list page.
-
-![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-99.jpg)
+![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-99.png)
 
 (3) Click **Create Rules**, set back-to-origin conditions and back-to-origin address in the creation pop-up. You can set whether carry request character string or not and set whether the 3xx request response is followed with the origin server re-direction request or not according to real demands. Meanwhile, customized pass-through, filtering or modification is supported by setting HTTP header transmission rules.
 ![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-100.png) 
@@ -91,7 +89,7 @@ Note:
     ```
 - In case of transmitting all HTTP Headers, all headers will be passed through, including the host header (generally, it is bucketname.endpoint, such as bucketname.s3.cn-north-1.jcloudcs.com), Since most origin servers will verify the host header, the origin servers may not recognize the request, so you shall check carefully. If you confirm to pass-through all headers, please configure as much as possible in [Prohibit Transmitting Designated HTTP header] to prohibit transmitting host header and other header which may affect origin server recognition.
 - The setting of HTTP header transmission rule is not supported by the following HTTP header types:
-    
+  
        header with the following prefixes:
            x-oss-
        All standard HTTP headers, for example:
@@ -100,13 +98,8 @@ Note:
            content-length
            range
            date
-             
+   
+
 (4) Click **OK** and submit rules.
 
-### After successfully keeping rules, you can view the back-to-origin rules set in the image back-to-origin rule list, and carry out operation such as editing, deletion or sorting.
-
-Login to the Console->Object Storage Service->Space Management->Enter a Bucket->Space Settings->Image back-to-origin
-
-![存储空间默认加密](../../../../../image/Object-Storage-Service/OSS-102.png)
-
-
+(5) In addition, after successfully saving the rules, you can view the back-to-origin rules set in the image back-to-origin rule list, and carry out operations such as editing, deletion or sorting.

@@ -8,12 +8,12 @@ See the following for the concepts and their interpretations used in the IoT Cor
 | Virtual Private Cloud (VPC) | A logically isolated network space customized by users on JD Cloud. This private network space is fully controlled by users and supports custom network segmentation and routing policies. Users can create and manage multiple cloud products in the VPC, such as Virtual Machines, load balancer, etc., and configure resources within the network to connect to the Internet. |
 | Subnet | A subnet is an IP address block within the IP address range of the Virtual Private Cloud (VPC). The subnet is under the VPC. After creating a VPC, users can add subnets under the VPC. IP address blocks of subnets under the same VPC cannot overlap, and IP address blocks of subnets under different VPCs can overlap. |
 | IoT Core Instance | IoT Core Instance, hereinafter referred to as instance, is the basic unit when a user purchases the IoT Core. Users should make instances independent from one another and resources isolated, when creating the instances.|
-| Product | Device Collection, the product is used for defining a group of devices with the same functions/attributes. IoT Core will issue a unique ProductKey for each product.|
-| Device | Specific device under a product. IoT Core will issue a unique Identifier and DeviceSecret for each device |
-| Sub-device | A sub-device is connected to the IoT Core through a gateway. |
-| Device Key Pair | Device Key Pair issued by IoT Core. |
+| Thing Type | Attribute set of a device type, used for defining a group of devices with the same functions/attributes.|
+| Device | Refer to a specific product under a product. IoT Core will issue a unique Identifier for each device. |
+| Indirectly Connected Device | Child device connected to IoT Core via a gateway. |
 | MQTT | Message Queuing Telemetry Transport. The message protocol based on the release/subscription model under the ISO standard (ISO/IEC PRF 20922). It works on the TCP/IP protocol family, as a release/subscription message protocol designed for remote device of low hardware performance and poor network conditions. |
-| Thing Model | Functional description of a device on cloud, comprising device telemetering attribute, device status attribute, device control command, etc. Thing Model is described with JSON format. |
+| Thing Type | A thing of specific type, e.g., function description on cloud of an air conditioner (model: 001) from a manufacturer; three thing types are provided, including directly connected device, connection proxy device and indirectly connected device |
+| Thing Model | Specific function description of one thing type device on cloud, including remote device telemetering attribute, device status attribute, device control command, etc. Thing Model adopts the description in the format of JSON. |
 | Thing Model – Device Telemetry Data | The packet streaming data of device uplink is an observation value describing objective facts, which cannot be modified by the Cloud Service or other applications. |
 | Thing Model – Device Control Instruction | The control instructions of devices actively called by the Cloud Service or other applications or triggered by a rule in the rule engine will not modify the device status attribute. For example, the message broadcast instruction of all devices. |
 | Device Shadow | Comprise device status attribute data and save current status information of the device. Each device shall have a corresponding device shadow in cloud. |
@@ -23,14 +23,9 @@ See the following for the concepts and their interpretations used in the IoT Cor
 | Service | A series of instructions and methods that can be called by the external (IoT Core/Application). Compared with attribute setting, a service can provide more complex business logics. For example, execute a task. |
 | Event | It refers to the information reported by the thing itself, including many messages that need to be perceived and processed in time, such as warning information and fault information. |
 | Topic | Topic refers to the transmission media used for releasing/subscribing message. |
-| ProductKey | Unique identifier of product, each device belongs to one product.|
-| ProductSecret	| Product secret key, used for verifying one model and one password of user’s device |
 | DeviceName	| Device name, generally device mac address, SN, etc. |
-| DeviceSecret	| Device secret key, used for information signature |
 | Identifier	| Global and unique identifier of device, used for information signature |
-| One Model and One Password | A device can dynamically get Identifier and DeviceSecret for verification connection via ProductKey, ProductSecret and DeviceName. |
 | One Machine and One Password  | A device can make verification connection via ProductKey, Identifier and DeviceSecret |
-| Three-element Group  | ProductKey, Identifier and DeviceSecret of device are called as the three-element group |
 
 
 ## Related References

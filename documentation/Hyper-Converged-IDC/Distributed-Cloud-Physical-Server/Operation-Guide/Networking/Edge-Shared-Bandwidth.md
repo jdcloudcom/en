@@ -94,7 +94,7 @@ For details, please refer to Edge Shared Bandwidth [Price Overview](../../Pricin
 
 - Turn on the Console, click **Shared Bandwidth** in the left navigation bar, select a target shared bandwidth, click **Renew** in the operations or enter the details and then click **Renew** in the operations; select the duration to be renewed in the popup, click **Renew** to redirect to the "Payment Confirmation Page" and then click **Pay Now** to complete the operations.<br/>
 
-Note: Shared bandwidth paid by configuration does not support renewal.
+- Note: The Shared Bandwidth charged by configuration will be converted to the resource of Monthly Package after renewal operations.
 
 ### Delete
 

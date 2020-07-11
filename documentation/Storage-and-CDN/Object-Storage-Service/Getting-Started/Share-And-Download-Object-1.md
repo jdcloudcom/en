@@ -3,22 +3,18 @@
 
 After creating bucket and uploading objects to the bucket, you can share and download the objects through obtaining external link of the uploaded objects according to the below specific action steps:
 
-1.Enter Object Storage Service console and then bucket management; click the bucket you need to access in the buckets list; after that, obtain the object list:
+1. Log in [Object Storage Service Console](https://oss-console.jdcloud.com/space);
 
-2.Find the object to be shared and downloaded and click **Obtain external link**:
+2. Click **Space Management** menu, and then click the target Bucket name;
 
-![分片管理](../../../../image/Object-Storage-Service/OSS-015.png)
+3. Click **Object Management** option to go to the File Management List page of this space;
 
-3.If access permission of current bucket is private read and private write or customized permission, the below popup will show after clicking **Obtain external link**, that means you need to set the valid time of the link before obtaining the external link of the object:
+4. Find the file to be shared and downloaded and click **Get External Link** in the [Operations];
 
-![有效期](../../../../image/Object-Storage-Service/OSS-016.png)
+5. If the access permission to current bucket is private read/write or customized permission, the below popup will show after users click **Get External Link**, which means you need to set a valid time of the link before obtaining an external link of the file. After time setting, click **Get External Link** to generate an external link; you can replicate the external link by pressing the button on the right side of the external link address;
 
-4.after finishing time set, click **Obtain external link** to generate external link; you can replicate the external link by pressing the button on the right side of the external link ;
+   ![有效期](../../../../image/Object-Storage-Service/OSS-016.png)
 
-![复制外链](../../../../image/Object-Storage-Service/OSS-017.png)
+6. If the access permission to current bucket is public read and private write or public read/write, click **Get External Link** to get an external address in the popup. The valid period of the external link is not required because this external link address is valid permanently (unless the access permission to the bucket is changed to private read/write);
 
-5.If access permission of current bucket is Public Read and Public Write or public read, the below popup will show after clicking **Obtain external link**; you don't need to set the valid period of the external link since this external link  is valid permanently (except to modify the access permission of bucket to private):
-
-![外链地址永久有效](../../../../image/Object-Storage-Service/OSS-018.png)
-
-6.Replicate the external link of the object to browser address bar to complete the access and download of this object.
+7. Replicate the external link address of the file to a browser address bar to complete the access and download of this file.

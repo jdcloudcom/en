@@ -24,11 +24,7 @@ In case of multipart upload, Object will be cut into several Parts, and these Pa
 
 4. Click **Shard Management**, to open shard management page.
 
-![分片管理](../../../../image/Object-Storage-Service/OSS-154.png)
- 
-
 5. Select the uncompleted shard files, and click **Delete** or **Batch Delete**, complete deletion.
-
 
 **Description**
 

@@ -1,12 +1,20 @@
-# 应用场景
+# Application Scenario
 
-以下说明数据传输 DTS 的使用场景。
+Application scenarios for data transmission DTS is specified as follows.
 
-## 数据迁移上云
+## Hot Migration and JD Cloud Onboarding of Data
 
-数据传输 DTS 支持不停服数据迁移，迁移过程中持续获取源数据库的增量数据并更新到目标数据库，数据迁移期间不影响源数据库对外提供服务，从而最大程度地减少上云过程对业务的影响。
+DTS supports data migration without service suspension in such a way that incremental data of the source database will be continuously obtained and updated to the target database in the migration process. During the data migration process, service provided by the source database will not be affected, reducing influence to business by JD Cloud Onboarding to the greatest extent.
 
 ![1570775871943](../../../../image/Data-Transmission-Service/dts-005.png)
+
+
+
+## Asynchronous Decoupling of Business
+
+Via the data subscription service provided by DTS, deeply-coupled business can be optimized to asynchronous coupling via real-time message notification. For example, the business system A can directly return data after writing in data; the underlayer obtains data change via the data subscription service of DTS; and finally, the business system B can subscribe these changed data via SDK subscription.
+
+![image-20200629182618385](../../../../image/Data-Transmission-Service/dts-036.png)
 
 
 

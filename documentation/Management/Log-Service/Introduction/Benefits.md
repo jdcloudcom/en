@@ -9,7 +9,7 @@ For business application logs, it is unnecessary to manually install log collect
 Support full-text retrieval and key value retrieval, make full use of log data to meet operation and maintenance needs.  
 
 ## Support Multiple Cloud Products
-Currently support Application Security Gateway and function computing services; log collection of other cloud products such as Container Instance and Load Balancer will be continuously increased.
+Dozens of log types of multiple cloud products including Application Security Gateway, Function Computing Service, Database RDS, JCS for Redis and Load Balancer can be collected.
 
 ## Delivery to Multiple Destinations
 For business application logs, delivering log data to log subjects is supported, and delivering log data to Cloud ES, Cloud Kafka, self-built ES or self-built Kafka is also supported.

@@ -6,7 +6,9 @@ Support delivery of business application to JCS for Elasticsearch and the Elasti
 
 ### Operation Process
 
-1. During the creation of the log configuration for business application, the advanced configuration and the designated destination for delivery shall be enabled, and Kafka shall be selected as the type of delivery destination.
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogCollection/toES.png)
+
+1. During the creation of the log configuration for business application, the advanced configuration and the designated destination for delivery shall be enabled, and ES shall be selected as the type of delivery destination.
 
 2. Users shall select the cloud ES instance in certain region based on their needs or choose to establish ES by themselves. If users select the cloud ES, the access domain of the ES will be acquired by default; if users choose to establish ES by themselves, they need to fill out the access domain of the corresponding self-established ES.
 

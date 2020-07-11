@@ -27,7 +27,7 @@ The instance voucher sets a Console entry under the menus [Elastic Compute - Vir
 ![](../../../../../image/vm/iv-buy2.png)
 
 3. Select applicable products:<br>
-Vouchers of VM instance type can be only used for Virtual Machines and vouchers of Native Container/POD instance type can be only used for Native Container or POD.<br>
+Provide three suitable instances types, including Virtual Machines, Container and POD.<br>
 
 ![](../../../../../image/vm/iv-buy3.png)
 

@@ -99,6 +99,8 @@
           href: Operation-Guide/status.md
         - name: Create Alarm Rules
           href: Operation-Guide/Monitor_Rules.md
+        - name: One-click Alarm
+          href: Operation-Guide/Onekey-Alarm.md
       - name: Tag
         items:
         - name: Tag Overview
@@ -130,7 +132,13 @@
      - name: Suggestions for Monitoring Alarm Configuration
        href: Best-Practices/automonitor.md
   - name: FAQ
-    href: FAQ/FAQ.md
+    items:
+    - name: Product Related
+       href: FAQ/FAQ.md
+    - name: Access Related
+       href: FAQ/Access.md
+    - name: Function Related
+       href: FAQ/Function.md   
   - name: Related Resources
     items:
     - name: Document History

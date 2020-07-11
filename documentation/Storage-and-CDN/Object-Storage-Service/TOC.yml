@@ -117,6 +117,8 @@ items:
             href: Operation-Guide/Manage-Object/Restore-Glacier-Object.md
           - name: Object Lock
             href: Operation-Guide/Manage-Object/Object-Lock.md
+          - name: SelectObject (Beta)
+            href: Operation-Guide/Manage-Object/Select-Object.md
       - name: Permission Control
         items:
            - name: Permission Control Overview
@@ -341,6 +343,8 @@ items:
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Upload-Part-Copy-2.md
               - name: Post Object Restore
                 href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Post-Object-Restore.md
+              - name: Select Object Content (Beta)
+                href: API-Reference-S3-Compatible/Compatibility-API/Operations-On-Objects/Select-Object-Content.md
       - name: Error Response
         href: API-Reference-S3-Compatible/Error-Response-2.md
       - name: Expansion Interface

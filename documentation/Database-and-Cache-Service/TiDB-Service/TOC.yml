@@ -1,92 +1,103 @@
-  name: TiDB Service
-  href:
-  items:
+name: TiDB Service
+href:
+items:
   - name: Introduction
     items:
-    - name: Product Overview
-      herf: Introduction/Product-Overview.md
-    - name: Core Concept
-      herf: Introduction/Core-Concepts.md
-    - name: Basic Infrastructure
-      herf: Introduction/Basic-Infrastructure.md
-    - name: Benefits
-      herf: Introduction/Benefits.md
-    - name: Features
-      herf: Introduction/Features.md
-    - name: Specifications
-      herf: Introduction/Specifications.md
-    - name: Restrictions
-      herf: Introduction/Restrictions.md
-    - name: Application Scenarios
-      herf: Introduction/Application-Scenarios.md
-    - name: Public Beta Introduction
-      herf: Introduction/Public-Beta-Introduction.md      
+      - name: Product Overview
+        href: Introduction/Product-Overview.md
+      - name: Core Concept
+        href: Introduction/Core-Concepts.md
+      - name: Basic Infrastructure
+        href: Introduction/Basic-Infrastructure.md
+      - name: Benefits
+        href: Introduction/Benefits.md
+      - name: Features
+        href: Introduction/Features.md
+      - name: Specifications
+        href: Introduction/Specifications.md
+      - name: Restrictions
+        href: Introduction/Restrictions.md
+      - name: Application Scenarios
+        href: Introduction/Application-Scenarios.md
+      - name: Public Beta Introduction
+        href: Introduction/Public-Beta-Introduction.md    
 
   - name: Getting Started
     items:
-    - name: Create Instance
-      herf: Getting-Started/Create-TiDB-Instance.md
-    - name: Connect Instance
-      herf: Getting-Started/Connect-TiDB-Instance.md
-    - name: Monitor Instance
-      herf: Getting-Started/TiDB-Monitor.md
+      - name: Create Instance
+        href: Getting-Started/Create-Instance.md
+      - name: Connect Instance
+        href: Getting-Started/Connect-Instance.md
+      - name: Monitor Instance
+        href: Getting-Started/TiDB-Monitor.md
 
   - name: Operation Guide
     items:
-    - name: Instance Management
-      items:
-      - name: Create Instance
-        herf: Operation-Guide/Instance/Create-Instance.md
-      - name: Delete Instance
-        herf: Operation-Guide/Instance/Delete-Instance.md
-      - name: Connect Instance
-        herf: Operation-Guide/Instance/Connect-Instance.md
+      - name: Instance Management
+        items:
+          - name: Create Instance
+            href: Operation-Guide/Instance/Create-Instance.md
+          - name: Delete Instance
+            href: Operation-Guide/Instance/Delete-Instance.md
+          - name: Connect Instance
+            href: Operation-Guide/Instance/Connect-Instance.md
 
-    - name: Node Management
-      herf: Operation-Guide/Node-Management.md
-    - name: Reset Password
-      herf: Operation-Guide/Reset-Password.md
-    - name: Monitor Instance
-      herf: Operation-Guide/Monitor.md
+      - name: Account Management
+        items:
+          - name: Create Account
+            href: Operation-Guide/Account/Create-Account.md
+          - name: Reset Password
+            href: Operation-Guide/Account/Reset-Password.md
 
+      - name: Backup Management
+        items:
+          - name: Create Backup
+            href: Operation-Guide/Backup/Create-Backup.md
+          - name: Create Based on Backup
+            href: Operation-Guide/Backup/Create-Instance-From-Backup.md
+          - name: Delete Backup
+            href: Operation-Guide/Backup/Delete-Backup.md
+          - name: Modify Policy
+            href: Operation-Guide/Backup/Modify-Backup-Strategy.md
+ 
   - name: SQL Syntax
     items:
-    - name: Data-processing-related SQL
-      herf: SQL-Syntax/Data-SQL.md
-    - name: Database-related SQL
-      herf: SQL-Syntax/Database-SQL.md
-    - name: Table-related SQL
-      herf: SQL-Syntax/Table-SQL.md
-    - name: Index-related SQL
-      herf: SQL-Syntax/Index-SQL.md
-    - name: User-related SQL
-      herf: SQL-Syntax/User-SQL.md
+      - name: Data-processing-related SQL
+        href: SQL-Syntax/Data-SQL.md
+      - name: Database-related SQL
+        href: SQL-Syntax/Database-SQL.md
+      - name: Table-related SQL
+        href: SQL-Syntax/Table-SQL.md
+      - name: Index-related SQL
+        href: SQL-Syntax/Index-SQL.md
+      - name: User-related SQL
+        href: SQL-Syntax/User-SQL.md
 
   - name: Best Practices
     items:
-    - name: Data Migration
-      items:
-      - name: Data Migration Overview
-        herf: Best-Practices/Data-Migration/Data-Migration-Overview.md
-      - name: Full Migration
-        herf: Best-Practices/Data-Migration/Full-Import.md
-      - name: Increment Migration
-        herf: Best-Practices/Data-Migration/Incremental-Import.md
-    - name: Big Data Volume Processing
-      herf: Best-Practices/Data-Operation.md
-    - name: Parameter Optimization
-      herf: Best-Practices/Parameters-Optimization.md
-    - name: Efficient Use of Secondary Index
-      herf: Best-Practices/Secondary-Index.md
+      - name: Data Migration
+        items:
+          - name: Data Migration Overview
+            href: Best-Practices/Data-Migration/Data-Migration-Overview.md
+          - name: Full Migration
+            href: Best-Practices/Data-Migration/Full-Import.md
+          - name: Increment Migration
+            href: Best-Practices/Data-Migration/Incremental-Import.md
+      - name: Big Data Volume Processing
+        href: Best-Practices/Data-Operation.md
+      - name: Efficient Use of Secondary Index
+        href: Best-Practices/Secondary-Index.md
 
   - name: Performance Test
     items:
-    - name: sysbench Performance Test
-      herf: Performance-Test/sysbench-Test.md
-    - name: TPC-H 50G Performance Test
-      herf: Performance-Test/tpch-Test.md
-
+      - name: How to Test with Sysbench
+        href: Performance-Test/benchmark-tidb-using-sysbench.md
+      - name: How to Conduct TPC-C Test
+        href: Performance-Test/benchmark-tidb-using-tpcc.md
+      - name: Performance Test Result Overview
+        href: Performance-Test/Performance-Test-Overview.md
+      
   - name: FAQ
-    herf: FAQ/FAQ.md
-
-
+    items:
+      - name: FAQ
+        href: FAQ/FAQ.md

@@ -31,7 +31,7 @@ The log service usage process is as follows:
 
 3.	 For business application logs, the collection status shall be selected, the log file path and collection instance information shall be filled in, and senior configuration shall be set according to demands.
 
-![业务应用日志源设置](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/GettingStarted/logsource-custom.png)
+![业务应用日志源设置](https://github.com/jdcloudcom/cn/blob/zhangwenjie-only/image/LogService/GettingStarted/logsourcefromcustom.png)
 
 4.	 Click **Save** to enter the completion page. The page will automatically redirect to the log retrieval page 5 seconds later. Or, you can click **Log Dump** or **Log Monitoring** to create a dump task and a monitoring task.
 

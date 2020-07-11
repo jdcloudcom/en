@@ -66,7 +66,7 @@ For SDK, it is recommended that you use AWS SQS SDK. JD Cloud Queue Service supp
 
 ![接入点地址](../../../../image/Internet-Middleware/Queue-Service/入门指南-07.png)
 
-![地址信息](../../../../image/Internet-Middleware/Queue-Service/入门指南-08.png)
+![地址信息](../../../../image/Internet-Middleware/Queue-Service/入门指南--接入点.png)
 
 
 

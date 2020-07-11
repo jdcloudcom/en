@@ -14,31 +14,24 @@ If you are creating a Bucket through API or SDK, and you do not specify the Buck
 
 ### Operation Steps in Console
 
-1. Log in the JD Cloud console, select Object Storage Service -> Space Management -> Space Setting, and select **Permission Setting** to display your current permission setting contents, as shown in the figure:
-![修改空间权限](../../../../../image/Object-Storage-Service/OSS-103.png)
+1. Log in JD Cloud Console, select **Object Storage Service->Space Management->Permission Management**, and then select **Permission Setting** to display contents of your current permission setting.
 2. Modify the space permissions, as shown in the figure:
  ![修改空间权限](../../../../../image/Object-Storage-Service/OSS-120.png)
- 
+
  **Description:**
- 
+
  * If you modify ACL, please click the drop-down box of Read/Write Permission Setting, and select Private Read/Write, Public Read and Private Write and Public Read/Write 3 permissions, and then click **OK**.
 
- * If you want to achieve a fine-grained permission management for Bucket, please use the Bucket policy. In Read/Write Permission Setting, click **Customized Permission**, then you can complete the setting of Bucket policy. The setting page is shown as below figure
- ![修改空间权限-Bucket policy](../../../../../image/Object-Storage-Service/OSS-121.png)
- It supports two methods: permission form setting and editors:
- - Add Customized Permission**--You can use a convenient and simple form to complete the setting by filling in the setting items.
+ * If you want to achieve a fine-grained permission management for Bucket, please use the Bucket policy. In Read/Write Permission Setting, select **Customized** permission, then you can complete the setting of Bucket policy. It supports two methods: permission form setting and editors, which are described as follows.
+ - **Add Customized Permission**--You can use a convenient and simple form to complete the setting by filling in the setting items.
    ![修改空间权限](../../../../../image/Object-Storage-Service/OSS-122.png)
       - (1) A maximum of 10 Bucket Policies can be created for each Bucket;
       - (2) The definition of each field in the Bucket Policy is as follows:
-a. User authorization: It defines the users affected by the Bucket Policy. The default value is "*", and the semantics is valid for all users. If it shall only be valid for part of the users, please click **customized users" and enter the user ID of the corresponding users in the text box (Note: User ID is different from user Pin; your user ID can be queried in User Management and the effect is as the image below), one user ID per line, that is, multiple user IDs shall be separated by line feed character intervals.
+         a. User authorization: It defines the users affected by the Bucket Policy. The default value is "*", and the semantics is valid for all users. If it shall only be valid for part of the users, please click **customized users" and enter the user ID of the corresponding users in the text box (Note: User ID is different from user Pin; your user ID can be queried in User Management and the effect is as the image below), one user ID per line, that is, multiple user IDs shall be separated by line feed character intervals.
          1. Primary account: AccountID
          2. Sub-accounts AccountID: username/username. One user ID per line, that is, multiple AccountID shall be separated by line feed character intervals
-         (Note: Your AccountID can be searched in User Management and the effect is as the figure below).
+         (Note: Your AccountID can be searched in User Management).
          
-        ![用户授权1](../../../../../image/Object-Storage-Service/OSS-033.png)
-
-        ![用户授权2](../../../../../image/Object-Storage-Service/OSS-034.png)
-
         b. Involved action: It defines the actions that can be performed on the Bucket. Single-selection and full-selection are both okay, but at least one item shall be selected. Each action is defined as follows:
 
         |Action Item Name|Action item description|
@@ -48,12 +41,12 @@ a. User authorization: It defines the users affected by the Bucket Policy. The d
         |DeleteObject|Delete an Object in the Bucket|
         |ListBucket|List the Objects in the Bucket|
         |DeleteBucket|Delete the Bucket|
-
+        
         c. Affected resources: It defines which resources under the Bucket are operable or inoperable (i.e. Allow or Deny). "Operable Resources" is selected by default. The default value in the text box is bucketname/*, and the semantics is all resources under the current Bucket are operable; the enter format example is: myBucket/myfolder/object*, myBucket/*; the contents must start with the Bucket name. If the resource has only one slash, it cannot end with a slash; multiple resources can be set, with 1 and at most 1 wildcard in each line. At most 10 records can be added.
-
+        
         d. Referer White List: Since the Object Storage Service is charged by consumption, in order to prevent the chain of data stored in the Object Storage Service from being stolen by others, Object Storage Service supports the Referer anti-leech chain method based on the header field in the HTTP Header. You can set the White List of the Referer field to a Bucket and set whether to allow the request access with blank Referer in the customized permissions on the Object Storage Service console or through API. The following is a detailed explanation of the rules of the Referer White List.
  - Add Customized Editor**--You can use the visual editor to directly fill in the legitimate Bucket policy specified by JSON.
-  ![修改空间权限](../../../../../image/Object-Storage-Service/OSS-107.png)
+    ![修改空间权限](../../../../../image/Object-Storage-Service/OSS-107.png)
   
    **Details Description**
      - No notes can be added in the editor and a maximum of 16KB is allowed to be entered.
@@ -83,7 +76,8 @@ Semantics Explanation of Referer White List:
 
 * When the user setting allows the Referer to be blank and does not allow the White List to be blank, the request of the Referer being blank and the requests consistent with the White List will be allowed, and the other requests will be denied;
 
-* When the user setting does not allow the Referer to be blank and allow the White List to be blank, regardless of whether the Referer is blank, all the requests will be denied;
+
+When the user setting does not allow the Referer to be blank and allow the White List to be blank, regardless of whether the Referer is blank, all the requests will be denied;
 
 * When the user setting does not allow the Referer and the White List to be blank, only the request that the Referer belongs to the White List will be allowed, and the other requests (including the Referer being blank) will be denied;
 
@@ -92,11 +86,11 @@ The reference effect is as follows:
 ![Referer白名单](../../../../../image/Object-Storage-Service/OSS-123.png)
 
  
- 
+
  
 
  
+
  
- 
- 
+
 

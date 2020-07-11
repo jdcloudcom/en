@@ -1,4 +1,5 @@
 *You can use this function only when you enable it in the product or subscribe it by opening ticket*
+
 # Edge Storage
 
 The underlayer of the Edge Storage takes advantage of the system established by IPFS (Interplanetary File System), having the features below:
@@ -43,30 +44,19 @@ Setting up the Edge Storage may be helpful when you have the following needs:
 
 1) Log in the Console->Object Storage Service->Space Management->Enter a Bucket->Space Settings->Edge Storage
 
-![边缘存储-空间设置](../../../../../image/Object-Storage-Service/edgeStorage/%E7%A9%BA%E9%97%B4%E7%AE%A1%E7%90%86-%E5%BC%80%E5%90%AF.png)
-
 2) Click **Start** upon confirmation.
-
-![边缘存储-空间设置](../../../../../image/Object-Storage-Service/edgeStorage/开启-确认.png)
-
-![边缘存储-空间设置](../../../../../image/Object-Storage-Service/edgeStorage/%E5%BC%80%E5%90%AF-%E7%A1%AE%E8%AE%A4%E5%90%8E.png)
 
 Description: The following action can be made only when it is confirmed that the "Edge Storage" service is enabled.
 
 2. OSS Synchronization to Edge Storage
+
 <div id="user-content-7"></div>
 
 1) Log in the Console->Object Storage Service->Space Management->Enter a Bucket->Object Management
 
-![Object管理](../../../../../image/Object-Storage-Service/edgeStorage/object管理.png)
-
 2) Synchronize a single file or files in batches.
 
-![Object管理](../../../../../image/Object-Storage-Service/edgeStorage/批量或单个同步.png)
-
 3) Click **Synchronize to Edge Storage** or **Synchronize to Edge Storage in batch** to display files selected and synchronization details.
-
-![Object管理](../../../../../image/Object-Storage-Service/edgeStorage/同步至边缘.png)
 
 4) Click **OK**, then the task amount will be displayed on the upper top of the page and the details can be viewed.
 
@@ -74,20 +64,12 @@ Description: The following action can be made only when it is confirmed that the
 <div id="user-content-8"></div>
 
 1) Log in the Console->Object Storage Service->Edge Storage->File Management
-
-![文件管理](../../../../../image/Object-Storage-Service/edgeStorage/文件管理new.png)
                       
 2) Synchronize a single file or files in batches.
 
-![批量同步](../../../../../image/Object-Storage-Service/edgeStorage/同步至OSS.png)
-
-Where the user has its own IPFS nodes and hopes to store its own files in OSS, please directly click **Synchronize to OSS** and fill in the information as shown in the figure below, without selecting any file.
-
-![同步OSS](../../../../../image/Object-Storage-Service/edgeStorage/同步OSS.png)
+Where the user has its own IPFS nodes and hopes to store its own files in OSS, please directly click **Synchronize to OSS** and fill in the related information, without selecting any file.
 
 3) View Synchronization Log
-
-![同步日志](../../../../../image/Object-Storage-Service/edgeStorage/边缘存储-同步日志.png)
 
 
 ## API Unified Information
@@ -445,11 +427,11 @@ x-jdcloud-pin: "userPin"
 ipfs add file Load local files to the IPFS network
 
 ipfs object get <cid> Search object information of files
-  
+
 ipfs files stat /ipfs/<cid> Search file status information
-  
+
 ipfs cat <cid> file Download files in IPFS network to the local memory
-  
+
 API List: https://docs.ipfs.io/reference/api/cli/
 
 ### 2. Can the non-public network IPFS files be synchronized to OSS?

@@ -16,3 +16,4 @@ This document introduces the important update history of the Distributed Cloud P
 |2020.04.17|V1.7|Support double network interface, double VPC, Shared Bandwidth functions of instances;|
 |2020.05.06|V1.7.1|Support directly adding Elastic IP into the shared bandwidth for purchase; <br/>support synchronously enabling automatic renewal feature on monthly package resource purchase page;|
 |2020.05.27|V1.8|Support adding tags when creating instances; <br/>Support uploading user data in file format;|
+|2020.06.30|V1.8.1|Launch the new category Edge Compute Performance Ⅱ (Generation II); <br/>Support changes of the billing method "Pay by Configured Resource"; <br/>Support bandwidth downgrade function for resource in Monthly Package;|

@@ -1,11 +1,13 @@
 # Delete Object
 
-You can at any time delete files you do not need in Bucket to avoid costs of storage capacity according to the below action process:
+This document describes how to delete a file in Bucket through Object Storage Service (OSS) Console. You can at any time delete files you do not need in bucket to avoid costs of storage capacity according to the operational process below:
 
-1.Enter Object Storage Service console and then space management; click the bucket you need to access in the space list; after that, click **Object Management**:
+1. Log in Object Storage Service Console.
 
-2.Find the file to be deleted and click **Delete**:
+2. Access the Space Management, click the bucket you need to access in the space list, and then click **Object Management** tab.
 
-![Delete Object](../../../../../image/Object-Storage-Service/OSS-051.png)
+3. Select one or more files, select **Batch Operation > Batch Deletion**.
 
-3.Click **Delete** and then a notification asking confirmation to delete pops up; click **OK** to delete; files is unrecoverable after deletion.
+   You can also select **Delete** on the right side of the target file to delete a single file.
+
+4. In the dialog box **Delete File**, click **OK** to delete the file, which is unrecoverable after being deleted.

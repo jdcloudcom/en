@@ -8,7 +8,9 @@ Steps for quick use of Queue Service:
 
 3. Send and receive messages
 
-   
+### Supported Region
+
+The Queue Service is now provided in cn-north-1 and cn-east-2.
 
 ### Development languages supported by the Queue Service SDK:
 

@@ -6,6 +6,8 @@ Support delivery of business application to cloud Kafka and the Kafka self-estab
 
 ### Operation Process
 
+![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogCollection/toKafka.png)
+
 1. During the creation of the log configuration for business application, the advanced configuration and the designated destination for delivery shall be enabled, and Kafka shall be selected as the type of delivery destination.
 
 2. Users shall select the cloud Kafka instance in certain region based on their needs or choose to establish Kafka by themselves. If users choose to establish Kafka by themselves, they need to fill out the brokers of the corresponding self-established Kafka.

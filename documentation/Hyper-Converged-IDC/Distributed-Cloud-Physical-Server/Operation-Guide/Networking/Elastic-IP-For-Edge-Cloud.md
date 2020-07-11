@@ -119,7 +119,7 @@ For details, please refer to Elastic IP [Price Overview](../../Pricing/Price-Ove
 
 - Turn on the Console, click **Elastic IP** in the left navigation bar to open list page, select a target EIP, click **Renew** in operation or log in the details and then click **Renew** in operation, and select the duration to be renewed, click **OK** to redirect to **Payment Confirmation Page** and then click **Pay Now** to complete the operations. Note:<br/>
 
-- Note: Elastic IP paid by configuration does not support renewal.
+- Note: The Elastic IP charged by configuration will be converted to the resource of Monthly Package after renewal operations.
 
 ### Delete
 

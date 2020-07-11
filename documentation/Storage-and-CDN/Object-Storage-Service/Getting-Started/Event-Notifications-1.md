@@ -12,11 +12,11 @@ You may enable the event notification function for the bucket such that a notifi
 For information about informing event to REST API, please refer to [Event Notification-API](https://docs.jdcloud.com/en/object-storage-service/callback-notification-2).
 
  **Type supported by event notification: [OSS can send notification for the following event types](Event-Notifications-1#user-content-1)**
- 
+
  **Targets supported by event notification: [Targets Reachable by Event Notification Message](Event-Notifications-1#user-content-2)**
- 
+
  **Event notification setting in the Console: [Event Notification Setting in the Console](Event-Notifications-1#user-content-3)**
- 
+
 
 # Type and Target Supported by Event Notification
 
@@ -47,23 +47,21 @@ s3:ObjectRemoved:Delete |Delete Files
 
 # Event Notification Setting in the Console
 
-1. Log in the JD Cloud Console, select Object Storage Service -> Space Management -> Space Setting, and select **Event Notification**, as shown in the figure:
+1. Log in the JD Cloud Console, select Object Storage Service -> Space Management -> Advanced Configuration, and select **Event Notification**, as shown in the figure:
 
- ![事件通知](../../../../image/Object-Storage-Service/OSS-148.png)
- 
- 2. Click **Creation Rules** to open the rule creation page.
- 
+2. Click **Creation Rules** to open the rule creation page.
+
  ![事件通知](../../../../image/Object-Storage-Service/OSS-149.png)
- 
- 3. Please enter the rule name in the **Name** box.
- 
+
+3. Please enter the rule name in the **Name** box.
+
  **Description**
- 
+
  * At most 100 rules can be created for your bucket.
  * The name shall be restricted to 256 bytes, consisting of the letter, the number, the underline (_) and the line-through (-).
- 
- 4. Select one or more events for message notification from the **Event Type** drop-down list.
- 
+
+4. Select one or more events for message notification from the **Event Type** drop-down list.
+
 **Description**
 
 * The event type corresponds to different operations of OSS resources. For specific types and meanings, please refer to the following [OSS can send notifications for the following event types](Event-Notifications-1#user-content-1).
@@ -84,34 +82,24 @@ s3:ObjectRemoved:Delete |Delete Files
    -  To concern all files under the directory jdcloudoss in the bucket, the prefix shall be completed as jdcloudoss/ and suffix shall not be completed.
    -  To concern all .jpg images in the bucket, the prefix shall not be completed while the suffix shall be completed as .jpg.
    -  To concern all films in the .mp3 under the directory jdcloudoss in the bucket, the prefix shall be completed as jdcloudoss/ and suffix shall be completed as .mp3.
-   
+  
+
  6. Select [http(s)] or the [Function Service] in the "Send to" drop-down box to complete setting of the receiving terminal.
- 
+
 **Description**
 
 * [http(s)]: OSS will release message to this address and you can enter 5 callback addresses at most. The address must be the complete URL and the http protocol shall be specified. For more, please refer to [Callback Notification](https://docs.jdcloud.com/en/object-storage-service/callback-notification-2).
 * [Function Service]: Function scripts based on OSS events can be run. The Function Service is in the Beta stage now. You need to apply for trial use. For more, please refer to [Function Service](https://www.jdcloud.com/en/products/function-service) and participate in the Beta.
 *  Now, the Function Service is supported in cn-north-1 only. The [Function Service] cannot be set in other regions temporarily.
 *  Serving as the trigger of Function Service, OSS shall meet the restriction for the Function Service that at most 10 triggers shall be created to a single function. Creation will fail if you exceed such limit. To view configuration details of a single function trigger, please go to [Function Service Console](https://function-console.jdcloud.com/services).
- 
+
 7. Click **Save**.
 
 **Description**
 
 *  Since initiation to [http(s)] selection, OSS will send a test message to the event notification target by clicking **Save**. For your service safety, please complete [Signature Certification Setting for Callback Server]
 (https://docs.jdcloud.com/en/object-storage-service/setting-signature-authentication-for-callback-server),so that OSS will complete the address subscription.
-
 *  For message notification format, please refer to [Message Notification](https://docs.jdcloud.com/en/object-storage-service/callback-notification-2).
 
-## You may edit or delete event notification rules via the Console
-
- ![事件通知修改](../../../../image/Object-Storage-Service/OSS-150.png)
-
-
-
-
-
-
-
-
+8. In addition, you may edit or delete event notification rules via the Console
 

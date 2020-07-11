@@ -4,9 +4,7 @@ Server access logs can be used for recording specific request of bucket, so as t
 
 ## Use the Console to enable the log access function
 
-1. Log in Console->Object Storage Service->Space Management->Enter a Bucket->Space Setting->Access Log
-
-![访问日志](../../../../../image/Object-Storage-Service/OSS-176.png)
+1. Log in Console->Object Storage Service->Space Management->Enter a Bucket->Basic Setting->Access Log
 
 2. Click the **Edit** button and open the dialog box for accessing log configuration
 
@@ -16,11 +14,15 @@ Server access logs can be used for recording specific request of bucket, so as t
 
 Detail description:
 
-* Entered prefix cannot exceed 1,022 bytes, without any backslash (\) or double slashes (//)
+* The source bucket and the target bucket must locate in the same region under the same account.
+
+* Entered prefix cannot exceed 1,022 bytes, without any backslash (\) or double slashes (//).
 
 * About billing: Requests will be produced every time when the log operation is enabled and logs are outputted to bucket via the Console and the billing will be made as per the requests. If any produced log file occupies the bucket, the billing will be made as per the billing rules of standard storage capacity.
 
 * Modification of target bucket will be delayed as for time. If target bucket for log recording is changed from Bucket A to Bucket B, then some logs may still be transmitted to Bucket A in the next hour, while other logs will be transmitted to Bucket B.
+
+* A log generated at a moment may contain records of any time before this moment. We have no way to know if a log at a certain time slot has been generated.
 
 * Best effort basis: For access to Log Service, all requests of bucket will be recorded and outputted on the best effort basis, but it cannot be guaranteed that each request is provided with a record.
 
@@ -49,9 +51,9 @@ For detailed annotation of each field, please refer to the table:
 
 |Name|Example|Detailed Annotation|
 |:-|:-|:-|
-|User ID|916189066405|account ID of JD Cloud & AI|
+|User ID|916189066405|Account ID of Its Bucket|
 |Space Name|test-logging|Space Description|
-|Time|06/Feb/2019:00:00:38 +0800|Use UTC time and Beijing time is plus +8|
+|Time|06/Feb/2019:00:00:38 +0000|Use UTC time, plus 8 hours for Beijing time|
 |Request IP|103.226.192.8|The First IP in the x-forwarded-for field of HTTP Request Header|
 |Requster|916189066405|JD Cloud & AI account ID of requester|
 |Request ID|9E44C68D401D740D|request ID, each request shall have a unique ID|
@@ -66,6 +68,8 @@ For detailed annotation of each field, please refer to the table:
 |Processing time|23|Period from the server receiving the first byte to the time the first responding byte is sent. Unit: ms|
 |Referer|https://www.jdcloud.com/|Referer in HTTP Request Header|
 |User-Agent|Apache-HttpClient/4.5 (Java/1.8.0_181)|User-Agent in HTTP Request|
+|Version ID|asdfqregha|object Version Number|
+|Expansion Request ID|c3RhZzItcjItYXoxOjoxMC4yMjYuMjAxLjE4MA==|Used for Unique Identifier of Request|
 |Signature Version|SigV4|aws Signature Version|
 |Encryption Suite|ECDHE-RSA-AES128-GCM-SHA256|HTTP Encryption Method|
 |Identity Verification Type|AuthHeader|Identity Verification Method|

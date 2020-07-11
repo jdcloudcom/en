@@ -108,13 +108,13 @@ destination-prefix/source-bucket/config-ID/data/example-file-name.csv.gz
 Meanings contained in the path are as follows:
 
 - **destination-prefix**: Refer to the "Target Prefix" set while configuring an inventory, which can be used for grouping all inventory list documents at public position of target bucket.
-- **source-bucket: ** Refer to the source bucket name corresponding to an inventory report, which is added for the purpose of avoiding possible conflict caused by the inventory report of each source bucket sent to the same target bucket.
-- **config-ID: **Refer to the "Inventory Name" set by the user while configuring an inventory, which is added to avoid conflicts when several inventory reports are sent from the same source bucket to the same target bucket. config-ID can be used for distinguishing different inventory reports.
-- **YYYY-MM-DDTHH-MMZ: ** Time stamp, including start time and date when the bucket is scanned while producing an inventory report; for example, 2020-04-28T00-32Z.
-- **manifest.json: ** is the Manifest file.
-- **manifest.checksum: ** is MD5 of the manifest.json file.
-- **symlink.txt: ** is the Manifest file compatible with Apache Hive.
-- **example-file-name.csv.gz: ** is one of CSV inventory files.
+- **source-bucket**: Refer to the source bucket name corresponding to an inventory report, which is added for the purpose of avoiding possible conflict caused by the inventory report of each source bucket sent to the same target bucket.
+- **config-ID**: Refer to the "Inventory Name" set by the user while configuring an inventory, which is added to avoid conflicts when several inventory reports are sent from the same source bucket to the same target bucket. config-ID can be used for distinguishing different inventory reports.
+- **YYYY-MM-DDTHH-MMZ**: Time stamp, including start time and date when the bucket is scanned while producing an inventory report; for example, 2020-04-28T00-32Z.
+- **manifest.json**: is the Manifest file.
+- **manifest.checksum**: is MD5 of the manifest.json file.
+- **symlink.txt**: is the Manifest file compatible with Apache Hive.
+- **example-file-name.csv.gz**: is one of CSV inventory files.
 
 Related Manifest files totally comprise two files, manifest.json and symlink.txt.
 

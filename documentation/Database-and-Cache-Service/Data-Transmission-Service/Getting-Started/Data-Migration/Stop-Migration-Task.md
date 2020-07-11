@@ -1,19 +1,19 @@
-# 结束迁移任务
+# End Migration Task
 
-迁移类型为"结构迁移"、"全量迁移"时，数据迁移完成后，任务将自动结束，迁移类型为"增量迁移"时，需要手动结束迁移任务。
+In case of the migration type "Structural Migration" or "Full Data Migration", the task will be automatically ended after data migration. In case of the migration type "Incremental Migration", the migration task shall be manually ended.
 
-## 注意事项
+## Notes
 
-- 迁移类型为"增量迁移"时，DTS服务将持续获取源库数据变更后复制到目标库，需要您关注增量迁移的进度。建议在结束确认前停止源库写入，确认目的库数据已追上源库后再结束迁移任务。
-- 任务结束后将不能再次启动，请务必确认目标库数据库已追上源库。
+- In case that the migration type is "Incremental Migration", DTS will continuously obtain the changed source database data and duplicate the same to a target database. You need to pay attention to progress of incremental migration. It is suggested that writing to the source database shall be stopped before completion of confirmation and the migration task shall be ended after it is confirmed that data of the target database catches up with the source database.
+- Any ended task cannot be started again. Please be sure to confirm that the target database catches up with the source database.
 
-## 操作步骤
+## Operation Steps
 
-1、进入任务列表页。
+1. Enter the Task List Page.
 
-2、选择迁移任务，点击**结束。**
+2. Select a migration task and click **End**.**
 
-![1571223249585](../../../../image/Data-Transmission-Service/dts-007.png)
+![1571223249585](../../../../../image/Data-Transmission-Service/dts-007.png)
 
 
 
