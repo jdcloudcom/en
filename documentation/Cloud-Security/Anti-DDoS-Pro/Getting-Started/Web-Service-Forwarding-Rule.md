@@ -7,27 +7,39 @@ The Web Service is the protection designed to protect the business of website do
 
 ## Operation Steps
 1. Select a purchased instance. Click the "Instance Name" or "Forwarding Setting" of operation bar to enter the Forwarding Setting page.
-![Website Forwarding Rules](../../../../image/Advanced%20Anti-DDoS/non-web%2001.png)
+![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/non-web%2004.png)
 
 2. On the Instance Details page, switch to the "Website Forwarding Setting".
-![Website Forwarding Rules](../../../../image/Advanced%20Anti-DDoS/web-rule%2002.png)
+![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2007.png)
 
 3. Click the "Add Rules" button to configure the forwarding rules according to the pop-up notifications as follows.
-![Website Forwarding Rules](../../../../image/Advanced%20Anti-DDoS/web-rule%2003.png)
+![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2008.png)
 
-The field of rule configuration section is explained as follows:
+Rule configuration fields are interpreted as below:
 
+- **Anti-DDoS Pro IP**: If purchasing the BGP line, the Anti-DDoS Pro BGP IP address can be selected. If purchasing multiple BGP IPs, the business traffics from different origin servers can be forwarded to different BGP IPs for protection. **This configuration item is not supported in Telecom, Unicom and Mobile lines**.
 
 - Domain: Supports configuration of multi-level domain, including support for extensive domain name.  
 
-- Protocol type: Supports both HTTP and HTTPS, and can be selected according to the site protocol. When you select the HTTPS protocol, you will be asked to submit the certificate by the system. The protection takes effect only when the certificate is successfully submitted. If you need websocket protocol access, please turn on the websocket switch.
+- Forwarding protocol: Supports both HTTP and HTTPS, and can be selected according to the site protocol. When you select the HTTPS protocol, you will be asked to submit the certificate by the system. The protection takes effect only when the certificate is successfully submitted.
 
-- Back-to-origin method: You can select either the back-to-origin IP or the back-to-origin domain. The back-to-origin IP (inside JD cloud + outside JD cloud) supports 20 IP addresses, and one back-to-origin domain. The domain name of Origin Server cannot be the same as the protection domain name; the Origin Server IP is not allowed to be an Intranet address.
-If the HTTP back-to-origin is turned on, all protocols returning to the Origin Server will be all converted to the HTTP protocol.
+- Enable websocket: If you need to access the websocket protocol, please enable the websocket switch.
 
-- The rules of Web Service Origin Server port support 80 and 443 ports by default. Custom port is allowed. HTTP and HTTPS protocols respectively support customizing 5 different ports.
+- Forwarding port/origin server port: The origin server ports of web service rules support ports 80 and 443 by default. Customized ports are allowed and the HTTP protocol and the HTTPS protocol respectively support 5 different parts. **Ports configured in the non-web service forwarding rules do not support duplicate configuration in the web service forwarding rules**.
 
-- backup IP is not mandatory. If the backup IP is configured, the cname will point to it in normal status. It is recommended that the backup IP be the IP of the daily external display, and the back-to-source IP be non-external. Configuring a backup IP ensures higher availability of the source station. You may refer to the flowchart in the **Product Graphic Instructions** of the page.
+- HTTP access redirection: **The switch is visible after the HTTPS protocol is checked**. Once being enabled, all accesses from the HTTPS protocol will be redirected to HTTPS domains again.
+
+- Enabling HTTPS back-to-origin: **The switch is visible after the HTTPS protocol is checked**. If your website does not support HTTPS back-to-origin, please be sure to enable this option and the default back-to-origin port is 80.
+
+- Forwarding rules: Support round robin and Source IP hash.
+
+- Back-to-origin method: You can select either the back-to-origin IP or the back-to-origin domain. The back-to-origin IP (inside JD cloud + outside JD cloud) supports 20 IP addresses, and one back-to-origin domain. The domain name of Origin Server cannot be the same as the protection domain name, the Origin Server IP is not allowed to be an Intranet address.
+
+- GEO back-to-origin: Support region-based access back-to-origin.
+
+- Backup IP: Backup IP is not required. After backup IP is configured, in case of Non-DDOS attacks, the back-to-origin model can be enabled and the Anti-DDoS Pro cname will direct to this IP. It is recommended that backup IP shall be the IP displayed to the public daily while IP back-to-origin shall be the IP closed to the public. The concealment and high availability of origin server can be ensured by configuring backup IP. Please refer to the flow chart in **Product Design Description** below.
+
+![产品设计说明](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ip-anti-design-cn.png)
 
 ## Related Reference
 

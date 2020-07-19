@@ -5,14 +5,18 @@ The IP (segment) in blacklist will be directly blocked when visiting.
 
 ## Operation Steps
 1. Log in [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
-2. On the "Instance List" page, select the target instance, and click **Instance Name** or **Forwarding Setting** to enter the "Instance Details" page.
-3. Click **IP Black/White List** in the "Instance Details" page to configure IP black/white list rules. IP black/white list rules can be applied to the configuration or forwarding rules of instance black list and white list.
-![](../../../../image/Advanced%20Anti-DDoS/ip-white-black-list-01.png)
-4. The configuration of instance black list and white list takes effect for all rules of the entire instance. Click **Black List and White List Configuration** in the "Instance Details" page to apply the configured IP black/white list to the instance.
-![](../../../../image/Advanced%20Anti-DDoS/ip-white-black-list-02.png)
-5. To refer to IP black/white list rules in non-web service forwarding rules, click **Non-web Service Forwarding Rules** in the "Instance Details" page, then click **Protection Rules** to which forwarding rules have been added, and enter the **Non-web Service Protection Rules** configuration page to refer to IP black/white list rules in the white list and black list configuration for non-web service protection rules. The IP black/white list rules referred to in forwarding rules only take effect in these rules.
+2. On the **Instance List** page, select the target instance, and click **Instance Name** or **Forwarding Setting** to enter the **Instance Details** page.
+3. Click **IP Black/White List Library** on the **instance Detail** Page and click **Add/Edit**. Then, you can configure the IP black list/white list rules. IP black/white list rules can be applied to black and white list configuration of instance or web/non-web forwarding rules.
+![](../../../../image/Advanced%20Anti-DDoS/ip-white-black-list-04.png)
+4. Fill in rule names and IP addresses covered by rules in rules, with IP or IP segments supported and masks of /8, /16, /24 and /32 supported only. Multiple entries can be added in new lines and maximum 50 entries can be entered.</br>
+![](../../../../image/Advanced%20Anti-DDoS/ip-white-black-list-05.png)
+5. The white list and black list configuration of instances is efficient to the whole instance. On the **Instance Detail** Page, click the drop-down box to unfold the **Black List and White List Configuration**.</br>
+![](../../../../image/Advanced%20Anti-DDoS/ip-white-black-list-06.png)
+6. Click **Edit**, select a black/white list created in the IP black/white list library or select a blocking region.</br>
+![](../../../../image/Advanced%20Anti-DDoS/ip-white-black-list-07.png)
+7. IP black/white list rules are cited as non-web service forwarding rules. On the **Instance Detail** Page, click **Non-web service forwarding rules**, click **Protection Rules** of added forwarding rules, click **Protection Rules** of added forwarding rules, enter the configuration page for **Non-web Service Protection Rules** and then IP black/white list rules can be cited in white list and black list configuration of non-web service protection rules. IP black/white list rules cited by forwarding rules are only effectively for these forwarding rules. For details, please refer to the non-web service protection rules [Black/White List Setting](Net-Service-Protection-Setting/Whitelist-Rules-Setting.md)
 ![](../../../../image/Advanced%20Anti-DDoS/ip-white-black-list-03.png)
-6. For referring to IP black/white list in web service forwarding rules, please see [Black List and White List Setting](Web-service-Protection-Settings/URL-Whitelist-Rules-Setting.md) for web service protection rules.
+8. For details of IP black/white lists cited by web service forwarding rules, please refer to web service protection rules [Black and White List Setting](Web-service-Protection-Settings/URL-Whitelist-Rules-Setting.md)
 
 ## Configuration Instructions
 1. Configuration of maximum 10 IP black/white list rules is supported; 

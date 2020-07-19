@@ -14,4 +14,9 @@
 
 - **Efficient Delivery Platform** 
 
-  With the efficient delivery platform provided by Cloud Cabinet Service, customers can view the cabinet, bandwidth, IP resource and hosted device purchased; provide network traffic monitoring and alarm functions; open the ticket by one-click and track ticket progress on line.
+  With the efficient delivery platform provided by Cloud Cabinet, customers can view the cabinet, bandwidth, IP resource and hosted device purchased; provide network traffic monitoring and alarm functions; open the ticket by one-click and track ticket progress on line.
+  
+- **"One-stop" Diversified Value-added Service**
+
+  JD Cloud & AI, on the basis of providing IDC basic business products, provide customers with resource management, network monitoring, hardware scheme, operation and maintenance and other value-added productions. Customers can select suitable services and products according to their respective business features.
+

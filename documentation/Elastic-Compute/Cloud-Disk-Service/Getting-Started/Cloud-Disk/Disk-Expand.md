@@ -1,6 +1,6 @@
-# Cloud Disk Service Capacity Upgrade
+# Console Expansion Operation
 
-Cloud Disk Service is an extensible storage device on cloud. After the creation of cloud disk, when current capacity of cloud disk cannot meet the storage demand of current system along with the business needs growing, you can extend its size at any time to expand its storage capacity and retain original data in cloud disk at the same time. To guarantee the availability of expanded space of cloud disk, you not only need to extend the size of cloud disk capacity but also its file system to guarantee the availability of newly added cloud disk space.
+Cloud Disk Service is an extensible storage device on cloud. After the creation of cloud disk, when current capacity of cloud disk cannot meet the storage demand of current system along with the business needs growing, you can extend its size at any time to expand its storage capacity and retain original data in cloud disk at the same time. To guarantee the availability of expanded space of cloud disk, you not only need to extend the size of cloud disk capacity but also its file system to guarantee the availability of newly added cloud disk space. After operations on the Console, please refer to [File System Expansion (with Partitions)](https://docs.jdcloud.com/cn/cloud-disk-service/expand-file-system-multi-partition) or [File System Expansion (without Partitions for Linux)](https://docs.jdcloud.com/cn/cloud-disk-service/expand-raw-disk-file-system) for expansion of file systems.
 
 <br>
 

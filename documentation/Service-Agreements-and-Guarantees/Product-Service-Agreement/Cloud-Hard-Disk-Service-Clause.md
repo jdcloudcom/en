@@ -207,3 +207,5 @@ You understand and acknowledge that the above list does not cover all types of l
 11.2 JD Cloud & AI is entitled to, by announcing at [www.jdcloud.com](https://www.jdcloud.com) or notifying you through website or in writing, transfer all or part of the rights and obligations under the Service Terms to JD Cloud & AI's affiliates.
 
 11.3 If any provisions should remain in existence in nature or otherwise at the termination of this Agreement, they shall be deemed to be continuing terms, including but not limited to terms of warranty, confidentiality, intellectual property, governing law and dispute resolution.
+
+

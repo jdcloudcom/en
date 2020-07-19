@@ -6,12 +6,18 @@ Configuration steps are as below:
 - First log in to [Anti-DDoS Pro Console](https://ip-anti-console.jdcloud.com/instancelist).
 - Find the instance to be configured, and click the instance name to enter the **Instance Details** page.
 - Switch to **Non-web Service Forwarding Configuration** 
-    ![非网站转发规则](../../../../../image/Advanced%20Anti-DDoS/net-service-protection-rule-01.png)
+    ![非网站转发规则](../../../../../image/Advanced%20Anti-DDoS/net-service-protection-rule-03.png)
 
 ### Operation Steps
 
-Click **Protection Rules** to enter the configuration page of protection rules.
+1. Click **Protection Rules** and enter the Web Service Protection Rules Configuration Page.</br>
     ![非网站防护规则](../../../../../image/Advanced%20Anti-DDoS/net-service-protection-rule-02.png)
+    
+2. Click the **Edit** icon to enter the Protection Rules Edition Page.</br>
+    ![非网站防护规则](../../../../../image/Advanced%20Anti-DDoS/net-service-protection-rule-04.png)    
+    
+3. Enable each rule switch according to business features and set thresholds, with description of each configuration item as below.</br>
+    ![非网站防护规则](../../../../../image/Advanced%20Anti-DDoS/net-service-protection-rule-05.png)    
 
 |Configuration Item             |Description |
 |----------------------|---------------|

@@ -36,7 +36,9 @@ items:
         - name: JCS for Redis Log
           href: Introduction/ResourceLog/RedisLog.md
         - name: PostgreSQL Log
-          href: Introduction/ResourceLog//PGLog.md
+          href: Introduction/ResourceLog/PGLog.md
+        - name: JDW Data Warehouse Log
+          href: Introduction/ResourceLog/JDWLog.md
 - name: Product Pricing
   items:
     - name: Billing Overview

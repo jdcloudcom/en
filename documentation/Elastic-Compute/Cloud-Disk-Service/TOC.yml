@@ -63,16 +63,13 @@
       items:
         - name: Cloud Disk Service expansion overview
           href: Getting-Started/Cloud-Disk/Expand-Filesystem/Cloud-Disk-Expansion-Overview.md
-        - name: Cloud Disk Service capacity upgrading
+        - name: Console Expansion Operation
           href: Getting-Started/Cloud-Disk/Disk-Expand.md
-        - name: file system expansion (Windows)
+        - name: file system expansion (with partitions)
           href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-File-System-Windows.md
-        - name: file system expansion (Linux)
+        - name: file system expansion (without partitions for Linux)
           href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-File-System-Linux.md
-        - name: raw disk file system expansion (Linux)
-          href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-Raw-Disk-File-System.md
-        - name: file system expansion (multi partition)
-          href: Getting-Started/Cloud-Disk/Expand-Filesystem/Expand-File-System-Multi-Partition.md
+
     - name: Detach Cloud Disk
       href: Getting-Started/Cloud-Disk/Detach-Cloud-Disk.md
     - name: Delete Cloud Disk Service

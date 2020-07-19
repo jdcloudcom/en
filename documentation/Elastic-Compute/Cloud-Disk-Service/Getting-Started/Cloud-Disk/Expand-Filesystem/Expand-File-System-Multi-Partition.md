@@ -1,4 +1,4 @@
-# File system expansion (multi partition)
+# File system expansion (with partitions)
 
 <br>
 

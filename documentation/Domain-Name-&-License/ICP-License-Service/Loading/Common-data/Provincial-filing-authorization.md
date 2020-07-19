@@ -16,5 +16,9 @@
 
 [Authorization Letter of Sichuan.doc](https://img1.jcloudcs.com/cms/8d0e0081-a636-4004-ad9a-04956c1725a120171206193651.doc)
 
-Please deliver the Authorization Letter in the form of ticket to JD Cloud & AI after it is filled and stamped
+[Letter of Authorization of Shaanxi.doc](https://img1.jcloudcs.com/cms/f477218e-a08b-481a-946d-2f22d9e6ecbd20171206193651.doc)
+
+[Letter of Authorization of Chongqing.doc](https://img1.jcloudcs.com/cms/f477218e-a08b-481a-946d-2f22d9e6ecbd20171206193651.doc)
+
+#### Please deliver the Authorization Letter in the form of ticket to JD Cloud & AI after it is filled and stamped
 

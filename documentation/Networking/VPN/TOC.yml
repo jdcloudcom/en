@@ -91,6 +91,8 @@
          href: Best-Practices/Connection-With-DirectConnect.md
        - name: VPN Connects to Amazon AWS
          href: Best-Practices/Connection-Into-Amazon.md
+       - name: VPN Connection to Cross-region Resources of JD Cloud
+         href: Best-Practices/Connection-Into-JDCloud.md
   - name: Troubleshooting
     items:
     status: 0

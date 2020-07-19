@@ -73,7 +73,7 @@ Click **Service->Add Service** to pop up the Add Attribute.
 
 The formats of Json data corresponding to the Function Definition can be viewed in **JSON Data** which provides json formatting and copy-by-one-click functions.
 
-![JSON数据](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Model-JSON.png)
+![JSON数据](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Model-Json-Edit.png)
 
 
 ## Thing Model Release

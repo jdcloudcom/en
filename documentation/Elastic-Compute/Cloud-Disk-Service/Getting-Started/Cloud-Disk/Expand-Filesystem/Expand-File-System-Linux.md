@@ -1,8 +1,8 @@
-# File System Expansion (Linux)
+# File System Expansion (without partitions for Linux)
 
-After the Cloud Disk Console completes the expansion operation and attaches the Cloud Disk, it needs to log in Virtual Machines to expand the file system before continuous use. Refer to "[Cloud Disk Upgrade Capacity](https://docs.jdcloud.com/en/cloud-disk-service/disk-expand)" for expansion operation of Cloud Disk on the Console
+After the Cloud Disk Console completes the expansion operation and attaches the Cloud Disk, it needs to log in Virtual Machines to expand the file system before continuous use. Refer to "[Operation of Console Expansion](https://docs.jdcloud.com/en/cloud-disk-service/disk-expand)" for expansion operation of Cloud Disk on the Console
 
-Please refer to the document of "[Expansion File System (Multiple Partitions) (https://docs.jdcloud.com/en/cloud-disk-service/expand-file-system-multi-partition)" for partition if your Cloud Disk Service has partitions. Please follow the steps below for file system expansion if you create the file system directly on your Cloud Disk Service.
+Please refer to the document of "[Expansion File System (with Partitions) (https://docs.jdcloud.com/en/cloud-disk-service/expand-file-system-multi-partition)" for partition if your Cloud Disk Service has partitions. Please follow the steps below for file system expansion if you create the file system directly on your Cloud Disk Service.
 
 **Note: Please backup data before expansion and data backup can be made by creating snapshot of this Cloud Disk Service. Take measures to prevent data loss due to maloperation and other factors.**
 

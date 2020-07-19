@@ -29,10 +29,10 @@ In the third-party machine (physical machine or virtual machine), please ensure 
 The method of installing Agent is as follows:
 
 ```
-wget -c http://devops-hb.oss.cn-north-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.448.0742c84.20190327191802.bin -O installer && sh installer -- -t $tenant -r $region -v $vpc -a zero-agent,hawkeye-agent,log-agent,ark-query /usr/local/share/jcloud/ifrit && rm -f installer
+wget -c http://devops-hb.oss.cn-north-1.jcloudcs.com/ifrit/ifrit-agent-external-v0.01.498.fae99f1.20200707111506.bin -O installer && sh installer -- -t $tenant -r $region -v $vpc -O -a zero-agent,hawkeye-agent,log-agent,ark-query /usr/local/share/jcloud/ifrit && rm -f installer
     -t tenant #tenant name in devops
     -v vpc    #name of vpc to be the server that is written by the user
-    -r region #name of region to be the server that is written by the user
+    -r region #name of region to be the server that is written by the user, cannot be as the same as region name of JD Cloud
 ```
 
 About the description of Agent is shown as below:

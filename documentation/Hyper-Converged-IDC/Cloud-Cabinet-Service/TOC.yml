@@ -41,7 +41,7 @@ items:
   items:
       - name: Getting Started Guide
         href: Getting-Started/Overview.md
-- name: Operation Guide
+- name: Operation Guide of Console
   items:
       - name: Introduction
         href: Operation-Guide/Operation-Instruction/Operation-Instruction.md

@@ -4,7 +4,7 @@ If your origin server is at JD Cloud & AI, you can set the protection scheduling
 
 ![防护调度规则](../../../../image/Advanced%20Anti-DDoS/dispatch-rule-01.png)
 
-Anti-DDoS Pro stands by in case of no attack, so user traffic directly accesses cloud resources without additional latency; Anti-DDoS Pro will be automatically switched to in case of any attack, and the traffic will be cleaned by Anti-DDoS Pro before being back to the cloud origin server.
+In case of no attacks, Anti-DDoS Pro serves as the backup; user traffics will directly access cloud resources the protection of Anti-DDoS Basic or Anti-DDoS Protection Package, without addition of any delay; In case of attack, automatically switch to Anti-DDoS Pro. Then, traffics will be cleaned by Anti-DDoS Pro at first and returned to the origin server of the cloud.
 
 ## Operation Steps
 
@@ -20,7 +20,7 @@ Click **Add** to enter the configuration page of protection scheduling rules.
 
 ![非网站防护规则](../../../../image/Advanced%20Anti-DDoS/dispatch-rule-03.png)
 
-Set the rule name, select the corresponding cloud IP, set the proper scheduling start threshold, and click to save
+Well set a rule name, select a corresponding cloud IP, set appropriate scheduling trigger threshold and click **Save
 
 ![非网站防护规则](../../../../image/Advanced%20Anti-DDoS/dispatch-rule-04.png)
 
@@ -41,6 +41,7 @@ Scheduling trigger threshold: A scheduling trigger condition that scheduling to 
 ## Notes
 
 1. Pre-configuration of forwarding rules of businesses to be protected is required.
-2. Time for scheduling to Anti-DDoS Pro is limited by the effective time of DNS TTL.
-3. To avoid direct attack against cloud IP after the cloud IP is exposed, you are suggested to add backup IP. Normally, in case of any attack, direct access to cloud IP will be returned to the backup IP through Anti-DDoS Pro. The separation of cloud IP for normal use and back-to-origin IP used in case of attack can effectively improve the availability of business.
-4. Due to the limit of DNS effective time, there is latency in switch from origin server to Anti-DDoS Pro in case of attack traffic, and when super high traffic directly attacks cloud IP, cloud IP may be blocked by the operator, so please guarantee that the business will not be impacted in case that any individual IP is blocked by the operator.
+2. After protection scheduling rules are configured, only CNAME provided by protection scheduling rules are configured for CNAME resolution records of DNS, and it is unnecessary to use CNAME produced with forwarding rules.
+3. Time for scheduling to Anti-DDoS Pro is limited by the effective time of DNS TTL.
+4. To avoid direct attack against cloud IP after the cloud IP is exposed, you are suggested to add backup IP. Normally, in case of any attack, direct access to cloud IP will be returned to the backup IP through Anti-DDoS Pro. The separation of cloud IP for normal use and back-to-origin IP used in case of attack can effectively improve the availability of business.
+5. Due to the limit of DNS effective time, there is latency in switch from origin server to Anti-DDoS Pro in case of attack traffic, and when super high traffic directly attacks cloud IP, cloud IP may be blocked by the operator, so please guarantee that the business will not be impacted in case that any individual IP is blocked by the operator.

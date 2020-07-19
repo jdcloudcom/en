@@ -1,6 +1,6 @@
 # Billing Rules
 
-### API Gateway is free during Beta and will be charged by API calling times and traffics after official launch.
+API Gateway is billed by API calling times and traffic.
 
 ### 1. Inflow and Outflow Relationship of Traffic ###
 

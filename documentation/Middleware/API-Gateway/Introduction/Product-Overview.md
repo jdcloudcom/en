@@ -35,4 +35,4 @@ API Gateway is an API hosting service. It provides full life-cycle management fo
 	
 
 ## Billing
-Free during open beta period. For details, refer to: [Billing Instructions](../Pricing/Billing-Rules.md).
+For API Gateway, resources used will be charged as per the pay-as-you-go model. For details, refer to: [Billing Instructions](../Pricing/Billing-Rules.md).

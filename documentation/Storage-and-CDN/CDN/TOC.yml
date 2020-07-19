@@ -1,7 +1,6 @@
-    
-  name: CDN
-  href: 
-  items:
+name: CDN
+href: 
+items:
   - name: Introduction
     items:
       - name: Product Overview
@@ -281,7 +280,11 @@
                - name: queryDailyRefreshTaskCount
                  href: JCloud-Openapi-For-CDN/queryDailyRefreshTaskCount.md        
                - name: queryCdnUserQuota
-                 href: JCloud-Openapi-For-CDN/queryCdnUserQuota.md                   
+                 href: JCloud-Openapi-For-CDN/queryCdnUserQuota.md
+               - name: queryExtraCacheTime
+                 href: JCloud-Openapi-For-CDN/queryExtraCacheTime.md  
+               - name: queryForbiddenInfoList
+                 href: JCloud-Openapi-For-CDN/queryForbiddenInfoList.md                 
                - name: getSslCertDetail
                  href: SSL-Certificate/getSslCertDetail.md
                - name: getSslCertList
@@ -346,12 +349,16 @@
                  href: SSL-Certificate/uploadCert.md
                - name: queryDomainConfig
                  href: JCloud-Openapi-For-CDN/queryDomainConfig.md
-               - name: setExtraCacheTime 
+               - name: setExtraCacheTime
                  href: JCloud-Openapi-For-CDN/setExtraCacheTime.md
-               - name: setAuthConfig 
+               - name: deleteExtraCacheTime
+                 href: JCloud-Openapi-For-CDN/deleteExtraCacheTime.md
+               - name: setAuthConfig
                  href: JCloud-Openapi-For-CDN/setAuthConfig.md
-               - name: setSourceAuthConfig 
+               - name: setSourceAuthConfig
                  href: JCloud-Openapi-For-CDN/setSourceAuthConfig.md
+               - name: setIpBlackList
+                 href: JCloud-Openapi-For-CDN/setIpBlackList.md
           - name: Stop Deleting Domain
             items:
                - name: startDomain

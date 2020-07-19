@@ -58,13 +58,17 @@
     - name: Setting of Non-web Service Rules
       items:
         - name: Configuration of Protection Rules
-          herf: Operation-Guide/Net-Service-Protection-Setting/Protection-Rule.md        
+          herf: Operation-Guide/Net-Service-Protection-Setting/Protection-Rule.md
+        - name: Black List and White List Configuration
+          herf: Operation-Guide/Net-Service-Protection-Setting/Whitelist-Rules-Setting.md
     - name: Setting of Protection Scheduling Rules
       herf: Operation-Guide/Dispatch-Rule-Settings.md        
     - name: Attack Alarm Settings
       herf: Operation-Guide/Attack-Alarm-Notification-Settings.md
     - name: Black List and White List Settings
       herf: Operation-Guide/Blacklist-And-Whitelist-Settings.md
+    - name: Setting of Customized Return Page
+      herf: Operation-Guide/Self-defined-default-page.md
     - name: View Security Reports
       herf: Operation-Guide/View-The-Security-Report.md   
     - name: Select the Appropriate Forwarding Mode

@@ -25,5 +25,8 @@
 **DevOps Service**
     
    It provides basic DevOps Service, and helps customers to deal with device transaction, device sending and receiving.
+   
+   Value-added services are provided, including installation and configuration service of server exchange system; Outsourced installation and configuration service of operating system; Device installation and cross-data center migration service; Hardware Solution Service of Data Center
 
-   It provides value-added services on demand, and helps customers maintain network, devices and system support.
+
+

@@ -20,20 +20,15 @@ In addition to providing SYN Flood, ACK Floods, ICMP Flood, UDP Flood, NTP Flood
 
 **Q: What ISP-Lines does Anti-DDoS Pro support?**
 
-A: Anti-DDoS Pro supports single and multiple ISP-Line purchase, and supports the single ISP-Line to upgrade to multi ISP-Lines.
-- Single ISP-Line: The China Telecom's ISP-Lines.
-
-- Multi ISP-Lines: Telecom+Unicom+CMCC.
+A: Anti-DDoS Pro supports purchase of Telecom + Unicom + Mobile line and GBP line.
 
 By default, the China Telecom's ISP-Lines will be resolved to the China Telecom Machine Room, the China Unicom's ISP-Lines to the China Unicom Machine Room, and the CMCC's ISP-Lines to the CMCC Machine Room. If the attack traffic exceeds the maximum capacity of China Unicom Machine Room or CMCC Machine Room, the ISP-Lines will be resolved to the China Telecom's ISP-Lines to complete the cleaning.
-
 
 **Q: Does Anti-DDoS Pro support extensive domains?**
 
 A: In Web Service forwarding rules configuration of Anti-DDoS Pro, it supports the protection of the extensive domains.
 
 Extensive domain name resolution refers to the use of wildcard (*) as secondary domain name to enable all secondary domain names to point to the same IP. For example, it supports configurating *.jdcloud.com.
-
 
 **Q: What is business bandwidth, and what happens it is exceeded?**
 
@@ -48,8 +43,6 @@ A: According to relevant laws and regulations of Ministry of Industry and Inform
 **Q: What is the main business of CC defense?**
 
 A: CC defense is mainly for Web Service business, and is closed by default. CC defense does not take effect when closed.
-
-After turning on the main switch, all the domains of this instance will turn on CC defense, and you can manually close the domains that do not require CC defense.
 
 **Q: Why would a black hole occur?**
 
@@ -69,17 +62,14 @@ If the attack traffic so excessive that the operator's ban is triggered, the dur
 
 A: Anti-DDoS Pro sets up error code pages for the following special cases, and you can view and troubleshoot the problems according to the notification on the page.
 
-| Error Code	| Meaning	| Reasons for Occurring | What to do |
+| Status Code	| Meaning	| Reasons for Occurring | What to do |
 | :- | :- | :- | :- |
-|ERROR 400| The domain is absent | The domain is not configured to the Anti-DDoS Pro instance| Detect configuration and add website forwarding domain|
-|ERROR 421 | Connection blocked	| Hitting Blacklist Rules |	Please confirm the Anti-DDoS Pro service of JD Cloud has been purchased for the website and the configuration has taken effect.|
-|ERROR 493 |	Request to re-enter |	The same access from you has passed through the node of Anti-DDoS Pro of JD for several times or has been intercepted by CC defense. |	Please confirm whether the website is configured with multiple proxy servers, and the proxy path has generated loop.|
-|ERROR 522 | Origin servers return errors |Origin server returns error codes 500 and 502 | Origin Server Detection Service|
-|ERROR 526 |	Origin server is busy | Back-to-origin connection creation of Anti-DDoS Pro node failed or is overtime	| Origin Server Detection|
-|ERROR 527 | Origin servers return errors |Origin server returns error code 504 | Origin Server Detection Service|
+|ERROR 493 |	Request to re-enter |	The same access from you has passed through the node of Anti-DDoS Pro of JD for several times or has been intercepted by CC defense. |	Please confirm CC defense configuration and if the website is configured with multiple proxy servers and the proxy path has a ring circuit.|
+|ERROR 500/502/504 | Origin servers return errors |Origin server returns error codes 500, 502 and 504 | Origin Server Detection Service|
+|ERROR 590/592/594 | Anti-DDoS Pro Return Error  | Back-to-origin connection creation of Anti-DDoS Pro node failed or is overtime	| Detect origin server service and configuration of Anti-DDoS Pro |
 
-An example of the error page style:
-![](https://github.com/jdcloudcom/en/blob/edit/image/Advanced%20Anti-DDoS/error%20page.png)
+The example of default pattern of the status code return page is as shown in the figure below:
+![错误码](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/error%20page01.png)
 
 **Q: What is backup IP? What's the benefit of configuring a backup IP?**
 

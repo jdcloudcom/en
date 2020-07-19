@@ -39,7 +39,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 1. Ubuntu installs strongSwan:
 ```
   apt-get install -y strongswan
-  ipsec version
+  ipsec version   #View version of installed strongswan
 ```
 
 2. Configure IKE and IPsec policy and edit /etc/ipsec.conf file:
@@ -65,7 +65,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
       rightauth=psk
       keyexchange=ikev2
       ikelifetime=4h
-      ike=aes128-sha1-modp1024
+      ike=aes128-sha1-modp1024    #Assemble according to encryption algorithm, certification algorithm and DH group designated during tunnel configuration
       esp=aes128-sha1-modp1024
       lifetime=1h
       keyingtries=%forever
@@ -73,7 +73,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
       dpddelay=10s
       dpdtimeout=30s
       dpdaction=restart
-      mark=%unique
+      mark=100  #Each tunnel shall use different tagged values, to guarantee uniqueness
 ```
 
 3. Configure pre-shared key and edit /etc/ipsec.secrets file:
@@ -83,7 +83,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 
 4. Configure tunnel and use virtual tunnel interface (VTI):
 ```
-  sudo ip link add jdcloud_tunnel1 type vti local 10.0.0.x remote 116.xxx.xxx.10 key 100
+  sudo ip link add jdcloud_tunnel1 type vti local 10.0.0.x remote 116.xxx.xxx.10 key 100    #local recommends to use intranet address of gateway
   sudo ip addr add 169.254.1.1/30 remote 169.254.1.2/30 dev jdcloud_tunnel1
   sudo ip link set jdcloud_tunnel1 up mtu 1450
 ```
@@ -96,7 +96,7 @@ VPN Tunnel configuration examples are as follows ("With a tunnel as the example,
 
 6. Set strongSwan to use route table defaulted by system and edit /etc/strongswan.d/charon.conf file:
 ```
-  install_routes=no    # Yes is defaulted, comments shall be deleted and replaced by no, preventing creation of new route tables
+  install_routes=no    #The default value is yes; the note is removed and the default value is changed to be no here for the purpose of preventing creation of new route tables of tunnels and apply the same route table for different tunnels, i.e., main route table
 ```
 
 7. Enable system IP forwarding, edit /etc/sysctl.conf file and execute "sudo sysctl -p":

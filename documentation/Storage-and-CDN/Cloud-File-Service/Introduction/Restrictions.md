@@ -18,6 +18,7 @@ Cloud File Storage currently supports NFS v4.1 and NFS v4.0 protocols for Linux 
 | The VPC number of each file storage | not exceeding 1                |
 | The maximum capacity of each File Storage     | No more than 512GB (you can open ticket to increase capacity)          |
 | Maximum Storage Number for Each File     | No more than 1 million (you can open ticket to increase the maximum file count)          |
+| Count of clients that can be attached to each file storage     | No more than 1,000 (If the max. count is exceeded, the stable throughout bandwidth for each client cannot be guaranteed)          |
 
 
 ## Size limit of a single file

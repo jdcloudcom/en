@@ -14,7 +14,7 @@ JD Cloud API Gateway provides API whole life cycle management, traffic control p
 
 ## Operation Steps
 ###  Step 1: Enable the API Gateway service
-The product is currently under open beta test, please apply for open beta test: Click **Apply for Beta Tes**t on the API Gateway product page; the user will receive a notice (email or SMS) upon the operator's approval for open beta test, and may access to the console for use. The service is provided on the menu's Middleware, API Gateway.
+Click **Use Now** on the API Gateway Page of the official website and a subscription pop-up box will be shown. Please click **Confirm to Enable** and then the API Gateway service can be used.
 
 
 ###  Step 2: Create an API group, and create an API under the group

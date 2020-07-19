@@ -1,3 +1,3 @@
 # Purchase Process
 
-Apply for join the public beta test during the test period. After formal launch, the bill will be charged by pay-as-you-go mode.
+As the API Gateway adopts the pay-as-you-go mode, you can directly use the API Gateway service after it is subscribed and you only need to pay the used resources.

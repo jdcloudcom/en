@@ -1,6 +1,6 @@
 ## PostgreSQL Log
 ### Introduction
-Now, slow search logs and error logs are adopted as the logs accessing Log Service.
+Now, slow search logs and error logs are adopted as the logs accessing Log Service and audit logs.
 
 ### Field Description
 #### Slow Search Log
@@ -26,7 +26,7 @@ Now, slow search logs and error logs are adopted as the logs accessing Log Servi
 #### Audit log
 | SN | Field Name | Field Description | Field Type |
 | --- | --- | --- | --- | 
-| 1 | start_time  | Slow Search Start Time | string |
+| 1 | start_time  | Production Start Time of Audit Log | string |
 | 2 | client_ip | User Client IP Address | string |
 | 3 | user_name | Access User Name | string |
 | 4 | database_name | Name of Database Requested for Access | string |

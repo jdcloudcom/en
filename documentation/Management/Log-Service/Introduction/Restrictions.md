@@ -16,3 +16,9 @@ Advanced retrieval condition length | Supports up to 1000 characters
 Advanced retrieval field restriction | Advanced retrieval supports up to 30 retrieval fields
 "=" condition | Support to enter up to 20 values
 "!=" condition | Support to enter up to 20 values
+
+
+Restriction Item | Quantity | Description
+-- | -- | --
+Quantity Restriction for Collection Instance of Cloud Product Log | 30 |No
+Quantity Restriction for Collection Instance of Business Application Log | 30 | If the availability group dimension or tag dimension is selected, there is no quantity restriction

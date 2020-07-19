@@ -60,6 +60,8 @@ items:
     href: Cloud-Host-Security-Service-Clause.md
   - name: Cloud Disk Service Agreement
     href: Cloud-Hard-Disk-Service-Clause.md
+  - name: Cloud Disk Service Level Agreement (SLA)
+    href: Cloud-Hard-Disk-Level-Agreements-SLA.md   
   - name: Service Agreement on Elastic IP
     href: Public-Network-IP-Service-Clause.md
   - name: Service Level Agreement (SLA) of Elastic IP

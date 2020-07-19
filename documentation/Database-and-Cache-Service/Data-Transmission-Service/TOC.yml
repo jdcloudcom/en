@@ -33,8 +33,6 @@
             href: Getting-Started/Data-Migration/Data-Comparison-Description.md
           - name: End Migration Task 
             href: Getting-Started/Data-Migration/Stop-Migration-Task.md
-          - name: Supported Database Type and Version 
-            href: Getting-Started/Data-Migration/Database-Type-and-Version.md
           - name: Pre-check Description 
             href: Getting-Started/Data-Migration/Task-Assessment-Description.md
           - name: Define Migration Object with JSON Method 
