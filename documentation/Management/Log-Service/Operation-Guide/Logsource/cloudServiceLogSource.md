@@ -87,5 +87,9 @@ Cloud product log sources refer to cloud products from logs. After a user purcha
 	    <td>JDW Data Warehouse</td>
 	    <td>Audit Log</td>
 	</tr>
+  <tr>
+	    <td>Automatic Task Policy</td>
+	    <td>Automatic Mirroring Execution Log</td>
+  </tr>
 </table>
 

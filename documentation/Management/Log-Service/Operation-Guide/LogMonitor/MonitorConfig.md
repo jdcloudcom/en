@@ -1,8 +1,9 @@
-## Log Monitoring Configuration
+# Log Monitoring
+## 1. Overview
+With the rapid growth of the user's business, simple search and query can no longer meet the requirement of the user. In order to be able to quickly and timely discover the user's business problems, or quickly adjust the business according to the operation data, log monitoring function is provided by the Log Service. It supports Custom Metric Monitoring indicator to monitor the log data. It can also set alarming rules for the preset monitoring indicators in Custom Metric Monitoring of the Monitoring.
 
-Main contents of the section include addition, deletion, change and examination of monitoring configuration. Users can understand meanings of configuration items required as well as functions supported by log monitoring with the document.
-
-### I. Create Monitoring Task
+## 2. Operation Steps
+### Create Monitoring Task
 
 Creating a log monitoring task requires confirmation that the corresponding collection configuration has been added under the log subject.
 
@@ -28,8 +29,6 @@ Setting of Monitored Indicator.
 
 ![](https://github.com/jdcloudcom/cn/blob/zhangwenjie-only/image/LogService/LogMonitor/logmonitor-2.jpg)
 
-## II. View the Monitoring Graph and Set Alarm Rules
-
 ### View the monitoring graph
 
 1. Click the sub-menu **Monitoring Diagram** under **Log Monitoring** and enter the Monitoring Diagram View Page.
@@ -41,4 +40,13 @@ Setting of Monitored Indicator.
 ### Set alarm rules
 
 Click **Set Alarm Rules** in the monitoring graph page to redirect to the Custom Metric Monitoring page in Monitoring, and select the corresponding monitoring task set alarm rules.
+
+## 3. Points for Attention
+1. At most 10 monitoring tasks are supported to be created under a single log topic.
+2. It supports log content screening, and only the monitoring indicators in log data that meet the screening criteria are counted.
+
+
+
+
+
 

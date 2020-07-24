@@ -1,8 +1,12 @@
 # Log Dump
+## 1. Overview
+The requirements for log vary as the user's business is different. Some logs have long-term storage and offline analysis requirements, such as logs in security audit class. In order to reduce user's costs, the Log Service supports users to dump the log data into OSS. After dump, the user can download the required log data in the corresponding bucket of OSS.
 
-## I. Dump Configuration
+The dump supports the selection on whether compression or not. Compressed dump can further reduce the cost, which supports the compression formats of snappy and gzip. You can also select an appropriate format to dump. JSON format and original format are supported.
 
-### 1. Create a dump task
+## 2. Operation Steps
+
+### Create a dump task
 
 To create a dump task, it is required to confirm the added collection configuration, or no dump tasks can be created.
 
@@ -30,14 +34,21 @@ After the dump task is created completely, a delay of about 15 minutes required 
 
 ![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/createLogTransfer02.jpg)
 
-### 2. Stop the dump task
+### Stop the dump task
 
 Log in the Dump History Page, select a dump task to be stopped and click **Stop Dump**. Then, log data dump can be stopped.
 
-## II. Dump Task History
+### II. Dump Task History
 
 Click the sub-menu **Dump History** under **Log Dump** and enter the page. View dump history of dump tasks.
 
 ![](https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/LogTransfer/transferHistory03.jpg)
+
+## 3. Points for Attention
+1. In the current version, it only supports dumping the log data to OSS under the user's own name.
+2. After compressed delivery, it can further reduce the storage cost.
+3. After being dumped to OSS, the fees required will be reflected in the bill of OSS, and charged by OSS.
+4. At most 10 dump tasks are supported to be created under a single log topic.
+
 
 

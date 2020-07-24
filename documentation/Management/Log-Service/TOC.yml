@@ -39,6 +39,8 @@ items:
           href: Introduction/ResourceLog/PGLog.md
         - name: JDW Data Warehouse Log
           href: Introduction/ResourceLog/JDWLog.md
+        - name: Automatic Image Execution Logs
+          href: Introduction/ResourceLog/AutoImageLog.md
 - name: Product Pricing
   items:
     - name: Billing Overview

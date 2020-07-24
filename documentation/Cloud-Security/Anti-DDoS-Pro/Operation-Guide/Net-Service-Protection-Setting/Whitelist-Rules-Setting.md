@@ -12,7 +12,7 @@ Before configuration, you need to position to the non-web service forwarding rul
  ![非网站防护规则](../../../../../image/Advanced%20Anti-DDoS/net-service-protection-rule-06.png)
 2. Select black list and white list rules created in the IP black/white list library and click **OK**.</BR>
  ![非网站防护规则](../../../../../image/Advanced%20Anti-DDoS/net-service-protection-rule-07.png)
-3. Click the **Edit** icon to modify black list rules cited.</BR>
+3. Click the **Edit** icon to modify black/white list rules cited.</BR>
  ![非网站防护规则](../../../../../image/Advanced%20Anti-DDoS/net-service-protection-rule-08.png)
 
  

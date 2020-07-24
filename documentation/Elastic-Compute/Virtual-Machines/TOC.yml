@@ -261,6 +261,10 @@ items:
             href: Operation-Guide/Monitoring/Get-Monitor-Data.md
           - name: Set Alarm Rules
             href: Operation-Guide/Monitoring/Set-Alarm.md
+       - name: Automatic Task Policy
+         items:       
+          - name: Automatic Image Policy
+            href: Operation-Guide/autoTaskPolicy/autoImagePolicy.md                     
   - name: Best Practices
     items:
       - name: Security

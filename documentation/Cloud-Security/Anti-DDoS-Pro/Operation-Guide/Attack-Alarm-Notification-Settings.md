@@ -17,23 +17,23 @@ Or directly log in the [Message Center](https://message-console.jdcloud.com/mess
 
 Anti-DDoS Pro supports three configuration types for a single instance, including DDoS attack alarm, status code alarm and black hole alarm. Click the point shown in the figure below under Instance Detail to unfold the icon and further configure alarm setting:
 
-![告警通知](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Advanced%20Anti-DDoS/alarm1.png)
+![告警通知](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/alarm1.png)
 
 The alarm types as following:
 
 - DDoS attack alarm notification: That is, the pushing of alarm of attack taking place, alarm of attack ending, alarm of no ICP filing, alarm of bandwidth being limited and other information.
-- Error code status alarm: This function is applicable to the added domain and the alarm notification will be triggered when any common exception status code reaches threshold setting. For example, 500/502/504, etc.
+- Status alarm: This function is applicable to the added domain and the alarm notification will be triggered when any common exception status code reaches threshold setting. For example, 500/502/504, etc.
 - Black hole alarm notification: That is, the alarm notification of black hole starting and lifting a ban.
 
 ##  Status Code Alarm Setting
 
 1. Enable the switch, click the **Edit** icon and enter the Status Code Alarm Setting Page.
 
-![告警通知](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Advanced%20Anti-DDoS/alarm2.png)
+![告警通知](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/alarm2.png)
 
 2. Select a domain, check a status code, set a threshold value and click **OK**.
 
-![告警通知](https://github.com/jdcloudcom/cn/blob/Anti-DDoS/image/Advanced%20Anti-DDoS/alarm3.png)
+![告警通知](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/alarm3.png)
 
 Status code alarm setting fields are interpreted as below:
 

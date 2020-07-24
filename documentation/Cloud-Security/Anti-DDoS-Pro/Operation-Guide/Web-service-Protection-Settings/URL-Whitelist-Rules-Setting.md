@@ -11,7 +11,7 @@ Before configuration, please locate to web service forwarding rules. Steps are a
 ### Operation Steps
 1. Click **Protection Rules** and enter the Web Service Protection Rules Interface.
  ![网站防护规则](../../../../../image/Advanced%20Anti-DDoS/web-service-rule-01.png)
-2. Click the **Go to Set** button for black/white list, and add to or edit the black/white list in the following popup.
+2. Click the **Go to Set** button for black/white list, and add to or edit the black/white list in the following page.
  ![网站黑白名单](../../../../../image/Advanced%20Anti-DDoS/web-service-rule-02.png)
 3. Click **Add** to add black/white list rules and set matching conditions and relevant matching actions for rules.</BR>
  ![网站黑白名单](../../../../../image/Advanced%20Anti-DDoS/web-service-rule-03.png)

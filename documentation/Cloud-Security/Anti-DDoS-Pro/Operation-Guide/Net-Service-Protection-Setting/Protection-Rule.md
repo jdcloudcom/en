@@ -1,5 +1,5 @@
 # Configuration of Non-web Service Protection Rules
-Protection rules of Anti-DDoS Pro non-web service are the protection function to mitigate small traffic connection attacks by restricting connection speed, package length and other parameters of non-web service IPs and ports connected to Anti-DDoS Pro IPs based on protection of IP addresses & ports.
+Protection rules of Anti-DDoS Pro non-web service are the protection function to mitigate small traffic connection attacks by restricting connection speed, package length and other parameters of non-web service IPs and ports connected to Anti-DDoS Pro IPs based on protection of IP addresses + ports.
 
 Configuration steps are as below:
 
@@ -27,4 +27,4 @@ Configuration steps are as below:
 |Speed limit for target new connections          |Maximum count of new connections created every second for destination IPs and ports, new connections exceeding the limit will be discarded. As the protection devices are clustered, there are errors in speed limit for new connections.|
 |Speed limit for target concurrent connections          |Maximum count of concurrent connections created every second for destination IPs and ports, connections exceeding the limit will be discarded.|
 |Package Length Filter              |Length of payload included in packets, unit: byte, the package less than the minimum length or more than the maximum length will be discarded.|
-|Geo Interception                 |Interception is carried out depending on traffic source. Not selected by default. Support Overseas+China for country and provinces for China. Support multi-choice.|
+|Geo Interception                 |Intercept by traffic sources, which is unchecked by default. It is supported in overseas regions and China. In China, it is supported in provinces, and multi-options are supported.|

@@ -19,4 +19,4 @@ The selection of the forwarding mode is applicable to the case where multiple se
   
 3. Source IP hash
     - Definition: The same request is always mapped to the same backend server if the backend server remains the same.
-    - The idea of the source IP hash is to obtain the client IP address, then get a value by hash function calculation and use the value for modulo operation of the size of the server list, of which the result is the serial number of the server the customer is to visit.
+    - The algorithm of the source IP hash is to obtain the client IP address, then get a value by hash function calculation and use the value for modulo operation of the size of the server list, of which the result is the serial number of the server the customer is to visit.

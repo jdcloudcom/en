@@ -11,7 +11,9 @@ This document introduces the important updating history of the Anti-DDoS Pro pro
 |November 2018 | Anti-DDoS Pro V2.4 | New purchased instances support the protection for IPV6 addresses. Only China Telecom Line supports IPV6 at present.|
 |December 2018|Anti-DDoS Pro V2.5|1. Certificate management menu is added to support unified upload and management of certificates in Anti-DDoS Pro; <br />2. The domain in the web service forwarding rules can directly refer to the uploaded certificate in Anti-DDoS Pro certificate management. Which resolved the problem of repetition and inconvenient operation in the case of multiple domains,  under which certificates need to be uploaded separately.|
 |March 2019|Anti-DDoS Pro V3.0|Anti-DDoS Pro new price list is launched: <br /> 1. The price of one hundred G yearly package pricing is more favorable; <br />2. Though the protection capability is increased, the price list covers larger protection range.|
-
+|May 2020|Anti-DDoS Pro V4.0|1. BGP line Anti-DDoS Pro launched <br />2. Anti-DDoS Pro and basic protection linkage function are supported|
+|June 2020|Anti-DDoS Pro V4.1|1. Telecom Single-line Anti-DDoS Pro rolled off <br />2. Telecom + Unicom + Mobile Three-line Anti-DDoS Pro Package can be upgraded, with the minimum of 20G upgraded to 30G or 40G upgraded to 60G. For 100G package, a more preferential price is provided.|
+|July 2020|Anti-DDoS Pro V4.2|1. The abnormal status code alarm function is supported. <br />2. The customized page return function is supported. <br />3. The import and export of configuration for forwarding rules in batches are supported.|
 
 ## Related Reference
 

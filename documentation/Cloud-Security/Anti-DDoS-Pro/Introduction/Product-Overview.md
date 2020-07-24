@@ -14,7 +14,7 @@ After the Anti-DDoS Pro service is activated, the IP address of Anti-DDoS Pro wi
 
 **2: Has flexible billing combination**: The flexible combination of basic protection+elastic protection can continue to provide protection even when the attack traffic exceeds the peak value of basic protection package, so as to ensure a smooth business. The billing of elastic protection is flexible, and is based on the actual peak value. There would be no charge with no attack.
 
-**3: Covers all business scenarios**: One-stop purchase, offering web service (domain) + non-web service (IP and port) protection, supports IPV4 and IPV6 protection scenarios.
+**3: Covers all business scenarios**: One-stop purchase, offering web service (domain) + non-web service (IP and port) protection, supports IPv4 and IPv6 protection scenarios.
 
  
 

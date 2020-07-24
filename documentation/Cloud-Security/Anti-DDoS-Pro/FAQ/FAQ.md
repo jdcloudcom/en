@@ -64,7 +64,7 @@ A: Anti-DDoS Pro sets up error code pages for the following special cases, and y
 
 | Status Code	| Meaning	| Reasons for Occurring | What to do |
 | :- | :- | :- | :- |
-|ERROR 493 |	Request to re-enter |	The same access from you has passed through the node of Anti-DDoS Pro of JD for several times or has been intercepted by CC defense. |	Please confirm CC defense configuration and if the website is configured with multiple proxy servers and the proxy path has a ring circuit.|
+|ERROR 493 |	Request intercepted |	The same access from you has passed through the node of Anti-DDoS Pro of JD for several times or has been intercepted by CC defense. |	Please confirm CC defense configuration and if the website is configured with multiple proxy servers and the proxy path has a ring circuit.|
 |ERROR 500/502/504 | Origin servers return errors |Origin server returns error codes 500, 502 and 504 | Origin Server Detection Service|
 |ERROR 590/592/594 | Anti-DDoS Pro Return Error  | Back-to-origin connection creation of Anti-DDoS Pro node failed or is overtime	| Detect origin server service and configuration of Anti-DDoS Pro |
 
@@ -109,11 +109,11 @@ A: As shown in the figure below, after the HTTP back-to-origin is turned on, it 
 
 If the port is customized by HTTP, the port back-to-origin of custom port will be used.
 
-**Q: Whether Anti-DDoS Pro supports IPV6, are there any special restrictions?**
+**Q: Whether Anti-DDoS Pro supports IPv6, are there any special restrictions?**
 
-A: The China Telecom Line of Anti-DDoS Pro has already supported IPv6 ISP-Lines, you can only select IPV4 addresses or select both IPV4 and IPV6 addresses according to your needs when you purchase new instances.
+A: The China Telecom Line of Anti-DDoS Pro has already supported IPv6 ISP-Lines, you can only select IPv4 addresses or select both IPv4 and IPv6 addresses according to your needs when you purchase new instances.
 
-Restrictions: Unicom and CMCC ISP-Lines temporarily do not support IPV6; the purchased IPV4 instances temporarily do not support to upgrade to IPV6; IP addresses of back-to-origin do not support to configure IPV6. If you have special requirements, please submit ticket feedback.
+Restrictions: Unicom and CMCC ISP-Lines temporarily do not support IPv6; the purchased IPv4 instances temporarily do not support to upgrade to IPv6; IP addresses of back-to-origin do not support to configure IPv6. If you have special requirements, please submit ticket feedback.
 
 **Q: After Advanced Anti-DDoS Pro is accessed, how to get the true client IP?**
 

@@ -41,6 +41,16 @@ Rule configuration fields are interpreted as below:
 
 ![产品设计说明](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/ip-anti-design-cn.png)
 
+4. After website forwarding rules are successfully created, click to copy CNAME in the list of rules, modify the resolution in DNS and switch traffic to Anti-DDoS Pro. For details, refer to [Update DNS Resolution](Update-DNS-Settings.md)
+![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2011.png)
+
+5. After the configuration for website forwarding rules is completed, the protection on-off will be on by default, and you can click to switch to the back-to-origin mode. Under the back-to-origin mode, traffic will directly be back to Origin Server IP without through Anti-DDoS Pro cleaning.
+![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2012.png)
+
+6. If HTTPS is checked in the configuration for website forwarding rules, you need to click to associate SSL Certificate in the list of rules. Click the **Upload** button, and select the uploaded certificate in the Certificate Management interface. If the certificate is uploaded for the first time, click the **Certificate Management** button to redirect to the SSL Certificate Console interface to upload the certificate. For details, refer to [Upload SSL Certificate](https://github.com/jdcloudcom/cn/blob/edit/documentation/Cloud-Security/SSL-Certificate/Operation-Guide/Upload-SSL-Certificate.md)
+![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2013.png)
+![网站转发规则](https://github.com/jdcloudcom/cn/blob/edit/image/Advanced%20Anti-DDoS/web-rule%2014.png)
+
 ## Related Reference
 
 - [Create Instance](Create-Instance.md)
