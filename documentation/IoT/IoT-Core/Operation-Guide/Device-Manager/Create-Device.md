@@ -36,6 +36,13 @@ Tags can be added to devices.
 
  After device registration, the **Device Management** Page will be automatically redirected. For device management details, please refer to [Device Information](../Device-Manager/Device-Info.md)
 
+ ## Device Search
+
+ You can search device information based on ID No., device name, thing type, device status, node type, customized tab and other conditions. Click **Clear** to clear the selected search conditions.
+
+![查询设备](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Device/Search-Device.png)
+
+
  ## Device Deletion
 
 Click the **Delete Device** button corresponding to device to be deleted on the Device List Page and click **Delete** on the deletion confirmation popup box.

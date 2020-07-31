@@ -1,8 +1,6 @@
 # Ways to Retrieve License Password
 
-**If you forget the password of your filing, you can retrieve your filing’s password through the manners of online retrieval and offline retrieval.**
-
-**I. Retrieve the Password of Filing Online**
+**If you forget your license password, you can retrieve it online.**
 
 (Please note that: when the password is retrieved through this method, please do not have multiple clicks due to system delay for the sake of avoiding causing the problem of generating multiple passwords)
 
@@ -33,11 +31,3 @@ Mobile Number: Fill in the mobile number which was used **when the subject was f
 ![4.png](https://img1.jcloudcs.com/cms/b47b248a-b011-40a2-954e-a4dd92bf435c20180918170819.png)
 
 After all the verifications of the information are passed, filing’s password will be directly sent to the mobile number and E-mail which you leaved at the time of filing before.
-
-**II. Retrieve the Password of Filing Offline**
-
-If the mobile number and E-mail which you leaved at the time of filing before not being normally used, you can download the application form named Retrieve the Password of Filing at Relevant Download columns on lower left side of the provincial or municipal communications authority where you perform the filing. Application form is accompanied by instructions for completing the form and the way of submitting it to the authority. After downloading the form, you can view it by yourself and fill in and submit it as required.
-
-As shown in the following figure, take the page of Beijing Communications Administration as an example.
-
-![5.png](https://img1.jcloudcs.com/cms/e25c8476-e112-43c8-b6f1-123b4dbddd8d20180918170904.png)

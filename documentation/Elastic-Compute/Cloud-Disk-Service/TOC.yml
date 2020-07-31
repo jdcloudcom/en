@@ -27,14 +27,10 @@
     items:
     - name: Description of Billing Method
       items:
-        - name: Billing Rules
-          href: Pricing/Billing-Mode-Instructions/Billing-Rules.md
-        - name: Renewal Rules
-          href: Pricing/Billing-Mode-Instructions/Renew-Rules.md
-        - name: Expiration & Overdue Rules
-          href: Pricing/Billing-Mode-Instructions/Owe-Rules.md
-        - name: Expiration & Overdue Remind
-          href: Pricing/Billing-Mode-Instructions/Owe-Remind.md
+        - name: Cloud Disk Service Billing Mode
+          href: Pricing/snapshot-billing-rules.md
+        - name: Cloud Disk Snapshot Billing Mode
+          href: Pricing/snapshot-billing-rules.md
     - name: Price Overview
       href: Pricing/Price-Overview.md
     - name:  Purchase Channel

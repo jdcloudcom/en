@@ -47,6 +47,10 @@
             href: Operation-Guide/Account-Management/Create-Account.md
           - name: Reset Password
             href: Operation-Guide/Account-Management/Reset-Password.md
+      - name: Audit Service
+        items:
+          - name: JDW Audit Service 
+            href: Operation-Guide/Audit/JDW-Audit-service.md
       - name: Monitoring Alarm
         items:
           - name: View Monitoring Information
@@ -57,6 +61,7 @@
         items:
           - name: Migrate MySQL data to JDW
             href: Operation-Guide/Data-Migration/mysql2pgsql.md
+     
   - name: FAQ
     href: FAQ/FAQ.md
   - name: User Agreements

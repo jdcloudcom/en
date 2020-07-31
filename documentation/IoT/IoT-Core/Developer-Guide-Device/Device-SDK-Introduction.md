@@ -18,4 +18,4 @@ Relations between application scenarios, SDK and PAL are as shown in the figure 
 Applications only need to concern use of combined business logics of SDK API rather than communication details. The PAL layer requires users to conduct adaption according to their own OS and device information. SDK provides the PAL layer adaption for linux.
 
 For adaption of MQTT, SDK provides adaption examples of mosquito and developers can adapt MQTT of the hardware platform itself according to examples.
-
+ 

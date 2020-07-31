@@ -45,6 +45,14 @@ The Cloud Physical Server provides the following instance types: Compute Standar
 		<td align="center">NO RAID/RAID0/RAID1/RAID10</td>
     </tr>
     <tr>   
+        <td align="center"><B>Compute Performance Ⅱ (Generation II)<br/>(cps.c2.perf2)<B></td>
+		    <td align="center">2*Gold-6267<br/>(24 Core 2.6GHz)</td>
+		    <td align="center">384G（12*32G）DDR4</td>
+		    <td >2*240GB（SSD）+16*960GB（SSD）</td>
+		    <td align="center">1 Piece of Independent Management Port+<br/>2*10GE ENI</td>
+		<td align="center">NO RAID/RAID0/RAID1/RAID10</td>
+    </tr>
+    <tr>   
         <td align="center"><B>Compute PerformanceⅡMemory<br/>(cps.c.perf2.memory)<B></td>
 		    <td align="center">2*2683V4<br/> (16-core 2.1G)</td>
 		    <td align="center">768G（24*32G）DDR4</td>

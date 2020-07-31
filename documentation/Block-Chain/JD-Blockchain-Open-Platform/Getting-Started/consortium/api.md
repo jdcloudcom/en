@@ -21,6 +21,7 @@ Current APIs shall be returned to the following format in a unified manner:
    "err_msg": null,   // When returned successfully, the specific value is null
 }
 ```
+
 ### API Execution Failed
 
 ```json
@@ -31,6 +32,7 @@ Current APIs shall be returned to the following format in a unified manner:
    "err_msg": "Specific error information,     // Status detailed information character string: Specific error information
 }
 ```
+
 ## Check service status
 ### Description
 It is used to examine whether the API service at current blockchain nodes is normal, and when http status code is 200 and the character string returning is **ok**, the service is demonstrated as normal.
@@ -44,7 +46,9 @@ n.a.
 ```
 curl -X GET http://bc-r3scqqdhru-peerft-0-FI.jvessel-public-stag2.jdcloud.com:80/healthz 
 ```
+
 ### Response Example
+
 ```
 ok
 ```
@@ -65,6 +69,7 @@ JSON
 	"password": "",      // API user passwords defined at creation of blockchain network
 }
 ```
+
 ### Request Example
 ```
 curl -X POST \
@@ -107,6 +112,7 @@ JSON
 	"args": ["k", "100"] // Input parameter of chain code method and note that here is the JSON array
 }
 ```
+
 ### Request Example
 ```
 curl -X POST \
@@ -120,6 +126,7 @@ curl -X POST \
 	"args": ["k", "100"]
 }'
 ```
+
 ### Response Example
 > Returning results shall be extracted from the **data** field of the unified returning results
 ```json
@@ -158,6 +165,7 @@ JSON
 	"args": ["k"] // Input parameter of chain code method and note that here is the JSON array
 }
 ```
+
 ### Request Example
 ```
 curl -X POST \
@@ -275,6 +283,7 @@ QUERY
 curl -X GET http://bc-oyw2mynhyj-peerft-0-FI.jvessel-public-stag2.jdcloud.com:80/external/v1/channel/block/hash?channelId=mychannel&blockHash=bb708f185322c9939a8696e46dd9d2e89599367e0c3e377a58126e14a4b5f932 \
   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1ODMyMzQ1OTcsImlkIjoicSIsIm9yaWdfaWF0IjoxNTgzMjMwOTk3fQ.lYH8jHlatgfImJ98SbvOE5clov50Y76tpTXnJqiVCHc' 
 ```
+
 ### Response Example
 > Returning results shall be extracted from the **data** field of the unified returning results
 
@@ -314,6 +323,7 @@ QUERY
 curl -X GET http://bc-oyw2mynhyj-peerft-0-FI.jvessel-public-stag2.jdcloud.com:80/external/v1/channel/block/txid?channelId=mychannel&txId=9ad0ea1c81d0183d5a7b82fac854d8bf176abccf6d901b9fb5fd9158762a6962' \
   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1ODMyMzQ1OTcsImlkIjoicSIsIm9yaWdfaWF0IjoxNTgzMjMwOTk3fQ.lYH8jHlatgfImJ98SbvOE5clov50Y76tpTXnJqiVCHc' 
 ```
+
 ### Response Example
 > Returning results shall be extracted from the **data** field of the unified returning results
 
@@ -354,6 +364,7 @@ curl -X GET \
   'http://bc-oyw2mynhyj-peerft-0-FI.jvessel-public-stag2.jdcloud.com:80/external/v1/channel/tx/txid?channelId=mychannel&txId=9ad0ea1c81d0183d5a7b82fac854d8bf176abccf6d901b9fb5fd9158762a6962' \
   -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1ODMyMzQ1OTcsImlkIjoicSIsIm9yaWdfaWF0IjoxNTgzMjMwOTk3fQ.lYH8jHlatgfImJ98SbvOE5clov50Y76tpTXnJqiVCHc' 
 ```
+
 ### Response Example
 > Returning results shall be extracted from the **data** field of the unified returning results
 
@@ -364,4 +375,58 @@ curl -X GET \
 	"txStatus":0, // Transaction status, 0 refers to valid status
 	"invokes":[{"args": ["a","b"],"chaincode":" test","method":" put"}] // Transaction Content
 }
+```
+
+## IPFS file upload
+### Description
+Upload files to the IPFS cluster
+### Request method
+POST
+### Request path
+/external/v1/files/upload
+### Request format
+multipart/form-data
+### Request header
+* Authorization: Bearer + Token returned by the login API
+* Content-Type: multipart/form-data
+### Request parameters
+* file: Files
+
+```json
+curl -i -X POST \
+    -H "Content-Type:multipart/form-data" \
+    -H "Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1OTA2NTUzNDYsImlkIjoiMTIzIiwib3JpZ19pYXQiOjE1OTA2NTE3NDZ9.sliHlgQkKMywB1VYxM_G1nwG0ZxzDJLGrc8iKgLw8w0" \
+    -F "file=@\"./file.txt\";type=application/gzip;filename=\"file.txt\"" \
+   'http://bc-6oebaqruiz-peerft-0-FI.jvessel-public-stag2.jdcloud.com/external/v1/files/upload'
+```
+
+### Corresponding sample
+```json
+{
+	"code":200,
+	"status":"ok",
+	"data":"QmPFULsxciTq37P9qL24ttBSsCQ1YzH1VnkKgWrCEJizcn",
+	"err_msg":""
+}
+```
+
+## IPFS file downloading
+### Description
+Download files from the IPFS cluster
+### Request method
+GET
+### Request path
+/external/v1/files/download
+### Request format
+QUERY
+### Request header
+* Authorization: Bearer + Token returned by the login API
+### Request parameters
+* hashId: IPFS hashes returned when uploading
+* fileName: File names saved
+
+```
+curl -i -X GET \
+   -H "Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1OTA3MjU0NTcsImlkIjoiMTIzIiwib3JpZ19pYXQiOjE1OTA3MjE4NTd9.H_nPesJM8mcQ2tMYBEeGOKwHQE0PigjmnEZ20ptBoNI" \
+ 'http://bc-qgrpi7heoh-peerft-0-FI.jvessel-public-stag2.jdcloud.com/external/v1/files/download?hashId=QmSAQam7ikKh2J1JCBfuZhbv1opCQRWuZacKK5ZbkHw4Yy&fileName=file.txt'
 ```

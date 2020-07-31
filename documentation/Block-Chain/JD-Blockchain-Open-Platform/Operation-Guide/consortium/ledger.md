@@ -20,22 +20,22 @@ Select invitee to be invited (including yourself) on this page and click **Add**
 
 The page for creation of ledger is as follows; after you enter all information required, you can click **OK** button to complete the creation. There is a prompt on the upper right to demonstrate successful creation.
 
-After creation of a ledger, relevant information can be searched in the Ledger List which differentiate tab page in details as that of Blockchain Network List for convenient viewing. Here we will give detailed descriptions for functions of the List in accordance with different tab pages.
+After creation of a ledger, relevant information can be searched in the Ledger List which differentiate Tab page in details as that of Blockchain Network List for convenient viewing. Here we will give detailed descriptions for functions of the List in accordance with different Tab pages.
 
-* **Ledger I Create**: List of Ledger I Create can authorize ledger with some operations such as publicizing/concealing and admitting. Publicizing/concealing function can control whether the ledger can be viewed by all in the Blockchain Network. Admitting function can agree other ledgers’ application to join. Meanwhile, the nodes the current ledger has joined can be viewed by clicking the button next to the **Participant**.
+* **Ledger I Created**: In the list of Ledger I Created, some authorization operations can be performed to the ledger, including open/hide and to-do. The open/hide function can control whether the ledger is visible in the blockchain network. The to-do function can allow other applications to be added to the ledger. At the same time, click the **Participant** button to view the participating nodes of the current ledger.
 
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium32.png)
 
-The nodes the current ledger has joined can be viewed by clicking the button next to the **Participant** on the List Page.
+Click the **Participant** button on the List page to view the participating nodes of the current ledger.
 
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium33.png)
 
-Basic information of the ledger can be viewed by clicking **Ledger Name** on the List Page.
+Click the **Details** button on the List page to view the basic information of the ledger.
 
 
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium34.png)
 
-With admitting function, the nodes of ledgers applying to join can be reviewed and when there is a node to apply to join, you can click **Admit** button and view application information on the page popped out at right side.
+The nodes applying to join the ledger can be reviewed by the to-do function. When there are nodes applying to join the ledger, click the **Access** button, and then the application information can be viewed on the page popped up on the right.
 
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium35.png)
 On the same page, you can review the nodes of ledgers applying to join, the **Agree** button means to agree with the application, and the **Refuse** button means to refuse the application. Upon whichever button is clicked and the operation is successful, a prompt will be popped out at the right upper corner of the system.
@@ -59,7 +59,7 @@ Upon the approval from the corresponding party, the button will become into **Jo
 
 After clicking the **Join** button, a notification indicating your successful joining will appear at the top right corner.
 
-* **Ledger Where I am Invited**: When the account creator creates the ledger or after that, He/she can invite other members under the same network to join the ledger. The invitee can view the invitation information under the "Ledger Where I am Invited" tab. Click the **Overview** button, you can view the invitation information.
+* **Ledger Where I am Invited**: When the account creator creates the ledger or after that, He/she can invite other members under the same network to join the ledger. The invitee can view the invitation information under the "Ledger Where I am Invited" Tab. Click the **Overview** button, you can view the invitation information.
 * 
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium41.png)
 

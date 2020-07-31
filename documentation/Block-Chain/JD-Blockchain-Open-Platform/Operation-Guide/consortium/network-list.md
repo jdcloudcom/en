@@ -1,80 +1,56 @@
-# Enterprise Networking List
-As indicated above, enterprise networking can help users to create a Consortium Blockchain network in JD Cloud BaaS Platform. Consortium Blockchain is the most extensive form creating blockchain network at present. It can combine multiple nodes to make these nodes not transferring communications with each other combined and deliver trusted data information under the same rules. JDD BaaS platform provides convenience for users with the page for the creation and configuration of Consortium Blockchain, enabling users to rapidly increase or decrease the blockchain network nodes just like "creating a Circle of Friends".
+# Network List of Enterprise Networking
+As mentioned above, enterprise networking can help users to create an alliance chain network in the BaaS platform of JD Cloud version. The alliance chain is now the most extensive form for the creation of the blockchain network. Through this form, multiple non-creditable nodes can be combined together to transmit credible data information under the same rules. JD Blockchain Open Platform provides users with the Alliance Chain creation and configuration page, which is convenient for users to quickly increase or decrease nodes in the blockchain network just like "creating a friend circle".
 
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium11.png)
 
-Consortium blockchain is display in 4 tab pages. The information displayed in each page is different, as follows:
+The display of the alliance chain is divided into 4 Tab pages, and the information displayed on each Tab page is different, the details of which are as follows:
 
-* **Chain I Create**: In the default display interface, all chains created by the current account are displayed under this tab page. Under this page, the permissions to operate the chain are also different. Under this tab page, you can conduct operations including open/hide, access, invitation and deletion to the Blockchain you create. The meaning of each operation is as follows
-	* Open/Hide: Whether to open the chain, if so, enterprises using JDD BaaS platform and accessing the Internet can view the basic information of this blockchain network (the basic information refers to the name and creator, excluding business information), and can apply to join the blockchain network
-	* Access: After clicking **Access**, you can query the information that you apply for joining the chain on the page, and decide whether to run you partners to join the chain according to the application information. The ** ** button indicates that you agree to join the network, and the ** ** button indicates that you disagree to join the network. Upon successfully clicking either of the two buttons, a prompt telling you the operation is successful will pop up at the top right corner
+* **Network I Created**: It is the interface displayed by default. All blockchain networks created by the current account are displayed under this Tab page. Under this page, different permissions are offered to operate the chain. Under this Tab page, operations such as open\hide, details, running status, to-do, invitation, alliance member and deletion can be performed to the blockchain created by yourself, and the significance of each operation is as follows
+	* Open\hide: Whether to open the chain. If to open it, all enterprises using JD Blockchain Open Platform and accessing the Internet can view the basic information of this blockchain network (the basic information refers to the name and creation unit, excluding business information), and can apply to join the blockchain network
+	* Details: Click **Details** to enter the network to perform in-network management
+	* Running status: The running conditions of all the components of the current blockchain network nodes can be viewed in real time
+	* To-do: The information for applying to join the network can be inquired on the page, and whether the applicant can be allowed to join the chain is decided based on the application information. The **Agree** button represents agree the applicant to join the network; the **Reject** button represents disagree the applicant to join the network. After either of these two buttons is successfully clicked, a prompt for successful operation will pop up in the upper right corner
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium12.png)
-	* Invitation: While the chain is in operation, it is still possible to invite more partners to join the blockchain network. This feature allows the chain creator to invite partners to join the network. After clicking, the page is shown as the following.
-![Image](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium13.png) After entering the page, the nodes that can form a network in JD Cloud Network will be found by default. You can click the **Add** button to invite someone. The added person(s) will be shown in the list below. If you add an error invitee, you can click the **Delete** button to delete the invitee. More than one invitee can be invited on this page.
-![Image](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium14.png) If you want to invite a person specified, you can select the network and enter the user identification (user identification code). Then click the *Search* button. The information searched out will be shown in the result list. Click the **Add** button for invitation.
-	* Delete: This button is set for network creators. You can delete useless networks to save space. Note, that if you are a network initiator, you can start deleting only after all participants exiting the network; otherwise, the deletion of useless networks won’t succeed.
-* **Chain I Joined**: For the blockchain network you join, you can view under this tab page, and enter this blockchain network for more details. The network on this page does not have too much permission for operation as it is not an account login.
-![Image](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium15.png) On this page, you can only "Exit" the network you have joined. Upon clicking the **Exit** button, you need to confirm whether to exit in the page popped-up, and then you can exit the current network:
-![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium16.png)
-* **Chain Opened**: For the blockchain network to which the Open button has been clicked, you can view it in the tab. On this page, for the blockchain network created by a non-login account, you can choose whether to join the network. If the blockchain network is created by this account, no button will appear. After clicking **Apply to Join the Network**, you can see the details of the network. Confirmed as correct, you can click the **Apply to Join** button to join the network.
-![Image](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium17.png) After clicking the **Apply to Join** button, you can check the details of the public chain. Confirmed as correct, you can click the **Apply to Join** button, then the application information will be sent to the initiator of the blockchain network.
+	* Invitation: While the chain is running, new partners can still be invited to join the blockchain network. This function allows the creator of the chain to invite people to join the network. After clicking it, the page is shown as follows:
+![Image](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium13.png)After entering the page, the system will automatically list out other BaaS platforms in the same domain with JD Blockchain Open Platform, and enter the recognition code of the invitee in the *User ID (Customer Recognition Code)* column. And to protect the privacy of platform customers, only the user accurate matching function is provided, so the inviter needs to inform the invitee of the customer recognition code in a specific BaaS platform. For example, in the baas-console.jdcloud.com platform, the customer recognition code is JD Cloud account PIN, which can be obtained from the Account Management in the upper right corner.
+	* Alliance member: All the existing alliance members in the network can be learnt about through this operation
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium14.png)
+	* Deletion: Delete useless blockchain networks. Note that if you are the network initiator, you can start the deletion only after all participants exit the network. Otherwise, the network deletion will not succeed.
+* **Network I Joined**: The blockchain networks you have applied for or been invited to join are shown under this Tab page. Compared to the network created by yourself, you have fewer privileges in the network you have joined. You can only view the running status and alliance members as well as exit from the current alliance.
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium15.png)
+* **Network Opened**: The blockchain networks with the Open button clicked can be viewed on this Tab page. On this page, the blockchain networks created by non-login accounts can be joined; the blockchain networks created by this account will not appear on this Tab page. After clicking the **Apply to Join Network**, the detailed information about the network can be viewed. After the information is confirmed to be correct, click the **Apply to Join** button to join the network.
+![Image](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium17.png) After clicking the **Apply to Join** button, the detailed information about the public blockchain can be viewed. After the information is confirmed to be correct, click the **Apply to Join** button, and then the application information will be sent to the blockchain network initiator.
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium18.png)
-When the creator of the blockchain network agrees to let you join, the Operation button on this page becomes ** **. After clicking the button, it starts to enter the Node Startup Interface. Unlike the Network Creation page, the Node Startup page displays the basic information of blockchain network before asking users to enter details.
+When the blockchain network creator agrees you to join, you can enter the node start-up interface. Different from the network creation page, the node start-up interface shows the basic information about the blockchain network, and then users are required to enter details.
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium19.png)
-At the end, there is information to be configured for the application of joining the chain, and the items to be entered are as shown in table below:
+![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium16.png)
+
+The following is the configuration information of the chain to be joined, and the items that need to be entered are shown in the table below:
 
 | Category | Parameter Name | Required | Rules |
 |----------|----------|:------:|--------------------------------------------------|
-| Regional Information | Region | Yes | Choose the region at which the server is located |
-| | Optional Areas | Yes | Choose available server areas under the region |
-| Network Information | Private Network | Yes | |
-|  | Subnet | Yes | |
-| Specification | Machine Specification | Yes | Machine specification is optional. The detailed configuration based on the specification you choose will be displayed on the right. |
-| Storage | Data Disk Type | Yes | HDD and SSD Cloud Disk are optional |
-|  | Data Disk Capacity | Yes | Select a Data Disk Capacity between 40 (minimum) and 400 (maximum) |
-| Blockchain Configuration |	API User	| Yes| The user whose name is used to call APIs needs to be used for calling when the application system calls.|
-| |	API Password	|Yes|	The API user passwords are a combination of characters and letters|
-||	Node Number|	Yes|	Number of Blockchain consensus nodes set the home terminal|
-||	Status Database|	Yes|	Choose LevelDB or couchDB|
-||	Browser|	Yes|	Choose to enable the browser function or not. It is not supported in this version|
+| Resource configuration| Region | Yes | Select the region where the server is located. Resources in different regions are not interchangeable within the intranet and cannot be changed after creation |
+| | Available region | Yes | Select a server region available under this region |
+|  | Virtual Private Cloud | Yes | |
+|  | Subnet | Yes | It is recommended to select a subnet with a great count of IP. If the IP count is inadequate, the creation of the blockchain network will fail|
+| | Bandwidth | Yes | Public network bandwidth, which is 5Mbs by default |
+|  | Host specification | Yes | The host specification is optional, and the detailed configuration of different specifications selected is shown on the right. The basic version is applicable for low-frequency interaction or single business scenarios, and the TPS does not exceed 300; The upgraded version is applicable for high-frequency business or multi-business application scenarios, and the peak TPS can be up to 1,000+  |
+|  | Data disk type | Yes | HDD Cloud Disk and SSD Cloud Disk are optional |
+|  | Data disk capacity | Yes | Select the data disk capacity, the minimum and maximum of which are 40G and 400G respectively. The disk capacity selected here is the single component disk capacity, and the total usage can refer to the selected configuration on the right |
+|Other configuration|	Browser|	Yes|	Install a blockchain browser for the current organization, which can be used to monitor the running status and data of the blockchain. This function can be added later.|
+||	Node count|	Yes|	For the count of blockchain consensus nodes set on this end, the service fee is charged as per the node count. Please make a selection as per the actual usage. 1 node by default |
+|  |	API user	| Yes| It is the user name to call API, which is required when calling an application system.|
+| |	API password	|Yes|	The password of the API user. Please keep the password properly. If you forget the password, please open a ticket for processing |
+||	Status library|	Yes|Two status library engines are supported now. CouchDB is added with the function of rich text search based on the basic functions. If the function of rich text search is required, it is recommended to select CouchDB. LevelDB by default|
 
-Enter the configuration of different information. The prices are displayed in the configuration item on the right in detail. After all information is entered, you can click the **Purchase** button to start purchasing.
-After clicking the button, you will log into the Information Confirmation page, which is divided into two pages for two steps, namely the Order Confirmation page and the Enabled Successfully page respectively. You can confirm the order amount in the Order Confirmation page. Confirmed as correct, you may click the **Instant Account Setup** button to complete the confirmation.
+Entering different information configuration, the corresponding price will be shown in the configuration item on the right in detail. After all information is entered, click the **Buy** button to start purchase operations.
+After clicking the button, you will enter the information confirmation page. On this page, there are two steps, which are shown in Order Confirmation page and Successfully Opened page. On the Order Confirmation page, the order amount information can be confirmed. After the information is confirmed to be correct, click the **Instant Account Setup** to complete this confirmation step.
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium20.png)
 
-After entering the Enabled Successfully page, if there is sufficient amount in your account, the system will show you a notification congratulating for you successful enabling. Then, the page will automatically redirect back to the Networking List page after 5 seconds.
+After entering the Successfully Opened page, if the amount in the account is adequate, the system will pop up a prompt informing you of congratulations for the successful opening. After that, the page will automatically redirect to the Network List page after 5 seconds.
 
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium21.png)
-On the Networking List Page I Joined, you can check the network status. When the operation status changes into "In Operation" and all backend operation buttons appear, the network is successfully created. For the specific operations on the Chain Page I Joined, please refer to the above-mentioned "Chain I Joined". Note, that you can click the name of the blockchain network to enter the Details after you have successfully joined.
+On the Network I Joined page, the network status can be viewed. When the running status changes into "running" and all the backend operation buttons appear, the network is successfully created. For the specific operations to be conducted on the Chain I Joined page, please refer to the "Chain I Joined" mentioned above. Note that only if you successfully join can you click the blockchain network name to enter the Details.
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium22.png)
 
-* **Chain Where I am Invited**: If you are invited, the tab page will display the blockchain network information of the inviter. Optional operations include Overview. After you accept or refuse to join the chain, this page will be cleared. After clicking the **Overview** button, the Input Information page will pop up. The basic information of Blockchain is shown at the top of this page.
-
-![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium23.png)
-
-At the end, there is information to be configured by the invitee, and the items to be inputted are as shown in table below:
-
-| Category | Parameter Name | Required | Rules |
-|----------|----------|:------:|--------------------------------------------------|
-| Regional Information | Region | Yes | Choose the region at which the server is located |
-| | Optional Areas | Yes | Choose available server areas under the region |
-| Network Information | Private Network | Yes | |
-|  | Subnet | Yes | |
-| Specification | Machine Specification | Yes | Machine specification is optional. The detailed configuration based on the specification you choose will be displayed on the right. |
-| Storage | Data Disk Type | Yes | HDD and SSD Cloud Disk are optional |
-|  | Data Disk Capacity | Yes | Select a Data Disk Capacity between 40 (minimum) and 400 (maximum) |
-| Blockchain Configuration |	API User	| Yes| The user whose name is used to call APIs needs to be used for calling when the application system calls.|
-| |	API Password	|Yes|	The API user passwords are a combination of characters and letters|
-||	Node Number|	Yes|	Number of Blockchain consensus nodes set the home terminal|
-||	Status Database|	Yes|	Choose LevelDB or couchDB|
-||	Browser|	Yes|	Choose to enable the browser function or not. It is not supported in this version|
-
-Enter the configuration of different information. The prices are displayed in the configuration item on the right in detail. After all information is entered, you can click the **Purchase** button to start purchasing.
-After clicking the button, you will log into the Information Confirmation page, which is divided into two pages for two steps, namely the Order Confirmation page and the Enabled Successfully page respectively. You can confirm the order amount in the Order Confirmation page. Confirmed as correct, you may click the **Communicate Now** button to complete the confirmation.
-![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium24.png)
-After entering the Enabled Successfully page, if there is sufficient amount in your account, the system will show you a notification congratulating for you successful enabling. Then, the page will automatically redirect back to the Networking List page after 5 seconds.
-
-![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium25.png)
-
-On the Networking List Page I Joined, you can check the network status. When the operation status changes into "In Operation" and all backend operation buttons appear, the network is successfully created. For the specific operations on the Chain Page I Joined, please refer to the above-mentioned "Chain I Joined". Note, that you can click the name of the blockchain network to enter the Details after you have successfully joined.
-![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium26.png)
+* **Network I am Invited**: When being invited, the blockchain network information of the inviter will be shown in this Tab page. There is an overview about the operations workable. After you agree to join or refuse to join, the page will be cleared. The basic operations are the same as the operations applying for joining the network.

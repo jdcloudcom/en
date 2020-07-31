@@ -4,7 +4,7 @@
 
 2. Any organization must apply for filing with the latest three-in-one license
 
-3. If the person in charge of entity is a legal person, but the person in charge of website is not, please provide the Hu’nan Letter of Authority [Hu’nan Letter of Authority.doc](https://img1.jcloudcs.com/cms/03b45fc0-c674-4f20-9837-b3c61f806c1320180503110328.doc)）
+3. If the person in charge of entity is a legal person, but the person in charge of website is not, please provide the Hu’nan Letter of Authority [Hu’nan Letter of Authority.doc](https://img1.jcloudcs.com/cms/80ad981a-776b-41c1-8979-817b32fdc4b520171206193651.docx)）
 
 4. All persons in charge must be greater than 18-year-old
 

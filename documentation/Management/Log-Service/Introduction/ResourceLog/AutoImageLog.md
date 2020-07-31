@@ -12,3 +12,4 @@ At present, the log type accessed to Log Service is the automatic mirroring exec
 | 4 | startTime | Execution Start Time | string |
 | 5 | execVmNum | Execution Virtual Machine Count | int |
 | 6 | taskState | Task Status  | string |
+| 7 | endTime | Execution End Time | string |

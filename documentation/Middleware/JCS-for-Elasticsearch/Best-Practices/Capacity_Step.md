@@ -160,8 +160,8 @@ esrally configure    //Detailed Official Configuration https://esrally.readthedo
 
 ```
 #test mode
-esrally --test-mode --target-hosts=es-nlb-es-a79ccwzhrp.jvessel-open-hb.jdcloud.com:9200 --pipeline=benchmark-only
+esrally --test-mode --target-hosts=es-nlb-XXX.jvessel-open-hb.jdcloud.com:9200 --pipeline=benchmark-only
  
 #geonames
-esrally  --track=geonames --target-hosts=es-nlb-es-a79ccwzhrp.jvessel-open-hb.jdcloud.com:9200  --pipeline=benchmark-only
+esrally  --track=geonames --target-hosts=es-nlb-XXX.jvessel-open-hb.jdcloud.com:9200  --pipeline=benchmark-only
 ```

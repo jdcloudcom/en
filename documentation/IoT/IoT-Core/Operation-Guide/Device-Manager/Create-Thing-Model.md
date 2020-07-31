@@ -4,7 +4,6 @@ After the thing type is completed, the page will be automatically redirected to 
 
 ![创建物模型](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Create-Thing-Model.png)
 
-- Thing Model name: Support Chinese characters, English letters, numbers, line-through and underline within 30 characters, starting and ending with Chinese Characters, English letters and numbers.
 - Thing Model description: Description for the Thing Model, without input character type restriction and with length restriction of 0-200 characters, not required.
 - Thing model version: Please follow semantic version specification. The format of version number is: primary version number.secondary version number.amendment number, for example V1.0.0, v1.0.0 or 1.0.0.
 - Model list: Model definition under the Thing Model. When connection proxy device is respectively selected as the thing type and the node type, the connection proxy model (standard model) will be created by default.

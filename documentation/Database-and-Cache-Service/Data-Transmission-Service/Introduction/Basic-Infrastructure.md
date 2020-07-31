@@ -1,25 +1,25 @@
-# 基础架构
+# Infrastructure
 
-## 业务架构
+## Business Structure
 
-![1568968591708](../../../../image/Data-Transmission-Service/dts-003.png)
+![1568968591708](../../../../image/Data-Transmission-Service/dts-037.png)
 
-**说明**
+**Description**
 
-- DTS管理服务：创建管理迁移任务，每个任务会对应创建一个DTS Kernel Agent。
-- DTS监控服务：监控任务状态。
-- DTS Kernel Agent：DTS迁移服务，用于执行数据迁移，以容器的形式部署在目标数据库所在的子网中，DTS Kernel Agent支持自动高可用。
+- DTS management service: Create a management migration task. For each task, a DTS Kernel Agent will be created accordingly.
+- DTS monitoring service: Monitor task status.
+- DTS Kernel Agent: DTS migration service for data migration, deployed in the form of container in the subnet where the target database is located. DTS Kernel Agent supports automatic high availability.
 
 
 
-## 数据迁移基本原理
+## Data Migration Rationale
 
 ![1568968924973](../../../../image/Data-Transmission-Service/dts-004.png)
 
-**说明：**
+**Description:**
 
-- 数据迁移提供多种迁移类型：结构迁移、全量迁移和增量迁移。
-- 结构迁移，迁移源数据库的库表结构。
-- 全量迁移，迁移源数据库当前的全量数据集。
-- 增量数据拉取，增量迁移服务将持续获取全量数据迁移过程中源数据库的变更数据。
-- 全量数据迁移完成后，增量迁移服务持续获取源数据库变更，并回放到目标数据库。
+- Data migration supports various migration types: structure migration, full data migration and incremental migration.
+- Structure migration is the migration of the source database structure.
+- Full data migration is the migration of the current full data set of the source database.
+- For incremental data pull, the changing data in the source database will be continuously obtained by the incremental migration service during the full data migration.
+- After the full data migration, the incremental migration service will continue obtaining the changes in the source database and migrate them to the target database.

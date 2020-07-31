@@ -1,6 +1,6 @@
 
 # Deploy Service (New Version)
-Since 1.12.3-jcs.4, Service supports a new version of LoadBalancer, which supports not only Application Load Balancer (alb), Network Load Balancer (nlb) and Distributed Network Load Balancer (DNLB), but also a wealth of configuration items, as well as reusing the created LoadBalancer, providing users with great flexibility.  
+Since 1.14-jcs.1, Service supports a new version of LoadBalancer, which supports not only Application Load Balancer (alb), Network Load Balancer (nlb) and Distributed Network Load Balancer (DNLB), but also a wealth of configuration items, as well as reusing the created LoadBalancer, providing users with great flexibility.  
 
 **Description ** Users can still use the old service configuration file, which is compatible to the new version of cluster. In addition, there are as many examples as possible herein to specify the configuration of parameters, while in actual use, the user only needs to fill in one required item to specify lb type, and no other annotation parameter is required to easily use the service
 

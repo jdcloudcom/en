@@ -74,7 +74,7 @@ items:
           - name: Alarm History
             href: Operation-Guide/Alarm-Management/View-Alarm-History.md
       - name: Consumption Management
-         items:
+        items:
           - name: Resource Bill
             href: Operation-Guide/Consumption-Management/Resource-Bill.md  
 - name: Best Practices

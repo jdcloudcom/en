@@ -41,7 +41,10 @@ items:
             href: Operation-Guide/consortium/ledger.md
           - name: Contract Management
             href: Operation-Guide/consortium/chaincode.md
-
+          - name: Sensitive word
+            href: Operation-Guide/consortium/sensitive.md
+          - name: IPFS management
+            href: Operation-Guide/consortium/ipfs.md
   - name: Development Guide 
     items:
       - name: One-click Deployment

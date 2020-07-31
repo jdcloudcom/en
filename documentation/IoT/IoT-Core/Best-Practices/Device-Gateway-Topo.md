@@ -12,7 +12,7 @@ By virtual of equipment topology maintenance, topology between a connection prox
 
 4. You can see that if the device type is a connection proxy device, the Topology button will be available on the Edition Page. Click the **Topology** button and enter the Topology Edition Page.
 
-![编辑拓扑关系](../../../../image/IoT/IoT-Core/Best-Practices/Device-Gateway-Topo/Topo-Relation-Button.png)
+![编辑拓扑关系](../../../../image/IoT/IoT-Core/Best-Practices/Device-Gateway-Topo/Edit-Gateway-Topo.png)
 
 ### Add proxy relationship
 

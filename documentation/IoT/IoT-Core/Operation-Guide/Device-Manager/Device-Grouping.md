@@ -6,7 +6,7 @@ Different groups of devices can be processed in batches via the Device Group.
 
 1. Log in the IoT Management Platform
 2. Select **Device Management Center** -> **Device Group** on the left navigation bar.**
-3. Click **Add Group**
+3. **Create a new group page** will show by default. You can also click **Add Group** to enter the page
 
 ![新建分组](../../../../../image/IoT/IoT-Core/Device-Manager/Device-Grouping/Create-Device-Group.png)
 

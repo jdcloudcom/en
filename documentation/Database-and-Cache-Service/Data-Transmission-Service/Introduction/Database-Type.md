@@ -25,4 +25,4 @@ Supported database types and versions are as follows:
 
 | Database Type | Connection Method of Source Database                                             | Database Version          | Target            | Data Type                     |
 | ---------- | ------------------------------------------------------------ | ------------------- | ----------------- | ---------------------------- |
-| MySQL      | JCS for MySQL<br />Self-built Database with Public IP<br />Self-built Database Connected via Direct Connection/Intranet | 5.5, 5.6, 5.7 and 8.0 | JCS for MySQL | Structure Update<br />Data Migration<br /> |
+| MySQL      | JCS for MySQL<br />Self-built Database with Public IP<br />Self-built Database Connected via Direct Connection/Intranet |5.6, 5.7 and 8.0 | JCS for MySQL | Structure Update<br />Data Migration<br /> |

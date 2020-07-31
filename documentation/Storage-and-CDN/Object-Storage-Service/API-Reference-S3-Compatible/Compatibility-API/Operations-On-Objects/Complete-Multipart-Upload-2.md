@@ -55,7 +55,6 @@ Etag|Etag can identify created Object data. Different Objects have different Eta
 
 Error Code|Description|HTTP Status Code
 ---|---|---
-EntityTooSmall|Each multipart shall be at least 5MB while the last multipart has no limit. |400 Bad Request
 InvalidPart|One or multiple specified multiparts is/are absent. The multipart may not be uploaded or specified Etag does not match the Etag of the multipart. |400 Bad Request
 InvalidPartOrder|Multipart list does not arrange in ascending order. |400 Bad Request
 NoSuchUpload|Specified multipart upload is absent, and Upload ID is invalid. |404 Not Found

@@ -22,4 +22,8 @@ A high permission account can be created for each InfluxDB instance through the 
 
 5. Fill in the account and password information, click **OK**, and wait for the account creation to complete.
 
+   **Note**: "root" is not supported for the account name.
+
+
 6. After the account is created, you can view it on the "Account Management" page.
+

@@ -14,11 +14,15 @@
 
 [The Website Filing Authorization.doc](https://img1.jcloudcs.com/cms/64c5905a-5592-4c9d-ac1a-d56c993dee5720171206193651.doc)
 
-[Authorization Letter of Sichuan.doc](https://img1.jcloudcs.com/cms/8d0e0081-a636-4004-ad9a-04956c1725a120171206193651.doc)
+[Authorization Letter of Sichuan.doc](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/wendangxiazhai/changyongwenjianxiazai/shouquanshu/shouquanshu.doc)
 
 [Letter of Authorization of Shaanxi.doc](https://img1.jcloudcs.com/cms/f477218e-a08b-481a-946d-2f22d9e6ecbd20171206193651.doc)
 
 [Letter of Authorization of Chongqing.doc](https://img1.jcloudcs.com/cms/f477218e-a08b-481a-946d-2f22d9e6ecbd20171206193651.doc)
+
+[Jilin Letter of Authorization.doc](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/wendangxiazhai/changyongwenjianxiazai/shouquanshu/shouquanshu.doc)
+
+[Shanxi Letter of Authorization.doc](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/wendangxiazhai/changyongwenjianxiazai/shouquanshu/shouquanshu.doc)
 
 #### Please deliver the Authorization Letter in the form of ticket to JD Cloud & AI after it is filled and stamped
 

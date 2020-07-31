@@ -6,7 +6,7 @@ JD Cloud & AI File Service is a fully-hosted distributed file system with high r
 
 #### 2.1 Service Availability
 
-Service availability: Not lower than 99.99%.
+Service availability: Not lower than 99.90%.
 
 The formula for computing the availability of Cloud File Service is as follows: all available time for a single service cycle/(all available time for a single service cycle + all unavailable time of a single file system per service cycle).
 

@@ -6,7 +6,7 @@ JCS for Elasticsearch and the dependent virtual machine must be under the same V
 2. Access the port 9200 of JCS for Elasticsearch instance through the curl command in the Linux environment. The access example format of specified account password is curl –XGET [Intranet access domain name of instance]/_cat, and Intranet access domain name is the **Intranet access domain name** in the basic information interface of ES instance. The command examples are as follows:
 
 ```
-curl -XGET es-nlb-es-kgqo8zmgcv.jvessel-open-hb.jdcloud.com:9200/_cat
+curl -XGET es-nlb-XXX.jvessel-open-hb.jdcloud.com:9200/_cat
 ```
 The following responses mean successful access:
 ```
@@ -56,7 +56,7 @@ gunzip logs.jsonl.gz
 '. The examples are as follows:
 
 ```
-curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/shakespeare" -H 'Content-Type: application/json' -d' { "mappings" : { "_default_" : { "properties" : { "speaker" : {"type": "keyword" }, "play_name" : {"type": "keyword" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" } } } } } '
+curl -X PUT "es-nlb-XXX.jvessel-open-hb.jdcloud.com:9200/shakespeare" -H 'Content-Type: application/json' -d' { "mappings" : { "_default_" : { "properties" : { "speaker" : {"type": "keyword" }, "play_name" : {"type": "keyword" }, "line_id" : { "type" : "integer" }, "speech_number" : { "type" : "integer" } } } } } '
 
  
 ```
@@ -82,18 +82,18 @@ The response below indicates mapping created:
 }'. The examples are as follows:
 
 ```
-curl -X PUT "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/logstash-20181011" -H 'Content-Type: application/json' -d' { "mappings": { "log": { "properties": { "geo": { "properties": { "coordinates": { "type": "geo_point" } } } } } } }' 
+curl -X PUT "es-nlb-XXX.jvessel-open-hb.jdcloud.com:9200/logstash-20181011" -H 'Content-Type: application/json' -d' { "mappings": { "log": { "properties": { "geo": { "properties": { "coordinates": { "type": "geo_point" } } } } } } }' 
 
 ```
 5. Load the data set and check if data set is loaded. The examples are as follows:
 ```
-curl -H 'Content-Type: application/x-ndjson' -XPOST 'es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/bank/account/_bulk?pretty' --data-binary @accounts.json
+curl -H 'Content-Type: application/x-ndjson' -XPOST 'es-nlb-XXX.jvessel-open-hb.jdcloud.com:9200/bank/account/_bulk?pretty' --data-binary @accounts.json
 
-curl -H 'Content-Type: application/x-ndjson' -XPOST 'es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/shakespeare/_bulk?pretty' --data-binary @shakespeare.json
+curl -H 'Content-Type: application/x-ndjson' -XPOST 'es-nlb-XXX.jvessel-open-hb.jdcloud.com:9200/shakespeare/_bulk?pretty' --data-binary @shakespeare.json
 
-curl -H 'Content-Type: application/x-ndjson' -XPOST 'es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/_bulk?pretty' --data-binary @logs.jsonl
+curl -H 'Content-Type: application/x-ndjson' -XPOST 'es-nlb-XXX.jvessel-open-hb.jdcloud.com:9200/_bulk?pretty' --data-binary @logs.jsonl
 
-curl -X GET "es-nlb-es-u92rc1eulw.jvessel-open-hb.jdcloud.com:9200/_cat/indices?v"
+curl -X GET "XXX.jvessel-open-hb.jdcloud.com:9200/_cat/indices?v"
 
 ```
 When the output similar to the following appears, the data is loaded:

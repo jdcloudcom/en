@@ -1,5 +1,5 @@
 # Certificate Management
-In JD Cloud Version, the system will automatically establish some certificates after completion of chain building. However, the certificates at each node shall be manually established by network creators in accordance with the quantity of nodes. The certificate name must be consistent with the node name. For example, if only one node has been selected, the node name is peer0, while if four nodes have been selected, the names of the nodes shall be peer0, peer1, peer2, peer3. The list of all certificates can be viewed upon the opening of certificate management tab page on which the details of the certificates can be viewed or downloading of the certificates can be conducted. In case that a new certificate needs to be applied, the application can be carried out by clicking **Apply Certificate** button on the certificate management tab page. Meanwhile, certificates meeting name requirements can be searched by entering the name of certificate and clicking **Search** button.
+In JD Cloud Version, the system will automatically apply for the basic certificates necessary for the creation of network after the blockchain network is created. Open the Certificate Management Tab page to view the list of all certificates. You can view the certificate details or download any certificate on this page. If to apply for a new certificate, you need to click the **Apply for Certificate** button on the Certificate Management Tab page for application. Meanwhile, you can enter the certificate name and click the **Search** button to search the certificate that meets the name requirement.
 
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium27.png)
 
@@ -13,13 +13,13 @@ The descriptions of fields on this page are shown as below:
 |----------|:----------:|------|
 |Certificate Name |	 Yes | 	 You can enter certificate name in English (required) with no more than 20 characters|
 |Certificate Password |	 Yes |	 Certificate password can be entered in figure|
-|Certificate Type |	 Yes |	You can select peer or user|
+|Certificate Type |	 Yes |	Now only the user type is selectable for user credentials when initiating transactions through the SDK |
 |Domain 	| Yes |	Domain can be written to if there is a special requirement for domain|
 |Region 	| Yes |	Region information can be entered if there is a special region requirement|
 |Address |	 Yes |	Address information can be entered if there is a special address requirement|
 |Department |	 Yes |	Department information can be entered if there is a special department requirement|
 
-After the creation of certificate, the information of the certificate can be viewed on the list page on which detailed content of the certificate can be viewed by clicking the certificate name.
+After the certificate is created, the certificate information can be viewed on the List page. On this page, you can click **Details** to view the details of the certificate.
 
 ![图片](../../../../../image/JD-Blockchain-Open-Platform/Getting-Started/Pic/consortium29.png)
 

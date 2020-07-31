@@ -39,8 +39,11 @@ Currently, the following formats are supported:
 
 ![新建规则](../../../../../image/IoT/IoT-Core/Rule-Engine/User-Setting.png)
 
-Expanded column: Add expansion attributes to the forwarded data, such as: device ID, device name, product ID.
+Expanded column: Add expansion properties to the forwarded data. Now the expansion of device ID, thing type code, device name and device physical id are supported.
+
+![扩展字段](../../../../../image/IoT/IoT-Core/Rule-Engine/extend-column.png)
 Intercepted column: For a character type column, you can specify to intercept certain characters in the column, such as: ‘device.profile.name, 0, 4’, which means the device.profile.name columns to be intercepted starting from 0 with an interception length of 4. If you do not enter the interception length, the default interception is to the end.
+
 Coalesced column: It refers to the combination column (multiple columns are supported), supporting the combination of character and numeric. For instance, coalescing the character column (person.name:xiaoli) and numeric column (person.age:23), please enter 'person.name, person.age', and the final output result is: 'xiaoli23'
 
 
