@@ -3,9 +3,9 @@ Since DRDS does not store data by itself and the data are stored on RDS·MySQL, 
 
 It provides the following instance types and it will provide more rich types as required by users later.
 
-|Number of CPU Cores|Memory (GB)|Number of Nodes|
-|-|-|-|
-|4|16|2|
-|8|32|2|
-|12|48|2|
-|16|64|2|
+|Number of CPU Cores|Memory (GB)|Price (Monthly Package RMB  ) |Price (Pay By Configuration RMB  Per Hour)
+|-|-|-|-|
+|8|32|1744|3.63|
+|16|64|4288|8.93|
+|24|96|6432|13.40|
+|32|128|8576|17.87|

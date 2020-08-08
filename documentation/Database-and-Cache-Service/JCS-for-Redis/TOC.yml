@@ -91,6 +91,16 @@
         href: Best-Practices/Python-Connect-to-Redis-Instance.md
       - name: Public Network Connect JCS for Redis Instance
         href: Best-Practices/Public-Network-Connect-to-Redis-Instance.md    
+  - name: Performance Test
+    items:
+      - name: Test Environment
+        href: Performance-Test/Test-environment.md
+      - name: Test Tool
+        href: Performance-Test/Test-tool.md
+      - name: Test Commands
+        href: Performance-Test/Test-commands.md
+      - name: Test Results
+        href: Performance-Test/Test-result.md
   - name: FAQ
     href: FAQ/FAQ.md     
   - name: User Agreements

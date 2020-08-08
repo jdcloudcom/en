@@ -6,10 +6,11 @@
 Instance Voucher of No Resource Reservation: (No limit to voucher count)<br>
 * Non-GPU Type: (1 Computing Power = 1 Core)
   * Virtual Machines: 500 Computing Power/Region<br>
-  * Native Container/POD: 500 Computing Power/Region<br>
+  * Container: 500 Computing Power/Region<br>
+  * POD: 500 computing powers/region
 * GPU Type: (1 Computing Power = 1 Card)
   * Virtual Machines: 100 Computing Power/Region<br>
-  * Native Container/POD: - (No GPU type is provided for Native Container/POD currently)<br>
+  * Container/POD: - (No GPU type is provided for Container/POD currently)<br>
 
 ## Operation Entry
 The instance voucher sets a Console entry under the menus [Elastic Compute - Virtual Machines] and [Elastic Compute - Native Container]. You can access the Instance Voucher Page from any one of the menu entries and purchase different types of vouchers as required on the Purchase Page.

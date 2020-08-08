@@ -51,20 +51,26 @@ items:
       href: Getting-Started/LogService-Started.md
 - name: Operation Guide
   items:
-    - name: Log Collection
+    - name: Log Source Settings
       items:
-        - name: Cloud Product Log Collection
-          href: Operation-Guide/LogCollection/CloudResource.md
-        - name: Business Application Log Collection
-          href: Operation-Guide/LogCollection/CustomLog.md
-        - name: Deliver business application log to ES
-          href: Operation-Guide/LogCollection/logtoES.md
-        - name: Deliver business application log to Kafka
-          href: Operation-Guide/LogCollection/logtoKafka.md
+        - name: Settings of Cloud Product's Log Source
+          href: Operation-Guide/Logsource/cloudServiceLogSource.md
+        - name: Settings of Service Application's Log Source
+          href: Operation-Guide/Logsource/customLogSource.md
     - name: Log Management
       items:
         - name: Log Configuration Management
           href: Operation-Guide/LogSet/collectionConfigManagement.md
+    - name: Log Pre-processing
+      items:
+        - name: Single Line Text Mode
+          href: Operation-Guide/Logpreprocessing/Singlelinetext.md
+        - name: Single Line and Full Test Regular Extraction Mode
+          href: Operation-Guide/Logpreprocessing/Fulltextregularization.md
+        - name: JSON Extraction Mode
+          href: Operation-Guide/Logpreprocessing/Jsonlog.md
+        - name: Delimiter Extraction Mode
+          href: Operation-Guide/Logpreprocessing/Separatorlog.md
     - name: Log Retrieval
       items:
         - name: Log Retrieval Syntax

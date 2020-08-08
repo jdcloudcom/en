@@ -1,15 +1,14 @@
 ## <div align=center>JD Cloud & AI Privacy Policy</div>
 
-Updating Date: March 4, 2020
+Updating Date: July 27, 2020
 
-Effective Date: March 5, 2020
+Effective Date: July 28, 2020
 
 **[Special Notification] Please read the JD Cloud & AI Privacy Policy carefully (especially the content underlined in bold) and make sure to understand our rules for handling your personal information. In the reading process, if you have any questions, please contact our Customer Service for consultation. If you do not agree with any terms in the agreement, you shall immediately stop accessing JD Cloud & AI. In the process of reading the agreement, if you do not agree to the relevant agreement or any of the terms therein, you shall immediately stop using JD Cloud & AI services.**
 
- 
 Introduction
 
-JD Cloud & AI ("we") attaches great importance to the privacy of users and personal information protection. We may collect and use your relevant information when you use our products and/or services. Through the JD Cloud & AI Privacy Policy (hereinafter referred to as "the Privacy Policy"), we hope to explain to you how we collect, use, save, share and transfer such information when you use our products and/or services and methods provided by us to access, update, delete and protect such information. The Policy will help you understand the following content: 
+JD Cloud & AI ("we") attaches great importance to the privacy of users and personal information protection. We may collect and use your relevant information when you use our products and/or services. Through the JD Cloud & AI Privacy Policy (hereinafter referred to as "the Privacy Policy"), we hope to explain to you how we collect, use, save, share and transfer such information when you use our products and/or services and methods provided by us to access, update, delete and protect such information. The Policy will help you understand the following content:
 
 1. Applicable Scope
 
@@ -31,7 +30,7 @@ JD Cloud & AI ("we") attaches great importance to the privacy of users and perso
 
 **The Privacy Policy is closely related to the JD Cloud & AI services you use and the various business functions included in the services (hereinafter referred to as "our products and/or services"), we hope that you have carefully read and confirm that you have fully understood the contents written in the Policy before using our products and/or services, and you can make any choice you think fit according to guidance of the Privacy Policy. For relevant terms in the Privacy Policy, we try to express them concisely and provide links to further instructions so that you can better understand. Where you use or continue to use our products and/or services after we update the Privacy Policy (we will timely keep you updated), it means you agree to the Privacy Policy (including the updated version) and agree that we collect, use, save and share your relevant information in accordance with the Privacy Policy. If you have any questions about the Privacy Policy or related issues, you can contact us at any time by sending an email to jdcloud@jd.com or calling our hotline 400-615-1212**.
 
-**I. Applicable scope**
+### I. Applicable scope
 
 1.1 The Privacy Right Policy is applicable to all services on the JD Cloud & AI website, including page browsing, website login services provided to you and technical services provided to you through the JD Cloud & AI website.
 
@@ -39,7 +38,7 @@ JD Cloud & AI ("we") attaches great importance to the privacy of users and perso
 
 1.3 It is required to be specifically stated that, as a user of JD Cloud & AI, if you use the technical services of JD Cloud & AI to provide your user any service, because your business data belongs to you, you should separately agree the corresponding privacy policy with your user.
 
-**II. Scope that We Collect Your Information**
+### II. Scope that We Collect Your Information
 
 The personal information involved in the Privacy Policy includes:
 
@@ -57,7 +56,7 @@ Personal common device information: comprises hardware model, operating system t
 
 Personal sensitive information refers to personal information that may endanger personal and property security, and easily lead to damage to personal reputation, physical and mental health or discriminatory treatment once being disclosed, illegally provided or abused; the personal sensitive information involved in the Privacy Policy includes: your property information (including transaction records, other virtual property information such as coupons); personal identity information (including ID card, passport, Mainland Travel Permit for Hong Kong and Macao Residents, Mainland Travel Permit for Taiwan Residents); network identification information (including account name, account nickname, email address and password related to the foregoing); other information (including personal phone number, mobile phone number, web browsing record).
 
-**III. Situations that you may select whether to authorize us to collect and use your personal information**
+### III. Situations that you may select whether to authorize us to collect and use your personal information
 
 **If you do not provide such personal information, you can still browse our products and/or services, but you may not be able to use our products and/or services mainly comprising:**
 
@@ -65,7 +64,7 @@ Personal sensitive information refers to personal information that may endanger 
 
 **2. Without real-name verification (ID card number, bank account number shall be provided as required for the personal real-name verification; business license information and photo, corporate bank account number, legal person name and ID card number and photo, authorized person name and ID card number and photo shall be provided as required for the enterprise real-name verification), it is unable to purchase and use our products or services, such as Virtual Machines and Cloud Storage; and it is unable to withdraw cash.**
 
-**IV. Method that we collect your information**
+### IV. Method that we collect your information
 
 **4.1 You apply to become a member of JD Cloud & AI**
 
@@ -115,41 +114,64 @@ We may obtain your authorized shared account information from a third party, and
 
 **4.5 Upon termination of use of our products and/or services, or upon expiration of the service period for which you use our products and/or services, we will immediately stop collecting your personal information continuously.**
 
-**V. How we share, transfer and publicly disclose your personal information**
+### V. How we share, transfer and publicly disclose your personal information
 
-5.1 Sharing 
+5.1 Sharing
 
-5.1.1 We will not share your personal information with any company, organization or individual other than JD Cloud & AI, except in the following circumstances: 
+5.1.1 We will not share your personal information with any company, organization or individual other than JD Cloud & AI, except in the following circumstances:
 
-(1) Obtain your express consent or authorization in advance; 
+(1) Obtain your express consent or authorization in advance;
 
-(2) In accordance with applicable laws and regulations, requirements of legal procedures, mandatory administrative or judicial requirements, provision is necessary under such circumstance; 
+(2) In accordance with applicable laws and regulations, requirements of legal procedures, mandatory administrative or judicial requirements, provision is necessary under such circumstance;
 
-(3) To the extent permitted by laws and regulations, it is necessary to provide to protect the interests, property or safety of JD Cloud & AI, its affiliated parties or partners, you or other users of JD Cloud & AI or the public from damage; 
+(3) To the extent permitted by laws and regulations, it is necessary to provide to protect the interests, property or safety of JD Cloud & AI, its affiliated parties or partners, you or other users of JD Cloud & AI or the public from damage;
 
-(4) Only by sharing your information can we implement the core functions of our products and/or services or provide the services you need; 
+(4) Only by sharing your information can we implement the core functions of our products and/or services or provide the services you need;
 
-(5) Handle disputes or controversies between you and others at your request; 
+(5) Handle disputes or controversies between you and others at your request;
 
-(6) Provide in accordance with relevant agreements (including electronic agreements signed online and corresponding platform rules) signed with you or other legal documents; 
+(6) Provide in accordance with relevant agreements (including electronic agreements signed online and corresponding platform rules) signed with you or other legal documents;
 
-(7) Use for academic researches; 
+(7) Use for academic researches;
 
-(8) Use for the public interest in accordance with laws and regulations. 
+(8) Use for the public interest in accordance with laws and regulations.
 
-5.1.2 We may share your personal information with our affiliated parties. However, we will only share necessary personal information and are bound by the purposes stated in the Privacy Policy. If our affiliated parties want to change the purpose of processing personal information, we will seek your authorization and consent again. 
+5.1.2 We may share your personal information with our affiliated parties. However, we will only share necessary personal information and are bound by the purposes stated in the Privacy Policy. If our affiliated parties want to change the purpose of processing personal information, we will seek your authorization and consent again.
 
 5.1.3 We may entrust our partners to provide certain services, so we need to share your user information with our partners to guarantee the smooth completion of providing you with services. However, we will only share your personal information for lawful, legitimate, necessary, specific and explicit purposes, and will only share the personal information necessary to provide services. Our partners have no right to use the shared personal information for any other purpose. Currently, our partners include: suppliers, service providers and other partners. We will send the information to suppliers, service providers and other partners supporting our businesses. Such support comprises provision of basic technical service, consultation, analysis and other professional service.
 
-5.1.4 We will sign strict confidentiality agreements with companies, organizations and individuals with whom we share personal information, requiring them to process personal information in accordance with our instructions, the Privacy Policy and any other relevant confidentiality and security measures. In order to ensure the security and control of data in the third party, we launched JD YunDing services, which provide a safe and reliable data use and storage environment in the Cloud to ensure the security of user data. In the use of personal sensitive data, we will require third parties to adopt data desensitization and encryption technologies to better protect user data.
+5.1.4 In order to ensure that you can use the above professional service, we will built software development kit ("SDK") from authorized cooperation partners or other similar APPs in our client (JD Cloud & AI App).
 
-5.1.5 Information will be exchanged with other companies and organizations in order to comply with laws, perform or apply to our terms of use and other agreements or protect the rights, property or security of JD Cloud & AI, you or other customers of JD Cloud & AI, for example, preventing fraud and other illegal activities and reducing credit risk. However, this does not include personal information sold, rented, shared or otherwise disclosed for the purpose of profit in violation of the commitments made in the Privacy Policy. 
+The circumstances where a third-party SDK needs to be built in Android Version JD Cloud & AI APP are as follows:
+
+| **Scenario Description**         | **Personal Information Field**                                         | **Third-party Organization Name**           |
+| -------------------- | -------------------------------------------------------- | ---------------------------- |
+| Face Scanning and Real Name              | Facial Information, Name, ID Card Number, Enterprise Name                          | JD Digits |
+| Huawei Push             | Device Unique Identification Code, Version, Device Model and Device Manufacturer              | Huawei Technologies Co. Ltd.             |
+| MiPush             | Device Unique Identification Code, Version, Device Model and Device Manufacturer             | Beijing Xiaomi Technology Co., Ltd.         |
+| Telecom Local OneKey Login.....| Phone Number, Device Unique Identification Code, System Type, Network IP Address and Operator Type | Century Dragon Information Network Co., Ltd.   |
+| Mobile Certification OneKey Login.....| Phone Number, Device Unique Identification Code, System Type, Network IP Address and Operator Type | China Mobile Communications Group Co., Ltd.     |
+| WeChat Pay, Sharing and Login | User Nickname, User Unique Identification and Network IP Address                       | Shenzhen Tencent Computer System Co., Ltd. |
+
+
+The circumstances where a third-party SDK needs to be built in IOS Version JD Cloud & AI APP are as follows:
+
+| **Scenario Description**         | **Personal Information Field**                                         | **Third-party Organization Name**           |
+| -------------------- | -------------------------------------------------------- | ---------------------------- |
+| Face Scanning and Real Name              | Facial Information, Name, ID Card Number, Enterprise Name                          | JD Digits |
+| Telecom Local OneKey Login.....| Phone Number, Device Unique Identification Code, System Type, Network IP Address and Operator Type | Century Dragon Information Network Co., Ltd.   |
+| Mobile Certification OneKey Login.....| Phone Number, Device Unique Identification Code, System Type, Network IP Address and Operator Type | China Mobile Communications Group Co., Ltd.     |
+| WeChat Pay, Sharing and Login | User Nickname, User Unique Identification and Network IP Address                       | Shenzhen Tencent Computer System Co., Ltd. |
+
+5.1.5 We will sign strict confidentiality agreements with companies, organizations and individuals with whom we share personal information, requiring them to process personal information in accordance with our instructions, the Privacy Policy and any other relevant confidentiality and security measures. In order to ensure the security and control of data in the third party, we launched JD YunDing services, which provide a safe and reliable data use and storage environment in the Cloud to ensure the security of user data. In the use of personal sensitive data, we will require third parties to adopt data desensitization and encryption technologies to better protect user data.
+
+5.1.6 Information will be exchanged with other companies and organizations in order to comply with laws, perform or apply to our terms of use and other agreements or protect the rights, property or security of JD Cloud & AI, you or other customers of JD Cloud & AI, for example, preventing fraud and other illegal activities and reducing credit risk. However, this does not include personal information sold, rented, shared or otherwise disclosed for the purpose of profit in violation of the commitments made in the Privacy Policy. 
 
 5.2 Transfer
 
-We will not transfer your personal information with any company, organization or individual, except in the following circumstances: 
+We will not transfer your personal information with any company, organization or individual, except in the following circumstances:
 
-1. Obtain your express consent or authorization in advance; 
+1. Obtain your express consent or authorization in advance;
 
 2. In accordance with applicable laws and regulations, requirements of legal procedures, mandatory administrative or judicial requirements, provision is necessary under such circumstance;
 
@@ -165,7 +187,7 @@ We will only publicly disclose your personal information under the following cir
 
 **2. In accordance with requirements of laws and regulations, mandatory administrative or judicial requirements, if it is necessary to provide under such circumstance, we may publicly disclose your personal information according to the type of personal information and the manner of disclosure as required. Under the premise of compliance with laws and regulations, when we receive the above information disclosure request, we will require a corresponding legal document to be issued, such as Summon or Survey Letter. We firmly believe that any information required to be provided by us shall be maintain transparency to the maximum extent permitted by law. We will prudently review all requests to ensure they have legal basis and are limited to such data with legal rights as obtained by the law-enforcing department for specific investigation purposes. On the condition that it is permitted by laws and regulations, such files as disclosed us shall be protected by encryption key.**
 
-**VI. How we protect and save your personal information**
+### VI. How we protect and save your personal information
 
 6.1 Technologies and measures provided by us to protect your personal information  We take the security of your personal information very seriously and take every reasonable and practical measure to protect your personal information:
 
@@ -195,7 +217,7 @@ To deal with potential risks of disclosure, damage or loss of personal informati
 
 6.2.3 Where we terminate services or operations, we will inform you at least thirty days in advance and delete or anonymize your personal information after termination of services or operations.
 
-**VII. How you manage your personal information**
+### VII. How you manage your personal information
 
 JD Cloud & AI takes your concern about your personal information very seriously and makes every effort to protect your rights of access, correction, deletion and withdrawal of consent to your personal information so that you can have full capability to protect your privacy and security. Your rights include: 
 
@@ -205,12 +227,12 @@ JD Cloud & AI takes your concern about your personal information very seriously 
 
 7.3.    Under the following circumstances, you can request us to delete the user information:
 
-​     7.3.1. Where our handling of such user information violates laws and regulations;
-     
-​     7.3.2. Where we collect and use your user information without your explicit consent;
-     
-​     7.3.3. Where our handling of personal information seriously violates such agreements as reached with you;
-     
+7.3.1. Where our handling of such user information violates laws and regulations;
+ 
+7.3.2. Where we collect and use your user information without your explicit consent;
+ 
+​7.3.3. Where our handling of personal information seriously violates such agreements as reached with you;
+ 
 7.3.4 When you exercise and withdraw the consent right and the refusal right.
 
 7.4 Change scope of authorized consent or withdraw your authorization
@@ -229,7 +251,7 @@ You shall understand that since the completion of each business function require
 
 (4) To protect your privacy, we will not push promotion or commodity information related to religious faith, sex, disease and relevant sensitive materials to you by any way and means.
 
-**VIII. Protection of personal information of minors**
+### VIII. Protection of personal information of minors
 
 8.1 We take the protection of personal information of minors very seriously. If you are a minor below the age of 18, you shall obtain the prior written consent from your parent or statutory guardian before using our products and/or services. We will protect personal information of minors in compliance with applicable laws and regulations of the state. 
 
@@ -237,15 +259,27 @@ You shall understand that since the completion of each business function require
 
 8.3 If we found that the personal information of any minor is collected without prior consent of the confirmable parents or legal guardian, we will manage to delete relevant data as soon as possible.
 
-**IX. Notification and Revision**
+### **IX. Notification and Revision**
 
 9.1 To provide better service, the Privacy Policy will be updated with the business development of JD Cloud & AI. However, without your express consent, we will not cut any rights you enjoyed under the Privacy Policy. We will release an update version on the JD Cloud & AI’s website and remind relevant update contents via the website announcement or other appropriate methods before the update version comes into force. Please access JD Cloud & AI for getting the latest Privacy Policy in time. 
 
 9.2 As for material changes, we will also provide a more remarkable notice to you (we will specify details of changes of the Privacy Policy via methods including but not limited to emails, SMS or providing special tips in the browsing page, etc.). The material changes referred in the Policy include but not limited to: (1) Material change of our service mode. For example, for purpose of processing personal information, personal information type, usage mode of personal information, etc. are changed; (2) Material change of our ownership structure, organization architecture and other aspects. For example, the change of the owner due to business adjustment, bankrupt, merger, acquisition, etc.; (3) Changes of main subjects as for personal information sharing, transferring or public disclosure; (4) Material changes of rights for participation in personal information processing aspect and their exercising style; (5) Changes of our departments responsible for personal information security processing, contacts and complaining channels; (6) The personal information security influence assessment report indicates the high risk. 
 
+(1) Great changes in our service mode. Such changes include changes in the purpose to process personal information, the type of processed personal information and the way to use personal information;
+
+(2) Great changes in our ownership structure, organizational architecture, etc.. Such changes include changes in owners caused by business adjustment, bankruptcy, acquisition and other reasons;
+
+(3) Changes in main objects for personal information sharing, transfer or public disclosure;
+
+(4) Great changes in your rights to participate in personal information processing and the ways to exercise such rights;
+
+(5) Changes in our responsible department, contact method and complaint channel for personal information security.
+
+(6) Impact assessment report on personal information security demonstrating that there is a high risk.
+
 9.3 We will also archive the old versions of the Privacy Policy for your reference.
 
-**X. How to contact us**
+### **X. How to contact us**
 
 10.1 If you have any questions, suggestions or opinions about the Privacy Policy or related issues of your personal information, you can contact us by means such as sending an email to jdcloud@jd.com or calling our customer service hotline. 
 
@@ -253,8 +287,6 @@ You shall understand that since the completion of each business function require
 
 10.3 In general case, we will give you a reply within thirty days. If you are not satisfied with our reply, especially in case that your legal rights are impaired due to our personal information processing action, you can give complaints or reports to the network information authority, telecommunication authority, public security authority, industry and commerce authority and other authorities. 
 
-
- 
 **Attachment: Instructions for the Cancellation of JD Cloud & AI Account**
 
 Content of Instructions for Cancellation of JD Cloud & AI Accounts:
@@ -286,7 +318,7 @@ For any doubts of the Instructions for Cancellation, please consult the customer
 Dear personal consumers and users of JD Cloud & AI:
 
 You are reminded with good faith that **the cancellation of your account will bring inconvenience to your after-sales rights protection. After the JD Cloud & AI account is canceled, we will only remove your personal information from the JD Cloud & AI system and keep such information out of being retrieved and accessed or keep such information anonymous. You acknowledged and agreed that according to provisions of relevant laws, relevant transactions records must be saved for 5 years or longer at the background of JD Cloud & AI.** 
- 
+
 **1. If you insist to cancel the account, your account need to meet all of the following conditions:**
 
 (1) The account has not undergone sensitive operations such as changing the password or changing the association information within the last month;
@@ -314,5 +346,6 @@ You are reminded with good faith that **the cancellation of your account will br
 (3) Any balance, coupon and other rights of yours shall be deemed as being given up by you and cannot be applicable for use anymore. You understand and agree that JD Cloud & AI is unable to assist you recover the aforesaid service. Before submitting the cancellation application, please be sure to disassociate other relevant account information. For details, please contact our customer service.
 
 6. **The cancellation of the JD Cloud & AI account shall not exempt or relieve any behavior of the account and relevant responsibilities before cancellation of such account.**
+
 
 [JD Cloud & AI Privacy Policy-PDF Download](https://github.com/jdcloudcom/cn/blob/edit/image/Service-Agreements-and-Guarantees/Platform-Agreement/JDcloud-Privacy-Policy-x.pdf)

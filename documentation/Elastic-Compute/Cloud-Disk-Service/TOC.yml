@@ -27,10 +27,10 @@
     items:
     - name: Description of Billing Method
       items:
-        - name: Cloud Disk Service Billing Mode
-          href: Pricing/snapshot-billing-rules.md
-        - name: Cloud Disk Snapshot Billing Mode
-          href: Pricing/snapshot-billing-rules.md
+      - name: Cloud Disk Service Billing Mode
+        href: Pricing/disk-billing-rules.md
+      - name: Cloud Disk Snapshot Billing Mode
+        href: Pricing/snapshot-billing-rules.md
     - name: Price Overview
       href: Pricing/Price-Overview.md
     - name:  Purchase Channel

@@ -7,7 +7,7 @@ Instance voucher decouples the payment and resources creation since its attribut
 ## Instance Voucher Types
 From the point of applicable instance type, it can be divided into **VM Instance Voucher**, **Container Instance Voucher** and **POD Instance Voucher**:
 * VM Instance Voucher: Applicable to VM instance deduction paid by configuration
-* Container Instance Voucher: Applicable to Native Container instance deduction paid by configuration
+* Container Instance Voucher: Applicable to Container instance deduction paid by configuration
 * POD instance voucher: Suitable for deduction of POD instances which are paid by configuration
 
 From the point of resource reservation, it can be divided into **No Resource Reservation** and **Resource Reservation** (currently, we only support purchasing no resource reservation type of instance vouchers)
@@ -32,7 +32,7 @@ Instance voucher is a new way to purchase resources for instance paid by configu
 
 ## Instance Type that Can be Purchased
 Instance voucher of no resource reservation, after a region, applicable product and type family are designated, it can be purchased by computing power<sup>[1](instancevoucher-overview#user-content-1)</sup>. Type families that are sold and types of instance vouchers that cannot be used currently are shown in the table below:<br>
-For details of instance type, refer to: [VM Instance Type](https://docs.jdcloud.com/virtual-machines/instance-type-family) and [Native Container/POD Type](https://docs.jdcloud.com/native-container/price-overview)<br>
+For details of instance type, refer to: [VM Instance Type](https://docs.jdcloud.com/virtual-machines/instance-type-family) and [Container/POD Type](https://docs.jdcloud.com/native-container/price-overview)<br>
 For details of instance voucher pricing and billing rules, refer to: [Price and Billing Rules](https://docs.jdcloud.com/virtual-machines/price-and-billing-rules-of-instancevoucher)
 
     Please note:
@@ -46,7 +46,7 @@ For details of instance voucher pricing and billing rules, refer to: [Price and 
       <th colspan="2"> Type Family Available for Sale</td>
       <th>Types Not Supporting Deduction</td>
       <th>Available for Virtual Machines</td>
-      <th>Available for Native Container/POD</td>
+      <th>Available for Container/POD</td>
       <th>Purchase Unit Conversion</td>
    </tr>
   	</thead>

@@ -94,7 +94,7 @@ bash install.sh <image-type> <version-num>
    Please refer to contents below for system type and major version number. If the current image is CentOS 6.9, the installation instruction is `bash install.sh centos 6` correspondingly.
 
        * image-type: centos|ubuntu 
-       * centos vserion-num: 6|7|8
+       * centos version-num: 6|7|8
        * ubuntu version-num: 14|16|18
 
   If the installation information contains `Starting multi-queue-jd: OK`, it means that the ENI Multi-Queue is successfully configured. After configuration, installation scripts can be deleted.

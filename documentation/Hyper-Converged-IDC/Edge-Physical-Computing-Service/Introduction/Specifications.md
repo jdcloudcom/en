@@ -13,21 +13,26 @@
 		<td >E5-2683 V4 * 2/32G * 8/240G SSD * 1 + 960G SSD * 16</td>
 	        <td >9900</td>
      </tr>    
+     <tr>
 		<td >EPCS-E13U</td>
 		<td >E5-2620 v4 * 2/32G * 4/960G SSD * 4</td>
 	        <td >4900</td>
-     </tr>    
+     </tr> 
+	<tr>
 		<td >EPCS-TS3040</td>
 		<td >E5-2640 v3 * 2/16G * 8/2.05T NVME-PCIE SSD * 1 + 300G SAS HDD * 2 + 4.1T SATA HDD * 12</td>
 	        <td >4860</td>   
-     </tr>    
+     </tr>   
+	<tr>
 		<td >EPCS-B14</td>
 		<td >E5-2650 v4 * 2/32G * 8/300G SAS HDD * 2 + 6000G SATA HDD * 12</td>
 	        <td >9900</td>   
-     </tr>    
+     </tr>   
+	<tr>
 		<td >EPCS-GPU-A12</td>
 		<td >E5-2683 V4 * 2/32G * 8/300G SAS HDD * 2 + 960G SSD * 6 /4 * NVIDIA P40</td>
-	        <td >23000</td>   
+	        <td >23000</td>  
+	</tr> 
 </table>
 
 

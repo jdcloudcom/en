@@ -8,7 +8,7 @@ The virtual machine provided by JD Cloud & AI is a computing service with auto s
 
 Data Persistence: Not less than 99.9999999% 
 
-Data persistence is counted by service period. One service period is a natural month. If it is less than one month, it is not counted as one service period.
+Data persistence is counted by service period. One service period is a natural month. If it is less than one month, it is not counted as one service period. The data only refer to the data stored in Cloud Disk Service
 
 Data Persistence Calculation Formula: Virtual machine disk with good data per service term/(virtual machine disk with good data per service cycle + virtual machine disk with data loss per service cycle).
 
@@ -50,7 +50,7 @@ Virtual machine has advanced features such as self-service management, data secu
 
 #### 2.8 Service Availability
 
-Service Availability: No less than 99.95%.
+Service Availability: The service availability is not less than 99.95% for the central availability zone. For edge availability zones, the service availability is not less than 99.9%.
 
 Virtual Machine Availability Calculation Formula: All available time of a single virtual machine per service term/ (all available time of a single virtual machine per service term + all unavailable time of a single virtual machine per service term).
 

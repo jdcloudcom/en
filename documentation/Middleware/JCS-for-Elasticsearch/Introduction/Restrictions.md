@@ -47,7 +47,7 @@
 
 |Limit Item|Limiting Rules | Exceptional Application Method
 :--|:---|:---
-|Cluster Version|V6.5.4, V5.6.9, V6.7.0|Unadjustable
+|Cluster Version|V6.5.4, V5.6.9, V6.7.0, V7.5.2|Unadjustable
 |Quota of Instances that Can Be Created in Each Region|20| Ticket
 
 ### Network Access

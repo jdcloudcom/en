@@ -4,7 +4,7 @@ A: It supports database types of JCS for MySQL 5.6 and JCS for MySQL 5.7 and it 
 
 **2. Q: Which split field types does it support?**
 
-A: It supports field of numerical value and character string types during the close beta test and open beta test. It will add date field and support combination and split for 2 field in the future
+A: It supports field of numerical value and character string types during the close beta test and open beta test. It will add date field and support combination and split for 2 field in the future.
 
 **3. Q: What is the maximum number of backend storage nodes of DRDS?**
 
@@ -12,11 +12,11 @@ A: DRDS can support thousands of storage nodes, which is able to meet the storag
 
 **4. Q: Does DRDS support automatic backup?**
 
-A: DRDS stores data on the JCS for MySQL nodes of backend, so that it does not store data needed to be backed up. The backend JCS for MySQL database supports automatic backup, which can be set on the console of "RDS"
+A: DRDS stores data on the JCS for MySQL nodes of backend, so that it does not store data needed to be backed up. The backend JCS for MySQL database supports automatic backup, which can be set on the console of "RDS".
 
 **5. Q: Which character sets does DRDS support?**
 
-A: DRDS supports UTF8 character set and it will support more character sets later
+A: DRDS now supports four character sets, namely, utf8, utf8mb4, gbk and latin1, and will support more character sets in the subsequent period.
 
 **6. Q: The creation of a database in the name as the same as that of another one fails after deleting a database**
 

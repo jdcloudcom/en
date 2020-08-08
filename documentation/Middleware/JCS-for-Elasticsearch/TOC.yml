@@ -79,6 +79,8 @@
         href: Operation-Guide/eslog.md
       - name: Customized Word Library
         href: Operation-Guide/dic.md 
+      - name: Lifecycle Index Creation
+        href: Operation-Guide/index.md
       - name: Snapshot
         items: 
         - name: Create Snapshot
@@ -134,11 +136,11 @@
   - name: FAQ
     items:
     - name: Product Related
-       href: FAQ/FAQ.md
+      href: FAQ/FAQ.md
     - name: Access Related
-       href: FAQ/Access.md
+      href: FAQ/Access.md
     - name: Function Related
-       href: FAQ/Function.md   
+      href: FAQ/Function.md   
   - name: Related Resources
     items:
     - name: Document History

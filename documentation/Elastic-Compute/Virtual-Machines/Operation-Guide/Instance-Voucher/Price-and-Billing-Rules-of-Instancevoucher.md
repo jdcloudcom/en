@@ -2,7 +2,7 @@
 
 ## Price Overview
 
-For the type families that can be purchased by Virtual Machines and Native Container/POD, refer to: Instance Type that Can be Purchased by Instance Voucher](https://docs.jdcloud.com/virtual-machines/instancevoucher-overview#user-content-2)
+For the type families that can be purchased by Virtual Machines and Container/POD, refer to: Instance Type that Can be Purchased by Instance Voucher](https://docs.jdcloud.com/virtual-machines/instancevoucher-overview#user-content-2)
 
 Price of instance voucher of no resource reservation (it cannot be purchased in cn-east-1 region):
 
@@ -119,4 +119,4 @@ Price of instance voucher of no resource reservation (it cannot be purchased in 
 
 [Virtual Machines Price Overview](https://docs.jdcloud.com/virtual-machines/price-overview)
 
-[Native Container/POD Type and Price](https://docs.jdcloud.com/native-container/price-overview)<br>
+[Container/POD Type and Price](https://docs.jdcloud.com/native-container/price-overview)<br>

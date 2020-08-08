@@ -31,7 +31,7 @@ After the addition of sub-library, you can connect with DRDS Database and execut
 
 For example, for Table timetb, if sub-tables should be expanded in all new sub-libraries, SQL is
 ```SQL
-alter table timetb add partitions on all dbpartition;
+alter table timetb add partitions on all dbpartitions;
 ```
 
 For specific SQL syntax and description, you may refer to the document [DRDS DDL SQL syntax](../../SQL-Doc/DRDS-DDL.md) (Part of "Expand Split Table")

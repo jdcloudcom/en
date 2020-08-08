@@ -152,10 +152,6 @@ items:
     href: JCS-for-Elasticsearch-Service-Terms-SLA.md  
   - name: Service Terms of Function Service
     href: Functional-Service-Terms-of-Service.md
-  - name: Service Terms of JD WorkSpaces
-    href: Cloud-Desktop-Service-Protocol.md   
-  - name: Service Level Agreement (SLA) of JD WorkSpaces
-    href: Cloud-Desktop-Service-Protocol-SLA.md
   - name: Service Terms of Queue Service
     href: Queue-Service-Terms-Of-Service.md   
   - name: Service Level Agreement (SLA) of Queue Service
@@ -210,9 +206,9 @@ items:
     href: Recommended-Rebate-User-Agreement.md
   - name: Power of Attorney
     href: Power-Of-Attorney.md
-  - name: Minecraft: Education Edition - Demo Edition Service Agreement
+  - name: Minecraft： Education Edition - Demo Edition Service Agreement
     href: MEE-Demo-Service-Terms-Of-Service.md
-  - name: Minecraft: Education Edition - Software License and Service Agreement
+  - name: Minecraft： Education Edition - Software License and Service Agreement
     href: MEE-China-Related-Agreement.md  
   - name: Cloud Cabinet Co-location Service Terms
     href: Cloud-Cabinet-Service-Terms-Of-Service.md

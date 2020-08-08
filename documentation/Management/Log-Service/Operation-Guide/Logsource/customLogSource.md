@@ -4,7 +4,9 @@
 Business application logs refer to the logs generated from business applications deployed on JD Cloud & AI by the user. The content and format are customized by the user.
 
 The user is only required to select the Virtual Machines to be collected in log source settings, rather than manually install any log collection agent. The log collection agent will be automatically installed. It supports one-line and multi-line business application logs as log sources.
+
 Business application log supports being delivered to multiple types of destinations. By default, it is collected to the log topic in Log Service. Besides, the log can be delivered to cloud ES or cloud Kafka of the Console, or to the self-created ES or self-created Kafka.
+
 ## 2. Operation Steps
 ### Business Application Collection Configuration
 1. Log in to the Log Service Console, click **Create Log Configuration** or enter a designated log set and click **Create Subject** on the left navigation bar.
@@ -16,11 +18,17 @@ Business application log supports being delivered to multiple types of destinati
 7. In [Collection Instance], it selects instances or corresponding availability group and tag based on the user's requirements.
 8. If the business application log of a user is a multi-row log, it needs to set the first-row regular matching rules; If not, it's not necessary to set. It is not a multi-row log by default.
 
+
+<img src="https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/operationguide/multi-line.jpg" width=80% height=80% />
+
 ### Business Application Advanced Configuration
 1. The [Advanced Configuration] is closed by default. After the advanced configuration is open, the log can be delivered directly from the agent to the specified ES or Kafka.
 2. If the user only requires to deliver the log to ES or Kafka, it can close [deliver to the log topic], then the corresponding log data will not be stored in the Log Service. Log monitoring function, etc. cannot be used, either.
 3. If the destination of the business application log is Kafka, it needs to set brokers, topic, and the selection on whether to adopt compressed delivery or not. Compressed delivery supports snappy format and gzip format. Cloud Kafka will obtain brokers automatically.
 4. If the destination of the business application log is ES, it needs to set ES access domain and search prefix. Cloud ES will obtain access domain automatically.
+
+<img src="https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/operationguide/advanceconfig.jpg" width=80% height=80% />
+
 ## 3. Notes
 - The current version supports collection of logs of Linux Virtual Machines.
 - When an instance collecting user selects the instance dimension, selection of at most 30 Virtual Machines is supported and cross-region selection is also supported.

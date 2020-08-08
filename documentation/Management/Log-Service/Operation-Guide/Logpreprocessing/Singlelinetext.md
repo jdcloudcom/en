@@ -10,3 +10,5 @@ A single line text log refers to a log form where a single log only comprises on
 
 ### Operation Steps
 By default, single-line text logs will be selected without configuration and can be completed only by click **Next Step**.
+
+<img src="https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/operationguide/singleline.jpg" width=60% height=60% />
