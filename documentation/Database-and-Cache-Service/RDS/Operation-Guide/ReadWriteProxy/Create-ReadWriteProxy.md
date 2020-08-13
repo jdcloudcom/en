@@ -8,8 +8,8 @@ After successfully creating a read-only instance, you can enable the read-only p
 ![读写代理架构](../../../../../image/RDS/ReadWriteProxy-arch.png)
 
 ## Restrictions
-* A single instance can only create a read-only proxy.
-* Read-only instance must be created before enabling the read-only proxy.
+* Only one read-write proxy can be created for a single instance
+* Before enabling the read-write proxy, the read-only instance must be created
 * Currently, JCS for MySQL, MariaDB and Percona support enabling of the read-write proxy
 
 ## Operation Steps

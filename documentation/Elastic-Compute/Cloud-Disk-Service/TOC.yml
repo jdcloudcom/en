@@ -21,8 +21,10 @@
         href: Introduction/Multiattachdisk.md
       - name: Performance Test
         href: Introduction/Performance-Test.md
+      - name: Description of Cloud Disk Snapshot Capacity
+        href: Introduction/snapshotcapacity.md
       - name: Restrictions
-        href: Introduction/Restrictions.md       
+        href: Introduction/Restrictions.md
   - name: Pricing
     items:
     - name: Description of Billing Method

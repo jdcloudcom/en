@@ -289,6 +289,16 @@ items:
                  href: SSL-Certificate/getSslCertDetail.md
                - name: getSslCertList
                  href: SSL-Certificate/getSslCertList.md
+               - name: queryBackSourceRule
+                 href: JCloud-Openapi-For-CDN/queryBackSourceRule.md
+               - name: queryUrlRule
+                 href: JCloud-Openapi-For-CDN/queryUrlRule.md
+               - name: queryHttp2
+                 href: JCloud-Openapi-For-CDN/queryHttp2.md
+               - name: queryBackSourcePath
+                 href: JCloud-Openapi-For-CDN/queryBackSourcePath.md
+               - name: queryUnForbiddenStatus
+                 href: JCloud-Openapi-For-CDN/queryUnForbiddenStatus.md
           - name: Modify Domain Configuration
             items:
                - name: createDomainGroup
@@ -359,6 +369,18 @@ items:
                  href: JCloud-Openapi-For-CDN/setSourceAuthConfig.md
                - name: setIpBlackList
                  href: JCloud-Openapi-For-CDN/setIpBlackList.md
+               - name: configBackSourceRule
+                 href: JCloud-Openapi-For-CDN/configBackSourceRule.md
+               - name: configUrlRule
+                 href: JCloud-Openapi-For-CDN/configUrlRule.md
+               - name: configHttp2
+                 href: JCloud-Openapi-For-CDN/configHttp2.md
+               - name: configBackSourcePath
+                 href: JCloud-Openapi-For-CDN/configBackSourcePath.md
+               - name: deleteForbiddenInfo
+                 href: JCloud-Openapi-For-CDN/deleteForbiddenInfo.md
+               - name: createForbiddenInfo
+                 href: JCloud-Openapi-For-CDN/createForbiddenInfo.md                 
           - name: Stop Deleting Domain
             items:
                - name: startDomain

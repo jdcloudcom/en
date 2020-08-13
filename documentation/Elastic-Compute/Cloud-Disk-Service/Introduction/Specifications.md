@@ -9,7 +9,7 @@ Cloud Disk Service is a high-availability, high-reliability and low-cost storage
 
 ### Specification
 
-Provide a capacity from minimum 20G to maximum 4,000G (with a step size of 10G)
+Provide a capacity from minimum 20G to maximum 16,000GB (with a step size of 10G)
 
 ### Performance
 - Maximum IOPS: 15,000
@@ -28,7 +28,7 @@ Pay by Configuration: 0.0625 RMB/100GB/Hour
 
 ### Specification
 
-Provide a capacity from minimum 20G to maximum 4,000G (with a step size of 10G)
+Provide a capacity from minimum 20G to maximum 16,000GB (with a step size of 10G)
 
 ### Performance
 - Maximum IOPS: 32,000
@@ -48,7 +48,7 @@ Pay by Configuration: 0.112 RMB/100G/Hour
 
 ### Specification
 
-Provide a capacity from minimum 20G to maximum 4,000G (with a step size of 10G)
+Provide a capacity from minimum 20G to maximum 16,000GB (with a step size of 10G)
 
 ### Performance
 - Maximum IOPS: 500

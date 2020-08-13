@@ -10,13 +10,13 @@ To use transmission acceleration, please [Enable the CDN Service](https://docs.j
 
 - Dynamic acceleration: Through dynamic acceleration technologies such as route optimization and transmission optimization, it solves the problems of slow response, packet loss and service instability caused by factors such as cross-operator and network instability. It is suitable for uploading and downloading scenarios in a poor network environment.
 
-- Back-to-origin acceleration: Accelerated distribution of files is achieved through the content in the buffer source station of CDN edge nodes. It provides low-cost, high-performance and extensible Internet content distribution services and is suitable for the customer scenarios of repeated downloading of the same content.
+- Large file download acceleration: Accelerated distribution of files is achieved through the content in the buffer source station of CDN edge nodes. It provides low-cost, high-performance and extensible Internet content distribution services and is suitable for the customer scenarios of repeated downloading of the same content.
 
 **After you enable transmission acceleration, OSS will assign you the following accelerated domain:**
 
 - Dynamic accelerated domain: \<BUCKET\>.s3-accelerate.\<REGION\>.jdcloud-oss.com
 
-- Back-to-origin Accelerated Domain: \<BUCKET\>.s3-cache-accelerate.\<REGION\>.jdcloud-oss.com
+- Large file download domain: \<BUCKET\>.s3-cache-accelerate.\<REGION\>.jdcloud-oss.com
 
 **Note:**
 

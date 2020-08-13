@@ -2,7 +2,7 @@
 # API Operation Guideline
 JD Blockchain Open Platform Enterprise Networking provides two methods for application access:
 
-* Direct interaction with created blockchain network by use of the SDK officially provided by Hyperledger Fabric. For details, please refer to [Access Guideline](https://wiki.hyperledger.org/display/fabric/Hyperledger+Fabric+SDKs)
+* Direct interaction with created blockchain network by use of the SDK officially provided by Hyperledger Fabric. For details, please refer to [Access Guideline](https://github.com/hyperledger)
 * Interaction with blockchain networking by use of the HTTP API provided by the Platform
 
 This Guideline focuses on the second access method.
