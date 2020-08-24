@@ -2,7 +2,7 @@
 
 
 ## Description
-Set exception code cache time
+Set the abnormal code cache time. Abnormal code cache related configuration is not supported in the acceleration outside China/on a global scale
 
 ## Request Method
 POST

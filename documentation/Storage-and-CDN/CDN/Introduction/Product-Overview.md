@@ -27,3 +27,5 @@ Identity and Access Management: Support access control capabilities such as Refe
 Security protection: It provides HTTPS encrypted content distribution, and powerful anti-DDoS attack, CC protection and other security protection capabilities.
 
 Operating Analysis: It provides a wealth of operational analysis value-added services such as visitor analysis, source analysis, and hot-spot analysis.
+
+Acceleration on a global scale: Provide the service of acceleration on a global scale to meet the development requirements of overseas services.

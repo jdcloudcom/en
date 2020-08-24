@@ -1,8 +1,10 @@
+# Spark reads/writes OSS data
+
 This article introduces how to configure the Spark client to read and write the data in OSS.
 
-# Dependent resources
+## Dependent resources
 
-## Maven
+### Maven
 
 ```
 <dependencies>
@@ -20,7 +22,7 @@ This article introduces how to configure the Spark client to read and write the 
 
 ```
 
-# Configuration methods
+## Configuration methods
 
 1. Users can configure S3 authentication information in spark-shell. An example of using sc to configure S3 authentication information is as follows:
 
@@ -60,14 +62,14 @@ spark-shell \
 --conf spark.hadoop.fs.s3a.impl=org.apache.hadoop.fs.s3a.S3AFileSystem
 ```
 
-# Operation example
-## Read data
+## Operation example
+### Read data
 ```
 val rdd = sc.textFile("s3a://YourBucketName/spark-read/test-read")
 rdd.collect().foreach(println)
 ```
 
-## Write data
+### Write data
 ```
 val rdd = sc.textFile("s3a://YourBucketName/spark-read/")
 rdd.count

@@ -81,6 +81,8 @@
         href: Operation-Guide/dic.md 
       - name: Lifecycle Index Creation
         href: Operation-Guide/index.md
+      - name: Periodic index creation
+        href: Operation-Guide/Configure.md
       - name: Snapshot
         items: 
         - name: Create Snapshot

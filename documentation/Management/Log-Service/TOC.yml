@@ -27,7 +27,7 @@ items:
           href: Introduction/ResourceLog/esLog.md
         - name: API Gateway Log
           href: Introduction/ResourceLog/apiLog.md
-        - name: Application Load Balancer Access Log
+        - name: Application Load Balancer Log
           href: Introduction/ResourceLog/ALBLog.md
         - name: MySQL Audit Log
           href: Introduction/ResourceLog/MySQLLog.md

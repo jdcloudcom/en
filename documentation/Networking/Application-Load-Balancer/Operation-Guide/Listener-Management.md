@@ -8,6 +8,8 @@
 
 [Manage the Listener associated with Forwarding Rules Group](listener-management#user-content-4)
 
+[Manage Certificate](listener-management#user-content-5)
+
 ## Add listener
 <div id="user-content-1"></div>
 
@@ -52,35 +54,41 @@
 	**Health check setting:**
 
 	- Select health check method: HTTP and TCP;
-	
+
 	- Set check port: input range 1-65535, if it is not filled in, the port of backend instance for receiving Application Application Load Balancer traffic will be the port by default;
+
+	- Check domain: The domain of a Health Check. Support entering domain and IP address. When entered, the domain only supports capital and lower-case letters, figures, English line-through "-" and point "." (case-insensitive) with no more than 255 characters. If there is a null by default, it shows that the Health Check carries no domain. Only when the protocol of the Health Check is HTTP, a domain can be filled in.
 	
+	- Check Path: The URL path of a Health Check. Must start with "/", support up to a 5-level directory and up to 100 characters. Only when the protocol of the Health Check is HTTP, a domain can be filled in.
+
 	- Response timeout time(s): input range 2-60s, which is the maximum timeout time for health check response;
-	
+
 	- Health check interval(s): input range 5-300s, which is the maximum time interval for health check;
-	
+
 	- Unhealthy threshold: input range 1-5, which is the number of consecutive health check failures from success to failure of the backend instance;
-	
+
 	- Healthy threshold: input range 1-5, which is the number of consecutive health check successes from failure to success of the backend instance;
+
+	- Normal Status Code: Input range: 2xx (equivalent to 200-299), 3xx (equivalent to 300-399), 4xx (equivalent to 400-499). Only when the protocol of the Health Check is HTTP, a domain can be filled in.
+
+		![ALB健康检查设置](../../../../image/Networking/ALB/ALB-094.png)
+
+	**Add Server Group:**
+
+	- Select server group type: Virtual Server Group/Instance Type, Virtual Server Group/IP Type, Availability Group, or do not add temporarily;
 	
-	- Normal state code: input range 2xx (equivalent to 200-299), 3xx (equivalent to 300-399), 4xx (equivalent to 400-499);
+	 
+		![ALB服务器组](../../../../image/Networking/ALB/ALB-049.png)
 	
-	- Check path: It only will be filled in when the health check method is HTTP, it must start with "/", at most support 5-level contents, and cannot exceed 100 characters.
-
-		![ALB健康检查设置](../../../../image/Networking/ALB/ALB-024.png)
-
-	**Add server group: **
-
-	- Select server group type: virtual server, availability group, or it cannot be added currently;
+	- Virtual Server Group/Instance Type or Virtual Server Group/IP Type: System will automatically screen out the list of Virtual Server Group that can be bound for the time being; if no Virtual Server Group is available, you can click **Create Virtual Server Group** to create an available Virtual Server Group;	
 	
-		 Virtual server group: The system will automatically filter out the list of server groups that can be associated now, if there is no available server group, it may click "Create a new virtual server group" to create;	
+		  Note:
+		    * The Backend Server of Virtual Server Group/Instance Type must be at the same Virtual Private Cloud of the same territory with the Application Load Balancer.
+		    * When a Backend Server is out of VPC (e.g. a Backend Server interconnects with the Application Load Balancer via direct connection, VPC peering or VPN), please create a Virtual Server Group of IP Type.
+
+	- Availability Group: System will automatically screen out the Availability Groups that can be bound currently, but if there is no available Availability Group, please access the Availability Group page to create an available Availability Group;
 	
-		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the Application Application Load Balancer.
-
-	- Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create; note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the Application Application Load Balancer.
-
-		![ALB添加服务器组](../../../../image/Networking/ALB/ALB-025.png)
-
+	       Note: The Backend Server of available Availability Group must be at the same Virtual Private Cloud of the same territory with the Application Load Balancer.   
 
 ## Manage listener
 <div id="user-content-2"></div>
@@ -118,3 +126,8 @@
 
 ![ALB管理监听器](../../../../image/Networking/ALB/ALB-urlmap3.png)
 
+## Manage certificate
+<div id="user-content-5"></div>
+
+1. Click **More** on the Listener List page - Operations bar to pop up the Manage Certificate dialog box.
+2. In the Manage Certificate dialog box, a HTTPS/TLS listener can be configured as to bind multiple certificates. For detailed operations, please see [Certificate Management](../Operation-Guide/Certificates-Management.md).

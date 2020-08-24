@@ -1,6 +1,6 @@
 # URL authentication description
 
-JD Cloud CDN supports parameter authentication. The user can select appropriate authentication method depending on its own business situation to provide valid protection to origin server resources. (At present, the live only supports the parameter authentication and the live remote authentication, while the video-on-demand download supports the parameter authentication and the path authentication)
+JD Cloud CDN supports parameter authentication. Users can select the proper authentication method based on their business situation to implement effective protection for origin server resources. (This function is only supported in the acceleration in China. Live streaming supports parameter authentication and live streaming remote authentication, and Video on Demand page download supports parameter authentication and path authentication)
 
 **1. Parameter Authentication Method**
 

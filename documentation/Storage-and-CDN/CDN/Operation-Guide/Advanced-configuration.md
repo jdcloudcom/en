@@ -10,8 +10,12 @@ After being turned on, CDN will ignore the parameters following "?" in the reque
 
 **range Back-to-source**
 
-The range back-to-source means that the content of the request sent by the client to the origin server is a part of the byte range carrying requested content. The range back-to-source can reduce the back-to-source traffic consumption and improve the resource response time.
+The range back-to-origin function is only supported in the acceleration in China. The range back-to-origin refers to the byte range carrying request contents, which is part of the contents, from the client to the origin server. It can reduce back-to-origin traffic consumption and improve resource response time.
 
 After being turned on, the origin server is required to support the range request. When range back-to-origin is just enabled, CDN will request resources from the origin server and cache contents. Then, the back-to-origin bandwidth will be increased and the origin server will withstand high back-to-origin pressure.
 
 ![image.png](https://img1.jcloudcs.com/cms/e3069686-236f-45c0-8868-8c199c46983720180118163407.png)
+
+**Http Header setting**
+
+The http header setting function is only supported in the acceleration in China. The http header setting can set the response header or request header. The parameters can be selected or manually entered. More than one value can be added and shall be separated with English comma.

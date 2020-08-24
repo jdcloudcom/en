@@ -524,9 +524,9 @@ items:
       - name: Big data application
         items:
             - name: Spark reads/writes OSS data
-              href: Best-Practices/Spark-OSS.md
+              href: Best-Practices/Bigdata-Application/Spark-OSS.md
             - name: Spark uses OSS Select to optimize data query (beta)
-              href: Best-Practices/Select-for-Spark.md
+              href: Best-Practices/Bigdata-Application/Select-for-Spark.md
  - name: FAQ
    items:
       - name: General Questions

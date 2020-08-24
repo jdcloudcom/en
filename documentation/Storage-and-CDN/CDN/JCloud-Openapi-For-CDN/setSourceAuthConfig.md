@@ -2,7 +2,7 @@
 
 ### Description
 
-Set back-to-origin authentication parameter
+Set back-to-origin authentication parameter. This configuration is not supported in the acceleration outside China/on a global scale
 
 
 

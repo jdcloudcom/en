@@ -86,13 +86,13 @@ Note: Only when the available zone of the Application Application Load Balancer 
 
 	Configure related parameters according to business needs:
 
-	![ALB健康检查设置](../../../../image/Networking/ALB/ALB-077.png)
+	![ALB健康检查设置](../../../../image/Networking/ALB/ALB-094.png)
 
 - Add server group:
 
 	Select virtual server group, availability group according to business needs.
 
-	![ALB添加服务器组设置](../../../../image/Networking/ALB/ALB-078.png)
+	![ALB添加服务器组设置](../../../../image/Networking/ALB/ALB-049.png)
 
 - Add server to the virtual server group:
 
@@ -100,7 +100,7 @@ Note: Only when the available zone of the Application Application Load Balancer 
 
 	Note: Only VM and container resources in the same Availability Zone, virtual private cloud with Application Application Load Balancer can be selected.
 
-	![ALB虚拟服务器组添加成员设置](../../../../image/Networking/ALB/ALB-079.png)
+	![ALB虚拟服务器组添加成员设置](../../../../image/Networking/ALB/ALB-050.png)
 
 	Thus, a Application Application Load Balancer HTTP listener configuration across the Availability Zones is completed. When A single Availability Zone (such as Availability Zone A) fails, the Application Application Load Balancer will forward the traffic to Availability Zone B to ensure the normal operation of business.
 

@@ -16,7 +16,25 @@ Business application log supports being delivered to multiple types of destinati
 5. The [Collection Status] is open by default; the user can also close it. The log is no longer collected after it is closed.
 6. In [Log Path], fill in the log path and file name of the business application needing to be collected. The path supports wildcards of "/* /" or "/* /abd/* /", but not wildcards of "/** /". The file name supports wildcard of * The file path of Linux shall start with /. The code of log text is UTF8.
 7. In [Collection Instance], it selects instances or corresponding availability group and tag based on the user's requirements.
-8. If the business application log of a user is a multi-row log, it needs to set the first-row regular matching rules; If not, it's not necessary to set. It is not a multi-row log by default.
+8. If the business application log of a user is a multi-row log, it needs to set the first-row regular matching rules; If not, it's not necessary to set. It is not a multi-row log by default. The first-row regular field conforms to **POSIX Extended Regular Express** Regular Expression, as shown in the following example:  
+
+The first row of a log mainly starts with time format, i.e. abnormal java stack log data
+```
+2020-07-08 23:58:45.382 [INFO]  xxxxxxxxxxxx
+	at xxxxxxxxxxxxxxxxxxx
+	at xxxxxxxxxxxxxxxxxxx
+	at xxxxxxxxxxxxxxxxxxx
+2020-07-08 23:58:55.582 [INFO]  xxxxxxxxxxxx
+	at xxxxxxxxxxxxxxxxxxx
+	at xxxxxxxxxxxxxxxxxxx
+	at xxxxxxxxxxxxxxxxxxx	
+```
+Regular expressions may be used for matching, but digital matching in the form of '\d' is not supported:  
+```
+^[[:digit:]]{4}-[[:digit:]]{2}-[[:digit:]]{2}
+``` 
+The expected result is that the above data is split into two logs, and the beginning of each log matches YY/MM/DD.  
+Note: For relevant syntax for regular expressions, please refer to: [Regular Expressions](https://en.wikibooks.org/wiki/Regular_Expressions/POSIX-Extended_Regular_Expressions)
 
 
 <img src="https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/operationguide/multi-line.jpg" width=80% height=80% />

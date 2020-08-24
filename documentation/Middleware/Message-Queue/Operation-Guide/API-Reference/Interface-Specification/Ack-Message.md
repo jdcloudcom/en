@@ -3,7 +3,7 @@
 - Request Line
 
 ```
-POST {Http access point}/v1/ack HTTP/1.1
+POST {Http access point}/v2/ack HTTP/1.1
 ```
 
 - Request headers parameters
@@ -18,7 +18,7 @@ Please refer to sections of [Common Parameters](../Call-Method/Common-parameters
 | topic           | string   | Required |                                          |
 | consumerGroupId | string   | Required |                                          |
 | ackAction       | string   | Required | 1. SUCCESS: Comsumption Succeeded <br/>2. CONSUME_FAILED: Comsumption failed, server will push again<br/> 3. RESEND: Resend Now<br/> 4. DISCARD: Discard message, server will not try again |
-| ackIndex        | int64    | Required |                                          |
+| ackIndex        | string   | Required |                                          |
 
 - Response Body
 

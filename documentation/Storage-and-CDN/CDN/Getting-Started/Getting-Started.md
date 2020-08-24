@@ -34,6 +34,8 @@
   3) Daily peak bandwidth of the business: Please estimate the daily peak bandwidth. For large file download and video file acceleration business, please fill in the file size information, so that we can reasonably allocate resources for you.
 
   4) Back-to-source mode: Please select IP back-to-source, domain name back-to-source or OSS back-to-source according to actual needs, fill in the origin server IP address and origin server domain name, and select the bucket information of OSS. JD Cloud CDN supports multi-IP load balancer back-to-source, and multi-IP, multi-domain name backup back-to-source, please fill in the back-to-source configuration according to actual needs.
+  
+  5)  Acceleration Region: Please select within China, outside China or global according to your actual requirements. Within China refers to mainland China, while outside China refers to Hong Kong, Macao and Taiwan regions of China and other countries. Currently, the video cloud live streaming service only supports the acceleration within China.
 
   ![image.png](https://img1.jcloudcs.com/cms/592cae81-fc1b-43ed-889a-9ebc26d73ab720180423141227.png)   
 

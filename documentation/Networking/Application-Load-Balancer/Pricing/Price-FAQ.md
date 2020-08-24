@@ -36,7 +36,7 @@ If the Load Balancer is associated to the Elastic IP, the Elastic IP shall be se
 ## 5. How to calculate the traffic of Load Balancer and charge for the traffic?
 <div id="user-content-5"></div>
 
-When the Load Balancer is formally charged, users can calculate the traffic through the LB Monitoring item "Total Number of Bytes". Currently, there are deviations in the statistic data for this monitoring item, so it will not be taken as the reference standard for calculating traffics.
+After the Load Balancer is officially charged, the flow rate can be calculated in accordance with the item "total number of bytes" monitored by the Load Balancer.
 
 ## 6. Will the traffic of Health Check be billed?
 <div id="user-content-6"></div>

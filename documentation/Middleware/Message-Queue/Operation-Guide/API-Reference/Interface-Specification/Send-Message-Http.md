@@ -3,7 +3,7 @@
 - Request Line
 
 ```
-POST {Http access point}/v1/messages HTTP/1.1
+POST {Http access point}/v2/messages HTTP/1.1
 ```
 
 - Request headers parameters

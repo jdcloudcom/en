@@ -17,6 +17,6 @@ Monthly Package Billing Instance Renewal: Expand the use duration of Web Applica
 
 #### Expiration & Overdue Rules
 
-When the expiration time of your Monthly Package Web Application Firewall is earlier than or the same as the current time, the status of your Virtual Machines will become expired. Upon expiration, the service of the application security gateway will be stopped and unavailable for use;
+When the expiration time of your monthly package of Web Application Firewall is earlier than the current time or is the current time, your Web Application Firewall instance will become expired. After expiration, the protection service of Web Application Firewall will be stopped and cannot be continuously used, but the forward service will be remained;
 
-Your Web Application Firewall Instance and security protection data will be kept for 7 days from the time of stopping service and the system will recover the resources after 7 days, in which case the data cannot be retrieved.
+From the moment your service is stopped, the protection configuration and security protection data of your Web Application Firewall instance will be kept for 7 days, and a renewal for the instance is allowable in these 7 days. After these 7 days, the system will recycle your instance resources, and no data will be retrieved since then.

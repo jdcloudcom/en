@@ -3,7 +3,7 @@
 - Request Line
 
 ```
-GET {Http access point}/v1/messages HTTP/1.1
+GET {Http access point}/v2/messages HTTP/1.1
 ```
 
 - Request headers parameters
@@ -29,8 +29,8 @@ Please refer to sections of [Common Parameters](../Call-Method/Common-parameters
 
 |  Field Name   | Field Type | Description                                                         |
 |:----|:----|:----|
-| requestId |  string  | requestId of this request is used to search the call chain |
-|  result   |   map    | Return format : {"topicName":"lizhijian-041","ackIndex":31,"messages":[{"messageId":"messageId_1","messageBody":"test-0","properties":{"TAGS":"world"}},{"messageId":"messageId_2","messageBody":"test-2","properties":{"TAGS":"world"}}]} |
+| requestId |  string  | requestId of this request is used to search the call chain      |
+|  result   |   map    | Return format : {"topicName":"lizhijian-041","ackIndex":"broker-31","messages":[{"messageId":"messageId_1","messageBody":"test-0","properties":{"TAGS":"world"}},{"messageId":"messageId_2","messageBody":"test-2","properties":{"TAGS":"world"}}]} |
 
 2.Request Failure
 

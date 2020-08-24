@@ -53,17 +53,17 @@ For example, if you need both HTTP and HTTPS services simultaneously when deploy
 
 - Configure health check: Select health check method as: http
 
-	![ALB健康检查设置](../../../../image/Networking/ALB/ALB-082.png)
+	![ALB健康检查设置](../../../../image/Networking/ALB/ALB-094.png)
 
 - Add server group: Select virtual server group, availability group according to business needs.
 
-	![ALB服务器组设置](../../../../image/Networking/ALB/ALB-083.png)
+	![ALB服务器组设置](../../../../image/Networking/ALB/ALB-049.png)
 
 - If there is no available virtual server group, click **Create new virtual server group** to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance.
 	
 	Note: Only VM and container resources in the same virtual private cloud with Application Application Load Balancer can be selected.
 
-	![ALB虚拟服务器组设置](../../../../image/Networking/ALB/ALB-084.png)
+	![ALB虚拟服务器组设置](../../../../image/Networking/ALB/ALB-050.png)
 
 - So far, the listener based on the HTTP Protocol has been created and can be viewed in the listener list.
 

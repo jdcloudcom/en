@@ -43,7 +43,7 @@
         href: Getting-Started/Create-Backend.md
       - name: Create Virtual Server Group
         href: Getting-Started/Create-TargetGroup.md
-      - name: Modify virtual server group
+      - name: Register/De-register virtual server
         href: Getting-Started/Register-Targets.md
       - name: Create Availability Group
         href: Getting-Started/Create-AvailabilityGroup.md
@@ -62,7 +62,9 @@
       - name: Virtual Server Group Management
         href: Operation-Guide/TargetGroup-Management.md
       - name: Forwarding Rules Group Management
-        href: Operation-Guide/UrlMap-Management.md      
+        href: Operation-Guide/UrlMap-Management.md
+      - name: Certificate management
+        href: Operation-Guide/Certificates-Management.md
       - name: Configuration Access Log
         href: Operation-Guide/Access-Log.md
       - name: Monitoring Service
@@ -85,7 +87,7 @@
       href: Best-Practices/AG-as-backend-server.md
     - name: Conversion between public network Application Load Balancer and private network Application Load Balancer
       href: Best-Practices/Switch-between-Internal-and-External-ALB.md
-    - name: Forward traffic based on domain and URL path
+    - name: Deploy Load Balancer to forward traffic based on domain and use different certificates for different domains
       href: Best-Practices/Forward-traffic-based-on-UrlMap.md
   - name: FAQ
     href: FAQ/FAQ.md

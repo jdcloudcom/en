@@ -38,7 +38,7 @@ Through the task status, the success rate and failure rate of each refresh or pr
  
 
 **5. URL Prewarm**
-
+* URL prewarm function is supported only in the acceleration in China, and URL prewarm task only takes effect in China in the acceleration on a global scale
 * Each URL shall start with <http://> or <https://
 * Multiple URLs shall be separated with carriage return
 * Up to 100 URLs can be refreshed for a single time; up to 2000 URLs can be refreshed per day (including prewarm)

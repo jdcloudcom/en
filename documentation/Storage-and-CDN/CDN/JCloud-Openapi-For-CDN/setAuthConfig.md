@@ -2,7 +2,7 @@
 
 ### Description
 
-Set dash authentication parameter
+Set dash authentication parameter. This configuration is not supported in the acceleration outside China/on a global scale
 
 
 

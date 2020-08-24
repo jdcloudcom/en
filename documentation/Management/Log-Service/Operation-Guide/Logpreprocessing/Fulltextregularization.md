@@ -10,7 +10,7 @@ The single line full text regular expression refers to a single line log using a
 ## Operation Steps
 1. Switch key-value extraction mode to "Single Line and Full Text Regular Expression"
 2. Enter or paste log samples.
-3. Enter or paste a regular expression.
+3. Enter or paste a regular expression. (Click and View [Syntax for Regular Expressions](https://en.wikibooks.org/wiki/Regular_Expressions/POSIX-Extended_Regular_Expressions))
 4. Click **Extract Fields** and then key value will be extracted from a log among log samples as per the regular expressions entered. Extraction results will be displayed in the log extraction field list below. If such extraction fails, it needs to check if the entered log samples or the regular expressions filled in are correct.
 
 <img src="https://raw.githubusercontent.com/jdcloudcom/cn/zhangwenjie-only/image/LogService/operationguide/Onelinefulltextregular.jpg" width=60% height=60% />

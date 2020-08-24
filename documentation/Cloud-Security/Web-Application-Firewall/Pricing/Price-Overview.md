@@ -1,52 +1,46 @@
-# Price Description
+# Price and Version Description
 
-The Web Application Firewall (Cloud WAF) billing content includes the package type, bandwidth extension package, domain extension package, and exclusive protection IP, which are charged by Monthly Pay-In-Advance. After the user purchases the package, they can purchase extension domain packages, extension bandwidth packages, and exclusive IPs as needed.
+The billing contents of Web Application Firewall (Cloud WAF) include package type, bandwidth expansion pack or domain expansion pack, and the billing mode is to pay in advance monthly. After the user purchases a package, they can also extra purchase a domain expansion pack or bandwidth expansion pack based on their demands.
 
-#### Package Price
+### Package Price and Business Scale
 
 Different package types can be selected according to different business scenarios, where the basic version is positioned for trial and test, and enterprise users are not recommended to select this item.
 
 | Category      | Basic Version                                 | Advanced Version                           | Enterprise Version                                               | Flagship Version                                     |
-| --------- | -------------------------------------- | -------------------------------- | ---------------------------------------------------- | ------------------------------------------ |
-| Package Cost  | 336                                    | 3880                             | 9800                                                 | 29800                                      |
+| -------------------------------------------- | -------------------------------------- | ---------------------------------- | ---------------------------------------------------- | ------------------------------------------ |
+| Package Cost(Per Month)  | 336                                    | 3880                             | 9800                                                 | 29800                                      |
 | Applicable scenarios | Applicable to personal website protection and testing, no special security requirements | Suitable for small and medium-sized website protection, have certain security requirements | Suitable for medium-sized website protection, website or service is open to the public, high security requirements | Suitable for large-scale website protection, or personalized security customization needs |
+| Peak business concurrent requests                             | 500QPS                                 | 3,000QPS                            | 5,000QPS                                              | 10,000QPS                                   |
+| Business bandwidth threshold (the origin server is deployed on JD Cloud & AI)         | 10Mbps                                 | 50Mbps                             | 100Mbps                                              | 200Mbps                                    |
+| Business bandwidth threshold (the origin server is not deployed on JD Cloud & AI) | 10Mbps                                 | 30Mbps                             | 50Mbps                                               | 100Mbps                                    |
+| Default number of protectable top-level domains                     | 1                                    | 1                                | 1                                                  | 2                                        |
+| Total number of protectable domains by default                       | 1                                    | 10                               | 10                                                 | 20                                       |
 
-#### Domain Extension Package
+### Domain Extension Package
 
-Each package supports a different number of domains, and it is also necessary to purchase different domain extension packages. A 1 domain extension package includes by default: 1 domain and 10 second-level domains.
+Each package supports a different number of domains, and you can purchase a domain expansion pack as needed. One domain expansion pack includes 10 domains consisting of 1 top-level domain and 9 child domains (under the top-level domain) by default. For more information, refer to [Domain Expansion Pack Description](domain-Expansion-Pack.md).
 
 | Category       | Basic Version | Advanced Version   | Enterprise Version   | Flagship Version    |
-| ---------- | ------ | -------- | -------- | --------- |
-| Domain Extension Package | Not Supported | RMB 500/Each | RMB 800/Each | RMB 1000/Each |
+| ---------- | ------ | -------- | --------- | --------- |
+| Domain Extension Package | Not Supported | RMB 600/Each | RMB 1000/Each | RMB 2000/Each |
 
-#### Bandwidth Extension Package
+### Bandwidth Extension Package
 
-Each package supports different defense bandwidths by default. If the business traffic exceeds the default protection bandwidth, you need to purchase an extended bandwidth package. A bandwidth extension package includes by default: 50Mbps protection bandwidth.
+Each package supports and protects different bandwidths by default. If your business traffic exceeds the default protection bandwidth, you need to purchase a bandwidth expansion pack. One bandwidth expansion pack includes 50Mbps protection bandwidth by default. For more information, refer to [Bandwidth Expansion Pack Description](Bandwidth-Expansion-Pack.md).
 
 | Category       | Basic Version | Advanced Version   | Enterprise Version    | Flagship Version    |
-| ---------- | ------ | -------- | --------- | --------- |
-| Bandwidth Extension Package | Not Supported | RMB 800/Each | RMB 2400/Each | RMB 4000/Each |
+| ---------- | ------ | --------- | --------- | --------- |
+| Bandwidth Extension Package | Not Supported | RMB 1000/Each | RMB 1000/Each | RMB 1000/Each |
 
-#### Exclusive Protection IP
-
-The Web Application Firewall (Cloud WAF) supports the purchase of exclusive IP and assigns a separate protection IP to each domain under the Cloud WAF Instance. By default, all domains protected by the Cloud WAF Instance use the same protection IP. Purchasing exclusive protection IP helps to better protect domain stability and prevent DDoS attacks on one domain leading to that the entire cloud WAF instance IP enters the black hole and all domains under this instance to be inaccessible.
-
-| Category   | Basic Version   | Advanced Version   | Enterprise Version   | Flagship Version   |
-| ------ | -------- | -------- | -------- | -------- |
-| Exclusive IP | RMB 160/Each | RMB 160/Each | RMB 160/Each | RMB 160/Each |
-
-####  Package Functions
+###  Package Functions
 
 | Function Items               | Basic Version         | Advanced Version               | Enterprise Version               | Flagship Version               |
-| -------------------- | -------------- | -------------------- | -------------------- | -------------------- |
-| Normal Protection Business QPS      | 500            | 3000                 | 5000                 | 10000                |
-| Normal Protection Bandwidth         | 10Mbps         | 30Mbps               | 50Mbps               | 100Mbps              |
-| CC Protection Peak Value QPS       | Not Support         | 30000                | 150000   QPS         | 500000   QPS         |
-| Number of Supported Level 1 Domains     | 1              | 1                    | 1                    | 2                    |
-| Number of Supported Level 2 Domains     | 1              | 10                   | 10                   | 20                   |
+| ------------------------------------- | -------------- | -------------------- | -------------------- | -------------------- |
+| CC Protection Peak Value QPS       | No         | 30000                | 150000   QPS         | 500000   QPS         |
 | HTTP/HTTPs/WebSocket | Support           | Support, Including Non-standard Protocol Port | Support, Including Non-standard Protocol Port | Support, Including Non-standard Protocol Port |
+| IPv6 business access traffic protection                | No             | No                   | Supported                 | Supported                 |
+| Common Web attacks protection (such as SQL injection and XSS) | Supported           | Supported                 | Supported                 | Supported                 |
 | Vulnerability Protection Engine         | Support           | Support                 | Support                 | Support                 |
-| Protection Rules Update         | Support           | Support                 | Support                 | Support                 |
 | Intelligent Engine (AI+Semantics)  | No             | No                   | Support                 | Support                 |
 | Threat Intelligence Linkage         | No             | No                   | Support                 | Support                 |
 | Global White List           | Support, 5 pieces/domain | Support, 20 pieces           | Support, 50 pieces           | Support, 50 pieces           |
@@ -60,13 +54,18 @@ The Web Application Firewall (Cloud WAF) supports the purchase of exclusive IP a
 | Website Crawler Protection         | No             | No                   | Support                 | Support                 |
 | Data Leakage Prevention           | No             | Support, 10 pieces           | Support, 20 pieces           | Support, 50 pieces           |
 | Webpage Tamper-proofing           | No             | Support, 10 pieces           | Support, 20 pieces           | Support, 50 pieces           |
+| BOT basic                               | No             | No                   | Supported, 20 entries           | Supported, unlimited           |
+| BOT advanced                               | No             | No                   | Supported, 10 entries           | Supported，20 entries           |
+| Business risk control                              | No             | No                   | Supported, 10 entries           | Supported, 20 entries           |
 | Security Analysis Report         | Support           | Support                 | Support                 | Support                 |
 | Alarm Setting             | Support           | Support                 | Support                 | Support                 |
 | Full Log Retrieval         | Support           | Support                 | Support                 | Support                 |
 | Full Log Download         | No             | No                   | Support                 | Support                 |
+| Multiregion                                | No             | No                   | Two- site active-active             | Three-site disaster recovery             |
 | Extensive Domain               | No             | No                   | No                   | Support                 |
 | Web Protection Rules Customization      | No             | No                   | No                   | Support                 |
 | Customized CC Defense Rules       | No             | No                   | No                   | Support                 |
 | Website Security Evaluation         | No             | No                   | No                   | Support                 |
 | Vulnerability Scanning             | No             | No                   | No                   | Support                 |
 | Expert Mode            | No             | No                   | No                   | Support                 |
+

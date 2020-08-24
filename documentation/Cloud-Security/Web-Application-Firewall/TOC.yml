@@ -19,6 +19,12 @@ items:
       href: Pricing/Price-Overview.md
     - name: Purchase Method
       href: Pricing/Purchase-Process.md
+    - name: Renewal and Upgrade
+      href: Pricing/Renew-And-Upgrade.md
+    - name: Domain Expansion Pack
+      href: Pricing/domain-Expansion-Pack.md
+    - name: Bandwidth Expansion Pack
+      href: Pricing/Bandwidth-Expansion-Pack.md
 - name:  Quick Start
   items:
     - name: Add Preparation
@@ -31,6 +37,8 @@ items:
       href: Getting-Started/Step-3.md 
     - name: Step 4 Modify DNS Resolution
       href: Getting-Started/Step-4.md
+    - name: Associated Certificate
+      href: Getting-Started/update-certificate.md
 - name: Operation Guide
   items:
     - name: Protection Configuration

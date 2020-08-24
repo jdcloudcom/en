@@ -30,6 +30,13 @@
 
 * Back-to-source mode: Please select IP back-to-source, domain name back-to-source or OSS back-to-source according to actual needs, fill in the origin server IP address and origin server domain name, and select the bucket information of OSS. JD Cloud CDN supports multi-IP load balancer back-to-source, and multi-IP, multi-domain name backup back-to-source, please fill in the back-to-source configuration according to actual needs.
 
+* Port: Only the following ports are supported in the acceleration outside China/on a global scale:
+   * http ports: 80, 8080, 8880, 2052, 2082, 2086, and 2095;
+   * https ports: 443, 2053, 2083, 2087, 2096, and 8443.
+
+
+* acceleration region: Please select China, outside China or global according to your actual requirements. China refers to mainland China, and outside China refers to Hong Kong, Macao and Taiwan regions of China and other countries. Currently, the video cloud live streaming service only supports the acceleration within China.
+
 ![image.png](https://github.com/jdcloudcom/cn/blob/cdn-new/image/CDN/%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%9E%E6%BA%90host.png)
 
 **Accelerated Domain Recycling Rule**

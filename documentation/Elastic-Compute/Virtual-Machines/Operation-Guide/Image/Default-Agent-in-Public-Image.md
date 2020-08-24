@@ -12,7 +12,7 @@ Due to the objective factors of system upgrade and component upgrade, the follow
 |   JCS-Agent  | JCSAgentCore <br> MonitorPlugin-‘Version Number’  <br>  UpgradePlugin-‘Version Number’  | General core components provide password key injection, customized script injection, monitoring data reporting and other features  in cooperation metadata service    |  It is impossible to set passwords, keys and customized user data through JD Cloud & AI Console or openAPI, and some VM Monitoring data cannot be obtained   |
 | Ifrit    |  ifrit-agent <br> ifrit-supervise   |   General deployment plug-in, realizing automatic upgrade of JCS-Agent	  |  Unable to obtain the capability of  automatic upgrade of JCS-Agent, if you want to use the new feature developed based on JCS-Agent in the future, you need to upgrade JCS-Agent manually   |
 |  Jcloudhids   |jcloudhids <br> jcloudhidsupdate    | Security core components provide security protection capability    | Unable to monitor the security hazards and abnormal behavior of Virtual Machines through "Endpoint Security" products   |
-| Jdog-Monitor |	jdog-monitor.’Version Number'<br>jdog-watchdog<br>jdog-kunlunmirror| Security auxiliary plug-in, realizing automatic upgrade of Jcloudhids (currently only installed on Linux system|Unable to obtain the capability of automatic upgrade of Jcloudhids, if you want to use the new feature developed based on Jcloudhids in the future, you need to upgrade manually|
+| Jdog-Monitor |	jdog-monitor.'Version Number'<br>jdog-watchdog<br>jdog-kunlunmirror| Security auxiliary plug-in, realizing automatic upgrade of Jcloudhids (currently only installed on Linux system|Unable to obtain the capability of automatic upgrade of Jcloudhids, if you want to use the new feature developed based on Jcloudhids in the future, you need to upgrade manually|
 
 * [JCS-Agent](default-agent-in-public-image#user-content-1)
 * [Ifrit](default-agent-in-public-image#user-content-2)
@@ -24,7 +24,7 @@ Due to the objective factors of system upgrade and component upgrade, the follow
 
 ## JCS-Agent
 ### Component Introduction
-JCS-Agent is the core component of Virtual Machines developed by JD Cloud & AI, which can provide features such as basic information (password, key) injection of Virtual Machines, user data injection, KSM activation of Windows system, monitoring data report.
+JCS-Agent is the core component of Virtual Machines developed by JD Cloud & AI, which can provide features such as basic information (password, key) injection of Virtual Machines, user data injection, KMS activation of Windows system, monitoring data report.
 
 Public Image was upgraded from August to December 2018, completing the default installation of JCS-Agent. cloud-init and qemu-guest-agent were installed in the early Public Image. Such images still have features such as the basic endpoint information injection, monitoring and reporting, but the user data injection, KMS activation in Windows system and the following additional features cannot be supported. If you are currently using early agent, it is recommended that you change to JCS-Agent (if the version of JCS-Agent you are currently using is lower than 1.0.728, it is recommended that you follow the following steps to install the new version, so as to obtain the automatic upgrade management feature of Ifrit).
 

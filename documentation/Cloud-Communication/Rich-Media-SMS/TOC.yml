@@ -9,6 +9,10 @@ items:
       href: Introduction/Introduction.md
     - name: Audit Standard
       href: Introduction/standard.md
+    - name: Qualification Requirement
+      href: Introduction/qualification.md
+    - name: Industrial Registration
+      href: Introduction/restriction.md
 - name: Product Pricing
   items:
     - name: Price Overview

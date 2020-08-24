@@ -32,19 +32,19 @@
 
   ![ALB后端转发设置](../../../../image/Networking/ALB/ALB-102.png)
 
-- Configure health check: set related parameters of health check, wherein the HTTP method is used here.![NLB health check setting](../../../../image/Networking/ALB/ALB-103.png)
+- Configure health check: set related parameters of health check, wherein the HTTP method is used here.![NLB health check setting](../../../../image/Networking/ALB/ALB-094.png)
 
 - Add server group: Select virtual server group, availability group according to business needs.
 
   Select virtual server group, availability group according to business needs.
 
-  ![NLB服务器组设置](../../../../image/Networking/ALB/ALB-105.png)
+  ![NLB服务器组设置](../../../../image/Networking/ALB/ALB-049.png)
 
 - If there is no available virtual server group, click **Create new virtual server group** to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance.
 
   Note: Only VM and container resources in the same virtual private cloud with Application Load Balancer can be selected.
 
-  ![NLB虚拟服务器组设置](../../../../image/Networking/ALB/ALB-106.png)
+  ![NLB虚拟服务器组设置](../../../../image/Networking/ALB/ALB-050.png)
 
 - So far, the listener based on the HTTP Protocol has been created and can be viewed in the listener list.
 
@@ -58,12 +58,12 @@
 
 	From Application Load Balancer instance->specific instance name->backend service->edit
   
-     ![NLB后端服务编辑](../../../../image/Networking/ALB/ALB-107.png)
+     ![ALB后端服务编辑](../../../../image/Networking/ALB/ALB-107.png)
 
 - Modify backend service configuration
 
-	Find specific backend service name at the backend service, click **Edit** from **Actions** to turn on session persistence function. Only the backend service of HTTP type can provide session persistence service based on cookie. The session persistence function is related with three configuration items including scheduling algorithm, session persistence switch and time-out period: currently, only when the scheduling algorithm is weighted round robin, the session persistence based on cookie will be supported, when the scheduling algorithm is weighted source IP and weighting least connection, the session persistence based on cookie will not be supported. The configuration scope of session persistence timeout time is 0 to 86400s, the timeout time by default is 0s; at this point, the cookie of session persistence is in the same lifetime of the browser, the browser is closed, the cookie is canceled, the session needs to be rebuilt when the browser is reopened.
+	Find specific backend service name at the backend service, click **Edit** from **Actions** to turn on session persistence function.
 
-   ![NLB会话保持修改](../../../../image/Networking/ALB/ALB-108.png)
+   ![ALB会话保持修改](../../../../image/Networking/ALB/ALB-108.png)
 
 

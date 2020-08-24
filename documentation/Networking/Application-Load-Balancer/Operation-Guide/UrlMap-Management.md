@@ -2,18 +2,18 @@
 
 [Principle Introduction](urlmap-management#user-content-1)
 
-[Add A Forwarding Rules Group](urlmap-management#user-content-2)
+[Add Forwarding Rule Group (Forwarding and Redirection)](urlmap-management#user-content-2)
 
 [Manage Forwarding Rules Group](urlmap-management#user-content-3)
 
 ## Principle Introduction
 <div id="user-content-1"></div>
 
-Through configuration of forwarding rules, the Application Load Balancer can forward the traffic to different backend services for processing based on access requested domains and URL paths. Multiple forwarding rules can be configured in a forwarding rules group. The domain matching the request, the URL path, and the backend service to which it is forwarded can be defined in the forwarding rules.
+The Application Load Balancer, if configured with a Forwarding Rule Group, can enable the access request-based domain and URL path to forward the access request to different backend services for processing or redirect such request to specified URLs. One Forwarding Rule Group can be configured with multiple forwarding rules. In the Forwarding Rule, the domain, URL path and executed action matching a request can be defined.
 
-In the same forwarding rules group, the system has sorted multiple forwarding rules configured by you based on match priority by default. In order of matching priority from high to low, the access request matches with each forwarding rule in order, after successful matching of certain rule, forward the request to the backend service associated with the rule for processing.
+In the same Forwarding Rule Group, system is set by default that the multiple forwarding rules configured for you have been placed in sequence in accordance with the matching priority. The access requests will match various forwarding rules in sequence in accordance with the matching priority from high to low, and after an access request successfully matches a forwarding rule, such request will be forwarded to the backend service processing bound to such forwarding rule or redirected to a specified URL.
 
-#### Domain
+#### Regular domain
 
 Domain supports entry of IPv4 address and domain. The domain supports exact match and wildcard match.
 
@@ -22,7 +22,7 @@ Domain supports entry of IPv4 address and domain. The domain supports exact matc
 
 When a client requests a domain that matches multiple forwarding rules simultaneously, the rule match priority is exact match > the longest wildcard match that starts with \* > the longest wildcard match that ends with \*.
 
-#### URL Path
+#### Regular URL path
 
 URL path supports exact match and prefix match.
 
@@ -30,6 +30,13 @@ URL path supports exact match and prefix match.
 - Prefix match: The entry format must end with "\*", such as /path1\*
 
 When a client requests multiple rules that match the same domain with different URL paths, the match priority is exact match > the longest prefix match.
+
+#### Forwarding action (forwarding and redirection)
+
+The action executed after a forwarding rule is matched and its values include forwarding and redirection.
+
+- Forwarding: It means to forward the access requests matching rules to specified Backend Servers for processing
+- Redirection: It means to redirect the access requests matching rules to specified URL addresses. Support configuring redirected protocols, domains, ports and URL paths, as well as querying parameters and ways for redirection.
 
 #### Forwarding Process
 
@@ -54,7 +61,15 @@ Only seven-layer (HTTP/HTTPS) listening support association of forwarding rules 
       - Must begin with /.
       - Only support uppercase and lowercase letters, numbers and special characters: $-_.+!' ()%:@&=/, case sensitive, and the description cannot exceed 128 characters.
       - Wildcard match support includes one star "*", entry format is /XXX\* or /\*.
-    - Backend service: Backend service where Application Load Balancer forwards the packet of matching rules to. In the drop-down list, backend services that show the backend protocol as HTTP are shown.
+    - Action: The action executed after a rule is matched; its values include forwarding and redirection.
+      - Forwarding: It means to forward access requests to specified backend services and the drop-down list only shows the backend services with HTTP as their backend protocols.
+      - Redirection: It means to redirect access requests to specified URL addresses and can be configured with the following parameters
+           - Redirected protocol: The values are HTTP and HTTPS, and the default value is #{protocol}. The default value means that the protocol of request will not be modified after redirection and such value is consistent with the protocol of client request.
+	    - Redirected port: The value is 1~65535 and the default value is #{port}. The default value means that the port number of request will not be modified after redirection and such value is consistent with the port number of client request.
+	    - Redirected domain: Support input of IPv4 address and domain. The restrictions for domain input are as follows: Only support capital and lower-case letters, figures and English line-through "-" and point "." (case-insensitive);include at least one point "."; do not start or end with a point "." or a line-through "-"; do not exceed 110 characters. The default value of #{domain} means that the domain of request will not be modified after redirection and such value is consistent with the domain of client request.
+	    - Redirected URL path: Must start with / and only support capital and lower-case letters, figures and special characters $-_.+!'()%:@&=/ (case-sensitive) with no more than 128 characters. The default value of #{path} means that the URL address of request will not be modified after redirection and such value is consistent with the URL path of client request.
+	    - Redirected query parameter: Do not need a manual input of ?; system is set by default to add the parameter with no more than 128 characters. The default value of #{query} means that the query parameter of request will not be modified after redirection and such value is consistent with the query parameter of client request.
+	    - Redirecting methods: The values include 301 Permanently Moved and 302 Temporarily Moved.
 
 4. Click **Edit** in the operation column in the forwarding rules list bar to edit the added rule.
 

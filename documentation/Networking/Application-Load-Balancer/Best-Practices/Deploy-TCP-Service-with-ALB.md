@@ -38,13 +38,13 @@
 
 	Select virtual server group, availability group according to business needs.
 
-	![ALB服务器组设置](../../../../image/Networking/ALB/ALB-055.png)
+	![ALB服务器组设置](../../../../image/Networking/ALB/ALB-049.png)
 
 - If there is no available virtual server group, click **Create new virtual server group** to create a new virtual server group. VM and containers can be selected to define the port and weight of the instance.
 	
 	Note: Only VM and container resources in the same virtual private cloud with Application Load Balancer can be selected.
 
-	![ALB虚拟服务器组设置](../../../../image/Networking/ALB/ALB-056.png)
+	![ALB虚拟服务器组设置](../../../../image/Networking/ALB/ALB-050.png)
 
 - So far, the listener based on the TCP Protocol has been created and can be viewed in the listener list.
 

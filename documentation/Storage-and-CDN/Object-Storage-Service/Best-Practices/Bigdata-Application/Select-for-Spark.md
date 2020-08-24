@@ -1,6 +1,8 @@
-This article introduces how to use [OSS select](../Object-Storage-Service/Operation-Guide/Manage-Object/Select-Object.md) in Spark to optimize data query. Currently OSS select is in beta.
+# Spark uses OSS select to optimize data query (beta)
 
 # Introduce s3select dependent package
+
+## Introduce s3select dependent package
 
 Enter the jars directory, and download the oss-select.jar dependent package
 
@@ -12,7 +14,7 @@ Download links:
 
 For project source code, refer to the open source project [minio-SparkSelect](https://github.com/minio/spark-select)
 
-# Examples
+## Examples
 
 ```
 spark.sparkContext.hadoopConfiguration.set("fs.s3a.access.key", "")

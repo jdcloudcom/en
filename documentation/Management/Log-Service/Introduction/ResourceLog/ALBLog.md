@@ -1,8 +1,8 @@
-## ALB (Application Load Balancer) Access Log
+## Application Load Balancer (ALB)
 ### Introduction
-Currently, the type of ALB log accessed to Log Service is **Application Load Balancer Access Log**. Currently, it only supports retrieval of 7-level log of Application Load Balancer. ALB access log currently only supports the search of log data in the past 7 days.
+At present, the ALB log types accessing to Log Service are **Access Log** and **Health Check Log**. The access log is only in support of retrieving the 7-layer logs of Application Load Balancer currently. The ALB access log is only in support of searching the log data within 7 days currently.
 
-### Field Description
+### Access Log Field Description
 Log Field(7-level) | Field Description | Field Type| Field Value Description
 -- | -- | -- | --
 timestamp  | Time stamp | time | accurate to millisecond, eg: 2018-12-20T02:59:40.001Z
@@ -27,3 +27,27 @@ server_protocol | Protocol requested for use | string | Commonly, it is HTTP/1.0
 http_user_agent | User agent | string | client agent, eg: curl, chrome
 ssl_cipher | ssl cipher | string | eg：EECDH+AESGCM
 ssl_protocol | ssl Protocol | string | eg: SSLv2, TLSv1 
+
+### Health Check Log Field Description
+Log Filed| Field Description | Field Type | Field Value Description
+-- | -- | -- | --
+timestamp | Time stamp | time | Accurate to millisecond, eg: 2018-12-20T02:59:40.001Z
+alb_id | Load Balancer ID | string | alb-[0-9][a-z]{10} , eg: alb-gmjnqw8bnh
+backend_id | Backend service ID | string |backend-[0-9][a-z]{10}, eg: backend-lea4mj3kw7
+backend_server_ip_port | Backend Server ip and port |string |  eg: 192.168.10.1:8080|
+log_detail |  Log details | string | It is used to specify the log types including: 1) server is unhealthy: The health status of backend server becomes unhealthy.  2) server is healthy: The health status of backend server becomes healthy.  3)no available servers, num 1: The health status of all servers under the backend service becomes unhealthy and num represents the number of servers.  4)health check failed cause:ccc: This health check is found to be abnormal and its causes (for cause type, please see the following table) 
+
+#### List of error reasons for health check
+HTTP Health Check| TCP Health Check |Description
+-- | -- | -- 
+timeout | timeout | ..Time-out
+connect failed |  connect failed | ...Connection creation failed
+peek failed | peek failed | ..Connection abnormal 
+send failed | send failed | ..Write failed 
+peer closed  |           | .Opposite terminals close the connection 
+parse check error	 |parse check error | . Health check results fail to pass the verification
+recv failed |recv failed |  ..Read failed 
+
+
+
+

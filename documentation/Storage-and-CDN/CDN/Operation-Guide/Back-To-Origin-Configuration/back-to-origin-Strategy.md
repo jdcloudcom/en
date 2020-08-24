@@ -33,7 +33,7 @@ For example, the back-to-source host is www.a.com, the corresponding server afte
 
 When no back-to-origin host is configured, the back-to-origin host is your accelerated domain name
 
-Support the customized back-to-origin host of domain back-to-origin. If the back-to-origin domain is test1.com and test2.com, respectively, the back-to-origin host corresponding to test1.com can be set to: origin1.com, while the back-to-origin host corresponding to test2.com is origin2.com
+The customized back-to-origin host of domain back-to-origin is only supported in the acceleration in China. If the back-to-origin domains are test1.com and test2.com, the back-to-origin host for test1.com can be set as origin1.com, and the back-to-origin host for test2.com can be set as origin2.com
 
 Default back-to-origin host means that in the case of IP back-to-source or domain back-to-origin, the back-to-origin address corresponds to the same back-to-origin host. If the back-to-origin domain is test1.com and test2.com, the default back-to-origin host is origin.com, that is, the back-to-origin host of both test1.com and test2.com is origin.com
 
@@ -41,7 +41,7 @@ Default back-to-origin host means that in the case of IP back-to-source or domai
 
 **Origin Server Monitoring**
 
-After turning on the origin server monitoring, the CDN distribution node will detect the availability of the origin server and the network delay according to the detection cycle. You may go to **Management** - **Cloud Monitoring** to configure and query the exception alarm information of the origin server.
+The origin server monitoring service is only supported in the acceleration in China. After the origin server monitoring is enabled, CDN distribution nodes will probe the origin server availability and network delay based on the probing period. You can go to [Management] - [Monitoring] to configure and query the origin server abnormal alarm information.
 
 ![image.png](https://img1.jcloudcs.com/cms/ce478878-87ee-49a0-a29b-f72e6b61606f20180118102744.png)
 

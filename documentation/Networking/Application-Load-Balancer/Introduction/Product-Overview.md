@@ -43,6 +43,8 @@ JD Cloud & AI Application Application Load Balancer can realize high availabilit
 
 - WebSocket support: WebSocket provides a two-way communication channel both to the client and the server, better saving server resources and bandwidth and ensuring communication timeliness.
 
+- Support SNI: HTTPS/TLS listeners on the Application Load Balancer support attaching multiple certificates to forward access requests with different domains to different backend services.
+
 ## Comparison between Application Load Balancer & Network Load Balancer & Distributed Network Load Balancer
 
 | Comparison Item   |  Application Load Balancer | Network Load Balancer | Distributed Network Load Balancer |
@@ -55,16 +57,17 @@ JD Cloud & AI Application Application Load Balancer can realize high availabilit
 |Backend Service Instance Auto Scaling | ✔ | ✔ | ✔ |
 |High-Availability Deployment of Multi-Availability Zones | ✔ | ✔ | ✔ |
 |Scheduling Algorithm	| Weighted Round Robin, Weighting Least Connection Count and Weighted Source IP | Weighted Round Robin, Weighting Least Connection Count and Weighted Source IP | Weighted Source IP and Weighted Quintuple Form |
-|SSL Unloading | ✔ | —— | —— |
+|SSL uninstalls and supports SNI | ✔ | —— | —— |
+|Support redirection | ✔ | —— | —— |
 |Idle connection timeout | ✔ | ✔ | —— |
 |Source IP Reservation	| Pass-through based on X-forward-for mechanism of HTTP Header | Pass-through of Three-layer Packet Source IP | Source IP Pass-through of Three-layer Packet |
 |Session Persistence | Cookie-based Session Persistence  |  Session Persistence of TCP Connection | —— |
 |Connection Draining Overtime | Support connection draining only and do not support configuration time-out period |  ✔ | —— |
-|Instance Type Family of Backend Service | Virtual Machines/Native Container/Availability Group| Virtual Machines/Native Container/Availability Group | Virtual Machines/Native Container/Availability Group |
+|Instance Type Family of Backend Service | Virtual Machines/Native Container/Availability Group/IP Address| Virtual Machines/Native Container/Availability Group | Virtual Machines/Native Container/Availability Group |
 |Health Check | ✔ | ✔ | ✔ |
 |Switch Between Intranet and Internet Load Balancer	 | ✔ |	✔ | ✔ |
 |Deletion Protection | ✔  | ✔ | ✔ |
-|Billing Standard	| Relatively-high Rate (Temporarily Free)| Relatively-low Rate (Temporarily Free) | Free |
+|Billing Standard	|Charge| Charge (Temporarily Free)| Free |
 
 ## Relevant references
 
@@ -75,7 +78,7 @@ JD Cloud & AI Application Application Load Balancer can realize high availabilit
 - [Billing rules](../Pricing/Billing-Rules.md)
 - [Create Application Application Load Balancer instance](../Getting-Started/Create-Instance.md)
 - [Create availability group](../Getting-Started/Create-AvailabilityGroup.md)
-- [Create virtual server group](../Operation-Guide/TargetGroup-Management.md)
-- [Configure listening policy](../Operation-Guide/Listener-Management.md)
+- [Virtual Server Group Management](../Operation-Guide/TargetGroup-Management.md)
+- [Listener Management](../Operation-Guide/Listener-Management.md)
 - [Manage rear end service and view health status of service instance](../Operation-Guide/Backend-Management.md)
 - [View monitoring information](../Operation-Guide/Monitoring.md)

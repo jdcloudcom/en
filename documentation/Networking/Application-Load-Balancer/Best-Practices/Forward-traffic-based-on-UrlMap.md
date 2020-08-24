@@ -1,16 +1,14 @@
-# Forward traffic based on domain and URL path
+# Deploy Load Balancer to forward traffic based on domain and use different certificates for different domains
 
 ## Preparation and Planning
 
 - Network Preparation
 
-	According to your business deployment needs, plan for an Application Load Balancer, and region, availability zone, virtual private cloud, etc. of VMs and containers as backend servers in advance.
-	
-	Note: VMs and containers as backend servers need to be in the same region, virtual private cloud with the Application Load Balancer.
+	Plan the Application Load Balancer and the territories, availability zones, virtual private cloud, etc. to be used as the Backend Server in advance in accordance with the demands of business deployment.
 
 - Server Preparation
 
-	It is necessary to create VMs and containers for carrying business traffic in advance, and ensure that the ports needed for listening are opened, and that security groups and ACL policies are properly configured.
+	Require advance creation of the resources such as Virtual Machine and Container used for carrying business traffic, and ensure to enable the port required for listening and reasonably configure Security Group and SCL Policy.
 
 - Application Load Balancer Instance
 
@@ -25,40 +23,34 @@ Configure the Application Load Balancer according to the following steps, forwar
 
 [Add A Forwarding Rules Group](forward-traffic-based-on-urlmap#user-content-2)
 
-[Associate Listener with Forwarding Rules Group](forward-traffic-based-on-urlmap#user-content-3)
+[Listener correlates with the Forwarding Rule Group so as to realize domain-based traffic forwarding](forward-traffic-based-on-urlmap#user-content-3)
+
+[Listener attaches multiple certificates so that different domains will return different certificates]forward-traffic-based-on-urlmap#user-content-4)
 
 ### Create A Seven-layer Listener
 <div id="user-content-1"></div>
 
-Only the Seven-layer Listener (HTTP or HTTPS) supports association with forwarding rules, here take HTTP Listener as example.
+Only the Seven-layer Listener (HTTP or HTTPS) supports association with forwarding rules, here take HTTPS Listener as example.
 
 - Frontend listening configuration:
 
-  Click **Add** to create a listener: select HTTP Protocol, configure listening port, idle connection timeout.
+  Click **Add** to create a listener: select HTTPS Protocol, configure listening port, idle connection timeout.
 
-  ![ALB后端转发设置](../../../../image/Networking/ALB/ALB-101.png)
+  ![ALB后端转发设置](../../../../image/Networking/ALB/ALB-045.png)
 
-- Backend forwarding configuration: May create a new backend service or select an existing backend service, it is noted that backend services of backend HTTP (or HTTPs) type protocol can be selected.
-
-  Create a new backend service: configure backend service name, Protocol (HTTP), port 80, scheduling algorithm selects weighted round robin, turn on/off session persistence switch, set session persistence timeout time.
+- Backend forwarding configuration: May create a new backend service or select an existing backend service, it is noted that backend services of backend HTTP (or HTTPs) type protocol can be selected. Create a new backend service: Configure backend service name, protocol (HTTP) and port (80), select the weighted round robin as the Scheduling Algorithm, turn on the switch closing Session Persistence and set time-out period for Session Persistence.
 
   ![ALB后端转发设置](../../../../image/Networking/ALB/ALB-102.png)
 
-- Configure health check: set related parameters of health check, wherein the HTTP method is used here.![NLB health check setting](../../../../image/Networking/ALB/ALB-103.png)
+- Configure health check: set related parameters of health check, wherein the HTTP method is used here.
 
-- Add server group: Select virtual server group, availability group according to business needs.
+  ![ALB健康检查设置](../../../../image/Networking/ALB/ALB-094.png)
 
   Select virtual server group, availability group according to business needs.
 
-  ![ALB服务器组设置](../../../../image/Networking/ALB/ALB-105.png)
+  ![ALB服务器组设置](../../../../image/Networking/ALB/ALB-049.png)
 
-- If there is no available virtual server group, click **Create a new virtual server group** to create a new virtual server group. VMs and containers can be selected to define the port and weight of the instance.
-
-  Note: Only VMs and container resources in the same Virtual Private Cloud with the Application Load Balancer can be selected.
-
-  ![ALB虚拟服务器组设置](../../../../image/Networking/ALB/ALB-106.png)
-
-- So far, the listener based on the HTTP Protocol has been created and can be viewed in the listener list.
+- So far, the listener based on the HTTPS Protocol has been created and can be viewed in the listener list.
 
   ![ALB监听器列表页](../../../../image/Networking/ALB/ALB-urlmap6.png)
 
@@ -79,9 +71,9 @@ Only the Seven-layer Listener (HTTP or HTTPS) supports association with forwardi
       - Must begin with /.
       - Only support uppercase and lowercase letters, numbers and special characters: $-_.+!' ()%:@&=/, case sensitive, and the description cannot exceed 128 characters.
       - Wildcard match support includes one star "*", entry format is /XXX\* or /\*.
-    - Backend service: Backend service where Application Load Balancer forwards the packet of matching rules to. In the drop-down list, backend services that show the backend protocol as HTTP are shown.
+    - Action: Select forwarding, select the Application Load Balancer to forward the matched requested packet to the backend server. The drop-down list only shows the backend services with HTTP as their backend protocols.
 
-### Associate Listener with Forwarding Rules Group
+### Listener correlates with the Forwarding Rule Group so as to realize domain-based traffic forwarding
 <div id="user-content-3"></div>
 
 1. Click **More - Manage Forwarding Rules Group** by Listener List Page - Operation Bar to pop up the dialog box of Manage Forwarding Rules Group.
@@ -91,3 +83,22 @@ Only the Seven-layer Listener (HTTP or HTTPS) supports association with forwardi
 2. In the dialog box of Manage Forwarding Rules Group, one forwarding rules group can be associated with the Listener.
 
 ![ALB转发规则组](../../../../image/Networking/ALB/ALB-urlmap3.png)
+
+### Listener attaches multiple certificates so that different domains will return different certificates
+<div id="user-content-4"></div>
+
+1. Click **More - Manage Certificate** on the Listener List page - Operations bar to pop up the Manage Certificate dialog box.
+
+![ALB管理证书](../../../../image/Networking/ALB/ALB-sni1.png)
+
+2. Select Extended Certificate in the Manage Certificate dialog box, enter or select the domain of Extended Certificate Service.
+    - Extended Certificate: The selected extended certificates must be those that have been uploaded to/subscribed in Cloud Security - SSL Certificate
+    - Domain: The domain of Extended Certificate Service. Domain can be selected or entered. If selected, only the bound domains and standby domains in the Extended Certificate are supported; While if entered, exact domain and extensive domain are supported under the following restrictions:
+      - Only support entering capital and lower-case letters, figures, English line-through "-" and point "." (case-insensitive) with no more than 110 characters.
+      - Include at least one point ".", do not start or end with a point "." or a line-through "-", and enter no point "." before and after a line-through "-".
+      - Wildcard Matching support including an asterisk "*" with the input format of \*.XXX.
+3. When a certificate needs to provide services for multiple domains (e.g. extensive domain certificate or multiple domain certificate), you can select or enter multiple domains for an added certificate, and then you can click **Add** to add multiple corresponding relations between domain and extended certificate in batches to the Certificate List.
+
+![ALB管理证书](../../../../image/Networking/ALB/ALB-sni2.png)
+
+4. Click **OK**, and complete the operations for adding multiple certificates.

@@ -44,6 +44,10 @@
 	
 	- Set check port: input range 1-65535, if it is not filled in, the port of backend instance for receiving Application Application Load Balancer traffic will be the port by default;
 	
+	- Check domain: The domain of a Health Check. Support entering domain and IP address. When entered, the domain only supports capital and lower-case letters, figures, English line-through "-" and point "." (case-insensitive) with no more than 255 characters. If there is a null by default, it shows that the Health Check carries no domain. Only when the protocol of the Health Check is HTTP, a domain can be filled in.
+	
+	- Check Path: The URL path of a Health Check. Must start with "/", support up to a 5-level directory and up to 100 characters. Only when the protocol of the Health Check is HTTP, a domain can be filled in.
+	
 	- Response timeout time(s): input range 2-60s, which is the maximum timeout time for health check response;
 	
 	- Health check interval(s): input range 5-300s, which is the maximum time interval for health check;
@@ -52,20 +56,20 @@
 	
 	- Healthy threshold: input range 1-5, which is the number of consecutive health check successes from failure to success of the backend instance;
 	
-	- Normal state code: input range 2xx (equivalent to 200-299), 3xx (equivalent to 300-399), 4xx (equivalent to 400-499);
-	
-	- Check path: It only will be filled in when the health check method is HTTP, it must start with "/", at most support 5-level contents, and cannot exceed 100 characters.
+	- Normal state code: input range 2xx (equivalent to 200-299), 3xx (equivalent to 300-399), 4xx (equivalent to 400-499). Only when the protocol of the Health Check is HTTP, a domain can be filled in.
 
-		![ALB健康检查设置](../../../../image/Networking/ALB/ALB-024.png)
+		![ALB健康检查设置](../../../../image/Networking/ALB/ALB-094.png)
 
 	**Add server group:**
 
-	- Select server group type: virtual server, availability group, or it cannot be added currently;
+	- Select server group type: Virtual Server Group/Instance Type, Virtual Server Group/IP Type, Availability Group, or do not add temporarily;
 	
-	- Virtual server group: The system will automatically filter out the list of server groups that can be associated now, if there is no available server group, it may click "Create a new virtual server group" to create;	
+	- Virtual Server Group/Instance Type or Virtual Server Group/IP Type: System will automatically screen out the list of Virtual Server Group that can be bound for the time being; if no Virtual Server Group is available, you can click **Create Virtual Server Group** to create an available Virtual Server Group;	
 	
-		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the Application Application Load Balancer.
+		  Note: The Backend Server of Virtual Server Group/Instance Type must be at the same Virtual Private Cloud of the same territory with the Application Load Balancer.
 
-	- Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create; note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the Application Application Load Balancer.
+	- Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create;
+	
+	       Note: The Backend Server of available Availability Group must be at the same Virtual Private Cloud of the same territory with the Application Load Balancer.
 
-		![ALB添加服务器组](../../../../image/Networking/ALB/ALB-025.png)
+		![ALB添加服务器组](../../../../image/Networking/ALB/ALB-049.png)

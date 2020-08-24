@@ -12,6 +12,17 @@ After successfully creating a read-only instance, you can enable the read-only p
 * Before enabling the read-write proxy, the read-only instance must be created
 * Currently, JCS for MySQL, MariaDB and Percona support enabling of the read-write proxy
 
+## Functional limitation
+* ssl is not supported
+
+## Notes:
+* The query in transactions will only be assigned to the primary library
+* The multi-statement query will only be assigned to the primary library, such as insert into...;  select last_insert_id();
+* The storage procedure and function will only be assigned to the primary library
+* Execution of Multi-Statements will only be assigned to the primary library
+* The consistency of non-transactional read cannot be ensured. The requirements of read consistency in business can be encapsulated in the transaction.
+* The use of variables in querying statement is not supported. An error will be returned
+
 ## Operation Steps
 1. Log in [Cloud Database RDS Console](https://rds-console.jdcloud.com/database).
 2. Select the target instance of which the read-only proxy needs to be enabled, click the name of the target instance, and enter the Details of the instance.

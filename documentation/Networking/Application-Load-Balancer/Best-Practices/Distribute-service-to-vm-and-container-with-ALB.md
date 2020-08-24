@@ -32,7 +32,7 @@
 
 	Configure health check parameters, click Next
 
-	![ALB健康检查设置](../../../../image/Networking/ALB/ALB-063.png)
+	![ALB健康检查设置](../../../../image/Networking/ALB/ALB-094.png)
 
 - Create a new server group:
 
@@ -44,11 +44,11 @@
 	
 	Fill in virtual server group name, select and add machine, resource instance of container type, configure port and weight.
 
-	![ALB虚拟服务器组添加资源设置](../../../../image/Networking/ALB/ALB-065.png)
+	![ALB虚拟服务器组添加资源设置](../../../../image/Networking/ALB/ALB-050.png)
 
 - Associate virtual server group.
 
 	Select and associate this virtual server group, click OK.
 
-	![ALB绑定虚拟服务器组](../../../../image/Networking/ALB/ALB-066.png)
+	![ALB绑定虚拟服务器组](../../../../image/Networking/ALB/ALB-049.png)
 

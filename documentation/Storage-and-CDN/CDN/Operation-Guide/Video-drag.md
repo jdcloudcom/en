@@ -1,6 +1,6 @@
 **Video Drag**
 
-In the VOD scenario, the netter can drag the video contents. When enabling the function, the CDN server will send the request start time or video contents of bytes to the request client.
+The video dragging function is only supported in the acceleration in China. In the Video on Demand scenario, online users can drag the video contents. When the function is enabled, CDN server will send the video contents of the requested start time or bytes to the requesting client
 
 The dragging is realized by the bytes or the time. For byte dragging, it requires that the origin server can support the range back-to-source. The time dragging url format is https://www.a.com/content.mp4?start=20&end=50 (i.e. the playing starts from the 20s and ends at 50s.)
 

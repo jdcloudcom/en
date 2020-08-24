@@ -14,7 +14,7 @@
 	
 	- Backend Protocol: May select http, tcp;
 
-		Note: The listener only can be associated with backend service of corresponding Protocol type, when the Backend Protocol is http, only the listeners under the Listening Protocol of http, https type can be associated, when the Backend Protocol is tcp, only the listeners under the Listening Protocol of tcp/tls type can be associated;
+		  Note: The listener only can be associated with backend service of corresponding Protocol type, when the Backend Protocol is http, only the listeners under the Listening Protocol of http, https type can be associated, when the Backend Protocol is tcp, only the listeners under the Listening Protocol of tcp/tls type can be associated;
 
 	- Port: The input range is 1-65535 and different backend services can use the same port;
 
@@ -26,7 +26,7 @@
 
 	- Get real IP: When http is used as the backend protocol, is enabled by default and cannot be disabled, the real client IP can be obtained via the X-Forwarded-For header field; when tcp is used as the backend protocol, the pass-through to the client IP via the proxy protocol is supported.
 	
-		Note: When tcp is used as the backend protocol, if it is enabled for obtaining the real IP, it needs to complete relevant configuration for proxy protocol at the backend server.
+		  Note: When tcp is used as the backend protocol, if it is enabled for obtaining the real IP, it needs to complete relevant configuration for proxy protocol at the backend server.
 
 	- Get HTTP header field: Used for passing through relevant information requested by client http. The following items are supported: Obtaining the Load Balancer listening protocol via the field X-Forwarded-Proto; obtaining the Load Balancer listening port via the field X-Forwarded-Port; obtaining the Load Balancer VIP address via the field X-Forwarded-LBIP; and obtaining the Load Balancer target listening destination IP (domain) and port via the field X-Forwarded-Host;
 
@@ -38,9 +38,9 @@
 
 	- Set check port: input range 1-65535, if it is not filled in, the port of backend instance for receiving Application Application Load Balancer traffic will be the port by default;
 
-	- Response timeout time(s): input range 2-60s, which is the maximum timeout time for health check response;
-
-	- Health check interval(s): input range 5-300s, which is the maximum time interval for health check;
+	- Check domain: The domain of a Health Check. Support entering domain and IP address. When entered, the domain only supports capital and lower-case letters, figures, English line-through "-" and point "." (case-insensitive) with no more than 255 characters. If there is a null by default, it shows that the Health Check carries no domain. Only when the protocol of the Health Check is HTTP, a domain can be filled in.
+	
+	- Check Path: The URL path of a Health Check. Must start with "/", support up to a 5-level directory and up to 100 characters. Only when the protocol of the Health Check is HTTP, a domain can be filled in.
 
 	- Unhealthy threshold: input range 1-5, which is the number of consecutive health check failures from success to failure of the backend instance;
 
@@ -50,54 +50,50 @@
 
 	- Check path: It only will be filled in when the health check method is HTTP, it must start with "/", at most support 5-level contents, and cannot exceed 100 characters.
 
-		![ALB健康检查设置](../../../../image/Networking/ALB/ALB-029.png)	
+	- Normal Status Code: Input range: 2xx (equivalent to 200-299), 3xx (equivalent to 300-399), 4xx (equivalent to 400-499). Only when the protocol of the Health Check is HTTP, a domain can be filled in.
+
+
+		![ALB健康检查设置](../../../../image/Networking/ALB/ALB-094.png)	
 
 	**Add server group: **
 
-	- Select server group type: virtual server, availability group, or it cannot be added currently;
-
-	- Virtual server group: The system will automatically filter out the list of server groups that can be associated now, if there is no available server group, it may click ** Create a new virtual server group ** to create;
-
-		Note: The backend instances in the optional server group must be under the same region, virtual private cloud, and availability zone as the Application Application Load Balancer.
+	- Select server group type: Virtual Server Group/Instance Type, Virtual Server Group/IP Type, Availability Group, or do not add temporarily;
+	
+	 
+		![ALB服务器组](../../../../image/Networking/ALB/ALB-049.png)
+	
+	- Virtual Server Group/Instance Type or Virtual Server Group/IP Type: System will automatically screen out the list of Virtual Server Group that can be bound for the time being; if no Virtual Server Group is available, you can click **Create Virtual Server Group** to create an available Virtual Server Group;	
+	
+		  Note:
+		    * The Backend Server of Virtual Server Group/Instance Type must be at the same Virtual Private Cloud of the same territory with the Application Load Balancer.
+		    * When a Backend Server is out of VPC (e.g. a Backend Server interconnects with the Application Load Balancer via direct connection, VPC peering or VPN), please create a Virtual Server Group of IP Type.
 
 	- Availability Group: The system will automatically filter out the availability groups that can be associated now, if there is no availability group, please go to the Availability Group page to create;
-
-		Note: The backend instances in the optional availability group must be under the same region, virtual private cloud, and availability zone as the Application Application Load Balancer.
-
-		![ALB添加服务器组](../../../../image/Networking/ALB/ALB-030.png)
-
+	
+	       Note: The Backend Server of available Availability Group must be at the same Virtual Private Cloud of the same territory with the Application Load Balancer.         
 
 ## Backend Service Management
+<div id="user-content-2"></div>
 
 1. View details of backend service: Click the backend service name to enter into the backend service details, view backend service configuration information and replace the associated backend server group (refer to the text below);
 
 1. View associated server group: Click the backend service name in the list page and view server group information and health status related to the backend service;
 
-1. Editing backend service: Edit relevant configuration information of the backend server (refer to the text below);
+1. Edit backend services: Edit relevant configuration information of backend services;
+
+        Note:
+        * The status of Health Check switch can only be modified in the Edit Backend Services dialog box. Load Balancer detects the running state of Backend Servers by virtue of its Health Check function, and when any fault is detected in a Backend Server, Load Balancer will no longer distribute any traffic to its Backend Server for purpose of ensuring the overall availability of services. It is not suggested to close the Health Check switch.
+        * After the Health Check switch is closed, the health status of Backend Server will appear to be "N/A". At this point, the Load Balancer will distribute traffic to all "running" Backend Servers in accordance with the Scheduling Algorithm.
 
 1. Delete backend service: Once the backend service is successfully deleted, the backend service will be automatically disassociated with the server group, but the backend service associated to the listener cannot be deleted;
 
 ![ALB管理后端服务](../../../../image/Networking/ALB/ALB-031.png)
 	
 ## Replace server group associated to the backend service
+<div id="user-content-3"></div>
 
 1. Turn on the backend service details by clicking Application Application Load Balancer-Details-backend service-Details. Click **Change** to change the associated server group;
 
 1. Turn on the backend service editing page by clicking the Application Application Load Balancer-Details-Backend service-Editing and change the associated server group;
 
 ![ALB更换后端绑定的服务器组](../../../../image/Networking/ALB/ALB-032.png)
-	
-## Edit backend service
-
-1. Turn on the backend service editing page by clicking the Application Application Load Balancer-Details-Backend service-Editing;
-
-1. Edit backend service configuration item, which contain the backend protocol and the port unable to be edited and the other items with editable certificates. If the listener has any associated certificate, such certificate can be modified;
-
-        Note:
-        * The on/off status of health check can be modified in the backend service editing dialog box only. The Load Balancer can detect running status of backend server via the health check function. When any backend service failure is detected, traffic will not be distributed to the backend service, guaranteeing overall business availability. It is suggested that the health check function shall not be disabled.
-        * Where the health check function is disabled, the health status of the backend server will be displayed as "N/A". In such case, traffic will be distributed to all "running" backend servers as per the scheduling algorithm by the Load Balancer.
-
-![ALB编辑后端服务](../../../../image/Networking/ALB/ALB-033.png)
-	
-
-

@@ -5,6 +5,11 @@ This document will introduce the important update history of the Application App
 
 |Release Date|Character|Description|
 |-|-|-|
+|March 2020|Support add IP as Backend Server|Support add IP address to Virtual Server Group, enriching the types of backend services attached to the Load Balancer.|
+|March 2020|Support a weight of 0|Support configuring the weight of Backend Server of Virtual Server Group as 0|
+|March 2020|Support redirection|Support redirecting the access requests on seventh layer to specified URLs.|
+|March 2020|Support Health Check domain|HTTP Health Check supports configuring domains|
+|March 2020|Support multiple certificates|Application Load Balancer supports one HTTPS/TLS listener to bind multiple SSL certificates|
 |February 2020|Open OpenAPI and SDK|Application Load Balancer OpenAPI and SDK Open to the Public|
 |January 2020|Application Load Balancer list page supports search|Application Load Balancer list page supports search based on ID, name and the like|
 |January 2020|Modify Billing Type|Application Load Balancer billing method will be changed from Pay By Configuration to Pay By Consumption, while it is for free temporarily|
@@ -33,7 +38,7 @@ This document will introduce the important update history of the Application App
 - [Billing rules](../Pricing/Billing-Rules.md)
 - [Create Application Application Load Balancer instance](../Getting-Started/Create-Instance.md)
 - [Create availability group](../Getting-Started/Create-AvailabilityGroup.md)
-- [Create virtual server group](../Operation-Guide/TargetGroup-Management.md)
-- [Configure listening policy](../Operation-Guide/Listener-Management.md)
+- [Virtual Server Group Management](../Operation-Guide/TargetGroup-Management.md)
+- [Listener Management](../Operation-Guide/Listener-Management.md)
 - [Manage rear end service and view health status of service instance](../Operation-Guide/Backend-Management.md)
 - [View monitoring information](../Operation-Guide/Monitoring.md)

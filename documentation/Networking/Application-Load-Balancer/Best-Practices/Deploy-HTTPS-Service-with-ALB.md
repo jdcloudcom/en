@@ -36,7 +36,7 @@
 
 - Configure health check: set related parameters of health check, wherein the HTTP method is used here.
 
-	![ALB后端服务设置](../../../../image/Networking/ALB/ALB-048.png)
+	![ALB后端服务设置](../../../../image/Networking/ALB/ALB-094.png)
 
 - Add server group: Select virtual server group, availability group according to business needs.
 
@@ -48,6 +48,6 @@
 
 	![ALB后端服务设置](../../../../image/Networking/ALB/ALB-050.png)
 
-- So far, the listener based on the HTTP Protocol has been created and can be viewed in the listener list.
+- So far, the listener based on the HTTPS Protocol has been created and can be viewed in the listener list.
 
 	![ALB后端服务设置](../../../../image/Networking/ALB/ALB-051.png)
