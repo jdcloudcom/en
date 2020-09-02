@@ -1,0 +1,397 @@
+#说明
+文件内容为开发人员从代码中提取出来的中文，请翻译人员在每行中文后面直接翻译即可
+例如：
+
+  pageErrorTip: 'Page access error, please visit later...',  //   Page access error, please visit later...
+
+
+export default {
+  dialog: { confirm: 'Confirm', cancel: 'Cancel', tip: 'Tip' },
+  redirectTip: 'Please go to overview page >',
+  pageErrorTip: 'Page access error, please visit later...',
+  const: {
+    index: {
+      helpDoc: 'Documentation',
+    },
+    list: {
+      create: 'Create',
+      noCKSdata: 'No CKS data',
+      running: 'Running',
+      creation: 'Creating',
+      deleting: 'Deleting'
+    },
+    configGroup: {
+      clusterType: 'Specification'
+    },
+    create: {
+      numCopies: 'Replica Count',
+      avZone: 'Availability Zone',
+      numSlices: 'Multipart Count',
+      createTime: 'Creation Time',
+      tableBilling: 'Billing Information',
+      xlarge: '4-core 16GB',
+
+    },
+    menu: {
+      operation: 'Actions'
+    },
+    rules: {
+      instanceName:
+        'It only supports numbers, uppercase and lowercase letters, English underlines "_", English subtraction signs "-" and Chinese, and shall be no less than 2 characters and no more than 64 characters',
+      length: 'The name shall be no less than 2 characters and no more than 64 characters',
+      require: 'Must provide a name'
+    },
+    status: {
+      RUNNING: 'Running',
+      DELETING: 'Deleting',
+      BUILDING: 'Building',
+      CREATING: 'Creating',
+      PRIVILEGEUPDATING: 'Modifying permission',
+      PASSWORDUPDATING: 'Resetting password',
+      SUSPENDED: 'In arrears',
+      MODIFYING: 'Changing configuration',
+      // pop node status
+      Pending: 'Loading',
+      Running: 'Running',
+      Succeeded: 'Succeeded',
+      Failed: 'Failed',
+      Unknown: 'Unknown',
+      Other: 'Others'
+    }
+  },
+  common: {
+    year: 'Year',
+    month: 'Month', // 1 month 2 months
+    azMap: {
+    },
+    soldOut: 'Sold out',
+    regions: {
+      'cn-north-1': 'cn-north-1',
+      'cn-south-1': 'cn-south-1',
+      'cn-east-2': 'cn-east-2',
+      'cn-east-1': 'cn-east-1'
+    },
+    delete: 'Delete',
+    renew: 'Renew',
+    tips: {
+      delSuccess: 'Deletion succeeded',
+      delFailed: 'Deletion failed',
+      fail: 'Request failed, please try again later',
+      copy: 'Replicate',
+      copySuccess: 'Replicated',
+      success: 'Enabled',
+      closeSuccess: 'Disabled',
+      needRefresh: 'Deleted. Please refresh the page.'
+    },
+    confirm: 'OK',
+    cancel: 'Cancel',
+    sure: 'OK',
+    more: 'More'
+  },
+  regexTips: {
+    nameIsRequired: 'Must provide a name',
+    nameTips: 'It only supports numbers, uppercase and lowercase letters, English underlines "_", English subtraction signs "-" and Chinese',
+    nameLength: 'It shall be no less than 2 characters and no more than 64 characters'
+  },
+  tag: {
+    fail: 'Tag filter failed',
+    editTag: 'Edit tag',
+    tagTitle: 'Tag',
+    checked: 'Tags selected',
+    clear: 'Clear'
+  },
+  operateTip: {
+    noCharge: 'Not allowed in the current billing status',
+    noStatus: 'Not allowed in the current instance status',
+    prepaidNotAllowed: 'Deletion is not allowed for the monthly package'
+  },
+  resource: {
+    // Please translate Api resources
+    // For example, https://git.jd.com/jcloud-api-gateway/jcloud-open-api-doc/blob/internal/vpc/Virtual-Private-Cloud/describeVpc.md
+    vpc: {
+      vpcName: 'VPC Name',
+      createdTime: 'Creation Time'
+    },
+    subnet: {
+      subnetName: 'Subnet Name'
+    }
+  },
+  components: {
+    operation: 'Actions',
+    // Component level, for example:
+    regionRadio: {
+      differentRegionTip: 'Resources ​in ​different ​regions ​cannot ​be ​interconnected ​within ​the ​intranet ​and ​cannot ​be ​changed ​after ​creation. ​',
+      resourceQuotaTip: 'The total quota in the current region has {userQuota} cores and {availableQuota} cores are left. You can increase quota by ticket',
+      submitIssue: 'Open ticket',
+      quota: 'The selected configuration requires the quota of {needQuota} cores. The current quota has {userQuota} cores, and {availableQuota} cores are left. The available quota is insufficient. Please open ticket to increase quota!',
+      quotaTip: 'The selected specification exceeds the quota. Creation failed. Please open ticket to increase quota!'
+    },
+    list: {
+      id: 'ID',
+      instanceId: 'Please enter an ID for search',
+      name: 'Name',
+      instanceName: 'Please enter a name for search',
+      deleteId: 'Instance ID to be deleted',
+      delInstanceId: 'Please enter the ID to be deleted',
+      IdNotSame: 'Different instance ID'
+    },
+    create: {
+      choose: 'Please select',
+      keyWords: 'Keywords reserved by the system',
+      vpc: {
+        chooseSubnet: 'Please select a subnet',
+        noneSubnet: 'No subnet currently',
+        vpcSubnetIp:
+          'The selected configuration requires {needAvailabelIpCount} IPs, and only {availableIpCount} subnet IPs are available in the current network',
+        vpcHelp:
+          'You can go to the Console {newVpcLink} or {newSubnetLink}. If you cannot find the newly created VPC, you can {refreshVpc}',
+        newSubnetLink: 'Create a new subnet.',
+        newVpcLink: 'Create a new VPC',
+        refreshVpc: 'Click to refresh',
+        vpcTip:
+          'SQL Server instance is required to be in the same VPC as the Virtual Machine accessing to the database, and enabling of 1433 port is required for the security groups of VMs. Click',
+        lookDoc: 'View files',
+        noneSubnetTip: 'No subnet is available for now',
+        noneVpcTip: 'No VPC is available for now'
+      }
+    },
+    AZ: {
+      AzDeploy: 'Multi-AZ Deployment',
+      AzDeployTips: 'Assign different replicas of the instance to different availability zones.',
+      master: 'Availability Zone 1',
+      slave: 'Availability Zone 2',
+      selectAz: 'Select the availability zone',
+      selectAzTips:
+        'Availability zones refer to the mutually independent physical zones for electricity, network and other infrastructure in the same region. A region includes one or more availability zones and the availability zones in the same region can be interconnected to each other',
+      selectYes: 'Yes',
+      selectNo: 'No'
+    },
+    chargeStatus: {
+      maturity: 'Expire',
+      expired: 'Expired',
+      freed: 'Release',
+      arrear: 'In arrears',
+      normal: 'Normal',
+      overdue: 'Expired'
+    },
+    account: {
+      createAccount: 'Create a new account',
+      access: 'Permission',
+      ro: 'Read-only',
+      rw: 'Read-write',
+      databaseAccount: 'Database Account',
+      resetPSD: 'Reset Password',
+      modifyAccess: 'Modify permission',
+      setAccess: 'Permission Settings',
+      list: {
+        nodata: 'No account data currently',
+        tips: 'Internal management user. It cannot be changed or operated',
+        innerAccount: 'Internal management account',
+        confirmDel: 'Confirm to delete the account ',
+        delAccount: 'Delete the account',
+        failTip: 'Account deletion failed. Please try again later!'
+      },
+      reset: {
+        psdModified: 'Password modification succeeded!',
+        psdModifiedFail: 'Password modification failed. Please try again later!',
+        psd: 'Password',
+        confirmPSD: 'Confirm password',
+        accountTip: 'It must begin with an uppercase or lowercase letter, supports numbers, uppercase and lowercase letters, and English underlines "_", and cannot be more than 16 characters',
+        sqlServerAccountTip:
+          'The account only supports numbers, uppercase and lowercase letters, and English underlines "_", must begin with a letter or number, and cannot be more than 16 characters',
+        psdTip:
+          'It supports numbers, uppercase and lowercase letters, and some special characters, with a length of 8-32 characters. The password must contain uppercase and lowercase letters, numbers and special characters, supporting "!", "@", "#", "$", "%", "^", "&", "*", "()", "_", "+", "-", and "="'
+      },
+      rules: {
+        noneTip: 'Must provide an account',
+        lenTip: 'The account length cannot exceed 16 characters',
+        accountTip: 'It must begin with an uppercase or lowercase letter, supports numbers, uppercase and lowercase letters, and English underlines "_", and cannot be more than 16 characters',
+        sqlServerAccountTip: 'The account only supports numbers, uppercase and lowercase letters, and English underlines "_", and must begin with a letter or number',
+        charsetTip: 'The "-" character in the account cannot be continuous',
+        psdNone: 'Must provide a password',
+        psdLen: 'The length of the password cannot be less than 8 characters and more than {max} characters',
+        psdSupports: "The password must contain uppercase and lowercase letters and numbers and does not support '/', '\" ', '@'.",
+        pgPsdTip: 'The password must contain and only support uppercase and lowercase letters and numbers and shall be no less than 8 characters and no more than 16 characters',
+        sqlServerPsd:
+          'The password must contain uppercase and lowercase letters and numbers, with a length of 8-32 characters. It also supports special characters "-", "=", ";", ",", ".", "/", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+", "-", "|", "{", "}", ":", "<", ">", and "?", namely ASCII characters other than "`", "[", "]", "\\", "\'", "\"" and space ',
+        psdError: 'The passwords you enter in two attempts are inconsistent',
+        noteLen: 'Up to 255 characters can be entered',
+        noteTip: 'The characters exceed the limit!'
+      },
+      create: {
+        accessDatabase: 'Authorized Database',
+        canAccessDB: 'Database Available for Authorization',
+        created: 'Account creation succeeded',
+        createFail: 'Account creation failed. Please try again later'
+      }
+    }
+  },
+  views: {
+    // Page level, for example:
+    list: {
+      header: ': Analytical Cloud Database JCHDB',
+      nameAndId: 'ID/Name',
+      status: 'Status',
+      copy: 'Replica',
+      memory: 'Memory Space',
+      storage: 'Bucket'
+    },
+    create: {
+      create: 'Create a new instance',
+      prepaid_by_duration: 'Monthly Package',
+      prePay: 'Monthly Package',
+      postpaid_by_duration: 'Pay By Configuration',
+      postPay: 'Pay By Configuration',
+      region: 'Region',
+      flavor: 'Single Node Specification',
+      version: 'Version',
+      numCopies: 'Replica Count',
+      replicationNum: {
+        1: 'Single Replica',
+        2: 'Double Replica',
+        3: 'Customized Replica Count',
+        tips: 'The maximum replica count supported currently is {max}'
+      },
+      customCopy: 'Customized Replica Count',
+      numSlices: 'Multipart Count',
+      numSliceTips: 'It supports 1-{max}',
+      storageType: 'Storage Type',
+      core: 'Core',
+      EBS_SSD: 'Performance SSD Cloud Disk',
+      storage: 'Single Node Storage Space',
+      zkConfig: 'ZK Configuration',
+      zkNum: 'ZK Count',
+      zkFlavor: 'ZK Specification',
+      recommend: 'Use the recommended configuration',
+      custom: 'Customized Configuration',
+      nodeNums: 'Node Count',
+      vpcNet: 'VPC',
+      deploy: 'Deployment Method',
+      basicInfo: 'Basic Information',
+      instanceName: 'Instance Name',
+      selected: 'Selected Configuration',
+      net: 'Network',
+      price: 'Configuration Cost',
+      computing: 'Computing…',
+      buy: 'Buy Now',
+      hourly: '/hour',
+      monthPrice: '(approximately ￥%{monthPrice}/month in total)',
+      clusterSubnetTip: 'Insufficient available IPs for the subnet. Please change the subnet',
+      zkNode: 'ZK Node',
+      computedNode: 'Computation Node',
+      discountedPrice: 'Discount Price',
+      amount: 'Total Price',
+      totalPrice: 'Original Price',
+      save: 'Province',
+      num: 'Purchased Quantity',
+      duration: 'Purchased Duration',
+      month: 'months',
+      year: 'Year'
+    }
+  },
+  detail: {
+    index: {
+      info: 'Instance Information',
+      account: 'Account Management',
+      monitor: 'Monitoring',
+      nodeInfo: 'Node Information'
+    },
+    menu: {
+      basicInformation: 'Basic Information',
+      name: 'Name',
+      billingType: 'Billing Type',
+      createTime: 'Creation Time',
+      region: 'Region',
+      AZone: 'Availability Zone',
+      config: 'Configuration',
+      dbVersion: 'Database Version',
+      storage: 'Bucket',
+      storageType: 'Storage Type',
+      deleteInstance: 'Delete',
+      engineVersion: 'Engine Type',
+      expireTime: 'Expiration Time',
+      memory: 'Memory'
+    },
+    table: {
+      computedFlavor: 'Computation Node Specification',
+      master: 'Primary',
+      slave: 'Backup',
+      storage: 'Computation Node Storage',
+      EBS_SSD: 'Performance SSD Cloud Disk',
+      zkFlavor: 'ZK Node Specification',
+      zkNodeNum: 'ZK Node Count',
+      net: 'Domain Information',
+      intranetDomain: 'Intranet Domain',
+      externalDomain: 'Internet Domain',
+      noOpen: 'Disabled',
+      tcpPort: 'TCP Port',
+      httpPort: 'HTTP Port',
+      monitor: 'Monitoring',
+      port: 'Port'
+    },
+    monitor: {
+      m: '{count} minute(s)',
+      h: '{count} hour(s)',
+      d: '{count} day(s)',
+      instance: 'Instance',
+      node: 'Node'
+    },
+    baseInfo: {
+      modifyName: 'Modify Name',
+      instanceName: 'Name',
+      tip:
+        'The name only supports numbers, uppercase and lowercase letters, English underlines "_", English subtraction signs "-" and Chinese, and shall be no less than 2 characters and no more than 64 characters',
+      modifyNameSuccess: 'Name modification succeeded'
+    },
+    adjustFlavor: {
+      title: 'Adjust configuration',
+      tip: 'Notification Information:',
+      tip1: 'During the configuration adjustment, the instance can be used as normal. Short-time flash may occur after completion. You just need to re-connect the application',
+      tip2: 'If the configuration of the Monthly Package instance is reduced, the expiration time of the instance will be automatically postponed',
+      flavor: 'Current Specification',
+      chargeMode: 'Billing Type',
+      expireTime: 'Expiration Time',
+      quota: 'Quota Information',
+      resourceQuotaTip:
+        'The selected configuration requires additional {needQuota} cores of quota. The current quota has {userQuota} cores, and {availableQuota} cores are left',
+      resourceQuotaTip1:
+        'The selected configuration requires additional {needQuota} cores of quota. The current quota has {userQuota} cores, and {availableQuota} cores are left. The available quota is insufficient. Please open ticket to increase quota!',
+      noEnoughSubnetTip: 'Insufficient Quota',
+      theSameConf: 'The specification is unchanged',
+      noPrice: 'No price currently'
+    },
+    nodeInfo: {
+      noCKSdata: 'No node data currently',
+      id: 'Node ID',
+      number: 'Node SN',
+      status: 'Status',
+      cpu: 'CPU Util',
+      memery: 'Memory Util',
+      disk: 'Space Util',
+      operation: 'Actions'
+    }
+  },
+  apiError: {
+    IAM: 'You do not have permission to carry out this operation. Please contact the administrator for permission.',
+    // openApi general error
+    INVALID_ARGUMENT: 'Parameter error',
+    FAILED_PRECONDITION: 'The presetting conditions required for this operation are not met',
+    OUT_OF_RANGE: 'The parameters are out of range',
+    UNAUTHENTICATED: 'Verification failed',
+    HTTP_FORBIDDEN: 'No permission',
+    NOT_FOUND: 'Can't find objects',
+    ABORTED: 'Operation stops',
+    ALREADY_EXISTS: 'Object already exists',
+    QUOTA_EXCEEDED: 'Insufficient Quota',
+    RATE_LIMIT: 'Your requests are too frequent!',
+    CANCELLED: 'Cancel the operation',
+    UNKNOWN: 'Unknown error',
+    INTERNAL: 'Internal error',
+    NOT_IMPLEMENTED: 'The operation has not been implemented',
+    SOURCE_UNAVAILABLE: 'The origin server is unavailable',
+    UNAVAILABLE: 'The service is unavailable',
+    DEFAULT: 'System error'
+  },
+  copySus: 'Replicated',
+  copy: 'Replicate'
+}
