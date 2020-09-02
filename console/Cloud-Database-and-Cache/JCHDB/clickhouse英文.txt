@@ -2,7 +2,7 @@
 文件内容为开发人员从代码中提取出来的中文，请翻译人员在每行中文后面直接翻译即可
 例如：
 
-  pageErrorTip: 'Page access error, please visit later...',  //   Page access error, please visit later...
+  pageErrorTip: '页面访问错误，请稍后访问...',  //   Page access error, please visit later...
 
 
 export default {
