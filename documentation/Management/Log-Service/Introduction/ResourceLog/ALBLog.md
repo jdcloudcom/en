@@ -27,6 +27,8 @@ server_protocol | Protocol requested for use | string | Commonly, it is HTTP/1.0
 http_user_agent | User agent | string | client agent, eg: curl, chrome
 ssl_cipher | ssl cipher | string | eg：EECDH+AESGCM
 ssl_protocol | ssl Protocol | string | eg: SSLv2, TLSv1 
+certificate_id | Certificate id |string | eg: cert-jq3a9yhugj
+docker_ip_port | docker ip and port | string | eg: 192.168.2.3:80
 
 ### Health Check Log Field Description
 Log Filed| Field Description | Field Type | Field Value Description

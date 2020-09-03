@@ -1,5 +1,5 @@
 ## Full Text Retrieval
-Full-text retrieval allows users to enter keywords and search all fields of the log content without distinguishing between key and value. Full-text retrieval needs to establish a full-text index, that is, the entire log content is divided according to the delimiter to establish an index. The Log Service currently only supports the retrieval of system logs of cloud products. The cloud product system logs establish full-text index by default.
+Full-text retrieval supports user to input keywords to search the original log text.
 
 ## Operation Process
 1. Click the log set of the log subject to be retrieved and enter the Log Subject List.

@@ -26,6 +26,11 @@ This document will introduce the important update history of the Cloud Physical 
 |2019.09.11|V2.5|Support the function of SSH Key Pair;|
 |2019.12.23|V2.6|Support Audit Trail function;|
 |2019.12.27|V2.7|support tag function of instances;|
+|2020.05.06|V2.7.1|The function of automatic renewal is supported on the Purchase page for resources under monthly package;|
+|2020.05.27|V2.7.2|Support uploading user data in file format for user data function optimization; It is supported to add tags on the Instance Creation page;|
+|2020.06.30|V2.8|Newly-added Category - Compute Performance II (Generation II); The Elastic IP under Monthly Package supports configuration downgrade;|
+|2020.08.05|V2.9|Instance, Elastic IP and Load Balancer support Pay By Configuration; It is supported to change Pay By Configuration to Monthly Package;|
+|2020.08.24|V2.10|Support Windows image, Windows Server 2016 Standard 64-bit Chinese Edition;|
 
 
 

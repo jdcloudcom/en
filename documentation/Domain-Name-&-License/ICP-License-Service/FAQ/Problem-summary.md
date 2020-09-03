@@ -68,4 +68,4 @@ If you are the administrator of the server and you need to submit the filings of
 
 10. How many subjects can be filed in each JD Cloud & AI server?
 
-Each JD Cloud & AI Server can be filed with 5 websites at most (after the filing is canceled, the quota will be released, which means each website can simultaneously keep 5 valid registration websites at most)
+Each JD Cloud & AI Server can be filed with 5 websites at most

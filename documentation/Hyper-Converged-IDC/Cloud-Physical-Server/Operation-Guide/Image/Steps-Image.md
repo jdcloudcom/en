@@ -4,5 +4,5 @@
 
 2. Select the region and availability zone, click the "Create" button, and jump to the creation page.
 
-3. Select image based on demands on the creation page. "Standard image" is supported currently. Wherein, "Standard image" supports CentOS6.6, 7.1, 7.2 and 7.5, Ubuntu supports 14.04, 16.04 and 18.04.
+3. Select image based on demands on the creation page. Now, the "Standard Image" type is supported. The "Standard Image" supports CentOS7.1, 7.2, 7.5 and 6.6, Ubuntu18.04, 16.04 and 14.04 as well as Windows Server 2016 Standard 64-bit Chinese Edition.
 

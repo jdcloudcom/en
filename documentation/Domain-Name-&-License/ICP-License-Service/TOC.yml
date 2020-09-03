@@ -93,8 +93,6 @@ items:
         href: FAQ/Problem-summary.md
       - name: Filing Interception and Troubleshooting
         href: FAQ/Intercept-troubleshooting.md
-      - name: Record Password Recovery Method
-        href: FAQ/ICP-Filing-Password-Recovery-Method.md
       - name: FAQ for Filing with Public Security Bureau
         href: FAQ/Public-Security-Bureau-Filing-Common-Problems.md
       - name: Operational ICP Filing
@@ -129,17 +127,48 @@ items:
             href: Loading/Common-data/Guangdong-Province-Unit-verification-form-download.md
           - name: Government Website Filing Description
             href: Loading/Common-data/Government-Website-Description.md
+  - name: Data Download
+    items:
+       - name: Information of Verification List
+         items:
+          - name: Download of Verification List
+            href: Data-download/check-list/check-list-download.md
+          - name: Example for Completion of Verification List
+            href: Data-download/check-list/General-check-list.md
+       - name: Download of Supplementary Information of Each Province
+         items:
+          - name: Shanghai
+            href: Data-download/Addition-Filing/shanghai.md
+          - name: Hubei
+            href: Data-download/Addition-Filing/hubei.md
+          - name: Hunan
+            href: Data-download/Addition-Filing/hunan.md
+          - name: Chongqing
+            href: Data-download/Addition-Filing/chongqing.md
+          - name: Sichuan
+            href: Data-download/Addition-Filing/sichuan.md
+          - name: Fujian
+            href: Data-download/Addition-Filing/fujian.md
+          - name: Gansu
+            href: Data-download/Addition-Filing/gansu.md
+          - name: Guangxi
+            href: Data-download/Addition-Filing/guangxi.md
+          - name: Guizhou
+            href: Data-download/Addition-Filing/guizhou.md
+          - name: Jilin
+            href: Data-download/Addition-Filing/jilin.md
+          - name: Shaanxi
+            href: Data-download/Addition-Filing/shanghai.md
+          - name: Shanxi
+            href: Data-download/Addition-Filing/shan1xi.md
+       - name: Filing Description for Government Website
+         href: Data-download/Government-Website-domain.md
   - name: Process Help
     items:
        - name: Notes on SMS Verification of MIIT
          href: Process/Recording-SMS-verification-instructions.md
-       - name: Notes on Additional Information for All Provinces
-         href: Process/Provincial-supplementary-materials.md
        - name: Notes on Website Registration Domain Verification Function
          href: Process/Verification-function-description.md
        - name: Notes on JD Cloud & AI’s "Time Presented Free of Charge as Long as the Time Spent On Filing"
          href: Process/How-long-does-it-take-to-file-for-a-long-time.md
-       - name: Offline Filing Cancellation Summary
-         href: Process/Offline-cancel-cancellation-summary.md
-       - name: JD Cloud & AI’s Mode of Application for Filing Cancellation
-         href: Process/Cancel-Filing-application-method.md
+

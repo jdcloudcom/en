@@ -71,7 +71,7 @@ bewteen  | The left and right borders of query range are in () separated by comm
 **For example:**  
 1. A = 1 and B = 2, query logs with field A value of 1 and field B value of 2
 2. A > 1 and B > 2, query logs with field A value greater than 1 and field B value greater than 2
-3. A = (1,2), query logs with value of 1 or 2
+3. A in ("X","Y"), search for logs with value of X or Y;   A in (1,2), search for logs with value of 1 or 2,
 4. A between (1,100), means logs with field A greater than or equal to 1 and field A less than or equal to 100
 
 **Note:**

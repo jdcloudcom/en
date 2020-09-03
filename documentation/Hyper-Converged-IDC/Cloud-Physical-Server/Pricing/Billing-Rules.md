@@ -1,6 +1,6 @@
 # Billing rules
 
-The Cloud Physical Server provides a billing method of monthly package.
+Cloud Physical Server supports two billing methods, namely Monthly Package and Pay By Configuration, which can be selected as required depending on different business scenarios.
 
 ## Monthly Package Billing
 
@@ -25,6 +25,28 @@ For example: The start time of the order is January 1, 2016 at 15:00:00, the pur
 The notices will be pushed to you by SMS, email and intra-website message, please pay attention.
 You may conduct relevant settings under User Center\-Message Management\-Message Settings Node to add message receivers, change notice methods, etc.
 
-
 ### Refund Description
+
 The monthly package billing method does not support refunding.
+
+## Pay by configuration
+
+Pay By Configuration is a billing method that you can use first and then pay the bill. Using this method, you can purchase based on your demand, enable and release resources at any time without purchasing a large quantity of resources in advance. For Pay By Configuration, the billing is depending on the actual duration of use of instance, which is accurate to seconds.<br/>
+
+### Subscription Requirements
+
+Subscription requirement: In order to ensure your normal use, the sum of the balance and available voucher in your account shall not be less than the consumption threshold of RMB 50 when you subscribe an instance which is billed by configuration.<br/>
+
+### Arrearage and Service Suspension Description
+
+- The available balance in your account (including case balance and available voucher) cannot offset the Instance bill, the system will determine that the instance is in arrears and the billing status of your instance will become in arrears.<br/>
+
+- Your Cloud Physical Server can be continuously and normally used for 3 hours after it is in arrears. After such 3 hours, it will be stopped and then will not be billed. On the Console interface, only the Delete operation can be performed, while other operations such as Startup, Shutdown, System Installation cannot be performed. Please be sure to read the notice and top up in time to avoid unnecessary losses;<br/>
+
+- After your Cloud Physical Server is stopped, the data will be reserved for 7 days. After such 7 days, the system will withdraw the resources and no data will be retrieved since then. For the instance released due to arrears, an out-of-service notice and release notice will be pushed to you when it is released.<br/>
+
+- After you pay the arrears, it can be normally used, but the instance is still in the state of "Shutdown", and therefore you need to perform "Startup" operation manually on the Console. Please pay attention to the notice.<br/>
+
+- If you do not want to continue using the instance billed by configuration, please delete it in time.<br/>
+
+The above notices will be sent to you by SMS, email and mail. Please pay attention. You can make relevant configuration in User Center - Message Management - Message Setting Node, such as adding message receiver and modifying the notification method.<br/>

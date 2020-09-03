@@ -122,10 +122,6 @@ items:
     href: Elastic-IP-For-Edge-Cloud-Level-Agreement-SLA.md
   - name: Bandwidth Service Agreement of Shared Bandwidth
     href: Edge-Shared-Bandwidth-Terms-Of-Service.md    
-  - name: Edge Network Tunnel (ENT) Service Agreement
-    href: Edge-Network-Tunnel-Terms-Of-Service.md
-  - name: Service Terms of Equal Edge Service (JEES)
-    href: JD-Cloud-Equal-EdgeService-Terms-Of-Service.md  
   - name: Service Terms of Notification Service (JNS)
     href: JD-Cloud-Notification-Service-Terms-Of-Service.md
   - name: Service Level Agreement (SLA) of Notification Service (JNS)
@@ -222,8 +218,6 @@ items:
     href: JDCloud-Distributed-Service-Framework-Level-Agreements-SLA.md  
   - name: Service Terms of Cloud Service Mesh
     href: Mesh-Service-Terms-Of-Service.md
-  - name: Service Terms of Intelligent Edge Security
-    href: Intelligent-Edge-Security-Terms-Of-Service.md   
   - name: Bastion Service Terms
     href: Bastion-Terms-Of-Service.md
   - name: Bastion Service Level Agreement (SLA)

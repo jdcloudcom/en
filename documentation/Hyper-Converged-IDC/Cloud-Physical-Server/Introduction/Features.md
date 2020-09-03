@@ -9,7 +9,7 @@ Provide three instance types, including the computing type, the memory type and 
 - **Flexible billing method:**
 Monthly package billing method is support, and users may purchase based on demands to save the costs. For billing details, please refer to "[Billing Rules](../Pricing/Billing-Rules.md)".
 - **Rich image resources:**
-Support CentOS (6.6, 7.1, 7.2 and 7.5) and Ubuntu (18.04, 16.04 and 14.04), as well as multiple common application software installation. For details of image system, please refer to [Image Support System](../Operation-Guide/Image/Description-Image.md).
+Support CentOS (6.6, 7.1, 7.2 and 7.5), Ubuntu (18.04, 16.04 and 14.04) and Windows(Windows Server 2016 Standard 64-bit Chinese Edition), as well as multiple common application software installation. For details of image system, please refer to [Image Support System](../Operation-Guide/Image/Description-Image.md).
 - **3 disk types:**
 Three types of disks, i.e. SAS, SATA and SSD, are reasonably combined and integrated in the Cloud Physical Server to provide users with high-speed and reliable storage space.
 - **Provide three modes, i.e. NO RAID, RAID0 and RAID1**

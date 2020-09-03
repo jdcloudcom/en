@@ -26,4 +26,4 @@ Select the data center closest to your user, to obtain the less access delay and
 For the server configuration, please refer to the chapter [Specifications](../Introduction/Specifications.md).
 
 **Billing** 
-The monthly package billing method is adopted. For detailed information related to billing, please refer to the [Billing Rules](../Pricing/Billing-Rules.md) section.
+Two billing methods are used, i.e., Monthly Package and Pay by Configuration. For specific information as for billing, please refer to the [Billing Rules](../Pricing/Billing-Rules.md).

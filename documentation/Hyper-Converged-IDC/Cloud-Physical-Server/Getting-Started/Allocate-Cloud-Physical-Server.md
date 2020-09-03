@@ -11,7 +11,7 @@ Refer to [product specification](../Introduction/Specifications.md).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example, two image types, i.e. "standard image" is supported currently.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wherein, "standards image" supports CentOS6.6, 7.1, 7.2 and 7.5, Ubuntu supports 14.04, 16.04 and 18.04。 For details, please refer to [Image Use Instructions](../Operation-Guide/Image/Description-Image.md).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The "Standard Image" supports CentOS6.6, 7.1, 7.2 and 7.5, Ubuntu14.04, 16.04 and 18.04 as well as Windows Server 2016 Standard 64-bit Chinese Edition. For details, please refer to [Operation Guide of Image](../Operation-Guide/Image/Description-Image.md).
 
 ![镜像选择](../Image/CPS-create-image.png)
 

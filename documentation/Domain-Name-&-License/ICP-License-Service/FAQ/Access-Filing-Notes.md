@@ -22,6 +22,4 @@ Continuous access is applicable when the website has been filed at another servi
 
 4. When the accessing filing is made, the website filed by the entity must remain the on status for verification.
 
-5. Where the filing password is lost in the access filing process, please click [Find Password](https://docs.jdcloud.com/en/icp-license-service/icp-filing-password-recovery-method) to get back your password
-
 For provisional filing details, please click [Regulation Rules](https://docs.jdcloud.com/en/icp-license-service/anhui) for objective reference and you also can consulate via [JD Cloud & AI Ticket](https://ticket.jdcloud.com/myorder/submit)

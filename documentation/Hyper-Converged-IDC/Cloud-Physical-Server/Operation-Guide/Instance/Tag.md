@@ -22,6 +22,16 @@ The tag function can help users identify instances for the convenience of managi
 
 ##### Edit Tag
 
+##### Associate tag for instance to be created
+
+1. Access the Cloud Physical Server Console and log in the Instance List page.<br/>
+2. Select the node at which your instance is to be created, click **Create**, log in the Instance Purchase page, and click **+Add** in "Tag" in "Advanced Configuration" to add a tag for your instance.<br/>
+3. Add the corresponding information in the newly added "Tag Key" and "Tag Value" input boxes for adding a tag or select a corresponding tag from existing tags by directly dropping down the tags or from tags after fuzzy matching based on your input. If label parameters are invalid, please modify correspondingly according to the prompt below the tag boxes.<br/>
+4. After completing information in the "Tag" part, please click **Buy Now** to create resources. After creation, you can view the association relationship between the tag and the resources via the Instance List page/Details, or click **Tag Filter** on the top of the Instance List to filter instances.<br/>
+Note: When adding Tag Key-Value, please trigger your operations by pressing Enter or selecting with mouse after you manually enter new contents to ensure that the contents can be saved and displayed in the current input box.<br/>
+
+##### Edit tags after the instance is created
+
 Precondition: Instance status is "Running" or "Stopped".<br/>
 1. Access the Cloud Physical Server Console, go to the instance list page, and click **Operation** - **More** - **Edit Tag**, or click **Instance Name** to go to the details, and then click **Operation** - **More** - **Edit Tag**.<br/>
 2. In the "Edit Tag" popup, the current tag displays the tags that the instance currently associated with by default. If there are 10 tags in the current instance, then **Add** button will be disabled.<br/>

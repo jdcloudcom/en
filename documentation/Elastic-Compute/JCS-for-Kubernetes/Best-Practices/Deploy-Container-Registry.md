@@ -3,6 +3,37 @@
 See [Help documentation of Container Registry](https://docs.jdcloud.com/en/container-registry/create-image) for use method of Container Registry.
 For example, the registry is myregistry, the repository is myrepo, the image version number is latest and the region is cn-north-1. Users can make the alternation depending on specific conditions.  
 
+**The cluster user created after July 1, 2020 are not required to create tokens manually**
+For new cluster users created after July 1, 2020, the cluster has been integrated with the tokens for automatically pulling the jdcloud-jcr-credential-cron task and for updating the Repository by default. Therefore, it is unnecessary to refer to the reference document for manual token creation method
+Run kubectl get secrets to view jcr-pull-secret
+A user can directly use the token
+For example,
+```
+apiVersion: extensions/v1beta1  please replace #1.16 cluster with apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: nginx
+  name: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: nginx
+  template:
+    metadata:
+      labels:
+        run: nginx
+    spec:
+      containers:
+      - image: myregistry-cn-north-1.jcr.service.jdcloud.com/myrepo:latest
+        imagePullPolicy: Always
+        name: nginx
+      imagePullSecrets:
+      - name: jcr-pull-secret
+```
+
+
 **For one-time use, the Token is valid within its validity period and is time-effective**  
 With this scheme, only permissions of all Docker Images under one Registry can be gotten.  
 1. Get Token and among Docker client login commands, one character string after -p is the content of docker-password:  

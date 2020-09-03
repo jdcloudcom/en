@@ -3,6 +3,7 @@
 ## Overview
 
 The Cloud Physical Server product performance monitoring service supports different monitoring dimensions. At present, users are required to install the agent to a created instance manually before they can begin to collect their monitoring data which is displayed more clearly by icons to enable users to master the real-time use of resources.<br/>
+The instance of Windows system does not support the performance monitoring function now.<br/>
 
 ## Monitoring Item
 

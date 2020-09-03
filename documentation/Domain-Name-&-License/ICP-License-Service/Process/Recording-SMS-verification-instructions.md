@@ -1,158 +1,89 @@
-# Checking Specifications of Filing SMS
+# Verification Description for Filing SMS
 
-According to the XGH [2016] No. 485 file Notice of the Ministry of Industry and Information Technology on Implementation of Special Basic Internet Management of the Ministry of Industry and Information Technology, the Ministry of Industry and Information Technology will check by SMS the mobile phone numbers of the entity and website leaders who have submitted a ICP filing application through the **ICP/IP Address/Domain Information ICP Filing Management System**. Namely, after ICP filing information is reviewed by JD Cloud & AI, JD Cloud & AI will submit it to the traffic authority for review. Then, the mobile phone numbers of the entity and (or) website leaders involved in the ICP filing will receive an SMS verification code sent by the Ministry of Industry and Information Technology. It is required to complete the SMS verification within 48h, before the ICP filing enters the review procedure by the provincial communication authority. Up to now, **Gansu Province, Tibet Autonomous Region, Ningxia Hui Autonomous Region, Hainan Province, Xinjiang Uygur Autonomous Region, Qinghai**, **Tianjin, Shanxi Province, Inner Mongolia Autonomous Region, Heilongjiang Province, Zhejiang Province, Anhui Province, Fujian Province, Shandong Province, He’nan Province, Hubei Province, Hu’nan Province, Guangxi Zhuang Autonomous Region, Chongqing City, Sichuan Province, Shaanxi Province and Yunnan Province** have enabled the ICP filing SMS for identity checking. The ICP filing application of the user having submitted an ICP filing application to the communication authorities of the above-mentioned provinces won’t enter the authority’s system for audit, before SMS information verification is completed. After receiving the SMS verification code, please timely log in the provincial communication authority’s website to enter the verification code for completing the verification. The ICP filing information will be returned if the verification is not completed within 48h.
+As required by MIIT, SMS verification is required for filing of websites providing service in the mainland China (the mainland). After a user submits the filing application via the [JD Cloud & AI Filing Platform](https://record-console.jdcloud.com/) and the first review is completed, the verification SMS will be sent by MIIT. You need to complete SMS verification within 24h after receiving such SMS and your filing application will be reviewed by the administration bureau.
 
-**Currently Applicable Provinces**
+**Filing Type Requiring SMS Verification**
+According to the latest requirements issued by MIIT, since August 17, 2020, filing applications for the types below of each province and city need to be subject to SMS verification via the [MIIT Filing Management System](https://beian.miit.gov.cn/#/Integrated/ComplaintA). Details are as shown below:
 
-**Gansu Province, Tibet Autonomous Region, Ningxia Hui Autonomous Region, Hainan Province, Xinjiang Uygur Autonomous Region, Qinghai**, **Tianjin, Shanxi Province, Inner Mongolia Autonomous Region, Heilongjiang Province, Zhejiang Province, Anhui Province, Fujian Province, Shandong Province, He’nan Province, Hubei Province, Hu’nan Province, Guangxi Zhuang Autonomous Region, Chongqing City, Sichuan Province, Shaanxi Province and Yunnan Province.**
 
-**SMS Verification Platform of Each Province**
 
-After receiving the verification code sending by MIIT, responsible person of the subject and responsible person of the website should access the filing Communication Administration website in a timely manner, click **Filing SMS Verification**, enter the checking page, fill the certifications number, mobile number and verification code, and complete the verification.
+**Verification Type**
 
-Addresses of the SMS Verification Platforms of All the Provinces:
-
-**Gansu:** gs.beian.miit.gov.cn
-
-**Tibet:** xz.beian.miit.gov.cn
-
-**Ningxia:** nx.beian.miit.gov.cn
-
-**Hainan:** hi.beian.miit.gov.cn
-
-**Xinjiang:** xj.beian.miit.gov.cn
-
-**Qinghai:** qh.beian.miit.gov.cn
-
-**Tianjin:** tj.beian.miit.gov.cn
-
-**Shanxi**: sx.beian.miit.gov.cn
-
-**Inner Mongolia**: nm.beian.miit.gov.cn
-
-**Heilongjiang**: hl.beian.miit.gov.cn
-
-**Zhejiang**: zj.beian.miit.gov.cn
-
-**Anhui**: ah.beian.miit.gov.cn
-
-**Fujian**: fj.beian.miit.gov.cn
-
-**Shandong**: sd.beian.miit.gov.cn
-
-**He’nan**: ha.beian.miit.gov.cn
-
-**Hubei**: hb.beian.miit.gov.cn
-
-**Hu’nan**: hn.beian.miit.gov.cn
-
-**Guangxi**: gx.beian.miit.gov.cn
-
-**Chongqing**: cq.beian.miit.gov.cn
-
-**Sichuan**: sc.beian.miit.gov.cn
-
-**Shaanxi**: sn.beian.miit.gov.cn
-
-**Yunnan**: yn.beian.miit.gov.cn
-
-![1.png](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20190708/image/ICP-License-Service/recording-sms-verification-instructions-cn-1.png)
-
-**Sending Principle of Verification Code**
-
-- Verification SMSes are only sent to responsible person of the subject and/or responsible person of the website whose filing order form is added or change. No change, no verification.
-- Verification code is only sent once and verified once when responsible person of the subject and responsible person of the website is a same person ("Same person" was confirmed by the same mobile number).
-- Verification code is sent only to the mobile of responsible person of the subject and responsible person of the website according to filing messages.
-- Verification code will be sent to the new mobile number when the old one is changed.
-- Verification code is a six-figure number, and no-repeated.
-- Verification code sending frequency and time span: Verification code should be received after receiving the information of filing Communication Administration sending by JD Cloud & AI around 5 minutes. MIIT will resend a verification code in the next day 12:00 am. Manual verification will be accepted as accessing the filing Communication Administration website.
-
-**Effective Duration of Verification Code**
-
-Verification code is effective within 48 hours. You need to access the Communication Administration website, enter certificates number, mobile number and verification code, and complete verification.
-
-Your filing messages will transfer to Communication Administration waiting for checking after passing the mobile verification.
-
-Your filing messages will return to ISPs (JD Cloud & AI) without verification or verification fails in 48 hours. You need to resubmit filing application and access the SMS verification progress again. Filing application messages should be sent to Communication Administration after completing verification.
-
-**Sending Number of Verification Code**
-
-Users of Telecom, Unicom and China Mobile will receive a verification code of fixed dialing. Fixed dialing cannot send message to virtual network operator.
-
-- China Telecom accessing number: 106598051001
-- China Unicom accessing number: 10655113
-- China Mobile accessing number: 106575000130
-- Virtual network operator will send different messages to different operator according to the type of mobile number.
-
-**Authentication Type**
-
-| **Filing Type** | **Authentication Logic**                                 | **Remarks**                                                     |
+| **Filing Type** | **Verification Object**                                 | **Description**                                                     |
 | ------------ | -------------------------------------------- | ------------------------------------------------------------ |
-| Newly Increased Filing     | verify the mobile number of responsible person of the subject and responsible person of the website.     | Verification code only sent once when responsible person of the subject and responsible person of the website is the same person.         |
-| Newly Increased Website Filing | verify the mobile number of responsible person of the website.                     |                                                              |
-| Newly Increased Access Filing | verify the mobile number of responsible person of the website.                     | You need to go to the original ICP filing access service provider to change the mobile phone number before accessing ICP filing, if you have changed your mobile phone number. <br/>It is impossible to go to the original access service provider to change the mobile phone number, if your website is a shell (namely, without access service provider). So, you can only log out the ICP filing and then re-submit the added website ICP filing. |
-| Change the ICP filing information | Check the mobile phone number of the entity or website leader. | To change the entity information, check the mobile phone number of the entity leader. <br/>To change the website information, check the mobile phone number of the website leader. |
-| Logout Subject     | verify the mobile number of the responsible person of the subject.                     | No verification is required for the time being, with the opening time for verification to be determined.                             |
-| Logout Website     | verify the mobile number of responsible person of the website.                     | No verification is required for the time being, with the opening time for verification to be determined.                             |
-| Access Canceled     | verify the mobile number of responsible person of the website.                     | No verification is required for the time being, with the opening time for verification to be determined.                             |
+| First Filing     | Verify the mobile phone number of the person in charge of the entity and the person in charge of the website.           | If the person in charge of the entity and the one in charge of the website are the same person, only one verification code is sent.  <br/>If the person in charge of the entity and the one in charge of the website are the same person (judged by the mobile phone number), only one verification code is sent.|
+| Additional website (the original filing is/isn't made via JD Cloud & AI) | Verify the mobile phone number of the person in charge of the website.                      |None                                                     |
+| Access Filing | Verify the mobile phone number of the person in charge of the website.                      | If you have changed the mobile phone number, please change your mobile phone number at the original filing access service provider first and then conduct the access filing. <br/>If your website is a shell site (without access service providers), it is unable to change the mobile phone number at the original access service provider. You need to cancel the filing and submit the additional website filing again. |
+| Change Filing | Verify the mobile phone number of the person in charge of the entity or the person in charge of the website.  | If the entity information is to be changed, please verify the mobile phone number of the person in charge of the entity. <br/>If the website information is to be changed, please verify the mobile phone number of the person in charge of the website. |
+| Entity Cancellation     | Verify mobile phone number of the person in charge of the entity.                      | None                               |
+| Website Cancellation     | Verify the mobile phone number of the person in charge of the website.                      | None                            |
+| Access Cancellation     | No Verification.                    | None                            |
 
-**How to Verify by SMS?**
 
-Please enter the verification code into Communication Administration website and complete the verification in time when verification code sending by MIIT is received.
+**SMS Verification and Processing Requirements**
 
-1. Enter the filing Communication Administration website, click      **Filing SMS Verification** on Communication Administration website, and access the checking page.
+SMS sending rule:
+The verification code will be sent to the mobile phone number (not the emergency mobile phone number) filled in the filing information.
+The SMS verification code sent contains 6 digits.
+The SMS verification code is sent from the number 12381 or 106**********12381.
 
-![2.png](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20190708/image/ICP-License-Service/recording-sms-verification-instructions-cn-2.png)
+Verification time limit requirement:
+After you receive the filing information from JD Cloud & AI and submit the same to the administration bureau, you will receive the SMS verification code within 5~10 minutes in general case, subject to the actual receiving time. You are suggested to pay attention to the SMS content.
+Note: If you receive no SMS verification code, forget or loss the SMS verification code for other reasons, please log in the [MIIT Filing Management System](https://beian.miit.gov.cn/#/Integrated/ComplaintA) for sending the SMS again.
+You need to access the [MIIT Filing Management System](https://beian.miit.gov.cn/#/Integrated/ComplaintA) within 24h after receiving the verification SMS for verification. After the SMS verification via the mobile phone number is approved, your filing information will be rotated to the administration bureau for examination and verification.
 
-2. Fill in information: Fill in verification code, mobile number, last six-figure of certification number, complete the graphic verification, and then click **Verification**
 
-![3.png](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20190708/image/ICP-License-Service/recording-sms-verification-instructions-cn-3.png)
+**SMS Verification Steps**
+After your mobile phone number to be verified receives the SMS containing verification code from MIIT, you can log in the [MIIT Filing Management System](https://beian.miit.gov.cn/#/Integrated/ComplaintA) for verification.
 
-System will prompt that the verification is complete after passing the verification. Please continue to verify if your filing order form includes other mobile number needing to be verified.
+The SMS verification operations are listed as below.
 
-![4.png](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20190708/image/ICP-License-Service/recording-sms-verification-instructions-cn-4.png)
+1. Log in the MIIT Filing Management System and click **SMS Verification**.
 
-**Note:**
+2. Under the SMS verification tag of the SMS Verification page, fill in information such as the SMS verification code, the mobile number and the last 6 digits of certificate number and click **Submit** upon completion.
 
-- System cannot find the relative order form if you entered a wrong message or there is a mismatching within the entered message (certification number, mobile number, and verification code). System will prompt that record cannot be found. Please re-enter the message after checking.
+![img](https://github.com/jdcloudcom/cn/blob/zhaomeichen-beian-20200818/documentation/Domain-Name-%26-License/Image-Domain/ZMC-Image-Domain/message-check-1.png)
 
-![5.png](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20190708/image/ICP-License-Service/recording-sms-verification-instructions-cn-5.png)
+Mobile phone number:
+You need to fill in the mobile phone number of the person in charge of the entity or the person in charge of the website in the filing information according to your own role. Different persons in charge will be subject to verification under different filing scenarios. For details please refer to the filing type for SMS verification.
 
-- System will prompt failing of SMS verification if certification number of administrator was wrong-entered for 5 times. Your filing application message will be returned by MIIT system.
+Verification code:
+Please view the SMS verification code sent by MIIT and fill in the 6-digit verification code.
 
-![6.png](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20190708/image/ICP-License-Service/recording-sms-verification-instructions-cn-6.png)
+Last 6 digits of the certificate number:
+Please complete the last 6 digits of the personal certificate (ID card, password, Mainland Travel Permit for Hong Kong and Macao Residents, etc.) used for this filing.
 
-**What to do if verification message is not received?**
+After successful submission, the system will carry out automatic examination and verification.
 
-Please note to check the verification message sending by MIIT after receiving the notification of JD Cloud & AI about that your filing message has already submitted to Communication Administration waiting for checking. Verification message would be received within 5 minutes in general. If you still can’t receive the verification SMS after 5 minutes, please check:
+3. Confirm the SMS verification result.
 
--  Whether your mobile communication network is available?
-- Whether you have set an intercept of SMS or installed a junk software of SMS intercept?
+![img](https://github.com/jdcloudcom/cn/blob/zhaomeichen-beian-20200818/documentation/Domain-Name-%26-License/Image-Domain/ZMC-Image-Domain/message-check-complete-1.png)
 
-**Solutions:**
+If the system gives the prompt that your SMS verification has been completed, please wait until SMS verification is completed by other persons subject to verification. This means your filing order still needs mobile phone number verification of other persons. Please contact other persons in charge to complete verification in time. If the verification is not made within 24h, the MIIT system will reject your filing order.
 
-- If the mobile communication network is not available, please transfer to somewhere the network is better, or enter the Communication Administration website and re-send the verification SMS manually, or wait for a re-sending verification code in the next day 12:00 am from MIIT.
-- Please close them if you have set an intercept of SMS or installed a junk software of SMS intercept If you cannot close them, please transfer your SIM card to other mobile.
-- If you canceled the verification message by accident, you can enter the filing Communication Administration website and re-send the message manually, or you can wait for a re-sending verification code in the next day 12:00 am from MIIT.
+![img](https://github.com/jdcloudcom/cn/blob/zhaomeichen-beian-20200818/documentation/Domain-Name-%26-License/Image-Domain/ZMC-Image-Domain/message-check-another-1.png)
 
-Your filing application messages will be returned without verification in 48 hours. You need to resubmit filing application.
+**Steps of Sending Another SMS**
 
-**How to re-send the verification SMS manually?**
+If you haven't received the verification SMS from MIIT, you can click **Send Verification SMS** again, which can be received in 5~10 minutes. Then, you can submit the SMS verification. SMS can be sent for 2 times and no SMS verification code will be sent again upon the 3rd click.
 
-1. Enter the filing Communication Administration website, and click **Filing SMS Verification** on this page.
+1. Log in [MIIT Filing Management System](https://beian.miit.gov.cn/#/Integrated/ComplaintA) and click **SMS Verification**.
 
-![7.png](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20190708/image/ICP-License-Service/recording-sms-verification-instructions-cn-7.png)
+2. Click **Send SMS Verification Code Again** under the SMS Verification page. Refer to the following requirements under the SMS Re-sending tag and fill in the mobile phone number and the last 6 digits of the certificate number. Click **Submit** upon filling. After submission, you can obtain the SMS verification code again.
 
-2. Click **Send SMS** to go to the Verify SMS Resending page.
+![img](https://github.com/jdcloudcom/cn/blob/zhaomeichen-beian-20200818/documentation/Domain-Name-%26-License/Image-Domain/ZMC-Image-Domain/message-check-again-1.png)
 
-![8.png](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20190708/image/ICP-License-Service/recording-sms-verification-instructions-cn-8.png)
+Mobile phone number:
+You need to fill in the mobile phone number of the person in charge of the entity or the person in charge of the website in the filing information according to your own role. Different persons in charge will be subject to verification under different filing scenarios. For details please refer to the filing type for SMS verification.
 
-3. Fill in your mobile number and the last six-figure of certification number, finish the graphic verification, and then click **Sending Message**.
+Last 6 digits of the certificate number:
+Please complete the last 6 digits of the personal certificate (ID card, password, Mainland Travel Permit for Hong Kong and Macao Residents, etc.) used for this filing.
 
-![9.png](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20190708/image/ICP-License-Service/recording-sms-verification-instructions-cn-9.png)
 
-Inform after sending successfully: **Your SMS is sending successfully.**
+3. View the submission results.
 
-![10.png](https://github.com/jdcloudcom/cn/blob/joytaobao-beian-20190708/image/ICP-License-Service/recording-sms-verification-instructions-cn-10.png)
+After the successful submission, the system will display the interface below.
 
-Check mobile, get verification code, and finish verifying on Communication Administration website.
+![img](https://github.com/jdcloudcom/cn/blob/zhaomeichen-beian-20200818/documentation/Domain-Name-%26-License/Image-Domain/ZMC-Image-Domain/message-check-code-1.png)
+
+4. View the verification code received by the mobile phone and complete verification.

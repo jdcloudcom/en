@@ -20,7 +20,7 @@ Please keep the following restrictions in mind when using the Elastic IP.
 
 ## Billing Overview
 
-Elastic IP supports the monthly package billing method. Monthly package: Pay in advance by bandwidth configuration
+EIP supports two billing methods, including the Monthly Package and Pay by Configuration, and supports two billing items, including the bandwidth and the additional uplink bandwidth. Monthly Package: Pay-In-Advance as per bandwidth configuration. Pay by configuration: The bill is issued per hour as per the bandwidth configuration.
 
 
 **Monthly Package Billing**
@@ -46,6 +46,23 @@ Your paid network resources will be kept for 7 days from the moment when your se
 
 The stopped resources can be used normally upon renewal;
 
+**Pay by configuration**
+
+Subscription requirements: In order to ensure your normal use, the sum of the balance and available voucher in your account shall not be less than the consumption threshold of RMB 50 when you activate the resource which is paid by configuration.<br/>
+
+**Arrearage and Service Suspension Description**
+
+When the sum of the balance and available coupon in your account is insufficient to pay the cost of the next billing cycle and the deduction fails, the status of your paid network resource (EIP) will turn to overdue;<br/>
+
+When your paid network resource is in arrears, you can continue to use it normally for 3 hours, but the service will stopped 3 hours later, with deduction stopped as well; The Console interface can only be used for performing the deletion operation;<br/>
+
+When your paid network resource is in arrears, you will be notified by email and SMS. Please be sure to check your notices and recharge in time to avoid unnecessary losses;<br/>
+
+Your paid network resources will be reserved for 7 days upon the stopping of the service. After these 7 days, the system will withdraw such sources, and no resource will be retrieved since then.<br/>
+
+Only after you pay the arrears, such paid network resources can be used normally again;<br/>
+
+if you do not want to continue using such pay-by-configuration network resources, please delete the resources in time.<br/>
 
 ## Price Overview
 
@@ -53,33 +70,40 @@ For details, please refer to Public IP [Price Overview](../../Pricing/Price-Over
 
 ## Create Elastic IP
 
-Turn on the Console, click **Cloud Physical Server** -> **Elastic IP** in turn in the left navigation bar, log in the Elastic IP List Page and click **Apply**, with the pop-up as shown below:<br/>
+Open the Console, click **Cloud Physical Server**->**Elastic IP** on the left navigation bar in turn, enter the Elastic IP List page, click **Apply** to pop up the Create Configuration window;<br/>
 
-Select **Region**, billing by bandwidth mode, ISP Line type, bandwidth cap, purcahse duration and count according to demands and click **OK**, to create 1 Elastic IP.
-![创建eip](https://github.com/jdcloudcom/en/blob/cn-cloud-physical-server-latest/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-033.png)
+Select **Region**, bandwidth billing mode (supporting two billing methods, namely, Monthly Package and Pay By Configuration), line type, bandwidth cap as well as purchased duration and number as needed, and click **OK** to create one Elastic IP.<br/>
+
+The function of automatic renewal is available for Monthly Package resources. Check Automatic Renewal. After the resources are created, the automatic renewal attribute and duration can be changed. For monthly purchase, the automatic renewal duration is 1 month; for annual purchase, the automatic renewal duration is 1 year, and you can enjoy the automatic renewal discount for annual purchase.<br/>
 
 ## View Elastic IP
 
-Turn on the Console, click **Cloud Physical Server** -> **Elastic IP** in turn in the left navigation bar, log in the Elastic IP List Page and view Elastic IP information, as shown in the picture below:<br/>
+Open the Console, click **Cloud Physical Server**->**Elastic IP** on the left navigation bar in turn, enter the Elastic IP List page and view the Elastic IP information;<br/>
 
-Click **Public IP ID/Address** of Elastic IP, redirect to the Details Page and View details of Elastic IP.
-![查看eip表页](https://github.com/jdcloudcom/en/blob/cn-cloud-physical-server-latest/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-034.png)
+or click **Elastic IP**->**Public IP ID/Address**, redirect to the Details, and view the detailed IP information of Elastic IP.<br/>
 
-## Associate the EIP
+## Associate Resource
 
-Turn on the Console, click **Cloud Physical Server** -> **VPC Instance** in turn in the left navigation bar, log in the VPC Instance List Page, select a VPC instance and click **Associate Elastic IP** in Operation. Then, EIP which can be associated is displayed in the pop-up. Please select it for association.
-![Associate Physical Machine to eip](https://github.com/jdcloudcom/en/blob/cn-cloud-physical-server-latest/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-035.png)<br/>
+Open the Console, click **Cloud Physical Server**->**Elastic IP** on the left navigation bar in turn, click the **Associate Resource** button in operation, and select the Cloud Physical Server or Load Balancer to be associated in the pop-up to complete association.
 
-Moreover, turn on the Console, click **Cloud Physical Server** -> **Elastic IP** in turn in the left navigation bar, and click **Associate Resources** in Operation. Then, Cloud Physical Server to be associated can be selected in the pop-up. Please select it for association.
-![eip绑定物理机](https://github.com/jdcloudcom/en/blob/cn-cloud-physical-server-latest/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-036.png)
+## Disassociate Resource
 
-## Disassociate the EIP
-
-Turn on the Console, click **Cloud Physical Server** -> **VPC Instance** in turn in the left navigation bar, log in the VPC Instance List Page, select a VPC instance, click **Disassociate Elastic IP** in Operation for purpose of disassociation.<br/>
-
-Moreover, turn on the Console, click **Cloud Physical Server** -> **Elastic IP** in turn in the left navigation bar, and click **Disassociate Resource** in Operation to disassociate resources.<br/>
+Open the Console, click **Cloud Physical Server**->**Elastic IP** on the left navigation bar in turn, click the **Disassociate Resource** button in operation, and select to disassociate.<br/>
 
 ## Modify Bandwidth
 
-Turn on the Console, click **Cloud Physical Server** -> **Elastic IP** in turn in the left navigation bar, click **Modify Bandwidth** in operation and select bandwidth to be adjusted in the pop-up to complete the operation.
-![修改带宽](https://github.com/jdcloudcom/en/blob/cn-cloud-physical-server-latest/image/Hyper-Converged-IDC/Cloud-Physical-Server/CPS-VPC-037.png)
+Open the Console, click **Cloud Physical Server**->**Elastic IP** on the left navigation bar in turn, click the **Modify Bandwidth** button in operation, and select the bandwidth size to be modified in the pop-up to complete modification.<br/>
+
+Elastic IP supports the configuration upgrade and configuration downgrade operations.<br/>
+
+## Renew
+
+Open the Console, click **Elastic IP** on the left navigation bar, enter the Elastic IP List page, select the targeted EIP, click the **Renew** button in operation, or enter the Details and click the **Renew** button in operation, and then select the duration to be renewed in the pop-up, click the **OK** button, redirect to the Payment Confirmation page, and click **Pay Now** to complete operations.<br/>
+
+Note: The Elastic IP charged by configuration will be converted to the resource of Monthly Package after renewal operations.<br/>
+
+## Delete
+
+Open the Console, click **Elastic IP** on the left navigation bar, enter the Elastic IP List page, select the targeted EIP, click the **Delete** button in operation, or enter the Details and click the **Delete** button in operation, and then click the **OK** button to complete operations.<br/>
+
+Note: The Elastic IP under monthly package does not support the Delete operation.<br/>
