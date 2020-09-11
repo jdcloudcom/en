@@ -1,18 +1,24 @@
-# **Rules of Unit Filing in Hubei:**
+# License Rules in Hubei
 
-1. Only one domain can be submitted for each filing;  
+### Rules of Unit Filing in Hubei
 
-2. The organization must use the latest three-in-one license filing and the filing will be rejected if any persons in charge is less than 18-year-old
+1. The organization must use the latest three-in-one license filing and the filing will be rejected if any persons in charge is less than 18-year-old
 
-3. Please fill in legal person if the person in charge of entity and the person in charge of website is a legal person. If the person in charge of website is not a legal person, please provide the Letter of Authority issued by the legal person [Hubei Letter of Authorization](https://img1.jcloudcs.com/cms/f2e80f40-5e25-4b34-b900-f84f3ad4f2e020180503113810.doc)）
+2. The person in charge of the entity must be the legal person.
 
-4. **If the filing is registered by JD before**, its filing information must be consistent with the actual information of the current existing organization. If there is any inconsistence, please make changes with the original filing access provider and apply for addition
+3. If the person in charge of the website is not the legal person, please be sure to submit [Power of Attorney for Person in Charge of website.doc](https://badownload.s3.cn-north-1.jdcloud-oss.com/buchongziliao/hubei/wangzhanfuzerenshouquanshu.doc)
 
-5. **After the filed website is turned on**, a file number hyperlink and website copyright ownership identifier must be provided at the bottom of the website. **The website of unfiled domain cannot be opened. Otherwise, filling will fail**
+4. **Only one website can be licensed per time.**
 
-6. Where the filing entity is changed, please submit the change certificate of the organization entity to change
+5. **You cannot open the website with an unlicensed domain. Otherwise, the license will fail**
 
-7. Prepare materials before filing:
+6. **After the filed website is turned on**, a file number hyperlink and website copyright ownership identifier must be provided at the bottom of the website.
+
+7. **If you have a JD license before**, the license information must be as the same as the actual information of the current organization. If not, please modify your information at the former license access provider and then apply for a new license
+
+8. Where the filing entity is changed, please submit the change certificate of the organization entity to change
+
+9. Prepare materials before filing:
 
    ① Clear color pictures of the Business License (Unified Social Credit Code)
 
@@ -22,16 +28,21 @@
 
    ④ Official seal of the filing unit (the Verification Form shall be sealed during the process)
 
-   **⑤ Authorization Letter of Hubei (provided when website's responsible person is not the legal person)**
+   ⑤ Authorization Letter of Hubei (provided when website's responsible person is not the legal person)
 
-   ⑥ For enterprise filing, please submit [Instruction for E-commerce Filing in Hubei](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/beianrumen/guanjuguize/hubei/%E6%B9%96%E5%8C%97%E5%A4%87%E6%A1%88%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E8%AF%B4%E6%98%8E.docx)
 
-**Rules of Personal Filing in Hubei:**
+### Rules of Personal Filing in Hubei:
 
-1. Only one domain can be submitted for each filing
-2. If the ID Card is not registered in Hubei province, please provide a valid residence permit of Hubei province
-3. Chinese citizens must use their ID Cards for filing and any one below 18-year-old cannot apply for filing
-4. **If the filing is registered by JD before**, its filing information must be consistent with the actual information of the current existing organization. If there is any inconsistence, please make changes with the original filing access provider and apply for addition
-5. **After the filed website is turned on**, a file number hyperlink and website copyright ownership identifier must be provided at the bottom of the website. **The website of unfiled domain cannot be opened. Otherwise, filling will fail**
+1. If a nonnative ID card (other than the ID card of Hubei Province) is used, please upload the valid residence permit of Hubei Province. Anyone younger than 18 is not allowed to apply for the license.
+
+2. **Only one website can be licensed per time.**
+
+3. **You cannot open the website with an unlicensed domain. Otherwise, the license will fail**
+
+4. **After the filed website is turned on**, a file number hyperlink and website copyright ownership identifier must be provided at the bottom of the website.
+
+5. **If the filing is registered by JD before**, its filing information must be consistent with the actual information of the current existing organization. If there is any inconsistence, please make changes with the original filing access provider and apply for addition
+
 6. The personal filing change is supported only in one condition (i.e. personal filing can be changed to the organization filing when the applicant is the legal person)
+
 7. Materials prepared before filing: Color pictures of both sides of ID Card

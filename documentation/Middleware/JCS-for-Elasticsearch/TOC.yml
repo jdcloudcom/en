@@ -83,6 +83,10 @@
         href: Operation-Guide/index.md
       - name: Periodic index creation
         href: Operation-Guide/Configure.md
+      - name: SQL Support
+        href: Operation-Guide/sql.md
+      - name: Advanced Configuration
+        href: Operation-Guide/Configure.md
       - name: Snapshot
         items: 
         - name: Create Snapshot

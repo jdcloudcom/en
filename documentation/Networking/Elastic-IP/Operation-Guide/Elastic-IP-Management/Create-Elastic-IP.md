@@ -45,7 +45,7 @@ Step 2: Select **Network**-**VPC**-**Elastic IP** at the navigation bar on the l
 Step 3: Confirm the region where you need to create an elastic IP, select the corresponding region tag on the Elastic IP List Page, and click **Apply** to enter the Create Elastic IP Page.
 
 	Description
-	After entering Create Elastic IP Page, the function of switching the region for which Elastic IP is created may also be realized by switching region tag.
+	Entering the creation page to create an elastic IP, you can also switch the Region label to switch the region in which an elastic IP is to be created. The creation of edge EIPs in cn-south-1 is now supported.
 
 Step 4: On the Create Elastic IP Page, select the type of billing by bandwidth for the elastic IP to be created.
 

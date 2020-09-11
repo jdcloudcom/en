@@ -1,8 +1,10 @@
-# **Rules of Unit Filing in Hebei:**
+# **License Rules in Hebei**
+
+### License Rules for Organization in Hebei
 
 1. The latest documents integrating the three certificates to perform filing must be used
 
-2. Responsible person of the subject shall be the legal person. Foreigner are not allowed to perform filing
+2. The person in charge of an entity must be the legal person **and any non-Chinese citizen is not allowed to apply for the license.**
 
 3. **In case of prior filing with JD**, its filing information must be consistent with the actual information of the current unit. If there is any inconsistency, please go to the original filing provider to make change, and then apply for a new one
 
@@ -20,6 +22,8 @@
 
 **Rules of Personal Filing in Hebei:**
 
-1. Chinese citizens must use 2nd-generation ID card to perform filing. Foreigners are not allowed to perform filing
+1. Chinese citizens must use the ID card for license **and any non-Chinese citizen is not allowed to apply for the license.**
+
 2. **In case of prior filing with JD**, its filing information must be consistent with the actual information of the current unit. If there is any inconsistency, please go to the original filing provider to make change, and then apply for a new one
+
 3. Data to be prepared prior to filing: A clear color photocopy of the front and back of a personal ID card

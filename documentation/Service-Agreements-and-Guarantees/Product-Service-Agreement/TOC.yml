@@ -40,10 +40,6 @@ items:
     href: Load-Balancing-Service-Clause.md
   - name: Load Balancer Service Level Agreement (SLA)
     href: Load-Balancing-Service-Level-Protocol-SLA.md
-  - name: Digivoice Service Agreement
-    href: Number-Of-Terms-Of-Service.md
-  - name: Digivoice Service Level Agreement (SLA)
-    href: Number-Aware-Service-Level-Agreement-SLA.md
   - name: JCS for MongoDB Service Agreement
     href: Cloud-Database-MongoDB-Service-Cause.md
   - name: JCS for MongoDB Service Level Agreement (SLA)
@@ -122,10 +118,6 @@ items:
     href: Elastic-IP-For-Edge-Cloud-Level-Agreement-SLA.md
   - name: Bandwidth Service Agreement of Shared Bandwidth
     href: Edge-Shared-Bandwidth-Terms-Of-Service.md    
-  - name: Service Terms of Notification Service (JNS)
-    href: JD-Cloud-Notification-Service-Terms-Of-Service.md
-  - name: Service Level Agreement (SLA) of Notification Service (JNS)
-    href: JD-Cloud-Notification-Service-Level-Agreement-SLA.md   
   - name: Message Queue Service Agreement
     href: Message-Queue-JCQ-Service-Terms.md
   - name: Message Queue Service Level Agreement (SLA)

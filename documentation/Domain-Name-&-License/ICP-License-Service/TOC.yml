@@ -7,6 +7,8 @@ items:
         href: Getting-Started/Introduction.md
       - name: Filing Progress
         items:
+          - name: License Authorization Code
+            href: Getting-Started/Process/IP-Authorization-code.md
           - name: Add filing
             href: Getting-Started/Process/Addition-Filing.md
           - name: Add Website (JD with entity)
@@ -87,6 +89,10 @@ items:
             href: Getting-Started/Management-specification/Yunnan.md
           - name: Zhejiang
             href: Getting-Started/Management-specification/Zhejiang.md
+          - name: Shandong
+            href: Getting-Started/Management-specification/shandong.md
+          - name: Tianjin
+            href: Getting-Started/Management-specification/tianjin.md
   - name: FAQ
     items:
       - name: Basic Problem of Filing
@@ -107,26 +113,6 @@ items:
          href: Protocol/Assist-in-changing-the-filing-information-service-online-terms-of-service.md
        - name: Information Security Management Agreement
          href: Protocol/Information-Security-Management-Protocol.md
-  - name: Documentation Download
-    items:
-      - name: Website Verification Form Information
-        href: Loading/Website-verification-information.md
-      - name: Undertaking for Filing of Internet Information Service in Shanghai
-        href: Loading/Website-shanghai-internet-service-commitment.md     
-      - name: Verification Form Sample
-        href: Loading/Verification-sample.md
-      - name: Common Materials Download
-        items:
-          - name: Filing Authorization for All Provinces
-            href: Loading/Common-data/Provincial-filing-authorization.md
-          - name: National Verification Form Download
-            href: Loading/Common-data/National-verification-checklist-download.md
-          - name: Guangdong Province Personal Verification Form Download
-            href: Loading/Common-data/Guangdong-Province-Personal-Verification-Checklist-Download.md
-          - name: Guangdong Province Corporate Verification Form Download
-            href: Loading/Common-data/Guangdong-Province-Unit-verification-form-download.md
-          - name: Government Website Filing Description
-            href: Loading/Common-data/Government-Website-Description.md
   - name: Data Download
     items:
        - name: Information of Verification List
@@ -134,33 +120,35 @@ items:
           - name: Download of Verification List
             href: Data-download/check-list/check-list-download.md
           - name: Example for Completion of Verification List
-            href: Data-download/check-list/General-check-list.md
+            href: Data-download/check-list/quanguo-check-list.md
        - name: Download of Supplementary Information of Each Province
          items:
           - name: Shanghai
-            href: Data-download/Addition-Filing/shanghai.md
-          - name: Hubei
-            href: Data-download/Addition-Filing/hubei.md
-          - name: Hunan
-            href: Data-download/Addition-Filing/hunan.md
+            href: Data-download/Addition-Filing/shanghaiziliao.md
+          - name: Hubei Province
+            href: Data-download/Addition-Filing/hubeiziliao.md
+          - name: Hunan Province
+            href: Data-download/Addition-Filing/hunanziliao.md
           - name: Chongqing
-            href: Data-download/Addition-Filing/chongqing.md
-          - name: Sichuan
-            href: Data-download/Addition-Filing/sichuan.md
-          - name: Fujian
-            href: Data-download/Addition-Filing/fujian.md
-          - name: Gansu
-            href: Data-download/Addition-Filing/gansu.md
-          - name: Guangxi
-            href: Data-download/Addition-Filing/guangxi.md
-          - name: Guizhou
-            href: Data-download/Addition-Filing/guizhou.md
-          - name: Jilin
-            href: Data-download/Addition-Filing/jilin.md
-          - name: Shaanxi
-            href: Data-download/Addition-Filing/shanghai.md
-          - name: Shanxi
-            href: Data-download/Addition-Filing/shan1xi.md
+            href: Data-download/Addition-Filing/chongqingziliao.md
+          - name: Sichuan Province
+            href: Data-download/Addition-Filing/sichuanziliao.md
+          - name: Fujian Province
+            href: Data-download/Addition-Filing/fujianziliao.md
+          - name: Gansu Province
+            href: Data-download/Addition-Filing/gansuziliao.md
+          - name: Guangxi Province
+            href: Data-download/Addition-Filing/guangxiziliao.md
+          - name: Guizhou Province
+            href: Data-download/Addition-Filing/guizhouziliao.md
+          - name: Jilin Province
+            href: Data-download/Addition-Filing/jilinziliao.md
+          - name: Shaanxi Province
+            href: Data-download/Addition-Filing/shanxiziliao.md
+          - name: Shanxi Province
+            href: Data-download/Addition-Filing/shan1xiziliao.md
+          - name: Qinghai Province
+            href: Data-download/Addition-Filing/qinghaiziliao.md 
        - name: Filing Description for Government Website
          href: Data-download/Government-Website-domain.md
   - name: Process Help

@@ -13,9 +13,9 @@ Company A is a media enterprise which stores a huge number of picture material f
 
 *  Internet downlink traffic cost: 500 (GB) \* RMB 0.50/GB = RMB 250.00
 
-*  Cost of times of request: 200 (million times)\* RMB 0.01/10,000 times = RMB 2.00
+*  Charge for requests: (Actual requests - free quota) \* unit price (RMB/10,000 times), namely (200-50) (10,000 times) \* 0.01/10,000 times = RMB 1.50
 
-*  Monthly consumption = Storage capacity cost + Internet downlink traffic cost = 12.81 + 250.00 + 2.00 = RMB 264.81
+*  Monthly consumption = charge for storage capacity + charge for Internet downlink traffic + charge for requests = 12.81 + 250.00 + 1.50 = RMB 264.31
 
 **Case background: Use standard storage + CDN**
 
@@ -27,9 +27,9 @@ Company B is a video website enterprise which stores a huge number of video file
 
 * CDN back-to-origin traffic cost: 800(GB) \*RMB 0.14/GB = RMB 112.00
 
-* Cost of times of request: 500 (million times)\* RMB 0.01/10,000 times = RMB 5.00
+* Charge for requests: (Actual requests - free quota) \* unit price (RMB/10,000 times), namely (500-50)(10,000 times) \* 0.01/10,000 times = RMB 4.50
 
-* Monthly consumption = Storage capacity cost + CDN back-to-origin traffic cost = 25.62 + 112.00 + 5.00= RMB 142.62
+* Monthly consumption = charge for storage capacity + charge for CDN back-to-origin traffic + charge for requests = 25.62 + 112.00 + 4.50 = RMB 142.12
 
 **Case Background: Use standard archival type storage**
 

@@ -43,3 +43,16 @@ The rules for the assignment of Elastic IP inbound (from public network to JD Cl
 1. If the IP outbound bandwidth purchased by a user is 100 Mbps or below, and the inbound bandwidth of 100 Mbps will be assigned to the IP.
 
 2. If the IP outbound bandwidth purchased by a user is 100 Mbps or above, and the inbound bandwidth equal to the outbound bandwidth will be assigned to the IP.
+
+**Q: How to create edge EIPs?**
+
+1. If you are going to create an edge EIP through the Console, please refer to [Create EIP](https://docs.jdcloud.com/en/elastic-ip/create-elastic-ip). JD Cloud & AI now supports the creation of edge EIPs in **cn-south-1**, and the line information is as follows:
+|Region|Area|Line|Line Access Area|Resource Association Area|Service Type|Availability Zone|
+|----|---|---|---|---|---|---|
+| cn-south-1|Foshan| cn-s1-fsnh1.ez.telecom  |Nanhai district in Foshan city|Edge availability zone|Telecom|Nanhai district in Foshan city|
+
+2. As for the creation of an edge EIP via SDK, the specific line naming rules are as follows:
+
+| Line Naming Rules        |Field Description              |
+| ---------------| ---------------|
+|[Line Access Area+Serial Number].[Resource Association Area].[Service Type]  |Line access area: Provides the specific location information of the line access area (ez definition, both Chinese and English are 20 bytes in length); <br>Resource association range: Divided into ez (edge availability zone) and az (central edge availability zone, compatibility design); <br> Service type: Mainly includes bgp, unicom, telecom, chinamobile, etc.; <br>Availability zone: Divided into full availability zone and edge availability zone ID ([Region]-[Line Access Area+Serial Number]). For example, cn-n1-sqxx1 is consistent with the edge availability zone ID definition selected by the virtual machine created by edge computing|
