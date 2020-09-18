@@ -71,7 +71,7 @@ items:
           href: Operation-Guide/Logpreprocessing/Jsonlog.md
         - name: Delimiter Extraction Mode
           href: Operation-Guide/Logpreprocessing/Separatorlog.md
-    - name: Log Retrieval
+    - name: Log Search and Analysis
       items:
         - name: Log Retrieval Syntax
           href: Operation-Guide/LogSearch/LS-grammar.md
@@ -79,6 +79,8 @@ items:
           href: Operation-Guide/LogSearch/fullTextSearch.md
         - name: Key Value Retrieval
           href: Operation-Guide/LogSearch/KVSearch.md
+        - name: Statistical Analysis
+          href: Operation-Guide/LogSearch/analysis.md
     - name: Log Dump
       href: Operation-Guide/LogTransfer/TransferConfig.md
     - name: Log Monitoring
