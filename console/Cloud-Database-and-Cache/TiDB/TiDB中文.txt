@@ -1,0 +1,401 @@
+/* 翻译文件
+ * 分类为：
+ *   1. common
+ *   2. resource
+ *   3. component
+ *   4. view
+ *   5. 其他
+ * */
+
+export default {
+  title: 'JD Cloud & AI Console',
+  common: {
+    year: 'Year',
+    month: 'month(s)', // 1 month 2 months
+    azMap: {
+      'cn-north-1a': 'Availability Zone A',
+      'cn-north-1b': 'Availability Zone B',
+      'cn-north-1c': 'Availability Zone C',
+      'cn-east-1a': 'Availability Zone A',
+      'cn-east-2a': 'Availability Zone A',
+      'cn-east-2b': 'Availability Zone B',
+      'cn-south-1a': 'Availability Zone A',
+      'cn-south-1b': 'Availability Zone B',
+      'cn-hongkong-a': 'Availability Zone A',
+      'cn-west-1a': 'Availability Zone A'
+    },
+    soldOut: 'Sold out',
+    regions: {
+      'cn-north-1': 'cn-north-1',
+      'cn-south-1': 'cn-south-1',
+      'cn-east-2': 'cn-east-2',
+      'cn-east-1': 'cn-east-1'
+    },
+    statusText: {
+      RUNNING: 'Running',
+      BUILDING: 'Creating',
+      DELETING: 'Deleting',
+      REBOOTING: 'Rebooting',
+      MAINTENANCE: 'Maintaining',
+      FAILOVER: 'Host-backup switching',
+      MODIFYING: 'Adjusting the configuration'
+    },
+    // The configuration and Details are selected for use
+    nodeInfo: {
+      tidb: 'TiDB Node',
+      pd: 'PD Node',
+      tikv: 'TiKV Node',
+      monitor: 'Monitor Node'
+    },
+    confirm: 'Confirm',
+    cancel: 'Cancel',
+    tips: {
+      active: 'Operations are allowed only when the instance is running',
+      middle: 'Deletion is not allowed for the intermediate state',
+      cannotOp: 'No operations are allowed under the current status',
+      annualFee: 'The Monthly Package cannot be deleted now',
+      success: 'Task submitted',
+      failed: 'Task submission failed'
+    }
+  },
+  resource: {
+    // Please translate those classified as Api resources
+    // For Example https://git.jd.com/jcloud-api-gateway/jcloud-open-api-doc/blob/internal/vpc/Virtual-Private-Cloud/describeVpc.md
+    vpc: {
+      vpcName: 'VPC Name',
+      createdTime: 'Creation Time'
+    },
+    subnet: {
+      subnetName: 'Subnet Name'
+    },
+    account: {
+      status: {
+        BUILDING: 'Creating',
+        RUNNING: 'Running',
+        RESETING: 'Resetting Password',
+        BUILDING_ERROR: 'Error'
+      }
+    },
+    buckupPolicy: {
+      backupPeriod: {
+        MONDAY: 'Monday',
+        TUESDAY: 'Tuesday',
+        WEDNESDAY: 'Wednesday',
+        THURSDAY: 'Thursday',
+        FRIDAY: 'Friday',
+        SATURDAY: 'Saturday',
+        SUNDAY: 'Sunday'
+      }
+    }
+  },
+  component: {
+    // Component level, for example:
+    regionRadio: {
+      differentRegionTip: 'Resources in different regions cannot be interconnected within the intranet and cannot be changed after creation.',
+      resourceQuotaTip: 'The total quota in the current region has {userQuota} cores and {availableQuota} cores are left. You can increase quota by ticket'
+    },
+    chargeMode: {
+      postpaid_by_duration: 'Pay By Configuration',
+      prepaid_by_duration: 'Monthly Package',
+      discount: 'Discount'
+    },
+    chargeItem: { maturity: 'Mature', expired: 'Expired', freed: 'freed', arrear: 'in arrears' },
+    tableActionBar: {
+      createButton: 'Create',
+      searchHint: 'Please enter content',
+      pleaseSelect: 'Please select',
+      searchName: 'Name',
+      searchId: 'Instance ID',
+      chrage: 'Billing Type',
+      expireDate: 'Expiration Time',
+      engineVersion: 'Version',
+      region: 'Region',
+      subnet: 'Subnet'
+    },
+    templates: {
+      started: 'Configuration for Getting Started',
+      standard: 'Standard Configuration',
+      enterprise: 'Enterprise Configuration',
+      startedTip: 'Applicable for scenario with low data volume and without high availability requirements, such as the development and testing environments.',
+      standardTip: 'Applicable for the production environment of medium scale, with highly available architecture.',
+      enterpriseTip: 'Applicable to the large-scale production environment of high concurrence and massive data, with highly available architecture.'
+    },
+    formItemTemplate: {
+      tidb: 'The TiDB node is responsible for receiving requests, processing SQL logics, interacting obtained data with TiKV and finally returning processing results',
+      tikv: 'The TiKV node is a Key-Value distributed type storage engine with 3 data replicas by default',
+      pd: `The PD node is the management module of the whole cluster, which is mainly responsible for storing meta-information of the cluster, making scheduling and load balance for TiKV and distribution transaction IDs.`,
+      monitor: 'Be responsible for monitoring data management and one cluster has only one Monitor node'
+    },
+    vpcSelect: {
+      choiceVpc: 'Please select a Virtual Private Cloud',
+      choiceSubnet: 'Please select a subnet',
+      currentNoSubnet: 'No subnet available now',
+      vpcSubnetIp: 'The selected configuration requires {needIpCount} IPs, and only {availableIpCount} IPs are available in the current network',
+      vpcHelp: `You can go to the Console {newVpcLink} or {newSubnetLink}. If you cannot find the newly created VPC, you can {refreshVpc}`,
+      newVpcLink: 'Create a new VPC',
+      newSubnetLink: 'Create a new subnet.',
+      refreshVpc: 'Click to refresh'
+    },
+    billPeriod: {
+      month: 'XX month(s)',
+      year: 'Year'
+    },
+    selectedConfiguration: {
+      title: 'Configuration selected',
+      region: 'Region',
+      az: 'Availability Zone',
+      engineVersion: 'Version',
+      instanceName: 'Instance Name',
+      network: 'Network',
+      amount: 'Total price', // displaying total price of Monthly Package 
+      originPrice: 'Original Price',
+      save: 'Save',
+      fee: 'Configuration cost', // by configuration 
+      price: `￥{0} /hour`,
+      totalPrice: `(Approximately ￥%{totalPrice}/month in total)`,
+      discountedPrice: 'Discount Price',
+      computing: 'Calculating...',
+      core: '{c} Core {m}GB, {n} node',
+      storage: '{0}GB memory'
+    },
+    deleteButton: {
+      buttonText: 'Delete',
+      deleting: 'Deleting',
+      pleaseInput: 'Please enter the instance ID to be deleted:',
+      errorTip: 'Please enter the correct Instance ID',
+      success: 'Deletion task submitted',
+      failed: 'Deletion task submission task failed'
+    },
+    renewButton: {
+      renewText: 'Renew',
+      turnToYear: 'Convert to Monthly Package'
+    },
+    // Create an account button component
+    account: {
+      createAccount: 'Create an account',
+      accountName: 'Account No.',
+      password: 'Password',
+      rePassword: 'Confirm password',
+      accountNameTip: 'The account only supports numbers, uppercase and lowercase letters, and English underlines "_", and cannot be more than 16 characters',
+      accountKeywordTip: 'The account is the reserved account of the system, which cannot be created now',
+      passwordTip: `The password must contain uppercase and lowercase letters and numbers, does not support six character types, including '\\', '/', '"', '@', English single quotes and Chinese characters, and it shall contain no less than 8 characters and no more than 32 characters`,
+      psdNone: 'Please enter a password',
+      accountNone: 'Please enter the account name',
+      passwordLimit: 'The password shall contain at least 8 but at most 32 characters',
+      notSamePsd: 'The passwords you enter in two attempts are inconsistent',
+      createTip: 'The high permission account has been created for the current instance, which can be used for creating other accounts via SQL'
+    },
+    // Create backup component
+    backup: {
+      createBackup: 'Create backup',
+      backupTip: `It only supports numbers, uppercase and lowercase letters, English underlines "_", English subtraction signs "-" and Chinese, and shall be no less than 2 characters but no more than 64 characters`,
+      backupName: 'Backup Name',
+      createTip: 'Only 3 manual backups can be created for each instance',
+      createLimit: 'Only one manual backup can be created each time'
+    },
+    backupStatus: {
+      status: {
+        COMPLETED: 'Normal', // backup completed 
+        BUILDING: 'Backing up', // backing up 
+        DELETING: 'Deleting', // deleting 
+        ERROR: 'Error',
+        FAILED: 'Failed'
+      }
+    },
+    instanceClass: {
+      core: '{c} Core {m} GB'
+    },
+    resetPassword: {
+      buttonText: 'Reset password'
+    },
+    backupDeleteButton: {
+      buttonText: 'Delete',
+      dialogTitle: 'Delete backup',
+      deleting: 'Deleting',
+      deleteTip: 'Confirm to delete the backup: {0}?',
+      middleTip: 'Deletion is not supported now under the current backup state',
+      autoTip: 'Deletion is not allowed for automatic backup'
+    },
+    // Create an instance button according to the backup
+    createByBackupBtn: {
+      buttonText: 'Create based on the backup',
+      createTip: 'Creation is not supported now under the current backup state'
+    },
+    copyButton: {
+      success: 'Replicated',
+      copy: 'Replication'
+    },
+    grayUserDialog: {
+      buttonText: 'Please go to overview page',
+      item1: 'You do not have permission to subscribe the product!',
+      item2: 'If you need to test TiDB, please contact your marketing representative for subscription and trial of TiDB! ！'
+    },
+    editTagButton: {
+      buttonText: 'Edit tag'
+    },
+    selectedTagList: {
+      title: 'Tags selected',
+      clear: 'Clear'
+    },
+    modifyInstanceName: {
+      modifyName: 'Modify name',
+      name: 'Name',
+      tip: 'It only supports numbers, uppercase and lowercase letters, English underlines "_", English subtraction signs "-" and Chinese, and shall be no less than 2 characters but no more than 64 characters'
+    }
+  },
+  views: {
+    az: 'Availability Zone',
+    title: 'TiDB Service',
+    notFound: {
+      tip: 'Page access error, please retry later after check...',
+      goIndex: 'Go to the list page'
+    },
+    // Page Level
+    tidbList: {
+      tag: 'Tag',
+      tagFaild: 'Tag edition failed, please try again later',
+      tagFilterFaild: 'Tag filter failed, please try again later',
+      helpDoc: 'Documentation of TiDB Service',
+      id: 'ID/Name',
+      name: 'Name',
+      engineVersion: 'Version',
+      status: 'Status',
+      nodeSum: 'Total Nodes',
+      createTime: 'Creation Time',
+      charge: 'Billing Information',
+      operation: 'Operation'
+    },
+    create: {
+      backupInfo: 'Backup Information',
+      backupTime: 'Backup Time',
+      backupName: 'Backup Name',
+      backupTip: `As suggested, the total space (TiKV bucket * TiKV node count) of newly created TiDB shall be no less than the total bucket of the original instance. Otherwise, recovery can fail due to insufficient space`,
+      backupChecked: 'I acknowledge that I have known that the TiDB instance needs sufficient space for recovery',
+      createInstance: 'Create a new instance',
+      createByBackup: 'Create based on the backup',
+      region: 'Region',
+      flavor: 'Specification',
+      engineVersion: 'Version',
+      template: 'Configure a template',
+      node: 'Node',
+      network: 'VPC',
+      choiceNetwork: 'Select a network',
+      selectAz: 'Select the Availability Zone',
+      baseInfo: 'Basic Information',
+      instanceName: 'Instance Name',
+      rules: {
+        instanceName: `It only supports numbers, uppercase and lowercase letters, English underlines "_", English subtraction signs "-" and Chinese, and shall be no less than 2 characters but no more than 64 characters`,
+        length: 'The name shall be no less than {minimal} characters and no more than {maximum} characters',
+        require: 'Name cannot be null'
+      },
+      buyNum: 'Purchased Quantity',
+      duration: 'Purchased Duration',
+      buy: 'Buy Now',
+      notEnoughIpTip: 'The available IP of subnet is insufficient, thus creation is not allowed',
+      tidbNodeNumTip: 'Support {min}-{max} nodes, with at least 2 nodes for the production environment',
+      tikvNodeNumTip: `Support {min}-{max} nodes, the node count depends on the data size and at least 3 nodes are supported. TiKV has 3 replicas, thus 3 times buckets are required for the same data volume. At present, the data volume for actual storage is {total} GB.`,
+      pdNodeNumTip: 'At least 3 nodes are suggested for the production environment, supporting {num} nodes',
+      monitorNodeNumTip: 'Monitor requires only one node',
+      nodeSpec: 'Node Specification',
+      nodeNum: 'Node Count',
+      noSubnetTip: 'Please select a subnet',
+      noNodeInfoTip: 'Please select the node information',
+      quota: `The selected configuration requires the quota of {needQuota} cores. The current quota has {userQuota} cores, and {availableQuota} cores are left. The available quota is insufficient. Please open ticket to increase quota!`,
+      quotaTip: 'The selected specification exceeds the quota. Creation failed. Please open ticket to increase quota!'
+    },
+    detail: {
+      tabNames: {
+        info: 'Instance Information',
+        monitor: 'Monitor',
+        account: 'Account Management',
+        backup: 'Backup Management'
+      },
+      baseInfo: 'Basic Information',
+      configuration: 'Configuration',
+      domainPort: 'Domain and Port',
+      network: 'Network',
+      tag: 'Tag',
+      name: 'Name',
+      charge: 'Billing Type',
+      chargeExpiredTime: 'Expiration Time',
+      createTime: 'Creation Time',
+      region: 'Region',
+      nodeSum: 'Total Nodes',
+      engineVersion: 'Version',
+      domainType: {
+        database: 'Database',
+        monitor: 'Monitor'
+      },
+      internal: 'Intranet',
+      extranet: 'Internet',
+      port: 'Port',
+      monitor: 'Monitor',
+      db: 'Database',
+      nodeNum: 'Node Count',
+      nodeSpec: 'Node Specification',
+      core: '{c}Core {m}GB',
+      storageSpace: 'Bucket',
+      storageType: {
+        LOCAL_SSD: 'Local SSD'
+      },
+      operation: 'Operation',
+      status: 'Status',
+      type: 'Type',
+      accountJd_replicator: `1. jd_replicator is a system account which cannot be deleted or whose password cannot be modified.`,
+      accountRoot: `2. The root account will be taken back subsequently, which shall not be applied`,
+      superAccount: 'High Permission',
+      backup: 'Backup',
+      backupPolicy: 'Backup Policy',
+      backupId: 'Backup ID',
+      backupName: 'Backup Name',
+      backupStatus: 'Backup Status',
+      backupMode: 'Backup Method',
+      backupType: 'Backup Type',
+      backupSize: 'Backup Size',
+      backupCreateTime: 'Creation Time',
+      backupMethods: {
+        manual: 'Manual',
+        auto: 'Automatic'
+      },
+      backupClass: {
+        full: 'Full'
+      },
+      policy: {
+        backupPeriod: 'Automatic Backup Period',
+        startWindow: 'Start Time of Automatic Backup',
+        retentionPeriod: 'Retaining Days of Automatic Backup',
+        modifyPolicy: 'Modify policy',
+        tip: 'At least one automatic backup per week'
+      },
+      monitorTab: {
+        h: '{count} hour(s)',
+        d: '{count} day(s)',
+        setAlarm: 'Set alarm rules',
+        node: 'Node',
+        instance: 'Instance',
+        pleaseholder: 'Please select a node'
+      }
+    }
+  },
+  apiError: {
+    IAM: 'You do not have permission to carry out this operation. Please contact the administrator for permission.',
+    // openApi general error
+    INVALID_ARGUMENT: 'Parameter Error',
+    FAILED_PRECONDITION: 'The presetting conditions required for this operation are not met',
+    OUT_OF_RANGE: 'The parameters are out of range',
+    UNAUTHENTICATED: 'Verification failed',
+    HTTP_FORBIDDEN: 'No permission',
+    NOT_FOUND: 'Cannot find objects',
+    ABORTED: 'Operation terminated',
+    ALREADY_EXISTS: 'Object already exists',
+    QUOTA_EXCEEDED: 'Insufficient Quota',
+    RATE_LIMIT: 'Your requests are too frequent',
+    CANCELLED: 'Cancel the operation',
+    UNKNOWN: 'Unknown Error',
+    INTERNAL: 'Internal Error',
+    NOT_IMPLEMENTED: 'The operation has not been implemented',
+    SOURCE_UNAVAILABLE: 'The origin server is unavailable',
+    UNAVAILABLE: 'Service unavailable',
+    DEFAULT: 'System Error'
+  }
+}
