@@ -12,9 +12,9 @@ Once your account is canceled, it cannot be recovered. Please backup your accoun
 **If you still want to retain the products, services or relevant information under this account, please do not apply for account cancellation.**
 
 ## Account Cancellation Process
-(1) Open ticket, select account & verification type
+(1) Open ticket, select account & verification type in labor ticket
 
-![](../../../image/User/Account%20Management/Account%20Revocation/Account-Canceling.png)
+![](../../../image/User/Account-Management/Account-Revocation/account-revok1.png)
 
 (2) Provide information necessary for the cancellation in the ticket
 
