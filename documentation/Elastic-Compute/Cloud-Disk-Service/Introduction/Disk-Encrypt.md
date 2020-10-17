@@ -1,5 +1,5 @@
 # Cloud Disk Service Encryption
-Cloud Disk Service Encryption is in Beta; current online regions include cn-east-2, cn-east-1 and cn-south-1.
+The encryption function of Cloud Disk Service is in Beta and is available in all regions of China now.
 
 **What is Cloud Disk Service Encryption**
 

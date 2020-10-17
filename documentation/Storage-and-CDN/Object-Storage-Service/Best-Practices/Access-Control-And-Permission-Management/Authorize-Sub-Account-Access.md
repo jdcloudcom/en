@@ -24,6 +24,7 @@ It is sub-user group that is a collection of sub-users. The primary account can 
  ![IAM子用户](../../../../../image/Object-Storage-Service/OSS-108.png)
  
 2. Fill in the user related information as required.
+
 ![IAM子用户](../../../../../image/Object-Storage-Service/OSS-109.png)
 
 - Step 2: Grant permissions to the sub-account
@@ -44,8 +45,10 @@ If policy editor is used, enter the policy name, enter json in the edit box, and
 
 This document also describes several typical scenarios with the following policy examples. See details in [IAM Policy-based Permission Control - IAM Policy Example](../../Operation-Guide/Access-Control/Access-Control-Base-On-IAM-Policy.md). You can directly replicate the customized policy to the editor.
 
-- Step 3: Use the sub-account to access the primary account OSS resource (the current OSS console does not support the sub-account)
-OSS access (API or SDK) needs the following resources: AccessKeyId, and AccessKeySecret.
+- Step 3: Access OSS resources of primary account via a sub-account. 
+
+Oss resources of primary account authorized can be accessed via logging in the Console with the authorized sub-account.
+If the access is made via API or SDK, the following resources are required: AccessKeyId and AccessKeySecret.
 When the sub-account is used to access OSS resources, using AccessKeyId and AccessKeySecret of the sub-account is required. You can select to create an (Access Key) for the sub-account when creating the sub-account or log in to the access management console to create the AccessKeyId(Access Key) and AccessKeySecret(Secret Key) of the sub-account.
 
 Method 1: Select to create a sub-account (Access Key) when creating a sub-account
@@ -59,17 +62,3 @@ Then use the sub-account AccessKeyID and AccessKeySecret, and utilize OSS API or
 ### Use the Bucket policy to authorize the sub-account
 
 In addition to IAM policy, you can also use the Bucket policy authorize the sub-account. For specific authorization steps, please see [Bucket policy - Access Permission Setting](../../Operation-Guide/Manage-Bucket/Set-Bucket-Policy-2.md).
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -15,8 +15,12 @@ The user can deliver business application logs directly from agent to cloud ES, 
 ## Log Retrieval
 **Full Text Retrieval**  
 The cloud product log establishes a full-text index by default. The user enters the content information that needs to be retrieved, and all the fields in the log can be retrieved without distinguishing between key and value.  
+
 **Key Value Retrieval**  
 The cloud product log establishes a key value index by default. The user can retrieve the value of the specified Key, narrow the retrieval range, and query quickly and accurately.
+
+**Statistics & Analysis**  
+For statistics and analysis function of structured logs, count, sum, max, min and average of fields are supported. Meanwhile, display forms such as forms, line charts and pie charts are provided, enabling visual and quick view of analysis results.
 
 ## Log Management
 The management of the log collection and log subject can change the log retention duration and the instance information collected by the log subject.

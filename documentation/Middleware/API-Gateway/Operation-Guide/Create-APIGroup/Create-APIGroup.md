@@ -16,7 +16,7 @@ Login [API gateway console](https://apigateway-console.jdcloud.com/apiGroupList)
  
  ### STEP2: Create API Groups
  On the "API Group Management page", click **Create Group** and go to the "Create" page.
- Note: IPV6 is only supported in North China now.
+ Note: IPV6 is only supported in cn-north-1 and cn-east-2 now.
 
 ![Create group](../../../../../image/Internet-Middleware/API-Gateway/APIgroup-addgroup.png)
     

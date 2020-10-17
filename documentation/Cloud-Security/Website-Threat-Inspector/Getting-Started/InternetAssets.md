@@ -28,30 +28,38 @@ Information on domains/subdomains not registered under JD Cloud & AI Domain Reso
 
 ### (1) Step 1: Add public network asset
 
+Note: If the assets added by you are not those registered under the domain resolution service of JD Cloud & AI, you need to carry out manual addition and certification
+
 Enter the Website Threat Inspector Console, click **Asset Management** in the left navigation bar, and on the website management page, click **Add Public Network Asset
 
 Note: You can automatically associate and find the domain and asset under the same account without manually adding them
 
 ![](../../../../image/Website-Threat-Inspector/wts-internet-assets-01.png)
-### (2) Step 2: Fill in asset information
+### (2) Step 2: Fill in asset information and certification path
+
+![](../../../../image/Website-Threat-Inspector/wts-internet-assets-12.png)
 
 Domain/Subdomain/IP: Select the asset type to be added according to your website access method (e.g.: example.com, test.examlple.com, 116.196.104.180)
 
-Asset Detection Frequency: Detect if the asset verification status is valid or not; the default frequency is 1 hour and can be modified manually
+Asset certification path: For assets manually added, the asset shall be subject to identity certification, so as to ensure the asset to be scanned is the one under the name of the tenant. By default, the certification path is the root directory. If the root path is unavailable for storing certification files, relevant path can be customized.
 
 ### (3) Step 3: Verify public network asset
 
-Note: If the added asset is not an asset registered under JD Cloud & AI's domain name resolution service, you need to add and verify it manually.
+![](../../../../image/Website-Threat-Inspector/wts-internet-assets-13.png)
 
-- ##### Primary Domain Verification Scenario
+- ##### Add resolution for main domain
 
-![](../../../../image/Website-Threat-Inspector/wts-internet-assets-02.png)
-To add a primary domain (e.g.: test.com), you need to click **Verify** to pop up the verification notification and generate the CNAME information, and then you need to add the new CNAME resolution record c443df2c1b574708bd0f398254e6e93c.test.com under your primary domain to f5ed337b81af2efc9ca0e3d6d2d504c0.verify.scanner.jdcloud.com in order to finish verification of the added asset.
+You need to add CNAME resolution records under your man domain (taking the address 1.1.1.12 for example)
 
-- ##### IP/Subdomain Verification Scenario
+f3d40a15facc466593e32ee91f57f974.1.1.1.12 to df0b08b86088a0f781faade30269a78a.verify.scanner.jdcloud.com, so as to pass main domain asset certification.
 
-![](../../../../image/Website-Threat-Inspector/wts-internet-assets-03.png)
-To add a subdomain (e.g.: test.test.com), you need to click **Verify** to pop up the verification notification and then you need to download the verification file and add it to your website directory (http ://test.test.com/af27f275a3584c7bb53414515d2900bd.txt) in order to finish verification of the added asset.
+- ##### IP/Sub-domain Addition Certificate
+
+(1) Click to obtain the certification file and download the certification file (jd_scanner_verify.html) to a local file.
+
+(2) Upload the downloaded certification file and please do not modify the file name and content
+
+(3) Ensure that the file can be accessed via a public network; Click **Access** to verify if the verification certification succeeds.
 
 ### (4) Step 4: Configure assets required login
 
@@ -59,8 +67,8 @@ If some of your assets or partial contents in an asset can only be viewed after 
 
 The product supports managing login status of assets, filling in login status information for your target asset, and can help deeply detect the vulnerability risk after an asset is found being logged in when the login status cookies of the target asset is configured.
 
-![](../../../../image/Website-Threat-Inspector/wts-internet-assets-04.png)
-Add the asset to be logged in, click **Management** to pop up the Manage Asset interface, and fill in the login status cookies.
+![](../../../../image/Website-Threat-Inspector/wts-internet-assets-14.png)
+After completion of certification, you also can add assets to be logged in. Click **Manage**. After the asset management interface is popped up, fill in contents of login status cookies.
 
 > ##### How to fill in the login status cookies?
 >
@@ -83,5 +91,3 @@ URI White List: Means that the Website Threat Inspector is prohibited from acces
 By configuring URI white list, you can designate the page not to be crawled by the product, e.g.: /logout.php, fill in logout here. 
 
 The matching mode is perfect matching, in which logout1.php will not be excluded.
-
-![](../../../../image/Website-Threat-Inspector/wts-internet-assets-08.png)

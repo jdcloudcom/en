@@ -103,21 +103,7 @@ items:
   - name: Service Agreement on Physical Cloud Public IP
     href: Elastic-IP-For-Physical-Cloud-Terms-Of-Service.md
   - name: Service Level Agreement (SLA) of Physical Cloud Public IP
-    href: Elastic-IP-For-Physical-Cloud-Level-Agreement-SLA.md   
-  - name: Service Terms of Physical Cloud Load Balancer Service
-    href: Physical-Cloud-Load-Balancer-Service-Clause.md 
-  - name: Service Level Agreement (SLA) of Physical Cloud Load Balancer Service
-    href: Physical-Cloud-Load-Balancer-Level-Agreement-SLA.md    
-  - name: Service Terms of Distributed Cloud Physical Server
-    href: Distributed-Cloud-Physical-Server-Service-Clause.md
-  - name: Service Level Agreement (SLA) on Distributed Cloud Physical Server
-    href: Distributed-Cloud-Physical-Server-SLA.md
-  - name: Service Terms on Edge Cloud Public IP
-    href: Elastic-IP-For-Edge-Cloud-Terms-Of-Service.md
-  - name: Service Level Agreement (SLA) of Edge Cloud Public IP
-    href: Elastic-IP-For-Edge-Cloud-Level-Agreement-SLA.md
-  - name: Bandwidth Service Agreement of Shared Bandwidth
-    href: Edge-Shared-Bandwidth-Terms-Of-Service.md    
+    href: Elastic-IP-For-Physical-Cloud-Level-Agreement-SLA.md
   - name: Message Queue Service Agreement
     href: Message-Queue-JCQ-Service-Terms.md
   - name: Message Queue Service Level Agreement (SLA)
@@ -256,7 +242,17 @@ items:
     href: Photo-Filters-Matching-Terms-Of-Service.md
   - name: Service Level Agreement (SLA) of Photo Filters Matching
     href: Photo-Filters-Matching-Level-Agreements-SLA.md
-    
-    
+  - name: Car Owner Travel Service Terms
+    href: Iov-Mobility-Service-Terms-Of-Service.md  
+  - name: Car Owner Travel Service Level Agreement (SLA)
+    href: Iov-Mobility-Service-Level-Agreements-SLA.md
+  - name: Shuzhi Service Agreement
+    href: Number-Of-Terms-Of-Service.md
+  - name: Shuzhi Service Level Agreements (SLA)
+    href: Number-Aware-Service-Level-Agreement-SLA.md
+  - name: Risk Identification Service Agreement
+    href: Risk-Detection-Service-Terms-Of-Service.md
+  
+
     
     

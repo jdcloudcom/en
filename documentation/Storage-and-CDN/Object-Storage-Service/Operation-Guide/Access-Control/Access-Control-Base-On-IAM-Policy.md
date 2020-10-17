@@ -34,9 +34,9 @@ Version: Version defines the version of IAM Policy. The element value of "versio
     Policy needs to follow the JSON syntax specification. For more information, please refer to [IAM Policy-Policy Syntax](https://docs.jdcloud.com/en/iam/elements).
     
 ### Use of OSS IN IAM Policy
-#### 1) Specify the Action
+1. Specify the Action
 
-List of Action supported in this period in IAM Policy is as follows:
+Supported Action lists in IAM policy are as below:
 
 |Action Keyword|Action Description|Corresponding API|Action Level | 
 |-|-|-|-|
@@ -65,7 +65,7 @@ For example, with oss:GetObject permission, a user can perform a download operat
     
 - If you want to authorize the action of a certain category of Object, you can choose one or more of these categories. In addition, all Action must be preceded by the prefix "oss:", as shown in the example above.
 
-#### 1) Specify the Resource
+2. Specify the Resource
 
 For your OSS resources, the method for specifying in IAM Policy is as follows:
 Instead of specifying regions and namespaces, you can replace by "\*" as shown below. relative-id specifies your OSS resources, which can be bucket or some or a certain object therein. It supports the wildcard (\*) only currently.
@@ -89,7 +89,8 @@ Example: For example, the bucket name is examplebucket
 |jrn:oss:*:*:examplebucket*|It represents storage buckets prefixed with examplebucket and all objects therein|
 
 ### IAM Policy  Example
-#### 1. Fully Authorized IAM Policy
+1. Fully Authorized IAM Policy
+
 The fully authorized IAM Policy indicates that the sub-account is allowed to conduct any action on OSS. You can log in [IAM Console-User Management](https://iam-console.jdcloud.com/subUser/list) to authorize directly the system policy (JDCloudOSSAdmin).
 ```
 {
@@ -106,7 +107,8 @@ The fully authorized IAM Policy indicates that the sub-account is allowed to con
 }
 ```
 
-#### 2. Read-only & not writing IAM Policy that does not Restrict Prefix
+2. Read-only & not writing IAM Policy that does not Restrict Prefix
+
 
 This Policy indicates that the sub-user can list and download all Objects under the Bucket named app-base-oss.
 
@@ -129,7 +131,8 @@ This Policy indicates that the sub-user can list and download all Objects under 
 }
 ```
 
-#### 3. Read-only & not writing IAM Policy that Restricts Prefix
+3. Read-only & not writing IAM Policy that Restricts Prefix
+
 This Policy indicates that the sub-user can list and download all Objects prefixed with myuser1/ under the Bucket named app-base-oss But it cannot download Objects with other prefixes. By using this Policy, the applications under the control of different sub-accounts can correspond to different prefixes, so that the effect of spatial isolation in the same Bucket can be achieved.
 ```
 {
@@ -150,7 +153,8 @@ This Policy indicates that the sub-user can list and download all Objects prefix
 }
 ```
 
-#### 4. Write-only & not reading IAM Policy that does not Restrict Prefix
+4. Write-only & not reading IAM Policy that does not Restrict Prefix
+
 This Policy indicates that the application can upload the Object prefixed with myuser1/ in the Bucket named app-base-oss. But it cannot upload Objects with other prefixes. By using this Policy, if different applications correspond to different prefixes, the effect of spatial isolation in the same Bucket can be achieved.
 ```
 {
@@ -168,7 +172,8 @@ This Policy indicates that the application can upload the Object prefixed with m
     "Version": "3"
 }
 ```
-#### 5. Write-only IAM Policy that Restricts Prefix
+5. Write-only IAM Policy that Restricts Prefix
+
 This Policy indicates that the application can upload the Bucket named app-base-oss only.
 ```
 {
@@ -187,7 +192,8 @@ This Policy indicates that the application can upload the Bucket named app-base-
 }
 ```
 
-#### 6. Read/Write IAM Policy that does not Restrict Prefix
+6. Read/Write IAM Policy that does not Restrict Prefix
+
 This Policy indicates that the application can list, download, upload and delete all Objects under the Bucket named app-base-oss only.
 ```
 {
@@ -210,7 +216,8 @@ This Policy indicates that the application can list, download, upload and delete
     "Version": "3"
 }
 ```
-#### 7. Read/Write IAM Policy that Restricts Prefix
+7. Read/Write IAM Policy that Restricts Prefix
+
 This Policy indicates that the application can list, download, upload and delete Objects prefixed with myuser1/ under the Bucket named app-base-oss, but it cannot read or write Objects with other prefixes. By using this Policy, if different sub-users correspond to different prefixes, the effect of spatial isolation in the same Bucket can be achieved.
 ```
 {
@@ -233,14 +240,3 @@ This Policy indicates that the application can list, download, upload and delete
     "Version": "3"
 }
 ```
-
-
-
-
-    
-
-
-
-
-
-

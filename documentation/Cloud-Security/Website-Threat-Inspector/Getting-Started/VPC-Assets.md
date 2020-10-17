@@ -10,9 +10,9 @@
 
 ### (1) Add VPC scan probe to be deployed
 
-Log in the Console, select **Asset Management** on the left, and click **Add Cloud VPC Intranet Probe
+Log in the Console, select **Asset Management** on the left and click **VPC Asset Management
 
-![](../../../../image/Website-Threat-Inspector/wts-vpc-assets-01.png)
+![](../../../../image/Website-Threat-Inspector/wts-vpc-assets-11.png)
 
 You can conduct retrieval management of VPC intranet probe on the Deploy Intranet Probe page
 
@@ -26,19 +26,13 @@ You can conduct retrieval management of VPC intranet probe on the Deploy Intrane
 | Version      | All Version, V1.0                                       |
 | Status     | All Status, On-line, Off-line, Deploying, Deployment Failed, Uninstalling, Not Deployed |
 
-![](../../../../image/Website-Threat-Inspector/wts-vpc-assets-02.png)
-
-- Asset detection
-
-  You can select the asset detection frequency flexibly according to the actual situation of VPC intranet asset business, in which the default frequency is 1 hour.
-
 ### (2) Select VPC scan specification as required
 
 - Deploy subnet probe
 
   Select the deployment region and subnet name, and click **Deploy** to deploy the probe.
 
-![](../../../../image/Website-Threat-Inspector/wts-vpc-assets-03.png)
+![](../../../../image/Website-Threat-Inspector/wts-vpc-assets-12.png)
 
 - Select deployment instance type
 
@@ -47,6 +41,8 @@ You can conduct retrieval management of VPC intranet probe on the Deploy Intrane
 | Select Availability Zone | Optional Item                  |
 | ---------- | ------------------------- |
 | Availability Zone     | Availability Zone A, Availability Zone B, Availability Zone C |
+
+- Specification of Native Container
 
 | Native Container Specification Selection | Subnet Includes Available IP Size                 |
 | ---------------- | ---------------------------------- |
@@ -57,3 +53,16 @@ You can conduct retrieval management of VPC intranet probe on the Deploy Intrane
 
 Note: After the intranet scan probe is successfully created, do not delete the container __threatscanner_detect_nc__ created in Elastic Compute -> Native Container and the hard disk __threatscanner_detect_disk__ created in Elastic Compute -> Cloud Disk Service.
 
+- Instructions to Deployment Expense of VPC Scanning Probe
+
+> You can deploy relevant scanning probes for segments of VPC scanning assets according to real conditions of asset service of VPC intranet. The scanning probes, based on the container instance, are deployed in your tenant environment. Therefore, you need to separately pay relevant expenses of resource consumption of container instance.
+
+> Container calculation instances of scanning probes adopt the **Pay by Consumption** method. If your intranet assets are scanned and discovered and the segment assets are not changed, you can download the scanning probes to save the cost.
+
+> However, intranet ip assets in the segment are subject to the vpc asset list. Once there are any additional assets or changes in the segment, you need to configure the scanning probe to discover and detect the assets. To guarantee that intranet IP assets are obtained in time and accurately, you are suggested to keep the online deployment status of scanning probe.
+
+
+
+![](../../../../image/Website-Threat-Inspector/wts-vpc-assets-13.png)
+
+![](../../../../image/Website-Threat-Inspector/wts-vpc-assets-14.png)

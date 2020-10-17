@@ -15,7 +15,7 @@ items:
   items:
     - name: Billing Overview
       href: Pricing/Billing-Overview.md
-    - name: Price Description
+    - name: Price and Version Description
       href: Pricing/Price-Overview.md
     - name: Purchase Method
       href: Pricing/Purchase-Process.md
@@ -39,27 +39,65 @@ items:
       href: Getting-Started/Step-4.md
     - name: Associated Certificate
       href: Getting-Started/update-certificate.md
-- name: Operation Guide
+    - name: Enable IPv6 Protection
+      href: Getting-Started/Open-IPv6-Protection-Switch.md
+- name: Website Protection Configuration
   items:
-    - name: Protection Configuration
+    - name: Web Protection
       items:
-         - name: Web Application Protection
-           href: Operation-Guide/Protection-Configuration/Web-Attack-Protection.md
-         - name: CC Defense
-           href: Operation-Guide/Protection-Configuration/CC-Protection.md
-         - name: Accurate Identity and Access Management
-           href: Operation-Guide/Protection-Configuration/Precise-Access-Control.md
-         - name: Malicious IP Punishment
-           href: Operation-Guide/Protection-Configuration/Malicious-IP-Punishment.md
-         - name: IP Black and White List Configuration
-           href: Operation-Guide/Protection-Configuration/Black-and-White-List.md
-         - name: Webpage Tamper-proofing
-           href: Operation-Guide/Protection-Configuration/Tamper.md
-         - name: Customized CC Defense
-           href: Operation-Guide/Protection-Configuration/Custom-CC.md
-         - name: Crawler-proof
-           href: Operation-Guide/Protection-Configuration/Reptile-protection.md
-    - name: Protection Statistics
+         - name: Set Protection Against Web Application Attack
+           href: Web-Protection-Configure/Web-Protection/Web-Application-Firewall-Engine.md
+         - name: Set Intelligent Semantic Protection Engine
+           href: Web-Protection-Configure/Web-Protection/Intelligent-Semantics-Protection-Engine.md
+         - name: Enable Malicious IP Punishment
+           href: Web-Protection-Configure/Web-Protection/Open-Malice-IP-Punishment.md
+         - name: Set Custom Protection
+           href: Web-Protection-Configure/Web-Protection/Set-Up-Custom-Protection.md
+    - name: IAM
+      items:
+         - name: Set White List Rules
+           href: Web-Protection-Configure/Access-Control/Set-Up-Whitelist-Rules.md
+         - name: Set Black List Rules
+           href: Web-Protection-Configure/Access-Control/Set-Up-Blacklist-Rules.md
+         - name: Set Speed Limit
+           href: Web-Protection-Configure/Access-Control/Set-Up-Speed-Limit.md
+    - name: CC Security Protection
+      items:
+         - name: Set CC Security Protection
+           href: Web-Protection-Configure/CC-Safety-Protection/Set-Up-Safety-Protection.md
+    - name: BOT Management
+      items:
+         - name: Enable Anti-crawler
+           href: Web-Protection-Configure/BOT-Management/Open-Anti-Crawler.md
+         - name: Set Rules for Known Crawler Libraries
+           href: Web-Protection-Configure/BOT-Management/Set-Up-Known-Crawler-Rules.md
+         - name: Set Custom BOT Rules - General
+           href: Web-Protection-Configure/BOT-Management/Set-Up-Custom-BOT-Rules-Currency.md
+         - name: Set Custom BOT Rules - Advanced
+           href: Web-Protection-Configure/BOT-Management/Set-Up-Custom-BOT-Rules-Senior.md
+    - name: Business Risk Control
+      items:
+         - name: Data Risk Control
+           href: Web-Protection-Configure/Business-Risk-Control/Data-Risk-Control.md
+    - name: Traffic Management
+      items:
+         - name: Set Status Code Modification
+           href: Web-Protection-Configure/Traffic-Management/Set-Up-Status-Code-Modify.md
+         - name: Set Request Header Modification
+           href: Web-Protection-Configure/Traffic-Management/Set-Up-Request-Header-Modify.md
+         - name: Set Response Header Modification
+           href: Web-Protection-Configure/Traffic-Management/Set-Up-Respond-Header-Modify.md
+         - name: Set URI Rewrite
+           href: Web-Protection-Configure/Traffic-Management/Set-Up-URI-Rewriten.md
+    - name: Website Compliance
+      items:
+         - name: Set Webpage Tamper-proofing
+           href: Web-Protection-Configure/Web-Compliance/Set-Up-Anti-Tampering-Of-Web-Pages.md
+         - name: Set Sensitive Information Leakage Prevention
+           href: Web-Protection-Configure/Web-Compliance/Set-Up-Sensitive-Information-Leakage-Prevention.md
+         - name: Set Web Cache
+           href: Web-Protection-Configure/Web-Compliance/Set-Up-Web-Cache.md               
+- name: Protection Statistics
       items: 
          - name: General Layout
            href: Operation-Guide/Protection-Statistics/overview.md

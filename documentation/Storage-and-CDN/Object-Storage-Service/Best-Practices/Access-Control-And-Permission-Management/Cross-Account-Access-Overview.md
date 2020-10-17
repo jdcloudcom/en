@@ -27,8 +27,10 @@ Bucket policy (legal json), with the size restriction of 16KB.
 
 ![Bucket Policy](../../../../../image/Object-Storage-Service/OSS-119.png)
 
-### Bucket policy Example
-#### 1. Authorize the cross-account the read and write permissions to the specified file
+## Bucket policy Example
+
+### 1. Authorize the cross-account the read and write permissions to the specified file
+
 Scenario: Enterprise account A, which has one object, i.e. Object1, under the dir1 directory of the bucket named as Bucket1. Another enterprise account (accountID:123334444455) needs to have the read and write permission of the aforesaid objects.
 
 ```
@@ -48,7 +50,8 @@ Scenario: Enterprise account A, which has one object, i.e. Object1, under the di
 	}]
 }
 ```
-#### 2. Authorize the sub-account the read and write permissions to the specific Bucket
+### 2. Authorize the sub-account the read and write permissions to the specific Bucket
+
 Scenario: Enterprise account A (accountID: 123456789012), which has a bucket named as Bucket1, and intends to authorize its sub-account named as user1 the permission to read and write any object bucket.
 
 ```
@@ -68,7 +71,8 @@ Scenario: Enterprise account A (accountID: 123456789012), which has a bucket nam
 	}]
 }
 ```
-#### 3. Authorize the sub-account of the cross-account the read and write permissions to the specified file
+### 3. Authorize the sub-account of the cross-account the read and write permissions to the specified file
+
 
 Enterprise account A (accountID: 123456789012), which has a bucket named as Bucket1. Another enterprise account B (accountID:123334444455) named as sub-account user2 needs to have the read and write permissions to the object under dir1 directory in enterprise account A, Bucket1.
 

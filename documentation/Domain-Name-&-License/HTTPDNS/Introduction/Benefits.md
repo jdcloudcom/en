@@ -2,7 +2,7 @@
 
 ### High-speed Access
 
-The product uses Anycast IP to provide services externally, has multiple access points in North China, East China and South China, covers numerous domestic top operators, and is fast in access and accurate in resolution.
+The product uses multiple BGP IPs to provide external service and has many access points in North China, East China and South China, covering many top operators in China and providing rapid access and accurate resolution.
 
 ### Secure Access
 

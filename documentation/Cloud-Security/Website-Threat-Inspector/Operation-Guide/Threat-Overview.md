@@ -48,14 +48,14 @@ The names of Top 10 vulnerabilities are displayed from the perspective of vulner
 
 #### Threat Count & Threat Object
 
-Click **Threat Count**->**Count of Vulnerabilities Found**, to redirect to **Risk Management**-> **Vulnerability Dimension
+Click **Threat Count**->**Count of Vulnerabilities Found**, to redirect to **Risk Management**-> **Vulnerability Risk Management**
 
-  ![](../../../../image/Website-Threat-Inspector/webscan-risk1.png)
-  
-Click **Threat Object**->**Vulnerability IP** to redirect to **Risk Management**-> **IP Dimension
+  ![](../../../../image/Website-Threat-Inspector/wts-riskm-12.png)
 
-  ![](../../../../image/Website-Threat-Inspector/webscan-risk3.png)
+Click **Threat Object**->**Vulnerability IP** to redirect to **Risk Management**-> **Asset Risk Management**
 
-Click **Threat Object**->**Vulnerability Domain** to redirect to **Risk Management**-> **IP Dimension
+  ![](../../../../image/Website-Threat-Inspector/wts-riskm-11.png)
 
-  ![](../../../../image/Website-Threat-Inspector/webscan-risk4.png)
+Click **Threat Object**->**Vulnerability Domain** to redirect to **Risk Management**-> **Asset Risk Management**
+
+  ![](../../../../image/Website-Threat-Inspector/wts-riskm-13.png)

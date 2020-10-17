@@ -131,6 +131,8 @@
        href: Best-Practices/publicIP.md
      - name: MySQL Data Synchronization
        href: Best-Practices/mysqltoes.md
+     - name: Elasticsearch Data Migration of Third Party
+       href: Best-Practices/Ali-to-es.md
      - name: Performance Indicators
        items: 
         - name: Performance Test Steps

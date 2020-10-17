@@ -53,3 +53,9 @@ items:
         href: FAQ/AgentDown.md
       - name: Questions on Addition of Verification Files to web Directory
         href: FAQ/AddWebDirectory.md
+  - name: Service Agreement
+    items:
+      - name: Service Terms
+        href: SLA/ToS.md
+      - name: Service Level Agreement
+        href: SLA/SLA.md

@@ -4,7 +4,7 @@
 1. Log in the Cloud Detection Console of JD Cloud & AI and click **Management -> Cloud Detection -> Site Monitoring** to log in the monitoring task list page. Click **Create Task** in the upper left corner.  
 2. Fill in the basic information  
 - Name of monitoring task.
-- Detection protocols: Support HTTP(S), Ping, TCP, UDP, SMTP and FTP and select HTTP(S);
+- Detection protocols: Support HTTP(S), Ping, TCP, UDP, DNS, SMTP, POP3 and FTP and select HTTP(S);
 - Site address: Specify target monitoring address, such as console.jdcloud.com;  
 
 3. Set detection scheme

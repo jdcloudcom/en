@@ -1,8 +1,8 @@
-# **Search IP Blacklist**
+# **Inquire IP Black List and White List**
 
 ## **1. Description**
 
-Set the IP blacklist to make the IP unable to access the current accelerated domain. The list of IPs with access denied under the domain is searched through the interface
+Inquire ip black list and white list
 
 ## **2. Request Parameters**
 
@@ -20,6 +20,14 @@ Set the IP blacklist to make the IP unable to access the current accelerated dom
 | msg  | Notification Information | 
 | data | Return Data| 
 
+## **data**
+| **Name**         | **Description**               |
+| -------------- | -------------------- |
+| domain      | Accelerated Domain |
+| ipList  | Array, list of ip black list  |
+| whiteIps  | Array, list of ip white list  |
+| isOpen   | Enable or not, value: on (enabled), off (disabled)   |
+
 ## **4. Call Example**
 
 - ### **Request Address**
@@ -32,7 +40,7 @@ https://opencdn.jcloud.com/api/queryIpBlackList
 {
     "username": "user_test",
     "signature": "ca4c56f85e3582f4d814cc77949c82a7",
-    "domain":"test.jcloud.com"
+    "domain":"www.a.com"
 }
 ```
 
@@ -43,12 +51,13 @@ https://opencdn.jcloud.com/api/queryIpBlackList
   "status": 0,
   "msg": "Succeeded",
   "data": {
-    "domain": "test.jcloud.com",
+    "domain": "www.a.com",
     "ipList": [
       "10.112.3.1",
       "10.112.3.2",
     ],
-    "isOpen": "on"
+    "whiteIps": [],
+    "isOpen": "off"
   }
 }
 

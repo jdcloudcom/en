@@ -1,8 +1,8 @@
-# **Set IP Blacklist**
+# **Set IP black list and white list**
 
 ## **1. Description**
 
-Set the IP blacklist to make the IP unable to access the current accelerated domain.
+Set IP black list and white list.
 
 ## **2. Request Parameters**
 
@@ -11,8 +11,8 @@ Set the IP blacklist to make the IP unable to access the current accelerated dom
 | username   | String   | Yes           | JD User Name pin                                                |
 | signature  | String   | Yes           | User signature, verify user's identity information through md5 method to ensure information security. </br>md5=date+username+secret key SecretKey; date: format is yyyymmdd; username: JD user name pin; secret key: agreed between the Parties; </br>example: such as current date 2016-10-23, user pin: jcloud_00, user secret key SecretKey: e7a31b1c5ea0efa9aa2f29c6559f7d61, then the signature is MD5(20161023jcloud_00e7a31b1c5ea0efa9aa2f29c6559f7d61)|
 | domain     | String   | Yes           | Accelerated Domain|
-|iplist | String   | Yes           |IP blacklist, separated by English comma, up to 50 unrepeated ips can be added |
-| ipType     | String   | No           | Value Range [ipv6,ipv4], the IP Type is not distinguished by default when not uploaded.  |
+| ipList   | String | Yes        | Separate ip lists with commas. If ipList is null, it will be deleted and at most 50 entries can be deleted  |
+| ipListType   | String | No        | IP list type (i.e., black list or white list), the default value is black, with value range of [black,white] |
 
 ## **3. Return Parameters**
 
@@ -32,11 +32,12 @@ https://opencdn.jcloud.com/api/setIpBlackList
 
 ```
 {
-    "username": "user_test",
-    "signature": "ca4c56f85e3582f4d814cc77949c82a7",
-    "domain":"test.jcloud.com",
-    "ipList":"1.1.1.1,2.2.2.2"
-}
+    "username" :"jd_cdntest",
+    "signature" :"d00f58f89e8cd55dc080aec0d8051845",
+    "domain" :"www.a.com",
+    "ipList" :"10.112.3.1,12.20.1.2",
+    "ipListType":"black"
+ }
 ```
 
 - ### **Return Example**

@@ -8,9 +8,9 @@
 
 - Add External IDC Intranet Probe
 
-  Log in the Console, select **Asset Management** on the left, and click **Add External IDC Intranet Probe
+  Log in the Console, select **Asset Management** on the left and click **IDC Asset Management
 
-![](../../../../image/Website-Threat-Inspector/wts-idc-assets-01.png)
+![](../../../../image/Website-Threat-Inspector/wts-idc-assets-11.png)
 
 - Download external IDC Intranet probe
 
@@ -20,9 +20,9 @@
 
 - Install External IDC Intranet Probe
 
-  Uncompress the downloaded file (ScannerAgent.sh), and manually run the installation script on the asset device for installation.
+  Uncompress the downloaded file (jd_scanner_idcagent.zip), and manually run the installation script on the asset device for installation.
 
-![](../../../../image/Website-Threat-Inspector/wts-idc-assets-03.png)
+![](../../../../image/Website-Threat-Inspector/wts-idc-assets-13.png)
 
 - View External IDC Intranet Probe Status
 

@@ -1,6 +1,6 @@
 ## Benefits
 ### Rich Detection Protocols
-Site monitoring supports detection to protocols such as HTTP(S), PING, TCP, UDP and SMTP.
+Site monitoring supports detection to protocols such as HTTP(S), PING, TCP, DNS, UDP, SMTP, POP3 and FTP.
 ### Wide Detection Node Coverage
 Site monitoring supports three operators, i.e., Telecom, Mobile and Unicom, with detection nodes covering more than 30 regions across the country.
 ### Detectable Local and Remote Service

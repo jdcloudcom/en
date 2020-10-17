@@ -156,3 +156,57 @@ to access resources of beijingres.
 *  The name of the other one Bucket is exampleguangzhou and the region is cn-south-1, then you cannot use Intranet address `s3-internal.cn-south-1.jdcloud-oss.com`in ECS in cn-north-1
 to access OSS but must use Internet address `s3.cn-south-1.jdcloud-oss.com`instead.
 
+## Access to OSS service via IPv6
+
+The IPv6 domain is applicable both in Internet and intranet and can be used in the environments IPv4 and IPv6 both. However, the IPv6 address can be accessed only via the client in the IPv6 environment.
+
+IPv6 can access OSS via the two methods below:
+
+-   **Access method 1: Represent OSS resources in the form of URL in the course of access. URL composition of OSS is as follows。**
+
+```
+<Schema>://<Bucket>.<IPv6 Endpoint>/<Object> 
+```
+
+-   Schema: HTTP or HTTPS
+-   Bucket: OSS bucket
+-   Endpoint: Access domain of data center of Bucket, you shall fill in IPv6 Endpoint
+-   Object: Files uploaded to OSS
+  For example, if your Region is cn-north-1 (s3-ipv6.cn-north-1.jdcloud-oss.com), the Bucket name is 123, the Object access path is myfile/aaa.txt, and then your IPv6 access address is:
+
+```
+123.s3-ipv6.cn-north-1.jdcloud-oss.com/myfile/aaa.txt
+```
+
+-   **Access method 2: Access a domain by configuring IPv6 with OSS SDK via VM supported by IPv6.**
+
+    Taking Java SDK as an example, when operations are carried out for Bucket in cn-north-1, you need to set Endpoint during instantiation of types:
+
+```Java
+     public class S3SdkTest{
+      public static void main(String[ ] args)  {
+          final String accessKey = "<your accesskey>";
+          final String secretKey = "<your secretkey>";
+          final String endpoint = "https://s3-ipv6.cn-north-1.jdcloud-oss.com";
+          ClientConfiguration config = new ClientConfiguration();
+
+          AwsClientBuilder.EndpointConfiguration endpointConfig =
+                  new AwsClientBuilder.EndpointConfiguration(endpoint, "cn-north-1");
+
+          AWSCredentials awsCredentials = new BasicAWSCredentials(accessKey,secretKey);
+          AWSCredentialsProvider awsCredentialsProvider = new AWSStaticCredentialsProvider(awsCredentials);
+
+          AmazonS3 s3 = AmazonS3Client.builder()
+                  .withEndpointConfiguration(endpointConfig)
+                  .withClientConfiguration(config)
+                  .withCredentials(awsCredentialsProvider)
+                  .disableChunkedEncoding()
+                  .withPathStyleAccessEnabled(true)
+                  .build();
+      }
+  }
+```
+
+**Explanation:**   
+    
+At present, IPv6 is supported for OSS in cn-north-1 and cn-east-1 and is not supported in cn-east-2 and cn-south-1.

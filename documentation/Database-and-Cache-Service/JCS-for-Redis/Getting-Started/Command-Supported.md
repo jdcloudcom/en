@@ -1,127 +1,299 @@
-# JCS for Redis Command Support
+# Redis Command Support
 
-JCS for Redis is based Versions 2.8 and 4.0. For commands, please see: [http://redis.io/commands](http://redis.io/commands)
+JCS for Redis of JD Cloud is based on Versions 2.8 and 4.0. For specific semantics of commands, please refer to: [http://redis.io/commands](http://redis.io/commands)
 
-## Supported Command Operations
+## Command Operation Supported
 
-|Key|String|Hash|List|Set|SortedSet |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|DEL|APPEND|HDEL|LINDEX|SADD|ZADD|            
-|DUMP|BITCOUNT|HEXISTS|LINSERT|SCARD|ZCARD|            
-|EXISTS|BITPOS|HGET|LLEN|SISMEMBER|ZCOUNT|            
-|EXPIRE| DECR |HGETALL| LPOP|SMEMBERS|ZINCRBY|            
-|EXPIREAT|DECRBY|HINCRBY|LPUSH|SPOP| ZRANGE|            
-|KEYS*|GET|HINCRBYFLOAT|LPUSHX|SRANDMEMBER|ZRANGEBYSCORE|           
-|PERSIST|GETBIT|HKEYS|LRANGE       |     	SREM     |ZRANK  |          
-|PEXPIRE|GETRANGE|HLEN|    	LREM        |    	SSCAN      | ZREM|            
-|PEXPIREAT|GETSET|HMGET|     	LSET         |   	|ZREMRANGEBYRANK|            
-|PTTL|INCR|HMSET|LTRIM | |        	ZREMRANGEBYSCORE |           
-|RESTORE|INCRBY|HSET|RPOP      | |      	ZREVRANGE |           
-|SORT|INCRBYFLOAT|HSETNX|RPUSH  | |          	ZREVRANGEBYSCORE |           
-|TTL|MGET|HVALS|RPUSHX     | |       	ZREVRANK|            
-|TYPE|MSET|HSCAN| | |       	       	ZSCORE|            
-|SCAN|PSETEX| | | |ZSCAN            
-| |SET   | |  |       	|ZRANGEBYLEX  |          
-| |SETBIT      | | |   |   	ZLEXCOUNT|            
-| |SETEX       | | |    | 	ZREMRANGEBYLEX   |         
-| |SETNX| | | | |             	
-| |SETRANGE   | | | | |        	
-| |STRLEN    | | | |  |      	
+Instructions for identifications in the command operation table are as follows:
 
-and
-
-| Connection|Server |
-|--------------------|------------------|
-| AUTH               | INFO*            |
-| PING               | CONFIG GET*      |
-| QUIT               | FLUSHDB          |
-| ECHO               | FLUSHALL         |
-| SELECT             |                  |         
-
-Description:
-
-- KEYS command can only be used under the VPC network. It is a dangerous command which may lead to performance problems. Please ensure that it is used under the circumstance with few keys. If it is required to query a specific key from a large data set, it is recommended to use the collection structure (set) of Redis
-
-- INFO command supports server, clients, memory, persistence, stats, replication, cpu, commandstats, cluster and keyspace
-
-1. In case of cluster version, replication and server display the information of a shard, while other subcommands display the information after the statistics.
-
-2. It is specially noted that cluster subcommand displays that db_count indicates the number of databases, and shard_count indicates the number of shards of the current redis version.
-
-- CONFIG command only supports CONFIG GET [parameter] subcommand, and in case of cluster version of Redis, the information of a shard will be returned.
-- Use method of SORT command: SORT key [BY pattern] [LIMIT offset count] [GET pattern [GET pattern ...]] [ASC|DESC] [ALPHA] [STORE destination]
-
-1. As SORT command supports [BY pattern] to be sorted based on the external key, the key shall be ensured to be in the same slot as the key matched with the pattern, or a result inconsistent with expectation will occur.
-
-2. SORT command supports writing results in destination, so the destination shall be ensured to be in the same slot as the key. Otherwise, (error) ERR CROSSSLOT Keys in request don't hash to the same slot error occurs
-
-- Commands not supported in redis2.8 lua script: bgsave, bgrewriteaof, shutdown and config
-
-- Commands not supported in redis4.0 lua script: swapdb, rename, renamenx, bgsave, bgrewriteaof, shutdown, config, cluster, post and host:
-
-## Increased Commands Supported by 4.0
-
-| Key|Hash|SortedSet|Server|Scripting|HyperLogLog|Geo| Pub/Sub (Publication/Subscription) |
-| :-----: | :----------: | :-------------------: | :--------------: | :-------------: | :----------------: | :---------------: | :------------------: |
-| OBJECT  |   HSTRLEN    |    ZREVRANGEBYLEX     |      DBSIZE      |      EVAL       |       PFADD        |      GEOADD       |      PSUBSCRIBE      |
-|  TOUCH  |              |                       |    RANDOMKEY     |     EVALSHA     |      PFCOUNT       |     GEORADIUS     |       PUBLISH        |
-| UNLINK  |              |                       |      MEMORY      |  SCRIPT EXISTS  |      PFMERGE       | GEORADIUSBYMEMBER |        PUBSUB        |
-|  BITOP  |              |                       |     LATENCY      |  SCRIPT FLUSH   |                    |      GEOHASH      |     PUNSUBSCRIBE     |
-|  MOVE   |              |                       |                  |   SCRIPT KILL   |                    |      GEOPOS       |      SUBSCRIBE       |
-|         |              |                       |                  |   SCRIPT LOAD   |                    |      GEODIST      |     UNSUBSCRIBE      |
+| Identification | Description  |  
+|:--:|:--:|
+| ✓ |  Indicating support  |
+| x |  Indicating no support  |
+| - |  Indicating that the command is unavailable   |
+| Restricted |  Indicating supported but restricted |
 
 
-- LATENCY:  In the cluster version mode, shardId can be specified. It is used to obtain the data of the specified shard, and the data with shard 0 are returned by default.
 
-1. Subcommands supported by LATENCY are: [LATEST] [DOCTOR] [ HISTORY event-name] [RESET [event-name … event-name]] [GRAPH event-name] 
+#### Keys
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  DEL      |  ✓   | ✓  |  ✓  | ✓   | 
+|  DUMP     |   ✓   | ✓  |  ✓  | ✓   | 
+|  EXISTS   |  ✓   | ✓  |  ✓  | ✓   | 
+|  EXPIRE   |   ✓   | ✓  |  ✓  | ✓   | 
+|  EXPIREAT |   ✓   | ✓  |  ✓  | ✓   | 
+|  MOVE     |   ✓   | ✓  |  ✓  | ✓   | 
+|  PERSIST  |   ✓   | ✓  |  ✓  | ✓   | 
+|  PEXPIRE  |   ✓   | ✓  |  ✓  | ✓   | 
+|  PEXPIREAT|   ✓   | ✓  |  ✓  | ✓   | 
+|  PTTL     |   ✓   | ✓  |  ✓  | ✓   | 
+|  RANDOMKEY  |   ✓   |  x  |  ✓  | ✓   | 
+|  RENAME   |   ✓   | x  |  ✓  | ✓   | 
+|  RENAMENX |   ✓   | x  |   Restricted   |  Restricted   | 
+|  RESTORE  |   ✓   | ✓  |  Restricted  | Restricted   | 
+|  SORT     |   ✓   | ✓  |  ✓  | ✓   | 
+|  TTL      |   ✓   | ✓  |  ✓  | ✓   | 
+|  TYPE     |   ✓   | ✓  |  ✓  | ✓   | 
+|  SCAN     |   ✓   | ✓  |  ✓  | ✓   | 
+|  OBJECT   |   x   | x  |  ✓  | ✓   | 
+|  UNLINK   |   -   | -  |  ✓  | ✓   | 
+|  KEYS     |   ✓   | ✓  |  ✓  | ✓   | 
+|  WAIT     |   x   | x  |  x  | x   | 
+|  TOUCH    |   -   | -  |  ✓  | ✓   | 
+|  MIGRATE  |   x   | x  |  x  | x   | 
 
-2. In the cluster version mode, for example: LATENCY latest 1, the latest delay time information of Shard 1 is viewed. If shardId is not specified, it shall be Shard 0 by default
+**Explanation:**
 
-- MEMORY command supports subcommands such as help, doctor, stats, purge and malloc-stats, and supports specifying shardId
+* Command KEYS: Search by the command KEYS* is not recommended. You are suggested to search by the command scan. The command KEYS can be used under the VPC network only, which is dangerous and might incur performance problem. If you need to use such command, please be sure to use it only the key count is very low.
 
-MEMORY stats 1 indicates viewing the memory statistic information of Shard 1, and if it is not specified, it is Shard 0 by default
+* Application method of the command SORT: SORT key [BY pattern] [LIMIT offset count] [GET pattern [GET pattern ...]] [ASC|DESC] [ALPHA] [STORE destination]
 
-## Commands not Supported by Cluster Instance
+	* 1. As the command SORT supports sort by [BY pattern] according to external key, please ensure key and key matched to pattern are in the same slot. Otherwise, unexpected results will be incurred.
 
-| Key|String|List|Set|SortedSet|Server|Transaction|
-| :-------: | :--------------: | -----------: | ------------ | ---------------------- | ----------------- | ------------------- |
-|  RENAME   |      BITOP       |    RPOPLPUSH | SDIFF        | ZUNIONSTORE            | SLOWLOG           | DISCARD             |
-| RENAMENX  |      MSETNX      |              | SDIFFSTORE   | ZINTERSTORE            | CONFIG REWRITE    | EXEC                |
-|  OBJECT   |                  |              | SINTER       |                        | CONFIG RESETSTAT  | MULTI               |
-|           |                  |              | SINTERSTORE  |                        | COMMAND COUNT     | UNWATCH             |
-|           |                  |              | SMOVE        |                        | COMMAND GETKEYS   | WATCH               |
-|           |                  |              | SUNION       |                        | COMMAND INFO      |                     |
-|           |                  |              | SUNIONSTORE  |                        |                   |                     |
-
-
-	
-- Redis2.8 version primary-secondary supports transactions, while the cluster does not; Redis4.0 primary-secondary and cluster support transaction. Commands not supported in transactions: SCRIPT *, INFO, SLOWLOG, LATENCY, EVAL, FLUSHALL, SCAN, AUTH, EVALSHA, DBSIZE, CONFIG, FLUSHDB, RANDOMKEY and PING
-
-- ZUNIONSTORE/ZINTERSTORE command, parameters are destination numkeys key [key ...] [WEIGHTS weight] [SUM|MIN|MAX]
-
-All keys and destinations specified must be in the same slot. Otherwise, (error) ERR CROSSSLOT Keys in request don't hash to the same slot error occurs
-
-   
-## Unavailable Commands
-
-|Key|List|Server|Cluster|Connection|
-|:---------:|:------------:|:----------------:|:-------------:|:----------------:|
-|  MIGRATE  |     BLPOP    |       TIME       |  READWRITE   |      SWAPDB      |
-|    WAIT   |     BRPOP    |      MONITOR     |      READONLY   |                  |
-|           |  BRPOPLPUSH  |   BGREWRITEAOF   |      CLUSTER *   |                  |
-|           |              |      BGSAVE      |                |                  |
-|           |              |    CONFIG SET    |               |                  |
-|           |              |      COMMAND     |                 |                  |
-|           |              |   DEBUG OBJECT   |                      |              |                  |
-|           |              |       DEBUG      |                      |              |                  |
-|           |              |  DEBUG SEGFAULT  |                      |              |                  |
-|           |              |       SAVE       |                      |              |                  |
-|           |              |     LASTSAVE     |                      |              |                  |
-|           |              |     SHUTDOWN     |                      |              |                  |
-|           |              |      SLAVEOF     |                      |              |                  |
-|           |              |       SYNC       |                      |              |                  |
-|           |              |       PSYNC      |                      |              |                  |
-|           |              |       ROLE       |                      |              |                  |		
+	* 2. The command SORT supports writing of results in destination. Therefore, be sure to keep destination and key in the same slot. Otherwise, (error) ERR CROSSSLOT Keys in request don't hash to the same slot will be returned.
 
 
+
+
+#### String
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  APPEND    |   ✓   | ✓  |  ✓  | ✓   | 
+|  BITCOUNT  |   ✓   | ✓  |  ✓  | ✓   | 
+|  BITOP     |   ✓   | x  |  ✓  | ✓   | 
+|  BITPOS    |   ✓   | ✓  |  ✓  | ✓   | 
+|  DECR      |   ✓   | ✓  |  ✓  | ✓   | 
+|  DECRBY    |   ✓   | ✓  |  ✓  | ✓   | 
+|  GET       |   ✓   | ✓  |  ✓  | ✓   | 
+|  GETBIT    |   ✓   | ✓  |  ✓  | ✓   | 
+|  GETRANGE  |   ✓   | ✓  |  ✓  | ✓   | 
+|  GETSET    |   ✓   | ✓  |  ✓  | ✓   | 
+|  INCR      |   ✓   | ✓  |  ✓  | ✓   | 
+|  INCRBY    |   ✓   | ✓  |  ✓  | ✓   | 
+|  INCRBYFLOAT   |   ✓   | ✓  |  ✓  | ✓   | 
+|  MGET      |   ✓   | ✓  |  ✓  | ✓   | 
+|  MSET      |   ✓   | ✓  |  ✓  | ✓   | 
+|  MSETNX   |   x   |  x  |  Restricted  | Restricted   | 
+|  PSETEX   |   ✓   | ✓  |  ✓  | ✓   | 
+|  SET      |   ✓   | ✓  |  ✓  | ✓   | 
+|  SETBIT   |   ✓   | ✓  |  ✓  | ✓   | 
+|  SETEX    |   ✓   | ✓  |  ✓  | ✓   | 
+|  SETNX    |   ✓   | ✓  |  ✓  | ✓   | 
+|  SETRANGE |   ✓   | ✓  |  ✓  | ✓   | 
+|  STRLEN   |   ✓   | ✓  |  ✓  | ✓   | 
+|  BITFIELD |   -   |  -  |  ✓  | ✓   | 
+
+
+####  Hash 
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  HDEL      |   ✓   | ✓  |  ✓  | ✓   | 
+|  HEXISTS   |   ✓   | ✓  |  ✓  | ✓   | 
+|  HGET      |   ✓   | ✓  |  ✓  | ✓   | 
+|  HGETALL   |   ✓   | ✓  |  ✓  | ✓   | 
+|  HINCRBY   |   ✓   | ✓  |  ✓  | ✓   | 
+|  HINCRBYFLOAT   |   ✓   | ✓  |  ✓  |  ✓   | 
+|  HKEYS     |   ✓   | ✓  |  ✓  | ✓   | 
+|  HLEN      |   ✓   | ✓  |  ✓  | ✓   | 
+|  HMGET     |   ✓   | ✓  |  ✓  | ✓   | 
+|  HMSET     |   ✓   | ✓  |  ✓  | ✓   | 
+|  HSET      |   ✓   | ✓  |  ✓  | ✓   | 
+|  HSETNX    |   ✓   | ✓  |  ✓  | ✓   | 
+|  HVALS     |   ✓   | ✓  |  ✓  | ✓   | 
+|  HSCAN     |   ✓   | ✓  |  ✓  | ✓   | 
+|  HSTRLEN   |   -   | -  |  ✓  | ✓   | 
+
+
+####  List
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  BLPOP   |   -   | -  |  Restricted  | Restricted   | 
+|  BRPOP   |   -   | -  |  Restricted  | Restricted   | 
+|  BRPOPLPUSH |  -   |  -  |  Restricted  | Restricted   | 
+|  LINDEX   |   ✓   | ✓  |  ✓  | ✓   | 
+|  LINSERT  |   ✓   | ✓  |  ✓  | ✓   | 
+|  LLEN     |   ✓   | ✓  |  ✓  | ✓   | 
+|  LPOP     |   ✓   | ✓  |  ✓  | ✓   | 
+|  LPUSH    |   ✓   | ✓  |  ✓  | ✓   | 
+|  LPUSHX   |   ✓   | ✓  |  ✓  | ✓   | 
+|  LRANGE   |   ✓   | ✓  |  ✓  | ✓   | 
+|  LREM     |   ✓   | ✓  |  ✓  | ✓   | 
+|  LSET     |   ✓   | ✓  |  ✓  | ✓   | 
+|  LTRIM    |   ✓   | ✓  |  ✓  | ✓   | 
+|  RPOP     |   ✓   | ✓  |  ✓  | ✓   | 
+|  RPOPLPUSH |   ✓   |  x  |  Restricted  | Restricted   | 
+|  RPUSH    |   ✓   | ✓  |  ✓  | ✓   | 
+|  RPUSHX   |   ✓   | ✓  |  ✓  | ✓   | 
+
+
+####  Set
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  SADD    |   ✓   | ✓  |  ✓  | ✓   | 
+|  SCARD   |   ✓   | ✓  |  ✓  | ✓   | 
+|  SDIFF   |   ✓   |  x  |  Restricted  | Restricted    | 
+|  SDIFFSTORE   |   ✓   | x  |  Restricted  | Restricted      | 
+|  SINTER  |   ✓   | x  |  Restricted  | Restricted    | 
+|  SINTERSTORE    |   ✓   | x  |  Restricted  | Restricted    | 
+|  SISMEMBER      |   ✓   | ✓  |  ✓  | ✓   | 
+|  SMEMBERS   |   ✓   | ✓  |  ✓  | ✓   | 
+|  SMOVE      |   ✓   | x  |  Restricted  | Restricted    | 
+|  SPOP       |   ✓   | ✓  |  ✓  | ✓   | 
+|  SRANDMEMBER    |   ✓   | ✓  |  ✓  | ✓   | 
+|  SREM       |   ✓   | ✓  |  ✓  | ✓   | 
+|  SUNION     |   ✓   | x  |  Restricted  | Restricted    | 
+|  SUNIONSTORE   |   ✓   | x  |  Restricted  | Restricted    | 
+|  SSCAN      |   ✓   | ✓  |  ✓  | ✓   | 
+
+
+####  Sorted Set
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  ZADD     |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZCARD    |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZCOUNT   |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZINCRBY  |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZRANGE   |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZRANGEBYSCORE   |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZRANK    |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZREM     |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZREMRANGEBYRANK  |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZREMRANGEBYSCORE |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZREVRANGE        |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZREVRANGEBYLEX   |   -   | -  |  ✓  | ✓   | 
+|  ZREVRANGEBYSCORE |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZREVRANK      |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZSCORE        |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZUNIONSTORE   |   ✓   | x  |  Restricted  | Restricted    | 
+|  ZINTERSTORE   |   ✓   | x  |  Restricted  | Restricted    | 
+|  ZSCAN         |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZRANGEBYLEX      |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZLEXCOUNT        |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZREMRANGEBYLEX   |   ✓   | ✓  |  ✓  | ✓   | 
+|  ZPOPMAX   |   -   | -  |  -  | -   | 
+|  ZPOPMIN   |   -   | -  |  -  | -   | 
+|  BZPOPMIN  |   -   | -  |  -  | -   | 
+|  BZPOPMAX  |   -   | -  |  -  | -   | 
+
+
+####  hyperloglog 
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+| PFADD    | ✓ | x  | ✓ |  ✓  | 
+| PFCOUNT  | ✓ | x  | ✓ |  ✓  | 
+| PFMERGE  | ✓ | x  | ✓ |  ✓  | 
+
+
+####  Pub/Sub
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  PSUBSCRIBE   |   x   | x  |  ✓  | ✓   | 
+|  PUBLISH      |   x   | x  |  ✓  | ✓   | 
+|  PUBSUB       |   x   | x  |  ✓  | ✓   | 
+|  PUNSUBSCRIBE |   x   | x  |  ✓  | ✓   | 
+|  SUBSCRIBE    |   x   | x  |  ✓  | ✓   | 
+|  UNSUBSCRIBE  |   x   | x  |  ✓  | ✓   | 
+
+
+#### Transaction
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  DISCARD   |   ✓   | x  |  ✓  | ✓   | 
+|  EXEC      |   ✓   | x  |  ✓  | ✓   | 
+|  MULTI     |   ✓   | x  |  ✓  | ✓   | 
+|  UNWATCH   |   ✓   | x  |  ✓  | ✓   | 
+|  WATCH     |   ✓   | x  |  ✓  | ✓   | 
+
+
+#### Connection
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  AUTH   |   ✓   | ✓  |  ✓  | ✓   | 
+|  ECHO   |   ✓   | ✓  |  ✓  | ✓   | 
+|  PING   |   ✓   | ✓  |  ✓  | ✓   | 
+|  QUIT   |   ✓   | ✓  |  ✓  | ✓   | 
+|  SELECT |   ✓   | ✓  |  ✓  | ✓   | 
+|  SWAPDB |   x   | x   |  x  | x   | 
+
+
+#### Server
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  FLUSHALL  |   ✓   | ✓  |  ✓  | ✓   | 
+|  FLUSHDB   |   ✓   | ✓  |  ✓  | ✓   | 
+|  DBSIZE    |   x   |  x  |  ✓  | ✓   | 
+|  TIME      |   x   |  x  |  x  | x   | 
+|  INFO      |   ✓   | ✓  |  ✓  | ✓   | 
+|  KEYS      |   ✓   | ✓  |  ✓  | ✓   | 
+|  CLIENT KILL   |   x   | x  |  x     | x     | 
+|  CLIENT LIST   |   x   | x  |  Restricted  | Restricted  | 
+|  CLIENT GETNAME   |   x   | x  |  ✓  | ✓   | 
+|  CLIENT SETNAME   |   x   | x  |  ✓  | ✓   | 
+|  CONFIG GET       |   x   | x  |  ✓  | ✓   | 
+|  MEMORY           |   -  | - |  ✓  | ✓   | 
+|  LATENCY          |   x   |  x  |  ✓  | ✓   | 
+
+**Explanation:**
+
+* INFO commands support: server, clients, memory, persistence, stats, replication, cpu, commandstats, cluster and keyspace
+
+	* 1. In case of the cluster version, replication and server are only used for displaying information of one shard, while other sub-commands are used for displaying information after statistics.
+
+	* 2. Special instruction: The sub-command cluster is used for displaying db_count which indicates count of database, while shard_count indicates shard count of existing redis version.
+
+* The command CONFIG supports the sub-command CONFIG GET [parameter] only. Moreover, for Redis of cluster version, information of one shard is returned.
+
+* LATENCY: Under the mode of cluster version, shardId can be designated. It is used for obtaining data of a designated shard and data of the shard 0 are returned by default.
+
+	* 1. Sub-commands supported by LATENCY include: [LATEST] [DOCTOR] [ HISTORY event-name] [RESET [event-name … event-name]] [GRAPH event-name]
+
+	* 2. Under the cluster version mode, for example, LATENCY latest 1, the latest delay time information of 1# shard can be viewed. If no shardId is designated, the 0# shard is the default shard.
+
+* The command MEMORY supports sub-commands such as help, doctor, stats，purge and malloc-stats and designated shardId
+
+	* MEMORY stats 1 indicates viewing memory statistical information of 1# shard. If it is not designated, information of 0# shard is viewed by default
+
+
+
+#### Scripting
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  EVAL      |   ✓   | ✓  |  ✓  | ✓   | 
+|  EVALSHA   |   ✓   | x  |  ✓  | ✓   | 
+|  SCRIPT EXISTS   |   ✓   | x  |  ✓  | ✓   | 
+|  SCRIPT FLUSH    |   ✓   | x  |  ✓  | ✓   | 
+|  SCRIPT KILL     |   ✓   | x  |  ✓  | ✓   | 
+|  SCRIPT LOAD     |   ✓   | x  |  ✓  | ✓   | 
+|  SCRIPT DEBUG    |   ✓   | x  |  ✓  | ✓   | 
+
+
+#### Geo
+| Command | 2.8 Standard Version  |  2.8 Cluster Version  |  4.0 Standard Version  |  4.0 Cluster Version  | 
+|:--:|:--:|:--:|:--:|:--:| 
+|  GEOADD   |   x   |  x  |  ✓  | ✓   | 
+|  GEOHASH  |   x   |  x  |  ✓  | ✓   | 
+|  GEOPOS   |   x   |  x  |  ✓  | ✓   | 
+|  GEODIST  |   x   |  x  |  ✓  | ✓   | 
+|  GEORADIUS   |   x   |  x  |  ✓  | ✓   | 
+|  GEORADIUSBYMEMBER   |   x   |  x  |  ✓  | ✓   | 
+
+
+
+
+###  Other Description 
+
+* If you need to carry out the restricted commands in the cluster instance, you need to use hash tag to ensure keys to be operated by the command are distributed in one hash slot.
+
+* Description for commands unsupported in the lua scripting:
+
+	* 1. Commands unsupported in the redis2.8 lua scripting include: bgsave, bgrewriteaof, shutdown and config
+
+	* 2. Commands unsupported in the redis4.0 lua scripting include: swapdb, rename, renamenx, bgsave, bgrewriteaof, shutdown, config, cluster, post and host
+
+* Commands unsupported in transactions: SCRIPT *, INFO, SLOWLOG, LATENCY, EVAL, FLUSHALL, SCAN, AUTH, EVALSHA, DBSIZE, CONFIG, FLUSHDB, RANDOMKEY and PING
+
+* For the command ZUNIONSTORE/ZINTERSTORE, the parameters are destination numkeys key [key ...] [WEIGHTS weight] [SUM|MIN|MAX]
+
+	* Be sure to keep all designated keys and destinations in the same slot. Otherwise, (error) ERR CROSSSLOT Keys in request don't hash to the same slot will be returned
 

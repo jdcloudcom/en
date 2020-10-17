@@ -25,7 +25,12 @@ You may an appropriate service version according to your domain asset quantity.
 | Asset Association Discovery    | Support               | Support       | Support Viewing Historical Scan Records   |
 | Docker Image Risk Detection   | Support (100 Images/Day)    | Support (100 Images/Day)       | Support (10 Images/Day)   |
 | Scan Scenarios: Internet Asset  | Support               | Support       | Support Viewing Historical Scan Records   |
-| Scan Scenarios: VPC Intranet Asset | Support               | Support       | Not Support |
-| Scan Scenarios: External IDC Asset | Support               | Support       | Not Support |
+| Scan Scenarios: VPC Intranet Asset | Support<br>For vpc subnet scanned, you need to separately pay the cost of scanning probes (container instance) | Support<br>For vpc subnet scanned, you need to separately pay the cost of scanning probes (container instance) | Not Support |
+| Scan Scenarios: External IDC Asset | Support<br/>You need to manually deploy a local scanning probe in the IDC environment | Support<br/>You need to manually deploy a local scanning probe in the IDC environment | Not Support |
 | Purchase Expandable Instance Packagddde | Support               | Not Support       | Not Support |
 
+#### Instructions to Expense of VPC Intranet Scanning Probe
+
+For VPC intranet scanning within a tenant, you need to separately pay corresponding cost of scanning probes deployed in each VPC subnet(carried by container instance).
+
+The details are subject to the latest container instance price settled by configuration, https://cns-console.jdcloud.com/host/container/create?dataCenter=cn-north-1
