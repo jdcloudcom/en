@@ -42,6 +42,7 @@ This article describes how to create a MongoDB instance via console.
        ![image-20200120161354197](../../../../image/mongodb/mongo-049.png)
 
        - Database version: Versions 3.2, 3.4, 3.6 and 4.0 are optional.
+       - Nodes: Nodes of replica set, with 3, 5 and 7 nodes available.
        - Storage type: Local Disk SSD and SSD Cloud Disk are optional.
        - Specifications: The CPU and memory occupied by the instance, different specifications correspond to different maximum number of connections and IOPS (that is, the maximum value that can be achieved by reading and writing respectively, and the maximum number of mixed reading and writing can reach 2 times of the index).
        - Storage Space: The disk space occupied by the instance.
@@ -66,13 +67,13 @@ This article describes how to create a MongoDB instance via console.
 
    - Deployment method
 
-     MongoDB instance supports single and multiple availability zones deployment. Single availability zone deployment means that the three physical nodes of the MongoDB instance are distributed on different physical machines in the same Availability Zone, which can provide disaster tolerance across the racks. Multiple Availability Zone deployment refers to the three physical nodes of the MongoDB instance are distributed on physical machines in different Availability Zones, which can provide disaster tolerance across the machine rooms, but there is some delay in network transmission. You can choose the deployment method based on your business requirements.
+     MongoDB instances support deployment in one or more availability zones. Deployment in a single availability zone refers to that nodes in the MongoDB replica set are distributed among different physical machines in the same availability zone, providing cross-rack disaster recovery; Deployment in multiple availability zones refers to that nodes in the MongoDB replica set are distributed among different physical machines of different availability zones, providing disaster recovery among data centers and causing network transmission delay. You can select your own deployment method according to business requirements.
 
-     - Replica set instance, successively select the availability zones of Primary, Secondary and Hidden nodes.
+     - Instance of replica set, select availability zone for node of replica set and the node of replica set will be created in the availability zone selected in a circularly.
 
        ![image-20200120161354197](../../../../image/mongodb/mongo-052.png)
 
-     - Sharded cluster instance, select the availability zones of Primary, Secondary and Hidden nodes of shard and configserver, as well as availability zones of multiple mongos.
+     - The shard and configserver of shard cluster instance are three-node replica sets. Select availability zones of nodes Primary, Secondary and Hidden of shard and configserver as well as multiple availability zones of mongos.
 
        ![image-20200120161354197](../../../../image/mongodb/mongo-051.png)
 

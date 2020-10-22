@@ -12,7 +12,7 @@ Open JD Cloud & AI console, click on the left navigation bar VPC  - Network ACL,
 
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Network-ACL-Configuration/Step1.png)
 
-![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Network-ACL-Configuration/Step2.png)
+![](../../../../image/Networking/Virtual-Private-Cloud/Operation-Guide/Network-ACL-Configuration/Step2.png)
 
 
 
@@ -24,6 +24,8 @@ Open JD Cloud & AI console, click on the left navigation bar VPC  - Network ACL,
 
 3. Click on **Edit Rules** to set the protocol type, IP, port and policy, and then click on **OK** to add the modification for completing the rules. After modification, the rules will be effective immediately;
 
+    Note: If the protocol type is IPv4 exclusive or IPv6 exclusive protocol, the IP address of the related type should be entered. If the ICMPv6 protocol type is selected, enter the IPv6 address at the target end
+
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Network-ACL-Configuration/Step3.png)
 
 
@@ -34,7 +36,7 @@ Open JD Cloud & AI console, click on the left navigation bar VPC  - Network ACL,
 
 2. Select the subnets that need to be associated in the popup window. Click **OK** to associate the network ACL rule with the subnets. It takes effect immediately after the associating is completed;
 
-Note: A network ACL can be associated with multiple subnets, but a subnet can only be associated to one network ACL.
+    Note: A Network ACL can be associated with several Subnets while a Subnet can only be associated with one Network ACL. If you need to configure ACL rules supporting IPv6, you need to associate it with IPv6 Subnet
 
 ![](/image/Networking/Virtual-Private-Cloud/Operation-Guide/Network-ACL-Configuration/Step4.png)
 

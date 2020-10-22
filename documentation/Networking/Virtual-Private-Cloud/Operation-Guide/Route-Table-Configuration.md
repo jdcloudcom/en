@@ -1,6 +1,6 @@
 ## **Route Table Configuration**
 
-#### **Step 1 Create a Customized Route Table**
+#### **Step 1. Create a Customized Route Table**
 
 1. Open the console and choose Networking > VPC > Route Table to enter the route table list page;
 
@@ -8,7 +8,9 @@
 
 3. Region Selection: In this step, you can still choose the region where the route table is created;
 
-4. Select the VPC which it belongs, and the route table must be created in a VPC.
+4. Select the VPC which it belongs, and the route table must be created in a VPC;
+
+       Dual stack Virtual Private Cloud support creating IPv6 Route Table
 
 5. Set the Name of Route Table: The name cannot be blank. Only Chinese, numbers, uppercase and lowercase letters, English underscore "_" and line-through "-" are accepted, not exceeding 32 characters;
 
@@ -20,23 +22,24 @@
 
 
 
-#### **Step 2 Associate Subnet**
+#### **Step 2. Associate Subnet**
 
 1. Open the console and choose Networking > VPC > Route Table to enter the route table list page;
-2. Click **Associate Subnet** under the operation bar, or click **Route Table Name** to enter the details of route table, click **Associate Subnet* button of **Associate Subnet** tab:
-3. In the subnet selection pop-up window, choose a subnet to be associated with this route table. Remember that the subnet and route table should be in the same VPC. 
+2. Click **Associate Subnet** under the operation bar, or click **Route Table Name** to enter the details of route table, click **Associate Subnet* button of **Associate Subnet** tab;
+3. In the subnet selection pop-up window, choose a subnet to be associated with this route table. Remember that the subnet and route table should be in the same VPC;
 4. Click on **OK** to associate the route table to the subnet;
 
 ```
 Use Restrictions:
 1) Route Table can only associate with subnets with the same attribute;
 2) Subnets will have the same attribute under two circumstances: a. Standard Subnet at the same region, b. Edge Subnet associating with the same edge zone at the same region;
-3) Route Table that has associated with a Standard Subnet cannot associate with an Edge Subnet; Route Table that has associated with an Edge Subnet cannot associate with a Standard Subnet or an Edge Subnet in different edge zones.
+3) Route Table that has associated with a Standard Subnet cannot associate with an Edge Subnet; Route Table that has associated with an Edge Subnet cannot associate with a Standard Subnet or an Edge Subnet in different edge zones;
+4) If you need to configure route policies supporting IPv6, you need to associate it with IPv6 Subnet.
 ```
 
 
 
-#### **Step 3 Modify the Name/Description**
+#### **Step 3. Modify the Name/Description**
 
    1. Open the console, select Networking > VPC > Route Table, and click the route table name to enter the route table’s details page;
    
@@ -44,7 +47,7 @@ Use Restrictions:
 
 
 
-#### **Step 4, Delete Route Table**
+#### **Step 4. Delete Route Table**
 
 1. Open the console and choose Networking > VPC > Route Table to enter the route table list page;
   
@@ -54,36 +57,36 @@ Use Restrictions:
   
 4. Restrictions on deleting route tables:
 
-    a) The customized route table associated with the subnet cannot be deleted.
+    a) The customized route table associated with the subnet cannot be deleted;
     b) The default route table cannot be deleted.
 
 
 
-#### **Step 5, Route Rules**
+#### **Step 5. Route Rules**
 
-1. Default route table. When creating a VPC, a default route table is created by default, which contains two default route rules, namely Local for VPC internal communication and Internet gateway for accessing public network. Local route cannot be modified or deleted, and its specific rule is [Local Local Local]. The Internet route can be modified and deleted.
+1. Default route table. When creating a VPC, a default route table is created by default, which contains two default route rules, namely Local for VPC internal communication and Internet gateway for accessing public network. Local route cannot be modified or deleted, and its specific rule is [Local Local Local]. The Internet route can be modified and deleted;
 
-2. Customized route table. The route table created by the user is a customized route table, which contains a default route rule, namely Local for the VPC internal communication that cannot be modified or deleted.
+2. Customized route table. The route table created by the user is a customized route table, which contains a default route rule, namely Local for the VPC internal communication that cannot be modified or deleted;
 
-3. Communicate between subnets in the VPC to preferentially match the Local route.
+3. Communicate between subnets in the VPC to preferentially match the Local route;
 
-4. The route rules of the route table match in a sequence from top to bottom and match exactly.
+4. The route rules of the route table match in a sequence from top to bottom and match exactly;
 
 
 
-#### **Step 6, Editing route rules**
+#### **Step 6. Editing route rules**
 
  1. Open Console, select **Network > VPC > Route Table**, click **Route Table Name** to enter the details of route table, click **Route Policy** to enter routing rules tab, click **Edit**;
 
-2. The destination ends of the route rules cannot be null, and the destination ends of the route rules cannot be identical. The destination end input format is the CIDR of the network segment.
+ 2. The target end of router rules cannot be null and the target ends among router rules cannot be identical. The enter format of target end is CIDR of the network segment. If a designated address should be entered, enter: x.x.x.x/32 for IPv4 addresses, and enter: xxxx::/128 for IPv6 addresses;
 
-3. If the VPC on the route table has a preset CIDR, the destination end of the route rule cannot conflict with the CIDR of the VPC.
+ 3. If the VPC on the route table has a preset CIDR, the destination end of the route rule cannot conflict with the CIDR of the VPC.
 
-4. If the VPC on the route table does not have a preset CIDR, the destination of the route rule cannot conflict with the CIDR of any subnet in the VPC.
+ 4. If the VPC on the route table does not have a preset CIDR, the destination of the route rule cannot conflict with the CIDR of any subnet in the VPC.
 
-5. The next hop type supports the Internet and the VM as the next hop. If the traffic needs to access the Internet, you can select the Internet gateway or the self-built VM as the public network gateway.
+ 5. The types of Next Hop can be Internet and VM, Border Gateway, VPC Peer-to-peer Connection, NAT Gateway, etc., in which the type of Next Hop for IPv6 route policies can be VM, VPC Peer-to-peer Connection and Internet; If the traffic needs to access the Internet, users can select the Internet gateway or create a VM as the public network gateway;
 
- 6. The Next Hop (Address) supports Internet and Virtual Machines, Border Gateway, VPC Peering, NAT Gateway, etc. as the address of Next Hop, a Virtual Machine configured with SNAT feature can be selected as Gateway of Next Hop;
+ 6. The Next Hop address for IPv4 can be Internet and VM, Border Gateway, VPC Peer-to-peer Connection, NAT Gateway, etc. and the Next Hop address for IPv6 can be Internet, VM and VPC Peer-to-peer Connection; users can select a VM with SNAT function as the Next Hop gateway;
 
  7. Click **Save** to save results of edition and modification;
 

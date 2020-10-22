@@ -1,9 +1,9 @@
-# Automatic Image Policy (The product is in invite beta)
+# Automatic Image Policy
 
 JD Cloud & AI now supports the use of Automatic Image Policy to set periodic host backup tasks for your Virtual Machine. Automatic Image Policy is an automatic task policy that can periodically back up Virtual Machine data and make image for the user according to the rules specified by the user. You can be free from periodically and manually making images for Virtual Machines if you use this product.
 	
 	Please note:
-	* As the product is currently in the Greyscale invite beta, if you cannot view relevant pages via accessing the Console, it means that you do not have the right to use the product. Please open ticket for application.
+	* At most 20 automatic image policies are allowed to be created for a single region. For additional demands, please make an application via a ticket
 
 ## Fast Navigation
 

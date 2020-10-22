@@ -65,8 +65,6 @@
             href: Operation-Guide/Networking/Route-Table.md
           - name: Elastic IP
             href: Operation-Guide/Networking/Elastic-IP-For-Physical-Cloud.md
-          - name: Load Balancer
-            href: Operation-Guide/Networking/Load-Balancer.md
       - name: Firewall Configuration Instruction
         items:
           - name:  Function Description

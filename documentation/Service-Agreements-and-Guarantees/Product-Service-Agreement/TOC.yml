@@ -14,10 +14,6 @@ items:
     href: Container-Registry-Service-Terms.md
   - name: Service Level Agreement (SLA) of Container Registry
     href: Container-Registry-Service-SLA.md
-  - name: RDS Service Agreement
-    href: Cloud-Database-RDS-Service-Clause.md
-  - name: RDS Service Level Agreement (SLA)
-    href: Cloud-Database-RDS-Service-Level-Agreement-SLA.md
   - name: Object Storage Service Agreement
     href: Object-Storage-Service-Clause.md
   - name: Object Storage Service Level Agreement (SLA)

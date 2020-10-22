@@ -18,7 +18,7 @@ Currently, MongoDB 3.2, 3.4, 3.6 and 4.0 versions are supported.
 
 | Instance Architecture     | Description                                                         |
 | ------------ | ------------------------------------------------------------ |
-| Replica Set Instance   | Three-node replica set by default, namely Primary node, Secondary node and hidden node, where the Primary and Secondary are visible for users. |
+| Replica Set Instance   | Multiple replica sets are provided, including three-node, five-node and seven-node replica sets, and change of nodes is supported. |
 | Sharded Cluster Instance | Sharded cluster instance composed based on multiple replica sets, containing Mongos, Shard and ConfigServer components. |
 
 ## Supported Region and Availability Zone

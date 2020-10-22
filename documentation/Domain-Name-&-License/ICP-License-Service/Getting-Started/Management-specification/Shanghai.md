@@ -6,7 +6,7 @@
 
 2. For the items named subject’s responsible person and website’s responsible person, legal person shall be filled in them
 
-3. If website’s responsible person is not the legal person, legal person’s authorization letter shall be provided
+3. If website's responsible person is not the legal person, [Power of Attorney for Person in Charge of License.docx](https://badownload.s3.cn-north-1.jdcloud-oss.com/buchongziliao/shanghai/shanghaishouquanshu.docx) shall be provided
 
 4. **Please be sure to submit the [Undertaking for License of Internet Information Service in Shanghai. docx](https://badownload.s3.cn-north-1.jdcloud-oss.com/buchongziliao/shanghai/fuwuchengnuo.docx)**
 

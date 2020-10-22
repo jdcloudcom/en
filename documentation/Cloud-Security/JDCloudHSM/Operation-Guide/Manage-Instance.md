@@ -12,10 +12,3 @@ On the details page, you can see the details of the JD Cloud HSM instance and th
 
 The JD Cloud HSM instance can be "started" and "stopped" at the Console, and the JD Cloud HSM instance will not provide services.
 
-## Security Management
-
-At the Console, you can manage the security of the JD Cloud HSM instance
-
-[Operation Steps](White-List.md)
-
-![安全管理入口](/image/JDCloudHSM/Console/安全管理入口.png)

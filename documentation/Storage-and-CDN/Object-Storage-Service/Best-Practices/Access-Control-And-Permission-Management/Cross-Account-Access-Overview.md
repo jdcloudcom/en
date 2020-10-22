@@ -18,7 +18,7 @@ Setting Method:
 
 * Console Setting:
 
-1. Log in to OSS Console - Space Management - click the Bucket to be authorized - Space Setting - Permission Setting - Customized Permission
+1. Log in OSS Console - Space Management - Click the Bucket requiring authorization - Permission Management - Read/Write Permission Setting - Customized
 
 ![Bucket Policy](../../../../../image/Object-Storage-Service/OSS-118.png)
 

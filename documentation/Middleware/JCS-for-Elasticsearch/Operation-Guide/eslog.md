@@ -9,11 +9,13 @@ Content: Specific Contents of Log</br>
 JD Cloud Log Service has been enabled.</br>
 
 JCS for Elasticsearch cluster instance has been created.</br>
-### Configuration Process
-First, you need to create log set for storing Elasticsearch logs in Log Service, which the log set name and saving time can be defined according to your business requirements.</br>
 
-Then, you need to add corresponding log topic to the log set, which the name topic is suggested to be corresponding to the log type that you need to search, i.e., one log topic of primary log, search slow log, index slow log, GC log can only correspond one type of log respectively.</br>
+### Operation Steps
+1. Click the **Operations - More - Log Service** buttons on the List Page and redirect to the Log Service Page.</br>
 
-Finally, you need to add collection configuration of corresponding product and log type for the log topic, and you can also collect log information of all instances under the product and instance type, or collect log information by designating part of instances. See cloud product [Log Collection](https://docs.jdcloud.com/en/logservice/cloudresource) and [Log Configuration Management](https://docs.jdcloud.com/en/logservice/collectionconfigmanagement) for Log Service collection configuration method.</br>
-### Retrieval Log
-After collection configuration of you log information you need is completed, you can search log information on Log Retrieval page of Log Service. By entering keywords and setting time scope, you can rapidly lock the log contents you want to search. See [Log Retrieval](https://docs.jdcloud.com/en/logservice/fulltextsearch) for log syntax and rules of JCS for Elasticsearch.
+2. Log Service ON/OFF is off by default. In the off state, Log Service is not valid. Users can switch between the on/off states.</br>
+
+3. When Log Service ON/OFF is on, Log Service is valid and creates log sets es-log-{ClusterID} and 4 log topics (main log, index slow log, search slow log and GC log) on JD Cloud & AI Log Service; When Log Service ON/OFF is off, the system will delete log sets and log topics which are automatically created.</br>
+
+4. Users can search the log contents up to a maximum of 30 days for primary logs, search slow logs, index slow logs and GC logs. Click the log content to display the log context.</br>
+

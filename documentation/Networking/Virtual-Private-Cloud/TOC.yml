@@ -45,6 +45,8 @@
         href: Pricing/Billing-Overview.md
   - name: Getting Started
     items:
+       - name: Build IPv4/IPv6 Dual Stack Virtual Private Cloud
+         href: Getting-Started/Create-VPC-For-IPv4andIPv6.md
        - name: Create a VM instance In a VPC
          href: Getting-Started/Create-Virtual-Machine-Instance-In-VPC.md
        - name: Create VM Instance in Edge Subnet
@@ -93,7 +95,8 @@
          href: Operation-Guide/VPC-Peering-Configuration.md
   - name: Best Practices
     items:
-    status: 0
+     - name: Transfer IPv4 Virtual Private Cloud Business to IPv4/IPv6 Dual Stack Network
+       href: Best-Practice/Part-Of-IPv4toIPv6-Best-Practice.md
   - name: Troubleshooting
     items:
     status: 0

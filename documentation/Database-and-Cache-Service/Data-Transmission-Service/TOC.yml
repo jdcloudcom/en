@@ -5,7 +5,7 @@
     items:
       - name: Product Overview 
         href: Introduction/Product-Overview.md
-      - nameSupported Database
+      - name: Supported Database
         href: Introduction/Database-Type.md
       - name: Basic Architecture 
         href: Introduction/Basic-Infrastructure.md
@@ -15,6 +15,12 @@
         href: Introduction/Features.md
       - name: Application Scenarios  
         href: Introduction/Application-Scenarios.md    
+  - name: Pricing
+    items:
+      - name: Price Overview
+        href: Pricing/Price-Overview.md
+      - name: Description for Arrears
+        href: Pricing/Overdue-Statement.md
   - name: Getting Started
     items:
       - name: Data Migration

@@ -11,7 +11,7 @@ JD Cloud & AI VPC provides you with the following functions:
 - Subnet-level access control can be realized through network ACL.
 - Instance-level access control can be realized through security group.
 
-When creating the VPC, users can specify the range of IP address for VPC in the form of the classless inter-domain routing block (CIDR, for example, 10.0.0.0/16) or users can also choose not preset the CIDR (at this time, VPC’s range will be changed dynamically according to the CIDR range of the subnet which is created in VPC). VPCs have the attributes of region. Users cannot create VPCs across the region. IP address blocks among different VPCs can overlap.
+When creating a VPC, users can designate the IP address range for the VPC by Classless Inter-Domain Routing (CIDR, e.g. 10.0.0.0/16) or choose not to preset CIDR (then the VPC range will change dynamically with the CIDR range of the Subnet created therein). When you create a VPC supporting IPv6, JD Cloud & AI will provide you with (/56) IPv6 CIDR of fixed size, so you are unable to choose the IPv6 CIDR range. Since the Virtual Private Cloud is limited by regions, you cannot create cross-region VPCs. IP address blocks among different VPCs can be overlapped.
 
 
 
@@ -32,7 +32,8 @@ Matters required attention when planning CIDR:
 
 - When creating the VPC, it can choose that whether to specify the CIDR or not. If you have deep understanding of the network or are uncertain about the future development of the network, it is recommended to create the VPC without CIDR.
 - CIDR of the subnet must be part of its VPC CIDR.
-- The VPC currently supports the Private IP on three network segments: 10.a.0.0/16 (a from 0 to 255), 172.b.0.0/16 (b from 16 to 31) and 192.168.0.0/16.
+- Currently, the Virtual Private Cloud supports private IPs of IPv4 in three segments: 10.a.0.0/16 (a is from 0 to 255), 172.b.0.0/16 (b is from 16 to 31), 192.168.0.0/16.
 - Currently, mask of the VPC and subnet CIDR support the value of 16-28.
+- VPCs supporting IPv6 addresses do not support customized CIDR. JD Cloud & AI will provide (/56) IPV6 CIDR of fixed size
 
 Please see more details of CIDR at: <https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing>

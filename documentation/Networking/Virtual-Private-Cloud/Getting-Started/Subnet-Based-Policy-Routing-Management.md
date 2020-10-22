@@ -10,7 +10,7 @@
 
 4. Set Up the VPC Name: The name cannot be null only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_" and line-through "-", and cannot exceed 32 characters;
 
-5. Set Up the CIDR of the VPC: Set up the boundary of the VPC, CIDR can only be configured in the intranet segment, the optional range is 10.0.0.0 (The mask is 16) ,172.31.0.0 (The mask is 16 to 28). The CIDR may not be preset. In this case, the boundary of the VPC will be automatically scaled along with the IP range of the subnet. It is recommended that the user who has deep understanding of the network select a VPC without a preset CIDR.
+5. Set Virtual Private Cloud CIDR: When the Virtual Private Cloud border is set, CIDR can only be private network segments, with optional ranges of 10.0.0.0 (netmask: 16\~28), 172.16.0.0\~172.31.0.0 (netmask: 16\~28) and 192.168.0.0 (netmask: 16\~28). CIDR may not be preset, then the VPC border will be automatically scaled along with the Subnet segment. We recommend that users with a deep understanding of network choose Virtual Private Cloud of no preset CIDR.
 
 6. Fill the VPC description: The description can be null, only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", and cannot exceed 256 characters;
 
@@ -34,7 +34,7 @@
 
 5. Create a Subnet: Support to create multiple subnets at the same time, enter the subnet name, subnet CIDR, associated route table, description, and other information.
 
-6. The CIDR of the subnet can only be the intranet segment. The optional range is 10.0.0.0 (The mask is 16), 172.31.0.0 (The mask is 16-28).
+6. The Subnet CIDR can only be private network segments, with optional ranges of 10.0.0.0 (netmask: 16\~28), 172.16.0.0\~172.31.0.0 (netmask: 16\~28) and 192.168.0.0 (netmask: 16\~28).
 
 7. The CIDRs of multiple subnets cannot be overlapped. If the VPC has preset CIDR, the CIDR of the belonging subnets cannot exceed the boundary of the VPC.
 
@@ -56,8 +56,7 @@
 
 1. Open the console and select Networking > Subnet to enter the subnet list page;
 
-2. Click on the **Change Route Table**
-3.  in the action column;
+2. Click on the **Change Route Table** in the action column;
 
 3. In the pop-up route table selection page, select a route table in this VPC to replace the current one for the subnet;
 

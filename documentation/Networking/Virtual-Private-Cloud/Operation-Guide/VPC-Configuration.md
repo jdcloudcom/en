@@ -10,7 +10,8 @@
 
 4. Set Up the VPC Name: The name cannot be null. Only Chinese, numbers, uppercase and lowercase letters, English underscore "_" and line-through "-" are accepted, not exceeding 32 characters;
 
-5. Set Up the CIDR of the VPC: Set up the boundary of the VPC. CIDR can only be the intranet segment. The optional range is 10.0.0.0 (The mask is 16 ~ 28), 172.16.0.0 ~ 172.31.0.0 (The mask is 16 ~ 28), 192.168.0.0. (The mask is 16 ~ 28). The CIDR may not be preset. In this case, the boundary of the VPC will be automatically scaled along with the network segment of the subnet. It is recommended that the user who has deep understanding of the network select a VPC without a preset CIDR.
+5. Set Virtual Private Cloud CIDR: When the Virtual Private Cloud border is set, IPv4 CIDR can only be private network segments, with optional ranges of 10.0.0.0, 172.16.0.0 ~ 172.31.0.0, 192.168.0.0 (the optional range of the above three netmasks is 16 ~ 28). IPv4 CIDR may not be preset, then the VPC border will be automatically scaled along with the Subnet segment. We recommend that users with a deep understanding of network choose Virtual Private Cloud of no preset CIDR.
+
 
 6. Description to VPC Setup: The description can be null, only supports Chinese, numbers, uppercase and lowercase letters, English underscore "_", and cannot exceed 256 characters;
 
@@ -43,3 +44,18 @@ Open the console, select Networking > VPC, click the VPC name to enter the VPC d
 4. Restrictions on deleting VPC: The VPC in which has created subnet cannot be deleted;
 
 5. When the VPC is deleted, the route table, networking ACL, and security group in this VPC will be deleted synchronously.
+
+### **Configure IPv4/IPv6 Dual Stack VPC**
+JD Cloud & AI supports IPv4/IPv6 dual stack Virtual Private Cloud (currently, IPv6 is under beta. If you need to use it, please [Open Ticket](https://ticket.jdcloud.com/applyorder/submit) to apply for beta).
+
+**Step 1: ** Log in [JD Cloud & AI Official Website](https://www.jdcloud.com/);
+
+**Step 2: ** Click the Console on the top right corner of the page to log in JD Cloud & AI Console and then access the Console navigation page;
+
+**Step 3: ** Click **Cloud Service**, select **Virtual Private Cloud** and access the Virtual Private Cloud List page;
+
+**Step 4: ** Click **Create** and access the Create VPC popup;
+
+**Step 5: ** Complete relevant information. Select **IPv6 CIDR Provided by JD Cloud & AI** for [IPv6 CIDR] field and complete relevant information, and then click **OK**;
+
+**Step 6: ** After the above steps, the IPv4/IPv6 dual stack Virtual Private Cloud is created.

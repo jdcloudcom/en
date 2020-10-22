@@ -75,7 +75,7 @@ Open the VsmManager software in the software package, click **Device Management*
 
 ## Related References
 
-[Downloading of VsmManager Bundled Software](https://docs-downloads.s3.cn-north-1.jdcloud-oss.com/CloudHSM/VsmManager_1.2.2.15.rar)
+[Downloading of VsmManager Bundled Software](https://database-audit.s3.cn-north-1.jdcloud-oss.com/cloudhsm-public/VsmManager_1.2.2.15.rar)
 
 [Downloading of Tian An Security Service EVSM Service Manual](/image/JDCloudHSM/Cloud Encryption Service-User’s Manual for EVSM Management Tool V1.3.pdf)
 

@@ -31,8 +31,6 @@ items:
         items:
           - name: Instance Management
             href: Operation-Guide/Manage-Instance.md
-          - name: White List Management
-            href: Operation-Guide/White-List.md
       - name: Data Encryption Instance Operation
         items:
           - name: Instance Initialization

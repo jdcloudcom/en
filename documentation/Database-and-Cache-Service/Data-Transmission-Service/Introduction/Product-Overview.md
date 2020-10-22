@@ -8,7 +8,7 @@ It can realize data migration between databases in a simple and convenient manne
 
 Support migration of multiple databases, including SQL, MariaDB, Percona, SQL Server, PostgreSQL, MongoDB, etc. Local self-built databases can be simply and quickly migrated to JD Cloud, with source databases normally running during migration and shutdown time of applications reduced to the greatest extent.
 
-## Data Subscription (OBT)
+## Data Subscription
 
 Incremental data of database can be obtained in real time, freely consumed according to business demands and can be used for scenarios such as caching update policy and asynchronous business decoupling.
 

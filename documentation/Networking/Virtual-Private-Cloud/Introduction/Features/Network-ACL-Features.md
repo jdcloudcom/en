@@ -21,10 +21,10 @@ For each rule of the network ACL, you hve to specify the follows:
 | Parameter   | Explanation                                                         |
 | ------ | ------------------------------------------------------------ |
 | Priority | Enter a positive integer from 1 - 32768. The lower the priority number, the higher the priority. The higher the number, the lower the priority |
-| Type | Application types applicable to the rule, such as HTTP, FTP or customized TCP |
-| Protocol | Transport layer protocols applicable to the rule, such as TCP, UDP or ICMP |
+| Type | Application types applicable to the rule, such as HTTP, FTP, ICMPv6 or customized TCP |
+| Protocol | Transport layer protocols applicable to the rule, such as TCP, UDP, ICMP or ICMPv6|
 | Port | Port range applicable to the rule. You can enter a single port (such as 80) or a certain port range (such as 32768-65535) |
-| IP address | Source or destination IP address applicable to the rule. You can enter a single IP address or IP address field, where: Single IP address adopts in dotted decimal notation, for example, the 192.168.0.0 IP address field uses CIDR notation such as 192.168.0.0/16 |
+| IP address | Source or destination IP address applicable to the rule. You can enter a single IP address or IP address field, where: for a single IP address, IPv4 addresses are written in dotted decimal notation, e.g. 192.168.0.0, and IPv6 addresses are written in colon hexadecimal notation: AD80::ABAA:0000:00C2:0002; for IP address field, addresses are written in CIDR notation, e.g. 192.168.0.0/16 for IPv4, and 2002::/64 for IPv6 |
 | Strategy   | Permission or rejection                                                   |
 
 

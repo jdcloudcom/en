@@ -41,8 +41,6 @@ If you need to directly connect to the JCS for MongoDB instance, you can use the
 
    - Using Mongo Shell for connection
      The mongo shell is an interactive JavaScript shell that comes with MongoDB. You can use the mongo shell to query and update data or perform administrative operations.
-     The mongo shell is part of the MongoDB distribution. You need to install MongoDB first and then connect to your MongoDB instance using the mongo shell.
-     For the MongoDB distribution download address, please refer to: [MongoDB Download Center](https://www.mongodb.com/download-center#community).
      Please use the client of mongo shell 3.2 or above to connect to the MongoDB instance, otherwise the authentication may not be successful
      Use the mongo command to connect on the Virtual Machines. The command is as follows:
 
@@ -59,6 +57,7 @@ If you need to directly connect to the JCS for MongoDB instance, you can use the
      ```
 
    - Using Connection String URI to connect the instance
+
      MongoDB service can be connected in the traditional way of parameter passing. Most drivers also support connection in the form of URI. MongoDB officially recommends using URIs to connect to MongoDB services to guarantee high availability of connection. Please use the driver with MongoDB 3.2 version and higher
 
      The command style is as follows:

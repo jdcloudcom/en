@@ -39,13 +39,13 @@ Default Security Group Opens All Ports: Expose all ports to the EIP and the intr
 
 ##### 1, Content of Security Group Rules
 
-● Type: Common application types, such as SSH, PING or HTTP, etc. Customized TCP and UDP can also be chosen.
+● Type: Common application types, such as SSH, PING, ICMPv6 or HTTP, etc. Customized TCP and UDP can also be chosen.
 
 ● Protocol: The type of the protocol shall be displayed according to the selected application type.
 
 ● Destination Port: For the range of VM ports acted by the security group, the value shall be 1-65535. Single port such as "22" or port’s range such as "20-22" can be filled.
 
-● Source/Destination IP: IP addresses or address segments (CIDR) which allows access / can be accessed only support IPv4. If 0.0.0.0/0 is filled, it means that it can be accessed by all IP addresses.
+● Source/Destination IP: IP addresses or address fields (CIDR) accessing/to be accessed are allowed to support IPv4 and IPv6 addresses simultaneously. For example, `0.0.0.0/0` means all IPv4 addresses are allowed to be accessed; `::/0` means all IPv6 addresses are allowed.
 
 ● Policy: Allowed (default).
 

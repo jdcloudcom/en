@@ -59,6 +59,8 @@ The outbound rules are used to filter the network traffic of the VM to access th
 
 3. Click the **Add New Rules** button at the bottom of the page to add a new outbound rule for the current security group, select the outbound rule type. The system will automatically match the corresponding protocol according to the selected outbound rule type, and then set the port in proper order (which supports a single port number, such as 80, and also supports a port range such as: 80-8080), destination IP (which supports a single IP or CIDR) to complete the configuration of an outbound rule;
 
+     When the protocol type can only be an IPv4 address (e.g. ICMP protocol) or IPv6 address (e.g. ICMPv6 protocol), please enter a correct address
+     
 4. You can also edit the security group outbound rules that have been added on the page at any time;
 
 5. Click the **Delete** button in the operation column to delete a corresponding outbound rule;
@@ -91,6 +93,8 @@ The ingress rule is used to filter the network traffic from the  internet or oth
 
 3. Click the **Add New Rules** button at the bottom of the page to add an inbound rule to the current security group, select the inbound rule type so that the system will automatically match the corresponding protocol according to the selected inbound rule type, and then set the port in proper order (which supports a single port number, such as 80, and also supports a port range such as: 80-8080), the destination IP (which supports a single IP or CIDR) to complete the configuration of an inbound rule;
 
+     When the protocol type can only be an IPv4 address (e.g. ICMP protocol) or IPv6 address (e.g. ICMPv6 protocol), please enter a correct address
+
 4. You can also edit the security group inbound rules that have been added on the page at any time;
 
 5. Click the **Delete** button in the operation column to delete a corresponding inbound rule;
@@ -107,7 +111,7 @@ The ingress rule is used to filter the network traffic from the  internet or oth
 
 Only security groups that are not associated with a VM/container can be deleted.
 
-Method 1:  Open JD Cloud & AI Console and select Elastic Compute>>VM>>Security Group or Elastic Compute>>Container Service>>Security Group page. Click the **Delete** button in the security group operation to delete the corresponding security group;
+Method 1: Open JD Cloud & AI Console and select Elastic Compute>>VM>>Security Group or Elastic Compute>>Container Service>>Security Group page. Click the **Delete** button in the security group operation to delete the corresponding security group;
 
 Method 2: Open JD Cloud & AI Console and select Elastic Compute>>VM>>Security Group or Elastic Compute>>Container Service>>Security Group page, click the security group name on the page to enter the security group details page, and click the **Delete** button at the top right of the details page to delete the corresponding security group.
 

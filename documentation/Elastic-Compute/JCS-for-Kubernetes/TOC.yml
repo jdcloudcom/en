@@ -69,6 +69,8 @@ items:
         items:
           - name: Network Policy
             href: Operation-Guide/Network/Network-Policy.md
+          - name: Cluster Route Table
+            href: Operation-Guide/Network/Route-Table.md
       - name: Cluster Dashboard
         items:
           - name: Dashboard
